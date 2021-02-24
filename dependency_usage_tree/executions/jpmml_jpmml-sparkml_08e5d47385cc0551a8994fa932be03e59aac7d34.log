@@ -1,0 +1,378 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jpmml:jpmml-sparkml:jar:1.1.1
++- com.beust:jcommander:jar:1.48:compile
++- com.google.guava:guava:jar:19.0:provided
++- org.apache.spark:spark-core_2.11:jar:2.0.0:provided
+|  +- org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:provided
+|  |  +- org.apache.avro:avro-ipc:jar:1.7.7:provided
+|  |  |  +- org.apache.avro:avro:jar:1.7.7:provided
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.3:provided - omitted for conflict with 2.6)
+|  |  |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.5:provided - omitted for conflict with 1.1.2.4)
+|  |  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:provided - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:provided - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:provided - omitted for duplicate)
+|  |  +- org.apache.avro:avro-ipc:jar:tests:1.7.7:provided
+|  |  |  +- (org.apache.avro:avro:jar:1.7.7:provided - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:provided - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:provided - omitted for conflict with 1.7.16)
+|  +- com.twitter:chill_2.11:jar:0.8.0:provided
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
+|  |  +- (com.twitter:chill-java:jar:0.8.0:provided - omitted for duplicate)
+|  |  \- com.esotericsoftware:kryo-shaded:jar:3.0.3:provided
+|  |     +- com.esotericsoftware:minlog:jar:1.3.0:provided
+|  |     \- org.objenesis:objenesis:jar:2.1:provided
+|  +- com.twitter:chill-java:jar:0.8.0:provided
+|  |  \- (com.esotericsoftware:kryo-shaded:jar:3.0.3:provided - omitted for duplicate)
+|  +- org.apache.xbean:xbean-asm5-shaded:jar:4.4:provided
+|  +- org.apache.hadoop:hadoop-client:jar:2.2.0:provided
+|  |  +- org.apache.hadoop:hadoop-common:jar:2.2.0:provided
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:provided - omitted for duplicate)
+|  |  |  +- commons-cli:commons-cli:jar:1.2:provided
+|  |  |  +- org.apache.commons:commons-math:jar:2.1:provided
+|  |  |  +- xmlenc:xmlenc:jar:0.52:provided
+|  |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.3)
+|  |  |  +- commons-io:commons-io:jar:2.1:provided
+|  |  |  +- (commons-net:commons-net:jar:3.1:provided - omitted for conflict with 2.2)
+|  |  |  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  |  |  +- commons-lang:commons-lang:jar:2.5:provided
+|  |  |  +- commons-configuration:commons-configuration:jar:1.6:provided
+|  |  |  |  +- commons-collections:commons-collections:jar:3.2.1:provided
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for conflict with 2.5)
+|  |  |  |  +- commons-digester:commons-digester:jar:1.8:provided
+|  |  |  |  |  \- commons-beanutils:commons-beanutils:jar:1.7.0:provided
+|  |  |  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for conflict with 1.7.16)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:provided - omitted for conflict with 1.9.13)
+|  |  |  +- (org.apache.avro:avro:jar:1.7.4:provided - omitted for conflict with 1.7.7)
+|  |  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:provided
+|  |  |  +- org.apache.hadoop:hadoop-auth:jar:2.2.0:provided
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for duplicate)
+|  |  |  |  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:provided - omitted for duplicate)
+|  |  |  \- org.apache.commons:commons-compress:jar:1.4.1:provided
+|  |  |     \- org.tukaani:xz:jar:1.0:provided
+|  |  +- org.apache.hadoop:hadoop-hdfs:jar:2.2.0:provided
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:provided - omitted for duplicate)
+|  |  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:provided
+|  |  |  +- (commons-cli:commons-cli:jar:1.2:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.1:provided - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.5:provided - omitted for duplicate)
+|  |  |  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:provided - omitted for conflict with 1.9.13)
+|  |  |  \- (xmlenc:xmlenc:jar:0.52:provided - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0:provided
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0:provided
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-yarn-client:jar:2.2.0:provided
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  |  |  +- (commons-io:commons-io:jar:2.1:provided - omitted for duplicate)
+|  |  |  |  |  \- (com.google.inject:guice:jar:3.0:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.2.0:provided
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  |  |  +- (commons-io:commons-io:jar:2.1:provided - omitted for duplicate)
+|  |  |  |  |  \- (com.google.inject:guice:jar:3.0:provided - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0:provided
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.1:provided - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:provided
+|  |  |  +- org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:provided
+|  |  |  |  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  |  \- (commons-io:commons-io:jar:2.1:provided - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.2.0:provided
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0:provided - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.6.4)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:provided - omitted for duplicate)
+|  |  \- org.apache.hadoop:hadoop-annotations:jar:2.2.0:provided
+|  +- org.apache.spark:spark-launcher_2.11:jar:2.0.0:provided
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-network-common_2.11:jar:2.0.0:provided
+|  |  +- (io.netty:netty-all:jar:4.0.29.Final:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-network-shuffle_2.11:jar:2.0.0:provided
+|  |  +- (org.apache.spark:spark-network-common_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:provided
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-unsafe_2.11:jar:2.0.0:provided
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- (com.twitter:chill_2.11:jar:0.8.0:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- net.java.dev.jets3t:jets3t:jar:0.7.1:provided
+|  |  +- commons-codec:commons-codec:jar:1.3:provided
+|  |  \- commons-httpclient:commons-httpclient:jar:3.1:provided
+|  |     \- (commons-codec:commons-codec:jar:1.2:provided - omitted for conflict with 1.3)
+|  +- org.apache.curator:curator-recipes:jar:2.4.0:provided
+|  |  +- org.apache.curator:curator-framework:jar:2.4.0:provided
+|  |  |  +- org.apache.curator:curator-client:jar:2.4.0:provided
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.6.4:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:provided - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:14.0.1:provided - omitted for conflict with 19.0)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:provided - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:14.0.1:provided - omitted for conflict with 19.0)
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.5:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.1:provided - omitted for conflict with 1.6.4)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:provided - omitted for conflict with 1.7.5)
+|  |  |  \- (log4j:log4j:jar:1.2.15:provided - omitted for conflict with 1.2.17)
+|  |  \- (com.google.guava:guava:jar:14.0.1:provided - omitted for conflict with 19.0)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:provided
+|  +- org.apache.commons:commons-math3:jar:3.4.1:provided
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:provided
+|  +- org.slf4j:slf4j-api:jar:1.7.16:provided
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.16:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.16:provided - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.16:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.16:provided - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.17:provided
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.16:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.16:provided - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  +- com.ning:compress-lzf:jar:1.0.3:provided
+|  +- org.xerial.snappy:snappy-java:jar:1.1.2.4:provided
+|  +- net.jpountz.lz4:lz4:jar:1.3.0:provided
+|  +- org.roaringbitmap:RoaringBitmap:jar:0.5.11:provided
+|  +- commons-net:commons-net:jar:2.2:provided
+|  +- org.scala-lang:scala-library:jar:2.11.8:provided
+|  +- org.json4s:json4s-jackson_2.11:jar:3.2.11:provided
+|  |  +- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  +- org.json4s:json4s-core_2.11:jar:3.2.11:provided
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  |  +- org.json4s:json4s-ast_2.11:jar:3.2.11:provided
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.6:provided
+|  |  |  \- org.scala-lang:scalap:jar:2.11.0:provided
+|  |  |     \- org.scala-lang:scala-compiler:jar:2.11.0:provided
+|  |  |        +- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  |        +- (org.scala-lang:scala-reflect:jar:2.11.0:provided - omitted for conflict with 2.11.7)
+|  |  |        +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:provided - omitted for conflict with 1.0.2)
+|  |  |        \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1:provided
+|  |  |           \- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:provided - omitted for conflict with 2.6.5)
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.22.2:provided
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided
+|  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:provided
+|  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:provided
+|  |  +- org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided
+|  |  \- org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:provided
+|  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |     +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |     +- (org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |     \- org.javassist:javassist:jar:3.18.1-GA:provided
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:provided
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
+|  +- org.glassfish.jersey.core:jersey-server:jar:2.22.2:provided
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2:provided
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:provided
+|  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2:provided
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.22.2:provided - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2:provided
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.22.2:provided - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  +- org.apache.mesos:mesos:jar:shaded-protobuf:0.21.1:provided
+|  +- io.netty:netty-all:jar:4.0.29.Final:provided
+|  +- io.netty:netty:jar:3.8.0.Final:provided
+|  +- com.clearspring.analytics:stream:jar:2.7.0:provided
+|  +- io.dropwizard.metrics:metrics-core:jar:3.1.2:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.16)
+|  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.2:provided
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.16)
+|  +- io.dropwizard.metrics:metrics-json:jar:3.1.2:provided
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.2:provided - omitted for conflict with 2.6.5)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.16)
+|  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:provided
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.16)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:provided - omitted for conflict with 2.6.5)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.5:provided
+|  +- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5:provided
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.7:provided
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5:provided
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided - omitted for duplicate)
+|  |     \- (com.thoughtworks.paranamer:paranamer:jar:2.6:provided - omitted for duplicate)
+|  +- org.apache.ivy:ivy:jar:2.4.0:provided
+|  +- oro:oro:jar:2.0.8:provided
+|  +- net.razorvine:pyrolite:jar:4.9:provided
+|  +- net.sf.py4j:py4j:jar:0.10.1:provided
+|  +- org.apache.spark:spark-tags_2.11:jar:2.0.0:provided
+|  |  +- org.scalatest:scalatest_2.11:jar:2.2.6:provided
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:provided - omitted for duplicate)
+|  |  |  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:provided
+|  |  |     \- (org.scala-lang:scala-library:jar:2.11.1:provided - omitted for conflict with 2.11.8)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  \- org.spark-project.spark:unused:jar:1.0.0:provided
++- org.apache.spark:spark-mllib_2.11:jar:2.0.0:provided
+|  +- (org.apache.spark:spark-core_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-streaming_2.11:jar:2.0.0:provided
+|  |  +- (org.apache.spark:spark-core_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-sql_2.11:jar:2.0.0:provided
+|  |  +- com.univocity:univocity-parsers:jar:2.1.1:provided
+|  |  +- org.apache.spark:spark-sketch_2.11:jar:2.0.0:provided
+|  |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  |  +- (org.apache.spark:spark-core_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- org.apache.spark:spark-catalyst_2.11:jar:2.0.0:provided
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:provided - omitted for conflict with 2.11.7)
+|  |  |  +- (org.apache.spark:spark-core_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  |  +- (org.apache.spark:spark-unsafe_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  |  +- org.codehaus.janino:janino:jar:2.7.8:provided
+|  |  |  |  \- org.codehaus.janino:commons-compiler:jar:2.7.8:provided
+|  |  |  +- org.antlr:antlr4-runtime:jar:4.5.3:provided
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:provided - omitted for conflict with 1.3)
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- org.apache.parquet:parquet-column:jar:1.7.0:provided
+|  |  |  +- org.apache.parquet:parquet-common:jar:1.7.0:provided
+|  |  |  +- org.apache.parquet:parquet-encoding:jar:1.7.0:provided
+|  |  |  |  +- (org.apache.parquet:parquet-common:jar:1.7.0:provided - omitted for duplicate)
+|  |  |  |  +- org.apache.parquet:parquet-generator:jar:1.7.0:provided
+|  |  |  |  |  \- (org.apache.parquet:parquet-common:jar:1.7.0:provided - omitted for duplicate)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.5:provided - omitted for conflict with 1.3)
+|  |  |  \- (commons-codec:commons-codec:jar:1.5:provided - omitted for conflict with 1.3)
+|  |  +- org.apache.parquet:parquet-hadoop:jar:1.7.0:provided
+|  |  |  +- (org.apache.parquet:parquet-column:jar:1.7.0:provided - omitted for duplicate)
+|  |  |  +- org.apache.parquet:parquet-format:jar:2.3.0-incubating:provided
+|  |  |  +- org.apache.parquet:parquet-jackson:jar:1.7.0:provided
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:provided - omitted for conflict with 1.9.13)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.11:provided - omitted for conflict with 1.9.13)
+|  |  |  \- (org.xerial.snappy:snappy-java:jar:1.1.1.6:provided - omitted for conflict with 1.1.2.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-graphx_2.11:jar:2.0.0:provided
+|  |  +- (org.apache.spark:spark-core_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- (org.apache.xbean:xbean-asm5-shaded:jar:4.4:provided - omitted for duplicate)
+|  |  +- com.github.fommil.netlib:core:jar:1.1.2:provided
+|  |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:provided - omitted for duplicate)
+|  |  +- net.sourceforge.f2j:arpack_combined_all:jar:0.1:provided
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.apache.spark:spark-mllib-local_2.11:jar:2.0.0:provided
+|  |  +- (org.scalanlp:breeze_2.11:jar:0.11.2:provided - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-math3:jar:3.4.1:provided - omitted for duplicate)
+|  |  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+|  +- org.scalanlp:breeze_2.11:jar:0.11.2:provided
+|  |  +- (org.scala-lang:scala-library:jar:2.11.4:provided - omitted for conflict with 2.11.8)
+|  |  +- org.scalanlp:breeze-macros_2.11:jar:0.11.2:provided
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.4:provided - omitted for conflict with 2.11.8)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.4:provided - omitted for conflict with 2.11.7)
+|  |  +- (com.github.fommil.netlib:core:jar:1.1.2:provided - omitted for duplicate)
+|  |  +- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:provided - omitted for duplicate)
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:provided
+|  |  +- com.github.rwl:jtransforms:jar:2.4.0:provided
+|  |  +- org.spire-math:spire_2.11:jar:0.7.4:provided
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  |  +- org.spire-math:spire-macros_2.11:jar:0.7.4:provided
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:provided - omitted for conflict with 2.11.8)
+|  |  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.0:provided - omitted for conflict with 2.11.7)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.0:provided - omitted for conflict with 2.11.7)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for conflict with 1.7.16)
+|  +- (org.apache.commons:commons-math3:jar:3.4.1:provided - omitted for duplicate)
+|  +- (org.apache.spark:spark-tags_2.11:jar:2.0.0:provided - omitted for duplicate)
+|  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
++- org.jpmml:jpmml-converter:jar:1.1.0:compile
+|  \- org.jpmml:pmml-model-metro:jar:1.3.1:compile
+|     \- org.jpmml:pmml-model:jar:1.3.1:compile
+|        +- org.jpmml:pmml-agent:jar:1.3.1:compile
+|        \- org.jpmml:pmml-schema:jar:1.3.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.jpmml:pmml-evaluator:jar:1.3.1:test
+|  +- (org.jpmml:pmml-model:jar:1.3.1:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:test - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.9.4:test
+|  \- (org.apache.commons:commons-math3:jar:3.4.1:test - omitted for duplicate)
+\- org.jpmml:pmml-evaluator-test:jar:1.3.1:test
+   \- (org.jpmml:pmml-evaluator:jar:1.3.1:test - omitted for duplicate)
+

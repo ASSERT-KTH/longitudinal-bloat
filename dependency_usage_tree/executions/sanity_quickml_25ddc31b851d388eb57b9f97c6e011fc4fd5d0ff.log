@@ -1,0 +1,155 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+quickdt:quickdt:jar:0.2.0.0
++- net.sf.supercsv:super-csv:jar:2.2.0:compile
++- com.amazonaws:aws-java-sdk:jar:1.0.002:compile
+|  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  +- commons-httpclient:commons-httpclient:jar:3.0.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.3)
+|  +- commons-codec:commons-codec:jar:1.3:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile
++- org.apache.commons:commons-math3:jar:3.2:compile
++- com.twitter.common:stats-util:jar:0.0.15:compile
+|  +- com.twitter.common:util:jar:0.0.44:compile
+|  |  +- com.twitter.common:util-executor-service-shutdown:jar:0.0.13:compile
+|  |  |  +- (com.twitter.common:base:jar:0.0.39:compile - omitted for duplicate)
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.31:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- com.twitter.common:jdk-logging:jar:0.0.18:compile
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- com.twitter.common:base:jar:0.0.39:compile
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.31:compile - omitted for duplicate)
+|  |  |  +- com.twitter.common:util-system-mocks:jar:0.0.27:compile
+|  |  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- com.twitter.common:collections:jar:0.0.35:compile
+|  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  +- com.twitter.common:quantity:jar:0.0.31:compile
+|  |  |  +- (com.twitter.common:collections:jar:0.0.35:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- com.twitter.common:stats:jar:0.0.44:compile
+|  |  |  +- com.twitter.common:stat-registry:jar:0.0.2:compile
+|  |  |  |  \- com.twitter.common:stat:jar:0.0.2:compile
+|  |  |  +- com.twitter.common:stats-provider:jar:0.0.23:compile
+|  |  |  |  +- (com.twitter.common:stat:jar:0.0.2:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- com.twitter.common:application-action:jar:0.0.27:compile
+|  |  |  |  +- (com.twitter.common:base:jar:0.0.39:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:net-util:jar:0.0.30:compile
+|  |  |  |  |  +- (com.twitter.common:base:jar:0.0.39:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twitter.common:collections:jar:0.0.35:compile - omitted for duplicate)
+|  |  |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.3)
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |  \- com.google.inject:guice:jar:3.0:compile
+|  |  |  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |     \- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (com.twitter.common:base:jar:0.0.39:compile - omitted for duplicate)
+|  |  |  +- (com.twitter.common:collections:jar:0.0.35:compile - omitted for duplicate)
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.31:compile - omitted for duplicate)
+|  |  |  +- com.twitter.common:util-sampler:jar:0.0.22:compile
+|  |  |  |  +- (com.twitter.common:util-system-mocks:jar:0.0.27:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  +- (com.google.guava:guava:jar:12.0:compile - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- (com.google.guava:guava:jar:12.0:compile - omitted for conflict with 15.0)
+|  \- javax.inject:javax.inject:jar:1:compile
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- org.jooq:jooq:jar:3.3.2:compile
++- ch.qos.logback:logback-core:jar:1.1.1:compile
++- org.mockito:mockito-all:jar:1.9.5:compile
++- ch.qos.logback:logback-classic:jar:1.1.1:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- com.google.guava:guava:jar:15.0:compile
++- org.javatuples:javatuples:jar:1.2:compile
++- org.testng:testng:jar:6.8.7:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.12:test
++- com.googlecode.json-simple:json-simple:jar:1.1.1:test
+|  \- (junit:junit:jar:4.10:test - omitted for duplicate)
++- joda-time:joda-time:jar:1.5.2:compile
+\- org.apache.mahout:mahout-core:jar:0.9:compile
+   +- org.apache.mahout:mahout-math:jar:0.9:compile
+   |  +- (org.apache.commons:commons-math3:jar:3.2:compile - omitted for duplicate)
+   |  +- (com.google.guava:guava:jar:16.0:compile - omitted for conflict with 15.0)
+   |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.6)
+   +- (org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile - omitted for duplicate)
+   +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12:compile
+   |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile - omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.6)
+   +- org.apache.commons:commons-lang3:jar:3.1:compile
+   +- com.thoughtworks.xstream:xstream:jar:1.4.4:compile
+   |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+   |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+   +- org.apache.lucene:lucene-core:jar:4.6.1:compile
+   +- org.apache.lucene:lucene-analyzers-common:jar:4.6.1:compile
+   |  \- (org.apache.lucene:lucene-core:jar:4.6.1:compile - omitted for duplicate)
+   +- org.apache.mahout.commons:commons-cli:jar:2.0-mahout:compile
+   +- (org.apache.commons:commons-math3:jar:3.2:compile - omitted for duplicate)
+   +- org.apache.solr:solr-commons-csv:jar:3.5.0:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.6)
+   \- org.apache.hadoop:hadoop-core:jar:1.2.1:compile
+      +- commons-cli:commons-cli:jar:1.2:compile
+      +- com.sun.jersey:jersey-core:jar:1.8:compile
+      +- com.sun.jersey:jersey-json:jar:1.8:compile
+      |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+      |  |  \- stax:stax-api:jar:1.0.1:compile
+      |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+      |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+      |  |     +- javax.xml.stream:stax-api:jar:1.0-2:compile
+      |  |     \- javax.activation:activation:jar:1.1:compile
+      |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile - omitted for duplicate)
+      |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for conflict with 1.9.12)
+      |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.7.1:compile
+      |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile - omitted for duplicate)
+      |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for conflict with 1.9.12)
+      |  +- org.codehaus.jackson:jackson-xc:jar:1.7.1:compile
+      |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.4.5:compile - omitted for duplicate)
+      |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for conflict with 1.9.12)
+      |  \- (com.sun.jersey:jersey-core:jar:1.8:compile - omitted for duplicate)
+      +- com.sun.jersey:jersey-server:jar:1.8:compile
+      |  +- asm:asm:jar:3.1:compile
+      |  \- (com.sun.jersey:jersey-core:jar:1.8:compile - omitted for duplicate)
+      +- commons-io:commons-io:jar:2.1:compile
+      +- (commons-httpclient:commons-httpclient:jar:3.0.1:compile - omitted for duplicate)
+      +- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.3)
+      +- org.apache.commons:commons-math:jar:2.1:compile
+      +- commons-configuration:commons-configuration:jar:1.6:compile
+      |  +- commons-collections:commons-collections:jar:3.2.1:compile
+      |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+      |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.4)
+      |  +- commons-digester:commons-digester:jar:1.8:compile
+      |  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+      |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.0.4)
+      |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.0.4)
+      |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+      |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.4)
+      +- commons-net:commons-net:jar:1.4.1:compile
+      +- commons-el:commons-el:jar:1.0:compile
+      |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.0.4)
+      \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile - omitted for conflict with 1.9.12)
+

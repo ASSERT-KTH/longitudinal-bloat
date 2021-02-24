@@ -1,0 +1,47 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.ebean:ebean:jar:11.22.3
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.yaml:snakeyaml:jar:1.21:compile
++- io.ebean:ebean-jsr305:jar:1.1:provided
++- io.ebean:persistence-api:jar:2.2.1:compile
++- io.ebean:ebean-annotation:jar:4.2:compile
++- org.avaje:avaje-datasource:jar:3.2.2:compile
+|  \- org.avaje:avaje-datasource-api:jar:3.2:compile
++- org.avaje:avaje-classpath-scanner:jar:3.1.1:compile
+|  \- org.avaje:avaje-classpath-scanner-api:jar:2.2:compile
++- io.ebean:ebean-migration:jar:11.9.1:compile
+|  \- (org.avaje:avaje-classpath-scanner:jar:3.1.1:compile - omitted for duplicate)
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:provided - omitted for duplicate)
++- javax.transaction:jta:jar:1.1:provided
++- javax.validation:validation-api:jar:1.1.0.Final:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- joda-time:joda-time:jar:2.9.7:provided
++- org.postgresql:postgresql:jar:42.2.2:provided
++- io.ebean:ebean-docker-run:jar:1.5.1:test
+|  \- org.avaje.docker:docker-commands:jar:1.5.1:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.avaje:avaje-agentloader:jar:2.1.2:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.25)
++- io.ebean:ebean-agent:jar:11.11.1:test
++- com.h2database:h2:jar:1.4.196:provided
++- org.xerial:sqlite-jdbc:jar:3.15.1:test
++- org.hsqldb:hsqldb:jar:2.3.4:test
++- com.microsoft.sqlserver:mssql-jdbc:jar:6.4.0.jre8:test
++- mysql:mysql-connector-java:jar:5.1.43:test
++- org.avaje.composite:avaje-composite-testing:pom:1.1:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.assertj:assertj-core:jar:3.1.0:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:test - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:test
+\- org.avaje.moduuid:avaje-moduuid:jar:2.1:test
+

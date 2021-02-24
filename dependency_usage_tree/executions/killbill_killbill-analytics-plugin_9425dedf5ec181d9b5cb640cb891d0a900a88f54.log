@@ -1,0 +1,83 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.ning.billing:killbill-osgi-bundles-analytics:bundle:0.4.4
++- com.codahale.metrics:metrics-core:jar:3.0.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.5.6; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.1.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.1.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.1.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.1.0:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.0.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile - version managed from 2.0.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.1.0:compile - version managed from 2.0.0; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.0:compile - version managed from 1.6; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:1.3.9:provided
++- com.google.guava:guava:jar:14.0.1:compile
++- com.jayway.awaitility:awaitility:jar:1.3.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.1:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- cglib:cglib-nodep:jar:2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
++- com.ning.billing:killbill-api:jar:0.6.5:provided
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.0:provided - version managed from 1.6; omitted for duplicate)
++- com.ning.billing.plugin:killbill-plugin-api-notification:jar:0.4.0:provided
+|  \- (com.ning.billing:killbill-api:jar:0.6.5:provided - version managed from 0.6.0; omitted for duplicate)
++- com.ning.billing:killbill-osgi-bundles-lib-killbill:jar:0.6.0:compile
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - scope managed from compile; omitted for duplicate)
+|  +- (org.osgi:org.osgi.compendium:jar:4.3.1:compile - omitted for duplicate)
+|  \- org.slf4j:osgi-over-slf4j:jar:1.7.5:compile
++- com.ning.billing:killbill-osgi-bundles-lib-slf4j-osgi:jar:0.6.0:compile
+|  \- (com.ning.billing:killbill-osgi-bundles-lib-killbill:jar:0.6.0:compile - omitted for duplicate)
++- com.ning.billing.commons:killbill-clock:jar:0.2.7:compile
+|  +- (joda-time:joda-time:jar:2.0:compile - version managed from 1.6; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- com.ning.billing.commons:killbill-clock:test-jar:tests:0.2.7:test
+|  +- (joda-time:joda-time:jar:2.0:test - version managed from 1.6; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for duplicate)
++- com.ning.billing.commons:killbill-concurrent:jar:0.2.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- com.ning.billing.commons:killbill-embeddeddb:jar:0.2.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- com.ning.billing.commons:killbill-jdbi:jar:0.2.7:compile
+|  +- com.h2database:h2:jar:1.3.158:test (scope managed from compile)
+|  +- (org.jdbi:jdbi:jar:2.39.1:compile - omitted for conflict with 2.48)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- com.ning.billing.commons:killbill-queue:jar:0.2.7:compile
+|  +- (com.codahale.metrics:metrics-core:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile - version managed from 2.0.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.1.0:compile - version managed from 2.0.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.ning.billing.commons:killbill-clock:jar:0.2.7:compile - omitted for duplicate)
+|  +- (com.ning.billing.commons:killbill-jdbi:jar:0.2.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.0:compile - version managed from 1.6; omitted for duplicate)
+|  +- (org.jdbi:jdbi:jar:2.39.1:compile - omitted for duplicate)
+|  +- (org.skife.config:config-magic:jar:0.14:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.5.6; omitted for duplicate)
+|  \- org.weakref:jmxutils:jar:1.12:compile
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- joda-time:joda-time:jar:2.0:compile
++- org.antlr:stringtemplate:jar:3.2.1:runtime
+|  \- antlr:antlr:jar:2.7.7:runtime
++- org.skife.config:config-magic:jar:0.14:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.5.6; omitted for duplicate)
++- org.osgi:org.osgi.core:jar:4.3.1:compile
++- org.osgi:org.osgi.compendium:jar:4.3.1:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.jdbi:jdbi:jar:2.48:compile
++- org.mockito:mockito-all:jar:1.9.0:test
++- org.testng:testng:jar:6.3.1:test
+|  +- junit:junit:jar:3.8.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- mysql:mysql-connector-java:jar:5.1.22:test (scope not updated to runtime)
++- mysql:mysql-connector-mxj:jar:5.0.12:test
+|  +- (mysql:mysql-connector-mxj-db-files:jar:5.0.12:test - omitted for duplicate)
+|  \- (mysql:mysql-connector-java:jar:5.1.22:runtime - version managed from 5.1.17; scope managed from test; omitted for duplicate)
+\- mysql:mysql-connector-mxj-db-files:jar:5.0.12:test
+

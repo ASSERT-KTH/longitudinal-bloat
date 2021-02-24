@@ -1,0 +1,228 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+ch.ethz.idsc:owl:jar:0.4.3
++- ch.ethz.idsc:tensor:jar:0.7.3:compile
++- ch.ethz.idsc:ephemeral:jar:0.2.2:compile
++- ch.ethz.idsc:subare:jar:0.2.9:compile
+|  +- (ch.ethz.idsc:tensor:jar:0.7.3:compile - omitted for duplicate)
+|  \- (org.jfree:jfreechart:jar:1.5.0:compile - omitted for duplicate)
++- ch.ethz.idsc:lcm-java:jar:0.1.0:compile
+|  \- net.sf.jchart2d:jchart2d:jar:3.3.2:compile
+|     +- org.apache.xmlgraphics:xmlgraphics-commons:jar:1.3.1:compile
+|     |  +- commons-io:commons-io:jar:1.3.1:compile
+|     |  \- commons-logging:commons-logging:jar:1.0.4:compile
+|     \- com.jidesoft:jide-oss:jar:2.4.8:compile
++- org.jfree:jfreechart:jar:1.5.0:compile
++- org.bytedeco:javacv-platform:jar:1.4.1:compile
+|  +- org.bytedeco:javacv:jar:1.4.1:compile
+|  |  +- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.1:compile
+|  |     +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.1-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86_64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-arm64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-x86_64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.1-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:ffmpeg-platform:jar:3.4.2-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:ffmpeg:jar:3.4.2-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:android-arm:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:android-arm64:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:android-x86:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:android-x86_64:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-x86:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-x86_64:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-armhf:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:linux-ppc64le:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:macosx-x86_64:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86:3.4.2-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:ffmpeg:jar:windows-x86_64:3.4.2-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:flycapture-platform:jar:2.11.3.121-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:flycapture:jar:linux-x86:2.11.3.121-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:flycapture:jar:linux-x86_64:2.11.3.121-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:flycapture:jar:linux-armhf:2.11.3.121-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:flycapture:jar:windows-x86:2.11.3.121-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:flycapture:jar:windows-x86_64:2.11.3.121-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:libdc1394-platform:jar:2.2.5-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:linux-x86:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:linux-x86_64:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:linux-armhf:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:linux-ppc64le:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:macosx-x86_64:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:windows-x86:2.2.5-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:libdc1394:jar:windows-x86_64:2.2.5-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:libfreenect-platform:jar:0.5.3-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:linux-x86:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:linux-x86_64:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:linux-armhf:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:linux-ppc64le:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:macosx-x86_64:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:windows-x86:0.5.3-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:libfreenect:jar:windows-x86_64:0.5.3-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:libfreenect2-platform:jar:0.2.0-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:linux-x86:0.2.0-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:linux-x86_64:0.2.0-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:macosx-x86_64:0.2.0-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:libfreenect2:jar:windows-x86_64:0.2.0-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:librealsense-platform:jar:1.12.1-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:librealsense:jar:linux-x86:1.12.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:librealsense:jar:linux-x86_64:1.12.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:librealsense:jar:macosx-x86_64:1.12.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:librealsense:jar:windows-x86:1.12.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:librealsense:jar:windows-x86_64:1.12.1-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:videoinput-platform:jar:0.200-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:videoinput:jar:windows-x86:0.200-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:videoinput:jar:windows-x86_64:0.200-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:artoolkitplus-platform:jar:2.3.1-1.4.1:compile
+|  |  +- (org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:android-arm:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:android-arm64:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:android-x86:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:android-x86_64:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:linux-x86:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:linux-x86_64:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:linux-armhf:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:linux-ppc64le:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:macosx-x86_64:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:windows-x86:2.3.1-1.4.1:compile
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:artoolkitplus:jar:windows-x86_64:2.3.1-1.4.1:compile
+|  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  \- org.bytedeco.javacpp-presets:flandmark-platform:jar:1.07-1.4.1:compile
+|     +- (org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     +- (org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:android-arm:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:android-arm64:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:android-x86:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:android-x86_64:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:linux-x86:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:linux-x86_64:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:linux-armhf:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:linux-ppc64le:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:macosx-x86_64:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     +- org.bytedeco.javacpp-presets:flandmark:jar:windows-x86:1.07-1.4.1:compile
+|     |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|     \- org.bytedeco.javacpp-presets:flandmark:jar:windows-x86_64:1.07-1.4.1:compile
+|        +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|        \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64-gpu:3.4.1-1.4.1:compile
+|  \- org.bytedeco:javacpp:jar:1.4.1:compile
++- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64-gpu:3.4.1-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+\- junit:junit:jar:3.8.1:test
+

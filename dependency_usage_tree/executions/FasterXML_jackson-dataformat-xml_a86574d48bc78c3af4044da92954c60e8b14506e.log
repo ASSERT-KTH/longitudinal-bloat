@@ -1,0 +1,18 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.fasterxml.jackson.dataformat:jackson-dataformat-xml:bundle:2.0.2
++- com.fasterxml.jackson.core:jackson-core:jar:2.0.2:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.0.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.0.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.0.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.0.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.0.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.0.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.0.2:compile - omitted for duplicate)
++- javax.xml.stream:stax-api:jar:1.0-2:provided (scope not updated to compile)
++- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|  \- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for duplicate)
++- junit:junit:jar:4.8.2:test
+\- org.codehaus.woodstox:woodstox-core-asl:jar:4.1.2:test
+   +- (javax.xml.stream:stax-api:jar:1.0-2:test - omitted for duplicate)
+   \- (org.codehaus.woodstox:stax2-api:jar:3.1.1:test - omitted for duplicate)
+

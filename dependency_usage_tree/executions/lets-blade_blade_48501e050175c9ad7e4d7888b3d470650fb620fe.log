@@ -1,0 +1,46 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.bladejava:blade-mvc:jar:2.0.8-ALPHA1
++- com.bladejava:blade-asm:jar:0.0.1:compile
++- com.bladejava:blade-log:jar:0.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.netty:netty-codec-http:jar:4.1.22.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.22.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.22.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.22.Final:compile
+|  |  \- io.netty:netty-common:jar:4.1.22.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:4.1.22.Final:provided
+|  +- (io.netty:netty-common:jar:4.1.22.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:provided - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:provided
+|  |  +- (io.netty:netty-common:jar:4.1.22.Final:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:provided - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:provided - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.code.gson:gson:jar:2.8.0:test
++- org.webjars:bootstrap:jar:3.3.7:test
+|  \- org.webjars:jquery:jar:1.11.1:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- com.mashape.unirest:unirest-java:jar:1.4.9:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:test
+|  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:test
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:test - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:test
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:test - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for conflict with 4.5.2)
+|  |  \- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:test
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for duplicate)
+|  \- org.json:json:jar:20160212:test
+\- org.projectlombok:lombok:jar:1.16.20:provided
+

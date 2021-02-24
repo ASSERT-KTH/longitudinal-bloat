@@ -1,0 +1,68 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.codehaus.plexus:plexus-utils:jar:3.0.20
++- (org.codehaus.plexus:plexus-utils:jar:1.4.2:test - omitted for cycle)
++- org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:test
+|  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  +- org.apache.maven:maven-project:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-profile:jar:2.0:test
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  |  \- (org.apache.maven:maven-model:jar:2.0:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-model:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  \- org.apache.maven:maven-artifact-manager:jar:2.0:test
+|  |     +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |     \- (org.apache.maven:maven-repository-metadata:jar:2.0:test - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  +- org.apache.maven:maven-core:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-settings:jar:2.0:test
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  |  \- (org.apache.maven:maven-model:jar:2.0:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5:test
+|  |  +- org.apache.maven.reporting:maven-reporting-api:jar:2.0:test
+|  |  |  \- doxia:doxia-sink-api:jar:1.0-alpha-4:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- (org.apache.maven:maven-profile:jar:2.0:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- (org.apache.maven:maven-model:jar:2.0:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-artifact:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-repository-metadata:jar:2.0:test
+|  |  +- org.apache.maven:maven-error-diagnostics:jar:2.0:test
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- (org.apache.maven:maven-project:jar:2.0:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- org.apache.maven:maven-plugin-registry:jar:2.0:test
+|  |  +- commons-cli:commons-cli:jar:1.0:test
+|  |  +- org.apache.maven:maven-plugin-api:jar:2.0:test
+|  |  +- org.apache.maven:maven-plugin-descriptor:jar:2.0:test
+|  |  |  +- (org.apache.maven:maven-plugin-api:jar:2.0:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:2.0:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:test - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:test
+|  |  |  \- classworlds:classworlds:jar:1.1-alpha-2:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  +- (org.apache.maven:maven-artifact-manager:jar:2.0:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-monitor:jar:2.0:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for cycle)
+|  |  \- org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5:test
+|  |     \- com.jcraft:jsch:jar:0.1.23:test
+|  \- (junit:junit:jar:4.8.2:test - version managed from 3.8.1; omitted for conflict with 3.8.2)
+\- junit:junit:jar:3.8.2:test
+

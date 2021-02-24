@@ -1,0 +1,33 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+de.redsix:pdfcompare:jar:1.1.47
++- org.apache.pdfbox:pdfbox:jar:2.0.18:compile
+|  +- org.apache.pdfbox:fontbox:jar:2.0.18:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- com.typesafe:config:jar:1.4.0:compile
++- org.slf4j:slf4j-api:jar:1.7.30:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.30)
++- commons-cli:commons-cli:jar:1.4:compile
++- org.junit.platform:junit-platform-launcher:jar:1.5.2:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.5.2:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     +- (org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.5.2:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.5.2:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.junit.platform:junit-platform-engine:jar:1.5.2:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.5.2:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
++- org.hamcrest:hamcrest:jar:2.2:test
+\- org.mockito:mockito-core:jar:3.2.4:test
+   +- net.bytebuddy:byte-buddy:jar:1.10.5:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.10.5:test
+   \- org.objenesis:objenesis:jar:2.6:test
+

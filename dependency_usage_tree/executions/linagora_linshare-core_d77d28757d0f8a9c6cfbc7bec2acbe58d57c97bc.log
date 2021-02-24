@@ -1,0 +1,843 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.linagora.linshare:linshare-core:war:2.0.3
++- org.linagora:LinThumbnail:jar:1.3:compile
+|  +- org.apache.pdfbox:pdfbox:jar:2.0.0-SNAPSHOT-LINAGORA-1.0:compile
+|  |  +- org.apache.pdfbox:fontbox:jar:2.0.0-SNAPSHOT-LINAGORA-1.0:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  +- com.artofsolving:jodconverter:jar:2.2.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.4.3:compile - omitted for conflict with 1.7.2)
+|  |  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.4)
+|  |  +- org.openoffice:juh:jar:2.3.0:compile
+|  |  |  +- org.openoffice:jurt:jar:2.3.0:compile
+|  |  |  |  \- (org.openoffice:ridl:jar:2.3.0:compile - omitted for duplicate)
+|  |  |  \- (org.openoffice:ridl:jar:2.3.0:compile - omitted for duplicate)
+|  |  +- org.openoffice:ridl:jar:2.3.0:compile
+|  |  \- org.openoffice:unoil:jar:2.3.0:compile
+|  |     \- (org.openoffice:ridl:jar:2.3.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.16)
++- com.h2database:h2:jar:1.4.191:test
++- org.hibernate:hibernate-entitymanager:jar:3.6.10.Final:compile
+|  +- org.hibernate:hibernate-core:jar:3.6.10.Final:compile
+|  |  +- antlr:antlr:jar:2.7.6:compile
+|  |  +- (commons-collections:commons-collections:jar:3.1:compile - omitted for conflict with 3.2)
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  +- org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.2)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+|  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.2)
+|  +- cglib:cglib:jar:2.2:compile
+|  |  \- asm:asm:jar:3.1:compile
+|  +- javassist:javassist:jar:3.12.0.GA:compile
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.2)
++- org.hibernate:hibernate-ehcache:jar:3.6.10.Final:compile
+|  +- (org.hibernate:hibernate-core:jar:3.6.10.Final:compile - omitted for duplicate)
+|  +- net.sf.ehcache:ehcache-core:jar:2.4.3:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.2)
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.2)
++- net.sf.ehcache:ehcache:jar:1.5.0:compile
+|  +- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+|  +- (commons-collections:commons-collections:jar:3.2:compile - omitted for conflict with 3.2.1)
+|  \- net.sf.jsr107cache:jsr107cache:jar:1.0:compile
++- org.quartz-scheduler:quartz:jar:2.2.2:compile
+|  +- c3p0:c3p0:jar:0.9.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.2)
++- org.springframework:spring-aop:jar:4.2.4.RELEASE:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- org.springframework:spring-beans:jar:4.2.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.2.4.RELEASE:compile
++- org.springframework:spring-web:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-orm:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.2.4.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework.ldap:spring-ldap-core:jar:2.0.4.RELEASE:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.2)
+|  +- (org.springframework:spring-beans:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-tx:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework:spring-jdbc:jar:4.2.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework.security:spring-security-web:jar:4.0.3.RELEASE:compile
+|  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.0.3.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-expression:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-web:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework.security:spring-security-core:jar:4.0.3.RELEASE:compile
+|  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-expression:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework.security:spring-security-ldap:jar:4.0.3.RELEASE:compile
+|  +- (org.springframework.ldap:spring-ldap-core:jar:2.0.2.RELEASE:compile - omitted for conflict with 2.0.4.RELEASE)
+|  +- (org.springframework.security:spring-security-core:jar:4.0.3.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-tx:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework.security:spring-security-acl:jar:4.0.3.RELEASE:compile
+|  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.0.3.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-jdbc:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-tx:jar:4.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework.security:spring-security-config:jar:4.0.3.RELEASE:runtime
+|  +- (aopalliance:aopalliance:jar:1.0:runtime - omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.0.3.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.2.2.RELEASE:runtime - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:runtime - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:runtime - omitted for conflict with 4.2.4.RELEASE)
+|  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:runtime - omitted for conflict with 4.2.4.RELEASE)
++- org.springframework.data:spring-data-mongodb:jar:1.8.1.RELEASE:compile
+|  +- (org.springframework:spring-tx:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-expression:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- org.springframework.data:spring-data-commons:jar:1.11.1.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.1.8.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for conflict with 1.7.2)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:runtime - omitted for duplicate)
+|  +- org.mongodb:mongo-java-driver:jar:2.13.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for conflict with 1.7.2)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:compile - scope updated from runtime; omitted for duplicate)
++- org.linid.dm:authorization:jar:2.1.2:compile
+|  +- (org.mozilla:rhino:jar:1.7R4:compile - omitted for conflict with 1.7.7.1)
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2)
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- (org.springframework.ldap:spring-ldap-core:jar:1.3.1.RELEASE:compile - omitted for conflict with 2.0.4.RELEASE)
+|  +- org.springframework.ldap:spring-ldap-core-tiger:jar:1.3.1.RELEASE:compile
+|  |  +- (org.springframework.ldap:spring-ldap-core:jar:1.3.1.RELEASE:compile - omitted for conflict with 2.0.4.RELEASE)
+|  |  +- (org.springframework:spring-tx:jar:3.0.5.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.0.5.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  |  \- (org.springframework:spring-beans:jar:3.0.5.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- com.sun:ldapbp:jar:1.0:runtime
+|  +- (org.springframework:spring-beans:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-expression:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-web:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-aop:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-tx:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-jdbc:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (net.sf.ehcache:ehcache:jar:2.7.0:compile - omitted for conflict with 1.5.0)
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.4:compile
+|  |  \- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.2)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.13:compile - omitted for conflict with 1.7.16)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for conflict with 1.7.16)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.linid.dm:core:jar:2.1.2:compile
+|  +- (org.springframework.ldap:spring-ldap-core:jar:1.3.1.RELEASE:compile - omitted for conflict with 2.0.4.RELEASE)
+|  +- (org.springframework.ldap:spring-ldap-core-tiger:jar:1.3.1.RELEASE:compile - omitted for duplicate)
+|  +- (com.sun:ldapbp:jar:1.0:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-context:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-expression:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-web:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-core:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-aop:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-tx:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (org.springframework:spring-jdbc:jar:3.2.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  +- (net.sf.ehcache:ehcache:jar:2.7.0:compile - omitted for conflict with 1.5.0)
+|  +- (com.thoughtworks.xstream:xstream:jar:1.4.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.2)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.5:compile - omitted for conflict with 1.7.13)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- org.mozilla:rhino:jar:1.7.7.1:compile
++- org.slf4j:slf4j-api:jar:1.7.16:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.16:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.1.1:provided (scope not updated to compile)
++- org.slf4j:jcl-over-slf4j:jar:1.7.16:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for duplicate)
++- org.semanticdesktop:rdf2go.api:jar:4.6.2:compile
++- org.semanticdesktop:aperture:jar:1.2.0:compile
++- org.apache.tika:tika-parsers:jar:1.7:compile
+|  +- org.apache.tika:tika-core:jar:1.7:compile
+|  +- org.gagravarr:vorbis-java-tika:jar:0.6:compile
+|  |  \- (org.apache.tika:tika-core:jar:1.5:compile - omitted for conflict with 1.7)
+|  +- edu.ucar:netcdf:jar:4.2.20:compile
+|  |  +- edu.ucar:unidataCommon:jar:4.2.20:compile
+|  |  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.16)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.16)
+|  +- net.sourceforge.jmatio:jmatio:jar:1.0:compile
+|  +- org.apache.james:apache-mime4j-core:jar:0.7.2:compile
+|  +- org.apache.james:apache-mime4j-dom:jar:0.7.2:compile
+|  |  \- (org.apache.james:apache-mime4j-core:jar:0.7.2:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.8.1:compile
+|  +- org.tukaani:xz:jar:1.5:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- (org.apache.pdfbox:pdfbox:jar:1.8.8:compile - omitted for conflict with 2.0.0-SNAPSHOT-LINAGORA-1.0)
+|  +- org.bouncycastle:bcmail-jdk15:jar:1.45:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15:jar:1.45:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15:jar:1.45:compile
+|  +- org.apache.poi:poi:jar:3.11:compile
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-scratchpad:jar:3.11:compile
+|  |  \- (org.apache.poi:poi:jar:3.11:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml:jar:3.11:compile
+|  |  +- (org.apache.poi:poi:jar:3.11:compile - omitted for duplicate)
+|  |  \- org.apache.poi:poi-ooxml-schemas:jar:3.11:compile
+|  |     \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+|  +- org.ow2.asm:asm-debug-all:jar:4.1:compile
+|  +- com.googlecode.mp4parser:isoparser:jar:1.0.2:compile
+|  |  \- org.aspectj:aspectjrt:jar:1.8.0:compile
+|  +- com.drewnoakes:metadata-extractor:jar:2.6.2:compile
+|  |  +- com.adobe.xmp:xmpcore:jar:5.1.2:compile
+|  |  \- (xerces:xercesImpl:jar:2.8.1:compile - omitted for conflict with 2.6.2)
+|  +- de.l3s.boilerpipe:boilerpipe:jar:1.1.0:compile
+|  +- rome:rome:jar:1.0:compile
+|  |  \- jdom:jdom:jar:1.0:compile
+|  +- org.gagravarr:vorbis-java-core:jar:0.6:compile
+|  +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
+|  +- com.uwyn:jhighlight:jar:1.0:compile
+|  \- com.pff:java-libpst:jar:0.8.1:compile
++- org.apache.pdfbox:jempbox:jar:1.8.7:compile
++- javax.jcr:jcr:jar:2.0:compile
++- org.springmodules:spring-modules-jcr:jar:0.8a:compile
+|  +- (log4j:log4j:jar:1.2.13:compile - omitted for conflict with 1.2.17)
+|  +- (javax.servlet:servlet-api:jar:2.3:compile - omitted for conflict with 2.5)
+|  +- commons-lang:commons-lang:jar:2.1:compile
+|  +- (commons-collections:commons-collections:jar:3.1:compile - omitted for conflict with 3.2)
+|  +- geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4:compile
+|  +- geronimo-spec:geronimo-spec-j2ee-connector:jar:1.5-rc4:compile
+|  +- (org.apache.jackrabbit:jackrabbit-core:jar:1.2.2:compile - omitted for conflict with 2.11.2)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:1.2.2:compile - omitted for conflict with 2.11.2)
+|  +- (org.apache.jackrabbit:jackrabbit-jca:jar:1.0:compile - omitted for conflict with 2.11.2)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-rmi:jar:1.2.2:compile - omitted for conflict with 2.11.2)
+|  +- concurrent:concurrent:jar:1.3.4:compile
+|  +- org.apache.lucene:lucene-core:jar:2.0.0:compile
+|  +- (org.slf4j:slf4j-log4j12:jar:1.3.0:compile - omitted for conflict with 1.7.16)
+|  +- xerces:xercesImpl:jar:2.6.2:compile
+|  +- xerces:xmlParserAPIs:jar:2.6.2:compile
+|  \- cglib:cglib-nodep:jar:2.1_3:compile
++- org.apache.jackrabbit:jackrabbit-core:jar:2.11.2:compile
+|  +- (concurrent:concurrent:jar:1.3.4:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2)
+|  +- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  +- (commons-dbcp:commons-dbcp:jar:1.3:compile - omitted for conflict with 1.4)
+|  +- org.apache.jackrabbit:jackrabbit-api:jar:2.11.2:compile
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile - omitted for conflict with 1.2.2)
+|  +- org.apache.jackrabbit:jackrabbit-data:jar:2.11.2:compile
+|  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.11.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile - omitted for conflict with 1.2.2)
+|  |  +- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for conflict with 1.7.16)
+|  +- org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.11.2:compile
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.11.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile - omitted for conflict with 1.2.2)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
+|  +- org.apache.jackrabbit:jackrabbit-spi:jar:2.11.2:compile
+|  +- (org.apache.tika:tika-core:jar:1.7:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
+|  +- (org.apache.lucene:lucene-core:jar:3.6.0:compile - omitted for conflict with 2.0.0)
+|  +- org.apache.derby:derby:jar:10.5.3.0_1:compile
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for conflict with 1.7.16)
++- org.apache.jackrabbit:jackrabbit-jcr-rmi:jar:2.11.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
++- org.apache.jackrabbit:jackrabbit-jcr-server:jar:2.11.2:compile
+|  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile - omitted for conflict with 1.2.2)
+|  +- org.apache.jackrabbit:jackrabbit-webdav:jar:2.11.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for conflict with 1.7.16)
+|  +- (org.apache.tika:tika-core:jar:1.7:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
++- org.apache.jackrabbit:jackrabbit-webapp:jar:2.11.2:compile
+|  +- (org.apache.jackrabbit:jackrabbit-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.tika:tika-parsers:jar:1.7:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for conflict with 1.7.16)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-server:jar:2.11.2:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-jcr-servlet:jar:2.11.2:compile
+|  |  \- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile - omitted for conflict with 1.2.2)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-rmi:jar:2.11.2:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:oak-jcr:jar:1.0.12:compile
+|  |  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  |  +- org.apache.jackrabbit:oak-core:jar:1.0.12:compile
+|  |  |  +- org.apache.jackrabbit:oak-mk-api:jar:1.0.12:compile
+|  |  |  +- (org.apache.jackrabbit:oak-commons:jar:1.0.12:compile - omitted for duplicate)
+|  |  |  +- org.apache.jackrabbit:oak-blob:jar:1.0.12:compile
+|  |  |  |  +- (org.apache.jackrabbit:oak-commons:jar:1.0.12:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.16)
+|  |  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.9)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- org.mapdb:mapdb:jar:1.0.6:compile
+|  |  |  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.8.0:compile - omitted for conflict with 2.11.2)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for conflict with 1.2.2)
+|  |  |  +- (commons-dbcp:commons-dbcp:jar:1.4:compile - omitted for conflict with 1.3)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.16)
+|  |  +- org.apache.jackrabbit:oak-commons:jar:1.0.12:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.16)
+|  |  |  \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.8.0:compile - omitted for conflict with 2.11.2)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for conflict with 1.2.2)
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.16)
+|  +- org.apache.jackrabbit:oak-upgrade:jar:1.0.12:compile
+|  |  +- (org.apache.jackrabbit:oak-core:jar:1.0.12:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-core:jar:2.8.0:compile - omitted for conflict with 2.11.2)
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.8.0:compile - omitted for conflict with 2.11.2)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.16)
+|  \- com.googlecode.json-simple:json-simple:jar:1.1:compile
++- org.apache.jackrabbit:jackrabbit-jca:jar:2.11.2:compile
+|  +- (org.apache.jackrabbit:jackrabbit-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.tika:tika-parsers:jar:1.7:compile - omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for conflict with 1.7.16)
++- org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.11.2:compile
++- org.apache.jclouds:jclouds-all:jar:1.9.2:compile
+|  +- org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile
+|  |  \- org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile
+|  |     +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |     \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  +- org.apache.jclouds.api:openstack-cinder:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.api:rackspace-clouddns:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.api:chef:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds:jclouds-scriptbuilder:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  |     \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:aws-cloudwatch:jar:1.9.2:compile
+|  |  \- org.apache.jclouds.api:cloudwatch:jar:1.9.2:compile
+|  |     \- (org.apache.jclouds.api:sts:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-cloudblockstorage-us:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-cinder:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-cloudblockstorage-uk:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-cinder:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-clouddns-us:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:rackspace-clouddns:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-clouddns-uk:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:rackspace-clouddns:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-clouddatabases-us:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:openstack-trove:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:rackspace-clouddatabases-uk:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-trove:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:aws-sqs:jar:1.9.2:compile
+|  |  \- org.apache.jclouds.api:sqs:jar:1.9.2:compile
+|  |     \- (org.apache.jclouds.api:sts:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:aws-sts:jar:1.9.2:compile
+|  |  \- org.apache.jclouds.api:sts:jar:1.9.2:compile
+|  |     \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:aws-route53:jar:1.9.2:compile
+|  |  \- org.apache.jclouds.api:route53:jar:1.9.2:compile
+|  |     \- (org.apache.jclouds.api:sts:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:ultradns-ws:jar:1.9.2:compile
+|  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:dynect:jar:1.9.2:compile
+|  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.provider:enterprisechef:jar:1.9.2:compile
+|  |  \- (org.apache.jclouds.api:chef:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds:jclouds-allloadbalancer:jar:1.9.2:compile
+|  |  +- org.apache.jclouds.provider:rackspace-cloudloadbalancers-uk:jar:1.9.2:compile
+|  |  |  +- org.apache.jclouds:jclouds-loadbalancer:jar:1.9.2:compile
+|  |  |  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.jclouds.api:rackspace-cloudloadbalancers:jar:1.9.2:compile
+|  |  |  |  +- (org.apache.jclouds:jclouds-loadbalancer:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- org.apache.jclouds.provider:rackspace-cloudloadbalancers-us:jar:1.9.2:compile
+|  |     +- (org.apache.jclouds:jclouds-loadbalancer:jar:1.9.2:compile - omitted for duplicate)
+|  |     +- (org.apache.jclouds.api:rackspace-cloudloadbalancers:jar:1.9.2:compile - omitted for duplicate)
+|  |     +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |     \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds:jclouds-allcompute:jar:1.9.2:compile
+|  |  +- org.apache.jclouds.provider:aws-ec2:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:ec2:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:openstack-nova:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  +- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  |  |  \- org.apache.jclouds:jclouds-compute:jar:1.9.2:compile
+|  |  |     +- (org.apache.jclouds:jclouds-scriptbuilder:jar:1.9.2:compile - omitted for duplicate)
+|  |  |     \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:openstack-nova-ec2:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:openstack-nova:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.apache.jclouds.api:ec2:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:byon:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- org.yaml:snakeyaml:jar:1.11:compile
+|  |  +- org.apache.jclouds.api:ec2:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:sts:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:gogrid:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:elasticstack:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:elastichosts-lon-p:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:elastichosts-sat-p:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:elastichosts-lon-b:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:openhosting-east1:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:serverlove-z1-man:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:skalicloud-sdg-my:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:go2cloud-jhb1:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds.api:elasticstack:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:softlayer:jar:1.9.2:compile
+|  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.api:cloudstack:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.apache.jclouds:jclouds-compute:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:hpcloud-compute:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:openstack-nova:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  |  +- org.apache.jclouds.provider:rackspace-cloudservers-us:jar:1.9.2:compile
+|  |  |  +- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jclouds.api:openstack-nova:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  |  \- org.apache.jclouds.provider:rackspace-cloudservers-uk:jar:1.9.2:compile
+|  |     +- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|  |     +- (org.apache.jclouds.api:openstack-nova:jar:1.9.2:compile - omitted for duplicate)
+|  |     \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  \- org.apache.jclouds:jclouds-allblobstore:jar:1.9.2:compile
+|     +- org.apache.jclouds.api:s3:jar:1.9.2:compile
+|     |  +- com.jamesmurty.utils:java-xmlbuilder:jar:1.1:compile
+|     |  |  \- net.iharder:base64:jar:2.3.8:compile
+|     |  +- (org.apache.jclouds.api:sts:jar:1.9.2:compile - omitted for duplicate)
+|     |  \- (org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.provider:aws-s3:jar:1.9.2:compile
+|     |  \- (org.apache.jclouds.api:s3:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.provider:azureblob:jar:1.9.2:compile
+|     |  \- (org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.api:atmos:jar:1.9.2:compile
+|     |  \- (org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.api:swift:jar:1.9.2:compile
+|     |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- org.apache.jclouds.common:openstack-common:jar:1.9.2:compile
+|     |  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|     |  \- (org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.api:openstack-swift:jar:1.9.2:compile
+|     |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|     |  \- (org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.provider:rackspace-cloudfiles-us:jar:1.9.2:compile
+|     |  +- (org.apache.jclouds.api:openstack-swift:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- org.apache.jclouds.api:rackspace-cloudfiles:jar:1.9.2:compile
+|     |  |  +- (org.apache.jclouds.api:openstack-swift:jar:1.9.2:compile - omitted for duplicate)
+|     |  |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|     |  |  +- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|     |  |  \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|     |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|     +- org.apache.jclouds.provider:rackspace-cloudfiles-uk:jar:1.9.2:compile
+|     |  +- (org.apache.jclouds.api:openstack-swift:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- (org.apache.jclouds.api:rackspace-cloudfiles:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
+|     |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|     |  \- (org.apache.jclouds.api:rackspace-cloudidentity:jar:1.9.2:compile - omitted for duplicate)
+|     \- org.apache.jclouds.provider:hpcloud-objectstorage:jar:1.9.2:compile
+|        +- (org.apache.jclouds.api:swift:jar:1.9.2:compile - omitted for duplicate)
+|        \- (org.apache.jclouds.api:openstack-keystone:jar:1.9.2:compile - omitted for duplicate)
++- org.apache.jclouds.driver:jclouds-slf4j:jar:1.9.2:compile
+|  +- org.apache.jclouds:jclouds-core:jar:1.9.2:compile
+|  |  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+|  |  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- com.google.inject:guice:jar:3.0:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- org.99soft.guice:rocoto:jar:6.2:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  |  +- com.google.code.gson:gson:jar:2.3:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 15.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.16)
++- org.apache.jclouds.driver:jclouds-enterprise:jar:1.9.2:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  +- org.apache.jclouds.driver:jclouds-joda:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- joda-time:joda-time:jar:2.1:compile
+|  +- org.apache.jclouds.driver:jclouds-netty:jar:1.9.2:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- io.netty:netty:jar:3.5.9.Final:compile
+|  \- org.apache.jclouds.driver:jclouds-bouncycastle:jar:1.9.2:compile
+|     +- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
+|     \- org.bouncycastle:bcprov-ext-jdk15on:jar:1.49:compile
++- org.apache.jclouds.api:filesystem:jar:1.9.2:compile
+|  \- org.apache.jclouds:jclouds-blobstore:jar:1.9.2:compile
+|     \- (org.apache.jclouds:jclouds-core:jar:1.9.2:compile - omitted for duplicate)
++- org.aspectj:aspectjweaver:jar:1.5.4:compile
++- javax.mail:mail:jar:1.4.6:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- net.taldius:libclamav:jar:1.0:compile
+|  \- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.4)
++- javax.servlet:servlet-api:jar:2.5:provided (scope not updated to compile)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.subethamail:subethasmtp:jar:3.1.7:test
+|  +- (javax.mail:mail:jar:1.4.4:test - omitted for conflict with 1.4.6)
+|  +- (javax.activation:activation:jar:1.1.1:test - omitted for conflict with 1.1)
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:test - omitted for conflict with 1.7.16)
+|  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - scope updated from test; omitted for duplicate)
++- org.seleniumhq.selenium.client-drivers:selenium-java-client-driver:jar:1.0.2:test
++- org.apache.directory.server:apacheds-server-jndi:jar:1.5.5:test
+|  +- org.apache.directory.server:apacheds-protocol-ldap:jar:1.5.5:test
+|  |  +- org.apache.directory.shared:shared-asn1-codec:jar:0.9.15:test
+|  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.15:test - omitted for duplicate)
+|  |  |  +- org.apache.mina:mina-core:jar:2.0.0-M6:test
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.2:test - omitted for conflict with 1.7.16)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-kerberos-shared:jar:1.5.5:test
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.0-M6:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-jndi:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-protocol-shared:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- org.apache.directory.server:apacheds-core:jar:1.5.5:test
+|  |  |  +- org.apache.directory.server:apacheds-xdbm-search:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-base:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (commons-io:commons-io:jar:1.4:test - omitted for conflict with 2.4)
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-extras:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-xdbm-tools:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-base:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-schema-bootstrap:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-constants:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-jdbm:jar:1.5.5:test
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-core-entry:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-jdbm:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-core-shared:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-constants:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-core-constants:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-utils:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-constants:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-entry:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-jdbm-store:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-jdbm:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-constants:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-entry:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-core-avl:jar:1.5.5:test
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-base:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-xdbm-base:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-entry:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.server:apacheds-bootstrap-extract:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-jdbm-store:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- org.apache.directory.shared:shared-cursor:jar:0.9.15:test
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- bouncycastle:bcprov-jdk15:jar:140:test
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- org.apache.directory.server:apacheds-bootstrap-partition:jar:1.5.5:test
+|  |  |  +- (org.apache.directory.server:apacheds-jdbm-store:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-bootstrap-extract:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-schema-extras:jar:1.5.5:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-registries:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-schema-bootstrap:jar:1.5.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- org.apache.directory.server:apacheds-protocol-shared:jar:1.5.5:test
+|  |  |  +- (org.apache.directory.server:apacheds-core:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.0-M6:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  +- org.apache.directory.server:apacheds-core-jndi:jar:1.5.5:test
+|  |  +- (org.apache.directory.server:apacheds-core:jar:1.5.5:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.15:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  +- org.apache.directory.shared:shared-ldap:jar:0.9.15:test
+|  |  +- (commons-lang:commons-lang:jar:2.4:test - omitted for conflict with 2.1)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for conflict with 3.2)
+|  |  +- org.apache.directory.shared:shared-asn1:jar:0.9.15:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- org.apache.directory.shared:shared-ldap-constants:jar:0.9.15:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  |  +- (antlr:antlr:jar:2.7.7:test - omitted for conflict with 2.7.6)
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
+|  \- (org.slf4j:slf4j-api:jar:1.5.6:test - omitted for conflict with 1.7.16)
++- org.springframework:spring-test:jar:4.2.4.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:test - omitted for duplicate)
++- com.github.fakemongo:fongo:jar:1.6.8:test
+|  +- rhino:js:jar:1.7R2:test
+|  +- com.vividsolutions:jts:jar:1.13:test
+|  \- de.grundid.opendatalab:geojson-jackson:jar:1.2:test
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - scope updated from test; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - scope updated from test; omitted for duplicate)
++- org.bouncycastle:bctsp-jdk16:jar:1.46:compile
+|  +- (org.bouncycastle:bcprov-jdk16:jar:1.46:compile - omitted for duplicate)
+|  \- org.bouncycastle:bcmail-jdk16:jar:1.46:compile
+|     \- (org.bouncycastle:bcprov-jdk16:jar:1.46:compile - omitted for duplicate)
++- org.bouncycastle:bcprov-jdk16:jar:1.46:compile
++- org.postgresql:postgresql:jar:9.4.1208.jre7:compile
++- mysql:mysql-connector-java:jar:5.1.38:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  \- (commons-pool:commons-pool:jar:1.5.4:compile - omitted for conflict with 1.6)
++- commons-pool:commons-pool:jar:1.6:compile
++- org.owasp:antisamy:jar:1.4:compile
+|  +- (xerces:xercesImpl:jar:2.8.1:compile - omitted for conflict with 2.6.2)
+|  +- org.apache.xmlgraphics:batik-css:jar:1.7:compile
+|  |  +- org.apache.xmlgraphics:batik-ext:jar:1.7:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-util:jar:1.7:compile
+|  |  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
+|  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.12:compile
+|  |  \- (xerces:xercesImpl:jar:2.8.1:compile - omitted for conflict with 2.6.2)
+|  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|     +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|     \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.9)
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.5:compile
+|  +- org.apache.cxf:cxf-core:jar:3.1.5:compile
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1:compile
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.5:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.5:compile
+|  +- xml-resolver:xml-resolver:jar:1.2:compile
+|  +- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.5:compile
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-wsdl:jar:3.1.5:compile
+|  |  |  +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  |  |  +- wsdl4j:wsdl4j:jar:1.6.3:compile
+|  |  |  \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.1.5:compile
+|  |     +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  |     +- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.5:compile - omitted for duplicate)
+|  |     +- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
+|  |     \- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  +- org.apache.cxf:cxf-rt-bindings-xml:jar:3.1.5:compile
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-simple:jar:3.1.5:compile
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.5:compile - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.5:compile - omitted for duplicate)
+|  \- org.apache.cxf:cxf-rt-ws-addr:jar:3.1.5:compile
+|     +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|     +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.5:compile - omitted for duplicate)
+|     \- org.apache.cxf:cxf-rt-ws-policy:jar:3.1.5:compile
+|        +- (wsdl4j:wsdl4j:jar:1.6.3:compile - omitted for duplicate)
+|        +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|        \- org.apache.neethi:neethi:jar:3.0.3:compile
++- org.apache.cxf:cxf-rt-transports-http:jar:3.1.5:compile
+|  \- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-client:jar:3.1.5:compile
+|  +- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.5:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-core:jar:3.1.5:compile - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.5:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-jaxrs:jar:1.9.11:compile
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile
+|     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile - omitted for duplicate)
++- com.google.guava:guava:jar:19.0:compile
++- com.wordnik:swagger-jaxrs_2.10:jar:1.3.12:compile
+|  +- org.scala-lang:scala-library:jar:2.10.4:compile
+|  +- com.wordnik:swagger-core_2.10:jar:1.3.12:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.16)
+|  |  +- com.fasterxml.jackson.module:jackson-module-scala_2.10:jar:2.4.1:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  |  |  +- org.scala-lang:scala-reflect:jar:2.10.4:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2:compile - omitted for conflict with 2.4.1)
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.2.2)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.6:compile
+|  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  |  \- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.1:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.4.1:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.1)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.4.1:compile
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.4.1:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.1:compile
+|  |  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.1:compile - omitted for conflict with 2.2.2)
+|  |  +- com.wordnik:swagger-annotations:jar:1.3.12:compile
+|  |  +- org.json4s:json4s-ext_2.10:jar:3.2.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  |  +- (joda-time:joda-time:jar:2.3:compile - omitted for conflict with 2.1)
+|  |  |  \- org.joda:joda-convert:jar:1.6:compile
+|  |  +- org.json4s:json4s-native_2.10:jar:3.2.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  |  \- org.json4s:json4s-core_2.10:jar:3.2.11:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  |     +- org.json4s:json4s-ast_2.10:jar:3.2.11:compile
+|  |  |     |  \- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  |     +- (com.thoughtworks.paranamer:paranamer:jar:2.6:compile - omitted for duplicate)
+|  |  |     \- org.scala-lang:scalap:jar:2.10.0:compile
+|  |  |        \- org.scala-lang:scala-compiler:jar:2.10.0:compile
+|  |  |           +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  |           \- (org.scala-lang:scala-reflect:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |  \- org.json4s:json4s-jackson_2.10:jar:3.2.11:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.4)
+|  |     +- (org.json4s:json4s-core_2.10:jar:3.2.11:compile - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile - omitted for conflict with 2.2.2)
+|  \- org.reflections:reflections:jar:0.9.9:compile
+|     +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|     +- org.javassist:javassist:jar:3.18.2-GA:compile
+|     \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.apache.chemistry.opencmis:chemistry-opencmis-server-support:jar:0.11.0:compile
+|  +- org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:jar:0.11.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.16)
+|  +- org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:jar:0.11.0:compile
+|  |  +- (org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:jar:0.11.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile - omitted for conflict with 4.4.1)
+|  |  +- org.jvnet.mimepull:mimepull:jar:1.9.4:compile
+|  |  +- com.sun.xml.ws:jaxws-rt:jar:2.1.7:compile
+|  |  |  +- javax.xml.ws:jaxws-api:jar:2.1:compile
+|  |  |  |  \- javax.xml.bind:jaxb-api:jar:2.1:compile
+|  |  |  |     +- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for conflict with 1.0)
+|  |  |  |     \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  |  +- (com.sun.xml.bind:jaxb-impl:jar:2.1.11:compile - omitted for conflict with 2.2.11)
+|  |  |  +- com.sun.xml.messaging.saaj:saaj-impl:jar:1.3.3:compile
+|  |  |  |  \- javax.xml.soap:saaj-api:jar:1.3:compile
+|  |  |  |     \- (javax.activation:activation:jar:1.0.2:compile - omitted for conflict with 1.1)
+|  |  |  +- com.sun.xml.stream.buffer:streambuffer:jar:0.9:compile
+|  |  |  |  +- (org.jvnet.staxex:stax-ex:jar:RELEASE:compile - omitted for conflict with 1.2)
+|  |  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  |  +- org.jvnet.staxex:stax-ex:jar:1.2:compile
+|  |  |  |  +- javax.xml.stream:stax-api:jar:1.0:compile
+|  |  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  |  \- com.sun.org.apache.xml.internal:resolver:jar:20050927:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.16)
+|  +- org.antlr:antlr-runtime:jar:3.5:compile
+|  |  \- org.antlr:stringtemplate:jar:3.2.1:compile
+|  |     \- (antlr:antlr:jar:2.7.7:compile - omitted for conflict with 2.7.6)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.16)
++- org.apache.chemistry.opencmis:chemistry-opencmis-server-bindings:jar:0.11.0:compile
+|  +- (org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:jar:0.11.0:compile - omitted for duplicate)
+|  +- (org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:jar:0.11.0:compile - omitted for duplicate)
+|  +- (org.apache.chemistry.opencmis:chemistry-opencmis-server-support:jar:0.11.0:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.1)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.16)
++- org.cyclopsgroup:jmxterm:jar:1.0-alpha-4-uber:runtime
+\- org.thymeleaf:thymeleaf:jar:3.0.3.RELEASE:compile
+   +- ognl:ognl:jar:3.1.12:compile
+   |  \- (org.javassist:javassist:jar:3.20.0-GA:compile - omitted for conflict with 3.18.2-GA)
+   +- org.attoparser:attoparser:jar:2.0.2.RELEASE:compile
+   +- org.unbescape:unbescape:jar:1.1.4.RELEASE:compile
+   \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.16)
+

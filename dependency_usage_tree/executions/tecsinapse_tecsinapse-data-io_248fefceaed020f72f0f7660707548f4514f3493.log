@@ -1,0 +1,26 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+br.com.tecsinapse:tecsinapse-exporter:jar:1.1.34
++- joda-time:joda-time:jar:2.1:compile
++- com.google.guava:guava:jar:14.0.1:compile
++- org.apache.poi:poi:jar:3.9:compile
+|  \- commons-codec:commons-codec:jar:1.5:compile
++- org.apache.poi:poi-ooxml:jar:3.9:compile
+|  +- (org.apache.poi:poi:jar:3.9:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.9:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  \- dom4j:dom4j:jar:1.6.1:compile
+|     \- xml-apis:xml-apis:jar:1.0.b2:compile
++- com.sun.faces:jsf-api:jar:2.1.16:compile
++- javax.servlet:servlet-api:jar:2.5:provided
++- org.reflections:reflections:jar:0.9.9-RC1:compile
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 14.0.1)
+|  +- org.javassist:javassist:jar:3.16.1-GA:compile
+|  \- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+\- org.testng:testng:jar:6.8.1:test
+   +- junit:junit:jar:4.10:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   +- com.beust:jcommander:jar:1.27:test
+   \- org.yaml:snakeyaml:jar:1.6:test
+

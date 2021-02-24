@@ -1,0 +1,29 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.restfb:restfb:jar:3.1.0
++- org.junit.jupiter:junit-jupiter-api:jar:5.4.2:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.1.1:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.4.2:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.4.2:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-engine:jar:1.4.2:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.opentest4j:opentest4j:jar:1.1.1:test - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-commons:jar:1.4.2:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.4.2:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-params:jar:5.4.2:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.4.2:test - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.18.8:provided
++- org.mockito:mockito-junit-jupiter:jar:2.23.4:test
+|  +- org.mockito:mockito-core:jar:2.23.4:test
+|  |  +- net.bytebuddy:byte-buddy:jar:1.9.3:test
+|  |  +- net.bytebuddy:byte-buddy-agent:jar:1.9.3:test
+|  |  \- org.objenesis:objenesis:jar:2.6:test
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.1:test - omitted for conflict with 5.4.2)
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.assertj:assertj-core:jar:3.11.1:test
+

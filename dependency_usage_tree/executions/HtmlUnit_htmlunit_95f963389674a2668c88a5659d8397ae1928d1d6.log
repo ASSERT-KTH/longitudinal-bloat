@@ -1,0 +1,203 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.sourceforge.htmlunit:htmlunit:jar:2.10
++- xalan:xalan:jar:2.7.1:compile
+|  \- xalan:serializer:jar:2.7.1:compile
+|     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
++- commons-collections:commons-collections:jar:3.2.1:compile
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+|  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:test-jar:tests:4.2.1:test
+|  +- (org.apache.httpcomponents:httpcore:jar:4.2.1:test - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.6:test - omitted for duplicate)
++- org.apache.httpcomponents:httpmime:jar:4.2.1:compile
+|  \- (org.apache.httpcomponents:httpcore:jar:4.2.1:compile - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.6:compile
++- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.10:compile
++- xerces:xercesImpl:jar:2.9.1:compile
+|  \- xml-apis:xml-apis:jar:1.3.04:compile
++- net.sourceforge.nekohtml:nekohtml:jar:1.9.16:compile
++- net.sourceforge.cssparser:cssparser:jar:0.9.7:compile
+|  \- org.w3c.css:sac:jar:1.3:compile
++- commons-io:commons-io:jar:2.2:compile
++- commons-logging:commons-logging:jar:1.1.1:compile
++- junit:junit:jar:4.8.2:test
++- gsbase:gsbase:jar:2.0.1:test
+|  +- (junit:junit:jar:3.8.1:test - omitted for conflict with 4.8.2)
+|  \- junitperf:junitperf:jar:1.8:test
++- org.easymock:easymock:jar:3.0:test
+|  +- cglib:cglib-nodep:jar:2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
++- log4j:log4j:jar:1.2.17:test
++- commons-fileupload:commons-fileupload:jar:1.2.2:test
++- org.mortbay.jetty:jetty-maven-plugin:jar:7.6.4.v20120524:test
+|  +- org.eclipse.jetty:jetty-util:jar:7.6.4.v20120524:test
+|  +- org.eclipse.jetty:jetty-webapp:jar:7.6.4.v20120524:test
+|  |  +- org.eclipse.jetty:jetty-xml:jar:7.6.4.v20120524:test
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:7.6.4.v20120524:test
+|  |     \- org.eclipse.jetty:jetty-security:jar:7.6.4.v20120524:test
+|  |        \- org.eclipse.jetty:jetty-server:jar:7.6.4.v20120524:test
+|  |           +- (org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518:test - omitted for duplicate)
+|  |           +- org.eclipse.jetty:jetty-continuation:jar:7.6.4.v20120524:test
+|  |           \- (org.eclipse.jetty:jetty-http:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  +- org.apache.maven:maven-plugin-api:jar:3.0.3:test
+|  |  +- org.apache.maven:maven-model:jar:3.0.3:test
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.0.3:test - omitted for duplicate)
+|  |  \- org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:test
+|  |     +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:test - omitted for duplicate)
+|  |     +- (org.codehaus.plexus:plexus-classworlds:jar:2.4:test - omitted for duplicate)
+|  |     +- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for conflict with 2.0.6)
+|  |     \- org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:test
+|  |        \- org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:test
+|  +- org.apache.maven:maven-artifact:jar:3.0.3:test
+|  |  \- org.codehaus.plexus:plexus-utils:jar:2.0.6:test
+|  +- org.apache.maven:maven-core:jar:3.0.3:test
+|  |  +- (org.apache.maven:maven-model:jar:3.0.3:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-settings:jar:3.0.3:test
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-settings-builder:jar:3.0.3:test
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.14:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-settings:jar:3.0.3:test - omitted for duplicate)
+|  |  |  \- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-repository-metadata:jar:3.0.3:test
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.0.3:test - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-plugin-api:jar:3.0.3:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-model-builder:jar:3.0.3:test
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.14:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:test - omitted for duplicate)
+|  |  |  \- (org.apache.maven:maven-model:jar:3.0.3:test - omitted for duplicate)
+|  |  +- org.apache.maven:maven-aether-provider:jar:3.0.3:test
+|  |  |  +- (org.apache.maven:maven-model:jar:3.0.3:test - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-model-builder:jar:3.0.3:test - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-repository-metadata:jar:3.0.3:test - omitted for duplicate)
+|  |  |  +- (org.sonatype.aether:aether-api:jar:1.11:test - omitted for duplicate)
+|  |  |  +- org.sonatype.aether:aether-spi:jar:1.11:test
+|  |  |  |  \- (org.sonatype.aether:aether-api:jar:1.11:test - omitted for duplicate)
+|  |  |  +- (org.sonatype.aether:aether-util:jar:1.11:test - omitted for duplicate)
+|  |  |  +- (org.sonatype.aether:aether-impl:jar:1.11:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:test - omitted for duplicate)
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  +- org.sonatype.aether:aether-impl:jar:1.11:test
+|  |  |  +- (org.sonatype.aether:aether-api:jar:1.11:test - omitted for duplicate)
+|  |  |  +- (org.sonatype.aether:aether-spi:jar:1.11:test - omitted for duplicate)
+|  |  |  \- (org.sonatype.aether:aether-util:jar:1.11:test - omitted for duplicate)
+|  |  +- org.sonatype.aether:aether-api:jar:1.11:test
+|  |  +- org.sonatype.aether:aether-util:jar:1.11:test
+|  |  |  \- (org.sonatype.aether:aether-api:jar:1.11:test - omitted for duplicate)
+|  |  +- (org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:test - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.14:test
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.6:test - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-classworlds:jar:2.4:test
+|  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:test
+|  |  \- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:test
+|  |     +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:test - omitted for conflict with 2.0.6)
+|  |     \- org.sonatype.plexus:plexus-cipher:jar:1.4:test
+|  +- org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.9:test
+|  |  +- org.apache.maven:maven-project:jar:2.0.6:test
+|  |  |  +- (org.apache.maven:maven-settings:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  +- org.apache.maven:maven-profile:jar:2.0.6:test
+|  |  |  |  +- (org.apache.maven:maven-model:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.1:test - omitted for conflict with 2.0.6)
+|  |  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-model:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  +- org.apache.maven:maven-artifact-manager:jar:2.0.6:test
+|  |  |  |  +- (org.apache.maven:maven-repository-metadata:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.1:test - omitted for conflict with 2.0.6)
+|  |  |  |  +- (org.apache.maven:maven-artifact:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  |  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test - omitted for duplicate)
+|  |  |  |  \- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:test
+|  |  |  |     \- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for conflict with 2.0.6)
+|  |  |  +- org.apache.maven:maven-plugin-registry:jar:2.0.6:test
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.1:test - omitted for conflict with 2.0.6)
+|  |  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.1:test - omitted for conflict with 2.0.6)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  +- (org.apache.maven:maven-plugin-api:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  +- org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:test
+|  |  |  \- org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:test
+|  |  +- (org.apache.maven:maven-artifact:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  +- org.apache.maven:maven-plugin-descriptor:jar:2.0.6:test
+|  |  |  +- (org.apache.maven:maven-plugin-api:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:2.0.6:test - omitted for conflict with 3.0.3)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for conflict with 2.0.6)
+|  |  +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+|  |  |  +- (junit:junit:jar:3.8.1:test - omitted for conflict with 4.8.2)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for conflict with 2.0.6)
+|  |  |  \- classworlds:classworlds:jar:1.1-alpha-2:test
+|  |  \- net.sf.jtidy:jtidy:jar:r938:test
+|  +- org.eclipse.jetty:jetty-plus:jar:7.6.4.v20120524:test
+|  |  +- org.eclipse.jetty.orbit:javax.transaction:jar:1.1.1.v201105210645:test
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-jndi:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-jndi:jar:7.6.4.v20120524:test
+|  |  \- org.eclipse.jetty.orbit:javax.mail.glassfish:jar:1.4.1.v201005082020:test
+|  |     \- org.eclipse.jetty.orbit:javax.activation:jar:1.1.0.v201105071233:test
+|  +- org.eclipse.jetty:jetty-jmx:jar:7.6.4.v20120524:test
+|  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-annotations:jar:7.6.4.v20120524:test
+|  |  +- (org.eclipse.jetty:jetty-plus:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty.orbit:javax.annotation:jar:1.1.0.v201108011116:test
+|  |  \- org.eclipse.jetty.orbit:org.objectweb.asm:jar:3.1.0.v200803061910:test
+|  +- org.eclipse.jetty:jetty-websocket:jar:7.6.4.v20120524:test
+|  |  +- (org.eclipse.jetty:jetty-util:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-io:jar:7.6.4.v20120524:test
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-http:jar:7.6.4.v20120524:test
+|  |     \- (org.eclipse.jetty:jetty-io:jar:7.6.4.v20120524:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-jsp:jar:7.6.4.v20120524:test
+|     +- org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820:test
+|     |  \- org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518:test
+|     +- org.eclipse.jetty.orbit:org.apache.jasper.glassfish:jar:2.1.0.v201110031002:test
+|     |  +- (org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518:test - omitted for duplicate)
+|     |  \- (org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820:test - omitted for duplicate)
+|     +- org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:test
+|     |  +- (org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518:test - omitted for duplicate)
+|     |  \- (org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820:test - omitted for duplicate)
+|     +- org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803:test
+|     |  \- (org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:test - omitted for duplicate)
+|     +- org.eclipse.jetty.orbit:javax.el:jar:2.1.0.v201105211819:test
+|     +- org.eclipse.jetty.orbit:com.sun.el:jar:1.0.0.v201105211818:test
+|     \- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.7.1:test
++- org.slf4j:slf4j-api:jar:1.6.1:test
++- org.slf4j:slf4j-log4j12:jar:1.6.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:test - omitted for conflict with 1.2.17)
++- jfree:jfreechart:jar:1.0.12:test
+|  \- jfree:jcommon:jar:1.0.15:test
++- org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.20.0:test
+|  +- org.seleniumhq.selenium:selenium-api:jar:2.20.0:test
+|  |  \- com.google.guava:guava:jar:11.0.1:test
+|  |     \- com.google.code.findbugs:jsr305:jar:1.3.9:test
+|  \- (org.apache.httpcomponents:httpclient:jar:4.1.2:test - omitted for conflict with 4.2.1)
++- org.seleniumhq.selenium:selenium-ie-driver:jar:2.20.0:test
+|  +- net.java.dev.jna:jna:jar:3.4.0:test
+|  +- net.java.dev.jna:platform:jar:3.4.0:test
+|  \- org.seleniumhq.selenium:selenium-remote-driver:jar:2.20.0:test
+|     +- (cglib:cglib-nodep:jar:2.1_3:test - omitted for conflict with 2.2)
+|     +- org.json:json:jar:20080701:test
+|     +- (org.seleniumhq.selenium:selenium-api:jar:2.20.0:test - omitted for duplicate)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.1.2:test - omitted for conflict with 4.2.1)
+|     +- (com.google.guava:guava:jar:11.0.1:test - omitted for duplicate)
+|     +- (org.apache.commons:commons-exec:jar:1.1:test - omitted for duplicate)
+|     +- (net.java.dev.jna:jna:jar:3.4.0:test - omitted for duplicate)
+|     \- (net.java.dev.jna:platform:jar:3.4.0:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.20.0:test
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.20.0:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.0.1:test - omitted for conflict with 2.2)
+|  \- org.apache.commons:commons-exec:jar:1.1:test
+\- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.20.0:test
+   \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.20.0:test - omitted for duplicate)
+

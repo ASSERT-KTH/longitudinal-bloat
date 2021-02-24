@@ -1,0 +1,31 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+de.neuland:jade4j:jar:0.2.10
++- ognl:ognl:jar:3.0.3:compile
+|  \- javassist:javassist:jar:3.11.0.GA:compile
++- org.springframework:spring-expression:jar:3.0.5.RELEASE:compile
+|  \- org.springframework:spring-core:jar:3.0.5.RELEASE:compile
+|     +- org.springframework:spring-asm:jar:3.0.5.RELEASE:compile
+|     \- commons-logging:commons-logging:jar:1.1.1:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- commons-io:commons-io:jar:2.1:compile
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- com.google.code.gson:gson:jar:2.1:compile
++- org.slf4j:slf4j-api:jar:1.6.0:compile
++- org.slf4j:slf4j-log4j12:jar:1.6.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.0:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.14:compile
++- org.hamcrest:hamcrest-all:jar:1.1:test
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
+\- org.pegdown:pegdown:jar:1.1.0:compile
+   +- org.parboiled:parboiled-core:jar:1.0.2:compile
+   \- org.parboiled:parboiled-java:jar:1.0.2:compile
+      +- asm:asm:jar:3.3.1:compile
+      +- asm:asm-util:jar:3.3.1:compile
+      |  \- (asm:asm-tree:jar:3.3.1:compile - omitted for duplicate)
+      +- asm:asm-tree:jar:3.3.1:compile
+      |  \- (asm:asm:jar:3.3.1:compile - omitted for duplicate)
+      +- asm:asm-analysis:jar:3.3.1:compile
+      |  \- (asm:asm-tree:jar:3.3.1:compile - omitted for duplicate)
+      \- (org.parboiled:parboiled-core:jar:1.0.2:compile - omitted for duplicate)
+

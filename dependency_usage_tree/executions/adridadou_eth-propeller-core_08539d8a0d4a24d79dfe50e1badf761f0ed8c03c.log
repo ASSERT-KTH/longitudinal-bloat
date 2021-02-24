@@ -1,0 +1,145 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.adridadou:eth-propeller-core:jar:0.34
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.7)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7:compile
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- io.reactivex:rxjava:jar:1.3.8:compile
++- commons-io:commons-io:jar:2.6:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  \- (junit:junit:jar:4.10:compile - omitted for conflict with 4.12)
++- com.madgag.spongycastle:core:jar:1.58.0.0:compile
++- com.madgag.spongycastle:prov:jar:1.58.0.0:compile
+|  +- (com.madgag.spongycastle:core:jar:1.58.0.0:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for conflict with 4.10)
++- org.apache.httpcomponents:fluent-hc:jar:4.5.6:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.zeroturnaround:zt-exec:jar:1.10:compile
+|  +- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.6)
+|  \- org.slf4j:slf4j-api:jar:1.7.2:compile
++- org.web3j:core:jar:3.6.0:compile
+|  +- org.web3j:abi:jar:3.6.0:runtime
+|  |  \- (org.web3j:utils:jar:3.6.0:runtime - omitted for duplicate)
+|  +- (org.web3j:crypto:jar:3.6.0:runtime - omitted for duplicate)
+|  +- org.web3j:tuples:jar:3.6.0:runtime
+|  +- com.github.jnr:jnr-unixsocket:jar:0.15:runtime
+|  |  +- com.github.jnr:jnr-ffi:jar:2.1.2:runtime
+|  |  |  +- com.github.jnr:jffi:jar:1.2.14:runtime
+|  |  |  +- com.github.jnr:jffi:jar:native:1.2.14:runtime
+|  |  |  +- org.ow2.asm:asm:jar:5.0.3:runtime
+|  |  |  +- org.ow2.asm:asm-commons:jar:5.0.3:runtime
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:runtime - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-analysis:jar:5.0.3:runtime
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:runtime - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-tree:jar:5.0.3:runtime
+|  |  |  |  \- (org.ow2.asm:asm:jar:5.0.3:runtime - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-util:jar:5.0.3:runtime
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:runtime - omitted for duplicate)
+|  |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:runtime
+|  |  +- com.github.jnr:jnr-constants:jar:0.9.6:runtime
+|  |  +- com.github.jnr:jnr-enxio:jar:0.14:runtime
+|  |  |  +- (com.github.jnr:jnr-constants:jar:0.9.6:runtime - omitted for duplicate)
+|  |  |  \- (com.github.jnr:jnr-ffi:jar:2.1.2:runtime - omitted for duplicate)
+|  |  \- com.github.jnr:jnr-posix:jar:3.0.33:runtime
+|  |     +- (com.github.jnr:jnr-ffi:jar:2.1.1:runtime - omitted for conflict with 2.1.2)
+|  |     \- (com.github.jnr:jnr-constants:jar:0.9.6:runtime - omitted for duplicate)
+|  +- (com.squareup.okhttp3:okhttp:jar:3.8.1:runtime - omitted for conflict with 3.11.0)
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.8.1:runtime
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.8.1:runtime - omitted for duplicate)
+|  +- (io.reactivex:rxjava:jar:1.2.4:runtime - omitted for conflict with 1.3.8)
+|  \- org.java-websocket:Java-WebSocket:jar:1.3.8:runtime
++- org.web3j:crypto:jar:3.6.0:compile
+|  +- org.web3j:rlp:jar:3.6.0:runtime
+|  |  \- (org.web3j:utils:jar:3.6.0:runtime - omitted for duplicate)
+|  +- (org.web3j:utils:jar:3.6.0:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:runtime - omitted for conflict with 2.9.7)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for conflict with 1.7.2)
++- org.web3j:utils:jar:3.6.0:compile
+|  \- org.bouncycastle:bcprov-jdk15on:jar:1.54:runtime
++- com.squareup.okhttp3:okhttp:jar:3.11.0:compile
+|  \- com.squareup.okio:okio:jar:1.14.0:compile
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.23.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.0:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.0:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.ethereum:ethereumj-core:jar:1.8.2-RELEASE:test
+|  +- ch.qos.logback:logback-classic:jar:1.1.7:test
+|  |  +- ch.qos.logback:logback-core:jar:1.1.7:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.20:test - omitted for conflict with 1.7.2)
+|  +- com.cedarsoftware:java-util:jar:1.8.0:test
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  |  \- com.cedarsoftware:json-io:jar:2.4.1:test
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:test - omitted for conflict with 2.9.7)
+|  +- com.google.code.findbugs:jsr305:jar:3.0.0:test
+|  +- com.google.guava:guava:jar:24.1-jre:test
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:test - omitted for conflict with 3.0.0)
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+|  +- com.googlecode.concurrent-locks:concurrent-locks:jar:1.0.0:test
+|  +- (com.googlecode.json-simple:json-simple:jar:1.1.1:test - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.58.0.0:test - omitted for duplicate)
+|  +- (com.madgag.spongycastle:prov:jar:1.58.0.0:test - omitted for duplicate)
+|  +- com.typesafe:config:jar:1.2.1:test
+|  +- (commons-codec:commons-codec:jar:1.10:compile - scope updated from test; omitted for duplicate)
+|  +- io.netty:netty-all:jar:4.0.30.Final:test
+|  +- org.apache.commons:commons-collections4:jar:4.0:test
+|  +- org.apache.commons:commons-lang3:jar:3.4:test
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test - omitted for duplicate)
+|  +- org.ethereum:leveldbjni-all:jar:1.18.3:test
+|  +- org.ethereum:rocksdbjni:jar:5.9.2:test
+|  +- org.ethereum:solcJ-all:jar:0.4.19:test
+|  +- org.iq80.leveldb:leveldb:jar:0.7:test
+|  |  +- org.iq80.leveldb:leveldb-api:jar:0.7:test
+|  |  \- (com.google.guava:guava:jar:16.0.1:test - omitted for conflict with 24.1-jre)
+|  +- org.javassist:javassist:jar:3.15.0-GA:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.2)
+|  +- org.springframework:spring-context:jar:4.2.0.RELEASE:test
+|  |  +- org.springframework:spring-aop:jar:4.2.0.RELEASE:test
+|  |  |  +- aopalliance:aopalliance:jar:1.0:test
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.2.0.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.2.0.RELEASE:test
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:4.2.0.RELEASE:test
+|  |     \- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-orm:jar:4.2.0.RELEASE:test
+|  |  +- (org.springframework:spring-beans:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-jdbc:jar:4.2.0.RELEASE:test
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.2.0.RELEASE:test
+|  |  +- (org.springframework:spring-beans:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.0.RELEASE:test - omitted for duplicate)
+|  \- org.xerial.snappy:snappy-java:jar:1.1.4:test
++- org.scala-lang:scala-library:jar:2.12.6:test
++- org.scalatest:scalatest_2.12:jar:3.2.0-SNAP10:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.2.0-SNAP10:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- org.scalacheck:scalacheck_2.12:jar:1.14.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.6)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:test
+   \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+

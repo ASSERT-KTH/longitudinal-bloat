@@ -1,0 +1,155 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.vlingo:vlingo-auth:jar:0.4.8
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- io.vlingo:vlingo-actors:jar:0.5.3:compile
+|  +- org.agrona:agrona:jar:0.9.20:compile
+|  \- io.vlingo:vlingo-common:jar:0.3.4:compile
+|     \- com.google.code.gson:gson:jar:2.8.2:compile
++- io.vlingo:vlingo-cluster:jar:0.4.0:compile
+|  +- (io.vlingo:vlingo-common:jar:0.3.4:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-actors:jar:0.5.3:compile - omitted for duplicate)
+|  \- io.vlingo:vlingo-wire:jar:0.4.2:compile
+|     \- (io.vlingo:vlingo-actors:jar:0.5.3:compile - omitted for duplicate)
++- io.vlingo:vlingo-http:jar:0.4.8:compile
+|  +- (io.vlingo:vlingo-common:jar:0.3.4:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-actors:jar:0.5.3:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-wire:jar:0.4.2:compile - omitted for duplicate)
+|  \- io.gatling.highcharts:gatling-charts-highcharts:jar:2.3.1:compile
+|     +- org.scala-lang:scala-library:jar:2.12.3:compile
+|     +- io.gatling:gatling-charts:jar:2.3.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  +- io.gatling:gatling-core:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- io.gatling:gatling-commons:jar:2.3.1:compile
+|     |  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  |  +- org.scala-lang:scala-reflect:jar:2.12.3:compile
+|     |  |  |  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  |  +- com.typesafe:config:jar:1.3.1:compile
+|     |  |  |  +- com.dongxiguo:fastring_2.12:jar:0.3.1:compile
+|     |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|     |  |  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|     |  |  |  +- (io.suzaku:boopickle_2.12:jar:1.2.6:compile - omitted for duplicate)
+|     |  |  |  +- com.softwaremill.quicklens:quicklens_2.12:jar:1.4.8:compile
+|     |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.3)
+|     |  |  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.3)
+|     |  |  |  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
+|     |  |  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.0.39:compile
+|     |  |  |  |  +- (io.netty:netty-buffer:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|     |  |  |  +- com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile
+|     |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.3)
+|     |  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.12.2:compile - omitted for conflict with 2.12.3)
+|     |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  |  \- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|     |  |  |     +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|     |  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  +- com.typesafe.akka:akka-actor_2.12:jar:2.5.4:compile
+|     |  |  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.3)
+|     |  |  |  +- (com.typesafe:config:jar:1.3.1:compile - omitted for duplicate)
+|     |  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
+|     |  |  +- com.typesafe.akka:akka-slf4j_2.12:jar:2.5.4:compile
+|     |  |  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.3)
+|     |  |  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.4:compile - omitted for duplicate)
+|     |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.23:compile - omitted for conflict with 1.7.25)
+|     |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.9.0:compile
+|     |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
+|     |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|     |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|     |  |  +- io.suzaku:boopickle_2.12:jar:1.2.6:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|     |  |  +- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.3)
+|     |  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.5.5:compile
+|     |  |  +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.3)
+|     |  |  +- com.github.scopt:scopt_2.12:jar:3.7.0:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|     |  |  +- io.gatling:jsonpath_2.12:jar:0.6.9:compile
+|     |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|     |  |  |  \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.5:compile - omitted for conflict with 1.0.6)
+|     |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
+|     |  |  +- io.advantageous.boon:boon-json:jar:0.6.6:compile
+|     |  |  |  \- io.advantageous.boon:boon-reflekt:jar:0.6.6:compile
+|     |  |  +- net.sf.saxon:Saxon-HE:jar:9.8.0-4:compile
+|     |  |  \- org.jodd:jodd-lagarto:jar:3.8.6:compile
+|     |  |     +- org.jodd:jodd-core:jar:3.8.6:compile
+|     |  |     \- org.jodd:jodd-log:jar:3.8.6:compile
+|     |  \- com.tdunning:t-digest:jar:3.1:compile
+|     +- io.gatling:gatling-app:jar:2.3.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  +- io.gatling:gatling-http:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  |  +- org.asynchttpclient:async-http-client:jar:2.0.39:compile
+|     |  |  |  +- (org.asynchttpclient:async-http-client-netty-utils:jar:2.0.39:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-codec-http:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-handler:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  +- org.asynchttpclient:netty-resolver-dns:jar:2.0.39:compile
+|     |  |  |  |  +- org.asynchttpclient:netty-resolver:jar:2.0.39:compile
+|     |  |  |  |  |  +- (io.netty:netty-common:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  |  |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.39:compile
+|     |  |  |  |  |  +- (io.netty:netty-codec:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  |  |  +- (io.netty:netty-transport:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|     |  |  |  +- com.typesafe.netty:netty-reactive-streams:jar:1.0.8:compile
+|     |  |  |  |  +- (io.netty:netty-handler:jar:4.0.41.Final:compile - omitted for conflict with 4.0.56.Final)
+|     |  |  |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|     |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.56.Final:compile
+|     |  |  |  +- io.netty:netty-common:jar:4.0.56.Final:compile
+|     |  |  |  +- io.netty:netty-buffer:jar:4.0.56.Final:compile
+|     |  |  |  |  \- (io.netty:netty-common:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  |  \- io.netty:netty-transport:jar:4.0.56.Final:compile
+|     |  |  |     \- (io.netty:netty-buffer:jar:4.0.56.Final:compile - omitted for duplicate)
+|     |  |  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|     |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.3)
+|     |  +- io.gatling:gatling-jms:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  |  \- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|     |  +- io.gatling:gatling-jdbc:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  \- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  +- io.gatling:gatling-redis:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  |  \- net.debasishg:redisclient_2.12:jar:3.4:compile
+|     |  |     +- commons-pool:commons-pool:jar:1.6:compile
+|     |  |     +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.25)
+|     |  |     \- (com.typesafe.akka:akka-actor_2.12:jar:2.4.12:compile - omitted for conflict with 2.5.4)
+|     |  +- io.gatling:gatling-metrics:jar:2.3.1:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|     |  |  +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|     |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|     |  \- (io.gatling:gatling-charts:jar:2.3.1:compile - omitted for duplicate)
+|     \- io.gatling:gatling-recorder:jar:2.3.1:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|        +- (io.gatling:gatling-core:jar:2.3.1:compile - omitted for duplicate)
+|        +- (io.gatling:gatling-http:jar:2.3.1:compile - omitted for duplicate)
+|        +- org.scala-lang.modules:scala-swing_2.12:jar:2.0.0:compile
+|        |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|        +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile
+|        |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|        |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+|        +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|        |  \- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|        \- io.netty:netty-codec-http:jar:4.0.56.Final:compile
+|           +- io.netty:netty-codec:jar:4.0.56.Final:compile
+|           |  \- (io.netty:netty-transport:jar:4.0.56.Final:compile - omitted for duplicate)
+|           \- io.netty:netty-handler:jar:4.0.56.Final:compile
+|              +- (io.netty:netty-buffer:jar:4.0.56.Final:compile - omitted for duplicate)
+|              +- (io.netty:netty-transport:jar:4.0.56.Final:compile - omitted for duplicate)
+|              \- (io.netty:netty-codec:jar:4.0.56.Final:compile - omitted for duplicate)
++- com.lambdaworks:scrypt:jar:1.4.0:compile
++- org.mindrot:jbcrypt:jar:0.4:compile
+\- de.mkammerer:argon2-jvm:jar:2.4:compile
+   \- net.java.dev.jna:jna:jar:4.5.0:compile
+

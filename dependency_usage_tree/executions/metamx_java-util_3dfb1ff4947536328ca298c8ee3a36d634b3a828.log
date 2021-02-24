@@ -1,0 +1,16 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.metamx:java-util:jar:0.6.4
++- org.slf4j:slf4j-api:jar:1.6.4:compile
++- org.skife.config:config-magic:jar:0.9:compile
+|  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.4)
++- com.google.guava:guava:jar:r08:compile
++- org.codehaus.jackson:jackson-core-asl:jar:1.9.7:compile
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.7:compile
+|  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.7:compile - omitted for duplicate)
++- net.sf.opencsv:opencsv:jar:2.3:compile
++- joda-time:joda-time:jar:1.6:compile
++- junit:junit:jar:4.8.1:test
+\- org.easymock:easymock:jar:3.0:test
+   +- cglib:cglib-nodep:jar:2.2:test
+   \- org.objenesis:objenesis:jar:1.2:test
+

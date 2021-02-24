@@ -1,0 +1,78 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.rx:rxlib:jar:1.0.0
++- com.google.guava:guava:jar:21.0:compile
++- org.valid4j:valid4j:jar:0.5.0:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- org.json:json:jar:20160810:compile
++- com.alibaba:fastjson:jar:1.2.32:compile
++- com.github.stuxuhai:jpinyin:jar:1.1.7:compile
++- org.springframework.data:spring-data-redis:jar:1.7.2.RELEASE:compile
+|  +- org.springframework.data:spring-data-keyvalue:jar:1.1.2.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.2.6.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:4.2.6.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.2.6.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.2.6.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-core:jar:4.2.6.RELEASE:compile
+|  |     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.springframework:spring-oxm:jar:4.2.6.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:4.2.6.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context-support:jar:4.2.6.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - omitted for duplicate)
++- redis.clients:jedis:jar:2.9.0:compile
+|  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- org.redisson:redisson:jar:2.3.0:compile
+|  +- io.netty:netty-common:jar:4.0.40.Final:compile
+|  +- io.netty:netty-codec:jar:4.0.40.Final:compile
+|  |  \- (io.netty:netty-transport:jar:4.0.40.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.0.40.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.0.40.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.0.40.Final:compile
+|  |  \- (io.netty:netty-buffer:jar:4.0.40.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.0.40.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.0.40.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.0.40.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.0.40.Final:compile - omitted for duplicate)
+|  +- io.projectreactor:reactor-stream:jar:2.0.8.RELEASE:compile
+|  |  \- io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile
+|  |     +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.21)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.6:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.8.2)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.6:compile - omitted for duplicate)
+|  +- net.openhft:zero-allocation-hashing:jar:0.5:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.3.19:compile
+|  \- org.jodd:jodd-bean:jar:3.7.1:compile
+|     \- org.jodd:jodd-core:jar:3.7.1:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+\- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.2:compile
+

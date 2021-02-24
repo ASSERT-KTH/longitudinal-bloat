@@ -1,0 +1,15 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.googlecode.openpojo:openpojo:jar:0.3.4
++- log4j:log4j:jar:1.2.16:provided
++- org.slf4j:slf4j-api:jar:1.6.1:provided
++- org.slf4j:slf4j-log4j12:jar:1.6.1:provided
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:provided - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:provided - omitted for duplicate)
++- junit:junit:jar:4.8.2:provided
+\- org.testng:testng:jar:5.14.2:provided
+   +- (junit:junit:jar:3.8.1:provided - omitted for conflict with 4.8.2)
+   +- org.beanshell:bsh:jar:2.0b4:provided
+   +- com.google.inject:guice:jar:2.0:provided
+   |  \- aopalliance:aopalliance:jar:1.0:provided
+   \- com.beust:jcommander:jar:1.10:provided
+

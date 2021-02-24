@@ -1,0 +1,19 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.vlingo:vlingo-actors:jar:1.2.1
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.26:compile
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.agrona:agrona:jar:1.0.2:compile
++- org.pcollections:pcollections:jar:3.1.0:compile
++- io.vlingo:vlingo-common:jar:1.2.1:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- com.fasterxml.uuid:java-uuid-generator:jar:3.1.5:compile
+|  +- com.lambdaworks:scrypt:jar:1.4.0:compile
+|  +- org.mindrot:jbcrypt:jar:0.4:compile
+|  \- de.mkammerer:argon2-jvm:jar:2.4:compile
+|     \- net.java.dev.jna:jna:jar:4.5.0:compile
+\- ch.qos.logback:logback-classic:jar:1.0.13:test
+   +- ch.qos.logback:logback-core:jar:1.0.13:test
+   \- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.26)
+

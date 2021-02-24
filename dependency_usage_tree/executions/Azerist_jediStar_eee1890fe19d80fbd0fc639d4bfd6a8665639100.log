@@ -1,0 +1,41 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+fr.jedistar:JediStarBot:jar:9.1.1
++- de.btobastian.javacord:javacord:jar:shaded:2.0.17:compile
+|  +- org.json:json:jar:20140107:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- com.mashape.unirest:unirest-java:jar:1.4.9:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
+|  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+|  |  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for conflict with 4.5.2)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  \- (org.json:json:jar:20160212:compile - omitted for conflict with 20140107)
+|  +- com.neovisionaries:nv-websocket-client:jar:1.31:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.22:compile
++- com.google.code.gson:gson:jar:2.8.1:compile
++- ch.qos.logback:logback-classic:jar:1.1.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.22)
++- com.vdurmont:emoji-java:jar:3.3.0:compile
+|  \- (org.json:json:jar:20140107:compile - omitted for duplicate)
++- org.apache.poi:poi:jar:3.17:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.apache.poi:poi-ooxml:jar:3.17:compile
+|  +- (org.apache.poi:poi:jar:3.17:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+|  |  \- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for conflict with 2.3.0)
+|  \- com.github.virtuald:curvesapi:jar:1.04:compile
++- org.apache.poi:ooxml-schemas:jar:1.3:compile
+|  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+|     \- stax:stax-api:jar:1.0.1:compile
++- mysql:mysql-connector-java:jar:5.1.6:compile
+\- org.apache.commons:commons-lang3:jar:3.6:compile
+

@@ -1,0 +1,1303 @@
+{
+ "usage": {
+  "de.mossgrabers.bitwig.framework.daw.AbstractBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.Bank",
+    "com.bitwig.extension.controller.api.SettableIntegerValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.SlotBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ClipLauncherSlotBank",
+    "com.bitwig.extension.controller.api.ClipLauncherSlot"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.EffectTrackBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.TrackBank",
+    "com.bitwig.extension.controller.api.CursorTrack"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.DeviceBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Device",
+    "com.bitwig.extension.controller.api.DeviceBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.MarkerBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.CueMarker",
+    "com.bitwig.extension.controller.api.CueMarkerBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.midi.NoteInputImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.NoteInput"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.DoubleSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableRangedValue",
+    "com.bitwig.extension.controller.api.Setting"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ParameterBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.CursorRemoteControlsPage",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.SettableIntegerValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.BrowserImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.PopupBrowser",
+    "com.bitwig.extension.controller.api.BrowserResultsColumn",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.BrowserFilterColumn",
+    "com.bitwig.extension.controller.api.CursorBrowserResultItem",
+    "com.bitwig.extension.controller.api.InsertionPoint",
+    "com.bitwig.extension.controller.api.BrowserResultsItemBank",
+    "com.bitwig.extension.controller.api.SettableIntegerValue",
+    "com.bitwig.extension.controller.api.CursorTrack",
+    "com.bitwig.extension.controller.api.StringArrayValue",
+    "com.bitwig.extension.controller.api.BrowserItem"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.GrooveImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Groove",
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.SlotImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ClipLauncherSlotBank",
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.ColorValue",
+    "com.bitwig.extension.controller.api.SettableColorValue",
+    "com.bitwig.extension.controller.api.ClipLauncherSlot"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.BrowserColumnImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.BrowserFilterColumn",
+    "com.bitwig.extension.controller.api.BrowserItemBank",
+    "com.bitwig.extension.controller.api.BrowserFilterItem",
+    "com.bitwig.extension.controller.api.CursorBrowserFilterItem",
+    "com.bitwig.extension.controller.api.SettableIntegerValue",
+    "com.bitwig.extension.controller.api.BrowserItem",
+    "com.bitwig.extension.controller.api.CursorBrowserItem"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.osc.OpenSoundControlMessageImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.opensoundcontrol.OscMessage"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.ChannelImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SendBank",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.SettableStringValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.Channel",
+    "com.bitwig.extension.controller.api.SettableColorValue",
+    "com.bitwig.extension.controller.api.SoloValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.DrumPadBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.DrumPadBank",
+    "com.bitwig.extension.controller.api.DrumPad"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.extension.GenericControllerExtension": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.ControllerExtensionDefinition",
+    "com.bitwig.extension.controller.ControllerExtension",
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.SceneBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Scene",
+    "com.bitwig.extension.controller.api.SceneBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.HostImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.HardwareDevice",
+    "com.bitwig.extension.controller.api.UsbDevice",
+    "com.bitwig.extension.api.opensoundcontrol.OscConnection",
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.api.graphics.BitmapFormat",
+    "com.bitwig.extension.api.opensoundcontrol.OscAddressSpace",
+    "com.bitwig.extension.api.opensoundcontrol.OscModule",
+    "com.bitwig.extension.api.opensoundcontrol.OscMessage"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.TransportImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.SettableRangedValue",
+    "com.bitwig.extension.controller.api.SettableIntegerValue",
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.controller.api.SettableBeatTimeValue",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.SettableEnumValue",
+    "com.bitwig.extension.controller.api.Transport",
+    "com.bitwig.extension.controller.api.TimeSignatureValue",
+    "com.bitwig.extension.controller.api.Parameter"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.AbstractDeviceChainImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableStringValue",
+    "com.bitwig.extension.controller.api.DeviceChain"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.BitwigSetupFactory": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.osc.OpenSoundControlServerImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.opensoundcontrol.OscConnection"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ArrangerImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Arranger",
+    "com.bitwig.extension.controller.api.SettableBooleanValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.beatstep.BeatstepControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.mcu.MCUControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.sl.SLMkIIControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.PlatformType",
+    "com.bitwig.extension.controller.AutoDetectionMidiPortNamesList",
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.MemoryBlockImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.MemoryBlock"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.BrowserColumnItemImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.BrowserFilterItem",
+    "com.bitwig.extension.controller.api.BrowserItem"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.TrackBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.TrackBank",
+    "com.bitwig.extension.controller.api.CursorTrack"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.LayerImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Device",
+    "com.bitwig.extension.controller.api.Channel",
+    "com.bitwig.extension.controller.api.DeviceBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.usb.UsbDeviceImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.UsbDevice",
+    "com.bitwig.extension.controller.api.UsbInterface",
+    "com.bitwig.extension.controller.UsbDeviceMatcher"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.kontrol.osc.mkii.KontrolOSCExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.graphics.BitmapImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.graphics.Bitmap",
+    "com.bitwig.extension.api.graphics.GraphicsOutput",
+    "com.bitwig.extension.api.MemoryBlock"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.midi.MidiInputImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.MidiIn",
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.controller.api.NoteInput"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.AbstractChannelBank": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Bank"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.midimonitor.MidiMonitorExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.midi.MidiOutputImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.MidiOut",
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.MixerImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.Mixer"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.ColorSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Setting",
+    "com.bitwig.extension.controller.api.SettableColorValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.sl.SLMkIControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.PlatformType",
+    "com.bitwig.extension.controller.AutoDetectionMidiPortNamesList",
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.MasterTrackImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.MasterTrack",
+    "com.bitwig.extension.controller.api.Track"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ModelImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.TrackBank",
+    "com.bitwig.extension.controller.api.Application",
+    "com.bitwig.extension.controller.api.SoloValue",
+    "com.bitwig.extension.controller.api.Arranger",
+    "com.bitwig.extension.controller.api.CursorDeviceFollowMode",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.Track",
+    "com.bitwig.extension.controller.api.CursorTrack",
+    "com.bitwig.extension.controller.api.MasterTrack",
+    "com.bitwig.extension.controller.api.Channel",
+    "com.bitwig.extension.controller.api.PinnableCursorDevice"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.launchpad.LaunchpadProControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ParameterPageBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.CursorRemoteControlsPage",
+    "com.bitwig.extension.controller.api.SettableIntegerValue",
+    "com.bitwig.extension.controller.api.StringArrayValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.SceneImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Scene",
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.SettableStringValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.ClipLauncherSlotOrScene",
+    "com.bitwig.extension.controller.api.InsertionPoint",
+    "com.bitwig.extension.controller.api.SettableColorValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.DeviceImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Device",
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.InsertionPoint"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.StringSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableStringValue",
+    "com.bitwig.extension.controller.api.Setting"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.SettingsUI": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.Color",
+    "com.bitwig.extension.controller.api.Preferences"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.SendBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SendBank",
+    "com.bitwig.extension.controller.api.Send"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.midi.MidiDeviceImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.beatstep.BeatstepProControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.LayerBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.CursorDeviceLayer",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.DeviceLayer",
+    "com.bitwig.extension.controller.api.DeviceLayerBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.push.Push1ControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.graphics.GraphicsContextImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.graphics.GradientPattern",
+    "com.bitwig.extension.api.graphics.GraphicsOutput$AntialiasMode",
+    "com.bitwig.extension.api.graphics.GraphicsOutput",
+    "com.bitwig.extension.api.graphics.TextExtents"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.push.Push2ControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.osc.OSCControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.EnumSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableEnumValue",
+    "com.bitwig.extension.controller.api.Setting"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.ParameterImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.RangedValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.SettableRangedValue",
+    "com.bitwig.extension.controller.api.Parameter"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.apcmini.APCminiControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.generic.GenericFlexiControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.kontrol.midi.mkii.KontrolMkIIExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.MarkerImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.CueMarker",
+    "com.bitwig.extension.controller.api.ColorValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.graphics.ImageImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.api.graphics.Image"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ProjectImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Application",
+    "com.bitwig.extension.controller.api.Action",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.Project"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.usb.UsbEndpointImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.UsbPipe",
+    "com.bitwig.extension.controller.api.UsbInputPipe",
+    "com.bitwig.extension.controller.api.UsbOutputPipe",
+    "com.bitwig.extension.controller.api.UsbTransferDirection"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.DrumPadImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.DrumPad",
+    "com.bitwig.extension.controller.api.InsertionPoint"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.kontrol.usb.mki.AbstractKontrol1ExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.AbstractSetting": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Setting"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.SendImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Send"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.CursorClipImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.SettableRangedValue",
+    "com.bitwig.extension.controller.api.SettableColorValue",
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.controller.api.Clip",
+    "com.bitwig.extension.controller.api.SettableBeatTimeValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.SignalSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Setting",
+    "com.bitwig.extension.controller.api.Signal"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.ApplicationImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.Action",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.Application",
+    "com.bitwig.extension.controller.api.ActionCategory"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.maschine.mikro.mk3.MaschineMikroMk3ExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.launchpad.LaunchpadMkIIControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.autocolor.AutoColorExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.IntegerSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.SettableRangedValue",
+    "com.bitwig.extension.controller.api.Setting"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.CursorDeviceImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.CursorRemoteControlsPage",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.CursorDeviceLayer",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.Channel",
+    "com.bitwig.extension.controller.api.DeviceLayerBank",
+    "com.bitwig.extension.controller.api.DrumPadBank",
+    "com.bitwig.extension.controller.api.InsertionPoint",
+    "com.bitwig.extension.controller.api.PinnableCursorDevice",
+    "com.bitwig.extension.controller.api.DeviceBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.configuration.BooleanSettingImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.Setting",
+    "com.bitwig.extension.controller.api.SettableBooleanValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.data.TrackImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.IntegerValue",
+    "com.bitwig.extension.controller.api.BooleanValue",
+    "com.bitwig.extension.controller.api.StringValue",
+    "com.bitwig.extension.controller.api.Track",
+    "com.bitwig.extension.controller.api.PlayingNote",
+    "com.bitwig.extension.controller.api.CursorTrack",
+    "com.bitwig.extension.controller.api.SettableBooleanValue",
+    "com.bitwig.extension.controller.api.SettableEnumValue",
+    "com.bitwig.extension.controller.api.PlayingNoteArrayValue"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.extension.AbstractControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.ControllerExtensionDefinition",
+    "com.bitwig.extension.controller.ControllerExtension",
+    "com.bitwig.extension.controller.HardwareDeviceMatcher",
+    "com.bitwig.extension.controller.api.ControllerHost",
+    "com.bitwig.extension.api.PlatformType",
+    "com.bitwig.extension.controller.AutoDetectionMidiPortNamesList",
+    "com.bitwig.extension.controller.UsbEndpointMatcher",
+    "com.bitwig.extension.controller.UsbDeviceMatcher",
+    "com.bitwig.extension.controller.api.UsbTransferType",
+    "com.bitwig.extension.controller.HardwareDeviceMatcherList",
+    "com.bitwig.extension.controller.UsbInterfaceMatcher"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.apc.APCmkIControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.daw.AbstractTrackBankImpl": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ClipLauncherSlotBank",
+    "com.bitwig.extension.controller.api.SceneBank",
+    "com.bitwig.extension.controller.api.Track",
+    "com.bitwig.extension.controller.api.CursorTrack",
+    "com.bitwig.extension.controller.api.TrackBank"
+   ]
+  },
+  "de.mossgrabers.bitwig.controller.apc.APCmkIIControllerExtensionDefinition": {
+   "com.bitwig:extension-api:jar:7:compile": [
+    "com.bitwig.extension.controller.api.ControllerHost"
+   ]
+  },
+  "de.mossgrabers.bitwig.framework.usb.HidDeviceImpl": {
+   "purejavahidapi:purejavahidapi:jar:0.0.13:compile": [
+    "purejavahidapi.HidDeviceInfo",
+    "purejavahidapi.PureJavaHidApi",
+    "purejavahidapi.HidDevice"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "de.mossgrabers:DrivenByMoss:jar:5.8:null",
+  "coordinates": "de.mossgrabers:DrivenByMoss:5.8",
+  "groupId": "de.mossgrabers",
+  "artifactId": "DrivenByMoss",
+  "version": "5.8",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "com.bitwig:extension-api:jar:7:compile",
+    "coordinates": "com.bitwig:extension-api:7",
+    "groupId": "com.bitwig",
+    "artifactId": "extension-api",
+    "version": "7",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 126771,
+    "type": "direct",
+    "status": "used",
+    "parent": "de.mossgrabers:DrivenByMoss:jar:5.8",
+    "allTypes": [
+     "com.bitwig.extension.controller.api.ClipLauncherSlotOrSceneBank",
+     "com.bitwig.extension.controller.api.Subscribable",
+     "com.bitwig.extension.callback.ColorValueChangedCallback",
+     "com.bitwig.extension.controller.api.SceneBank",
+     "com.bitwig.extension.controller.api.StringValue",
+     "com.bitwig.extension.api.graphics.MeshPattern",
+     "com.bitwig.extension.controller.api.CursorDeviceSlot",
+     "com.bitwig.extension.controller.api.UsbTransferStatus",
+     "com.bitwig.extension.controller.HardwareDeviceMatcher",
+     "com.bitwig.extension.api.graphics.Pattern",
+     "com.bitwig.extension.controller.api.BrowserItem",
+     "com.bitwig.extension.api.graphics.FontOptions",
+     "com.bitwig.extension.controller.api.CursorNavigationMode",
+     "com.bitwig.extension.api.opensoundcontrol.OscBundle",
+     "com.bitwig.extension.controller.api.SettableStringArrayValue",
+     "com.bitwig.extension.controller.api.DeviceLayerBank",
+     "com.bitwig.extension.controller.api.BrowserFilterColumn",
+     "com.bitwig.extension.controller.api.Preferences",
+     "com.bitwig.extension.callback.ShortMidiMessageReceivedCallback",
+     "com.bitwig.extension.controller.api.BrowserFilterItem",
+     "com.bitwig.extension.controller.api.Application",
+     "com.bitwig.extension.controller.api.BrowserResultsItem",
+     "com.bitwig.extension.controller.api.UsbTransferType",
+     "com.bitwig.extension.callback.NotePlaybackCallback",
+     "com.bitwig.extension.controller.api.BrowserFilterColumnBank",
+     "com.bitwig.extension.controller.api.BeatTimeValue",
+     "com.bitwig.extension.controller.api.IntegerValue",
+     "com.bitwig.extension.controller.api.RemoteControl",
+     "com.bitwig.extension.controller.api.BooleanValue",
+     "com.bitwig.extension.controller.api.Signal",
+     "com.bitwig.extension.controller.api.BrowsingSessionBank",
+     "com.bitwig.extension.api.opensoundcontrol.OscConnection",
+     "com.bitwig.extension.callback.IndexedColorValueChangedCallback",
+     "com.bitwig.extension.controller.api.SettableIntegerValue",
+     "com.bitwig.extension.controller.api.BrowsingSession",
+     "com.bitwig.extension.controller.api.DeviceSlot",
+     "com.bitwig.extension.api.PlatformType",
+     "com.bitwig.extension.callback.ConnectionEstablishedCallback",
+     "com.bitwig.extension.controller.api.GenericBrowsingSession",
+     "com.bitwig.extension.controller.api.Project",
+     "com.bitwig.extension.api.opensoundcontrol.OscMethod",
+     "com.bitwig.extension.controller.api.DeviceBrowsingSession",
+     "com.bitwig.extension.controller.api.Settings",
+     "com.bitwig.extension.controller.api.CursorDevice",
+     "com.bitwig.extension.controller.api.PresetBrowsingSession",
+     "com.bitwig.extension.controller.api.SettableDoubleValue",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$HintMetrics",
+     "com.bitwig.extension.controller.api.RemoteConnection",
+     "com.bitwig.extension.controller.api.MultiSampleBrowsingSession",
+     "com.bitwig.extension.controller.api.NoteInput",
+     "com.bitwig.extension.controller.api.SendBank",
+     "com.bitwig.extension.controller.api.CursorRemoteControlsPage",
+     "com.bitwig.extension.callback.FloatValueChangedCallback",
+     "com.bitwig.extension.controller.api.Bank",
+     "com.bitwig.extension.controller.api.RemoteSocket",
+     "com.bitwig.extension.api.util.midi.SysexBuilder",
+     "com.bitwig.extension.controller.api.CursorBrowserResultItem",
+     "com.bitwig.extension.callback.EnumValueChangedCallback",
+     "com.bitwig.extension.controller.api.ModulationSource",
+     "com.bitwig.extension.controller.api.PlayingNote",
+     "com.bitwig.extension.controller.api.ControllerHost",
+     "com.bitwig.extension.callback.BooleanValueChangedCallback",
+     "com.bitwig.extension.callback.DirectParameterNameChangedCallback",
+     "com.bitwig.extension.controller.api.RangedValue",
+     "com.bitwig.extension.controller.api.Scene",
+     "com.bitwig.extension.controller.api.SettableBooleanValue",
+     "com.bitwig.extension.api.graphics.Image",
+     "com.bitwig.extension.controller.api.MidiOut",
+     "com.bitwig.extension.controller.api.Action",
+     "com.bitwig.extension.controller.api.ClipLauncherSlotOrScene",
+     "com.bitwig.extension.controller.UsbEndpointMatcher",
+     "com.bitwig.extension.api.graphics.FontFace",
+     "com.bitwig.extension.controller.api.BrowserItemBank",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$SubPixelOrder",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$AntialiasMode",
+     "com.bitwig.extension.controller.api.BrowserResultsItemBank",
+     "com.bitwig.extension.controller.api.DirectParameterValueDisplayObserver",
+     "com.bitwig.extension.callback.NoArgsCallback",
+     "com.bitwig.extension.api.graphics.GraphicsOutput",
+     "com.bitwig.extension.controller.ControllerExtensionDefinition",
+     "com.bitwig.extension.controller.api.AsyncTransferCompledCallback",
+     "com.bitwig.extension.api.graphics.FontExtents",
+     "com.bitwig.extension.controller.api.BeatTimeFormatter",
+     "com.bitwig.extension.controller.UsbMatcher",
+     "com.bitwig.extension.controller.api.RemoteControlsPage",
+     "com.bitwig.extension.controller.ControllerExtension",
+     "com.bitwig.extension.api.opensoundcontrol.OscPacketSizeExceededException",
+     "com.bitwig.extension.callback.ShortMidiDataReceivedCallback",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$LineJoin",
+     "com.bitwig.extension.api.Host",
+     "com.bitwig.extension.controller.api.ClipLauncherSlot",
+     "com.bitwig.extension.controller.api.UsbOutputPipe",
+     "com.bitwig.extension.controller.api.DocumentState",
+     "com.bitwig.extension.api.graphics.TextExtents",
+     "com.bitwig.extension.controller.api.CursorDeviceLayer",
+     "com.bitwig.extension.api.graphics.Bitmap",
+     "com.bitwig.extension.controller.api.Channel",
+     "com.bitwig.extension.controller.api.PrimaryDevice$ChainLocation",
+     "com.bitwig.extension.controller.api.UsbInterface",
+     "com.bitwig.extension.controller.api.PrimaryDevice$DeviceType",
+     "com.bitwig.extension.controller.api.SettableColorValue",
+     "com.bitwig.extension.controller.api.PinnableCursorDevice",
+     "com.bitwig.extension.controller.api.ClipLauncherSlotBank",
+     "com.bitwig.extension.controller.api.HardwareDevice",
+     "com.bitwig.extension.api.Color",
+     "com.bitwig.extension.controller.api.Browser",
+     "com.bitwig.extension.controller.api.PopupBrowser",
+     "com.bitwig.extension.controller.api.InputPipe",
+     "com.bitwig.extension.api.opensoundcontrol.OscMethodCallback",
+     "com.bitwig.extension.callback.ObjectValueChangedCallback",
+     "com.bitwig.extension.callback.DirectParameterDisplayedValueChangedCallback",
+     "com.bitwig.extension.controller.api.Groove",
+     "com.bitwig.extension.controller.api.Cursor",
+     "com.bitwig.extension.controller.api.Pipe",
+     "com.bitwig.extension.controller.api.ActionCategory",
+     "com.bitwig.extension.Extension",
+     "com.bitwig.extension.api.opensoundcontrol.OscAddressSpace",
+     "com.bitwig.extension.api.MemoryBlock",
+     "com.bitwig.extension.controller.api.ParameterBank",
+     "com.bitwig.extension.controller.api.Scrollable",
+     "com.bitwig.extension.controller.api.TrackBank",
+     "com.bitwig.extension.controller.api.PinnableCursor",
+     "com.bitwig.extension.callback.IndexedStringValueChangedCallback",
+     "com.bitwig.extension.controller.AutoDetectionMidiPortNames",
+     "com.bitwig.extension.controller.api.DeviceLayer",
+     "com.bitwig.extension.api.opensoundcontrol.OscInvalidArgumentTypeException",
+     "com.bitwig.extension.controller.api.UsbPipe",
+     "com.bitwig.extension.controller.api.CursorBrowserFilterColumn",
+     "com.bitwig.extension.controller.api.SourceSelector",
+     "com.bitwig.extension.controller.api.ObjectProxy",
+     "com.bitwig.extension.controller.api.DeviceChain",
+     "com.bitwig.extension.api.opensoundcontrol.OscMessage",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$HintStyle",
+     "com.bitwig.extension.controller.HardwareDeviceMatcherList",
+     "com.bitwig.extension.callback.Callback",
+     "com.bitwig.extension.controller.api.SoloValue",
+     "com.bitwig.extension.controller.api.UsbTransferDirection",
+     "com.bitwig.extension.controller.api.NotificationSettings",
+     "com.bitwig.extension.controller.api.SettableStringValue",
+     "com.bitwig.extension.callback.StringValueChangedCallback",
+     "com.bitwig.extension.controller.api.EnumValue",
+     "com.bitwig.extension.controller.api.BrowserFilterItemBank",
+     "com.bitwig.extension.controller.api.BrowserResultsColumn",
+     "com.bitwig.extension.controller.api.CueMarkerBank",
+     "com.bitwig.extension.controller.api.SettableRangedValue",
+     "com.bitwig.extension.controller.api.Setting",
+     "com.bitwig.extension.controller.api.CursorBrowserFilterItem",
+     "com.bitwig.extension.controller.api.ColorValue",
+     "com.bitwig.extension.controller.api.CursorTrack",
+     "com.bitwig.extension.controller.api.NoteInput$NoteExpression",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$Operator",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$FillRule",
+     "com.bitwig.extension.controller.api.MasterTrack",
+     "com.bitwig.extension.api.opensoundcontrol.OscModule",
+     "com.bitwig.extension.callback.SysexMidiDataReceivedCallback",
+     "com.bitwig.extension.controller.api.SettableEnumValue",
+     "com.bitwig.extension.controller.api.UserControlBank",
+     "com.bitwig.extension.controller.api.ChannelBank",
+     "com.bitwig.extension.controller.api.DoubleValue",
+     "com.bitwig.extension.ExtensionDefinition",
+     "com.bitwig.extension.callback.DataReceivedCallback",
+     "com.bitwig.extension.controller.api.DrumPadBank",
+     "com.bitwig.extension.api.opensoundcontrol.OscNode",
+     "com.bitwig.extension.controller.api.InsertionPoint",
+     "com.bitwig.extension.controller.api.Transport",
+     "com.bitwig.extension.controller.api.ChainSelector",
+     "com.bitwig.extension.callback.IndexedBooleanValueChangedCallback",
+     "com.bitwig.extension.api.graphics.Renderer",
+     "com.bitwig.extension.controller.UsbDeviceMatcher",
+     "com.bitwig.extension.controller.api.CursorChannel",
+     "com.bitwig.extension.controller.UsbInterfaceMatcher",
+     "com.bitwig.extension.controller.api.CursorBrowserItem",
+     "com.bitwig.extension.api.graphics.GradientPattern",
+     "com.bitwig.extension.controller.api.MidiIn",
+     "com.bitwig.extension.controller.api.ClipBrowsingSession",
+     "com.bitwig.extension.callback.IntegerValueChangedCallback",
+     "com.bitwig.extension.controller.api.CursorBrowsingSession",
+     "com.bitwig.extension.controller.api.OutputPipe",
+     "com.bitwig.extension.controller.api.Mixer",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$LineCap",
+     "com.bitwig.extension.controller.api.PrimaryDevice",
+     "com.bitwig.extension.controller.api.HardwareControlType",
+     "com.bitwig.extension.callback.StepDataChangedCallback",
+     "com.bitwig.extension.api.graphics.BitmapFormat",
+     "com.bitwig.extension.controller.api.SettableBeatTimeValue",
+     "com.bitwig.extension.controller.api.Value",
+     "com.bitwig.extension.controller.AutoDetectionMidiPortNamesList",
+     "com.bitwig.extension.api.util.midi.ShortMidiMessage",
+     "com.bitwig.extension.controller.api.UsbInputPipe",
+     "com.bitwig.extension.controller.api.Clip",
+     "com.bitwig.extension.controller.api.BrowserColumn",
+     "com.bitwig.extension.controller.api.Parameter",
+     "com.bitwig.extension.callback.ClipLauncherSlotBankPlaybackStateChangedCallback",
+     "com.bitwig.extension.controller.api.DeviceBank",
+     "com.bitwig.extension.callback.DoubleValueChangedCallback",
+     "com.bitwig.extension.controller.api.Device",
+     "com.bitwig.extension.controller.api.Arranger",
+     "com.bitwig.extension.controller.api.PlayingNoteArrayValue$1",
+     "com.bitwig.extension.controller.api.CursorDeviceFollowMode",
+     "com.bitwig.extension.controller.api.UsbDevice",
+     "com.bitwig.extension.controller.api.SampleBrowsingSession",
+     "com.bitwig.extension.controller.api.Track",
+     "com.bitwig.extension.controller.api.Macro",
+     "com.bitwig.extension.controller.api.MusicBrowsingSession",
+     "com.bitwig.extension.callback.DirectParameterNormalizedValueChangedCallback",
+     "com.bitwig.extension.api.graphics.Path",
+     "com.bitwig.extension.callback.StringArrayValueChangedCallback",
+     "com.bitwig.extension.api.opensoundcontrol.OscIOException",
+     "com.bitwig.extension.controller.api.DrumPad",
+     "com.bitwig.extension.controller.api.CueMarker",
+     "com.bitwig.extension.controller.api.TimeSignatureValue",
+     "com.bitwig.extension.controller.api.NoteLane",
+     "com.bitwig.extension.controller.api.BitwigBrowsingSession",
+     "com.bitwig.extension.callback.ValueChangedCallback",
+     "com.bitwig.extension.callback.IndexedValueChangedCallback",
+     "com.bitwig.extension.controller.api.StringArrayValue",
+     "com.bitwig.extension.controller.UsbConfigurationMatcher",
+     "com.bitwig.extension.controller.api.PlayingNoteArrayValue",
+     "com.bitwig.extension.api.opensoundcontrol.OscPacket",
+     "com.bitwig.extension.controller.api.Send",
+     "com.bitwig.extension.controller.api.ObjectArrayValue"
+    ],
+    "usedTypes": [
+     "com.bitwig.extension.controller.api.ClipLauncherSlotBank",
+     "com.bitwig.extension.controller.api.HardwareDevice",
+     "com.bitwig.extension.api.Color",
+     "com.bitwig.extension.controller.api.SceneBank",
+     "com.bitwig.extension.controller.api.PopupBrowser",
+     "com.bitwig.extension.controller.api.StringValue",
+     "com.bitwig.extension.controller.api.Groove",
+     "com.bitwig.extension.controller.HardwareDeviceMatcher",
+     "com.bitwig.extension.controller.api.BrowserItem",
+     "com.bitwig.extension.controller.api.ActionCategory",
+     "com.bitwig.extension.api.opensoundcontrol.OscAddressSpace",
+     "com.bitwig.extension.api.MemoryBlock",
+     "com.bitwig.extension.controller.api.TrackBank",
+     "com.bitwig.extension.controller.api.DeviceLayer",
+     "com.bitwig.extension.controller.api.DeviceLayerBank",
+     "com.bitwig.extension.controller.api.BrowserFilterColumn",
+     "com.bitwig.extension.controller.api.Preferences",
+     "com.bitwig.extension.controller.api.BrowserFilterItem",
+     "com.bitwig.extension.controller.api.UsbPipe",
+     "com.bitwig.extension.controller.api.Application",
+     "com.bitwig.extension.controller.api.DeviceChain",
+     "com.bitwig.extension.api.opensoundcontrol.OscMessage",
+     "com.bitwig.extension.controller.HardwareDeviceMatcherList",
+     "com.bitwig.extension.controller.api.UsbTransferType",
+     "com.bitwig.extension.controller.api.SoloValue",
+     "com.bitwig.extension.controller.api.UsbTransferDirection",
+     "com.bitwig.extension.controller.api.IntegerValue",
+     "com.bitwig.extension.controller.api.SettableStringValue",
+     "com.bitwig.extension.controller.api.BooleanValue",
+     "com.bitwig.extension.controller.api.Signal",
+     "com.bitwig.extension.controller.api.BrowserResultsColumn",
+     "com.bitwig.extension.controller.api.CueMarkerBank",
+     "com.bitwig.extension.api.opensoundcontrol.OscConnection",
+     "com.bitwig.extension.controller.api.SettableRangedValue",
+     "com.bitwig.extension.controller.api.Setting",
+     "com.bitwig.extension.controller.api.CursorBrowserFilterItem",
+     "com.bitwig.extension.controller.api.ColorValue",
+     "com.bitwig.extension.controller.api.SettableIntegerValue",
+     "com.bitwig.extension.controller.api.CursorTrack",
+     "com.bitwig.extension.controller.api.MasterTrack",
+     "com.bitwig.extension.api.opensoundcontrol.OscModule",
+     "com.bitwig.extension.controller.api.SettableEnumValue",
+     "com.bitwig.extension.api.PlatformType",
+     "com.bitwig.extension.controller.api.DrumPadBank",
+     "com.bitwig.extension.controller.api.Project",
+     "com.bitwig.extension.controller.api.InsertionPoint",
+     "com.bitwig.extension.controller.api.Transport",
+     "com.bitwig.extension.controller.UsbDeviceMatcher",
+     "com.bitwig.extension.controller.UsbInterfaceMatcher",
+     "com.bitwig.extension.controller.api.CursorBrowserItem",
+     "com.bitwig.extension.controller.api.NoteInput",
+     "com.bitwig.extension.api.graphics.GradientPattern",
+     "com.bitwig.extension.controller.api.CursorRemoteControlsPage",
+     "com.bitwig.extension.controller.api.SendBank",
+     "com.bitwig.extension.controller.api.MidiIn",
+     "com.bitwig.extension.controller.api.Bank",
+     "com.bitwig.extension.controller.api.CursorBrowserResultItem",
+     "com.bitwig.extension.controller.api.PlayingNote",
+     "com.bitwig.extension.controller.api.Mixer",
+     "com.bitwig.extension.controller.api.ControllerHost",
+     "com.bitwig.extension.api.graphics.BitmapFormat",
+     "com.bitwig.extension.controller.api.SettableBeatTimeValue",
+     "com.bitwig.extension.controller.api.RangedValue",
+     "com.bitwig.extension.controller.api.Scene",
+     "com.bitwig.extension.controller.api.SettableBooleanValue",
+     "com.bitwig.extension.controller.api.MidiOut",
+     "com.bitwig.extension.api.graphics.Image",
+     "com.bitwig.extension.controller.api.Action",
+     "com.bitwig.extension.controller.api.ClipLauncherSlotOrScene",
+     "com.bitwig.extension.controller.AutoDetectionMidiPortNamesList",
+     "com.bitwig.extension.controller.UsbEndpointMatcher",
+     "com.bitwig.extension.controller.api.BrowserItemBank",
+     "com.bitwig.extension.controller.api.BrowserResultsItemBank",
+     "com.bitwig.extension.api.graphics.GraphicsOutput$AntialiasMode",
+     "com.bitwig.extension.controller.api.UsbInputPipe",
+     "com.bitwig.extension.controller.api.Clip",
+     "com.bitwig.extension.controller.api.Parameter",
+     "com.bitwig.extension.api.graphics.GraphicsOutput",
+     "com.bitwig.extension.controller.api.DeviceBank",
+     "com.bitwig.extension.controller.ControllerExtensionDefinition",
+     "com.bitwig.extension.controller.api.Device",
+     "com.bitwig.extension.controller.api.Arranger",
+     "com.bitwig.extension.controller.api.CursorDeviceFollowMode",
+     "com.bitwig.extension.controller.api.UsbDevice",
+     "com.bitwig.extension.controller.api.Track",
+     "com.bitwig.extension.controller.ControllerExtension",
+     "com.bitwig.extension.controller.api.UsbOutputPipe",
+     "com.bitwig.extension.controller.api.ClipLauncherSlot",
+     "com.bitwig.extension.api.graphics.TextExtents",
+     "com.bitwig.extension.controller.api.CursorDeviceLayer",
+     "com.bitwig.extension.api.graphics.Bitmap",
+     "com.bitwig.extension.controller.api.Channel",
+     "com.bitwig.extension.controller.api.UsbInterface",
+     "com.bitwig.extension.controller.api.DrumPad",
+     "com.bitwig.extension.controller.api.CueMarker",
+     "com.bitwig.extension.controller.api.TimeSignatureValue",
+     "com.bitwig.extension.controller.api.SettableColorValue",
+     "com.bitwig.extension.controller.api.StringArrayValue",
+     "com.bitwig.extension.controller.api.PlayingNoteArrayValue",
+     "com.bitwig.extension.controller.api.Send",
+     "com.bitwig.extension.controller.api.PinnableCursorDevice"
+    ],
+    "usageRatio": 0.45701357466063347,
+    "children": []
+   },
+   {
+    "id": "net.java.dev.jna:jna:jar:5.1.0:compile",
+    "coordinates": "net.java.dev.jna:jna:5.1.0",
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "5.1.0",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 1487481,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "de.mossgrabers:DrivenByMoss:jar:5.8",
+    "allTypes": [
+     "com.sun.jna.Structure$ByValue",
+     "com.sun.jna.NativeString",
+     "com.sun.jna.StructureWriteContext",
+     "com.sun.jna.VarArgsChecker",
+     "com.sun.jna.win32.W32APITypeMapper$1",
+     "com.sun.jna.FromNativeConverter",
+     "com.sun.jna.win32.W32APIOptions$1",
+     "com.sun.jna.win32.W32APIOptions$2",
+     "com.sun.jna.Structure$FFIType$size_t",
+     "com.sun.jna.CallbackResultContext",
+     "com.sun.jna.Native$7",
+     "com.sun.jna.Native$6",
+     "com.sun.jna.Native$5",
+     "com.sun.jna.Pointer$Opaque",
+     "com.sun.jna.ptr.ByReference",
+     "com.sun.jna.WString",
+     "com.sun.jna.LastErrorException",
+     "com.sun.jna.ELFAnalyser$1",
+     "com.sun.jna.Native$4",
+     "com.sun.jna.Native$3",
+     "com.sun.jna.Structure$FieldOrder",
+     "com.sun.jna.Native$2",
+     "com.sun.jna.Native$1",
+     "com.sun.jna.win32.DLLCallback",
+     "com.sun.jna.Union",
+     "com.sun.jna.Native",
+     "com.sun.jna.ptr.DoubleByReference",
+     "com.sun.jna.PointerType",
+     "com.sun.jna.AltCallingConvention",
+     "com.sun.jna.Structure$2",
+     "com.sun.jna.Structure$1",
+     "com.sun.jna.Structure$3",
+     "com.sun.jna.VarArgsChecker$1",
+     "com.sun.jna.Library$Handler$FunctionInfo",
+     "com.sun.jna.TypeConverter",
+     "com.sun.jna.NativeLibrary",
+     "com.sun.jna.win32.W32APIOptions",
+     "com.sun.jna.CallbackReference",
+     "com.sun.jna.CallbackReference$AttachOptions",
+     "com.sun.jna.JNIEnv",
+     "com.sun.jna.FunctionMapper",
+     "com.sun.jna.win32.StdCallFunctionMapper",
+     "com.sun.jna.FromNativeContext",
+     "com.sun.jna.Pointer$1",
+     "com.sun.jna.Structure$AutoAllocated",
+     "com.sun.jna.Function$PostCallRead",
+     "com.sun.jna.MethodParameterContext",
+     "com.sun.jna.ToNativeConverter",
+     "com.sun.jna.FunctionParameterContext",
+     "com.sun.jna.Structure",
+     "com.sun.jna.Structure$ByReference",
+     "com.sun.jna.NativeLibrary$2",
+     "com.sun.jna.NativeLibrary$1",
+     "com.sun.jna.ptr.ShortByReference",
+     "com.sun.jna.Structure$FFIType$FFITypes",
+     "com.sun.jna.NativeString$StringMemory",
+     "com.sun.jna.Pointer",
+     "com.sun.jna.Library$Handler",
+     "com.sun.jna.Memory$SharedMemory",
+     "com.sun.jna.Native$AWT",
+     "com.sun.jna.DefaultTypeMapper",
+     "com.sun.jna.WeakMemoryHolder",
+     "com.sun.jna.Native$ffi_callback",
+     "com.sun.jna.StringArray",
+     "com.sun.jna.win32.W32APITypeMapper$2",
+     "com.sun.jna.ELFAnalyser$ArmAeabiAttributesTag$ParameterType",
+     "com.sun.jna.FunctionResultContext",
+     "com.sun.jna.Callback$UncaughtExceptionHandler",
+     "com.sun.jna.ELFAnalyser$ELFSectionHeaderEntry",
+     "com.sun.jna.NativeLong",
+     "com.sun.jna.TypeMapper",
+     "com.sun.jna.Function",
+     "com.sun.jna.Function$NativeMappedArray",
+     "com.sun.jna.Callback",
+     "com.sun.jna.IntegerType",
+     "com.sun.jna.win32.StdCallLibrary",
+     "com.sun.jna.win32.W32APITypeMapper",
+     "com.sun.jna.ptr.ByteByReference",
+     "com.sun.jna.ELFAnalyser$ELFSectionHeaders",
+     "com.sun.jna.Library",
+     "com.sun.jna.Native$Buffers",
+     "com.sun.jna.win32.W32APIFunctionMapper",
+     "com.sun.jna.NativeMappedConverter",
+     "com.sun.jna.VarArgsChecker$RealVarArgsChecker",
+     "com.sun.jna.CallbackThreadInitializer",
+     "com.sun.jna.ptr.PointerByReference",
+     "com.sun.jna.Memory",
+     "com.sun.jna.DefaultTypeMapper$Entry",
+     "com.sun.jna.MethodResultContext",
+     "com.sun.jna.VarArgsChecker$NoVarArgsChecker",
+     "com.sun.jna.Structure$LayoutInfo",
+     "com.sun.jna.Platform",
+     "com.sun.jna.ToNativeContext",
+     "com.sun.jna.ptr.IntByReference",
+     "com.sun.jna.win32.StdCall",
+     "com.sun.jna.CallbackProxy",
+     "com.sun.jna.Function$PointerArray",
+     "com.sun.jna.StructureReadContext",
+     "com.sun.jna.Structure$StructureSet",
+     "com.sun.jna.ptr.LongByReference",
+     "com.sun.jna.Structure$StructField",
+     "com.sun.jna.ptr.NativeLongByReference",
+     "com.sun.jna.InvocationMapper",
+     "com.sun.jna.CallbackReference$DefaultCallbackProxy",
+     "com.sun.jna.CallbackReference$NativeFunctionHandler",
+     "com.sun.jna.Klass",
+     "com.sun.jna.CallbackParameterContext",
+     "com.sun.jna.win32.StdCallLibrary$StdCallCallback",
+     "com.sun.jna.NativeMapped",
+     "com.sun.jna.ptr.FloatByReference",
+     "com.sun.jna.ELFAnalyser",
+     "com.sun.jna.Structure$FFIType",
+     "com.sun.jna.ELFAnalyser$ArmAeabiAttributesTag",
+     "com.sun.jna.Version"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": []
+   },
+   {
+    "id": "purejavahidapi:purejavahidapi:jar:0.0.13:compile",
+    "coordinates": "purejavahidapi:purejavahidapi:0.0.13",
+    "groupId": "purejavahidapi",
+    "artifactId": "purejavahidapi",
+    "version": "0.0.13",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 177535,
+    "type": "direct",
+    "status": "used",
+    "parent": "de.mossgrabers:DrivenByMoss:jar:5.8",
+    "allTypes": [
+     "purejavahidapi.shared.SyncPoint",
+     "purejavahidapi.hidparser.HidParserTestData",
+     "purejavahidapi.windows.SetupApiLibrary$SP_DEVICE_INTERFACE_DETAIL_DATA_A",
+     "purejavahidapi.linux.LinuxBackend",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFUUID",
+     "purejavahidapi.windows.HidLibrary$HIDP_VALUE_CAPS_NotRange",
+     "purejavahidapi.windows.SetupApiLibrary$GUID",
+     "purejavahidapi.macosx.HidDevice$1",
+     "purejavahidapi.windows.WindowsBackend$EnumerateCallback",
+     "purejavahidapi.dataparser.Capability$Type",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDElementRef",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFMutableDictionaryRef",
+     "purejavahidapi.windows.HidLibrary$HIDP_LINK_COLLECTION_NODE",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$io_object_t",
+     "purejavahidapi.windows.HidLibrary$HIDP_CAPS_union",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFStringRef",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDevRequest",
+     "purejavahidapi.hidparser.Collection",
+     "purejavahidapi.windows.SetupApiLibrary$SetupApiInterface",
+     "purejavahidapi.hidparser.HidParser$LocalTag",
+     "purejavahidapi.linux.UdevLibrary",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFUUIDRef",
+     "purejavahidapi.windows.HidLibrary$HIDP_VALUE_CAPS",
+     "purejavahidapi.windows.WinDef$SECURITY_ATTRIBUTES",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320$DeviceRequestCallback",
+     "purejavahidapi.PureJavaHidApi",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDDeviceRef",
+     "purejavahidapi.hidparser.HidParser$ItemType",
+     "purejavahidapi.windows.HidLibrary$HIDP_REPORT_TYPE",
+     "purejavahidapi.linux.CLibrary$pollfd$ByReference",
+     "purejavahidapi.windows.HidLibrary$HIDP_VALUE_CAPS_Range",
+     "purejavahidapi.hidparser.HidParser$Local",
+     "purejavahidapi.macosx.CoreFoundationLibrary",
+     "purejavahidapi.windows.User32Library",
+     "purejavahidapi.dataparser.Capability$Value",
+     "purejavahidapi.linux.LinuxBackend$1",
+     "purejavahidapi.windows.WinDef$UINT_PTR",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOCFPlugInInterface$QueryInterfaceCallback",
+     "purejavahidapi.shared.DataDump",
+     "purejavahidapi.HidDevice",
+     "purejavahidapi.shared.Backend",
+     "purejavahidapi.linux.UdevLibrary$UdevInterface",
+     "purejavahidapi.windows.WtsApi32Library$WtsApi32Interface",
+     "purejavahidapi.linux.UdevLibrary$udev",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$io_service_t",
+     "purejavahidapi.hidparser.HidParser$MainTag",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFStringRef_global",
+     "purejavahidapi.linux.UdevLibrary$device_handle",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRunLoopRef",
+     "purejavahidapi.windows.CfgmgrLibrary$CfgmgrInterface",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOMemoryDescriptor",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFArrayRef",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$mach_port_t",
+     "purejavahidapi.windows.HidLibrary$HIDP_BUTTON_CAPS",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320$DummyCallback",
+     "purejavahidapi.windows.DeviceRemovalHandler",
+     "purejavahidapi.windows.WinDef$DEV_BROADCAST_HDR",
+     "purejavahidapi.macosx.IOHIDManagerLibrary",
+     "purejavahidapi.windows.Kernel32Library",
+     "purejavahidapi.linux.UdevLibrary$udev_monitor",
+     "purejavahidapi.linux.IOCtl",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$io_cf_plugin_ref_t",
+     "purejavahidapi.macosx.HidDevice$HidDeviceRemovalCallback",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFTypeRef",
+     "purejavahidapi.windows.WinDef$POINT",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOCFPlugInInterface$AddRefCallback",
+     "purejavahidapi.macosx.MacOsXBackend",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRange$ByReference",
+     "purejavahidapi.windows.HidLibrary$HidPDataIndexedCaps",
+     "purejavahidapi.windows.SetupApiLibrary$HDEVINFO",
+     "purejavahidapi.windows.WinDef$HICON",
+     "purejavahidapi.windows.WinDef$LRESULT",
+     "purejavahidapi.HidDeviceInfo",
+     "purejavahidapi.hidparser.Report",
+     "purejavahidapi.linux.CLibrary$CLibraryInterface",
+     "purejavahidapi.linux.CLibrary$pollfd",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320$ReleaseCallback",
+     "purejavahidapi.windows.WindowsBackend",
+     "purejavahidapi.linux.UdevLibrary$udev_device",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRunLoopSourceRef",
+     "purejavahidapi.windows.User32Library$HDEVNOTIFY",
+     "purejavahidapi.dataparser.ParsedReportDataItem",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFUUID$ByValue",
+     "purejavahidapi.windows.WinDef$HCURSOR",
+     "purejavahidapi.windows.WinDef$DEV_BROADCAST_DEVICEINTERFACE",
+     "purejavahidapi.windows.HidLibrary$HIDP_PREPARSED_DATA",
+     "purejavahidapi.windows.SetupApiLibrary$SP_DEVINFO_DATA",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDDeviceCallback",
+     "purejavahidapi.windows.HidLibrary$HIDP_CAPS",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRange",
+     "purejavahidapi.windows.HidDevice$1",
+     "purejavahidapi.hidparser.HidParser$GlobalTag",
+     "purejavahidapi.windows.User32Library$WNDCLASSEX$ByReference",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$CFDictionaryRef",
+     "purejavahidapi.windows.WinDef$LPARAM",
+     "purejavahidapi.windows.HidLibrary$HIDP_STATUS",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOCFPlugInInterface$DeviceRequestCallback",
+     "purejavahidapi.windows.Kernel32Library$Kernel32Interface",
+     "purejavahidapi.windows.WinDef$HWND",
+     "purejavahidapi.hidparser.HidParser",
+     "purejavahidapi.windows.HidDevice",
+     "purejavahidapi.windows.WinDef$WORD",
+     "purejavahidapi.hidparser.HidParser$Global",
+     "purejavahidapi.windows.WinDef$LONG_PTR",
+     "purejavahidapi.windows.HidLibrary$HidLibraryInterface",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRange$ByValue",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CoreFoundationLibraryInterface",
+     "purejavahidapi.windows.WinDef$HMENU",
+     "purejavahidapi.macosx.HidDeviceInfo",
+     "purejavahidapi.hidparser.HidParser$Item",
+     "purejavahidapi.macosx.HidDevice$PerformSignalCallback",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFAllocatorRef",
+     "purejavahidapi.InputReportListener",
+     "purejavahidapi.linux.HidDeviceInfo",
+     "purejavahidapi.windows.WinDef$OVERLAPPED",
+     "purejavahidapi.macosx.HidDevice",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOCFPlugInInterface",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOCFPlugInInterface$ReleaseCallback",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFAllocator_global",
+     "purejavahidapi.windows.WinDef$WindowProc",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceRef",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320$AddRefCallback",
+     "purejavahidapi.linux.UdevLibrary$hidraw_report_descriptor",
+     "purejavahidapi.windows.WinDef$HANDLE",
+     "purejavahidapi.dataparser.HidDataParser",
+     "purejavahidapi.windows.User32Library$WNDCLASSEX",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320$QueryInterfaceCallback",
+     "purejavahidapi.windows.HidDeviceInfo",
+     "purejavahidapi.windows.WinDef$HMODULE",
+     "purejavahidapi.linux.CLibrary",
+     "purejavahidapi.linux.HidDevice",
+     "purejavahidapi.windows.User32Library$MSG",
+     "purejavahidapi.windows.WinDef$HBRUSH",
+     "purejavahidapi.macosx.HidDevice$HidReportCallback",
+     "purejavahidapi.windows.SetupApiLibrary",
+     "purejavahidapi.linux.UdevLibrary$udev_list_entry",
+     "purejavahidapi.hidparser.Field",
+     "purejavahidapi.dataparser.Capability",
+     "purejavahidapi.windows.WinDef",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRunLoopPerformCallBack",
+     "purejavahidapi.windows.WinDef$PVOID",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDManagerRef",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDManagerLib",
+     "purejavahidapi.DeviceRemovalListener",
+     "purejavahidapi.linux.HidDevice$1",
+     "purejavahidapi.linux.HIDRAW",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFNumber",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFRunLoopSourceContext",
+     "purejavahidapi.windows.HidLibrary$HIDD_ATTRIBUTES",
+     "purejavahidapi.windows.WinDef$ATOM",
+     "purejavahidapi.dataparser.Capability$ButtonRange",
+     "purejavahidapi.windows.WinDef$LPVOID",
+     "purejavahidapi.macosx.CoreFoundationLibrary$CFSetRef",
+     "purejavahidapi.windows.User32Library$User32Interface",
+     "purejavahidapi.windows.SetupApiLibrary$SP_DEVICE_INTERFACE_DATA",
+     "purejavahidapi.linux.UdevLibrary$udev_enumerate",
+     "purejavahidapi.windows.HidLibrary",
+     "purejavahidapi.windows.WinDef$WPARAM",
+     "purejavahidapi.windows.CfgmgrLibrary",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOUSBDeviceInterface320",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$io_iterator_t",
+     "purejavahidapi.windows.WinDef$HINSTANCE",
+     "purejavahidapi.macosx.IOHIDManagerLibrary$IOHIDReportCallback",
+     "purejavahidapi.windows.DeviceRemovalHandler$1",
+     "purejavahidapi.windows.WtsApi32Library"
+    ],
+    "usedTypes": [
+     "purejavahidapi.PureJavaHidApi",
+     "purejavahidapi.HidDeviceInfo",
+     "purejavahidapi.HidDevice"
+    ],
+    "usageRatio": 0.01818181818181818,
+    "children": [
+     {
+      "id": "net.java.dev.jna:jna:jar:5.2.0:compile",
+      "coordinates": "net.java.dev.jna:jna:5.2.0",
+      "groupId": "net.java.dev.jna",
+      "artifactId": "jna",
+      "version": "5.2.0",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": true,
+      "type": "unknown",
+      "status": "unknown",
+      "parent": "purejavahidapi:purejavahidapi:jar:0.0.13:compile",
+      "allTypes": [],
+      "usedTypes": [],
+      "usageRatio": -1.0,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}

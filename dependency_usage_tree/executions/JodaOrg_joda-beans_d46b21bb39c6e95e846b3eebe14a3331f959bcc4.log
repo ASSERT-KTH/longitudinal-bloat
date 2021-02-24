@@ -1,0 +1,13 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.joda:joda-beans:jar:1.7
++- org.joda:joda-convert:jar:1.7:compile
++- com.google.guava:guava:jar:16.0.1:compile
++- org.joda:joda-collect:jar:0.7:compile
+|  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
++- org.mongodb:mongo-java-driver:jar:1.4:compile
++- org.freemarker:freemarker:jar:2.3.15:compile
+\- org.testng:testng:jar:6.8.5:test
+   +- junit:junit:jar:4.10:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+   \- com.beust:jcommander:jar:1.27:test
+

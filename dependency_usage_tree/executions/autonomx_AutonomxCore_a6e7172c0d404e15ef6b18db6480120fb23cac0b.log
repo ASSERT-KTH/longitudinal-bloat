@@ -1,0 +1,405 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.autonomx:autonomxCore:jar:1.0.4
++- com.google.guava:guava:jar:22.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- io.github.bonigarcia:webdrivermanager:jar:3.3.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- (com.google.code.gson:gson:jar:2.8.5:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.8.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.10:compile - omitted for conflict with 4.4.9)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- org.rauschig:jarchivelib:jar:1.0.0:compile
+|  |  \- org.apache.commons:commons-compress:jar:1.18:compile
+|  \- org.jsoup:jsoup:jar:1.11.3:compile
++- org.seleniumhq.selenium:selenium-java:jar:3.14.0:compile
+|  +- org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-support:jar:3.14.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.14.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for conflict with 4.4.10)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.14.1:compile - omitted for duplicate)
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- (com.google.guava:guava:jar:25.0-jre:compile - omitted for conflict with 22.0)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.10.0:compile
+|  |  \- (com.squareup.okio:okio:jar:1.14.0:compile - omitted for conflict with 1.14.1)
+|  \- com.squareup.okio:okio:jar:1.14.1:compile
++- log4j:log4j:jar:1.2.17:compile
++- org.slf4j:slf4j-log4j12:jar:1.8.0-beta0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.8.0-beta0:compile - omitted for conflict with 1.7.25)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.8.0-beta0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.8.0-beta0:compile - omitted for conflict with 1.7.25)
++- com.aventstack:extentreports:jar:4.0.9:compile
+|  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  +- org.mongodb:mongodb-driver:jar:3.3.0:compile
+|  |  +- (org.mongodb:bson:jar:3.3.0:compile - omitted for duplicate)
+|  |  \- org.mongodb:mongodb-driver-core:jar:3.3.0:compile
+|  |     \- (org.mongodb:bson:jar:3.3.0:compile - omitted for duplicate)
+|  +- org.mongodb:bson:jar:3.3.0:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.5.6)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.5.6)
+|  \- (com.google.code.gson:gson:jar:2.8.5:compile - omitted for duplicate)
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- io.appium:java-client:jar:6.1.0:compile
+|  +- (org.seleniumhq.selenium:selenium-java:jar:3.12.0:compile - omitted for conflict with 3.14.0)
+|  +- (org.seleniumhq.selenium:selenium-support:jar:3.12.0:compile - omitted for conflict with 3.14.0)
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for conflict with 3.14.0)
+|  +- (com.google.code.gson:gson:jar:2.8.4:compile - omitted for conflict with 2.8.5)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for conflict with 4.5.6)
+|  +- cglib:cglib:jar:3.2.6:compile
+|  |  +- org.ow2.asm:asm:jar:6.0:compile
+|  |  \- org.apache.ant:ant:jar:1.9.6:compile
+|  |     \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+|  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.8.1)
+|  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:5.0.5.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:5.0.5.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:5.0.5.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:5.0.5.RELEASE:compile
+|  |  |  \- org.springframework:spring-jcl:jar:5.0.5.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:5.0.5.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  +- org.aspectj:aspectjweaver:jar:1.9.1:compile
+|  \- org.openpnp:opencv:jar:3.2.0-1:compile
++- org.apache.poi:poi-ooxml:jar:3.9:compile
+|  +- org.apache.poi:poi:jar:3.9:compile
+|  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.10)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.9:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  \- dom4j:dom4j:jar:1.6.1:compile
+|     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.4.01)
++- xml-apis:xml-apis:jar:1.4.01:compile
++- net.sf.opencsv:opencsv:jar:2.3:compile
++- org.apache.commons:commons-csv:jar:1.5:compile
++- io.rest-assured:rest-assured:jar:3.1.1:compile
+|  +- org.codehaus.groovy:groovy:jar:2.4.12:compile
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.12:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for conflict with 4.5.6)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.1:compile - omitted for conflict with 4.5.2)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+|  +- io.rest-assured:json-path:jar:3.1.1:compile
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.4.12:compile
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |  \- io.rest-assured:rest-assured-common:jar:3.1.1:compile
+|  |     +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |     \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.8.1)
+|  \- io.rest-assured:xml-path:jar:3.1.1:compile
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.4.12:compile - omitted for duplicate)
+|     +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|     +- (io.rest-assured:rest-assured-common:jar:3.1.1:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.8.1)
+|     +- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile - omitted for duplicate)
+|     \- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- org.skyscreamer:jsonassert:jar:1.5.0:compile
+|  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
++- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  +- net.minidev:json-smart:jar:2.3:compile
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 6.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.hamcrest:hamcrest-all:jar:1.3:compile
++- com.microsoft.azure:azure-storage:jar:8.0.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.8.1)
+|  \- com.microsoft.azure:azure-keyvault-core:jar:1.0.0:compile
+|     +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.8.1)
+|     \- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 22.0)
++- com.google.code.gson:gson:jar:2.8.5:compile
++- org.codehaus.groovy:groovy-all:jar:2.4.12:compile
++- org.json:json:jar:20180813:compile
++- com.xamarin.testcloud:appium:jar:1.0:compile
+|  +- (io.appium:java-client:jar:3.3.0:compile - omitted for conflict with 6.1.0)
+|  +- junit:junit:jar:4.12:compile
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- net.sourceforge.streamsupport:streamsupport:jar:1.5.1:compile
+|  +- org.javassist:javassist:jar:3.20.0-GA:compile
+|  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
++- com.microsoft.appcenter:appium-test-extension:jar:1.0:compile
+|  +- (io.appium:java-client:jar:3.3.0:compile - omitted for conflict with 6.1.0)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (net.sourceforge.streamsupport:streamsupport:jar:1.5.1:compile - omitted for duplicate)
+|  \- (org.javassist:javassist:jar:3.20.0-GA:compile - omitted for duplicate)
++- org.apache.httpcomponents:fluent-hc:jar:4.5.3:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for conflict with 4.5.6)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- org.testng:testng:jar:6.14.3:compile
+|  +- com.beust:jcommander:jar:1.72:compile
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile
++- de.dfki.mary:marytts-common:jar:5.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for conflict with 2.6)
+|  +- (log4j:log4j:jar:1.2.16:compile - omitted for conflict with 1.2.17)
+|  +- com.twmacinta:fast-md5:jar:2.7.1:compile
+|  \- (org.codehaus.groovy:groovy-all:jar:2.4.5:compile - omitted for conflict with 2.4.12)
++- de.dfki.mary:marytts-runtime:jar:5.2:compile
+|  +- (de.dfki.mary:marytts-common:jar:5.2:compile - omitted for duplicate)
+|  +- de.dfki.mary:marytts-signalproc:jar:5.2:compile
+|  |  +- (de.dfki.mary:marytts-common:jar:5.2:compile - omitted for duplicate)
+|  |  +- gov.nist.math:Jampack:jar:1.0:compile
+|  |  +- gov.nist.math:jama:jar:1.0.3:compile
+|  |  \- org.swinglabs:swing-layout:jar:1.0.3:compile
+|  +- com.ibm.icu:icu4j:jar:54.1.1:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- de.dfki.mary:emotionml-checker-java:jar:1.1:compile
+|  +- de.dfki.lt.jtok:jtok-core:jar:1.9.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.25)
+|  |  +- (log4j:log4j:jar:1.2.16:runtime - omitted for conflict with 1.2.17)
+|  |  \- (org.slf4j:slf4j-log4j12:jar:1.6.1:runtime - omitted for conflict with 1.8.0-beta0)
+|  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for conflict with 22.0)
+|  +- net.sf.trove4j:trove4j:jar:2.0.2:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.1:compile - omitted for conflict with 4.4.9)
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.1:compile
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.1:compile - omitted for conflict with 4.4.9)
+|  +- org.apache.opennlp:opennlp-maxent:jar:3.0.3:compile
+|  +- org.apache.opennlp:opennlp-tools:jar:1.5.3:compile
+|  |  +- (org.apache.opennlp:opennlp-maxent:jar:3.0.3:compile - omitted for duplicate)
+|  |  \- net.sf.jwordnet:jwnl:jar:1.3.3:compile
+|  \- org.hsqldb:hsqldb:jar:2.0.0:compile
++- de.dfki.mary:voice-dfki-prudence-hsmm:jar:5.2:compile
+|  +- de.dfki.mary:marytts-lang-en:jar:5.2:runtime
+|  |  +- (de.dfki.mary:marytts-common:jar:5.2:runtime - omitted for duplicate)
+|  |  +- (de.dfki.mary:marytts-signalproc:jar:5.2:runtime - omitted for duplicate)
+|  |  \- (de.dfki.mary:marytts-runtime:jar:5.2:runtime - omitted for duplicate)
+|  \- (de.dfki.mary:marytts-runtime:jar:5.2:runtime - omitted for duplicate)
++- com.ibm.watson.developer_cloud:java-sdk:jar:6.2.0:compile
+|  +- com.ibm.watson.developer_cloud:assistant:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:conversation:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:core:jar:6.2.0:compile
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.8.0:compile - omitted for conflict with 3.10.0)
+|  |  +- com.squareup.okhttp3:logging-interceptor:jar:3.8.0:compile
+|  |  |  \- (com.squareup.okhttp3:okhttp:jar:3.8.0:compile - omitted for conflict with 3.10.0)
+|  |  +- com.squareup.okhttp3:okhttp-urlconnection:jar:3.8.0:compile
+|  |  |  \- (com.squareup.okhttp3:okhttp:jar:3.8.0:compile - omitted for conflict with 3.10.0)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for conflict with 2.8.5)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.8.1)
+|  |  \- org.glassfish.jersey.bundles.repackaged:jersey-jsr166e:jar:2.25.1:compile
+|  +- com.ibm.watson.developer_cloud:discovery:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:language-translator:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:natural-language-classifier:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:natural-language-understanding:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:personality-insights:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:speech-to-text:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:text-to-speech:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  +- com.ibm.watson.developer_cloud:tone-analyzer:jar:6.2.0:compile
+|  |  \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
+|  \- com.ibm.watson.developer_cloud:visual-recognition:jar:6.2.0:compile
+|     \- (com.ibm.watson.developer_cloud:core:jar:6.2.0:compile - omitted for duplicate)
++- postgresql:postgresql:jar:9.1-901-1.jdbc4:compile
++- com.github.allbegray:slack-api:jar:v1.6.0.RELEASE:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for conflict with 2.9.4)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.3.6:compile - omitted for conflict with 4.5.2)
+|  \- org.asynchttpclient:async-http-client:jar:2.0.5:compile
+|     +- io.netty:netty-codec-http:jar:4.0.36.Final:compile
+|     |  +- io.netty:netty-codec:jar:4.0.36.Final:compile
+|     |  |  \- (io.netty:netty-transport:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |  \- io.netty:netty-handler:jar:4.0.36.Final:compile
+|     |     +- io.netty:netty-buffer:jar:4.0.36.Final:compile
+|     |     |  \- (io.netty:netty-common:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |     +- (io.netty:netty-transport:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |     \- (io.netty:netty-codec:jar:4.0.36.Final:compile - omitted for duplicate)
+|     +- org.asynchttpclient:netty-resolver-dns:jar:2.0.5:compile
+|     |  +- org.asynchttpclient:netty-resolver:jar:2.0.5:compile
+|     |  |  +- io.netty:netty-common:jar:4.0.36.Final:compile
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|     |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.5:compile
+|     |  |  +- (io.netty:netty-codec:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|     |  +- io.netty:netty-transport:jar:4.0.36.Final:compile
+|     |  |  \- (io.netty:netty-buffer:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|     +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|     +- com.typesafe.netty:netty-reactive-streams:jar:1.0.6:compile
+|     |  +- (io.netty:netty-handler:jar:4.0.36.Final:compile - omitted for duplicate)
+|     |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|     +- (org.javassist:javassist:jar:3.20.0-GA:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
++- org.zeroturnaround:zt-zip:jar:1.13:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.25)
++- com.sikulix:sikulixapi:jar:1.1.4-SNAPSHOT:compile
+|  +- com.sikulix:sikulix2tigervnc:jar:1.1.4:compile
+|  +- commons-cli:commons-cli:jar:1.4:compile
+|  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  +- net.java.dev.jna:jna-platform:jar:5.4.0:compile
+|  |  \- (net.java.dev.jna:jna:jar:5.4.0:compile - omitted for conflict with 4.1.0)
+|  +- (org.reflections:reflections:jar:0.9.11:compile - omitted for conflict with 0.9.10)
+|  +- (net.sourceforge.tess4j:tess4j:jar:4.4.1:compile - omitted for conflict with 4.3.0)
+|  \- org.slf4j:slf4j-nop:jar:1.7.28:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for conflict with 1.7.25)
++- net.sourceforge.tess4j:tess4j:jar:4.3.0:compile
+|  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- com.github.jai-imageio:jai-imageio-core:jar:1.4.0:compile
+|  +- org.ghost4j:ghost4j:jar:1.0.1:compile
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:1.4:compile
+|  |  |  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.6)
+|  |  |  \- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.2)
+|  |  \- com.lowagie:itext:jar:2.1.7:compile
+|  +- org.apache.pdfbox:pdfbox:jar:2.0.12:compile
+|  |  +- org.apache.pdfbox:fontbox:jar:2.0.12:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.apache.pdfbox:pdfbox-tools:jar:2.0.12:compile
+|  |  \- org.apache.pdfbox:pdfbox-debugger:jar:2.0.12:compile
+|  |     \- (org.apache.pdfbox:pdfbox:jar:2.0.12:compile - omitted for duplicate)
+|  +- org.apache.pdfbox:jbig2-imageio:jar:3.0.2:compile
+|  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  +- net.sourceforge.lept4j:lept4j:jar:1.10.0:compile
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  |  \- (com.github.jai-imageio:jai-imageio-core:jar:1.4.0:compile - omitted for duplicate)
+|  +- org.jboss:jboss-vfs:jar:3.2.14.Final:compile
+|  |  \- org.jboss.logging:jboss-logging:jar:3.1.4.GA:compile
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:compile - omitted for conflict with 1.8.0-beta0)
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.microsoft.azure:azure-servicebus:jar:1.1.0:compile
+|  +- org.apache.qpid:proton-j:jar:0.22.0:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.53:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.53:compile
+|  \- (org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile - omitted for conflict with 1.7.25)
++- org.xmlunit:xmlunit-matchers:jar:2.3.0:compile
+|  +- org.xmlunit:xmlunit-core:jar:2.3.0:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 22.0)
+|  +- (org.javassist:javassist:jar:3.19.0-GA:compile - omitted for conflict with 3.20.0-GA)
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
+\- com.google.auto.service:auto-service:jar:1.0-rc4:compile
+   +- com.google.auto:auto-common:jar:0.8:compile
+   |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 22.0)
+   \- (com.google.guava:guava:jar:23.5-jre:compile - omitted for conflict with 22.0)
+

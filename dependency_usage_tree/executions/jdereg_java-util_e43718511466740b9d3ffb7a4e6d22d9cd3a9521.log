@@ -1,0 +1,16 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+[ERROR] Command 'cd /tmp/tmpm9usgdz2/java-util; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jdereg_java-util/e43718511466740b9d3ffb7a4e6d22d9cd3a9521/depClean.log 2>&1' returned non-zero exit status 1.
+com.cedarsoftware:java-util:jar:1.8.4
++- commons-logging:commons-logging:jar:1.1.1:compile
++- com.cedarsoftware:json-io:jar:2.4.5:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpm9usgdz2/java-util; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jdereg_java-util/e43718511466740b9d3ffb7a4e6d22d9cd3a9521/depClean.log 2>&1' returned non-zero exit status 1.

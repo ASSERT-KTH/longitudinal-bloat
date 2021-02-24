@@ -1,0 +1,23 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+quickdt:quickdt:jar:0.1.6.3
++- net.sf.supercsv:super-csv:jar:2.1.0:compile
++- org.apache.commons:commons-math3:jar:3.2:compile
++- com.uprizer.sensearray:freetools:jar:1.10:compile
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  \- (com.google.guava:guava:jar:13.0:compile - omitted for conflict with 15.0)
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- ch.qos.logback:logback-core:jar:1.1.1:compile
++- ch.qos.logback:logback-classic:jar:1.1.1:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- com.google.guava:guava:jar:15.0:compile
++- org.javatuples:javatuples:jar:1.2:compile
++- org.testng:testng:jar:6.8.7:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.12:test
+\- com.googlecode.json-simple:json-simple:jar:1.1.1:test
+   \- (junit:junit:jar:4.10:test - omitted for duplicate)
+

@@ -1,0 +1,13 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Unable to correctly install GoldenGnu/jeveassets
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 33, in clone
+    self.pom = PomExtractor(self.path)
+  File "/home/jdbl/core/PomExtractor.py", line 55, in __init__
+    f = xml.parse(p)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: unbound prefix: line 81, column 6

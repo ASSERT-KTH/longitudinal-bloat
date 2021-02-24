@@ -1,0 +1,15 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.fasterxml:jackson-xml-databind:bundle:0.6.0
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.0:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.8.0:compile
++- org.codehaus.jackson:jackson-xc:jar:1.8.0:compile
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.0:compile - omitted for duplicate)
+|  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.0:compile - omitted for duplicate)
++- javax.xml.stream:stax-api:jar:1.0-2:provided (scope not updated to compile)
++- org.codehaus.woodstox:stax2-api:jar:3.1.0:compile
+|  \- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for duplicate)
++- junit:junit:jar:4.8.1:test
+\- org.codehaus.woodstox:woodstox-core-asl:jar:4.1.0:test
+   +- (javax.xml.stream:stax-api:jar:1.0-2:test - omitted for duplicate)
+   \- (org.codehaus.woodstox:stax2-api:jar:3.1.0:test - omitted for duplicate)
+

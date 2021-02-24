@@ -1,0 +1,84 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 33, in clone
+    self.pom = PomExtractor(self.path)
+  File "/home/jdbl/core/PomExtractor.py", line 55, in __init__
+    f = xml.parse(p)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: unbound prefix: line 81, column 6
+net.nikr:jeveassets:jar:6.6.1
++- net.troja.eve:eve-esi:jar:4.0.0:compile
+|  +- io.swagger:swagger-annotations:jar:1.5.22:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.14.2:compile
+|  |  \- com.squareup.okio:okio:jar:1.17.2:compile
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.14.2:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.14.2:compile - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.8.5:compile
+|  +- io.gsonfire:gson-fire:jar:1.8.3:compile
+|  |  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for conflict with 2.8.5)
+|  +- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:jar:1.0.1:compile
+|  |  +- org.apache.oltu.oauth2:org.apache.oltu.oauth2.common:jar:1.0.1:compile
+|  |  |  +- org.json:json:jar:20140107:compile
+|  |  |  +- commons-codec:commons-codec:jar:1.9:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.25)
+|  +- org.apache.commons:commons-lang3:jar:3.9:compile
+|  \- javax.annotation:jsr250-api:jar:1.0:compile
++- net.nikr.eve:contracts-pricing:jar:2.0.0:compile
+|  +- (io.swagger:swagger-annotations:jar:1.5.22:compile - omitted for duplicate)
+|  +- (com.squareup.okhttp3:okhttp:jar:3.14.0:compile - omitted for conflict with 3.14.2)
+|  +- (com.squareup.okhttp3:logging-interceptor:jar:3.14.0:compile - omitted for conflict with 3.14.2)
+|  +- (com.google.code.gson:gson:jar:2.8.5:compile - omitted for duplicate)
+|  +- (io.gsonfire:gson-fire:jar:1.8.3:compile - omitted for duplicate)
+|  +- (org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:jar:1.0.1:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.8.1:compile - omitted for conflict with 3.9)
++- uk.me.candle:pricing:jar:2.1.2:compile
+|  +- (javax.xml.bind:jaxb-api:jar:2.3.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- (com.google.code.gson:gson:jar:2.8.5:compile - omitted for duplicate)
++- uk.me.candle:routing:jar:2.0.0:compile
+|  +- uk.me.candle:graph:jar:2.0.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
++- uk.me.candle:translations:jar:3.0.0:compile
+|  +- org.ow2.asm:asm:jar:7.1:compile
+|  +- com.google.guava:guava:jar:r09:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.25)
++- apple.dts.samplecode:osxadapter:jar:1.1.0:compile
++- com.glazedlists:glazedlists:jar:1.11.0:compile
++- net.sf.supercsv:super-csv:jar:2.4.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.jfree:jfreechart:jar:1.5.0:compile
++- com.github.lgooddatepicker:LGoodDatePicker:jar:10.2.3:compile
++- org.xerial:sqlite-jdbc:jar:3.23.1:compile
++- javax.xml.bind:jaxb-api:jar:2.3.0:compile
++- com.sun.activation:javax.activation:jar:1.2.0:compile
++- org.dom4j:dom4j:jar:2.1.3:compile
++- jaxen:jaxen:jar:1.1.6:compile
++- net.java.dev.jna:jna-platform:jar:4.5.2:compile
+|  \- net.java.dev.jna:jna:jar:4.5.2:compile
+\- com.formdev:flatlaf:jar:0.36:compile
+

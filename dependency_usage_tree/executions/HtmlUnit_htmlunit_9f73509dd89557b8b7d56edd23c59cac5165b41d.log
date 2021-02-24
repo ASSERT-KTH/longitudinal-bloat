@@ -1,0 +1,124 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.sourceforge.htmlunit:htmlunit:jar:2.41.0
++- xalan:xalan:jar:2.7.2:compile
+|  \- xalan:serializer:jar:2.7.2:compile
++- org.apache.commons:commons-lang3:jar:3.10:compile
++- org.apache.commons:commons-text:jar:1.8:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.12:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+|     +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|     \- commons-codec:commons-codec:jar:1.11:compile
++- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.41.0:compile
++- net.sourceforge.htmlunit:neko-htmlunit:jar:2.41.0:compile
+|  \- xerces:xercesImpl:jar:2.12.0:compile
+|     \- xml-apis:xml-apis:jar:1.4.01:compile
++- net.sourceforge.htmlunit:htmlunit-cssparser:jar:1.5.0:compile
++- commons-io:commons-io:jar:2.7:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- commons-net:commons-net:jar:3.6:compile
++- org.brotli:dec:jar:0.1.2:compile
++- com.shapesecurity:salvation:jar:2.7.2:compile
++- org.eclipse.jetty.websocket:websocket-client:jar:9.4.29.v20200521:compile
+|  +- org.eclipse.jetty:jetty-client:jar:9.4.29.v20200521:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.29.v20200521:compile
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.29.v20200521:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.29.v20200521:compile
+|  +- org.eclipse.jetty:jetty-io:jar:9.4.29.v20200521:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|  \- org.eclipse.jetty.websocket:websocket-common:jar:9.4.29.v20200521:compile
+|     +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.29.v20200521:compile
+|     +- (org.eclipse.jetty:jetty-util:jar:9.4.29.v20200521:compile - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.4.29.v20200521:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:4.2:test
+|  \- org.objenesis:objenesis:jar:3.1:test
++- com.tngtech.archunit:archunit-junit4:jar:0.14.1:test
+|  \- com.tngtech.archunit:archunit:jar:0.14.1:test
+|     \- org.slf4j:slf4j-api:jar:1.7.25:test
++- org.apache.logging.log4j:log4j-api:jar:2.13.3:test
++- org.apache.logging.log4j:log4j-core:jar:2.13.3:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.13.3:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-jcl:jar:2.13.3:test
+|  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.13.3:test - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:test-jar:tests:4.5.12:test
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.13:compile - scope updated from test; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.11:compile - scope updated from test; omitted for duplicate)
++- commons-fileupload:commons-fileupload:jar:1.4:test
++- org.jfree:jfreechart:jar:1.5.0:test
++- org.eclipse.jetty:jetty-webapp:jar:9.4.29.v20200521:test
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.4.29.v20200521:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.4.29.v20200521:test
+|     \- org.eclipse.jetty:jetty-security:jar:9.4.29.v20200521:test
+|        \- org.eclipse.jetty:jetty-server:jar:9.4.29.v20200521:test
+|           +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|           +- (org.eclipse.jetty:jetty-http:jar:9.4.29.v20200521:test - omitted for duplicate)
+|           \- (org.eclipse.jetty:jetty-io:jar:9.4.29.v20200521:test - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.4.29.v20200521:test
+|  +- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.29.v20200521:test - omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.4.29.v20200521:test - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.29.v20200521:test
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.29.v20200521:test - omitted for duplicate)
+|  |  \- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.29.v20200521:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:9.4.29.v20200521:compile - scope updated from test; omitted for duplicate)
++- com.caucho:quercus:jar:4.0.63:test
++- org.seleniumhq.selenium:htmlunit-driver:jar:2.41.0:test
+|  +- org.seleniumhq.selenium:selenium-api:jar:3.141.59:test
+|  \- org.seleniumhq.selenium:selenium-support:jar:3.141.59:test
+|     +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+|     +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:test - omitted for duplicate)
+|     +- (net.bytebuddy:byte-buddy:jar:1.8.15:test - omitted for duplicate)
+|     +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|     +- (com.google.guava:guava:jar:25.0-jre:test - omitted for duplicate)
+|     +- (com.squareup.okhttp3:okhttp:jar:3.11.0:test - omitted for duplicate)
+|     \- (com.squareup.okio:okio:jar:1.14.0:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-ie-driver:jar:3.141.59:test
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:test
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.15:test - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:25.0-jre:test - omitted for duplicate)
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.11.0:test - omitted for duplicate)
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:test
+|  +- org.apache.commons:commons-exec:jar:1.3:test
+|  +- com.google.guava:guava:jar:25.0-jre:test
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+|  \- com.squareup.okhttp3:okhttp:jar:3.11.0:test
++- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.141.59:test
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:test - omitted for duplicate)
+|  +- (net.bytebuddy:byte-buddy:jar:1.8.15:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:25.0-jre:test - omitted for duplicate)
+|  +- (com.squareup.okhttp3:okhttp:jar:3.11.0:test - omitted for duplicate)
+|  \- com.squareup.okio:okio:jar:1.14.0:test
++- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.141.59:test
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:test - omitted for duplicate)
+|  +- (net.bytebuddy:byte-buddy:jar:1.8.15:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:25.0-jre:test - omitted for duplicate)
+|  +- (com.squareup.okhttp3:okhttp:jar:3.11.0:test - omitted for duplicate)
+|  \- (com.squareup.okio:okio:jar:1.14.0:test - omitted for duplicate)
+\- org.seleniumhq.selenium:selenium-edge-driver:jar:3.141.59:test
+   +- (org.seleniumhq.selenium:selenium-api:jar:3.141.59:test - omitted for duplicate)
+   +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:test - omitted for duplicate)
+   +- (net.bytebuddy:byte-buddy:jar:1.8.15:test - omitted for duplicate)
+   +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+   +- (com.google.guava:guava:jar:25.0-jre:test - omitted for duplicate)
+   +- (com.squareup.okhttp3:okhttp:jar:3.11.0:test - omitted for duplicate)
+   \- (com.squareup.okio:okio:jar:1.14.0:test - omitted for duplicate)
+

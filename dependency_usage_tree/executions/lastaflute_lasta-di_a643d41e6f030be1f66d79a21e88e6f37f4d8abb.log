@@ -1,0 +1,10 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.lastaflute:lasta-di:jar:0.8.0-RC2
++- org.javassist:javassist:jar:3.24.0-GA:compile
++- javax.transaction:javax.transaction-api:jar:1.2:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.8.2:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+

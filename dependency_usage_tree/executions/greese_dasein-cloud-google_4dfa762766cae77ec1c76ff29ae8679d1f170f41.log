@@ -1,0 +1,41 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.dasein:dasein-cloud-google:jar:2014.03.17
++- org.dasein:dasein-cloud-core:jar:2014.03.3:compile
+|  +- (org.dasein:dasein-util:jar:2013.02:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.6:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.2.1:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk16:jar:1.46:compile
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:2.0.0:compile
+|  \- org.json:json:jar:20090211:compile
++- org.dasein:dasein-util:jar:2013.02:compile
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:2.0.0:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:compile
++- com.google.apis:google-api-services-compute:jar:v1-rev6-1.17.0-rc:compile
+|  \- com.google.api-client:google-api-client:jar:1.17.0-rc:compile
+|     \- com.google.oauth-client:google-oauth-client:jar:1.17.0-rc:compile
+|        +- (com.google.http-client:google-http-client:jar:1.17.0-rc:compile - omitted for duplicate)
+|        \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.0)
++- com.google.apis:google-api-services-storage:jar:v1beta2-rev39-1.17.0-rc:compile
+|  \- (com.google.api-client:google-api-client:jar:1.17.0-rc:compile - omitted for duplicate)
++- com.google.http-client:google-http-client-jackson2:jar:1.17.0-rc:compile
+|  +- com.google.http-client:google-http-client:jar:1.17.0-rc:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.0)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.0.1:compile - omitted for conflict with 4.2.1)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.1.3:compile
++- joda-time:joda-time:jar:2.3:compile
++- org.dasein:dasein-cloud-test:jar:2014.03.2:test
+|  +- (org.dasein:dasein-cloud-core:jar:2014.03.1:test - omitted for conflict with 2014.03.3)
+|  +- (org.dasein:dasein-util:jar:2013.02:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.9:test - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.0:test - omitted for duplicate)
+|  \- (org.json:json:jar:20090211:test - omitted for duplicate)
+\- junit:junit:jar:4.9:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test
+

@@ -1,0 +1,31 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+no.digipost:digipost-api-client-java:jar:4.1
++- org.slf4j:slf4j-api:jar:1.6.1:compile
++- ch.qos.logback:logback-classic:jar:0.9.28:compile
+|  +- ch.qos.logback:logback-core:jar:0.9.28:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- com.sun.jersey:jersey-client:jar:1.12:compile
+|  \- com.sun.jersey:jersey-core:jar:1.12:compile
++- com.sun.jersey.contribs:jersey-apache-client:jar:1.12:compile
+|  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  \- (com.sun.jersey:jersey-client:jar:1.12:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.0.1:compile
++- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  \- commons-codec:commons-codec:jar:1.2:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- com.sun.xml.bind:jaxb-impl:jar:2.2.2:compile
+|  \- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - omitted for duplicate)
++- org.bouncycastle:bcprov-jdk15on:jar:1.47:compile
++- org.bouncycastle:bcmail-jdk15on:jar:1.47:compile
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.47:compile - omitted for duplicate)
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.47:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.47:compile - omitted for duplicate)
++- junit:junit:jar:4.8.2:test
++- org.mockito:mockito-all:jar:1.8.5:test
++- joda-time:joda-time:jar:2.0:compile
+\- org.joda:joda-convert:jar:1.1:compile
+

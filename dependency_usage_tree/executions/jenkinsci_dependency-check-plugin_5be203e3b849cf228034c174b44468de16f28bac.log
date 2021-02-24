@@ -1,0 +1,551 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jenkins-ci.plugins:dependency-check-jenkins-plugin:hpi:2.0.0
++- org.jvnet.hudson.plugins:analysis-core:jar:1.86:compile
+|  +- org.jenkins-ci.plugins:script-security:jar:1.25:compile
+|  |  \- org.kohsuke:groovy-sandbox:jar:1.10:compile
+|  +- org.jenkins-ci.plugins:matrix-project:jar:1.4:compile
+|  +- de.java2html:java2html:jar:5.0:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.1)
+|  +- org.apache.commons:commons-digester3:jar:3.2:compile
+|  |  +- cglib:cglib:jar:2.2.2:compile
+|  |  |  \- asm:asm:jar:3.3.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- joda-time:joda-time:jar:1.6:compile
+|  +- org.jenkins-ci.plugins:structs:jar:1.2:compile
+|  |  \- org.jenkins-ci:symbol-annotation:jar:1.2:compile
+|  |     \- org.jenkins-ci:annotation-indexer:jar:1.4:compile
+|  +- (org.jenkins-ci.main:maven-plugin:jar:2.9:compile - omitted for conflict with 2.4)
+|  +- com.google.code.findbugs:jsr305:jar:2.0.0:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.0:compile
++- org.jenkins-ci.plugins:dashboard-view:jar:2.9.4:compile
+|  +- (joda-time:joda-time:jar:1.6:compile - omitted for duplicate)
+|  \- (org.jenkins-ci.main:maven-plugin:jar:1.509.4:compile - omitted for conflict with 2.9)
++- org.jenkins-ci.plugins:token-macro:jar:1.10:compile
++- org.owasp:dependency-check-core:jar:2.0.0:compile
+|  +- (joda-time:joda-time:jar:1.6:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.24:compile
+|  +- (org.owasp:dependency-check-utils:jar:2.0.0:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.14:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.2)
+|  +- org.apache.lucene:lucene-core:jar:4.7.2:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:4.7.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.7.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:4.7.2:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.7.2:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-queries:jar:4.7.2:compile
+|  |  \- org.apache.lucene:lucene-sandbox:jar:4.7.2:compile
+|  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- com.h2database:h2:jar:1.3.176:runtime
+|  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  +- org.jsoup:jsoup:jar:1.10.2:compile
+|  +- com.sun.mail:mailapi:jar:1.5.6:compile
+|  \- com.google.code.gson:gson:jar:2.4:compile
++- org.owasp:dependency-check-utils:jar:2.0.0:compile
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.2)
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.jenkins-ci.main:maven-plugin:jar:2.4:compile
+|  +- org.jenkins-ci.plugins:javadoc:jar:1.0:compile
+|  +- org.jenkins-ci.plugins:mailer:jar:1.7:compile
+|  +- org.jenkins-ci.main.maven:maven-agent:jar:1.5:compile
+|  |  +- (org.jenkins-ci.main.maven:maven-interceptor:jar:1.5:compile - omitted for duplicate)
+|  |  +- org.apache.ant:ant:jar:1.8.4:compile
+|  |  |  \- org.apache.ant:ant-launcher:jar:1.9.2:compile
+|  |  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |     +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.3)
+|  |     \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.8)
+|  +- org.jenkins-ci.main.maven:maven-interceptor:jar:1.5:compile
+|  |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  +- org.jvnet.hudson:maven2.1-interceptor:jar:1.2:compile
+|  +- org.jenkins-ci.main.maven:maven3-agent:jar:1.5:compile
+|  |  +- (org.apache.maven:maven-embedder:jar:3.0.5:compile - omitted for conflict with 3.1.0)
+|  |  \- (org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile - omitted for conflict with 2.5.1)
+|  +- org.jenkins-ci.main.maven:maven31-agent:jar:1.5:compile
+|  |  +- (org.apache.maven:maven-embedder:jar:3.1.0:compile - omitted for conflict with 3.0.5)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile - omitted for duplicate)
+|  |  \- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for conflict with 0.0.0.M5)
+|  +- org.jenkins-ci.main.maven:maven3-interceptor:jar:1.5:compile
+|  |  +- (org.jenkins-ci.main.maven:maven3-interceptor-commons:jar:1.5:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-core:jar:3.0.5:compile - omitted for conflict with 3.1.0)
+|  |  +- (org.apache.maven:maven-embedder:jar:3.0.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven:maven-aether-provider:jar:3.0.5:compile - omitted for conflict with 3.1.0)
+|  +- org.jenkins-ci.main.maven:maven31-interceptor:jar:1.5:compile
+|  |  +- (org.jenkins-ci.main.maven:maven3-interceptor-commons:jar:1.5:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-core:jar:3.1.0:compile - omitted for conflict with 3.0.5)
+|  |  +- (org.apache.maven:maven-embedder:jar:3.1.0:compile - omitted for conflict with 3.0.5)
+|  |  +- (org.apache.maven:maven-aether-provider:jar:3.1.0:compile - omitted for conflict with 3.0.5)
+|  |  \- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  +- org.jenkins-ci.main.maven:maven3-interceptor-commons:jar:1.5:compile
+|  |  +- (org.apache.maven:maven-core:jar:3.0.5:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-embedder:jar:3.0.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven:maven-aether-provider:jar:3.0.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-core:jar:3.1.0:compile
+|  |  +- org.apache.maven:maven-model:jar:3.1.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  +- org.apache.maven:maven-settings:jar:3.1.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  +- org.apache.maven:maven-settings-builder:jar:3.1.0:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.16:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-settings:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  \- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-repository-metadata:jar:3.1.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  +- org.apache.maven:maven-artifact:jar:3.1.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  +- org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+|  |  |  +- (org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-model-builder:jar:3.1.0:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for conflict with 2.0.6)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.16:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  |  \- (org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-aether-provider:jar:3.1.0:compile - omitted for conflict with 3.0.5)
+|  |  +- (org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.16:compile
+|  |  +- org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+|  |  \- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+|  |     +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 3.0.10)
+|  |     \- (org.sonatype.plexus:plexus-cipher:jar:1.4:compile - omitted for conflict with 1.7)
+|  +- org.apache.maven:maven-compat:jar:3.1.0:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-settings:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-core:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.16:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-aether-provider:jar:3.1.0:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-repository-metadata:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-embedder:jar:3.1.0:compile
+|  |  +- (org.apache.maven:maven-settings:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-core:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-plugin-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-compat:jar:3.1.0:runtime - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.10:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  +- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile - omitted for duplicate)
+|  |  +- org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.4:compile - omitted for conflict with 1.7.24)
+|  |  \- commons-cli:commons-cli:jar:1.2:compile
+|  +- org.eclipse.aether:aether-api:jar:0.9.0.M3:compile
+|  +- org.eclipse.aether:aether-impl:jar:0.9.0.M3:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M3:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M3:compile - omitted for conflict with 0.9.0.M2)
+|  |  \- (org.eclipse.aether:aether-util:jar:0.9.0.M3:compile - omitted for conflict with 0.9.0.M2)
+|  +- org.eclipse.aether:aether-spi:jar:0.9.0.M3:compile
+|  |  \- (org.eclipse.aether:aether-api:jar:0.9.0.M3:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-util:jar:0.9.0.M3:compile
+|  |  \- (org.eclipse.aether:aether-api:jar:0.9.0.M3:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-transport-wagon:jar:0.9.0.M3:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M3:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M3:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M3:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for conflict with 2.4)
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M5:compile
+|  |  +- javax.enterprise:cdi-api:jar:1.0:compile
+|  |  |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M5:compile
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.4:compile - omitted for conflict with 2.4.2)
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.1:compile - omitted for conflict with 3.0.10)
+|  +- com.google.inject:guice:jar:no_aop:4.0-beta:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:11.0.1:compile
+|  |     \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.0)
+|  +- org.apache.maven.wagon:wagon-http:jar:2.4:compile
+|  |  +- org.apache.maven.wagon:wagon-http-shared4:jar:2.4:compile
+|  |  |  +- (org.jsoup:jsoup:jar:1.7.1:compile - omitted for conflict with 1.10.2)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.2.3:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.3:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.0.1:compile - omitted for conflict with 2.5)
+|  |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.2.3:compile - omitted for conflict with 4.2.5)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.3:compile - omitted for conflict with 4.2.4)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for conflict with 4.2.3)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.8:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
+|  +- org.apache.maven.wagon:wagon-file:jar:2.4:compile
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-ftp:jar:2.4:compile
+|  |  +- commons-net:commons-net:jar:3.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.24)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-ssh:jar:2.4:compile
+|  |  +- com.jcraft:jsch:jar:0.1.44-1:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - omitted for conflict with 3.0.10)
+|  |  +- org.apache.maven.wagon:wagon-ssh-common:jar:2.4:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - omitted for conflict with 3.0.10)
+|  |  |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6:compile
+|  |  |  |  \- (org.codehaus.plexus:plexus-utils:jar:1.4:compile - omitted for conflict with 3.0.10)
+|  |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-ssh-external:jar:2.4:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - omitted for conflict with 3.0.10)
+|  |  +- (org.apache.maven.wagon:wagon-ssh-common:jar:2.4:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - omitted for conflict with 3.0.10)
+|  +- org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+|  |  \- org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.1:compile
+|  +- org.jenkins-ci.lib:lib-jenkins-maven-artifact-manager:jar:1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.5:compile - omitted for conflict with 3.0.10)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile - omitted for conflict with 2.4)
+|  +- org.jenkins-ci.lib:lib-jenkins-maven-embedder:jar:3.11:compile
+|  |  +- (org.apache.maven:maven-core:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-compat:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-embedder:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-aether-provider:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile - omitted for conflict with 0.0.0.M5)
+|  |  +- org.eclipse.aether:aether-connector-wagon:jar:0.9.0.M2:compile
+|  |  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for conflict with 2.4)
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for conflict with 0.9.0.M3)
+|  |  +- (org.apache.ant:ant:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|  \- org.apache.maven.wagon:wagon-webdav-jackrabbit:jar:2.4:compile
+|     +- org.apache.maven.wagon:wagon-http-shared:jar:2.4:compile
+|     |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|     |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.6)
+|     |  +- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.5)
+|     |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
+|     +- org.apache.jackrabbit:jackrabbit-webdav:jar:2.5.2:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.24)
+|     |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.24)
+|     +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.6)
+|     +- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.5)
+|     +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|     \- (org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile - omitted for duplicate)
++- org.jenkins-ci.plugins.workflow:workflow-job:jar:1.4:test
+|  \- org.jenkins-ci.plugins.workflow:workflow-support:jar:1.4:test
+|     +- (org.jenkins-ci.plugins.workflow:workflow-step-api:jar:1.4:test - omitted for duplicate)
+|     +- (org.jenkins-ci.plugins.workflow:workflow-api:jar:1.4:test - omitted for duplicate)
+|     +- org.jenkins-ci.plugins:durable-task:jar:1.0:test
+|     +- (org.jenkins-ci.plugins:script-security:jar:1.13:test - omitted for conflict with 1.25)
+|     \- org.jboss.marshalling:jboss-marshalling-river:jar:1.4.9.Final:test
+|        \- org.jboss.marshalling:jboss-marshalling:jar:1.4.9.Final:test
++- org.jenkins-ci.plugins.workflow:workflow-cps:jar:1.4:test
+|  +- org.jenkins-ci.plugins.workflow:workflow-step-api:jar:1.4:test
+|  +- org.jenkins-ci.plugins.workflow:workflow-api:jar:1.4:test
+|  |  \- (org.jenkins-ci.plugins.workflow:workflow-step-api:jar:1.4:test - omitted for duplicate)
+|  +- (org.jenkins-ci.plugins.workflow:workflow-support:jar:1.4:test - omitted for duplicate)
+|  +- org.jenkins-ci.plugins.workflow:workflow-scm-step:jar:1.4:test
+|  |  \- (org.jenkins-ci.plugins.workflow:workflow-step-api:jar:1.4:test - omitted for duplicate)
+|  +- (org.jenkins-ci.plugins:script-security:jar:1.13:test - omitted for conflict with 1.25)
+|  \- com.cloudbees:groovy-cps:jar:1.2:test
+|     \- (com.google.guava:guava:jar:11.0.1:test - omitted for duplicate)
++- org.jenkins-ci.plugins.workflow:workflow-basic-steps:jar:1.4:test
+|  +- (org.jenkins-ci.plugins.workflow:workflow-step-api:jar:1.4:test - omitted for duplicate)
+|  \- (org.jenkins-ci.plugins:mailer:jar:1.13:test - omitted for conflict with 1.7)
++- org.jenkins-ci.main:jenkins-war:war:1.625.1:test
++- org.jenkins-ci.main:jenkins-core:jar:1.625.1:provided
+|  +- org.jenkins-ci.plugins.icon-shim:icon-set:jar:1.0.5:provided
+|  +- org.jenkins-ci.main:remoting:jar:2.52:provided
+|  |  \- org.jenkins-ci:constant-pool-scanner:jar:1.2:provided
+|  +- org.jenkins-ci.main:cli:jar:1.625.1:provided
+|  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.8)
+|  |  +- (org.jenkins-ci.main:remoting:jar:2.52:provided - omitted for duplicate)
+|  |  +- (org.jvnet.localizer:localizer:jar:1.23:provided - omitted for duplicate)
+|  |  \- (org.jenkins-ci:trilead-ssh2:jar:build214-jenkins-1:provided - omitted for conflict with build217-jenkins-8)
+|  +- org.jenkins-ci:version-number:jar:1.1:provided
+|  +- org.jenkins-ci:crypto-util:jar:1.1:provided
+|  |  \- (commons-io:commons-io:jar:1.4:provided - omitted for conflict with 2.5)
+|  +- org.jvnet.hudson:jtidy:jar:4aug2000r7-dev-hudson-1:provided
+|  +- com.google.inject:guice:jar:4.0-beta:provided
+|  |  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:11.0.1:provided - omitted for duplicate)
+|  +- org.jruby.ext.posix:jna-posix:jar:1.0.3-jenkins-1:provided
+|  +- com.github.jnr:jnr-posix:jar:3.0.1:provided
+|  |  +- com.github.jnr:jnr-ffi:jar:1.0.7:provided
+|  |  |  +- com.github.jnr:jffi:jar:1.2.7:provided
+|  |  |  +- com.github.jnr:jffi:jar:native:1.2.7:provided
+|  |  |  +- org.ow2.asm:asm:jar:4.0:provided
+|  |  |  +- org.ow2.asm:asm-commons:jar:4.0:provided
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:4.0:provided - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-analysis:jar:4.0:provided
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:4.0:provided - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-tree:jar:4.0:provided
+|  |  |  |  \- (org.ow2.asm:asm:jar:4.0:provided - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-util:jar:4.0:provided
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:4.0:provided - omitted for duplicate)
+|  |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:provided
+|  |  \- com.github.jnr:jnr-constants:jar:0.8.5:provided
+|  +- org.kohsuke:trilead-putty-extension:jar:1.2:provided
+|  |  \- (org.jenkins-ci:trilead-ssh2:jar:build214-jenkins-1:provided - omitted for duplicate)
+|  +- org.jenkins-ci:trilead-ssh2:jar:build217-jenkins-8:provided
+|  +- org.kohsuke.stapler:stapler-groovy:jar:1.237:provided
+|  |  +- org.kohsuke.stapler:stapler-jelly:jar:1.237:provided
+|  |  |  +- (org.kohsuke.stapler:stapler:jar:1.237:provided - omitted for duplicate)
+|  |  |  +- org.jenkins-ci:commons-jelly:jar:1.1-jenkins-20120928:provided
+|  |  |  |  +- (org.jenkins-ci:commons-jexl:jar:1.1-jenkins-20111212:provided - omitted for duplicate)
+|  |  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:provided - omitted for conflict with 1.8.3)
+|  |  |  |  \- (commons-collections:commons-collections:jar:3.2:provided - omitted for conflict with 3.2.1)
+|  |  |  \- org.jenkins-ci.dom4j:dom4j:jar:1.6.1-jenkins-4:provided
+|  |  \- (org.codehaus.groovy:groovy-all:jar:1.8.3:provided - omitted for conflict with 1.8.9)
+|  +- org.kohsuke.stapler:stapler-jrebel:jar:1.237:provided
+|  |  \- org.kohsuke.stapler:stapler:jar:1.237:provided
+|  |     +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |     +- commons-discovery:commons-discovery:jar:0.4:provided
+|  |     |  \- (commons-logging:commons-logging:jar:1.0.4:provided - omitted for conflict with 1.1.3)
+|  |     +- (commons-beanutils:commons-beanutils:jar:1.7.0:provided - omitted for conflict with 1.8.3)
+|  |     +- (commons-io:commons-io:jar:1.3.1:provided - omitted for conflict with 2.5)
+|  |     +- (org.jvnet.localizer:localizer:jar:1.7:provided - omitted for conflict with 1.23)
+|  |     +- (org.kohsuke.stapler:json-lib:jar:2.4-jenkins-2:provided - omitted for duplicate)
+|  |     +- org.jvnet:tiger-types:jar:1.3:provided
+|  |     +- (com.google.guava:guava:jar:14.0:provided - omitted for conflict with 11.0.1)
+|  |     +- (org.kohsuke:asm5:jar:5.0.1:provided - omitted for duplicate)
+|  |     +- (commons-fileupload:commons-fileupload:jar:1.2.1:provided - omitted for conflict with 1.3.1-jenkins-1)
+|  |     +- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for conflict with 2.0.0)
+|  |     \- (com.jcraft:jzlib:jar:1.1.3:provided - omitted for conflict with 1.1.3-kohsuke-1)
+|  +- org.kohsuke:windows-package-checker:jar:1.0:provided
+|  +- org.kohsuke.stapler:stapler-adjunct-zeroclipboard:jar:1.3.5-1:provided
+|  |  \- (org.kohsuke.stapler:stapler:jar:1.140:provided - omitted for conflict with 1.237)
+|  +- org.kohsuke.stapler:stapler-adjunct-timeline:jar:1.4:provided
+|  |  \- (org.kohsuke.stapler:stapler:jar:1.140:provided - omitted for conflict with 1.237)
+|  +- org.kohsuke.stapler:stapler-adjunct-codemirror:jar:1.3:provided
+|  |  \- (org.kohsuke.stapler:stapler:jar:1.140:provided - omitted for conflict with 1.237)
+|  +- com.infradna.tool:bridge-method-annotation:jar:1.13:provided
+|  |  \- (org.jenkins-ci:annotation-indexer:jar:1.4:compile - scope updated from provided; omitted for duplicate)
+|  +- org.kohsuke.stapler:json-lib:jar:2.4-jenkins-2:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.8.0:provided - omitted for conflict with 1.8.3)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:provided - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.5:provided - omitted for conflict with 2.6)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:provided
+|  |     \- (commons-lang:commons-lang:jar:2.3:provided - omitted for conflict with 2.6)
+|  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - scope updated from provided; omitted for duplicate)
+|  +- args4j:args4j:jar:2.0.31:provided
+|  +- (org.jenkins-ci:annotation-indexer:jar:1.7:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jenkins-ci:bytecode-compatibility-transformer:jar:1.5:provided
+|  |  +- (org.jenkins-ci:annotation-indexer:jar:1.4:compile - scope updated from provided; omitted for duplicate)
+|  |  +- org.kohsuke:asm5:jar:5.0.1:provided
+|  |  \- (org.jenkins-ci:constant-pool-scanner:jar:1.2:provided - omitted for duplicate)
+|  +- org.jenkins-ci:task-reactor:jar:1.4:provided
+|  +- org.jvnet.localizer:localizer:jar:1.23:provided
+|  +- antlr:antlr:jar:2.7.6:provided
+|  +- org.jvnet.hudson:xstream:jar:1.4.7-jenkins-1:provided
+|  +- jfree:jfreechart:jar:1.0.9:provided
+|  |  \- jfree:jcommon:jar:1.0.12:provided
+|  +- (org.apache.ant:ant:jar:1.8.4:compile - scope updated from provided; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:provided - omitted for conflict with 2.5)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - scope updated from provided; omitted for duplicate)
+|  +- commons-digester:commons-digester:jar:2.1:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.8.3:provided - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - scope updated from provided; omitted for duplicate)
+|  +- javax.mail:mail:jar:1.4.4:provided
+|  +- org.jvnet.hudson:activation:jar:1.1.1-hudson-1:provided
+|  +- jaxen:jaxen:jar:1.1-beta-11:provided
+|  +- commons-jelly:commons-jelly-tags-fmt:jar:1.0:provided
+|  +- commons-jelly:commons-jelly-tags-xml:jar:1.1:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6:provided - omitted for conflict with 1.8.3)
+|  |  +- (commons-collections:commons-collections:jar:2.1:provided - omitted for conflict with 3.2.1)
+|  |  +- (commons-logging:commons-logging:jar:1.0.3:provided - omitted for conflict with 1.1.3)
+|  |  \- (jaxen:jaxen:jar:1.1-beta-2:provided - omitted for conflict with 1.1-beta-11)
+|  +- org.jvnet.hudson:commons-jelly-tags-define:jar:1.0.1-hudson-20071021:provided
+|  +- org.jenkins-ci:commons-jexl:jar:1.1-jenkins-20111212:provided
+|  |  \- (commons-logging:commons-logging:jar:1.0.3:provided - omitted for conflict with 1.1.3)
+|  +- org.acegisecurity:acegi-security:jar:1.0.7:provided
+|  |  +- (org.springframework:spring-core:jar:1.2.9:provided - omitted for conflict with 2.5.6.SEC03)
+|  |  +- org.springframework:spring-jdbc:jar:1.2.9:provided
+|  |  |  +- (commons-logging:commons-logging:jar:1.0.4:provided - omitted for conflict with 1.1.3)
+|  |  |  +- (org.springframework:spring-beans:jar:1.2.9:provided - omitted for conflict with 2.5.6.SEC03)
+|  |  |  +- (org.springframework:spring-core:jar:1.2.9:provided - omitted for duplicate)
+|  |  |  \- org.springframework:spring-dao:jar:1.2.9:provided
+|  |  |     +- (commons-logging:commons-logging:jar:1.0.4:provided - omitted for conflict with 1.1.3)
+|  |  |     +- (org.springframework:spring-beans:jar:1.2.9:provided - omitted for duplicate)
+|  |  |     +- (org.springframework:spring-context:jar:1.2.9:provided - omitted for conflict with 2.5.6.SEC03)
+|  |  |     \- (org.springframework:spring-core:jar:1.2.9:provided - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.1:provided - omitted for conflict with 2.6)
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:provided - omitted for conflict with 1.1.3)
+|  |  +- (commons-codec:commons-codec:jar:1.3:provided - omitted for conflict with 1.8)
+|  |  +- oro:oro:jar:2.0.8:provided
+|  |  \- (commons-collections:commons-collections:jar:3.1:provided - omitted for conflict with 3.2.1)
+|  +- org.codehaus.groovy:groovy-all:jar:1.8.9:provided
+|  +- jline:jline:jar:0.9.94:provided
+|  |  \- (junit:junit:jar:3.8.1:provided - omitted for conflict with 4.11)
+|  +- org.fusesource.jansi:jansi:jar:1.9:provided
+|  +- org.springframework:spring-webmvc:jar:2.5.6.SEC03:provided
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:2.5.6.SEC03:provided
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for conflict with 1.2.9)
+|  |  +- org.springframework:spring-context:jar:2.5.6.SEC03:provided
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for conflict with 1.2.9)
+|  |  +- org.springframework:spring-context-support:jar:2.5.6.SEC03:provided
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for conflict with 1.2.9)
+|  |  +- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for conflict with 1.2.9)
+|  |  \- org.springframework:spring-web:jar:2.5.6.SEC03:provided
+|  |     +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |     +- (org.springframework:spring-beans:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |     +- (org.springframework:spring-context:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for conflict with 1.2.9)
+|  +- org.springframework:spring-core:jar:2.5.6.SEC03:provided
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:2.5.6.SEC03:provided
+|  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:2.5.6.SEC03:provided - omitted for duplicate)
+|  +- xpp3:xpp3:jar:1.1.4c:provided
+|  +- javax.servlet:jstl:jar:1.1.0:provided
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - scope updated from provided; omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.7:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.24)
+|  +- com.sun.xml.txw2:txw2:jar:20110809:provided
+|  |  +- javax.xml.stream:stax-api:jar:1.0-2:provided
+|  |  \- relaxngDatatype:relaxngDatatype:jar:20020414:provided
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jvnet.winp:winp:jar:1.22:provided
+|  +- org.jenkins-ci:memory-monitor:jar:1.9:provided
+|  |  \- (net.java.dev.jna:jna:jar:4.1.0:provided - omitted for duplicate)
+|  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:provided
+|  |  \- stax:stax-api:jar:1.0.1:provided
+|  +- org.jenkins-ci:jmdns:jar:3.4.0-jenkins-3:provided
+|  +- net.java.dev.jna:jna:jar:4.1.0:provided
+|  +- org.kohsuke:akuma:jar:1.10:provided
+|  |  \- (net.java.dev.jna:jna:jar:4.1.0:provided - omitted for duplicate)
+|  +- org.kohsuke:libpam4j:jar:1.8:provided
+|  |  \- (net.java.dev.jna:jna:jar:4.0.0:provided - omitted for conflict with 4.1.0)
+|  +- org.jvnet.libzfs:libzfs:jar:0.5:provided
+|  |  \- (net.java.dev.jna:jna:jar:3.0.3-patch-1:provided - omitted for conflict with 4.1.0)
+|  +- com.sun.solaris:embedded_su4j:jar:1.1:provided
+|  +- net.java.sezpoz:sezpoz:jar:1.9:provided
+|  +- org.kohsuke.jinterop:j-interop:jar:2.0.6-kohsuke-1:provided
+|  |  \- org.kohsuke.jinterop:j-interopdeps:jar:2.0.6-kohsuke-1:provided
+|  |     \- org.samba.jcifs:jcifs:jar:1.2.19:provided
+|  +- org.jvnet.robust-http-client:robust-http-client:jar:1.2:provided
+|  +- (commons-codec:commons-codec:jar:1.8:compile - scope updated from provided; omitted for duplicate)
+|  +- org.kohsuke:access-modifier-annotation:jar:1.4:provided
+|  |  \- (org.jenkins-ci:annotation-indexer:jar:1.4:compile - scope updated from provided; omitted for duplicate)
+|  +- commons-fileupload:commons-fileupload:jar:1.3.1-jenkins-1:provided
+|  |  \- (commons-io:commons-io:jar:2.2:provided - omitted for conflict with 2.5)
+|  +- org.mindrot:jbcrypt:jar:0.3m:provided
+|  +- (com.google.guava:guava:jar:11.0.1:compile - scope updated from provided; omitted for duplicate)
+|  \- com.jcraft:jzlib:jar:1.1.3-kohsuke-1:provided
++- org.jenkins-ci.main:jenkins-test-harness:jar:1.625.1:test
+|  +- org.jenkins-ci.main:jenkins-war:jar:war-for-test:1.625.1:test
+|  |  +- (org.jenkins-ci.main:jenkins-core:jar:1.625.1:test - omitted for duplicate)
+|  |  +- (org.jenkins-ci.main:remoting:jar:2.52:test - omitted for duplicate)
+|  |  +- org.jenkins-ci.modules:instance-identity:jar:1.4:test
+|  |  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.47:test
+|  |  |     \- org.bouncycastle:bcprov-jdk15on:jar:1.47:test
+|  |  +- org.jenkins-ci.modules:ssh-cli-auth:jar:1.2:test
+|  |  |  \- (org.jenkins-ci.modules:instance-identity:jar:1.2:test - omitted for conflict with 1.4)
+|  |  +- org.jenkins-ci.modules:slave-installer:jar:1.5:test
+|  |  |  \- (org.jenkins-ci.modules:instance-identity:jar:1.1:test - omitted for conflict with 1.4)
+|  |  +- org.jenkins-ci.modules:windows-slave-installer:jar:1.4:test
+|  |  |  \- (org.jenkins-ci.modules:slave-installer:jar:1.1:test - omitted for conflict with 1.5)
+|  |  +- org.jenkins-ci.modules:launchd-slave-installer:jar:1.2:test
+|  |  |  +- (org.jenkins-ci.modules:slave-installer:jar:1.1:test - omitted for conflict with 1.5)
+|  |  |  \- (org.jenkins-ci.modules:instance-identity:jar:1.1:test - omitted for conflict with 1.4)
+|  |  +- org.jenkins-ci.modules:upstart-slave-installer:jar:1.1:test
+|  |  |  \- (org.jenkins-ci.modules:slave-installer:jar:1.1:test - omitted for conflict with 1.5)
+|  |  +- org.jenkins-ci.modules:systemd-slave-installer:jar:1.1:test
+|  |  |  \- (org.jenkins-ci.modules:slave-installer:jar:1.3:test - omitted for conflict with 1.5)
+|  |  \- org.slf4j:slf4j-jdk14:jar:1.7.7:test
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.24)
+|  +- (org.jenkins-ci.main:maven-plugin:jar:2.7.1:test - omitted for conflict with 2.4)
+|  +- org.jenkins-ci.plugins:ant:jar:1.2:test
+|  +- org.jenkins-ci.plugins:subversion:jar:1.45:test
+|  |  \- org.jenkins-ci.svnkit:svnkit:jar:1.7.6-jenkins-1:test
+|  |     +- org.tmatesoft.sqljet:sqljet:jar:1.1.0:test
+|  |     |  \- org.antlr:antlr-runtime:jar:3.4:test
+|  |     \- de.regnis.q.sequence:sequence-library:jar:1.0.1:test
+|  +- (org.jenkins-ci.plugins:mailer:jar:1.10:test - omitted for conflict with 1.7)
+|  +- org.jenkins-ci.plugins:matrix-auth:jar:1.0.2:test
+|  +- org.jenkins-ci.plugins:antisamy-markup-formatter:jar:1.0:test
+|  |  \- org.kohsuke:owasp-html-sanitizer:jar:r88:test
+|  +- (org.jenkins-ci.plugins:matrix-project:jar:1.4.1:test - omitted for conflict with 1.4)
+|  +- org.jenkins-ci.plugins:junit:jar:1.2-beta-4:test
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:test
+|  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:test
+|  |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+|  +- org.jenkins-ci:test-annotations:jar:1.1:test
+|  +- org.jvnet.mock-javamail:mock-javamail:jar:1.7:test
+|  |  +- (javax.mail:mail:jar:1.4:test - omitted for conflict with 1.4.4)
+|  |  \- (junit:junit:jar:3.8:test - omitted for conflict with 3.8.1)
+|  +- junit:junit:jar:4.11:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.jenkins-ci:htmlunit:jar:2.6-jenkins-6:test
+|  |  +- (xalan:xalan:jar:2.7.1:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:test - omitted for conflict with 2.6)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:test - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.4:test - omitted for conflict with 1.8)
+|  |  +- org.jvnet.hudson:htmlunit-core-js:jar:2.6-hudson-1:test
+|  |  +- (xerces:xercesImpl:jar:2.9.1:test - omitted for conflict with 2.11.0)
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.13:test
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.5:test
+|  |  |  \- org.w3c.css:sac:jar:1.3:test
+|  |  +- (commons-io:commons-io:jar:1.4:test - omitted for conflict with 2.5)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.1.3)
+|  +- xalan:xalan:jar:2.7.1:test
+|  |  \- xalan:serializer:jar:2.7.1:test
+|  |     \- (xml-apis:xml-apis:jar:1.3.04:test - omitted for conflict with 1.4.01)
+|  +- org.jvnet.hudson:embedded-rhino-debugger:jar:1.2:test
+|  |  \- (org.jvnet.hudson:htmlunit-core-js:jar:2.6-hudson-1:test - omitted for duplicate)
+|  +- org.jvnet.hudson:netx:jar:0.5-hudson-2:test
+|  +- org.easymock:easymock:jar:2.4:test
+|  +- org.netbeans.modules:org-netbeans-insane:jar:RELEASE72:test
+|  +- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:test
+|  \- org.codehaus.geb:geb-implicit-assertions:jar:0.7.2:test
++- javax.servlet:servlet-api:jar:2.4:provided
+\- org.codehaus.mojo:animal-sniffer-annotations:jar:1.9:provided
+

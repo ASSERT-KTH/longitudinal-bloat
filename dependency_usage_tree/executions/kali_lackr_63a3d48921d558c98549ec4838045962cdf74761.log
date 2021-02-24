@@ -1,0 +1,36 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmp8x7oh9yl/lackr; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/kali_lackr/63a3d48921d558c98549ec4838045962cdf74761/depClean.log 2>&1' returned non-zero exit status 1.
+[ERROR] Command 'cd /tmp/tmp8x7oh9yl/lackr; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/kali_lackr/63a3d48921d558c98549ec4838045962cdf74761/depClean.log 2>&1' returned non-zero exit status 1.
+com.fotonauts:lackr:jar:0.0.16
++- org.springframework:org.springframework.context:jar:3.0.5.RELEASE:compile
+|  +- org.springframework:org.springframework.asm:jar:3.0.5.RELEASE:compile
+|  +- org.springframework:org.springframework.aop:jar:3.0.5.RELEASE:compile
+|  |  +- org.aopalliance:com.springsource.org.aopalliance:jar:1.0.0:compile
+|  |  +- (org.springframework:org.springframework.beans:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:org.springframework.core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:org.springframework.beans:jar:3.0.5.RELEASE:compile
+|  |  +- (org.springframework:org.springframework.core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:org.springframework.asm:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:org.springframework.core:jar:3.0.5.RELEASE:compile
+|  \- org.springframework:org.springframework.expression:jar:3.0.5.RELEASE:compile
+|     \- (org.springframework:org.springframework.core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.5.11:compile
+|  +- org.slf4j:slf4j-api:jar:1.5.11:compile
+|  \- log4j:log4j:jar:1.2.14:compile
++- commons-logging:commons-logging:jar:1.1.1:compile
++- org.eclipse.jetty:jetty-server:jar:7.2.1.v20101111:compile
+|  +- javax.servlet:servlet-api:jar:2.5:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:7.2.1.v20101111:compile
+|  \- org.eclipse.jetty:jetty-http:jar:7.2.1.v20101111:compile
+|     \- org.eclipse.jetty:jetty-io:jar:7.2.1.v20101111:compile
+|        \- org.eclipse.jetty:jetty-util:jar:7.2.1.v20101111:compile
++- args4j:args4j:jar:2.0.12:compile
+\- org.mongodb:mongo-java-driver:jar:2.4:compile
+

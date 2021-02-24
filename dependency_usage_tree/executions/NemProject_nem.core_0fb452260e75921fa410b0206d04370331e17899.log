@@ -1,0 +1,70 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.nem.core:nem-core:jar:0.6.36-BETA
++- com.googlecode.javaewah:JavaEWAH:jar:1.0.0:compile
++- net.minidev:json-smart:jar:1.2:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.50:compile
++- commons-codec:commons-codec:jar:1.9:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.apache.commons:commons-math3:jar:3.2:compile
++- org.apache.httpcomponents:httpasyncclient:jar:4.0.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.3.2:compile
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.3.2:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.3.2:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.9)
+|  \- commons-logging:commons-logging:jar:1.1.3:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- com.googlecode.matrix-toolkits-java:mtj:jar:1.0.1:test
+|  \- com.github.fommil.netlib:all:pom:1.1.1:test
+|     +- net.sourceforge.f2j:arpack_combined_all:jar:0.1:test
+|     +- com.github.fommil.netlib:core:jar:1.1.1:test
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-osx-x86_64:jar:natives:1.1:test
+|     |  +- com.github.fommil.netlib:native_ref-java:jar:1.1:test
+|     |  |  +- com.github.fommil:jniloader:jar:1.1:test
+|     |  |  +- (com.github.fommil.netlib:core:jar:1.1:test - omitted for conflict with 1.1.1)
+|     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-x86_64:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-i686:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-win-x86_64:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-win-i686:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-armhf:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-osx-x86_64:jar:natives:1.1:test
+|     |  +- com.github.fommil.netlib:native_system-java:jar:1.1:test
+|     |  |  +- (com.github.fommil:jniloader:jar:1.1:test - omitted for duplicate)
+|     |  |  +- (com.github.fommil.netlib:core:jar:1.1:test - omitted for conflict with 1.1.1)
+|     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-x86_64:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-i686:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-armhf:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-win-x86_64:jar:natives:1.1:test
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:test - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+|     \- com.github.fommil.netlib:netlib-native_system-win-i686:jar:natives:1.1:test
+|        +- (com.github.fommil.netlib:native_system-java:jar:1.1:test - omitted for duplicate)
+|        \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:test - omitted for duplicate)
+\- com.github.tomakehurst:wiremock:jar:standalone:1.55:test
+   \- org.slf4j:slf4j-api:jar:1.7.6:test
+

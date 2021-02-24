@@ -1,0 +1,13 @@
+error: failed to write new configuration file /tmp/tmp8pgdmipa/IfcPlugins/.git/config.lock
+fatal: could not set 'remote.origin.fetch' to '+refs/heads/master:refs/remotes/origin/master'
+/bin/sh: 1: cd: can't cd to None
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/bin/sh: 1: cd: can't cd to None
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 30, in clone
+    subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'cd /tmp/tmp8pgdmipa;git clone -q --depth=1 https://github.com/opensourceBIM/IfcPlugins.git;' returned non-zero exit status 128.
+Unable to correctly install opensourceBIM/IfcPlugins

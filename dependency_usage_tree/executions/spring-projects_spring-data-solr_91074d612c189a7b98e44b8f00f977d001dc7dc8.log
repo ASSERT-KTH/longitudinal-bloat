@@ -1,0 +1,105 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.springframework.data:spring-data-solr:jar:1.0.0.M1
++- org.springframework:spring-context:jar:3.1.2.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:3.1.2.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-asm:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:3.1.2.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:3.1.2.RELEASE:compile
+|  |  \- (org.springframework:spring-asm:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:3.1.2.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-asm:jar:3.1.2.RELEASE:compile
++- org.springframework:spring-tx:jar:3.1.2.RELEASE:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- (org.springframework:spring-aop:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for duplicate)
++- cglib:cglib:jar:2.2.2:test
+|  \- asm:asm:jar:3.3.1:test
++- org.springframework.data:spring-data-commons-core:jar:1.4.0.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-beans:jar:3.1.2.RELEASE:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- org.apache.httpcomponents:httpclient:jar:4.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.2:compile
+|  \- commons-codec:commons-codec:jar:1.6:compile
++- org.apache.httpcomponents:httpmime:jar:4.2:compile
+|  \- (org.apache.httpcomponents:httpcore:jar:4.2:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient-cache:jar:4.2:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.2:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.1:compile
++- org.apache.solr:solr-solrj:jar:3.6.1:compile
+|  +- commons-io:commons-io:jar:2.1:compile
+|  \- org.codehaus.woodstox:wstx-asl:jar:3.2.7:runtime
++- org.apache.solr:solr-core:jar:3.6.1:compile
+|  +- (org.apache.solr:solr-solrj:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:3.6.1:compile
+|  +- org.apache.lucene:lucene-analyzers:jar:3.6.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-highlighter:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-memory:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-kuromoji:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-analyzers:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-memory:jar:3.6.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-misc:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-analyzers:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-phonetic:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queries:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- jakarta-regexp:jakarta-regexp:jar:1.4:compile
+|  +- org.apache.lucene:lucene-spatial:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-spellchecker:jar:3.6.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-analyzers:jar:3.6.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-grouping:jar:3.6.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:3.6.1:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.6:compile - omitted for duplicate)
+|  +- commons-fileupload:commons-fileupload:jar:1.2.1:compile
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.6.1:compile - omitted for conflict with 1.7.1)
+|  +- (commons-io:commons-io:jar:2.1:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:r05:compile
+|  \- (javax.servlet:servlet-api:jar:2.4:compile - omitted for conflict with 3.0-alpha-1)
++- org.slf4j:slf4j-api:jar:1.7.1:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.1:test (scope not updated to compile)
+|  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.0.7:test
+|  +- ch.qos.logback:logback-core:jar:1.0.7:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:test - omitted for conflict with 1.7.1)
++- javax.enterprise:cdi-api:jar:1.0-SP4:provided
+|  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:provided
+|  +- javax.annotation:jsr250-api:jar:1.0:provided
+|  \- javax.inject:javax.inject:jar:1:provided
++- commons-httpclient:commons-httpclient:jar:3.1:test
++- org.springframework:spring-test:jar:3.1.2.RELEASE:test
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.mockito:mockito-core:jar:1.9.0:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:1.0:test
++- org.apache.openwebbeans.test:cditest-owb:jar:1.1.5:test
+|  +- org.apache.openwebbeans.test:cditest:jar:1.1.5:test
+|  +- org.apache.geronimo.specs:geronimo-jcdi_1.0_spec:jar:1.0:test
+|  +- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:test
+|  +- org.apache.openwebbeans:openwebbeans-spi:jar:1.1.5:test
+|  \- org.apache.openwebbeans:openwebbeans-impl:jar:1.1.5:test
+|     +- javassist:javassist:jar:3.12.0.GA:test
+|     +- net.sf.scannotation:scannotation:jar:1.0.2:test
+|     \- (org.apache.openwebbeans:openwebbeans-spi:jar:1.1.5:test - omitted for duplicate)
+\- javax.servlet:servlet-api:jar:3.0-alpha-1:test (scope not updated to compile)
+

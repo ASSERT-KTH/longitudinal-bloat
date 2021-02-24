@@ -1,0 +1,107 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.alikelleci:easysourcing:jar:0.5.0
++- org.apache.kafka:kafka_2.13:jar:2.4.0:compile
+|  +- (org.apache.kafka:kafka-clients:jar:2.4.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for conflict with 2.10.1)
+|  +- com.fasterxml.jackson.module:jackson-module-scala_2.13:jar:2.10.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.13.1:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.10.0:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for duplicate)
+|  |     \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.10.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for duplicate)
+|  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+|  +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.28)
+|  +- org.scala-lang.modules:scala-collection-compat_2.13:jar:2.1.2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0:compile - omitted for conflict with 2.13.1)
+|  +- org.scala-lang.modules:scala-java8-compat_2.13:jar:0.9.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0:compile - omitted for conflict with 2.13.1)
+|  +- org.scala-lang:scala-library:jar:2.13.1:compile
+|  +- org.scala-lang:scala-reflect:jar:2.13.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.1:compile - omitted for duplicate)
+|  +- com.typesafe.scala-logging:scala-logging_2.13:jar:3.9.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0:compile - omitted for conflict with 2.13.1)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.13.0:compile - omitted for conflict with 2.13.1)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.26:compile - omitted for conflict with 1.7.28)
+|  +- org.slf4j:slf4j-api:jar:1.7.28:compile
+|  +- org.apache.zookeeper:zookeeper:jar:3.5.6:compile
+|  |  +- org.apache.zookeeper:zookeeper-jute:jar:3.5.6:compile
+|  |  |  \- (org.apache.yetus:audience-annotations:jar:0.5.0:compile - omitted for duplicate)
+|  |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+|  |  +- io.netty:netty-handler:jar:4.1.42.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.1.42.Final:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.1.42.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport:jar:4.1.42.Final:compile
+|  |  |  |  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  |  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-resolver:jar:4.1.42.Final:compile
+|  |  |  |     \- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-codec:jar:4.1.42.Final:compile
+|  |  |     +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |     +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:4.1.42.Final:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.42.Final:compile
+|  |  |     +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |     +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.28)
+|  \- commons-cli:commons-cli:jar:1.4:compile
++- org.apache.kafka:kafka-streams:jar:2.4.0:compile
+|  +- (org.apache.kafka:kafka-clients:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.apache.kafka:connect-json:jar:2.4.0:compile
+|  |  +- org.apache.kafka:connect-api:jar:2.4.0:compile
+|  |  |  +- (org.apache.kafka:kafka-clients:jar:2.4.0:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
+|  \- org.rocksdb:rocksdbjni:jar:5.18.3:compile
++- org.apache.kafka:kafka-clients:jar:2.4.0:compile
+|  +- com.github.luben:zstd-jni:jar:1.4.3-1:compile
+|  +- org.lz4:lz4-java:jar:1.6.0:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.1.7.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
++- org.springframework.kafka:spring-kafka:jar:2.4.0.RELEASE:compile
+|  +- (org.apache.kafka:kafka-clients:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.springframework.retry:spring-retry:jar:1.2.4.RELEASE:compile
+|  +- org.springframework:spring-context:jar:5.2.2.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:5.2.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:5.2.2.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:5.2.2.RELEASE:compile
+|  |  |  \- org.springframework:spring-jcl:jar:5.2.2.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:5.2.2.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-messaging:jar:5.2.2.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-tx:jar:5.2.2.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:5.2.2.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:5.2.2.RELEASE:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.10.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.10.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.1:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1:compile
++- org.projectlombok:lombok:jar:1.18.10:provided
++- org.apache.commons:commons-lang3:jar:3.9:compile
++- org.apache.commons:commons-collections4:jar:4.4:compile
+\- net.jodah:failsafe:jar:2.3.5:compile
+

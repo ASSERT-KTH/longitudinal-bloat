@@ -1,0 +1,41 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.elasticsearch:elasticsearch-analysis-ik:jar:5.1.1
++- org.elasticsearch:elasticsearch:jar:5.1.1:compile
+|  +- org.apache.lucene:lucene-core:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-backward-codecs:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-grouping:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-highlighter:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-join:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-memory:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-misc:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-queries:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-queryparser:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-sandbox:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-spatial:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-spatial-extras:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-spatial3d:jar:6.3.0:compile
+|  +- org.apache.lucene:lucene-suggest:jar:6.3.0:compile
+|  +- org.elasticsearch:securesm:jar:1.1:compile
+|  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+|  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  +- joda-time:joda-time:jar:2.9.5:compile
+|  +- org.yaml:snakeyaml:jar:1.15:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.1:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.1:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.1:compile
+|  +- com.tdunning:t-digest:jar:3.0:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.6:compile
+|  \- net.java.dev.jna:jna:jar:4.2.2:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.logging.log4j:log4j-api:jar:2.3:compile
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+

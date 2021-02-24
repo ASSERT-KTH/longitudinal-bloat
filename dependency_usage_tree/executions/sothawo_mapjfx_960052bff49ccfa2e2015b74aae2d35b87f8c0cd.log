@@ -1,0 +1,52 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.sothawo:mapjfx:jar:2.14.1
++- org.slf4j:slf4j-api:jar:1.7.28:compile
++- org.openjfx:javafx-web:jar:11.0.2:compile
+|  +- org.openjfx:javafx-web:jar:linux:11.0.2:compile
+|  |  +- (org.openjfx:javafx-web:jar:linux:11.0.2:compile - omitted for cycle)
+|  |  +- (org.openjfx:javafx-web:jar:linux:11.0.2:compile - omitted for duplicate)
+|  |  +- (org.openjfx:javafx-controls:jar:11.0.2:compile - omitted for duplicate)
+|  |  \- (org.openjfx:javafx-media:jar:11.0.2:compile - omitted for duplicate)
+|  +- org.openjfx:javafx-controls:jar:11.0.2:compile
+|  |  +- org.openjfx:javafx-controls:jar:linux:11.0.2:compile
+|  |  |  +- (org.openjfx:javafx-controls:jar:linux:11.0.2:compile - omitted for cycle)
+|  |  |  +- (org.openjfx:javafx-controls:jar:linux:11.0.2:compile - omitted for duplicate)
+|  |  |  \- (org.openjfx:javafx-graphics:jar:11.0.2:compile - omitted for duplicate)
+|  |  \- org.openjfx:javafx-graphics:jar:11.0.2:compile
+|  |     +- org.openjfx:javafx-graphics:jar:linux:11.0.2:compile
+|  |     |  +- (org.openjfx:javafx-graphics:jar:linux:11.0.2:compile - omitted for cycle)
+|  |     |  +- (org.openjfx:javafx-graphics:jar:linux:11.0.2:compile - omitted for duplicate)
+|  |     |  \- (org.openjfx:javafx-base:jar:11.0.2:compile - omitted for duplicate)
+|  |     \- org.openjfx:javafx-base:jar:11.0.2:compile
+|  |        \- org.openjfx:javafx-base:jar:linux:11.0.2:compile
+|  |           +- (org.openjfx:javafx-base:jar:linux:11.0.2:compile - omitted for cycle)
+|  |           \- (org.openjfx:javafx-base:jar:linux:11.0.2:compile - omitted for duplicate)
+|  \- org.openjfx:javafx-media:jar:11.0.2:compile
+|     +- org.openjfx:javafx-media:jar:linux:11.0.2:compile
+|     |  +- (org.openjfx:javafx-media:jar:linux:11.0.2:compile - omitted for cycle)
+|     |  +- (org.openjfx:javafx-media:jar:linux:11.0.2:compile - omitted for duplicate)
+|     |  \- (org.openjfx:javafx-graphics:jar:11.0.2:compile - omitted for duplicate)
+|     \- (org.openjfx:javafx-graphics:jar:11.0.2:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:provided
+|  +- ch.qos.logback:logback-core:jar:1.2.3:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.28)
++- org.junit.jupiter:junit-jupiter:jar:5.5.1:test
+|  +- org.junit.jupiter:junit-jupiter-api:jar:5.5.1:test
+|  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.5.1:test
+|  |     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  +- org.junit.jupiter:junit-jupiter-params:jar:5.5.1:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  |  \- (org.junit.jupiter:junit-jupiter-api:jar:5.5.1:test - omitted for duplicate)
+|  \- org.junit.jupiter:junit-jupiter-engine:jar:5.5.1:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     +- org.junit.platform:junit-platform-engine:jar:1.5.1:test
+|     |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     |  +- (org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)
+|     |  \- (org.junit.platform:junit-platform-commons:jar:1.5.1:test - omitted for duplicate)
+|     \- (org.junit.jupiter:junit-jupiter-api:jar:5.5.1:test - omitted for duplicate)
++- org.assertj:assertj-core:jar:3.11.1:test
+\- org.skyscreamer:jsonassert:jar:1.5.0:test
+   \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+

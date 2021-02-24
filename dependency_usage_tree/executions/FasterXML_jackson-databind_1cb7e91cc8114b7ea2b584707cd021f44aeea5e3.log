@@ -1,0 +1,21 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.fasterxml.jackson.core:jackson-databind:jar:2.2.1
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.2.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.2.1:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- cglib:cglib:jar:2.2.2:test
+|  \- asm:asm:jar:3.3.1:test
++- org.codehaus.groovy:groovy:jar:1.7.9:test
+|  +- antlr:antlr:jar:2.7.7:test
+|  +- (asm:asm:jar:3.2:test - omitted for conflict with 3.3.1)
+|  +- asm:asm-commons:jar:3.2:test
+|  |  \- (asm:asm-tree:jar:3.2:test - omitted for duplicate)
+|  +- asm:asm-util:jar:3.2:test
+|  |  \- (asm:asm-tree:jar:3.2:test - omitted for duplicate)
+|  +- asm:asm-analysis:jar:3.2:test
+|  |  \- (asm:asm-tree:jar:3.2:test - omitted for duplicate)
+|  \- asm:asm-tree:jar:3.2:test
+|     \- (asm:asm:jar:3.2:test - omitted for conflict with 3.3.1)
+\- org.hibernate:hibernate-cglib-repack:jar:2.1_3:test
+

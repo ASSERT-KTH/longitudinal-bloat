@@ -1,0 +1,88 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmp11ghr6rp/gridss; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/PapenfussLab_gridss/5a50de3d72f000dfa57249aea56ebaf8a8598b15/depClean.log 2>&1' returned non-zero exit status 1.
+[ERROR] Command 'cd /tmp/tmp11ghr6rp/gridss; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/PapenfussLab_gridss/5a50de3d72f000dfa57249aea56ebaf8a8598b15/depClean.log 2>&1' returned non-zero exit status 1.
+au.edu.wehi:gridss:jar:1.3.2
++- jaligner:jaligner:jar:1.0:compile
++- ssw:ssw:jar:1.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.guava:guava:jar:19.0:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- org.apache.commons:commons-math3:jar:3.3:compile
++- commons-io:commons-io:jar:2.4:compile
++- commons-configuration:commons-configuration:jar:1.10:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- it.uniroma1.dis.wsngroup.gexf4j:gexf4j:jar:0.4.4-BETA:compile
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 19.0)
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.0.6:compile
+|  |  +- stax:stax-api:jar:1.0.1:compile
+|  |  \- (org.codehaus.woodstox:stax2-api:jar:3.0.1:compile - omitted for conflict with 3.1.1)
+|  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|     \- javax.xml.stream:stax-api:jar:1.0-2:compile
++- it.unimi.dsi:fastutil:jar:7.0.2:compile
++- net.sf.trove4j:trove4j:jar:3.0.3:compile
++- com.github.samtools:htsjdk:jar:2.9.1:compile
+|  +- org.apache.commons:commons-jexl:jar:2.1.1:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- org.xerial.snappy:snappy-java:jar:1.0.3-rc3:compile
+|  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  \- (org.tukaani:xz:jar:1.0:compile - omitted for conflict with 1.5)
+|  +- org.tukaani:xz:jar:1.5:compile
+|  \- gov.nih.nlm.ncbi:ngs-java:jar:1.2.4:compile
++- com.github.broadinstitute:picard:jar:2.9.0:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  \- (com.github.samtools:htsjdk:jar:2.9.0:compile - omitted for conflict with 2.9.1)
+\- net.openhft:chronicle-map:jar:3.11.0:compile
+   +- net.openhft:chronicle-core:jar:1.7.7:compile
+   |  +- (org.slf4j:slf4j-api:jar:1.7.14:compile - omitted for duplicate)
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- net.openhft:chronicle-values:jar:1.5.3:compile
+   |  +- (net.openhft:chronicle-bytes:jar:1.7.2:compile - omitted for conflict with 1.7.19)
+   |  +- com.sun.java:tools:jar:1.8.0_275:system
+   |  +- com.squareup:javapoet:jar:1.5.1:compile
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- net.openhft:chronicle-threads:jar:1.7.2:compile
+   |  +- net.openhft:affinity:jar:3.0.5:compile
+   |  |  +- (org.slf4j:slf4j-api:jar:1.7.14:compile - omitted for duplicate)
+   |  |  +- (net.java.dev.jna:jna:jar:4.2.1:compile - omitted for duplicate)
+   |  |  +- (net.java.dev.jna:jna-platform:jar:4.2.1:compile - omitted for duplicate)
+   |  |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   |  +- (net.openhft:chronicle-core:jar:1.7.2:compile - omitted for conflict with 1.7.7)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.14:compile - omitted for duplicate)
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- org.slf4j:slf4j-api:jar:1.7.14:compile
+   +- com.intellij:annotations:jar:12.0:compile
+   +- net.openhft:chronicle-wire:jar:1.7.16:compile
+   |  +- (net.openhft:chronicle-bytes:jar:1.7.19:compile - omitted for conflict with 1.7.2)
+   |  +- (net.openhft:chronicle-threads:jar:1.7.2:compile - omitted for duplicate)
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- net.openhft:chronicle-bytes:jar:1.7.19:compile
+   |  +- (net.openhft:chronicle-core:jar:1.7.7:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.14:compile - omitted for duplicate)
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- net.openhft:chronicle-algorithms:jar:1.1.7:compile
+   |  +- (net.openhft:chronicle-core:jar:1.3.0:compile - omitted for conflict with 1.7.7)
+   |  +- (net.openhft:chronicle-bytes:jar:1.2.3:compile - omitted for conflict with 1.7.19)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.14:compile - omitted for duplicate)
+   |  \- (com.intellij:annotations:jar:12.0:compile - omitted for duplicate)
+   +- net.java.dev.jna:jna:jar:4.2.1:compile
+   +- net.java.dev.jna:jna-platform:jar:4.2.1:compile
+   |  \- (net.java.dev.jna:jna:jar:4.2.1:compile - omitted for duplicate)
+   +- com.thoughtworks.xstream:xstream:jar:1.4.8:compile
+   |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+   |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+   +- org.codehaus.jettison:jettison:jar:1.3.7:compile
+   |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+   \- org.ops4j.pax.url:pax-url-aether:jar:2.4.5:compile
+      \- org.slf4j:jcl-over-slf4j:jar:1.6.6:compile
+         \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.14)
+

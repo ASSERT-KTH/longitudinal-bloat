@@ -1,0 +1,70 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.ebean:ebean:jar:12.3.2
++- org.slf4j:slf4j-api:jar:1.7.25:provided (scope not updated to compile)
++- io.avaje:config:jar:1.2:compile
+|  +- org.yaml:snakeyaml:jar:1.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.avaje:avaje-jsr305:jar:1.0:provided
++- io.ebean:persistence-api:jar:2.2.4:compile
++- io.ebean:ebean-annotation:jar:6.11:compile
++- io.ebean:ebean-types:jar:2.1:compile
++- io.ebean:ebean-datasource:jar:4.9.2:compile
+|  \- io.ebean:ebean-datasource-api:jar:4.9:compile
++- io.ebean:ebean-migration:jar:12.1.4:compile
+|  \- io.avaje:classpath-scanner:jar:4.2:compile
+|     \- io.avaje:classpath-scanner-api:jar:4.1:compile
++- org.antlr:antlr4-runtime:jar:4.7.2:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0:provided
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:provided - omitted for duplicate)
++- javax.transaction:jta:jar:1.1:provided
++- javax.validation:validation-api:jar:1.1.0.Final:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- joda-time:joda-time:jar:2.9.7:provided
++- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:provided
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:provided
+|  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:provided - omitted for duplicate)
+|  +- org.glassfish.jaxb:txw2:jar:2.3.2:provided
+|  +- com.sun.istack:istack-commons-runtime:jar:3.0.8:provided
+|  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:provided - omitted for duplicate)
+|  +- org.jvnet.staxex:stax-ex:jar:1.8.1:provided
+|  |  +- (jakarta.activation:jakarta.activation-api:jar:1.2.1:provided - omitted for duplicate)
+|  |  \- (jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:provided - omitted for duplicate)
+|  +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:provided
+|  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:provided
++- javax.annotation:javax.annotation-api:jar:1.3.2:provided
++- org.postgresql:postgresql:jar:42.2.10:provided
++- com.nuodb.jdbc:nuodb-jdbc:jar:20.2.0:test
++- com.oracle.ojdbc:ojdbc10:jar:19.3.0.0:test
+|  +- com.oracle.ojdbc:ucp:jar:19.3.0.0:test
+|  +- com.oracle.ojdbc:oraclepki:jar:19.3.0.0:test
+|  +- com.oracle.ojdbc:osdt_cert:jar:19.3.0.0:test
+|  +- com.oracle.ojdbc:osdt_core:jar:19.3.0.0:test
+|  +- com.oracle.ojdbc:simplefan:jar:19.3.0.0:test
+|  |  \- (com.oracle.ojdbc:ons:jar:19.3.0.0:test - omitted for duplicate)
+|  \- com.oracle.ojdbc:ons:jar:19.3.0.0:test
++- io.ebean.test:ebean-test-docker:jar:3.1.5:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- com.h2database:h2:jar:1.4.199:provided
++- org.xerial:sqlite-jdbc:jar:3.15.1:test
++- org.hsqldb:hsqldb:jar:2.3.4:test
++- com.microsoft.sqlserver:mssql-jdbc:jar:7.2.2.jre8:test
++- mysql:mysql-connector-java:jar:8.0.17:test
+|  \- com.google.protobuf:protobuf-java:jar:3.6.1:test
++- com.sap.cloud.db.jdbc:ngdbc:jar:2.3.48:test
++- org.mockito:mockito-core:jar:3.0.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.10:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.avaje.composite:junit:jar:1.1:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.assertj:assertj-core:jar:3.10.0:test
+|  +- (com.h2database:h2:jar:1.4.197:test - omitted for conflict with 1.4.199)
+|  \- (org.mockito:mockito-core:jar:2.18.3:test - omitted for conflict with 3.0.0)
++- commons-io:commons-io:jar:2.5:test
+\- io.avaje:mod-uuid:jar:1.1:test
+

@@ -1,0 +1,151 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.shadorc.shadbot:shadbot:jar:3.5.18
++- com.discord4j:discord4j-core:jar:3.1.0:compile
+|  +- com.discord4j:discord-json:jar:1.5.3:compile
+|  |  +- com.discord4j:discord-json-api:jar:1.5.3:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:runtime - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile - omitted for conflict with 2.10.0)
+|  |  \- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:compile - scope updated from runtime; omitted for duplicate)
+|  +- com.discord4j:discord4j-rest:jar:3.1.0:compile
+|  |  +- (com.discord4j:discord-json:jar:1.5.3:compile - omitted for duplicate)
+|  |  \- com.discord4j:discord4j-common:jar:3.1.0:compile
+|  |     +- (com.discord4j:discord-json:jar:1.5.3:compile - omitted for duplicate)
+|  |     +- io.projectreactor.netty:reactor-netty:jar:0.9.10.RELEASE:compile
+|  |     |  +- io.netty:netty-codec-http:jar:4.1.51.Final:compile
+|  |     |  |  +- io.netty:netty-common:jar:4.1.51.Final:compile
+|  |     |  |  +- io.netty:netty-buffer:jar:4.1.51.Final:compile
+|  |     |  |  |  \- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- io.netty:netty-transport:jar:4.1.51.Final:compile
+|  |     |  |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  \- (io.netty:netty-resolver:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- io.netty:netty-codec:jar:4.1.51.Final:compile
+|  |     |  |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  \- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  \- (io.netty:netty-handler:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-codec-http2:jar:4.1.51.Final:compile
+|  |     |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-codec:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-handler:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  \- (io.netty:netty-codec-http:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-handler:jar:4.1.51.Final:compile
+|  |     |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- io.netty:netty-resolver:jar:4.1.51.Final:compile
+|  |     |  |  |  \- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  \- (io.netty:netty-codec:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-handler-proxy:jar:4.1.51.Final:compile
+|  |     |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-codec:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- io.netty:netty-codec-socks:jar:4.1.51.Final:compile
+|  |     |  |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  +- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  |  \- (io.netty:netty-codec:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  \- (io.netty:netty-codec-http:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.51.Final:compile
+|  |     |  |  +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  +- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.51.Final:compile
+|  |     |  |     +- (io.netty:netty-common:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |     +- (io.netty:netty-buffer:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  |     \- (io.netty:netty-transport:jar:4.1.51.Final:compile - omitted for duplicate)
+|  |     |  \- (io.projectreactor:reactor-core:jar:3.3.8.RELEASE:compile - omitted for conflict with 3.3.4.RELEASE)
+|  |     +- (io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile - omitted for duplicate)
+|  |     \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:compile
+|  |        +- (com.fasterxml.jackson.core:jackson-core:jar:2.11.1:compile - omitted for duplicate)
+|  |        \- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile - omitted for duplicate)
+|  +- com.discord4j:discord4j-gateway:jar:3.1.0:compile
+|  |  +- (com.discord4j:discord-json:jar:1.5.3:compile - omitted for duplicate)
+|  |  +- (com.discord4j:discord4j-common:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile
+|  |     \- (io.projectreactor:reactor-core:jar:3.3.4.RELEASE:compile - omitted for conflict with 3.3.8.RELEASE)
+|  +- com.discord4j:discord4j-voice:jar:3.1.0:compile
+|  |  +- (com.discord4j:discord-json:jar:1.5.3:compile - omitted for duplicate)
+|  |  +- (com.discord4j:discord4j-common:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- com.discord4j:simple-fsm:jar:1.0.1:compile
+|  \- com.discord4j:stores-jdk:jar:3.1.3:compile
+|     \- (com.discord4j:stores-api:jar:3.1.3:compile - omitted for duplicate)
++- com.discord4j:stores-caffeine:jar:3.1.3:compile
+|  +- com.discord4j:stores-api:jar:3.1.3:compile
+|  |  +- io.projectreactor:reactor-core:jar:3.3.8.RELEASE:compile
+|  |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.3:compile - omitted for conflict with 1.0.2)
+|  |  +- com.austinv11.servicer:Servicer:jar:1.0.3:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile - omitted for duplicate)
+|  \- com.github.ben-manes.caffeine:caffeine:jar:2.8.5:compile
+|     +- org.checkerframework:checker-qual:jar:3.4.1:compile
+|     \- com.google.errorprone:error_prone_annotations:jar:2.4.0:compile
++- com.sedmelluq:lavaplayer:jar:1.3.50:compile
+|  +- com.sedmelluq:lava-common:jar:1.1.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  +- com.sedmelluq:lavaplayer-natives:jar:1.3.13:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.10:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.11:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile - omitted for duplicate)
+|  +- org.jsoup:jsoup:jar:1.12.1:compile
+|  \- net.iharder:base64:jar:2.3.9:compile
++- com.sedmelluq:lavaplayer-ext-youtube-rotator:jar:0.2.3:compile
+|  \- (com.sedmelluq:lavaplayer:jar:1.3.40:compile - omitted for conflict with 1.3.50)
++- io.prometheus:simpleclient:jar:0.9.0:compile
++- io.prometheus:simpleclient_httpserver:jar:0.9.0:compile
+|  +- (io.prometheus:simpleclient:jar:0.9.0:compile - omitted for duplicate)
+|  \- io.prometheus:simpleclient_common:jar:0.9.0:compile
+|     \- (io.prometheus:simpleclient:jar:0.9.0:compile - omitted for duplicate)
++- io.sentry:sentry:jar:1.7.30:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for conflict with 1.7.25)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.0:compile - omitted for duplicate)
++- io.sentry:sentry-logback:jar:1.7.30:compile
+|  +- (io.sentry:sentry:jar:1.7.30:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for conflict with 1.7.25)
+|  +- ch.qos.logback:logback-core:jar:1.2.1:compile
+|  \- (ch.qos.logback:logback-classic:jar:1.2.1:compile - omitted for conflict with 1.2.3)
++- com.github.vladimir-bukhtoyarov:bucket4j-core:jar:4.10.0:compile
++- org.json:json:jar:20200518:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.7.0-M1:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.7.0-M1:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
++- org.mongodb:mongodb-driver-reactivestreams:jar:4.1.0:compile
+|  +- org.mongodb:bson:jar:4.1.0:compile
+|  +- org.mongodb:mongodb-driver-core:jar:4.1.0:compile
+|  |  \- (org.mongodb:bson:jar:4.1.0:compile - omitted for duplicate)
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- io.projectreactor.tools:blockhound:jar:1.0.4.RELEASE:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for conflict with 1.2.1)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- net.aksingh:owm-japis:jar:2.5.3.0:compile
+|  +- com.google.code.gson:gson:jar:2.8.5:compile
+|  +- com.squareup.retrofit2:retrofit:jar:2.5.0:compile
+|  |  \- com.squareup.okhttp3:okhttp:jar:3.12.0:compile
+|  |     \- com.squareup.okio:okio:jar:1.15.0:compile
+|  +- com.squareup.retrofit2:converter-gson:jar:2.5.0:compile
+|  |  +- (com.squareup.retrofit2:retrofit:jar:2.5.0:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for conflict with 2.8.5)
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.30:compile
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.30:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.3.30:compile
+|     +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.30:compile - omitted for duplicate)
+|     \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.3.30:compile
+|        \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.30:compile - omitted for duplicate)
+\- com.fathzer:javaluator:jar:3.0.3:compile
+

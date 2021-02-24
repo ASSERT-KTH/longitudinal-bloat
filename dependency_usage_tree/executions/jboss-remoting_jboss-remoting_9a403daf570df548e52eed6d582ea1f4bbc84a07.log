@@ -1,0 +1,425 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jboss.remoting:jboss-remoting:jar:5.0.0.Beta7
++- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
++- org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided
++- org.jboss.logging:jboss-logging-processor:jar:2.0.1.Final:provided
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided - omitted for duplicate)
+|  \- org.jboss.jdeparser:jdeparser:jar:2.0.0.Final:provided
++- org.jboss.xnio:xnio-api:jar:3.4.0.Beta3:compile
+|  \- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - omitted for conflict with 1.2.0.Beta1)
++- org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile
+|  \- (org.jboss.logging:jboss-logging:jar:3.1.4.GA:compile - omitted for conflict with 3.2.1.Final)
++- org.wildfly.client:wildfly-client-config:jar:1.0.0.Alpha3:compile
+|  \- (org.jboss.logging:jboss-logging:jar:3.1.4.GA:compile - omitted for conflict with 3.2.1.Final)
++- org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta12:compile
+|  \- (org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile - omitted for duplicate)
++- org.jboss.modules:jboss-modules:jar:1.4.2.Final:provided
++- org.apache.directory.jdbm:apacheds-jdbm1:jar:2.0.0-M2:test
+|  \- org.slf4j:slf4j-api:jar:1.7.2:test
++- org.apache.directory.server:apacheds-core:jar:2.0.0-M11:test
+|  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-admin:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-authn:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-authz:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-changelog:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-collective:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-event:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-exception:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-journal:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-normalization:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-operational:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-referral:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-schema:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-subtree:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-interceptors-trigger:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-trigger:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:test
+|  +- org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- antlr:antlr:jar:2.7.7:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-util:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- bouncycastle:bcprov-jdk15:jar:140:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-server-config:jar:2.0.0-M11:test
+|  +- org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-core-constants:jar:2.0.0-M11:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-ldif-partition:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M11:test
+|  |  +- org.apache.directory.server:apacheds-core-avl:jar:2.0.0-M11:test
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-protocol-ldap:jar:2.0.0-M11:test
+|  +- (org.apache.directory.server:apacheds-core:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-jdbm-partition:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-avl:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-asn1-ber:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- commons-pool:commons-pool:jar:1.6:test
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-sp:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- org.apache.mina:mina-core:jar:2.0.7:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:test - omitted for conflict with 1.7.2)
+|  +- (bouncycastle:bcprov-jdk15:jar:140:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-interceptors-hash:jar:2.0.0-M11:test
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.1:test
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-i18n:jar:1.0.0-M16:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (antlr:antlr:jar:2.7.7:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-extras-trigger:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (antlr:antlr:jar:2.7.7:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- net.sf.ehcache:ehcache-core:jar:2.4.4:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:test - omitted for conflict with 1.7.2)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-interceptor-kerberos:jar:2.0.0-M11:test
+|  +- (org.apache.directory.server:apacheds-core:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-server-annotations:jar:2.0.0-M11:test
+|  +- org.apache.directory.server:apacheds-core-annotations:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-ldif-partition:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-jdbm-partition:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-protocol-kerberos:jar:2.0.0-M11:test
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-protocol-ldap:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.11:test - omitted for conflict with 4.8.2)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.api:api-ldap-codec-standalone:jar:1.0.0-M16:test
+|  +- org.apache.directory.api:api-ldap-net-mina:jar:1.0.0-M16:test
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.apache.directory.shared:shared-ldap-codec-standalone:jar:1.0.0-M13:test
+|  +- org.apache.directory.shared:shared-ldap-net-mina:jar:1.0.0-M13:test
+|  |  +- (org.apache.directory.shared:shared-ldap-codec-core:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  +- org.apache.directory.shared:shared-ldap-codec-core:jar:1.0.0-M13:test
+|  |  +- org.apache.directory.shared:shared-util:jar:1.0.0-M13:test
+|  |  |  +- (org.apache.directory.shared:shared-i18n:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  |  +- org.apache.directory.shared:shared-asn1-api:jar:1.0.0-M13:test
+|  |  |  +- (org.apache.directory.shared:shared-i18n:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  |  +- org.apache.directory.shared:shared-asn1-ber:jar:1.0.0-M13:test
+|  |  |  +- (org.apache.directory.shared:shared-i18n:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-api:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-util:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  |  +- org.apache.directory.shared:shared-i18n:jar:1.0.0-M13:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  |  +- org.apache.directory.shared:shared-ldap-model:jar:1.0.0-M13:test
+|  |  |  +- (org.apache.directory.shared:shared-util:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-api:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-ber:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-i18n:jar:1.0.0-M13:test - omitted for duplicate)
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  |  +- (antlr:antlr:jar:2.7.7:test - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
+|  +- (org.apache.mina:mina-core:jar:2.0.7:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.1:test - omitted for conflict with 1.7.2)
++- org.apache.directory.server:apacheds-core-jndi:jar:2.0.0-M11:test
+|  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M11:test - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M16:test - omitted for duplicate)
+|  +- (org.apache.directory.api:api-util:jar:1.0.0-M16:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
++- org.jboss.xnio:xnio-nio:jar:3.4.0.Beta3:test
+|  \- (org.jboss.xnio:xnio-api:jar:3.4.0.Beta3:test - omitted for duplicate)
++- junit:junit:jar:4.8.2:test
++- org.jboss.logmanager:jboss-logmanager:jar:2.0.3.Final:test
++- org.jboss.threads:jboss-threads:jar:2.2.1.Final:test
++- org.jboss.byteman:byteman:jar:2.2.0.1:test
++- org.jboss.byteman:byteman-bmunit:jar:2.2.0.1:test
+|  +- (org.jboss.byteman:byteman:jar:2.2.0.1:test - omitted for duplicate)
+|  +- org.jboss.byteman:byteman-submit:jar:2.2.0.1:test
+|  \- (org.jboss.byteman:byteman-install:jar:2.2.0.1:test - omitted for duplicate)
+\- org.jboss.byteman:byteman-install:jar:2.2.0.1:test
+   \- com.sun:tools:jar:1.6:system
+

@@ -1,0 +1,103 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+fatal: write error: No space left on device
+fatal: index-pack failed
+fatal: reference is not a tree: ea9f6bfea92cd65093df41a34aee92462bd08177
+OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+   29
+Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+
+com.discordsrv:discordsrv:jar:1.21.3
++- net.dv8tion:JDA:jar:4.2.0_222:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- (org.jetbrains:annotations:jar:16.0.1:compile - omitted for conflict with 19.0.0)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- (com.neovisionaries:nv-websocket-client:jar:2.10:compile - omitted for duplicate)
+|  +- com.squareup.okhttp3:okhttp:jar:3.13.0:compile
+|  |  \- com.squareup.okio:okio:jar:1.17.2:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- (net.sf.trove4j:trove4j:jar:3.0.3:runtime - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.10.1:runtime
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1:runtime
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.10.1:runtime
++- com.neovisionaries:nv-websocket-client:jar:2.10:compile
++- net.sf.trove4j:trove4j:jar:3.0.3:compile
++- org.spigotmc:spigot-api:jar:1.16.1-R0.1-SNAPSHOT:provided (scope not updated to runtime)
+|  +- (com.google.guava:guava:jar:21.0:provided - omitted for conflict with 27.1-jre)
+|  +- (com.google.code.gson:gson:jar:2.8.0:compile - scope updated from provided; omitted for duplicate)
+|  +- net.md-5:bungeecord-chat:jar:1.16-R0.3:provided
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
+|  \- (org.yaml:snakeyaml:jar:1.26:compile - scope updated from provided; omitted for duplicate)
++- github.scarsz:configuralize:jar:1.3.2:compile
+|  +- com.github.alexheretic:dynamics:jar:4.0:compile
+|  |  \- com.github.alexheretic:fluent:jar:2.0:compile
+|  +- (com.googlecode.json-simple:json-simple:jar:1.1.1:compile - omitted for duplicate)
+|  +- org.yaml:snakeyaml:jar:1.26:compile
+|  \- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.18.8:provided
++- org.apache.logging.log4j:log4j-core:jar:2.0-beta9:provided
+|  \- org.apache.logging.log4j:log4j-api:jar:2.0-beta9:provided
++- org.slf4j:slf4j-jdk14:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.6:compile
++- commons-collections:commons-collections:jar:3.2.2:compile
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- commons-codec:commons-codec:jar:1.11:compile
++- com.google.guava:guava:jar:27.1-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
++- mysql:mysql-connector-java:jar:5.1.49:provided
++- com.vdurmont:emoji-java:jar:3.1.3:compile
+|  \- org.json:json:jar:20140107:compile
++- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
++- com.github.kevinsawicki:http-request:jar:6.0:compile
++- org.minidns:minidns-hla:jar:0.3.4:compile
+|  \- org.minidns:minidns-dnssec:jar:0.3.4:compile
+|     +- org.minidns:minidns-client:jar:0.3.4:compile
+|     |  \- org.minidns:minidns-core:jar:0.3.4:compile
+|     \- org.minidns:minidns-iterative-resolver:jar:0.3.4:compile
+|        \- (org.minidns:minidns-client:jar:0.3.4:compile - omitted for duplicate)
++- org.reflections:reflections:jar:0.9.12:compile
+|  \- org.javassist:javassist:jar:3.26.0-GA:compile
++- org.springframework:spring-expression:jar:5.2.7.RELEASE:compile
+|  \- org.springframework:spring-core:jar:5.2.7.RELEASE:compile
+|     \- org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile
++- dev.vankka:MCDiscordReserializer:jar:3.0.1:compile
+|  \- dev.vankka:SimpleAST:jar:2.2.1:runtime
++- net.kyori:text-api:jar:3.0.0:compile
+|  \- (org.checkerframework:checker-qual:jar:2.5.8:compile - omitted for conflict with 2.5.2)
++- net.kyori:text-serializer-legacy:jar:3.0.0:compile
+|  \- (net.kyori:text-api:jar:3.0.0:compile - omitted for duplicate)
++- net.kyori:text-adapter-bukkit:jar:3.0.0:compile
+|  +- (net.kyori:text-api:jar:3.0.0:compile - omitted for duplicate)
+|  +- net.kyori:text-serializer-gson:jar:3.0.0:compile
+|  |  +- (net.kyori:text-api:jar:3.0.0:compile - omitted for duplicate)
+|  |  \- com.google.code.gson:gson:jar:2.8.0:compile
+|  +- (net.kyori:text-serializer-legacy:jar:3.0.0:compile - omitted for duplicate)
+|  \- (org.spigotmc:spigot-api:jar:1.14-R0.1-SNAPSHOT:runtime - omitted for conflict with 1.16.1-R0.1-SNAPSHOT)
++- ru.mrbrikster:chatty-api:jar:2.18.2:provided
++- br.com.finalcraft:fancychat:jar:1.0.2:provided
++- com.dthielke.herochat:Herochat:jar:5.6.5:provided
++- br.com.devpaulo:legendchat:jar:1.1.5:provided
++- com.github.ucchyocean.lc:LunaChat:jar:3.0.16:provided
++- com.palmergames.bukkit:TownyChat:jar:0.45:provided
++- br.net.fabiozumbi12.UltimateChat:UltimateChat-Spigot:jar:1.9.1:provided
++- mineverse.aust1n46:venturechat:jar:2.20.1:provided
++- com.comphenix.protocol:ProtocolLib:jar:4.5.0:provided
++- net.luckperms:api:jar:5.0:provided
++- com.onarandombox.MultiverseCore:Multiverse-Core:jar:2.4:provided
++- org.dynmap:dynmap-api:jar:2.0:provided
++- ch.njol:skript:jar:2.5:provided
++- net.milkbowl.vault:VaultAPI:jar:1.7:provided
++- com.gmail.nossr50:mcmmo:jar:1.5.07:provided
++- me.clip:placeholderapi:jar:2.10.7:provided
++- org.jetbrains:annotations:jar:19.0.0:provided (scope not updated to compile)
++- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test
+

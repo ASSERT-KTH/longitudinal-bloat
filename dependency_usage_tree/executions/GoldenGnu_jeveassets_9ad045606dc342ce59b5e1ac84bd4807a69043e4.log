@@ -1,0 +1,51 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 33, in clone
+    self.pom = PomExtractor(self.path)
+  File "/home/jdbl/core/PomExtractor.py", line 55, in __init__
+    f = xml.parse(p)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.7/xml/etree/ElementTree.py", line 598, in parse
+    self._root = parser._parse_whole(source)
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: unbound prefix: line 81, column 6
+net.nikr:jeveassets:jar:3.1.0
++- net.nikr.eve:eveapi:jar:6.0.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.6.1)
++- uk.me.candle:pricing:jar:1.5.1:compile
+|  +- jaxen:jaxen:jar:1.1.6:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.12)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.6.1:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
++- uk.me.candle:routing:jar:1.5.0:compile
+|  +- uk.me.candle:graph:jar:1.5.0:compile
+|  \- (log4j:log4j:jar:1.2.13:compile - omitted for conflict with 1.2.16)
++- uk.me.candle:translations:jar:2.2.0:compile
+|  +- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- com.google.guava:guava:jar:r09:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.12)
++- apple.dts.samplecode:osxadapter:jar:1.1.0:compile
++- net.java.dev.glazedlists:glazedlists_java15:jar:1.9.1:compile
++- org.supercsv:supercsv:jar:1.52:compile
++- junit:junit:jar:4.8.2:test
++- commons-logging:commons-logging:jar:1.1.1:provided
++- org.slf4j:slf4j-api:jar:1.6.1:compile
++- org.slf4j:slf4j-log4j12:jar:1.6.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.6.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.6.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- log4j:log4j:jar:1.2.16:compile
++- jfree:jfreechart:jar:1.0.13:compile
+|  \- jfree:jcommon:jar:1.0.16:compile
++- com.github.lgooddatepicker:LGoodDatePicker:jar:7.6.3:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.3:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.8.3:compile
+

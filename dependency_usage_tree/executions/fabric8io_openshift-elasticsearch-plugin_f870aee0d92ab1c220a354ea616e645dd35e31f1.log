@@ -1,0 +1,118 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.fabric8.elasticsearch:openshift-elasticsearch-plugin:jar:5.6.13.4
++- org.elasticsearch:elasticsearch:jar:5.6.13:provided (scope not updated to compile)
+|  +- org.apache.lucene:lucene-core:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-analyzers-common:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-backward-codecs:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-grouping:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-highlighter:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-join:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-memory:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-misc:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-queries:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-queryparser:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-sandbox:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-spatial:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-spatial-extras:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-spatial3d:jar:6.6.1:provided
+|  +- org.apache.lucene:lucene-suggest:jar:6.6.1:provided
+|  +- org.elasticsearch:securesm:jar:1.2:provided
+|  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:provided
+|  +- com.carrotsearch:hppc:jar:0.7.1:provided
+|  +- joda-time:joda-time:jar:2.10:provided
+|  +- (org.yaml:snakeyaml:jar:1.15:provided - omitted for conflict with 1.16)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:provided
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:provided
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6:provided
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:provided
+|  +- com.tdunning:t-digest:jar:3.0:provided
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:provided
+|  +- org.apache.logging.log4j:log4j-api:jar:2.11.1:provided
+|  \- org.elasticsearch:jna:jar:4.4.0-1:provided
++- io.fabric8:kubernetes-openshift-uberjar:jar:4.0.3:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  |  \- com.squareup.okio:okio:jar:1.13.0:compile
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.9.1:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  +- io.fabric8:zjsonpatch:jar:0.3.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.2:compile - omitted for conflict with 2.7.7)
+|  \- com.github.mifmif:generex:jar:1.0.1:compile
+|     \- dk.brics.automaton:automaton:jar:1.11-8:compile
++- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
++- com.jayway.jsonpath:json-path:jar:2.3.0:compile
+|  +- net.minidev:json-smart:jar:2.3:compile
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.13)
++- com.floragunn:search-guard-5:jar:5.6.13-19.2:compile
+|  +- (com.floragunn:search-guard-ssl:jar:5.6.13-23:compile - omitted for duplicate)
+|  +- org.elasticsearch.plugin:transport-netty4-client:jar:5.6.13:compile
+|  |  +- io.netty:netty-buffer:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-codec:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-codec-http:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-common:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-handler:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-resolver:jar:4.1.13.Final:compile
+|  |  +- io.netty:netty-transport:jar:4.1.13.Final:compile
+|  |  +- (org.elasticsearch:elasticsearch:jar:5.6.13:compile - omitted for duplicate)
+|  |  \- org.apache.logging.log4j:log4j-core:jar:2.11.1:compile
+|  +- (com.google.guava:guava:jar:25.1-jre:compile - omitted for conflict with 19.0)
+|  \- (commons-cli:commons-cli:jar:1.3.1:compile - omitted for duplicate)
++- com.floragunn:search-guard-ssl:jar:5.6.13-23:compile
+|  \- (org.elasticsearch.plugin:transport-netty4-client:jar:5.6.13:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-io:commons-io:jar:2.1:compile
++- com.google.guava:guava:jar:19.0:compile
++- commons-cli:commons-cli:jar:1.3.1:compile
++- io.fabric8:openshift-server-mock:jar:4.0.3:test
+|  +- io.fabric8:kubernetes-server-mock:jar:4.0.3:test
+|  |  +- io.fabric8:kubernetes-client:jar:4.0.3:test
+|  |  |  +- io.fabric8:kubernetes-model:jar:3.0.0:test
+|  |  |  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.5:test
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.5:test - omitted for conflict with 2.8.6)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:test - omitted for duplicate)
+|  |  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.5:test - omitted for conflict with 2.7.7)
+|  |  |  |  \- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:test - omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:logging-interceptor:jar:3.9.1:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:test - omitted for duplicate)
+|  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.13:test
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:test - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.7:test - omitted for conflict with 2.8.6)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:test - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.7:test - omitted for conflict with 2.8.6)
+|  |  |  +- (io.fabric8:zjsonpatch:jar:0.3.0:test - omitted for duplicate)
+|  |  |  \- (com.github.mifmif:generex:jar:1.0.1:test - omitted for duplicate)
+|  |  +- io.fabric8:mockwebserver:jar:0.1.0:test
+|  |  |  +- com.squareup.okhttp3:mockwebserver:jar:3.9.0:test
+|  |  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.0:test - omitted for conflict with 3.9.1)
+|  |  |  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.50:test
+|  |  |  |  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:test - omitted for conflict with 2.7.7)
+|  |  |  +- io.sundr:builder-annotations:jar:0.2.7:test
+|  |  |  |  +- io.sundr:sundr-core:jar:0.2.7:test
+|  |  |  |  +- io.sundr:sundr-codegen:jar:0.2.7:test
+|  |  |  |  |  +- (io.sundr:sundr-core:jar:0.2.7:test - omitted for duplicate)
+|  |  |  |  |  \- org.apache.velocity:velocity:jar:1.7:test
+|  |  |  |  |     +- commons-collections:commons-collections:jar:3.2.1:test
+|  |  |  |  |     \- (commons-lang:commons-lang:jar:2.4:test - omitted for conflict with 2.6)
+|  |  |  |  \- com.sun:tools:jar:1.7:system
+|  |  |  \- (io.fabric8:zjsonpatch:jar:0.3.0:test - omitted for duplicate)
+|  |  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- io.fabric8:openshift-client:jar:4.0.3:test
+|     \- (io.fabric8:kubernetes-client:jar:4.0.3:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.9.0-rc1:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:1.0:test
++- commons-codec:commons-codec:jar:1.9:compile
++- org.yaml:snakeyaml:jar:1.16:test
+\- org.slf4j:slf4j-log4j12:jar:1.7.13:test
+   +- (org.slf4j:slf4j-api:jar:1.7.13:test - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test
+

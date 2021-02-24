@@ -1,0 +1,97 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.vlingo:vlingo-lattice:jar:1.3.3
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.0.13:compile
+|  +- ch.qos.logback:logback-core:jar:1.0.13:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.5:compile
++- io.vlingo:vlingo-common:jar:1.3.3:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- com.fasterxml.uuid:java-uuid-generator:jar:3.1.5:compile
+|  +- com.lambdaworks:scrypt:jar:1.4.0:compile
+|  +- org.mindrot:jbcrypt:jar:0.4:compile
+|  \- de.mkammerer:argon2-jvm:jar:2.4:compile
+|     \- net.java.dev.jna:jna:jar:4.5.0:compile
++- io.vlingo:vlingo-actors:jar:1.3.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.26:compile - omitted for conflict with 1.7.5)
+|  +- org.agrona:agrona:jar:1.0.2:compile
+|  +- org.pcollections:pcollections:jar:3.1.0:compile
+|  \- (io.vlingo:vlingo-common:jar:1.3.3:compile - omitted for duplicate)
++- io.vlingo:vlingo-streams:jar:1.3.3:compile
+|  +- (io.vlingo:vlingo-common:jar:1.3.3:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-actors:jar:1.3.3:compile - omitted for duplicate)
+|  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
++- io.vlingo:vlingo-cluster:jar:1.3.3:compile
+|  +- (ch.qos.logback:logback-classic:jar:1.0.13:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-common:jar:1.3.3:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-actors:jar:1.3.3:compile - omitted for duplicate)
+|  \- io.vlingo:vlingo-wire:jar:1.3.3:compile
+|     +- (io.vlingo:vlingo-actors:jar:1.3.3:compile - omitted for duplicate)
+|     +- io.netty:netty-all:jar:4.1.49.Final:compile
+|     +- io.rsocket:rsocket-core:jar:1.0.1:compile
+|     |  +- io.netty:netty-buffer:jar:4.1.50.Final:compile
+|     |  |  \- io.netty:netty-common:jar:4.1.50.Final:compile
+|     |  +- io.projectreactor:reactor-core:jar:3.3.6.RELEASE:compile
+|     |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.3:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for conflict with 1.7.5)
+|     +- io.rsocket:rsocket-transport-netty:jar:1.0.1:compile
+|     |  +- (io.rsocket:rsocket-core:jar:1.0.1:compile - omitted for duplicate)
+|     |  +- io.projectreactor.netty:reactor-netty:jar:0.9.8.RELEASE:compile
+|     |  |  +- io.netty:netty-codec-http:jar:4.1.50.Final:compile
+|     |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- io.netty:netty-transport:jar:4.1.50.Final:compile
+|     |  |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  \- (io.netty:netty-resolver:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- io.netty:netty-codec:jar:4.1.50.Final:compile
+|     |  |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  \- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  \- (io.netty:netty-handler:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  +- io.netty:netty-codec-http2:jar:4.1.50.Final:compile
+|     |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-codec:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-handler:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  \- (io.netty:netty-codec-http:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  +- io.netty:netty-handler:jar:4.1.50.Final:compile
+|     |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- io.netty:netty-resolver:jar:4.1.50.Final:compile
+|     |  |  |  |  \- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  \- (io.netty:netty-codec:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  +- io.netty:netty-handler-proxy:jar:4.1.50.Final:compile
+|     |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-codec:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- io.netty:netty-codec-socks:jar:4.1.50.Final:compile
+|     |  |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  +- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  |  \- (io.netty:netty-codec:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  \- (io.netty:netty-codec-http:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.50.Final:compile
+|     |  |  |  +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  +- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.50.Final:compile
+|     |  |  |     +- (io.netty:netty-common:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |     +- (io.netty:netty-buffer:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  |     \- (io.netty:netty-transport:jar:4.1.50.Final:compile - omitted for duplicate)
+|     |  |  \- (io.projectreactor:reactor-core:jar:3.3.6.RELEASE:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|     \- io.projectreactor.addons:reactor-extra:jar:3.3.2.RELEASE:compile
+|        \- (io.projectreactor:reactor-core:jar:3.3.2.RELEASE:compile - omitted for conflict with 3.3.6.RELEASE)
++- io.vlingo:vlingo-symbio:jar:1.3.3:compile
+|  +- (io.vlingo:vlingo-common:jar:1.3.3:compile - omitted for duplicate)
+|  +- (io.vlingo:vlingo-actors:jar:1.3.3:compile - omitted for duplicate)
+|  \- (io.vlingo:vlingo-streams:jar:1.3.3:compile - omitted for duplicate)
+\- de.ruedigermoeller:fst:jar:2.57:compile
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+   +- org.javassist:javassist:jar:3.21.0-GA:compile
+   \- org.objenesis:objenesis:jar:2.5.1:compile
+

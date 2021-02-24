@@ -1,0 +1,41 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.nimbusds:nimbus-jose-jwt:jar:4.36.1
++- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
++- net.minidev:json-smart:jar:2.3:compile
+|  \- net.minidev:accessors-smart:jar:1.2:compile
+|     \- org.ow2.asm:asm:jar:5.0.4:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.55:compile - omitted for duplicate)
++- org.bitbucket.b_c:jose4j:jar:0.4.1:test
+|  \- commons-logging:commons-logging:jar:1.1.3:test
++- net.jadler:jadler-all:jar:1.1.1:test
+|  +- net.jadler:jadler-core:jar:1.1.1:test
+|  |  +- org.slf4j:slf4j-api:jar:1.7.2:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.4:test
+|  |  +- commons-lang:commons-lang:jar:2.6:test
+|  |  \- commons-collections:commons-collections:jar:3.2.1:test
+|  +- net.jadler:jadler-jetty:jar:1.1.1:test
+|  |  +- (net.jadler:jadler-core:jar:1.1.1:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-server:jar:8.1.11.v20130520:test
+|  |  |  +- (org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty:jetty-continuation:jar:8.1.11.v20130520:test
+|  |  |  \- org.eclipse.jetty:jetty-http:jar:8.1.11.v20130520:test
+|  |  |     \- org.eclipse.jetty:jetty-io:jar:8.1.11.v20130520:test
+|  |  |        \- org.eclipse.jetty:jetty-util:jar:8.1.11.v20130520:test
+|  |  +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  \- net.jadler:jadler-junit:jar:1.1.1:test
+|     +- (net.jadler:jadler-core:jar:1.1.1:test - omitted for duplicate)
+|     +- (net.jadler:jadler-jetty:jar:1.1.1:test - omitted for duplicate)
+|     +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|     \- (junit:junit:jar:4.11:test - omitted for conflict with 4.12)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+

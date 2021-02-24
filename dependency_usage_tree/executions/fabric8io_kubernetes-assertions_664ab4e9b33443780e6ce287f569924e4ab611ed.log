@@ -1,0 +1,59 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.fabric8:kubernetes-assertions:jar:4.0.0
++- io.fabric8:kubernetes-api:jar:3.0.8:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- (io.fabric8:openshift-client:jar:3.0.3:compile - omitted for conflict with 4.8.0)
+|  +- (io.fabric8:fabric8-utils:jar:3.0.8:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:compile
+|  +- org.json:json:jar:20160212:compile
+|  +- dnsjava:dnsjava:jar:2.1.8:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- io.fabric8:kubernetes-client:jar:4.8.0:compile
+|  +- io.fabric8:kubernetes-model:jar:4.8.0:compile
+|  |  +- io.fabric8:kubernetes-model-common:jar:4.8.0:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.2:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.2:compile - omitted for conflict with 2.7.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.2:compile - omitted for duplicate)
+|  |  |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile
+|  |  |  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|  |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
+|  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+|  |  \- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.12.6:compile
+|  |  \- com.squareup.okio:okio:jar:1.15.0:compile
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.12.6:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.12.6:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.30:compile - omitted for conflict with 1.7.12)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.10.2:compile - omitted for conflict with 2.7.4)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.2:compile - omitted for conflict with 2.7.4)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.2:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.2:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.2:compile - omitted for conflict with 2.7.4)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.10.2:compile
+|  +- io.fabric8:zjsonpatch:jar:0.3.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.2:compile - omitted for conflict with 2.10.2)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.2:compile - omitted for conflict with 2.10.2)
+|  \- com.github.mifmif:generex:jar:1.0.2:compile
+|     \- dk.brics.automaton:automaton:jar:1.11-8:compile
++- io.fabric8:openshift-client:jar:4.8.0:compile
+|  \- (io.fabric8:kubernetes-client:jar:4.8.0:compile - omitted for duplicate)
++- io.fabric8:fabric8-utils:jar:3.0.8:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for conflict with 2.10.2)
++- org.fusesource.jansi:jansi:jar:1.11:compile
++- org.assertj:assertj-core:jar:3.15.0:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.12)
+|  \- log4j:log4j:jar:1.2.17:test
+\- org.junit.jupiter:junit-jupiter-api:jar:5.6.0:compile
+   +- org.apiguardian:apiguardian-api:jar:1.1.0:compile
+   +- org.opentest4j:opentest4j:jar:1.2.0:compile
+   \- org.junit.platform:junit-platform-commons:jar:1.6.0:compile
+      \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+

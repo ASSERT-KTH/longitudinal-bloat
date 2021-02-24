@@ -1,0 +1,91 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+edu.stanford.swrl:swrlapi-drools-engine:bundle:2.0.5
++- edu.stanford.swrl:swrlapi:jar:2.0.5:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- org.apache.geronimo.bundles:axis:jar:1.4_2:compile
+|  +- org.apache.geronimo.bundles:commons-discovery:jar:0.4_1:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- org.scijava:jep:jar:2.4.2:compile
+|  |  \- gov.nist.math:jama:jar:1.0.3:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- net.sourceforge.owlapi:owlapi-osgidistribution:jar:4.2.8:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1:compile
+|  +- org.tukaani:xz:jar:1.5:compile
+|  +- org.openrdf.sesame:sesame-model:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-binary:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-n3:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-trix:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-rio-trig:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-util:jar:2.7.16:compile
+|  +- com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0:compile
+|  +- com.github.jsonld-java:jsonld-java:jar:0.5.0:compile
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.7:runtime
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.semarglproject:semargl-sesame:jar:0.6.1:compile
+|  +- org.semarglproject:semargl-core:jar:0.6.1:compile
+|  +- org.semarglproject:semargl-rdfa:jar:0.6.1:compile
+|  +- org.semarglproject:semargl-rdf:jar:0.6.1:compile
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:jar:1_2:compile
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.aopalliance:jar:1.0_6:compile
+|  +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- org.drools:drools-osgi-integration:jar:6.5.0.Final:compile
+|  +- org.drools:drools-compiler:jar:6.5.0.Final:compile
+|  |  +- org.antlr:antlr-runtime:jar:3.5:compile
+|  |  +- org.eclipse.jdt.core.compiler:ecj:jar:4.4.2:compile
+|  |  +- org.mvel:mvel2:jar:2.2.8.Final:compile
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.4.9:compile
+|  |  |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  |  \- com.google.protobuf:protobuf-java:jar:2.6.0:compile
+|  +- org.drools:drools-core:jar:6.5.0.Final:compile
+|  +- org.osgi:org.osgi.core:jar:4.3.1:compile
+|  +- org.kie:kie-api:jar:6.5.0.Final:compile
+|  +- org.kie:kie-spring:jar:6.5.0.Final:compile
+|  |  +- org.jbpm:jbpm-flow:jar:6.5.0.Final:compile
+|  |  |  \- joda-time:joda-time:jar:1.6.2:compile
+|  |  +- org.springframework:spring-tx:jar:4.3.2.RELEASE:compile
+|  |  +- org.drools:drools-decisiontables:jar:6.5.0.Final:compile
+|  |  |  +- org.drools:drools-templates:jar:6.5.0.Final:compile
+|  |  |  +- org.apache.poi:poi-ooxml:jar:3.13:compile
+|  |  |  |  \- org.apache.poi:poi-ooxml-schemas:jar:3.13:compile
+|  |  |  |     \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |  |  |        \- stax:stax-api:jar:1.0.1:compile
+|  |  |  \- org.apache.poi:poi:jar:3.13:compile
+|  |  \- org.springframework:spring-core:jar:4.3.2.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.3.2.RELEASE:compile
+|  +- org.springframework:spring-context:jar:4.3.2.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:4.3.2.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:4.3.2.RELEASE:compile
+|  \- org.springframework.osgi:spring-osgi-core:jar:1.2.1:compile
+|     \- org.springframework.osgi:spring-osgi-io:jar:1.2.1:compile
++- org.drools:knowledge-api:jar:6.5.0.Final:compile
+|  +- org.drools:drools-reteoo:jar:6.5.0.Final:compile
+|  \- org.kie:kie-internal:jar:6.5.0.Final:compile
++- org.checkerframework:checker:jar:1.9.13:compile
++- org.checkerframework:checker-qual:jar:1.9.13:compile
++- org.checkerframework:jdk8:jar:1.9.13:compile
++- junit:junit:jar:4.12:test
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+   \- log4j:log4j:jar:1.2.17:test
+

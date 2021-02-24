@@ -1,0 +1,18 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+graphql.java:graphql-java-type-generator:jar:0.2.0
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- com.graphql-java:graphql-java:jar:2.0.0:compile
+|  +- org.antlr:antlr4-runtime:jar:4.5.1:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:runtime - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.12:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:test
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:test
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.6.5:test
+

@@ -1,0 +1,308 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+sc.fiji:SPIM_Registration:jar:2.0.9
++- sc.fiji:spim_data:jar:1.0.0-beta-5:compile
+|  +- net.imglib2:imglib2:jar:2.2.0:compile
+|  +- (net.imglib2:imglib2-realtransform:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  +- org.scijava:scijava-common:jar:2.35.1:compile
+|  |  +- com.googlecode.gentyref:gentyref:jar:1.1.0:compile
+|  |  \- org.bushe:eventbus:jar:1.4:compile
+|  \- (org.jdom:jdom2:jar:2.0.5:compile - omitted for duplicate)
++- sc.fiji:bigdataviewer-core:jar:1.0.2:compile
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (net.imglib2:imglib2-realtransform:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  +- net.imglib2:imglib2-ui:jar:2.0.0-beta-28:compile
+|  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  \- (net.imglib2:imglib2-realtransform:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  +- (net.imglib2:imglib2-algorithm:jar:0.1.1:compile - omitted for duplicate)
+|  +- (sc.fiji:spim_data:jar:1.0.0-beta-5:compile - omitted for duplicate)
+|  +- cisd:jhdf5:jar:13.06.2:compile
+|  +- (org.jdom:jdom2:jar:2.0.5:compile - omitted for duplicate)
+|  \- com.google.code.gson:gson:jar:2.2.4:compile
++- sc.fiji:3D_Viewer:jar:3.0.1:compile
+|  +- (sc.fiji:VIB-lib:jar:2.0.1:compile - omitted for duplicate)
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  \- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
++- sc.fiji:fiji-lib:jar:2.1.0:compile
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  \- net.imagej:ij1-patcher:jar:0.11.1:compile (version managed from 0.11.0)
+|     +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|     \- org.javassist:javassist:jar:3.16.1-GA:compile
++- sc.fiji:Fiji_Plugins:jar:2.0.2:compile
+|  +- sc.fiji:fiji-compat:jar:2.0.1:compile
+|  |  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  |  +- net.imagej:imagej-legacy:jar:0.9.3:compile
+|  |  |  +- (io.scif:scifio:jar:0.17.2:compile - version managed from 0.17.1; omitted for duplicate)
+|  |  |  +- (net.imagej:ij1-patcher:jar:0.11.1:compile - version managed from 0.11.0; omitted for duplicate)
+|  |  |  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- net.imagej:imagej-ui-swing:jar:0.8.1:compile
+|  |  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  |  +- (net.imagej:imagej-ops:jar:0.6.2:compile - version managed from 0.6.1; omitted for duplicate)
+|  |  |  |  +- (net.imagej:imagej-updater:jar:0.7.0:compile - omitted for duplicate)
+|  |  |  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  |  |  +- (net.imglib2:imglib2-algorithm:jar:0.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-ui-awt:jar:0.1.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-ui-swing:jar:0.3.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.scijava:scripting-java:jar:0.2.5:compile - omitted for duplicate)
+|  |  |  |  +- com.fifesoft:rsyntaxtextarea:jar:2.5.2:compile
+|  |  |  |  +- com.miglayout:miglayout:jar:swing:3.7.4:compile
+|  |  |  |  +- (org.jfree:jfreechart:jar:1.0.14:compile - version managed from 1.0.19; omitted for duplicate)
+|  |  |  |  +- org.jhotdraw:jhotdraw:jar:7.6.0:compile
+|  |  |  |  \- net.imagej:imagej-ui-awt:jar:0.2.1:runtime
+|  |  |  |     +- (net.imagej:imagej-common:jar:0.10.2:runtime - version managed from 0.10.1; omitted for duplicate)
+|  |  |  |     +- (net.imglib2:imglib2:jar:2.2.0:runtime - version managed from 2.1.0; omitted for duplicate)
+|  |  |  |     \- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.35.0; omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2-ij:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  |  +- org.scijava:scijava-ui-awt:jar:0.1.2:compile
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.20.0; omitted for duplicate)
+|  |  |  |  \- (com.miglayout:miglayout:jar:swing:3.7.4:compile - version managed from 3.7.3.1; omitted for duplicate)
+|  |  |  +- org.scijava:scijava-ui-swing:jar:0.3.0:compile
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.29.0; omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-ui-awt:jar:0.1.2:compile - omitted for duplicate)
+|  |  |  |  +- org.scijava:swing-checkbox-tree:jar:1.0.0:compile
+|  |  |  |  +- (com.github.sbridges.object-inspector:object-inspector:jar:0.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.miglayout:miglayout:jar:swing:3.7.4:compile - version managed from 3.7.3.1; omitted for duplicate)
+|  |  |  |  \- net.sourceforge.jdatepicker:jdatepicker:jar:1.3.2:compile
+|  |  |  +- org.scijava:scripting-java:jar:0.2.5:compile
+|  |  |  |  +- org.scijava:minimaven:jar:2.1.3:compile
+|  |  |  |  |  \- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.24.0; omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.33.0; omitted for duplicate)
+|  |  |  |  \- (com.sun:tools:jar:1.4.2:system - omitted for duplicate)
+|  |  |  \- org.scijava:scijava-plugins-commands:jar:0.1.7:compile
+|  |  |     \- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.24.0; omitted for duplicate)
+|  |  +- (net.imagej:ij1-patcher:jar:0.11.1:compile - version managed from 0.11.0; omitted for duplicate)
+|  |  +- net.imagej:imagej:jar:2.0.0-rc-19:compile
+|  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (net.imagej:imagej-legacy:jar:0.9.3:compile - omitted for duplicate)
+|  |  |  +- (net.imagej:imagej-ops:jar:0.6.2:compile - version managed from 0.6.1; omitted for duplicate)
+|  |  |  +- net.imagej:imagej-updater:jar:0.7.0:compile
+|  |  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  |  \- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  |  +- (io.scif:scifio:jar:0.17.2:compile - omitted for duplicate)
+|  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  |  +- (net.imagej:imagej-plugins-commands:jar:0.3.1:runtime - omitted for duplicate)
+|  |  |  +- net.imagej:imagej-plugins-tools:jar:0.2.1:runtime
+|  |  |  |  +- (net.imagej:imagej-common:jar:0.10.2:runtime - version managed from 0.10.1; omitted for duplicate)
+|  |  |  |  +- (net.imglib2:imglib2:jar:2.2.0:runtime - version managed from 2.1.0; omitted for duplicate)
+|  |  |  |  \- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.35.0; omitted for duplicate)
+|  |  |  +- net.imagej:imagej-plugins-uploader-ssh:jar:0.2.0:runtime
+|  |  |  |  +- (net.imagej:imagej-updater:jar:0.7.0:runtime - omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.35.0; omitted for duplicate)
+|  |  |  |  \- com.jcraft:jsch:jar:0.1.49:runtime
+|  |  |  +- net.imagej:imagej-plugins-uploader-webdav:jar:0.2.0:runtime
+|  |  |  |  +- (net.imagej:imagej-updater:jar:0.7.0:runtime - omitted for duplicate)
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.35.0; omitted for duplicate)
+|  |  |  |  \- (net.iharder:base64:jar:2.3.8:runtime - omitted for duplicate)
+|  |  |  +- (org.scijava:scijava-plugins-commands:jar:0.1.7:runtime - omitted for duplicate)
+|  |  |  +- org.scijava:scijava-plugins-platforms:jar:0.1.2:runtime
+|  |  |  |  \- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.29.0; omitted for duplicate)
+|  |  |  +- org.scijava:scijava-plugins-text-markdown:jar:0.1.1:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.18.0; omitted for duplicate)
+|  |  |  |  \- org.markdownj:markdownj:jar:0.3.0-1.0.2b4:runtime
+|  |  |  +- org.scijava:scijava-plugins-text-plain:jar:0.1.1:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.18.0; omitted for duplicate)
+|  |  |  |  \- org.apache.commons:commons-lang3:jar:3.1:runtime
+|  |  |  +- org.scijava:scripting-beanshell:jar:0.1.3:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.29.0; omitted for duplicate)
+|  |  |  |  \- org.beanshell:bsh:jar:2.0b4:runtime
+|  |  |  +- org.scijava:scripting-clojure:jar:0.1.1:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.29.0; omitted for duplicate)
+|  |  |  |  \- org.clojure:clojure:jar:1.3.0:runtime
+|  |  |  +- org.scijava:scripting-groovy:jar:0.1.1:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.29.0; omitted for duplicate)
+|  |  |  |  \- org.codehaus.groovy:groovy:jar:2.3.6:runtime
+|  |  |  +- (org.scijava:scripting-java:jar:0.2.5:runtime - omitted for duplicate)
+|  |  |  +- org.scijava:scripting-javascript:jar:0.2.2:runtime
+|  |  |  |  \- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.29.0; omitted for duplicate)
+|  |  |  +- org.scijava:scripting-jruby:jar:0.1.5:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.32.0; omitted for duplicate)
+|  |  |  |  +- org.jruby:jruby-core:jar:1.7.12:runtime
+|  |  |  |  |  +- org.ow2.asm:asm:jar:4.0:runtime
+|  |  |  |  |  +- org.ow2.asm:asm-commons:jar:4.0:runtime
+|  |  |  |  |  |  \- org.ow2.asm:asm-tree:jar:4.0:runtime
+|  |  |  |  |  |     \- (org.ow2.asm:asm:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  +- org.ow2.asm:asm-analysis:jar:4.0:runtime
+|  |  |  |  |  |  \- (org.ow2.asm:asm-tree:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  +- org.ow2.asm:asm-util:jar:4.0:runtime
+|  |  |  |  |  |  \- (org.ow2.asm:asm-tree:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  +- org.jruby.joni:joni:jar:2.1.1:runtime
+|  |  |  |  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.8:runtime - omitted for conflict with 1.0.10)
+|  |  |  |  |  +- com.github.jnr:jnr-netdb:jar:1.1.2:runtime
+|  |  |  |  |  |  \- (com.github.jnr:jnr-ffi:jar:1.0.4:runtime - omitted for conflict with 1.0.7)
+|  |  |  |  |  +- com.github.jnr:jnr-enxio:jar:0.4:runtime
+|  |  |  |  |  |  +- (com.github.jnr:jnr-constants:jar:0.8.4:runtime - omitted for conflict with 0.8.5)
+|  |  |  |  |  |  \- (com.github.jnr:jnr-ffi:jar:1.0.3:runtime - omitted for conflict with 1.0.4)
+|  |  |  |  |  +- com.github.jnr:jnr-x86asm:jar:1.0.2:runtime
+|  |  |  |  |  +- com.github.jnr:jnr-unixsocket:jar:0.3:runtime
+|  |  |  |  |  |  +- (com.github.jnr:jnr-ffi:jar:1.0.3:runtime - omitted for conflict with 1.0.4)
+|  |  |  |  |  |  +- (com.github.jnr:jnr-constants:jar:0.8.4:runtime - omitted for duplicate)
+|  |  |  |  |  |  \- (com.github.jnr:jnr-enxio:jar:0.4:runtime - omitted for duplicate)
+|  |  |  |  |  +- com.github.jnr:jnr-posix:jar:3.0.1:runtime
+|  |  |  |  |  |  +- (com.github.jnr:jnr-ffi:jar:1.0.7:runtime - omitted for conflict with 1.0.4)
+|  |  |  |  |  |  \- (com.github.jnr:jnr-constants:jar:0.8.5:runtime - omitted for conflict with 0.8.4)
+|  |  |  |  |  +- org.jruby.extras:bytelist:jar:1.0.11:runtime
+|  |  |  |  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.5:runtime - omitted for conflict with 1.0.8)
+|  |  |  |  |  +- com.github.jnr:jnr-constants:jar:0.8.5:runtime
+|  |  |  |  |  +- org.jruby.jcodings:jcodings:jar:1.0.10:runtime
+|  |  |  |  |  +- com.github.jnr:jnr-ffi:jar:1.0.7:runtime
+|  |  |  |  |  |  +- (com.github.jnr:jffi:jar:1.2.7:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (com.github.jnr:jffi:jar:native:1.2.7:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (org.ow2.asm:asm:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (org.ow2.asm:asm-commons:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (org.ow2.asm:asm-analysis:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (org.ow2.asm:asm-tree:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  |  +- (org.ow2.asm:asm-util:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  |  \- (com.github.jnr:jnr-x86asm:jar:1.0.2:runtime - omitted for duplicate)
+|  |  |  |  |  +- com.github.jnr:jffi:jar:1.2.7:runtime
+|  |  |  |  |  +- com.github.jnr:jffi:jar:native:1.2.7:runtime
+|  |  |  |  |  +- org.yaml:snakeyaml:jar:1.13:runtime
+|  |  |  |  |  +- com.jcraft:jzlib:jar:1.1.2:runtime
+|  |  |  |  |  +- com.headius:invokebinder:jar:1.2:runtime
+|  |  |  |  |  +- com.martiansoftware:nailgun-server:jar:0.9.1:runtime
+|  |  |  |  |  +- org.jruby:yecht:jar:1.0:runtime
+|  |  |  |  |  +- (joda-time:joda-time:jar:2.3:runtime - omitted for conflict with 2.2)
+|  |  |  |  |  \- com.headius:options:jar:1.1:runtime
+|  |  |  |  \- org.jruby:jruby-stdlib:jar:1.7.12:runtime
+|  |  |  +- org.scijava:scripting-jython:jar:0.1.4:runtime
+|  |  |  |  +- (org.scijava:scijava-common:jar:2.35.1:runtime - version managed from 2.31.0; omitted for duplicate)
+|  |  |  |  \- org.scijava:jython-shaded:jar:2.5.3:runtime
+|  |  |  \- (net.imagej:imagej-ui-swing:jar:0.8.1:runtime - omitted for duplicate)
+|  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.31.0; omitted for duplicate)
+|  |  \- (org.javassist:javassist:jar:3.16.1-GA:compile - omitted for duplicate)
+|  +- (sc.fiji:fiji-lib:jar:2.1.0:compile - omitted for duplicate)
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  +- net.imagej:imagej-plugins-commands:jar:0.3.1:compile
+|  |  +- io.scif:scifio:jar:0.17.2:compile
+|  |  |  +- io.scif:scifio-jai-imageio:jar:1.1.0:compile
+|  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.31.0; omitted for duplicate)
+|  |  |  \- org.mapdb:mapdb:jar:1.0.3:compile
+|  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  +- net.imagej:imagej-ops:jar:0.6.2:compile
+|  |  |  +- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2-algorithm:jar:0.1.1:compile - omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2-algorithm-fft:jar:0.1.1:compile - omitted for duplicate)
+|  |  |  +- (net.imglib2:imglib2-realtransform:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  |  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.31.0; omitted for duplicate)
+|  |  |  \- (org.javassist:javassist:jar:3.16.1-GA:compile - omitted for duplicate)
+|  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (net.imglib2:imglib2-algorithm:jar:0.1.1:compile - omitted for duplicate)
+|  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  +- com.github.sbridges.object-inspector:object-inspector:jar:0.1:compile
+|  |  \- net.iharder:base64:jar:2.3.8:compile
+|  \- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
++- sc.fiji:legacy-imglib1:jar:1.0.0-DEPRECATED:compile
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (net.imglib2:imglib2-ij:jar:2.0.0-beta-28:compile - omitted for duplicate)
+|  +- (ome:formats-api:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:formats-bsd:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:ome-xml:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- edu.mines:mines-jtk:jar:20100113:compile
+|  +- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
+|  +- (mpicbg:mpicbg:jar:0.6.1:compile - omitted for duplicate)
+|  \- (org.jfree:jfreechart:jar:1.0.14:compile - version managed from 1.0.19; omitted for duplicate)
++- sc.fiji:SPIM_Opener:jar:2.0.1:compile
+|  +- (sc.fiji:fiji-lib:jar:2.1.0:compile - omitted for duplicate)
+|  \- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
++- sc.fiji:VIB-lib:jar:2.0.1:compile
+|  +- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  \- sc.fiji:pal-optimization:jar:2.0.0:compile
++- net.imglib2:imglib2-algorithm-gpl:jar:0.1.2:compile
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (net.imglib2:imglib2-algorithm:jar:0.1.1:compile - omitted for duplicate)
+|  +- net.imglib2:imglib2-algorithm-fft:jar:0.1.1:compile
+|  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  \- (edu.mines:mines-jtk:jar:20100113:compile - omitted for duplicate)
+|  +- (mpicbg:mpicbg:jar:0.6.1:compile - omitted for duplicate)
+|  \- (edu.mines:mines-jtk:jar:20100113:compile - omitted for duplicate)
++- net.imglib2:imglib2-algorithm:jar:0.1.1:compile
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- net.imglib2:imglib2-roi:jar:0.2.0:compile
+|  |  \- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- net.imagej:imagej-common:jar:0.10.2:compile (version managed from 0.10.1)
+|  |  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (net.imglib2:imglib2-roi:jar:0.2.0:compile - omitted for duplicate)
+|  |  +- (org.scijava:scijava-common:jar:2.35.1:compile - version managed from 2.35.0; omitted for duplicate)
+|  |  \- edu.ucar:udunits:jar:4.3.18:compile
+|  \- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
++- net.imglib2:imglib2-ij:jar:2.0.0-beta-28:compile
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (net.imagej:ij:jar:1.49m:compile - version managed from 1.49j; omitted for duplicate)
+|  \- (net.imagej:imagej-common:jar:0.10.2:compile - version managed from 0.10.1; omitted for duplicate)
++- net.imglib2:imglib2-realtransform:jar:2.0.0-beta-28:compile
+|  +- (net.imglib2:imglib2:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  \- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
++- net.imagej:ij:jar:1.49m:compile
+|  \- com.sun:tools:jar:1.4.2:system
++- ome:formats-api:jar:5.0.6:compile
+|  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:ome-xml:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.6:compile
++- ome:formats-bsd:jar:5.0.6:compile
+|  +- (ome:formats-api:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- ome:jai_imageio:jar:5.0.6:compile
+|  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:ome-xml:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- ome:specification:jar:5.0.6:compile
+|  |  \- (ome:ome-xml:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- ome:turbojpeg:jar:5.0.6:compile
+|  +- org.scijava:native-lib-loader:jar:2.0.2:compile
+|  +- com.jgoodies:jgoodies-forms:jar:1.7.2:compile
+|  |  \- com.jgoodies:jgoodies-common:jar:1.7.0:compile
+|  +- com.esotericsoftware.kryo:kryo:jar:shaded:2.21:compile
+|  +- org.perf4j:perf4j:jar:0.9.13:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- ome:formats-gpl:jar:5.0.6:compile
+|  +- (ome:formats-api:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- ome:mdbtools-java:jar:5.0.6:compile
+|  +- ome:metakit:jar:5.0.6:compile
+|  |  \- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (ome:ome-xml:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- ome:ome-poi:jar:5.0.6:compile
+|  |  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- (ome:formats-bsd:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- edu.ucar:netcdf:jar:4.3.19:compile
+|  |  +- (joda-time:joda-time:jar:2.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.6)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- woolz:JWlz:jar:1.4.0:compile
+|  +- joda-time:joda-time:jar:2.2:compile
+|  \- (com.esotericsoftware.kryo:kryo:jar:shaded:2.21:compile - omitted for duplicate)
++- ome:ome-xml:jar:5.0.6:compile
+|  +- (ome:formats-common:jar:5.0.6:compile - version managed from 5.0.3; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.2:compile - omitted for duplicate)
++- ome:formats-common:jar:5.0.6:compile
+|  +- (com.esotericsoftware.kryo:kryo:jar:shaded:2.21:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- ch.qos.logback:logback-core:jar:1.1.1:compile
+|  \- ch.qos.logback:logback-classic:jar:1.1.1:compile
+|     +- (ch.qos.logback:logback-core:jar:1.1.1:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- gov.nist.math:jama:jar:1.0.3:compile
++- mpicbg:mpicbg:jar:0.6.1:compile
+|  \- (net.imagej:ij:jar:1.49m:compile - version managed from 1.48s; omitted for duplicate)
++- net.java.dev.jna:jna:jar:3.2.7:compile
++- org.jdom:jdom2:jar:2.0.5:compile
++- org.jfree:jcommon:jar:1.0.17:compile
++- org.jfree:jfreechart:jar:1.0.14:compile
+|  +- (org.jfree:jcommon:jar:1.0.17:compile - omitted for duplicate)
+|  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  \- com.lowagie:itext:jar:2.1.5:compile
+|     +- bouncycastle:bcmail-jdk14:jar:138:compile
+|     \- bouncycastle:bcprov-jdk14:jar:138:compile
++- java3d:j3d-core:jar:1.5.2:provided
++- java3d:j3d-core-utils:jar:1.5.2:provided
+\- java3d:vecmath:jar:1.5.2:provided
+

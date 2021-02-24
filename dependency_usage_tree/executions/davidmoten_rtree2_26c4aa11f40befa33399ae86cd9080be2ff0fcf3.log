@@ -1,0 +1,28 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.davidmoten:rtree:jar:0.8.1beta
++- com.github.davidmoten:guava-mini:jar:0.1.1:compile
++- io.reactivex:rxjava:jar:1.3.3:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.github.davidmoten:flatbuffers-java:jar:1.3.0.1:compile
++- io.reactivex:rxjava-string:jar:1.1.1:test
+|  \- (io.reactivex:rxjava:jar:1.2.3:test - omitted for conflict with 1.3.3)
++- com.github.davidmoten:grumpy-core:jar:0.2.2:test
+|  \- org.apache.commons:commons-math3:jar:3.2:test
++- org.openjdk.jmh:jmh-core:jar:1.11.3:test
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+|  \- (org.apache.commons:commons-math3:jar:3.2:test - omitted for duplicate)
++- org.openjdk.jmh:jmh-generator-annprocess:jar:1.11.3:test
+|  \- (org.openjdk.jmh:jmh-core:jar:1.11.3:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.11.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- (org.objenesis:objenesis:jar:2.6:compile - scope updated from test; omitted for duplicate)
++- com.github.davidmoten:junit-extras:jar:0.3:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+\- com.esotericsoftware:kryo:jar:3.0.3:compile
+   +- com.esotericsoftware:reflectasm:jar:1.10.1:compile
+   |  \- org.ow2.asm:asm:jar:5.0.3:compile
+   +- com.esotericsoftware:minlog:jar:1.3.0:compile
+   \- org.objenesis:objenesis:jar:2.6:compile
+

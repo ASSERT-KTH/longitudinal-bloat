@@ -1,0 +1,19 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+de.redsix:pdfcompare:jar:1.1.25
++- org.apache.pdfbox:pdfbox:jar:2.0.6:compile
+|  +- org.apache.pdfbox:fontbox:jar:2.0.6:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- com.typesafe:config:jar:1.3.1:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.8.47:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+   \- org.objenesis:objenesis:jar:2.5:test
+

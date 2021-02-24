@@ -1,0 +1,179 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jenkins-ci.plugins:active-directory:hpi:2.12
++- org.jvnet.com4j.typelibs:ado20:jar:1.0:compile
++- org.jvnet.com4j.typelibs:active-directory:jar:1.0:compile
++- org.jvnet.com4j:com4j:jar:2.1:compile
++- org.jenkins-ci.plugins:mailer:jar:1.5:compile
++- org.powermock:powermock-module-junit4:jar:1.6.1:test
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.1:test
+|     +- org.powermock:powermock-core:jar:1.6.1:test
+|     |  \- org.javassist:javassist:jar:3.18.2-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.6.1:test
+|        \- org.objenesis:objenesis:jar:2.1:test
++- org.powermock:powermock-api-mockito:jar:1.6.1:test
+|  +- org.mockito:mockito-all:jar:1.10.8:test
+|  \- org.powermock:powermock-api-support:jar:1.6.1:test
++- org.jenkins-ci.test:docker-fixtures:jar:1.4:test
+|  +- commons-io:commons-io:jar:2.4:provided
+|  +- org.jenkins-ci:process-utils:jar:1.3:test
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:test
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:test
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.2.3:test
+|  +- com.google.code.findbugs:jsr305:jar:2.0.3:provided
+|  \- commons-lang:commons-lang:jar:2.6:provided
++- com.google.code.findbugs:annotations:jar:3.0.0:provided (optional) 
++- net.jcip:jcip-annotations:jar:1.0:provided (optional) 
++- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:provided (optional) 
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.jenkins-ci.main:jenkins-core:jar:1.625.3:provided
+|  +- org.jenkins-ci.plugins.icon-shim:icon-set:jar:1.0.5:provided
+|  +- org.jenkins-ci.main:remoting:jar:2.53.2:provided
+|  |  \- org.jenkins-ci:constant-pool-scanner:jar:1.2:provided
+|  +- org.jenkins-ci.main:cli:jar:1.625.3:provided
+|  +- org.jenkins-ci:version-number:jar:1.1:provided
+|  +- org.jenkins-ci:crypto-util:jar:1.1:provided
+|  +- org.jvnet.hudson:jtidy:jar:4aug2000r7-dev-hudson-1:provided
+|  +- com.google.inject:guice:jar:4.0-beta:provided
+|  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  \- aopalliance:aopalliance:jar:1.0:provided
+|  +- org.jruby.ext.posix:jna-posix:jar:1.0.3-jenkins-1:provided
+|  +- com.github.jnr:jnr-posix:jar:3.0.1:provided
+|  |  +- com.github.jnr:jnr-ffi:jar:1.0.7:provided
+|  |  |  +- com.github.jnr:jffi:jar:1.2.7:provided
+|  |  |  +- com.github.jnr:jffi:jar:native:1.2.7:provided
+|  |  |  +- org.ow2.asm:asm:jar:4.0:provided
+|  |  |  +- org.ow2.asm:asm-commons:jar:4.0:provided
+|  |  |  +- org.ow2.asm:asm-analysis:jar:4.0:provided
+|  |  |  +- org.ow2.asm:asm-tree:jar:4.0:provided
+|  |  |  +- org.ow2.asm:asm-util:jar:4.0:provided
+|  |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:provided
+|  |  \- com.github.jnr:jnr-constants:jar:0.8.5:provided
+|  +- org.kohsuke:trilead-putty-extension:jar:1.2:provided
+|  +- org.jenkins-ci:trilead-ssh2:jar:build217-jenkins-8:provided
+|  +- org.kohsuke.stapler:stapler-groovy:jar:1.237:provided
+|  |  \- org.kohsuke.stapler:stapler-jelly:jar:1.237:provided
+|  |     +- org.jenkins-ci:commons-jelly:jar:1.1-jenkins-20120928:provided
+|  |     \- org.jenkins-ci.dom4j:dom4j:jar:1.6.1-jenkins-4:provided
+|  +- org.kohsuke.stapler:stapler-jrebel:jar:1.237:provided
+|  |  \- org.kohsuke.stapler:stapler:jar:1.237:provided
+|  |     +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |     +- commons-discovery:commons-discovery:jar:0.4:provided
+|  |     \- org.jvnet:tiger-types:jar:1.3:provided
+|  +- org.kohsuke:windows-package-checker:jar:1.0:provided
+|  +- org.kohsuke.stapler:stapler-adjunct-zeroclipboard:jar:1.3.5-1:provided
+|  +- org.kohsuke.stapler:stapler-adjunct-timeline:jar:1.4:provided
+|  +- org.kohsuke.stapler:stapler-adjunct-codemirror:jar:1.3:provided
+|  +- com.infradna.tool:bridge-method-annotation:jar:1.13:provided
+|  +- org.kohsuke.stapler:json-lib:jar:2.4-jenkins-2:provided
+|  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:provided
+|  +- commons-httpclient:commons-httpclient:jar:3.1:provided
+|  +- args4j:args4j:jar:2.0.31:provided
+|  +- org.jenkins-ci:annotation-indexer:jar:1.7:provided
+|  +- org.jenkins-ci:bytecode-compatibility-transformer:jar:1.5:provided
+|  |  \- org.kohsuke:asm5:jar:5.0.1:provided
+|  +- org.jenkins-ci:task-reactor:jar:1.4:provided
+|  +- org.jvnet.localizer:localizer:jar:1.23:provided
+|  +- antlr:antlr:jar:2.7.6:provided
+|  +- org.jvnet.hudson:xstream:jar:1.4.7-jenkins-1:provided
+|  +- jfree:jfreechart:jar:1.0.9:provided
+|  |  \- jfree:jcommon:jar:1.0.12:provided
+|  +- org.apache.ant:ant:jar:1.8.4:provided
+|  |  \- org.apache.ant:ant-launcher:jar:1.8.4:provided
+|  +- commons-digester:commons-digester:jar:2.1:provided
+|  +- commons-beanutils:commons-beanutils:jar:1.8.3:provided
+|  +- org.apache.commons:commons-compress:jar:1.10:provided
+|  +- javax.mail:mail:jar:1.4.4:provided
+|  +- org.jvnet.hudson:activation:jar:1.1.1-hudson-1:provided
+|  +- jaxen:jaxen:jar:1.1-beta-11:provided
+|  +- commons-jelly:commons-jelly-tags-fmt:jar:1.0:provided
+|  +- commons-jelly:commons-jelly-tags-xml:jar:1.1:provided
+|  +- org.jvnet.hudson:commons-jelly-tags-define:jar:1.0.1-hudson-20071021:provided
+|  +- org.jenkins-ci:commons-jexl:jar:1.1-jenkins-20111212:provided
+|  +- org.acegisecurity:acegi-security:jar:1.0.7:provided
+|  |  +- org.springframework:spring-jdbc:jar:1.2.9:provided
+|  |  |  \- org.springframework:spring-dao:jar:1.2.9:provided
+|  |  \- oro:oro:jar:2.0.8:provided
+|  +- org.codehaus.groovy:groovy-all:jar:1.8.9:provided
+|  +- jline:jline:jar:0.9.94:provided
+|  +- org.fusesource.jansi:jansi:jar:1.9:provided
+|  +- org.springframework:spring-webmvc:jar:2.5.6.SEC03:provided
+|  |  +- org.springframework:spring-beans:jar:2.5.6.SEC03:provided
+|  |  +- org.springframework:spring-context:jar:2.5.6.SEC03:provided
+|  |  +- org.springframework:spring-context-support:jar:2.5.6.SEC03:provided
+|  |  \- org.springframework:spring-web:jar:2.5.6.SEC03:provided
+|  +- org.springframework:spring-core:jar:2.5.6.SEC03:provided
+|  +- org.springframework:spring-aop:jar:2.5.6.SEC03:provided
+|  +- xpp3:xpp3:jar:1.1.4c:provided
+|  +- javax.servlet:jstl:jar:1.1.0:provided
+|  +- commons-logging:commons-logging:jar:1.2:provided
+|  +- com.sun.xml.txw2:txw2:jar:20110809:provided
+|  |  +- javax.xml.stream:stax-api:jar:1.0-2:provided
+|  |  \- relaxngDatatype:relaxngDatatype:jar:20020414:provided
+|  +- commons-collections:commons-collections:jar:3.2.1:provided
+|  +- org.jvnet.winp:winp:jar:1.22:provided
+|  +- org.jenkins-ci:memory-monitor:jar:1.9:provided
+|  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:provided
+|  |  \- stax:stax-api:jar:1.0.1:provided
+|  +- org.jenkins-ci:jmdns:jar:3.4.0-jenkins-3:provided
+|  +- net.java.dev.jna:jna:jar:4.1.0:provided
+|  +- org.kohsuke:akuma:jar:1.10:provided
+|  +- org.kohsuke:libpam4j:jar:1.8:provided
+|  +- org.jvnet.libzfs:libzfs:jar:0.5:provided
+|  +- com.sun.solaris:embedded_su4j:jar:1.1:provided
+|  +- net.java.sezpoz:sezpoz:jar:1.9:provided
+|  +- org.kohsuke.jinterop:j-interop:jar:2.0.6-kohsuke-1:provided
+|  |  \- org.kohsuke.jinterop:j-interopdeps:jar:2.0.6-kohsuke-1:provided
+|  |     \- org.samba.jcifs:jcifs:jar:1.2.19:provided
+|  +- org.jvnet.robust-http-client:robust-http-client:jar:1.2:provided
+|  +- commons-codec:commons-codec:jar:1.8:provided
+|  +- org.kohsuke:access-modifier-annotation:jar:1.4:provided
+|  +- commons-fileupload:commons-fileupload:jar:1.3.1-jenkins-1:provided
+|  +- org.mindrot:jbcrypt:jar:0.3m:provided
+|  +- com.google.guava:guava:jar:11.0.1:provided
+|  \- com.jcraft:jzlib:jar:1.1.3-kohsuke-1:provided
++- org.jenkins-ci.main:jenkins-war:executable-war:1.625.3:test
+|  +- org.jenkins-ci.modules:instance-identity:jar:1.4:test
+|  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.47:test
+|  |     \- org.bouncycastle:bcprov-jdk15on:jar:1.47:test
+|  +- org.jenkins-ci.modules:ssh-cli-auth:jar:1.2:test
+|  +- org.jenkins-ci.modules:slave-installer:jar:1.5:test
+|  +- org.jenkins-ci.modules:windows-slave-installer:jar:1.4:test
+|  +- org.jenkins-ci.modules:launchd-slave-installer:jar:1.2:test
+|  +- org.jenkins-ci.modules:upstart-slave-installer:jar:1.1:test
+|  +- org.jenkins-ci.modules:systemd-slave-installer:jar:1.1:test
+|  \- org.jenkins-ci.modules:sshd:jar:1.6:test
+|     \- org.apache.sshd:sshd-core:jar:0.8.0:test
+|        \- org.apache.mina:mina-core:jar:2.0.5:test
++- org.jenkins-ci.main:jenkins-test-harness:jar:2.34:test
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.4.5.v20170502:test
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.5.v20170502:test
+|  |  |  \- org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:test
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.5.v20170502:test
+|  +- org.eclipse.jetty:jetty-security:jar:9.4.5.v20170502:test
+|  |  \- org.eclipse.jetty:jetty-server:jar:9.4.5.v20170502:test
+|  |     +- org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:test
+|  |     \- org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  +- org.jenkins-ci.main:jenkins-test-harness-htmlunit:jar:2.18-1:test
+|  |  +- xalan:xalan:jar:2.7.2:test
+|  |  +- xalan:serializer:jar:2.7.2:test
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:test
+|  |  +- xerces:xercesImpl:jar:2.11.0:test
+|  |  +- xml-apis:xml-apis:jar:1.4.01:test
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:test
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.16:test
+|  |  +- org.w3c.css:sac:jar:1.3:test
+|  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.2.12.v20150709:test
+|  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.2.12.v20150709:test
+|  |  \- org.eclipse.jetty.websocket:websocket-api:jar:9.2.12.v20150709:test
+|  +- org.jvnet.hudson:embedded-rhino-debugger:jar:1.2:test
+|  +- org.netbeans.modules:org-netbeans-insane:jar:RELEASE72:test
+|  \- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:test
++- org.jenkins-ci:test-annotations:jar:1.2:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.25:compile (optional) 
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:test
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:test
+\- org.slf4j:slf4j-jdk14:jar:1.7.25:test
+

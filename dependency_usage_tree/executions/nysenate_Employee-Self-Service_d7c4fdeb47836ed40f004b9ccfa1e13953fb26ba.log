@@ -1,0 +1,13 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "./bloat_report.py", line 24, in <module>
+    working_directory = tempfile.mkdtemp()
+  File "/usr/lib/python3.7/tempfile.py", line 495, in mkdtemp
+    prefix, suffix, dir, output_type = _sanitize_params(prefix, suffix, dir)
+  File "/usr/lib/python3.7/tempfile.py", line 265, in _sanitize_params
+    dir = gettempdir()
+  File "/usr/lib/python3.7/tempfile.py", line 433, in gettempdir
+    tempdir = _get_default_tempdir()
+  File "/usr/lib/python3.7/tempfile.py", line 368, in _get_default_tempdir
+    dirlist)
+FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/usr/tmp', '/home/jdbl']

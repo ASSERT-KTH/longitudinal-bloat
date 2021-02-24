@@ -1,0 +1,57 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.kill-bill.billing:killbill-client-java:jar:1.2.0
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.11.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.11.1:compile
++- com.github.spotbugs:spotbugs-annotations:jar:4.0.6:compile
++- com.github.tomakehurst:wiremock:jar:1.58:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:test
+|  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  +- xmlunit:xmlunit:jar:1.6:test
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:test
+|  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:test
+|  |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+|  +- org.skyscreamer:jsonassert:jar:1.2.3:test
+|  |  \- org.json:json:jar:20090211:test
+|  +- com.jayway.jsonpath:json-path:jar:0.8.1:test
+|  |  +- net.minidev:json-smart:jar:1.1.1:test
+|  |  \- commons-lang:commons-lang:jar:2.6:test
+|  \- net.sf.jopt-simple:jopt-simple:jar:4.9:test
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.google.guava:guava:jar:29.0-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- org.checkerframework:checker-qual:jar:2.11.1:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
++- joda-time:joda-time:jar:2.10.6:compile
++- mysql:mysql-connector-java:jar:5.1.46:test
++- org.asynchttpclient:async-http-client:jar:2.12.1:compile
+|  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.12.1:compile
+|  |  \- io.netty:netty-buffer:jar:4.1.50.Final:compile
+|  +- io.netty:netty-codec-http:jar:4.1.48.Final:compile
+|  |  +- io.netty:netty-common:jar:4.1.50.Final:compile
+|  |  +- io.netty:netty-transport:jar:4.1.50.Final:compile
+|  |  \- io.netty:netty-codec:jar:4.1.50.Final:compile
+|  +- io.netty:netty-handler:jar:4.1.50.Final:compile
+|  |  \- io.netty:netty-resolver:jar:4.1.50.Final:compile
+|  +- io.netty:netty-codec-socks:jar:4.1.48.Final:compile
+|  +- io.netty:netty-handler-proxy:jar:4.1.48.Final:compile
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.48.Final:compile
+|  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.48.Final:compile
+|  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.48.Final:compile
+|  +- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+|  \- com.typesafe.netty:netty-reactive-streams:jar:2.0.4:compile
++- org.kill-bill.billing:killbill-api:jar:0.53.17:compile
++- org.mockito:mockito-core:jar:3.4.4:test
+|  +- net.bytebuddy:byte-buddy:jar:1.10.13:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.10.13:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.slf4j:slf4j-api:jar:1.7.30:compile
++- org.slf4j:slf4j-simple:jar:1.7.30:test
+\- org.testng:testng:jar:7.1.0:test
+   +- com.beust:jcommander:jar:1.72:test
+   \- org.yaml:snakeyaml:jar:1.26:test
+

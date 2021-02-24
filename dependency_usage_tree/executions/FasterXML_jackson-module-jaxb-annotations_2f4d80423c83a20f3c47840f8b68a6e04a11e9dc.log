@@ -1,0 +1,21 @@
+error: failed to write new configuration file /tmp/tmpkzdc03wc/jackson-module-jaxb-annotations/.git/config.lock
+fatal: could not set 'remote.origin.fetch' to '+refs/heads/2.8:refs/remotes/origin/2.8'
+/bin/sh: 1: cd: can't cd to None
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/bin/sh: 1: cd: can't cd to None
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 30, in clone
+    subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpkzdc03wc;git clone -q --depth=1 https://github.com/FasterXML/jackson-module-jaxb-annotations.git;' returned non-zero exit status 128.
+Unable to correctly install FasterXML/jackson-module-jaxb-annotations
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./bloat_report.py", line 38, in <module>
+    json.dump(False, fd, indent=1)
+OSError: [Errno 28] No space left on device

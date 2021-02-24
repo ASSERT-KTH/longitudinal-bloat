@@ -1,0 +1,49 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.contentful.java:java-sdk:jar:10.4.1
++- com.google.android:android:jar:4.1.1.4:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.3:compile
+|  +- org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+|  +- xerces:xmlParserAPIs:jar:2.6.2:compile
+|  +- xpp3:xpp3:jar:1.1.4c:compile
+|  \- org.json:json:jar:20080701:compile
++- com.squareup.retrofit2:retrofit:jar:2.5.0:compile
+|  \- (com.squareup.okhttp3:okhttp:jar:3.12.0:compile - omitted for conflict with 3.12.1)
++- com.squareup.retrofit2:adapter-rxjava2:jar:2.5.0:compile
+|  +- (com.squareup.retrofit2:retrofit:jar:2.5.0:compile - omitted for duplicate)
+|  \- (io.reactivex.rxjava2:rxjava:jar:2.0.0:compile - omitted for conflict with 2.2.6)
++- com.squareup.retrofit2:converter-gson:jar:2.5.0:compile
+|  +- (com.squareup.retrofit2:retrofit:jar:2.5.0:compile - omitted for duplicate)
+|  \- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for conflict with 2.8.5)
++- io.reactivex.rxjava2:rxjava:jar:2.2.6:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- com.squareup.okhttp3:okhttp:jar:3.12.1:compile
+|  \- com.squareup.okio:okio:jar:1.15.0:compile
++- commons-io:commons-io:jar:2.6:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.squareup.okhttp3:mockwebserver:jar:3.12.1:test
+|  +- (com.squareup.okhttp3:okhttp:jar:3.12.1:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.23.4:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.3:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.3:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- com.google.truth:truth:jar:0.42:test
+|  +- com.google.guava:guava:jar:25.1-android:test
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+|  |  +- (org.checkerframework:checker-compat-qual:jar:2.0.0:test - omitted for conflict with 2.5.3)
+|  |  +- (com.google.errorprone:error_prone_annotations:jar:2.1.3:test - omitted for conflict with 2.3.1)
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+|  +- org.checkerframework:checker-compat-qual:jar:2.5.3:test
+|  +- org.checkerframework:checker-qual:jar:2.5.3:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test
+|  +- com.google.auto.value:auto-value-annotations:jar:1.6.2:test
+|  \- com.google.errorprone:error_prone_annotations:jar:2.3.1:test
+\- com.google.code.gson:gson:jar:2.8.5:compile
+

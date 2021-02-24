@@ -1,0 +1,85 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.slackworks:naether:jar:0.2.1
++- ch.qos.logback:logback-classic:jar:0.9.24:compile
+|  +- ch.qos.logback:logback-core:jar:0.9.24:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.0:compile - omitted for conflict with 1.6.1)
++- org.slf4j:slf4j-api:jar:1.6.1:compile
++- org.slf4j:jcl-over-slf4j:jar:1.6.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.6.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
++- org.apache.maven:maven-model-v3:jar:2.0:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:1.0.4:compile - omitted for conflict with 1.5.8)
++- org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:1.4.5:compile - omitted for conflict with 1.5.8)
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+|  +- org.apache.xbean:xbean-reflect:jar:3.4:compile
+|  |  +- log4j:log4j:jar:1.2.12:compile
+|  |  \- (commons-logging:commons-logging-api:jar:1.1:compile - omitted for duplicate)
+|  +- com.google.collections:google-collections:jar:1.0:compile
+|  \- (junit:junit:jar:3.8.2:compile - omitted for conflict with 4.8.2)
++- org.sonatype.aether:aether-api:jar:1.11:compile
++- org.sonatype.aether:aether-util:jar:1.11:compile
+|  \- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
++- org.sonatype.aether:aether-impl:jar:1.11:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
+|  +- org.sonatype.aether:aether-spi:jar:1.11:compile
+|  |  \- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
+|  \- (org.sonatype.aether:aether-util:jar:1.11:compile - omitted for duplicate)
++- org.sonatype.aether:aether-connector-file:jar:1.11:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-spi:jar:1.11:compile - omitted for duplicate)
+|  \- (org.sonatype.aether:aether-util:jar:1.11:compile - omitted for duplicate)
++- org.sonatype.aether:aether-connector-asynchttpclient:jar:1.11:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-spi:jar:1.11:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-util:jar:1.11:compile - omitted for duplicate)
+|  \- com.ning:async-http-client:jar:1.6.1:compile
+|     +- org.jboss.netty:netty:jar:3.2.4.Final:compile
+|     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- org.sonatype.aether:aether-connector-wagon:jar:1.11:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.11:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-spi:jar:1.11:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-util:jar:1.11:compile - omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for conflict with 1.5.8)
+|  +- (org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-classworlds:jar:2.4:compile - omitted for conflict with 2.2.2)
+|  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:compile - omitted for conflict with 1.5.8)
++- org.apache.maven:maven-aether-provider:jar:3.0.2:compile
+|  +- org.apache.maven:maven-model:jar:3.0.2:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 1.5.8)
+|  +- org.apache.maven:maven-model-builder:jar:3.0.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 1.5.8)
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven:maven-model:jar:3.0.2:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-repository-metadata:jar:3.0.2:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 1.5.8)
+|  +- (org.sonatype.aether:aether-api:jar:1.9:compile - omitted for conflict with 1.11)
+|  +- (org.sonatype.aether:aether-spi:jar:1.9:compile - omitted for conflict with 1.11)
+|  +- (org.sonatype.aether:aether-util:jar:1.9:compile - omitted for conflict with 1.11)
+|  +- (org.sonatype.aether:aether-impl:jar:1.9:compile - omitted for conflict with 1.11)
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 1.5.8)
++- org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-7:compile
+|  +- com.jcraft:jsch:jar:0.1.38:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for conflict with 1.5.8)
+|  +- org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-7:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for conflict with 1.5.8)
+|  |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:1.4:compile - omitted for conflict with 1.5.8)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile - omitted for conflict with 1.0-beta-6)
+|  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile - omitted for conflict with 1.0-beta-6)
++- org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-7:compile
+|  +- org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-7:compile
+|  |  +- nekohtml:xercesMinimal:jar:1.9.6.2:compile
+|  |  +- nekohtml:nekohtml:jar:1.9.6.2:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile - omitted for conflict with 1.0-beta-6)
+|  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile - omitted for conflict with 1.0-beta-6)
++- commons-logging:commons-logging:jar:1.1.1:provided (scope not updated to compile)
++- commons-logging:commons-logging-api:jar:1.1:provided (scope not updated to compile)
+\- junit:junit:jar:4.8.2:test (scope not updated to compile)
+

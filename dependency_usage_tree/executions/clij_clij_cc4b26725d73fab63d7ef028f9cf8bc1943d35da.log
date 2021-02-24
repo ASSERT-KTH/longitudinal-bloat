@@ -1,0 +1,246 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.clearcontrol:clearclij:jar:0.3.28
++- net.clearcontrol:coremem:jar:0.4.6:compile
+|  +- com.nativelibs4java:bridj:jar:0.7.0:compile
+|  +- net.java.dev.jna:jna:jar:4.5.1:compile
+|  \- net.java.dev.jna:jna-platform:jar:4.5.1:compile
++- net.clearcontrol:clearcontrol:jar:0.17.6-m:compile
+|  +- net.clearvolume:cleargl:jar:2.2.1:compile
+|  |  +- org.jogamp.gluegen:gluegen-rt:jar:2.3.2:compile
+|  |  +- org.jogamp.gluegen:gluegen-rt:jar:natives-macosx-universal:2.3.2:compile
+|  |  +- org.jogamp.gluegen:gluegen-rt:jar:natives-windows-amd64:2.3.2:compile
+|  |  +- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-amd64:2.3.2:compile
+|  |  +- org.jogamp.jogl:jogl-all:jar:2.3.2:compile
+|  |  +- org.jogamp.jogl:jogl-all:jar:natives-macosx-universal:2.3.2:compile
+|  |  +- org.jogamp.jogl:jogl-all:jar:natives-windows-amd64:2.3.2:compile
+|  |  \- org.jogamp.jogl:jogl-all:jar:natives-linux-amd64:2.3.2:compile
+|  +- org.apache.commons:commons-collections4:jar:4.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.1:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.1:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.1:compile
+|  +- org.jscience:jscience:jar:4.3.1:compile
+|  |  \- org.javolution:javolution:jar:5.2.3:compile
+|  +- com.googlecode.efficient-java-matrix-library:ejml:jar:0.25:compile
+|  +- de.mukis:de.mukis.jama:jar:2.0.0.M1:compile
+|  +- com.github.wendykierp:jtransforms:jar:3.1.2-RH:compile
+|  |  \- pl.edu.icm:jlargearrays:jar:1.3-RH:compile
+|  +- java3d:vecmath:jar:1.3.1:compile
+|  +- net.openhft:compiler:jar:2.1:compile
+|  |  \- com.sun.java:tools:jar:1.8.0_275:system
+|  +- net.openhft:affinity:jar:2.0.6:compile
+|  |  \- org.kohsuke.jetbrains:annotations:jar:9.0:compile
+|  +- net.openhft:collections:jar:3.0.2:compile
+|  |  +- com.intellij:annotations:jar:12.0:compile
+|  |  \- net.openhft:lang:jar:6.3.5:compile
+|  +- net.openhft:chronicle:jar:3.0.1:compile
+|  +- org.python:jython:jar:2.7-rc2:compile
+|  +- com.fifesoft:rsyntaxtextarea:jar:2.6.1:compile
+|  +- org.reflections:reflections:jar:0.9.10:compile
+|  |  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.3:compile
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- com.seaglasslookandfeel:seaglasslookandfeel:jar:0.1.7.3:compile
+|  +- com.jgoodies:looks:jar:2.2.2:compile
+|  +- org.devzendo:Quaqua:jar:7.3.4:compile
+|  +- eu.hansolo.enzo:Enzo:jar:0.3.6:compile
+|  +- org.controlsfx:controlsfx:jar:8.40.11:compile
+|  +- com.miglayout:miglayout:jar:swing:3.7.4:compile
+|  +- com.github.yannrichet:JMathPlot:jar:1.0.1:compile
+|  |  +- com.github.yannrichet:JMathIO:jar:1.0:compile
+|  |  \- com.github.yannrichet:JMathArray:jar:1.0:compile
+|  +- net.imglib2:imglib2-ui:jar:2.0.0:compile
+|  |  \- net.imglib2:imglib2-realtransform:jar:2.0.0:compile
+|  |     \- jitk:jitk-tps:jar:3.0.0:compile
+|  |        \- log4j:log4j:jar:1.2.17:compile
+|  +- net.imglib2:imglib2-algorithm:jar:0.9.0:compile
+|  |  +- gov.nist.math:jama:jar:1.0.3:compile
+|  |  \- org.ojalgo:ojalgo:jar:45.1.1:compile
+|  +- org.scream3r:jssc:jar:2.8.0:compile
+|  +- net.sqeazy:sqeazy:jar:0.7.2:compile
+|  +- net.clearcontrol:halcyon:jar:0.3.7:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+|  |  \- commons-io:commons-io:jar:2.6:compile
+|  +- net.clearcontrol:clearvolume:jar:1.4.2:compile
+|  |  +- args4j:args4j:jar:2.0.29:runtime
+|  |  +- com.apple:AppleJavaExtensions:jar:1.4:runtime
+|  |  +- com.miglayout:miglayout:jar:3.7.4:runtime
+|  |  \- net.clearcontrol:clearaudio:jar:1.0.2:runtime
+|  +- net.clearcontrol:fastfuse:jar:0.6.5:compile
+|  |  \- net.clearcontrol:simbryo:jar:0.9.1:runtime
+|  +- net.clearcontrol:mirao52j:jar:1.0.1:compile
+|  +- net.clearcontrol:dcamj:jar:2.1.7:compile
+|  +- net.clearcontrol:aptj:jar:0.0.5:compile
+|  +- net.clearcontrol:ecc100j:jar:1.0.1:compile
+|  +- com.github.sarxos:webcam-capture:jar:0.3.9:compile
+|  |  +- com.jhlabs:filters:jar:2.0.235-1:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- net.clearcontrol:nirioj:jar:1.0.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- net.clearcontrol:dockfx:jar:0.1.12:compile
++- net.clearcontrol:clearcl:jar:0.6.5-m:compile
+|  +- com.nativelibs4java:javacl:jar:1.0.0-RC4:compile
+|  |  \- com.nativelibs4java:javacl-core:jar:1.0.0-RC4:compile
+|  |     +- com.nativelibs4java:opencl4java:jar:1.0.0-RC4:compile
+|  |     \- com.nativelibs4java:nativelibs4java-utils:jar:1.6:compile
+|  +- org.jocl:jocl:jar:2.0.1:runtime
+|  +- javax.vecmath:vecmath:jar:1.5.2:runtime
+|  +- ome:formats-api:jar:5.9.2:runtime
+|  |  +- org.openmicroscopy:ome-common:jar:5.3.6:runtime
+|  |  |  +- joda-time:joda-time:jar:2.10:runtime
+|  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:runtime
+|  |  +- org.openmicroscopy:ome-xml:jar:5.6.3:runtime
+|  |  \- org.openmicroscopy:ome-codecs:jar:0.2.2:runtime
+|  |     \- org.openmicroscopy:ome-jai:jar:0.1.0:runtime
+|  \- ome:formats-bsd:jar:5.9.2:runtime
+|     +- org.openmicroscopy:specification:jar:5.6.3:runtime
+|     +- ome:turbojpeg:jar:5.9.2:runtime
+|     +- org.scijava:native-lib-loader:jar:2.3.1:runtime
+|     +- com.jgoodies:jgoodies-forms:jar:1.7.2:runtime
+|     |  \- com.jgoodies:jgoodies-common:jar:1.7.0:runtime
+|     +- com.esotericsoftware.kryo:kryo:jar:2.24.0:runtime
+|     |  +- com.esotericsoftware.minlog:minlog:jar:1.2:runtime
+|     |  \- org.objenesis:objenesis:jar:2.1:runtime
+|     +- org.perf4j:perf4j:jar:0.9.13:runtime
+|     \- com.drewnoakes:metadata-extractor:jar:2.6.2:runtime
+|        +- com.adobe.xmp:xmpcore:jar:5.1.2:runtime
+|        \- xerces:xercesImpl:jar:2.8.1:runtime
++- org.scijava:scijava-common:jar:2.75.0:compile
+|  +- org.scijava:parsington:jar:1.0.3:compile
+|  \- org.bushe:eventbus:jar:1.4:compile
++- net.imglib2:imglib2:jar:5.5.0:compile
++- net.imagej:imagej:jar:2.0.0-rc-68:compile
+|  +- net.imagej:imagej-common:jar:0.26.1:compile
+|  |  \- edu.ucar:udunits:jar:4.3.18:compile
+|  +- net.imagej:imagej-notebook:jar:0.2.3:compile
+|  +- net.imagej:imagej-ops:jar:0.41.1:compile
+|  |  +- net.imagej:imagej-mesh:jar:0.7.1:compile
+|  |  +- net.imglib2:imglib2-algorithm-fft:jar:0.2.0:compile
+|  |  |  \- edu.mines:mines-jtk:jar:20151125:compile
+|  |  \- org.scijava:scripting-javascript:jar:0.4.4:compile
+|  +- net.imagej:imagej-updater:jar:0.9.2:compile
+|  +- io.scif:scifio:jar:0.37.2:compile
+|  |  \- io.scif:scifio-jai-imageio:jar:1.1.1:compile
+|  +- net.imagej:imagej-deprecated:jar:0.1.2:compile
+|  +- net.imagej:imagej-plugins-commands:jar:0.8.0:runtime
+|  |  +- com.github.sbridges.object-inspector:object-inspector:jar:0.1:compile
+|  |  \- net.iharder:base64:jar:2.3.8:runtime
+|  +- net.imagej:imagej-plugins-tools:jar:0.3.1:runtime
+|  +- net.imagej:imagej-plugins-uploader-ssh:jar:0.3.2:runtime
+|  |  \- com.jcraft:jsch:jar:0.1.54:runtime
+|  +- net.imagej:imagej-plugins-uploader-webdav:jar:0.2.2:runtime
+|  +- net.imagej:imagej-scripting:jar:0.8.2:runtime
+|  |  +- org.scijava:scripting-beanshell:jar:0.3.3:runtime
+|  |  |  \- org.apache-extras.beanshell:bsh:jar:2.0b6:runtime
+|  |  +- org.scijava:scripting-clojure:jar:0.1.6:runtime
+|  |  |  \- org.clojure:clojure:jar:1.8.0:runtime
+|  |  +- org.scijava:scripting-groovy:jar:0.2.7:runtime
+|  |  |  +- org.codehaus.groovy:groovy:jar:2.4.8:runtime
+|  |  |  +- org.apache.ivy:ivy:jar:2.4.0:runtime
+|  |  |  \- org.codehaus.gpars:gpars:jar:1.2.1:runtime
+|  |  |     +- org.multiverse:multiverse-core:jar:0.7.0:runtime
+|  |  |     \- org.codehaus.jsr166-mirror:jsr166y:jar:1.7.0:runtime
+|  |  +- org.scijava:scripting-java:jar:0.4.1:compile
+|  |  |  \- org.scijava:minimaven:jar:2.2.1:compile
+|  |  +- org.scijava:scripting-jruby:jar:0.2.5:runtime
+|  |  |  +- org.jruby:jruby-core:jar:1.7.12:runtime
+|  |  |  |  +- org.ow2.asm:asm:jar:4.0:runtime
+|  |  |  |  +- org.ow2.asm:asm-commons:jar:4.0:runtime
+|  |  |  |  |  \- org.ow2.asm:asm-tree:jar:4.0:runtime
+|  |  |  |  +- org.ow2.asm:asm-analysis:jar:4.0:runtime
+|  |  |  |  +- org.ow2.asm:asm-util:jar:4.0:runtime
+|  |  |  |  +- org.jruby.joni:joni:jar:2.1.1:runtime
+|  |  |  |  +- com.github.jnr:jnr-netdb:jar:1.1.2:runtime
+|  |  |  |  +- com.github.jnr:jnr-enxio:jar:0.4:runtime
+|  |  |  |  +- com.github.jnr:jnr-x86asm:jar:1.0.2:runtime
+|  |  |  |  +- com.github.jnr:jnr-unixsocket:jar:0.3:runtime
+|  |  |  |  +- com.github.jnr:jnr-posix:jar:3.0.1:runtime
+|  |  |  |  +- org.jruby.extras:bytelist:jar:1.0.11:runtime
+|  |  |  |  +- com.github.jnr:jnr-constants:jar:0.8.5:runtime
+|  |  |  |  +- org.jruby.jcodings:jcodings:jar:1.0.10:runtime
+|  |  |  |  +- com.github.jnr:jnr-ffi:jar:1.0.7:runtime
+|  |  |  |  +- com.github.jnr:jffi:jar:1.2.7:runtime
+|  |  |  |  +- com.github.jnr:jffi:jar:native:1.2.7:runtime
+|  |  |  |  +- org.yaml:snakeyaml:jar:1.13:runtime
+|  |  |  |  +- com.jcraft:jzlib:jar:1.1.3:runtime
+|  |  |  |  +- com.headius:invokebinder:jar:1.2:runtime
+|  |  |  |  +- com.martiansoftware:nailgun-server:jar:0.9.1:runtime
+|  |  |  |  +- org.jruby:yecht:jar:1.0:runtime
+|  |  |  |  \- com.headius:options:jar:1.1:runtime
+|  |  |  \- org.jruby:jruby-stdlib:jar:1.7.12:runtime
+|  |  +- org.scijava:scripting-jython:jar:0.4.2:runtime
+|  |  |  \- org.scijava:jython-shaded:jar:2.7.1:runtime
+|  |  +- org.scijava:scripting-renjin:jar:0.2.2:runtime
+|  |  |  \- org.renjin:renjin-script-engine:jar:0.8.1906:runtime
+|  |  |     +- org.renjin:renjin-core:jar:0.8.1906:runtime
+|  |  |     |  +- org.apache.commons:commons-math:jar:2.2:runtime
+|  |  |     |  +- org.renjin:gcc-runtime:jar:0.8.1906:runtime
+|  |  |     |  +- org.netlib:netlib-java:jar:0.9.3-renjin-patched-2:runtime
+|  |  |     |  |  +- org.netlib:lapack:jar:0.8:runtime
+|  |  |     |  |  +- org.netlib:f2jutil:jar:0.8:runtime
+|  |  |     |  |  +- org.netlib:xerbla:jar:0.8:runtime
+|  |  |     |  |  \- org.netlib:blas:jar:0.8:runtime
+|  |  |     |  +- org.apache.commons:commons-vfs2:jar:2.0:runtime
+|  |  |     |  |  +- commons-logging:commons-logging:jar:1.2:runtime
+|  |  |     |  |  +- org.apache.maven.scm:maven-scm-api:jar:1.4:runtime
+|  |  |     |  |  |  \- org.codehaus.plexus:plexus-utils:jar:1.5.6:runtime
+|  |  |     |  |  \- org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.4:runtime
+|  |  |     |  |     +- org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.4:runtime
+|  |  |     |  |     \- regexp:regexp:jar:1.3:runtime
+|  |  |     |  +- org.apache.commons:commons-compress:jar:1.4.1:runtime
+|  |  |     |  |  \- org.tukaani:xz:jar:1.0:runtime
+|  |  |     |  +- edu.emory.mathcs:jtransforms:jar:2.4:runtime
+|  |  |     |  +- net.sf.jung:jung-api:jar:2.0.1:runtime
+|  |  |     |  |  \- net.sourceforge.collections:collections-generic:jar:4.01:runtime
+|  |  |     |  +- net.sf.jung:jung-graph-impl:jar:2.0.1:runtime
+|  |  |     |  \- com.sun.codemodel:codemodel:jar:2.6:runtime
+|  |  |     +- org.renjin:stats:jar:0.8.1906:runtime
+|  |  |     |  +- org.renjin:renjin-appl:jar:0.8.1906:runtime
+|  |  |     |  \- org.renjin:renjin-gnur-runtime:jar:0.8.1906:runtime
+|  |  |     +- org.renjin:methods:jar:0.8.1906:runtime
+|  |  |     |  \- org.renjin:datasets:jar:0.8.1906:runtime
+|  |  |     +- org.renjin:utils:jar:0.8.1906:runtime
+|  |  |     +- org.renjin:grDevices:jar:0.8.1906:runtime
+|  |  |     \- org.renjin:graphics:jar:0.8.1906:runtime
+|  |  \- org.scijava:scripting-scala:jar:0.2.1:runtime
+|  |     \- org.scala-lang:scala-compiler:jar:2.12.1:runtime
+|  |        +- org.scala-lang:scala-library:jar:2.12.1:runtime
+|  |        +- org.scala-lang:scala-reflect:jar:2.12.1:runtime
+|  |        \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:runtime
+|  +- net.imagej:imagej-ui-swing:jar:0.21.4:runtime
+|  |  +- org.jfree:jfreechart:jar:1.5.0:runtime
+|  |  +- org.jhotdraw:jhotdraw:jar:7.6.0:runtime
+|  |  \- net.imagej:imagej-ui-awt:jar:0.3.1:runtime
+|  +- org.scijava:scijava-plugins-commands:jar:0.2.3:runtime
+|  +- org.scijava:scijava-plugins-platforms:jar:0.3.1:runtime
+|  +- org.scijava:scijava-plugins-text-markdown:jar:0.1.3:runtime
+|  |  \- org.markdownj:markdownj:jar:0.3.0-1.0.2b4:runtime
+|  +- org.scijava:scijava-plugins-text-plain:jar:0.1.3:runtime
+|  \- org.scijava:script-editor:jar:0.3.0:compile
+|     +- com.fifesoft:languagesupport:jar:2.6.0:compile
+|     |  +- com.fifesoft:autocomplete:jar:2.6.1:compile
+|     |  \- org.mozilla:rhino:jar:1.7.6:compile
+|     \- org.scijava:batch-processor:jar:0.2.0:compile
++- net.imagej:imagej-legacy:jar:0.33.1:compile
+|  +- net.imagej:ij1-patcher:jar:0.12.9:compile
+|  +- net.imagej:ij:jar:1.52e:compile
+|  +- net.imglib2:imglib2-roi:jar:0.5.2:compile
+|  +- org.scijava:scijava-search:jar:0.5.0:compile
+|  |  \- org.ocpsoft.prettytime:prettytime:jar:4.0.1.Final:compile
+|  +- org.scijava:scijava-ui-awt:jar:0.1.6:compile
+|  +- org.scijava:scijava-ui-swing:jar:0.11.0:compile
+|  |  +- org.scijava:swing-checkbox-tree:jar:1.0.2:compile
+|  |  \- net.sourceforge.jdatepicker:jdatepicker:jar:1.3.2:compile
+|  \- org.javassist:javassist:jar:3.22.0-GA:compile
++- net.imglib2:imglib2-ij:jar:2.0.0-beta-43:compile
+|  \- net.imglib2:imglib2-cache:jar:1.0.0-beta-9:compile
+|     \- com.github.ben-manes.caffeine:caffeine:jar:2.4.0:compile
+\- junit:junit:jar:4.12:compile
+   \- org.hamcrest:hamcrest-core:jar:1.3:compile
+

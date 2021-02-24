@@ -1,0 +1,118 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.springframework.data:spring-data-commons:jar:2.3.0.M4
++- org.springframework:spring-core:jar:5.2.4.RELEASE:compile
+|  \- org.springframework:spring-jcl:jar:5.2.4.RELEASE:compile
++- org.springframework:spring-beans:jar:5.2.4.RELEASE:compile
++- org.springframework:spring-context:jar:5.2.4.RELEASE:compile (optional) 
+|  \- org.springframework:spring-aop:jar:5.2.4.RELEASE:compile (optional) 
++- org.springframework:spring-expression:jar:5.2.4.RELEASE:compile (optional) 
++- org.springframework:spring-tx:jar:5.2.4.RELEASE:compile (optional) 
++- org.springframework:spring-oxm:jar:5.2.4.RELEASE:compile (optional) 
++- com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile (optional) 
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile (optional) 
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile (optional) 
++- org.springframework:spring-web:jar:5.2.4.RELEASE:compile (optional) 
++- org.springframework:spring-webflux:jar:5.2.4.RELEASE:compile (optional) 
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- javax.annotation:javax.annotation-api:jar:1.3.2:compile (optional) 
++- joda-time:joda-time:jar:2.10.5:compile (optional) 
++- org.threeten:threetenbp:jar:1.4.1:compile (optional) 
++- io.projectreactor:reactor-core:jar:3.3.3.RELEASE:compile (optional) 
+|  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile (optional) 
++- io.projectreactor:reactor-test:jar:3.3.3.RELEASE:test
++- io.reactivex:rxjava:jar:1.3.8:compile (optional) 
++- io.reactivex:rxjava-reactive-streams:jar:1.2.1:compile (optional) 
++- io.reactivex.rxjava2:rxjava:jar:2.2.18:compile (optional) 
++- com.querydsl:querydsl-core:jar:4.2.2:compile (optional) 
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile (optional) 
+|  +- com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile (optional) 
+|  \- com.infradna.tool:bridge-method-annotation:jar:1.13:compile (optional) 
++- com.querydsl:querydsl-apt:jar:4.2.2:provided
+|  \- com.querydsl:querydsl-codegen:jar:4.2.2:compile
+|     +- com.mysema.codegen:codegen:jar:0.6.8:compile
+|     |  \- org.eclipse.jdt.core.compiler:ecj:jar:4.3.1:compile
+|     \- org.reflections:reflections:jar:0.9.9:compile
+|        +- org.javassist:javassist:jar:3.18.2-GA:compile
+|        \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- com.querydsl:querydsl-collections:jar:4.2.2:compile (optional) 
++- javax.ejb:ejb-api:jar:3.0:compile (optional) 
++- org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:test
++- javax.interceptor:javax.interceptor-api:jar:1.2.1:test
++- javax.enterprise:cdi-api:jar:1.0:provided (optional) 
+|  +- org.jboss.interceptor:jboss-interceptor-api:jar:1.1:provided (optional) 
+|  +- javax.annotation:jsr250-api:jar:1.0:provided (optional) 
+|  \- javax.inject:javax.inject:jar:1:compile
++- com.google.guava:guava:jar:19.0:compile (optional) 
++- io.vavr:vavr:jar:0.10.2:compile (optional) 
+|  \- io.vavr:vavr-match:jar:0.10.2:compile (optional) 
++- javax.el:el-api:jar:1.0:test
++- org.apache.openwebbeans:openwebbeans-se:jar:2.0.15:test
+|  \- org.apache.openwebbeans:openwebbeans-impl:jar:2.0.15:test
+|     +- org.apache.xbean:xbean-finder-shaded:jar:4.16:test
+|     +- org.apache.xbean:xbean-asm7-shaded:jar:4.16:test
+|     \- org.apache.openwebbeans:openwebbeans-spi:jar:2.0.15:test
++- org.springframework.hateoas:spring-hateoas:jar:1.1.0.M2:compile (optional) 
+|  \- org.springframework.plugin:spring-plugin-core:jar:2.0.0.RELEASE:compile (optional) 
++- org.springframework:spring-webmvc:jar:5.2.4.RELEASE:compile (optional) 
++- com.sun.xml.bind:jaxb-impl:jar:2.2.3U1:test
+|  \- javax.xml.bind:jaxb-api:jar:2.2.2:test
+|     +- javax.xml.stream:stax-api:jar:1.0-2:test
+|     \- javax.activation:activation:jar:1.1:test
++- xmlunit:xmlunit:jar:1.6:test
++- org.codehaus.groovy:groovy-all:jar:2.4.4:test
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.70:compile (optional) 
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.70:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile (optional) 
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.3.70:compile (optional) 
++- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:1.3.4:compile (optional) 
++- org.jetbrains.kotlinx:kotlinx-coroutines-reactive:jar:1.3.4:compile (optional) 
++- org.jetbrains.kotlinx:kotlinx-coroutines-reactor:jar:1.3.4:compile (optional) 
++- org.jetbrains.kotlin:kotlin-test-junit5:jar:1.3.70:test
+|  +- org.jetbrains.kotlin:kotlin-test-annotations-common:jar:1.3.70:test
+|  +- org.jetbrains.kotlin:kotlin-test:jar:1.3.70:test
+|  |  \- org.jetbrains.kotlin:kotlin-test-common:jar:1.3.70:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test
+|     +- org.opentest4j:opentest4j:jar:1.2.0:test
+|     \- org.junit.platform:junit-platform-commons:jar:1.6.0:test
++- io.mockk:mockk:jar:1.9.3:test
+|  +- io.mockk:mockk-common:jar:1.9.3:test
+|  |  \- io.mockk:mockk-dsl:jar:1.9.3:test
+|  +- io.mockk:mockk-dsl-jvm:jar:1.9.3:test
+|  \- io.mockk:mockk-agent-jvm:jar:1.9.3:test
+|     +- io.mockk:mockk-agent-api:jar:1.9.3:test
+|     \- io.mockk:mockk-agent-common:jar:1.9.3:test
++- org.scala-lang:scala-library:jar:2.11.7:compile (optional) 
++- javax.transaction:javax.transaction-api:jar:1.2:test
++- com.jayway.jsonpath:json-path:jar:2.4.0:compile (optional) 
+|  \- net.minidev:json-smart:jar:2.3:compile (optional) 
+|     \- net.minidev:accessors-smart:jar:1.2:compile (optional) 
++- org.xmlbeam:xmlprojector:jar:1.4.16:compile (optional) 
++- de.schauderhaft.degraph:degraph-check:jar:0.1.4:test
+|  +- de.schauderhaft.degraph:degraph-core:jar:0.1.4:test
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.3:test
+|  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.3:test
+|  |  +- org.ow2.asm:asm:jar:5.1:compile
+|  |  \- com.assembla.scala-incubator:graph-core_2.11:jar:1.9.1:test
+|  +- org.scalatest:scalatest_2.11:jar:2.2.4:test
+|  |  \- org.scala-lang:scala-reflect:jar:2.11.2:test
+|  \- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.junit.jupiter:junit-jupiter:jar:5.6.0:test
+|  +- org.junit.jupiter:junit-jupiter-params:jar:5.6.0:test
+|  \- org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test
++- org.junit.vintage:junit-vintage-engine:jar:5.6.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.6.0:test
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:3.3.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.10.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.10.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.mockito:mockito-junit-jupiter:jar:3.3.0:test
++- org.assertj:assertj-core:jar:3.15.0:test
++- org.springframework:spring-test:jar:5.2.4.RELEASE:test
++- org.slf4j:slf4j-api:jar:1.7.26:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  \- ch.qos.logback:logback-core:jar:1.2.3:test
+\- org.projectlombok:lombok:jar:1.18.12:compile (optional) 
+

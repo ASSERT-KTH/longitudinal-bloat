@@ -1,0 +1,27 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.couchbase.client:core-io:bundle:1.7.15
++- io.reactivex:rxjava:jar:1.3.8:compile
++- io.opentracing:opentracing-api:jar:0.31.0:compile
++- io.netty:netty-all:jar:4.1.48.Final:compile
++- com.lmax:disruptor:jar:3.4.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.10.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.1:compile
++- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+|  \- org.hdrhistogram:HdrHistogram:jar:2.1.8:compile
++- org.iq80.snappy:snappy:jar:0.4:compile
++- io.opentracing:opentracing-noop:jar:0.31.0:compile
++- org.slf4j:slf4j-api:jar:1.7.7:provided (optional) 
++- commons-logging:commons-logging:jar:1.1.3:provided (optional) 
++- log4j:log4j:jar:1.2.17:provided (optional) 
++- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile (optional) 
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.19.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.10:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.10:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.assertj:assertj-core:jar:1.7.1:test
++- com.couchbase.mock:CouchbaseMock:jar:1.5.19:test
+\- org.xerial.snappy:snappy-java:jar:1.1.7.1:test
+

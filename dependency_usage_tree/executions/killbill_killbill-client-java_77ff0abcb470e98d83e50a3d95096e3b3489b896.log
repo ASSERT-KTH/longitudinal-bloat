@@ -1,0 +1,50 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.kill-bill.billing:killbill-client-java:jar:0.27
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.4.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
++- com.github.tomakehurst:wiremock:jar:1.58:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:test
+|  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:test - version managed from 2.6.0; omitted for duplicate)
+|  +- xmlunit:xmlunit:jar:1.6:test
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:test
+|  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:test
+|  |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:test - version managed from 2.6.0; omitted for duplicate)
+|  +- org.skyscreamer:jsonassert:jar:1.2.3:test
+|  |  \- org.json:json:jar:20090211:test
+|  +- com.jayway.jsonpath:json-path:jar:0.8.1:test
+|  |  +- net.minidev:json-smart:jar:1.1.1:test
+|  |  \- commons-lang:commons-lang:jar:2.6:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:test - version managed from 2.6.0; omitted for duplicate)
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.9:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; scope updated from test; omitted for duplicate)
+|  \- (com.google.guava:guava:jar:18.0:provided - scope managed from test; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:2.0.1:provided
++- com.google.guava:guava:jar:18.0:provided
++- com.ning:async-http-client:jar:1.9.19:compile
+|  +- io.netty:netty:jar:3.10.1.Final:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
++- joda-time:joda-time:jar:2.3:compile
++- mysql:mysql-connector-java:jar:5.1.33:test
++- org.kill-bill.billing:killbill-api:jar:0.36:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.6.0; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:slf4j-simple:jar:1.7.21:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.12; omitted for duplicate)
+\- org.testng:testng:jar:6.8.8:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   \- com.beust:jcommander:jar:1.27:test
+

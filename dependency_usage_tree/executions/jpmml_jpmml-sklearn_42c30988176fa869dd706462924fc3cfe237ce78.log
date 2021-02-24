@@ -1,0 +1,51 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jpmml:jpmml-sklearn:jar:1.5.36
++- com.beust:jcommander:jar:1.72:compile
++- org.jpmml:jpmml-converter:jar:1.3.12:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- org.jpmml:pmml-model:jar:1.4.15:compile
+|  |  \- org.jpmml:pmml-agent:jar:1.4.15:compile
+|  \- org.jpmml:pmml-model-metro:jar:1.4.15:compile
+|     +- (org.jpmml:pmml-model:jar:1.4.15:compile - omitted for duplicate)
+|     \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:compile
+|        +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile
+|        |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|        +- com.sun.istack:istack-commons-runtime:jar:3.0.8:compile
+|        |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|        \- jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
++- org.jpmml:jpmml-h2o:jar:1.0.11:compile
+|  +- (com.beust:jcommander:jar:1.72:compile - omitted for duplicate)
+|  +- ai.h2o:h2o-genmodel:jar:3.32.0.2:compile
+|  |  +- ai.h2o:h2o-logger:jar:3.32.0.2:compile
+|  |  +- com.google.code.gson:gson:jar:2.6.2:compile
+|  |  \- ai.h2o:h2o-tree-api:jar:0.3.17:compile
+|  +- (org.jpmml:jpmml-converter:jar:1.3.11:compile - omitted for conflict with 1.3.12)
+|  \- (org.jpmml:jpmml-xgboost:jar:1.3.14:compile - omitted for conflict with 1.3.15)
++- org.jpmml:jpmml-lightgbm:jar:1.2.14:compile
+|  +- (com.beust:jcommander:jar:1.72:compile - omitted for duplicate)
+|  \- (org.jpmml:jpmml-converter:jar:1.3.11:compile - omitted for conflict with 1.3.12)
++- org.jpmml:jpmml-xgboost:jar:1.3.15:compile
+|  +- (com.beust:jcommander:jar:1.72:compile - omitted for duplicate)
+|  \- (org.jpmml:jpmml-converter:jar:1.3.11:compile - omitted for conflict with 1.3.12)
++- net.razorvine:pyrolite:jar:4.30:compile
+|  \- net.razorvine:serpent:jar:1.23:compile
++- org.slf4j:slf4j-api:jar:1.7.29:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.29:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.29:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.jpmml:pmml-evaluator-test:jar:1.4.15:test
+   +- org.jpmml:pmml-evaluator:jar:1.4.15:test
+   |  +- (org.jpmml:pmml-model:jar:1.4.15:test - omitted for duplicate)
+   |  +- (com.google.guava:guava:jar:21.0:test - omitted for duplicate)
+   |  \- org.apache.commons:commons-math3:jar:3.6.1:test
+   +- org.jpmml:pmml-evaluator-extension:jar:1.4.15:test
+   |  \- (org.jpmml:pmml-evaluator:jar:1.4.15:test - omitted for duplicate)
+   +- (org.jpmml:pmml-model-metro:jar:1.4.15:test - omitted for duplicate)
+   \- org.jpmml:pmml-model-moxy:jar:1.4.15:test
+      +- (org.jpmml:pmml-model:jar:1.4.15:test - omitted for duplicate)
+      +- (jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile - scope updated from test; omitted for duplicate)
+      \- org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.7.4:test
+         \- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.4:test
+            \- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.4:test
+

@@ -1,0 +1,18 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 34, in clone
+    self.path = os.path.dirname(self.pom.poms[0]['path'])
+IndexError: list index out of range
+com.magmaguy:EliteMobs:jar:3.0.16
+\- org.spigotmc:spigot-api:jar:1.12-R0.1-SNAPSHOT:compile
+   +- commons-lang:commons-lang:jar:2.6:compile
+   +- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+   |  \- junit:junit:jar:4.10:compile
+   |     \- org.hamcrest:hamcrest-core:jar:1.1:compile
+   +- com.google.guava:guava:jar:21.0:compile
+   +- com.google.code.gson:gson:jar:2.8.0:compile
+   +- org.yaml:snakeyaml:jar:1.18:compile
+   \- net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:compile
+      +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+      \- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 21.0)
+

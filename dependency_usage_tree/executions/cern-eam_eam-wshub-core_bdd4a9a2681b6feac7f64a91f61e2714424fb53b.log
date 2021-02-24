@@ -1,0 +1,63 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+ch.cern.eam:eam-wshub-core:jar:11.5-14
++- javax.persistence:javax.persistence-api:jar:2.2:compile
++- ch.cern.eam:eam-wshub-proxyclient:jar:11.5-3:compile
++- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.3.5:test
+|  +- xml-resolver:xml-resolver:jar:1.2:test
+|  +- org.ow2.asm:asm:jar:7.1:test
+|  +- org.apache.cxf:cxf-core:jar:3.3.5:test
+|  |  +- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:test
+|  |  |  +- (jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:test - omitted for duplicate)
+|  |  |  +- org.glassfish.jaxb:txw2:jar:2.3.2:test
+|  |  |  +- com.sun.istack:istack-commons-runtime:jar:3.0.8:test
+|  |  |  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:test - omitted for duplicate)
+|  |  |  +- org.jvnet.staxex:stax-ex:jar:1.8.1:test
+|  |  |  |  +- (jakarta.activation:jakarta.activation-api:jar:1.2.1:test - omitted for duplicate)
+|  |  |  |  \- (jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:test - omitted for duplicate)
+|  |  |  +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:test
+|  |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:test
+|  |  +- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:test
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:test
+|  |  +- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.5:test
+|  |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:test
+|  |     \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:test - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-soap:jar:3.3.5:test
+|  |  +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-wsdl:jar:3.3.5:test
+|  |  |  +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|  |  |  +- wsdl4j:wsdl4j:jar:1.6.3:test
+|  |  |  \- (org.ow2.asm:asm:jar:7.1:test - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.3.5:test
+|  |     +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|  |     \- (org.apache.cxf:cxf-rt-wsdl:jar:3.3.5:test - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-xml:jar:3.3.5:test
+|  |  \- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-simple:jar:3.3.5:test
+|  |  +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.3.5:test - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.3.5:test - omitted for duplicate)
+|  \- org.apache.cxf:cxf-rt-ws-addr:jar:3.3.5:test
+|     +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|     +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.3.5:test - omitted for duplicate)
+|     \- org.apache.cxf:cxf-rt-ws-policy:jar:3.3.5:test
+|        +- (wsdl4j:wsdl4j:jar:1.6.3:test - omitted for duplicate)
+|        +- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
+|        \- org.apache.neethi:neethi:jar:3.1.1:test
++- org.apache.cxf:cxf-rt-transports-http:jar:3.3.5:test
+|  \- (org.apache.cxf:cxf-core:jar:3.3.5:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.6.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+\- org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test
+   +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+   +- org.junit.platform:junit-platform-engine:jar:1.6.0:test
+   |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+   |  +- (org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)
+   |  \- (org.junit.platform:junit-platform-commons:jar:1.6.0:test - omitted for duplicate)
+   \- (org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test - omitted for duplicate)
+

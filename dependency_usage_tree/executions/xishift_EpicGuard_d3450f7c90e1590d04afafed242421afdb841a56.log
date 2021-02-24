@@ -1,0 +1,78 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+me.ishift:EpicGuard:jar:5.1.3
++- org.spigotmc:spigot-api:jar:1.16.1-R0.1-SNAPSHOT:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  +- com.google.guava:guava:jar:21.0:provided
+|  +- com.google.code.gson:gson:jar:2.8.0:provided
+|  +- net.md-5:bungeecord-chat:jar:1.16-R0.3:provided
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.26:provided
++- net.md-5:bungeecord-api:jar:1.16-R0.3:provided
+|  +- (net.md-5:bungeecord-chat:jar:1.16-R0.3:provided - omitted for duplicate)
+|  +- net.md-5:bungeecord-config:jar:1.16-R0.3:provided
+|  |  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
+|  +- net.md-5:bungeecord-event:jar:1.16-R0.3:provided
+|  |  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
+|  +- net.md-5:bungeecord-protocol:jar:1.16-R0.3:provided
+|  |  +- net.md-5:brigadier:jar:1.0.16-SNAPSHOT:provided
+|  |  +- (net.md-5:bungeecord-chat:jar:1.16-R0.3:provided - omitted for duplicate)
+|  |  +- io.netty:netty-codec:jar:4.1.49.Final:provided
+|  |  |  +- (io.netty:netty-common:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |  +- net.sf.trove4j:core:jar:3.1.0:provided
+|  |  +- se.llbit:jo-nbt:jar:1.3.0:provided
+|  |  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.49.Final:provided
+|  |  +- io.netty:netty-common:jar:4.1.49.Final:provided
+|  |  +- io.netty:netty-buffer:jar:4.1.49.Final:provided
+|  |  |  \- (io.netty:netty-common:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |  \- io.netty:netty-transport:jar:4.1.49.Final:provided
+|  |     +- (io.netty:netty-common:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |     +- (io.netty:netty-buffer:jar:4.1.49.Final:provided - omitted for duplicate)
+|  |     \- io.netty:netty-resolver:jar:4.1.49.Final:provided
+|  |        \- (io.netty:netty-common:jar:4.1.49.Final:provided - omitted for duplicate)
+|  +- (org.yaml:snakeyaml:jar:1.25:provided - omitted for conflict with 1.26)
+|  \- (com.google.guava:guava:jar:21.0:provided - omitted for duplicate)
++- com.maxmind.geoip2:geoip2:jar:2.14.0:compile
+|  +- com.maxmind.db:maxmind-db:jar:1.4.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.14)
+|  +- commons-codec:commons-codec:jar:1.14:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
++- com.github.JavaFactoryDev:LightningStorage:jar:3.1.6:compile
+|  +- com.esotericsoftware.yamlbeans:yamlbeans:jar:1.13:compile
+|  +- org.json:json:jar:20190722:compile
+|  \- org.jetbrains:annotations:jar:18.0.0:compile
++- org.apache.logging.log4j:log4j-core:jar:2.13.3:provided
+|  \- org.apache.logging.log4j:log4j-api:jar:2.13.3:provided
++- com.velocitypowered:velocity-api:jar:1.0.8:provided
+|  +- (com.google.code.gson:gson:jar:2.8.5:provided - omitted for conflict with 2.8.0)
+|  +- (com.google.guava:guava:jar:25.1-jre:provided - omitted for conflict with 21.0)
+|  +- net.kyori:text-api:jar:3.0.3:provided
+|  |  \- (org.checkerframework:checker-qual:jar:2.5.8:provided - omitted for conflict with 2.7.0)
+|  +- net.kyori:text-serializer-gson:jar:3.0.3:provided
+|  |  +- (net.kyori:text-api:jar:3.0.3:provided - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.8.0:provided - omitted for duplicate)
+|  +- net.kyori:text-serializer-legacy:jar:3.0.3:provided
+|  |  \- (net.kyori:text-api:jar:3.0.3:provided - omitted for duplicate)
+|  +- net.kyori:text-serializer-plain:jar:3.0.3:provided
+|  |  \- (net.kyori:text-api:jar:3.0.3:provided - omitted for duplicate)
+|  +- com.moandjiezana.toml:toml4j:jar:0.7.2:provided
+|  |  \- (com.google.code.gson:gson:jar:2.8.1:provided - omitted for conflict with 2.8.0)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:provided
+|  +- com.google.inject:guice:jar:4.2.2:provided
+|  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  \- (com.google.guava:guava:jar:25.1-android:provided - omitted for conflict with 21.0)
+|  \- org.checkerframework:checker-qual:jar:2.7.0:provided
+\- org.diorite:diorite-config-minimal:jar:1.2:compile
+

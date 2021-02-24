@@ -1,0 +1,302 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.ec2box:ec2box:war:0.30.00
++- org.apache.struts:struts2-core:jar:2.5.8:compile
+|  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  +- ognl:ognl:jar:3.1.12:compile
+|  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.7:compile
+|  +- (commons-fileupload:commons-fileupload:jar:1.3.2:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  \- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.apache.struts:struts2-convention-plugin:jar:2.5.8:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.1:compile
+|  +- org.ow2.asm:asm-commons:jar:5.1:compile
+|  |  \- org.ow2.asm:asm-tree:jar:5.1:compile
+|  |     \- (org.ow2.asm:asm:jar:5.1:compile - omitted for duplicate)
+|  \- (org.apache.struts:struts2-core:jar:2.5.8:compile - omitted for duplicate)
++- com.h2database:h2:jar:1.4.193:compile
++- com.jcraft:jsch:jar:0.1.54:compile
++- com.google.code.gson:gson:jar:2.8.0:compile
++- com.amazonaws:aws-java-sdk:jar:1.11.68:compile
+|  +- com.amazonaws:aws-java-sdk-pinpoint:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- com.amazonaws:jmespath-java:jar:1.11.68:compile
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.6:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-xray:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-opsworkscm:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-support:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-simpledb:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-servicecatalog:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-servermigration:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-simpleworkflow:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-storagegateway:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-route53:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-kms:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-importexport:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-sts:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-sqs:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-rds:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-redshift:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elasticbeanstalk:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-glacier:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-sns:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-s3:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-iam:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-datapipeline:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elasticloadbalancing:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elasticloadbalancingv2:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-emr:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elasticache:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elastictranscoder:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-ec2:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-s3:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-sns:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-budgets:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudtrail:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudwatch:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-logs:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-events:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cognitoidentity:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cognitosync:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-directconnect:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudformation:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudfront:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-kinesis:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-opsworks:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-ses:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-autoscaling:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudsearch:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudwatchmetrics:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-cloudwatch:jar:1.11.68:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-codedeploy:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-codepipeline:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-config:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-lambda:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-ecs:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-ecr:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cloudhsm:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-ssm:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-workspaces:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-machinelearning:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-directory:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-efs:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-codecommit:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-devicefarm:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-elasticsearch:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-waf:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-inspector:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-iot:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-api-gateway:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-acm:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-gamelift:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-dms:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-marketplacemeteringservice:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-cognitoidp:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-discovery:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-applicationautoscaling:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-snowball:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-rekognition:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-polly:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-lightsail:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-stepfunctions:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-health:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-codebuild:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-appstream:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-shield:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-batch:jar:1.11.68:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.68:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.68:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.6:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.6:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.6:compile - omitted for duplicate)
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  +- com.amazonaws:aws-java-sdk-models:jar:1.11.68:compile
+|  \- com.amazonaws:aws-java-sdk-swf-libraries:jar:1.11.22:compile
+|     \- (com.amazonaws:aws-java-sdk-simpleworkflow:jar:1.11.22:compile - omitted for conflict with 1.11.68)
++- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+|  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
++- org.slf4j:slf4j-log4j12:jar:1.7.22:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  \- commons-pool:commons-pool:jar:1.5.4:compile
++- com.google.zxing:core:jar:3.2.1:compile
++- javax.websocket:javax.websocket-api:jar:1.1:provided
+\- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:provided
+

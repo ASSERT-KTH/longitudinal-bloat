@@ -1,0 +1,106 @@
+[
+ {
+  "artifactid": "DrivenByMoss",
+  "groupid": "de.mossgrabers",
+  "version": "6.4",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "extension-api",
+    "groupid": "com.bitwig",
+    "version": "7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jna",
+    "groupid": "net.java.dev.jna",
+    "version": "5.3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jna-platform",
+    "groupid": "net.java.dev.jna",
+    "version": "5.3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jna",
+      "groupid": "net.java.dev.jna",
+      "version": "5.3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "purejavahidapi",
+    "groupid": "purejavahidapi",
+    "version": "0.0.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jna",
+      "groupid": "net.java.dev.jna",
+      "version": "5.2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "nativefilechooser",
+    "groupid": "de.mossgrabers",
+    "version": "1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jna",
+      "groupid": "net.java.dev.jna",
+      "version": "5.2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jna-platform",
+      "groupid": "net.java.dev.jna",
+      "version": "5.2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

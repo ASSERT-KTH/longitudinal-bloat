@@ -1,0 +1,47 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.youtongluan:sumk:jar:2.1.0
++- org.apache.commons:commons-dbcp2:jar:2.5.0:compile
+|  \- org.apache.commons:commons-pool2:jar:2.6.0:compile
++- com.google.code.gson:gson:jar:2.8.5:compile
++- mysql:mysql-connector-java:jar:5.1.47:compile
++- org.ow2.asm:asm-all:jar:5.2:compile
++- redis.clients:jedis:jar:2.9.0:compile
+|  \- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for conflict with 2.6.0)
++- org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.mybatis:mybatis:jar:3.3.0:compile
++- org.apache.mina:mina-core:jar:2.0.19:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
++- com.101tec:zkclient:jar:0.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.21)
+|  \- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+|     +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.21)
+|     \- jline:jline:jar:0.9.94:compile
++- org.eclipse.jetty:jetty-servlet:jar:9.4.12.v20180830:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.4.12.v20180830:compile
+|     \- org.eclipse.jetty:jetty-server:jar:9.4.12.v20180830:compile
+|        +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|        +- org.eclipse.jetty:jetty-http:jar:9.4.12.v20180830:compile
+|        |  +- org.eclipse.jetty:jetty-util:jar:9.4.12.v20180830:compile
+|        |  \- (org.eclipse.jetty:jetty-io:jar:9.4.12.v20180830:compile - omitted for duplicate)
+|        \- org.eclipse.jetty:jetty-io:jar:9.4.12.v20180830:compile
+|           \- (org.eclipse.jetty:jetty-util:jar:9.4.12.v20180830:compile - omitted for duplicate)
++- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  \- commons-io:commons-io:jar:2.2:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
++- org.apache.httpcomponents:httpasyncclient:jar:4.0.2:test
+|  +- org.apache.httpcomponents:httpcore:jar:4.3.2:test
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.3.2:test
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.3.2:test - omitted for duplicate)
+|  \- org.apache.httpcomponents:httpclient:jar:4.3.5:test
+|     +- (org.apache.httpcomponents:httpcore:jar:4.3.2:test - omitted for duplicate)
+|     \- commons-codec:commons-codec:jar:1.6:test
++- org.apache.httpcomponents:httpmime:jar:4.2:test
+|  \- (org.apache.httpcomponents:httpcore:jar:4.2:test - omitted for conflict with 4.3.2)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+

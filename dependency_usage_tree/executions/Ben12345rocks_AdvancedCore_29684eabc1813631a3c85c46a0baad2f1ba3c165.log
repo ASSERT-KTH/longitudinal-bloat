@@ -1,0 +1,39 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.Ben12345rocks:AdvancedCore:jar:2.9.1
++- org.spigotmc:spigot-api:jar:1.12-R0.1-SNAPSHOT:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  +- com.googlecode.json-simple:json-simple:jar:1.1.1:provided
+|  |  \- junit:junit:jar:4.10:provided
+|  |     \- org.hamcrest:hamcrest-core:jar:1.1:provided
+|  +- (com.google.guava:guava:jar:21.0:compile - scope updated from provided; omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.8.0:compile - scope updated from provided; omitted for duplicate)
+|  +- org.yaml:snakeyaml:jar:1.18:provided
+|  \- (net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:compile - scope updated from provided; omitted for duplicate)
++- net.milkbowl.vault:VaultAPI:jar:1.6:provided
+|  \- org.bukkit:bukkit:jar:1.9-R0.1-SNAPSHOT:provided
+|     +- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|     +- (com.googlecode.json-simple:json-simple:jar:1.1.1:provided - omitted for duplicate)
+|     +- (com.google.guava:guava:jar:17.0:provided - omitted for conflict with 21.0)
+|     +- (com.google.code.gson:gson:jar:2.2.4:provided - omitted for conflict with 2.8.0)
+|     +- org.avaje:ebean:jar:2.8.1:provided
+|     |  \- javax.persistence:persistence-api:jar:1.0:provided
+|     \- (org.yaml:snakeyaml:jar:1.15:provided - omitted for conflict with 1.18)
++- me.clip:placeholderapi:jar:LATEST:system
++- com.github.Ben12345rocks:ChatComponentAPI:jar:master-SNAPSHOT:compile
+|  +- com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI:jar:master-SNAPSHOT:compile
+|  |  +- net.md-5:bungeecord-chat:jar:1.12-SNAPSHOT:compile
+|  |  |  +- com.google.code.gson:gson:jar:2.8.0:compile
+|  |  |  \- com.google.guava:guava:jar:21.0:compile
+|  |  +- (com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-v1_13_R1:jar:master-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- (com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-Reflection:jar:master-SNAPSHOT:compile - omitted for duplicate)
+|  |  \- (com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-api:jar:master-SNAPSHOT:compile - omitted for duplicate)
+|  +- com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-Reflection:jar:master-SNAPSHOT:compile
+|  |  \- (com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-api:jar:master-SNAPSHOT:compile - omitted for duplicate)
+|  +- com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-api:jar:master-SNAPSHOT:compile
+|  \- com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-v1_13_R1:jar:master-SNAPSHOT:compile
+|     \- (com.github.Ben12345rocks.ChatComponentAPI:ChatComponentAPI-api:jar:master-SNAPSHOT:compile - omitted for duplicate)
++- com.zaxxer:HikariCP:jar:2.4.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
+\- org.slf4j:slf4j-simple:jar:1.6.4:compile
+   \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.12)
+

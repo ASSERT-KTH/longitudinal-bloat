@@ -1,0 +1,13 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+cat: dependency_tree.txt: No such file or directory
+rm: cannot remove 'dependency_tree.txt': No such file or directory
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmply0sv54h/chargebee-java; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/chargebee_chargebee-java/9ba26b15058d4405228b618a577b916280a3468e/depClean.log 2>&1' returned non-zero exit status 1.
+[ERROR] Command 'cd /tmp/tmply0sv54h/chargebee-java; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/chargebee_chargebee-java/9ba26b15058d4405228b618a577b916280a3468e/depClean.log 2>&1' returned non-zero exit status 1.
+Command 'cd /tmp/tmply0sv54h/chargebee-java; mvn -gs /home/jdbl/core/../maven-proxy.xml dependency:tree -Dverbose=true -DoutputFile=dependency_tree.txt -q;cat dependency_tree.txt;rm dependency_tree.txt' returned non-zero exit status 1.

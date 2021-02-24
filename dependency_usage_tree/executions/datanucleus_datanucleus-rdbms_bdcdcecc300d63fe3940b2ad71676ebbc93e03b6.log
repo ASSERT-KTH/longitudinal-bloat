@@ -1,0 +1,34 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.datanucleus:datanucleus-rdbms:jar:5.2.5
++- org.datanucleus:datanucleus-core:jar:5.2.5:provided
++- com.oracle.database.jdbc:ojdbc6:jar:11.2.0.4:compile
+|  +- com.oracle.database.jdbc:ucp:jar:11.2.0.4:compile
+|  +- com.oracle.database.security:oraclepki:jar:11.2.0.4:compile
+|  +- com.oracle.database.security:osdt_cert:jar:11.2.0.4:compile
+|  +- com.oracle.database.security:osdt_core:jar:11.2.0.4:compile
+|  +- com.oracle.database.ha:simplefan:jar:11.2.0.4:compile
+|  |  \- (com.oracle.database.ha:ons:jar:11.2.0.4:compile - omitted for duplicate)
+|  \- com.oracle.database.ha:ons:jar:11.2.0.4:compile
++- com.oracle.database.xml:xdb6:jar:11.2.0.4:compile
+|  \- (com.oracle.database.xml:xmlparserv2:jar:11.2.0.4:compile - omitted for duplicate)
++- com.oracle.database.xml:xmlparserv2:jar:11.2.0.4:compile
++- c3p0:c3p0:jar:0.9.1.2:compile
++- org.apache.commons:commons-dbcp2:jar:2.7.0:compile
+|  +- (org.apache.commons:commons-pool2:jar:2.7.0:compile - omitted for conflict with 2.8.0)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.apache.commons:commons-pool2:jar:2.8.0:compile
++- org.apache.tomcat:tomcat-jdbc:jar:9.0.36:compile
+|  \- org.apache.tomcat:tomcat-juli:jar:9.0.36:compile
++- com.jolbox:bonecp:jar:0.8.0.RELEASE:compile
+|  +- com.google.guava:guava:jar:15.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.28)
++- org.slf4j:slf4j-api:jar:1.7.28:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.28:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- com.zaxxer:HikariCP:jar:3.4.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.28)
++- log4j:log4j:jar:1.2.17:test (scope not updated to compile)
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test
+

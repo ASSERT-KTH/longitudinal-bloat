@@ -1,0 +1,114 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.github.fslev:cucumber-jutils:jar:6.12
++- io.cucumber:cucumber-java:jar:6.9.0:compile
+|  +- io.cucumber:cucumber-core:jar:6.9.0:compile
+|  |  +- io.cucumber:cucumber-gherkin:jar:6.9.0:compile
+|  |  |  \- (io.cucumber:cucumber-plugin:jar:6.9.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:cucumber-gherkin-messages:jar:6.9.0:compile
+|  |  |  \- (io.cucumber:cucumber-gherkin:jar:6.9.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:messages:jar:13.2.0:compile
+|  |  +- io.cucumber:tag-expressions:jar:3.0.0:compile
+|  |  +- io.cucumber:cucumber-expressions:jar:10.3.0:compile
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:datatable:jar:3.5.0:compile
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:cucumber-plugin:jar:6.9.0:compile
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:docstring:jar:6.9.0:compile
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:html-formatter:jar:9.0.0:compile
+|  |  |  \- (io.cucumber:messages:jar:13.2.0:compile - omitted for duplicate)
+|  |  +- io.cucumber:create-meta:jar:2.0.4:compile
+|  |  |  \- (io.cucumber:messages:jar:13.2.0:compile - omitted for duplicate)
+|  |  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  \- org.apiguardian:apiguardian-api:jar:1.1.0:compile
++- io.cucumber:cucumber-junit:jar:6.9.0:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  +- (io.cucumber:cucumber-core:jar:6.9.0:compile - omitted for duplicate)
+|  \- junit:junit:jar:4.13.1:compile
+|     \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- io.cucumber:cucumber-testng:jar:6.9.0:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
+|  +- (io.cucumber:cucumber-core:jar:6.9.0:compile - omitted for duplicate)
+|  \- org.testng:testng:jar:7.3.0:compile
+|     +- com.beust:jcommander:jar:1.78:compile
+|     +- org.apache.ant:ant:jar:1.10.3:compile
+|     |  \- org.apache.ant:ant-launcher:jar:1.10.3:compile
+|     +- (junit:junit:jar:4.12:compile - omitted for conflict with 4.13.1)
+|     +- com.google.inject:guice:jar:no_aop:4.2.2:compile
+|     |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|     |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|     |  \- (com.google.guava:guava:jar:25.1-android:compile - omitted for conflict with 27.1-jre)
+|     \- (org.yaml:snakeyaml:jar:1.21:compile - omitted for conflict with 1.27)
++- io.cucumber:cucumber-guice:jar:6.9.0:compile
+|  +- (io.cucumber:cucumber-core:jar:6.9.0:compile - omitted for duplicate)
+|  \- (org.apiguardian:apiguardian-api:jar:1.1.0:compile - omitted for duplicate)
++- io.github.fslev:jtest-utils:jar:1.4:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.11:compile
+|  +- org.apache.commons:commons-text:jar:1.9:compile
+|  |  \- org.apache.commons:commons-lang3:jar:3.11:compile
+|  +- mysql:mysql-connector-java:jar:8.0.22:compile
+|  |  \- com.google.protobuf:protobuf-java:jar:3.11.4:compile
+|  +- org.postgresql:postgresql:jar:42.2.18:compile
+|  |  \- (org.checkerframework:checker-qual:jar:3.5.0:compile - scope updated from runtime; omitted for duplicate)
+|  +- net.sourceforge.jtds:jtds:jar:1.3.1:compile
+|  +- org.xmlunit:xmlunit-core:jar:2.8.0:compile
+|  |  \- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile
+|  |     \- jakarta.activation:jakarta.activation-api:jar:1.2.2:compile
+|  +- org.xmlunit:xmlunit-matchers:jar:2.8.0:compile
+|  |  +- (org.xmlunit:xmlunit-core:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- com.jcraft:jsch:jar:0.1.55:compile
+|  +- com.github.fslev:json-compare:jar:2.16:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile - omitted for duplicate)
+|  |  \- (junit:junit:jar:4.13.1:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile
+|  +- org.yaml:snakeyaml:jar:1.27:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.13.3:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.13.3:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.13.1:compile - omitted for duplicate)
++- com.google.inject:guice:jar:4.2.3:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:27.1-jre:compile
+|     +- com.google.guava:failureaccess:jar:1.0.1:compile
+|     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|     +- org.checkerframework:checker-qual:jar:3.5.0:compile
+|     +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+|     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
++- org.springframework:spring-expression:jar:5.3.1:compile
+|  \- org.springframework:spring-core:jar:5.3.1:compile
+|     \- org.springframework:spring-jcl:jar:5.3.1:compile
++- org.powermock:powermock-module-junit4:jar:2.0.9:test
+|  +- org.powermock:powermock-module-junit4-common:jar:2.0.9:test
+|  |  +- org.powermock:powermock-reflect:jar:2.0.9:test
+|  |  |  +- (org.objenesis:objenesis:jar:3.0.1:test - omitted for conflict with 2.6)
+|  |  |  +- net.bytebuddy:byte-buddy:jar:1.10.14:test
+|  |  |  \- net.bytebuddy:byte-buddy-agent:jar:1.10.14:test
+|  |  +- org.powermock:powermock-core:jar:2.0.9:test
+|  |  |  +- (org.powermock:powermock-reflect:jar:2.0.9:test - omitted for duplicate)
+|  |  |  +- org.javassist:javassist:jar:3.27.0-GA:test
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.10.14:test - omitted for duplicate)
+|  |  |  \- (net.bytebuddy:byte-buddy-agent:jar:1.10.14:test - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.13.1)
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.13.1)
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - scope updated from test; omitted for duplicate)
+\- org.powermock:powermock-api-mockito2:jar:2.0.9:test
+   +- org.powermock:powermock-api-support:jar:2.0.9:test
+   |  +- (org.powermock:powermock-reflect:jar:2.0.9:test - omitted for duplicate)
+   |  \- (org.powermock:powermock-core:jar:2.0.9:test - omitted for duplicate)
+   \- org.mockito:mockito-core:jar:3.3.3:test
+      \- org.objenesis:objenesis:jar:2.6:test
+

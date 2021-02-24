@@ -1,0 +1,30 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.keybox:keybox:war:1.00.000
++- org.apache.struts:struts2-core:jar:2.3.8:compile
+|  +- org.apache.struts.xwork:xwork-core:jar:2.3.8:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  |  +- (ognl:ognl:jar:3.0.6:compile - omitted for duplicate)
+|  |  +- asm:asm:jar:3.3:compile
+|  |  \- asm:asm-commons:jar:3.3:compile
+|  |     \- asm:asm-tree:jar:3.3:compile
+|  |        \- (asm:asm:jar:3.3:compile - omitted for duplicate)
+|  +- org.freemarker:freemarker:jar:2.3.19:compile
+|  +- ognl:ognl:jar:3.0.6:compile
+|  |  \- javassist:javassist:jar:3.11.0.GA:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.2.2:compile
+|  \- commons-io:commons-io:jar:2.0.1:compile
++- org.apache.struts:struts2-convention-plugin:jar:2.3.8:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  \- (org.apache.struts:struts2-core:jar:2.3.8:compile - omitted for duplicate)
++- org.xerial:sqlite-jdbc:jar:3.7.2:compile
++- org.codehaus.plexus:plexus-utils:jar:3.0.4:compile
++- com.jcraft:jsch:jar:0.1.49:compile
++- javax.servlet:servlet-api:jar:2.5:provided
++- javax.servlet:jsp-api:jar:2.0:provided
+|  \- (javax.servlet:servlet-api:jar:2.4:provided - omitted for conflict with 2.5)
++- org.mortbay.jetty:jetty-plus:jar:6.1.26:provided
+|  \- geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4:provided
+\- org.mortbay.jetty:jetty-naming:jar:6.1.26:provided
+   +- javax.mail:mail:jar:1.4:provided
+   \- javax.activation:activation:jar:1.1:provided
+

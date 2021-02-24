@@ -1,0 +1,123 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.landawn:abacus-util:jar:1.9.1
++- org.projectlombok:lombok:jar:1.18.8:provided
++- (com.landawn:abacus-util:jar:1.8.22:provided - omitted for cycle)
++- com.landawn:abacus-jdbc:jar:0.9:provided
++- com.google.guava:guava:jar:28.0-jre:provided
+|  +- com.google.guava:failureaccess:jar:1.0.1:provided
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:provided
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+|  +- org.checkerframework:checker-qual:jar:2.8.1:provided
+|  +- com.google.errorprone:error_prone_annotations:jar:2.3.2:provided
+|  +- com.google.j2objc:j2objc-annotations:jar:1.3:provided
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:provided
++- org.apache.commons:commons-lang3:jar:3.9:provided
++- net.spy:spymemcached:jar:2.12.3:provided
++- redis.clients:jedis:jar:3.0.1:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - omitted for conflict with 1.7.26)
+|  \- org.apache.commons:commons-pool2:jar:2.4.3:provided
++- com.mchange:c3p0:jar:0.9.5.4:provided
+|  \- com.mchange:mchange-commons-java:jar:0.2.15:provided
++- org.ehcache:ehcache:jar:3.8.0:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.22)
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:provided
+|     +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|     |  \- (javax.activation:javax.activation-api:jar:1.2.0:provided - omitted for duplicate)
+|     +- org.glassfish.jaxb:txw2:jar:2.3.1:provided
+|     +- com.sun.istack:istack-commons-runtime:jar:3.0.7:provided
+|     +- org.jvnet.staxex:stax-ex:jar:1.8:provided
+|     +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:provided
+|     \- javax.activation:javax.activation-api:jar:1.2.0:provided
++- com.github.ben-manes.caffeine:caffeine:jar:2.7.0:provided
+|  +- (org.checkerframework:checker-qual:jar:2.6.0:provided - omitted for conflict with 2.8.1)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.3.3:provided - omitted for conflict with 2.3.2)
++- org.apache.commons:commons-dbcp2:jar:2.6.0:provided
+|  +- (org.apache.commons:commons-pool2:jar:2.6.1:provided - omitted for conflict with 2.4.3)
+|  \- commons-logging:commons-logging:jar:1.2:provided
++- commons-dbcp:commons-dbcp:jar:1.4:provided
+|  \- commons-pool:commons-pool:jar:1.5.4:provided
++- com.zaxxer:HikariCP:jar:3.3.1:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.22)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.9:provided
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9:provided
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.9:provided
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided - omitted for conflict with 2.9.9)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided - omitted for conflict with 2.9.9)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.9:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.9:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided - omitted for conflict with 2.9.9)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.9:provided - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:provided - omitted for duplicate)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:provided
+|  \- (com.fasterxml.woodstox:woodstox-core:jar:5.1.0:provided - omitted for conflict with 5.3.0)
++- com.fasterxml.woodstox:woodstox-core:jar:5.3.0:provided
+|  \- (org.codehaus.woodstox:stax2-api:jar:4.2:provided - omitted for conflict with 3.1.4)
++- com.google.code.gson:gson:jar:2.8.5:provided
++- com.alibaba:fastjson:jar:1.2.59:provided
++- org.apache.avro:avro:jar:1.9.0:provided
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.8:provided - omitted for conflict with 2.9.9)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:provided - omitted for conflict with 2.9.9)
+|  +- org.apache.commons:commons-compress:jar:1.18:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.22)
++- com.esotericsoftware:kryo:jar:4.0.2:provided
+|  +- (com.esotericsoftware:reflectasm:jar:1.11.3:provided - omitted for conflict with 1.11.9)
+|  +- com.esotericsoftware:minlog:jar:1.3.0:provided
+|  \- org.objenesis:objenesis:jar:2.5.1:provided
++- org.lz4:lz4-java:jar:1.6.0:provided
++- org.xerial.snappy:snappy-java:jar:1.1.7.3:provided
++- org.apache.commons:commons-csv:jar:1.7:provided
++- org.mongodb:bson:jar:3.10.2:provided
++- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.603:provided
+|  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.603:provided
+|  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.603:provided
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.603:provided - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.603:provided - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.603:provided - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.603:provided - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.603:provided
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:provided - omitted for conflict with 1.2)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.9:provided
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.11:provided
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:provided - omitted for duplicate)
+|  |  |  \- commons-codec:commons-codec:jar:1.11:provided
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.2:provided - omitted for conflict with 2.9.9)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:provided
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:provided - omitted for conflict with 2.9.9)
+|  |  \- (joda-time:joda-time:jar:2.8.1:provided - omitted for conflict with 2.9.5)
+|  \- com.amazonaws:jmespath-java:jar:1.11.603:provided
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.2:provided - omitted for conflict with 2.9.9)
++- org.slf4j:slf4j-api:jar:1.7.26:provided
++- org.apache.logging.log4j:log4j-core:jar:2.12.0:provided
+|  \- org.apache.logging.log4j:log4j-api:jar:2.12.0:provided
++- javax:javaee-api:jar:8.0.1:provided
+|  \- com.sun.mail:javax.mail:jar:1.6.2:provided
+|     \- javax.activation:activation:jar:1.1:provided
++- com.squareup.okhttp3:okhttp:jar:3.14.2:provided
+|  \- com.squareup.okio:okio:jar:1.17.2:provided
++- mysql:mysql-connector-java:jar:5.1.47:provided
++- org.springframework:spring-jdbc:jar:5.1.8.RELEASE:provided
+|  +- org.springframework:spring-beans:jar:5.1.8.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:5.1.8.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.1.8.RELEASE:provided
+|  |  \- org.springframework:spring-jcl:jar:5.1.8.RELEASE:provided
+|  \- org.springframework:spring-tx:jar:5.1.8.RELEASE:provided
+|     +- (org.springframework:spring-beans:jar:5.1.8.RELEASE:provided - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:5.1.8.RELEASE:provided - omitted for duplicate)
++- com.esotericsoftware:reflectasm:jar:1.11.9:provided
++- com.h2database:h2:jar:1.4.197:provided
++- org.hsqldb:hsqldb:jar:2.5.0:provided
++- commons-io:commons-io:jar:2.6:provided
++- org.json:json:jar:20180813:provided
++- android:android:jar:UNKNOWN:compile
++- io.fastjson:boon:jar:0.34:test
++- org.jibx:jibx-run:jar:1.3.1:test
+|  +- joda-time:joda-time:jar:2.9.5:test
+|  \- xpp3:xpp3:jar:1.1.3.4.O:test
++- com.thoughtworks.xstream:xstream:jar:1.4.11.1:test
+|  +- xmlpull:xmlpull:jar:1.1.3.1:test
+|  \- xpp3:xpp3_min:jar:1.1.4c:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+

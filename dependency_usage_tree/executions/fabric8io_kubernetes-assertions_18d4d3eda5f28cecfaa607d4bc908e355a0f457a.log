@@ -1,0 +1,16 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+   2434
+Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+
+[ERROR] Command 'cd /tmp/tmpi0s0hm7m/kubernetes-assertions; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/fabric8io_kubernetes-assertions/18d4d3eda5f28cecfaa607d4bc908e355a0f457a/depClean.log 2>&1' returned non-zero exit status 1.
+io.fabric8:fabric8-project:pom:2.2.56
+
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpi0s0hm7m/kubernetes-assertions; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/fabric8io_kubernetes-assertions/18d4d3eda5f28cecfaa607d4bc908e355a0f457a/depClean.log 2>&1' returned non-zero exit status 1.

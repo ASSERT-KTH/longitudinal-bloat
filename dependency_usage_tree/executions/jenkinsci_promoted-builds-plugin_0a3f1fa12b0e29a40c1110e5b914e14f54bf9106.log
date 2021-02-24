@@ -1,0 +1,26 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+error: failed to write new configuration file /tmp/tmpp7yhpw4i/promoted-builds-plugin/.git/config.lock
+fatal: could not set 'remote.origin.fetch' to '+refs/heads/master:refs/remotes/origin/master'
+/bin/sh: 1: cd: can't cd to None
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/bin/sh: 1: cd: can't cd to None
+OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+   17
+Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 30, in clone
+    subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpp7yhpw4i;git clone -q --depth=1 https://github.com/jenkinsci/promoted-builds-plugin.git;' returned non-zero exit status 128.
+Unable to correctly install jenkinsci/promoted-builds-plugin
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./bloat_report.py", line 38, in <module>
+    json.dump(False, fd, indent=1)
+OSError: [Errno 28] No space left on device

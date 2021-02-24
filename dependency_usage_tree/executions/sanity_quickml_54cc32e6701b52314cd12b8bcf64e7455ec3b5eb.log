@@ -1,0 +1,16 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+quickdt:quickdt:jar:0.0.7.4
++- com.uprizer.sensearray:freetools:jar:1.10:compile
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  \- (com.google.guava:guava:jar:13.0:compile - omitted for conflict with 14.0-rc1)
++- com.google.guava:guava:jar:14.0-rc1:compile
++- org.javatuples:javatuples:jar:1.2:compile
++- org.testng:testng:jar:6.7:test
+|  +- (junit:junit:jar:4.10:compile - scope updated from test; omitted for duplicate)
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
+\- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+   \- junit:junit:jar:4.10:compile
+      \- org.hamcrest:hamcrest-core:jar:1.1:compile
+

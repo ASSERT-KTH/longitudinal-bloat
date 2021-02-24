@@ -1,0 +1,61 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.Samourai-Wallet:whirlpool-client:jar:0.23.18
++- com.github.Samourai-Wallet:whirlpool-protocol:jar:0.23.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- com.github.Samourai-Wallet:extlibj:jar:0.0.11:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- org.json:json:jar:20180130:compile
+|  +- com.github.Samourai-Wallet.bitcoinj:bitcoinj-core:jar:001-whirlpool:compile
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+|  |  +- com.google.protobuf:protobuf-java:jar:2.6.1:compile
+|  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  |  +- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+|  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  +- com.lambdaworks:scrypt:jar:1.4.0:compile
+|  |  +- com.squareup.okhttp:okhttp:jar:2.7.5:compile
+|  |  |  \- com.squareup.okio:okio:jar:1.6.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for conflict with 1.7.25)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  +- com.auth0:java-jwt:jar:3.8.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:runtime - omitted for conflict with 2.9.10.1)
+|  |  \- (commons-codec:commons-codec:jar:1.12:runtime - omitted for conflict with 1.10)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile - omitted for conflict with 2.9.0)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile
+|  \- (net.sourceforge.streamsupport:streamsupport:jar:1.7.0:compile - omitted for duplicate)
++- com.github.Samourai-Wallet:xmanager-protocol:jar:1.0.2:compile
+|  \- org.hibernate.validator:hibernate-validator:jar:6.0.17.Final:compile
+|     +- javax.validation:validation-api:jar:2.0.1.Final:compile
+|     +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|     \- com.fasterxml:classmate:jar:1.3.4:compile
++- org.apache.commons:commons-text:jar:1.2:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- net.sourceforge.streamsupport:streamsupport:jar:1.7.0:compile
++- com.github.zeroleak:throwing-supplier:jar:1.0.2:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- (net.sourceforge.streamsupport:streamsupport:jar:1.7.0:compile - omitted for duplicate)
++- io.reactivex.rxjava2:rxjava:jar:2.2.15:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
++- org.mockito:mockito-core:jar:2.27.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.10:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.junit.platform:junit-platform-launcher:jar:1.4.2:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.4.2:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- org.opentest4j:opentest4j:jar:1.1.1:test
+|     \- org.junit.platform:junit-platform-commons:jar:1.4.2:test
+|        \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+\- org.junit.jupiter:junit-jupiter-engine:jar:5.4.2:test
+   +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+   +- (org.junit.platform:junit-platform-engine:jar:1.4.2:test - omitted for duplicate)
+   \- org.junit.jupiter:junit-jupiter-api:jar:5.4.2:test
+      +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+      +- (org.opentest4j:opentest4j:jar:1.1.1:test - omitted for duplicate)
+      \- (org.junit.platform:junit-platform-commons:jar:1.4.2:test - omitted for duplicate)
+

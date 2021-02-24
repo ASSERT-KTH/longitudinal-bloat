@@ -1,0 +1,44 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+tech.greenfield:irked-vertx:jar:1.13.4
++- io.vertx:vertx-web:jar:3.5.4:compile
+|  +- io.vertx:vertx-auth-common:jar:3.5.4:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.4:compile - omitted for duplicate)
+|  +- io.vertx:vertx-bridge-common:jar:3.5.4:compile
+|  \- io.vertx:vertx-core:jar:3.5.4:compile
+|     +- io.netty:netty-common:jar:4.1.19.Final:compile
+|     +- io.netty:netty-buffer:jar:4.1.19.Final:compile
+|     |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-transport:jar:4.1.19.Final:compile
+|     |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-handler:jar:4.1.19.Final:compile
+|     |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  \- io.netty:netty-codec:jar:4.1.19.Final:compile
+|     |     \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-handler-proxy:jar:4.1.19.Final:compile
+|     |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  +- io.netty:netty-codec-socks:jar:4.1.19.Final:compile
+|     |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-codec-http:jar:4.1.19.Final:compile
+|     |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-codec-http2:jar:4.1.19.Final:compile
+|     |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-handler:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-resolver:jar:4.1.19.Final:compile
+|     |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-resolver-dns:jar:4.1.19.Final:compile
+|     |  +- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  +- io.netty:netty-codec-dns:jar:4.1.19.Final:compile
+|     |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|     +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+|     \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|        \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
++- junit:junit:jar:4.13.1:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- io.vertx:vertx-unit:jar:4.0.0.CR1:test
+   \- (io.vertx:vertx-core:jar:4.0.0.CR1:test - omitted for conflict with 3.5.4)
+

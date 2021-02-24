@@ -1,0 +1,123 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.sourceforge.htmlunit:htmlunit:jar:2.19
++- xalan:xalan:jar:2.7.2:compile
+|  \- xalan:serializer:jar:2.7.2:compile
+|     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.4.01)
++- commons-collections:commons-collections:jar:3.2.1:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
++- org.apache.httpcomponents:httpclient:test-jar:tests:4.5.1:test
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.3:test - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.9:test - omitted for duplicate)
++- org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.10:compile
++- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:compile
++- xerces:xercesImpl:jar:2.11.0:compile
+|  \- xml-apis:xml-apis:jar:1.4.01:compile
++- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:compile
++- net.sourceforge.cssparser:cssparser:jar:0.9.18:compile
+|  \- org.w3c.css:sac:jar:1.3:compile
++- commons-io:commons-io:jar:2.4:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile
+|  +- org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for duplicate)
+|  \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:compile
+|     +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:compile
+|     +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- gsbase:gsbase:jar:2.0.1:test
+|  +- (junit:junit:jar:3.8.1:test - omitted for conflict with 4.12)
+|  \- junitperf:junitperf:jar:1.8:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- org.apache.logging.log4j:log4j-api:jar:2.4.1:test
++- commons-fileupload:commons-fileupload:jar:1.3.1:test
+|  \- (commons-io:commons-io:jar:2.2:test - omitted for conflict with 2.4)
++- org.slf4j:slf4j-api:jar:1.7.12:test
++- org.slf4j:slf4j-log4j12:jar:1.7.12:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- org.jfree:jfreechart:jar:1.0.19:test
+|  \- org.jfree:jcommon:jar:1.0.23:test
++- org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test
+|     \- org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test
+|        \- org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test
+|           +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|           +- (org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test - omitted for duplicate)
+|           \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.2.13.v20150730:test
+|  +- (org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.13.v20150730:test
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  \- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.48.2:test
+|  +- org.seleniumhq.selenium:selenium-support:jar:2.48.2:test
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-ie-driver:jar:2.48.2:test
+|  +- net.java.dev.jna:jna:jar:4.1.0:test
+|  +- net.java.dev.jna:jna-platform:jar:4.1.0:test
+|  |  \- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+|  \- org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test
+|     +- cglib:cglib-nodep:jar:2.1_3:test
+|     +- com.google.code.gson:gson:jar:2.3.1:test
+|     +- org.seleniumhq.selenium:selenium-api:jar:2.48.2:test
+|     |  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|     |  +- (com.google.code.gson:gson:jar:2.3.1:test - omitted for duplicate)
+|     |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for duplicate)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for duplicate)
+|     +- com.google.guava:guava:jar:18.0:test
+|     +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|     +- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+|     \- (net.java.dev.jna:jna-platform:jar:4.1.0:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.48.2:test
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  \- org.apache.commons:commons-exec:jar:1.3:test
++- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.48.2:test
+|  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-edge-driver:jar:2.48.2:test
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  \- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+\- org.tmatesoft.svnkit:svnkit:jar:1.8.11:test
+   +- com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:jar:0.0.7:test
+   |  +- (com.trilead:trilead-ssh2:jar:1.0.0-build217:test - omitted for conflict with 1.0.0-build220)
+   |  \- com.jcraft:jsch.agentproxy.core:jar:0.0.7:test
+   +- com.trilead:trilead-ssh2:jar:1.0.0-build220:test
+   +- (net.java.dev.jna:jna-platform:jar:4.1.0:test - omitted for duplicate)
+   +- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+   +- com.jcraft:jsch.agentproxy.connector-factory:jar:0.0.7:test
+   |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:test - omitted for duplicate)
+   |  +- com.jcraft:jsch.agentproxy.usocket-jna:jar:0.0.7:test
+   |  |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:test - omitted for duplicate)
+   |  |  +- (net.java.dev.jna:jna:jar:3.4.0:test - omitted for conflict with 4.1.0)
+   |  |  \- net.java.dev.jna:platform:jar:3.4.0:test
+   |  +- com.jcraft:jsch.agentproxy.usocket-nc:jar:0.0.7:test
+   |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:test - omitted for duplicate)
+   |  +- com.jcraft:jsch.agentproxy.sshagent:jar:0.0.7:test
+   |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:test - omitted for duplicate)
+   |  \- com.jcraft:jsch.agentproxy.pageant:jar:0.0.7:test
+   |     +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:test - omitted for duplicate)
+   |     +- (net.java.dev.jna:jna:jar:3.4.0:test - omitted for conflict with 4.1.0)
+   |     \- (net.java.dev.jna:platform:jar:3.4.0:test - omitted for duplicate)
+   +- de.regnis.q.sequence:sequence-library:jar:1.0.3:test
+   \- org.tmatesoft.sqljet:sqljet:jar:1.1.10:test
+      \- org.antlr:antlr-runtime:jar:3.4:test
+

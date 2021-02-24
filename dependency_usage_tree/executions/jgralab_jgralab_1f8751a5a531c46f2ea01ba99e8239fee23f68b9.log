@@ -1,0 +1,12 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpbm62m73j/jgralab; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jgralab_jgralab/1f8751a5a531c46f2ea01ba99e8239fee23f68b9/depClean.log 2>&1' returned non-zero exit status 1.
+[ERROR] Command 'cd /tmp/tmpbm62m73j/jgralab; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jgralab_jgralab/1f8751a5a531c46f2ea01ba99e8239fee23f68b9/depClean.log 2>&1' returned non-zero exit status 1.
+de.uni-koblenz.ist:jgralab:jar:5.3.0
+

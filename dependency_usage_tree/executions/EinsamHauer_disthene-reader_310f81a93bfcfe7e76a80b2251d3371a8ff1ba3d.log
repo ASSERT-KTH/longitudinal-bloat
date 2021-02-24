@@ -1,0 +1,67 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.iponweb.disthene.reader:disthene-reader:jar:0.2.1
++- log4j:log4j:jar:1.2.17:compile
++- io.netty:netty-all:jar:4.0.24.Final:compile
++- commons-cli:commons-cli:jar:1.2:compile
++- org.yaml:snakeyaml:jar:1.15:compile
++- com.google.code.gson:gson:jar:2.3.1:compile
++- com.datastax.cassandra:cassandra-driver-core:jar:2.1.6:compile
+|  +- io.netty:netty-handler:jar:4.0.27.Final:compile
+|  |  +- io.netty:netty-buffer:jar:4.0.27.Final:compile
+|  |  |  \- io.netty:netty-common:jar:4.0.27.Final:compile
+|  |  +- io.netty:netty-transport:jar:4.0.27.Final:compile
+|  |  |  \- (io.netty:netty-buffer:jar:4.0.27.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.0.27.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.0.27.Final:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for conflict with 18.0)
+|  \- com.codahale.metrics:metrics-core:jar:3.0.2:compile
+|     \- org.slf4j:slf4j-api:jar:1.7.5:compile
++- com.google.guava:guava:jar:18.0:compile
++- joda-time:joda-time:jar:2.4:compile
++- org.elasticsearch:elasticsearch:jar:1.3.4:compile
+|  +- org.apache.lucene:lucene-core:jar:4.9.1:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-codecs:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queries:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-memory:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-highlighter:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-memory:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-queries:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-sandbox:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-sandbox:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-suggest:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-analyzers-common:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-misc:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-misc:jar:4.9.1:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-join:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-grouping:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-grouping:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-spatial:jar:4.9.1:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-queries:jar:4.9.1:compile - omitted for duplicate)
+|  |  \- com.spatial4j:spatial4j:jar:0.4.1:compile
+|  +- org.antlr:antlr-runtime:jar:3.5:compile
+|  +- org.ow2.asm:asm:jar:4.1:compile
+|  \- org.ow2.asm:asm-commons:jar:4.1:compile
++- net.jpountz.lz4:lz4:jar:1.2.0:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- org.antlr:antlr4-runtime:jar:4.0:compile
+|  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
+\- com.rubiconproject.oss:jchronic:jar:0.2.6:compile
+   \- junit:junit:jar:4.8.1:compile
+

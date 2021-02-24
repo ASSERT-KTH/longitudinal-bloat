@@ -1,0 +1,12 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmp73k98ktc/jgraphx; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jgraph_jgraphx/d270012de0a498991a433e6a8e75a6f51c6b6bd7/depClean.log 2>&1' returned non-zero exit status 1.
+[ERROR] Command 'cd /tmp/tmp73k98ktc/jgraphx; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/jgraph_jgraphx/d270012de0a498991a433e6a8e75a6f51c6b6bd7/depClean.log 2>&1' returned non-zero exit status 1.
+com.mxgraph:jgraphx:jar:3.7.6
+

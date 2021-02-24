@@ -1,0 +1,57 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.swrltab:swrltab-plugin:bundle:1.0
++- net.sourceforge.owlapi:owlapi-distribution:jar:3.5.0:compile
+|  +- net.sourceforge.owlapi:owlapi-apibinding:jar:3.5.0:compile
+|  |  +- (net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.owlapi:owlapi-impl:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.owlapi:owlapi-parsers:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.owlapi:owlapi-oboformat:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.owlapi:owlapi-tools:jar:3.5.0:compile - omitted for duplicate)
+|  |  \- org.apache.felix:org.osgi.core:jar:1.4.0:compile
+|  +- net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile
+|  +- net.sourceforge.owlapi:owlapi-tools:jar:3.5.0:compile
+|  |  \- (net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile - omitted for duplicate)
+|  +- net.sourceforge.owlapi:owlapi-impl:jar:3.5.0:compile
+|  |  \- (net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile - omitted for duplicate)
+|  +- net.sourceforge.owlapi:owlapi-parsers:jar:3.5.0:compile
+|  |  \- (net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile - omitted for duplicate)
+|  +- net.sourceforge.owlapi:owlapi-oboformat:jar:3.5.0:compile
+|  |  +- (net.sourceforge.owlapi:owlapi-api:jar:3.5.0:compile - omitted for duplicate)
+|  |  \- (net.sourceforge.owlapi:owlapi-parsers:jar:3.5.0:compile - omitted for duplicate)
+|  \- net.sourceforge.owlapi:owlapi-contract:jar:3.5.0:compile
+|     \- (net.sourceforge.owlapi:owlapi-apibinding:jar:3.5.0:compile - omitted for duplicate)
+\- edu.stanford.protege:org.protege.editor.owl:jar:4.3.0:compile
+   +- org.apache.felix:org.apache.felix.main:jar:4.0.3:compile
+   |  \- org.apache.felix:org.apache.felix.framework:jar:4.0.3:compile
+   +- org.eclipse.equinox:org.eclipse.equinox.registry:jar:3.5.0.v20100503:compile
+   |  \- org.eclipse.core:org.eclipse.core.jobs:jar:3.5.0.v20100515:compile
+   |     \- org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.0.v20100503:compile
+   |        \- org.eclipse.osgi:org.eclipse.osgi:jar:3.6.0.v20100517:compile
+   +- edu.stanford.protege:org.protege.common:jar:4.3.0:compile
+   |  +- (org.apache.felix:org.apache.felix.main:jar:4.0.3:compile - omitted for duplicate)
+   |  +- log4j:log4j:jar:1.2.16:compile
+   |  \- com.jgoodies:looks:jar:2.2.2:compile
+   +- edu.stanford.protege:org.protege.editor.core.application:jar:4.3.0:compile
+   |  +- (org.apache.felix:org.apache.felix.main:jar:4.0.3:compile - omitted for duplicate)
+   |  +- org.eclipse.equinox:registry:jar:3.3.0-v20070522:compile
+   |  |  \- org.eclipse.equinox:common:jar:3.6.200-v20130402-1505:compile
+   |  +- (edu.stanford.protege:org.protege.common:jar:4.3.0:compile - omitted for duplicate)
+   |  +- com.googlecode.mdock:mdock:jar:1.1:compile
+   |  \- (org.testng:testng:jar:6.8:compile - omitted for duplicate)
+   +- edu.stanford.protege:protege-owlapi-extensions:jar:3.2.4:compile
+   |  +- (net.sourceforge.owlapi:owlapi-distribution:jar:3.4.3:compile - omitted for conflict with 3.5.0)
+   |  +- net.sourceforge.owlapi:jfact:jar:1.0.0:compile
+   |  |  \- (net.sourceforge.owlapi:owlapi-distribution:jar:3.4.3:compile - omitted for conflict with 3.5.0)
+   |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+   +- edu.stanford.protege:org.protege.xmlcatalog:jar:1.0.3:compile
+   |  +- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+   |  +- xml-resolver:xml-resolver:jar:1.2:compile
+   |  \- (net.sourceforge.owlapi:owlapi-distribution:jar:3.4.3:compile - omitted for conflict with 3.5.0)
+   +- (net.sourceforge.owlapi:owlapi-distribution:jar:3.4.3:compile - omitted for conflict with 3.5.0)
+   \- org.testng:testng:jar:6.8:compile
+      +- junit:junit:jar:4.10:compile
+      |  \- org.hamcrest:hamcrest-core:jar:1.1:compile
+      +- org.beanshell:bsh:jar:2.0b4:compile
+      +- com.beust:jcommander:jar:1.27:compile
+      \- org.yaml:snakeyaml:jar:1.6:compile
+

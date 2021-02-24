@@ -1,0 +1,21 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.assertj:assertj-core:bundle:3.10.0
++- junit:junit:jar:4.12:provided
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:provided - omitted for duplicate)
++- org.opentest4j:opentest4j:jar:1.0.0:provided
++- org.hamcrest:hamcrest-core:jar:1.3:provided
++- net.bytebuddy:byte-buddy:jar:1.8.11:compile
++- org.mockito:mockito-core:jar:2.11.0:test
+|  +- (net.bytebuddy:byte-buddy:jar:1.7.4:test - omitted for conflict with 1.8.11)
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- com.github.marschall:memoryfilesystem:jar:1.1.0:test
++- com.tngtech.junit.dataprovider:junit4-dataprovider:jar:2.3:test
+|  \- com.tngtech.junit.dataprovider:junit-dataprovider-core:jar:2.3:test
+\- com.google.guava:guava:jar:24.0-jre:test
+   +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+   +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+   +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+   +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+   \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+

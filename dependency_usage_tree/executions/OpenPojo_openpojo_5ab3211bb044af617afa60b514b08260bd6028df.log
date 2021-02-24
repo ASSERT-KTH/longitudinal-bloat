@@ -1,0 +1,11 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.googlecode.openpojo:openpojo:jar:0.0.3
++- junit:junit:jar:4.8.1:compile
++- log4j:log4j:jar:1.2.16:compile
++- org.slf4j:slf4j-api:jar:1.5.0:compile
++- org.testng:testng:jar:5.12.1:compile
+|  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.8.1)
+\- org.slf4j:slf4j-log4j12:jar:1.5.0:runtime
+   +- (org.slf4j:slf4j-api:jar:1.5.0:runtime - omitted for duplicate)
+   \- (log4j:log4j:jar:1.2.13:runtime - omitted for conflict with 1.2.16)
+

@@ -1,0 +1,42 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.ebean:ebean-test:jar:12.3.8
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- io.ebean:ebean:jar:12.3.8:provided
+|  +- io.avaje:config:jar:1.2:provided
+|  |  +- org.yaml:snakeyaml:jar:1.25:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- io.ebean:persistence-api:jar:2.2.4:provided
+|  +- io.ebean:ebean-annotation:jar:6.13:provided
+|  +- io.ebean:ebean-types:jar:2.1:provided
+|  +- io.ebean:ebean-datasource:jar:5.1:provided
+|  +- io.ebean:ebean-migration:jar:12.1.4:provided
+|  |  \- io.avaje:classpath-scanner:jar:4.2:provided
+|  |     \- io.avaje:classpath-scanner-api:jar:4.1:provided
+|  +- org.antlr:antlr4-runtime:jar:4.7.2:provided
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.0:provided
++- io.ebean.test:ebean-test-docker:jar:3.1.5:compile
++- org.assertj:assertj-core:jar:3.14.0:compile
++- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:compile
+|  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile
+|  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|  +- org.glassfish.jaxb:txw2:jar:2.3.2:compile
+|  +- com.sun.istack:istack-commons-runtime:jar:3.0.8:compile
+|  |  \- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|  +- org.jvnet.staxex:stax-ex:jar:1.8.1:compile
+|  |  +- (jakarta.activation:jakarta.activation-api:jar:1.2.1:compile - omitted for duplicate)
+|  |  \- (jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile - omitted for duplicate)
+|  +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:compile
+|  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
++- com.h2database:h2:jar:1.4.200:compile
++- org.postgresql:postgresql:jar:42.2.12:test
++- com.microsoft.sqlserver:mssql-jdbc:jar:6.2.2.jre8:test
++- mysql:mysql-connector-java:jar:8.0.16:test
+|  \- com.google.protobuf:protobuf-java:jar:3.6.1:test
++- org.mariadb.jdbc:mariadb-java-client:jar:2.6.0:test
++- com.sap.cloud.db.jdbc:ngdbc:jar:2.3.48:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+

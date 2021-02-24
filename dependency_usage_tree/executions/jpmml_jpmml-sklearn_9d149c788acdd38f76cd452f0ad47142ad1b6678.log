@@ -1,0 +1,33 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jpmml:jpmml-sklearn:jar:1.3.3
++- com.beust:jcommander:jar:1.48:compile
++- org.jpmml:jpmml-converter:jar:1.2.3:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  \- org.jpmml:pmml-model-metro:jar:1.3.6:compile
+|     +- org.jpmml:pmml-model:jar:1.3.6:compile
+|     |  +- org.jpmml:pmml-agent:jar:1.3.6:compile
+|     |  \- org.jpmml:pmml-schema:jar:1.3.6:compile
+|     \- org.glassfish.jaxb:jaxb-runtime:jar:2.2.11:compile
+|        \- org.glassfish.jaxb:jaxb-core:jar:2.2.11:compile
+|           \- com.sun.istack:istack-commons-runtime:jar:2.21:compile
++- org.jpmml:jpmml-lightgbm:jar:1.0.7:compile
+|  +- (com.beust:jcommander:jar:1.48:compile - omitted for duplicate)
+|  \- (org.jpmml:jpmml-converter:jar:1.2.3:compile - omitted for duplicate)
++- org.jpmml:jpmml-xgboost:jar:1.1.7:compile
+|  +- (com.beust:jcommander:jar:1.48:compile - omitted for duplicate)
+|  \- (org.jpmml:jpmml-converter:jar:1.2.3:compile - omitted for duplicate)
++- net.razorvine:pyrolite:jar:4.19:compile
+|  \- net.razorvine:serpent:jar:1.18:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.jpmml:pmml-evaluator:jar:1.3.5:test
+|  +- (org.jpmml:pmml-model:jar:1.3.6:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.9.7:test
+|  \- org.apache.commons:commons-math3:jar:3.6.1:test
+\- org.jpmml:pmml-evaluator-test:jar:1.3.5:test
+   \- (org.jpmml:pmml-evaluator:jar:1.3.5:test - omitted for duplicate)
+

@@ -1,0 +1,29 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.masterthought:cucumber-sandwich:jar:4.6.0
++- com.beust:jcommander:jar:1.72:compile
+\- net.masterthought:cucumber-reporting:jar:4.6.0:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.8:compile
+   +- org.apache.velocity:velocity:jar:1.7:compile
+   |  +- commons-collections:commons-collections:jar:3.2.1:compile
+   |  \- commons-lang:commons-lang:jar:2.4:compile
+   +- velocity-tools:velocity-tools:jar:1.4:compile
+   +- joda-time:joda-time:jar:2.10.1:compile
+   +- org.apache.commons:commons-lang3:jar:3.8.1:compile
+   +- commons-io:commons-io:jar:2.6:compile
+   +- org.codehaus.plexus:plexus-utils:jar:3.1.1:compile
+   +- org.jsoup:jsoup:jar:1.11.3:compile
+   +- com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:jar:20190325.1:compile
+   |  \- com.google.guava:guava:jar:27.1-jre:compile
+   |     +- com.google.guava:failureaccess:jar:1.0.1:compile
+   |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+   |     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+   |     +- org.checkerframework:checker-qual:jar:2.5.2:compile
+   |     +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+   |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+   |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+   \- commons-configuration:commons-configuration:jar:1.10:compile
+      +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.4)
+      \- commons-logging:commons-logging:jar:1.1.1:compile
+

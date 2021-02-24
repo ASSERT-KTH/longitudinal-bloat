@@ -1,0 +1,23 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+br.com.tecsinapse:tecsinapse-data-io:jar:3.0.3
++- com.google.guava:guava:jar:19.0:compile
++- org.apache.poi:poi:jar:3.14:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- org.apache.poi:poi-ooxml:jar:3.14:compile
+|  +- (org.apache.poi:poi:jar:3.14:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.14:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  \- com.github.virtuald:curvesapi:jar:1.03:compile
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.projectlombok:lombok:jar:1.16.18:provided
++- ch.qos.logback:logback-classic:jar:1.0.13:compile
+|  +- ch.qos.logback:logback-core:jar:1.0.13:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.5:compile
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test
+

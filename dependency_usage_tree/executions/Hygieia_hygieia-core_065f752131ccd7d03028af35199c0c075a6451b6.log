@@ -1,0 +1,122 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.capitalone.dashboard:core:jar:3.0.5
++- org.springframework.boot:spring-boot:jar:1.3.0.RELEASE:compile
+|  +- org.springframework:spring-core:jar:4.2.5.RELEASE:compile (version managed from 4.2.3.RELEASE)
+|  \- org.springframework:spring-context:jar:4.2.5.RELEASE:compile (version managed from 4.2.3.RELEASE)
+|     +- org.springframework:spring-aop:jar:4.2.5.RELEASE:compile
+|     |  +- aopalliance:aopalliance:jar:1.0:compile
+|     |  +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|     |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-expression:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.3:test (scope not updated to compile)
+|  +- ch.qos.logback:logback-core:jar:1.1.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; scope updated from test; omitted for duplicate)
++- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.springframework:spring-test:jar:4.2.5.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
++- org.springframework.data:spring-data-mongodb:jar:1.8.0.RELEASE:compile
+|  +- org.springframework:spring-tx:jar:4.2.5.RELEASE:compile (version managed from 4.1.7.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.2.5.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:4.2.5.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  +- (org.springframework.data:spring-data-commons:jar:1.11.0.RELEASE:compile - omitted for duplicate)
+|  +- org.mongodb:mongo-java-driver:jar:3.0.2:compile (version managed from 2.13.0)
+|  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:compile - version managed from 1.7.12; scope updated from runtime; omitted for duplicate)
++- org.springframework.cloud:spring-cloud-starter-config:jar:1.3.1.RELEASE:compile
+|  +- org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot-starter:jar:1.3.0.RELEASE:compile (version managed from 1.5.3.RELEASE)
+|  |  |  +- (org.springframework.boot:spring-boot:jar:1.3.0.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.3.0.RELEASE:compile - version managed from 1.5.3.RELEASE; omitted for duplicate)
+|  |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.3.0.RELEASE:compile
+|  |  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.3:compile - omitted for duplicate)
+|  |  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.13:compile
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.13:compile
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.13:compile
+|  |  |  |     \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|  |  |  \- org.yaml:snakeyaml:jar:1.16:runtime
+|  |  +- org.springframework.cloud:spring-cloud-context:jar:1.2.2.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-crypto:jar:4.0.3.RELEASE:compile (version managed from 4.2.2.RELEASE)
+|  |  +- org.springframework.cloud:spring-cloud-commons:jar:1.2.2.RELEASE:compile
+|  |  |  \- (org.springframework.security:spring-security-crypto:jar:4.0.3.RELEASE:compile - version managed from 4.2.2.RELEASE; omitted for duplicate)
+|  |  \- org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE:compile
+|  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+|  +- org.springframework.cloud:spring-cloud-config-client:jar:1.3.1.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.3.0.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:1.3.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.cloud:spring-cloud-commons:jar:1.2.2.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.cloud:spring-cloud-context:jar:1.2.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-web:jar:4.2.5.RELEASE:compile (version managed from 4.3.8.RELEASE)
+|  |  |  +- (org.springframework:spring-aop:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.2.3.RELEASE; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile (version managed from 2.8.0)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.0:compile - version managed from 2.8.8; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.5.0:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - version managed from 2.8.0; omitted for duplicate)
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile
++- com.mysema.querydsl:querydsl-jpa:jar:3.6.0:compile
+|  +- com.mysema.querydsl:querydsl-core:jar:3.6.0:compile
+|  |  +- com.google.guava:guava:jar:18.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+|  |  \- com.infradna.tool:bridge-method-annotation:jar:1.13:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.1; omitted for duplicate)
++- com.mysema.querydsl:querydsl-apt:jar:3.6.0:compile
+|  \- com.mysema.querydsl:querydsl-codegen:jar:3.6.0:compile
+|     +- (com.mysema.querydsl:querydsl-core:jar:3.6.0:compile - omitted for duplicate)
+|     +- com.mysema.codegen:codegen:jar:0.6.5:compile
+|     |  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|     |  \- org.eclipse.jdt.core.compiler:ecj:jar:4.3.1:compile
+|     \- javax.inject:javax.inject:jar:1:compile
++- com.mysema.querydsl:querydsl-mongodb:jar:3.6.0:compile
+|  +- (org.mongodb:mongo-java-driver:jar:3.0.2:compile - version managed from 2.10.0; omitted for duplicate)
+|  +- (com.mysema.querydsl:querydsl-core:jar:3.6.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.1; omitted for duplicate)
++- org.springframework.data:spring-data-commons:jar:1.11.0.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - version managed from 4.1.7.RELEASE; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.12; omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.13:compile - version managed from 1.7.12; scope updated from runtime; omitted for duplicate)
++- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  \- (junit:junit:jar:4.11:compile - version managed from 4.10; omitted for duplicate)
++- com.github.ulisesbocchio:jasypt-spring-boot-starter:jar:1.9:compile
+|  \- com.github.ulisesbocchio:jasypt-spring-boot:jar:1.9:compile
+|     \- org.jasypt:jasypt:jar:1.9.2:compile
++- junit:junit:jar:4.11:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.hibernate:hibernate-validator:jar:5.2.2.Final:compile
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile (version managed from 3.2.1.Final)
+|  \- com.fasterxml:classmate:jar:1.1.0:compile
++- javax.el:javax.el-api:jar:2.2.4:compile
++- org.joda:joda-convert:jar:1.8.1:provided
++- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.1:compile
++- com.google.code.gson:gson:jar:2.7:compile
++- com.github.fakemongo:fongo:jar:2.0.3:compile
+|  +- rhino:js:jar:1.7R2:compile
+|  +- com.vividsolutions:jts:jar:1.13:compile
+|  \- de.grundid.opendatalab:geojson-jackson:jar:1.2:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile - version managed from 2.2.2; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.0:compile - version managed from 2.2.2; omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:compile
++- joda-time:joda-time:jar:2.7:compile
+\- commons-io:commons-io:jar:2.1:compile
+

@@ -1,0 +1,220 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.springframework.data:spring-data-solr:jar:4.2.0.RC2
++- org.springframework:spring-context:jar:5.2.6.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.2.6.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:5.2.6.RELEASE:compile
+|  +- org.springframework:spring-core:jar:5.2.6.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.2.6.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:5.2.6.RELEASE:compile
++- org.springframework:spring-tx:jar:5.2.6.RELEASE:compile
++- org.springframework.data:spring-data-commons:jar:2.3.0.RC2:compile
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- joda-time:joda-time:jar:2.10.6:compile (optional) 
++- org.apache.solr:solr-solrj:jar:8.5.1:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- io.netty:netty-buffer:jar:4.1.29.Final:compile
+|  +- io.netty:netty-codec:jar:4.1.29.Final:compile
+|  +- io.netty:netty-common:jar:4.1.29.Final:compile
+|  +- io.netty:netty-handler:jar:4.1.29.Final:compile
+|  +- io.netty:netty-resolver:jar:4.1.29.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.29.Final:compile
+|  +- io.netty:netty-transport-native-epoll:jar:4.1.29.Final:compile
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.29.Final:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.10:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.12:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.10:compile
+|  +- org.apache.zookeeper:zookeeper:jar:3.5.5:compile
+|  +- org.apache.zookeeper:zookeeper-jute:jar:3.5.5:compile
+|  +- org.eclipse.jetty:jetty-alpn-client:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-alpn-java-client:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-client:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-io:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty.http2:http2-client:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty.http2:http2-common:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty.http2:http2-hpack:jar:9.4.24.v20191120:compile
+|  \- org.eclipse.jetty.http2:http2-http-client-transport:jar:9.4.24.v20191120:compile
++- org.apache.solr:solr-core:jar:8.5.1:compile (optional) 
+|  +- org.apache.lucene:lucene-analyzers-common:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-analyzers-kuromoji:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-analyzers-nori:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-analyzers-phonetic:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-backward-codecs:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-classification:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-codecs:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-core:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-expressions:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-grouping:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-highlighter:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-join:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-memory:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-misc:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-queries:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-queryparser:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-sandbox:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-spatial-extras:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-spatial3d:jar:8.5.1:compile
+|  +- org.apache.lucene:lucene-suggest:jar:8.5.1:compile
+|  +- com.carrotsearch:hppc:jar:0.8.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.11.0:compile
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.8.0:compile
+|  +- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
+|  +- com.google.guava:guava:jar:25.1-jre:compile
+|  +- com.google.protobuf:protobuf-java:jar:3.11.0:compile
+|  +- com.google.re2j:re2j:jar:1.2:compile
+|  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  +- com.lmax:disruptor:jar:3.4.2:compile
+|  +- com.tdunning:t-digest:jar:3.1:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- commons-codec:commons-codec:jar:1.13:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  +- io.dropwizard.metrics:metrics-core:jar:4.1.2:compile
+|  +- io.dropwizard.metrics:metrics-graphite:jar:4.1.2:compile
+|  +- io.dropwizard.metrics:metrics-jetty9:jar:4.1.2:compile
+|  +- io.dropwizard.metrics:metrics-jmx:jar:4.1.2:compile
+|  +- io.dropwizard.metrics:metrics-jvm:jar:4.1.2:compile
+|  +- io.opentracing:opentracing-api:jar:0.33.0:compile
+|  +- io.opentracing:opentracing-noop:jar:0.33.0:compile
+|  +- io.opentracing:opentracing-util:jar:0.33.0:compile
+|  +- io.sgr:s2-geometry-library-java:jar:1.0.0:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- net.hydromatic:eigenbase-properties:jar:1.1.5:compile
+|  +- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+|  +- org.apache.calcite:calcite-core:jar:1.18.0:compile
+|  +- org.apache.calcite:calcite-linq4j:jar:1.18.0:compile
+|  +- org.apache.calcite.avatica:avatica-core:jar:1.13.0:compile
+|  +- org.apache.commons:commons-configuration2:jar:2.1.1:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- org.apache.commons:commons-text:jar:1.6:compile
+|  +- org.apache.curator:curator-client:jar:2.13.0:compile
+|  +- org.apache.curator:curator-framework:jar:2.13.0:compile
+|  +- org.apache.curator:curator-recipes:jar:2.13.0:compile
+|  +- org.apache.hadoop:hadoop-annotations:jar:3.2.0:compile
+|  +- org.apache.hadoop:hadoop-auth:jar:3.2.0:compile
+|  +- org.apache.hadoop:hadoop-common:jar:3.2.0:compile
+|  +- org.apache.hadoop:hadoop-hdfs-client:jar:3.2.0:compile
+|  +- org.apache.htrace:htrace-core4:jar:4.1.0-incubating:compile
+|  +- org.apache.kerby:kerb-core:jar:1.0.1:compile
+|  +- org.apache.kerby:kerb-util:jar:1.0.1:compile
+|  +- org.apache.kerby:kerby-asn1:jar:1.0.1:compile
+|  +- org.apache.kerby:kerby-pkix:jar:1.0.1:compile
+|  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.11.2:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.11.2:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.11.2:compile
+|  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2:compile
+|  +- org.apache.logging.log4j:log4j-web:jar:2.11.2:compile
+|  +- org.bitbucket.b_c:jose4j:jar:0.6.5:compile
+|  +- org.codehaus.janino:commons-compiler:jar:3.0.9:compile
+|  +- org.codehaus.janino:janino:jar:3.0.9:compile
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  +- org.eclipse.jetty:jetty-alpn-java-server:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-alpn-server:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-deploy:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-jmx:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-rewrite:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-security:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.24.v20191120:compile
+|  +- org.eclipse.jetty.http2:http2-server:jar:9.4.24.v20191120:compile
+|  +- org.locationtech.spatial4j:spatial4j:jar:0.7:compile
+|  +- org.ow2.asm:asm:jar:7.2:compile
+|  +- org.ow2.asm:asm-commons:jar:7.2:compile
+|  +- org.restlet.jee:org.restlet:jar:2.4.0:compile
+|  +- org.restlet.jee:org.restlet.ext.servlet:jar:2.4.0:compile
+|  \- org.rrd4j:rrd4j:jar:3.5:compile
++- org.apache.solr:solr-langid:jar:8.5.1:test
+|  +- com.adobe.xmp:xmpcore:jar:5.1.3:test
+|  +- com.cybozu.labs:langdetect:jar:1.1-20120112:test
+|  +- com.drewnoakes:metadata-extractor:jar:2.11.0:test
+|  +- com.epam:parso:jar:2.0.11:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile
+|  +- com.github.virtuald:curvesapi:jar:1.06:test
+|  +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:test
+|  +- com.googlecode.mp4parser:isoparser:jar:1.1.22:test
+|  +- com.healthmarketscience.jackcess:jackcess:jar:3.0.1:test
+|  +- com.healthmarketscience.jackcess:jackcess-encrypt:jar:3.0.0:test
+|  +- com.ibm.icu:icu4j:jar:62.1:test
+|  +- com.pff:java-libpst:jar:0.8.1:test
+|  +- com.rometools:rome:jar:1.12.2:test
+|  +- com.rometools:rome-utils:jar:1.12.2:test
+|  +- de.l3s.boilerpipe:boilerpipe:jar:1.1.0:test
+|  +- net.arnx:jsonic:jar:1.2.7:test
+|  +- org.apache.commons:commons-collections4:jar:4.2:test
+|  +- org.apache.commons:commons-compress:jar:1.19:test
+|  +- org.apache.commons:commons-csv:jar:1.7:test
+|  +- org.apache.james:apache-mime4j-core:jar:0.8.3:test
+|  +- org.apache.james:apache-mime4j-dom:jar:0.8.3:test
+|  +- org.apache.opennlp:opennlp-tools:jar:1.9.1:test
+|  +- org.apache.pdfbox:fontbox:jar:2.0.17:test
+|  +- org.apache.pdfbox:jempbox:jar:1.8.16:test
+|  +- org.apache.pdfbox:pdfbox:jar:2.0.17:test
+|  +- org.apache.pdfbox:pdfbox-tools:jar:2.0.17:test
+|  +- org.apache.poi:poi:jar:4.1.1:test
+|  +- org.apache.poi:poi-ooxml:jar:4.1.1:test
+|  +- org.apache.poi:poi-ooxml-schemas:jar:4.1.1:test
+|  +- org.apache.poi:poi-scratchpad:jar:4.1.1:test
+|  +- org.apache.tika:tika-core:jar:1.23:test
+|  +- org.apache.tika:tika-java7:jar:1.23:test
+|  +- org.apache.tika:tika-parsers:jar:1.23:test
+|  +- org.apache.tika:tika-xmp:jar:1.23:test
+|  +- org.apache.xmlbeans:xmlbeans:jar:3.1.0:test
+|  +- org.aspectj:aspectjrt:jar:1.8.0:test
+|  +- org.bouncycastle:bcmail-jdk15on:jar:1.64:test
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.64:test
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.64:test
+|  +- org.brotli:dec:jar:0.1.2:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- org.gagravarr:vorbis-java-core:jar:0.8:test
+|  +- org.gagravarr:vorbis-java-tika:jar:0.8:test
+|  +- org.jdom:jdom2:jar:2.0.6:test
+|  +- org.tallison:jmatio:jar:1.5:test
+|  +- org.tukaani:xz:jar:1.8:test
+|  +- xerces:xercesImpl:jar:2.12.0:test
+|  \- xml-apis:xml-apis:jar:1.4.01:test
++- org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:test
++- javax.interceptor:javax.interceptor-api:jar:1.2.1:test
++- javax.enterprise:cdi-api:jar:1.0:provided (optional) 
+|  +- org.jboss.interceptor:jboss-interceptor-api:jar:1.1:provided (optional) 
+|  +- javax.annotation:jsr250-api:jar:1.0:provided (optional) 
+|  \- javax.inject:javax.inject:jar:1:provided (optional) 
++- javax.annotation:javax.annotation-api:jar:1.3.2:test
++- org.apache.openwebbeans:openwebbeans-se:jar:2.0.16:test
+|  \- org.apache.openwebbeans:openwebbeans-impl:jar:2.0.16:test
+|     +- org.apache.xbean:xbean-finder-shaded:jar:4.16:test
+|     +- org.apache.xbean:xbean-asm7-shaded:jar:4.16:test
+|     \- org.apache.openwebbeans:openwebbeans-spi:jar:2.0.16:test
++- org.springframework:spring-jdbc:jar:5.2.6.RELEASE:test
++- com.h2database:h2:jar:1.3.168:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile
++- org.junit.jupiter:junit-jupiter:jar:5.6.1:test
+|  +- org.junit.jupiter:junit-jupiter-api:jar:5.6.1:test
+|  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.6.1:test
+|  +- org.junit.jupiter:junit-jupiter-params:jar:5.6.1:test
+|  \- org.junit.jupiter:junit-jupiter-engine:jar:5.6.1:test
++- org.junit.vintage:junit-vintage-engine:jar:5.6.1:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.6.1:test
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:3.3.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.10.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.10.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.mockito:mockito-junit-jupiter:jar:3.3.3:test
++- org.assertj:assertj-core:jar:3.15.0:test
++- org.springframework:spring-test:jar:5.2.6.RELEASE:test
++- org.slf4j:slf4j-api:jar:1.7.26:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  \- ch.qos.logback:logback-core:jar:1.2.3:test
+\- org.projectlombok:lombok:jar:1.18.12:compile (optional) 
+

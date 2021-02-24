@@ -1,0 +1,32 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+cc.moecraft:PicqBotX:jar:1.0.4.5
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.websocket:javax.websocket-api:jar:1.1:provided
++- com.xiaoleilu:hutool-all:jar:3.2.1:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 25.0-jre)
+|  \- org.javassist:javassist:jar:3.21.0-GA:compile
++- com.google.code.gson:gson:jar:2.8.5:compile
++- com.github.hykilpikonna:hylogger:jar:v1.5.1:compile
+|  +- com.github.hykilpikonna:HyConfigLib:jar:-1eb4f7896a-1:compile
+|  |  +- org.yaml:snakeyaml:jar:1.21:compile
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  \- (org.projectlombok:lombok:jar:1.14.8:compile - omitted for conflict with 1.16.18)
++- com.github.hydevelop:HyCommonUtils:jar:1.1.0.3:compile
+|  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.0:compile - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.18:provided (scope not updated to compile)
++- com.google.guava:guava:jar:25.0-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.commons:commons-lang3:jar:3.0:compile
+\- org.junit.jupiter:junit-jupiter-api:jar:5.0.3:test
+   +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+   +- org.opentest4j:opentest4j:jar:1.0.0:test
+   \- org.junit.platform:junit-platform-commons:jar:1.0.3:test
+      \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+

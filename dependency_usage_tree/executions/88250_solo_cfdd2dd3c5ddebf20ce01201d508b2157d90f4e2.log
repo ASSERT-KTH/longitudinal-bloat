@@ -1,0 +1,212 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.b3log:solo:war:3.6.6
++- org.b3log:latke-core:jar:2.5.8:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.28:compile
+|  +- org.freemarker:freemarker:jar:2.3.29:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- (commons-codec:commons-codec:jar:1.12:compile - omitted for conflict with 1.10)
+|  +- org.javassist:javassist:jar:3.26.0-GA:compile
+|  +- com.h2database:h2:jar:1.4.199:compile
+|  +- redis.clients:jedis:jar:3.1.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.28)
+|  |  \- org.apache.commons:commons-pool2:jar:2.6.2:compile
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.8.0:compile
+|  |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+|  |  \- com.google.errorprone:error_prone_annotations:jar:2.3.3:compile
+|  \- com.zaxxer:HikariCP:jar:3.4.1:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.28)
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- mysql:mysql-connector-java:jar:8.0.18:compile
+|  \- com.google.protobuf:protobuf-java:jar:3.6.1:compile
++- org.b3log:latke-repository-mysql:jar:2.5.8:compile
+|  \- (org.b3log:latke-core:jar:2.5.8:compile - omitted for duplicate)
++- org.b3log:latke-repository-h2:jar:2.5.8:compile
+|  \- (org.b3log:latke-core:jar:2.5.8:compile - omitted for duplicate)
++- org.testng:testng:jar:6.1.1:test
+|  +- junit:junit:jar:3.8.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- (org.yaml:snakeyaml:jar:1.6:test - omitted for conflict with 1.18)
++- org.jsoup:jsoup:jar:1.12.1:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.28:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.28:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.vladsch.flexmark:flexmark-all:jar:0.50.40:compile
+|  +- com.vladsch.flexmark:flexmark:jar:0.50.40:compile
+|  |  \- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-admonition:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-aside:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-attributes:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-autolink:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- org.nibor.autolink:autolink:jar:0.6.0:compile
+|  +- com.vladsch.flexmark:flexmark-ext-definition:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-emoji:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-enumerated-reference:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-ext-attributes:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tables:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gitlab:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-media-tags:jar:0.50.40:compile
+|  |  \- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-macros:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gitlab:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-ins:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-superscript:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-tables:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-toc:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-typographic:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-youtube-embedded:jar:0.50.40:compile
+|  |  \- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-formatter:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-html-parser:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (org.jsoup:jsoup:jar:1.11.3:compile - omitted for conflict with 1.12.1)
+|  +- com.vladsch.flexmark:flexmark-html2md-converter:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (org.jsoup:jsoup:jar:1.11.3:compile - omitted for conflict with 1.12.1)
+|  +- com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.50.40:compile
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-aside:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-definition:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-toc:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-typographic:jar:0.50.40:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.50.40:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile - omitted for duplicate)
+|  \- com.vladsch.flexmark:flexmark-util:jar:0.50.40:compile
++- com.vdurmont:emoji-java:jar:5.1.0:compile
++- commons-cli:commons-cli:jar:1.3.1:compile
++- org.eclipse.jetty:jetty-webapp:jar:9.4.12.v20180830:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.12.v20180830:compile
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.4.12.v20180830:compile
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.4.12.v20180830:compile
+|     \- org.eclipse.jetty:jetty-security:jar:9.4.12.v20180830:compile
+|        \- org.eclipse.jetty:jetty-server:jar:9.4.12.v20180830:compile
+|           +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|           +- org.eclipse.jetty:jetty-http:jar:9.4.12.v20180830:compile
+|           |  +- (org.eclipse.jetty:jetty-util:jar:9.4.12.v20180830:compile - omitted for duplicate)
+|           |  \- (org.eclipse.jetty:jetty-io:jar:9.4.12.v20180830:compile - omitted for duplicate)
+|           \- org.eclipse.jetty:jetty-io:jar:9.4.12.v20180830:compile
+|              \- (org.eclipse.jetty:jetty-util:jar:9.4.12.v20180830:compile - omitted for duplicate)
++- org.jodd:jodd-http:jar:5.0.13:compile
+|  \- org.jodd:jodd-core:jar:5.0.13:compile
++- org.owasp.encoder:encoder:jar:1.2.2:compile
++- org.yaml:snakeyaml:jar:1.18:compile
++- commons-codec:commons-codec:jar:1.10:compile
+\- eu.bitwalker:UserAgentUtils:jar:1.21:compile
+

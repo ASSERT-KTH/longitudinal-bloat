@@ -1,0 +1,352 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.whispersystems.textsecure:TextSecureServer:jar:1.55+5
++- io.dropwizard:dropwizard-core:jar:1.1.0:compile
+|  +- io.dropwizard:dropwizard-util:jar:1.1.0:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  +- com.google.guava:guava:jar:21.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  \- joda-time:joda-time:jar:2.9.7:compile
+|  +- io.dropwizard:dropwizard-jackson:jar:1.1.0:compile
+|  |  +- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-util:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - version managed from 2.1.4; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:16.0:compile - omitted for conflict with 21.0)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- (joda-time:joda-time:jar:2.7:compile - omitted for conflict with 2.9.7)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for conflict with 1.7.2)
+|  |  \- ch.qos.logback:logback-classic:jar:1.2.1:compile
+|  |     \- (ch.qos.logback:logback-core:jar:1.2.1:compile - omitted for duplicate)
+|  +- io.dropwizard:dropwizard-validation:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-util:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- org.hibernate:hibernate-validator:jar:5.3.4.Final:compile
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  |  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+|  |  \- org.glassfish:javax.el:jar:3.0.0:compile
+|  +- io.dropwizard:dropwizard-configuration:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-jackson:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-validation:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- org.yaml:snakeyaml:jar:1.17:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.3.2)
+|  +- io.dropwizard:dropwizard-logging:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-jackson:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-validation:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-logback:jar:3.2.2:compile
+|  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.24:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  +- ch.qos.logback:logback-core:jar:1.2.1:compile
+|  |  +- (ch.qos.logback:logback-classic:jar:1.2.1:compile - omitted for duplicate)
+|  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.24:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile
+|  +- io.dropwizard:dropwizard-metrics:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-lifecycle:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-jackson:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-validation:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  +- io.dropwizard:dropwizard-jersey:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-jackson:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-validation:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-logging:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.25.1:compile
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.ext:jersey-metainf-services:jar:2.25.1:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.ext:jersey-bean-validation:jar:2.25.1:compile
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate:hibernate-validator:jar:5.1.3.Final:compile - omitted for conflict with 5.3.4.Final)
+|  |  |  +- javax.el:javax.el-api:jar:2.2.4:compile
+|  |  |  +- org.glassfish.web:javax.el:jar:2.2.4:compile
+|  |  |  |  \- (javax.el:javax.el-api:jar:2.2.4:compile - omitted for duplicate)
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-jersey2:jar:3.2.2:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  |  \- (io.dropwizard.metrics:metrics-annotation:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.7:compile
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.7:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.7:compile
+|  |  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  |  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25.1:compile
+|  |  |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25.1:compile
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile - omitted for duplicate)
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.4.2.v20170220:compile
+|  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.2.v20170220:compile
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-servlet:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.4.2.v20170220:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- io.dropwizard:dropwizard-servlets:jar:1.1.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-util:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-annotation:jar:3.2.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.24)
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  \- (ch.qos.logback:logback-classic:jar:1.2.1:compile - omitted for duplicate)
+|  +- io.dropwizard:dropwizard-jetty:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-logging:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-jetty9:jar:3.2.2:compile
+|  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlet:jar:9.4.2.v20170220:compile
+|  |  |  \- org.eclipse.jetty:jetty-security:jar:9.4.2.v20170220:compile
+|  |  |     \- (org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlets:jar:9.4.2.v20170220:compile
+|  |  |  +- (org.eclipse.jetty:jetty-continuation:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile
+|  |     +- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |     \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  +- io.dropwizard:dropwizard-lifecycle:jar:1.1.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  \- (io.dropwizard:dropwizard-util:jar:1.1.0:compile - omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-core:jar:3.2.2:compile
+|  +- io.dropwizard.metrics:metrics-jvm:jar:3.2.2:compile
+|  |  \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-servlets:jar:3.2.2:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-healthchecks:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-json:jar:3.2.2:compile
+|  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-jvm:jar:3.2.2:compile - omitted for duplicate)
+|  |  \- com.papertrail:profiler:jar:1.0.2:compile
+|  |     \- (joda-time:joda-time:jar:2.9.1:compile - omitted for conflict with 2.9.7)
+|  +- io.dropwizard.metrics:metrics-healthchecks:jar:3.2.2:compile
+|  +- io.dropwizard:dropwizard-request-logging:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-jetty:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard:dropwizard-logging:jar:1.1.0:compile - omitted for duplicate)
+|  |  \- ch.qos.logback:logback-access:jar:1.2.1:compile
+|  |     \- (ch.qos.logback:logback-core:jar:1.2.1:compile - omitted for duplicate)
+|  +- net.sourceforge.argparse4j:argparse4j:jar:0.7.0:compile
+|  \- org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3:compile
++- io.dropwizard:dropwizard-jdbi:jar:1.1.0:compile
+|  +- io.dropwizard:dropwizard-db:jar:1.1.0:compile
+|  |  +- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - omitted for duplicate)
+|  |  \- org.apache.tomcat:tomcat-jdbc:jar:8.5.9:compile
+|  |     \- org.apache.tomcat:tomcat-juli:jar:8.5.9:compile
+|  +- org.jdbi:jdbi:jar:2.78:compile
+|  \- io.dropwizard.metrics:metrics-jdbi:jar:3.2.2:compile
+|     \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
++- io.dropwizard:dropwizard-auth:jar:1.1.0:compile
+|  \- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - omitted for duplicate)
++- io.dropwizard:dropwizard-client:jar:1.1.0:compile
+|  +- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.25.1:compile
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  |  +- org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25.1:compile
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b32:compile
+|  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:compile
+|  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:compile
+|  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile
+|  |  \- org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:compile
+|  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |     +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |     +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:compile - omitted for duplicate)
+|  |     \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  +- org.glassfish.jersey.ext.rx:jersey-rx-client:jar:2.25.1:compile
+|  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.25.1:compile - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile (version managed from 4.5.3)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- io.dropwizard.metrics:metrics-httpclient:jar:3.2.2:compile
+|  |  \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  \- org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.25.1:compile
+|     +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - version managed from 4.5; omitted for duplicate)
+|     +- (org.glassfish.jersey.core:jersey-common:jar:2.25.1:compile - omitted for duplicate)
+|     +- (org.glassfish.jersey.core:jersey-client:jar:2.25.1:compile - omitted for duplicate)
+|     \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
++- io.dropwizard:dropwizard-migrations:jar:1.1.0:compile
+|  +- (io.dropwizard:dropwizard-db:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.liquibase:liquibase-core:jar:3.5.3:compile
+|  \- com.mattbertolini:liquibase-slf4j:jar:2.0.0:compile
++- io.dropwizard:dropwizard-testing:jar:1.1.0:compile
+|  +- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - omitted for duplicate)
+|  +- junit:junit:jar:4.12:compile
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  +- org.objenesis:objenesis:jar:2.5.1:compile
+|  +- org.assertj:assertj-core:jar:3.6.2:compile
+|  \- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.25.1:compile
+|     +- org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.19:compile
+|     |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile - omitted for duplicate)
+|     |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25.1:compile - omitted for duplicate)
+|     |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|     +- (org.glassfish.jersey.core:jersey-server:jar:2.25.1:compile - omitted for duplicate)
+|     +- (org.glassfish.jersey.core:jersey-client:jar:2.25.1:compile - omitted for duplicate)
+|     \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- io.dropwizard:dropwizard-metrics-graphite:jar:1.1.0:compile
+|  +- (io.dropwizard:dropwizard-metrics:jar:1.1.0:compile - omitted for duplicate)
+|  \- io.dropwizard.metrics:metrics-graphite:jar:3.2.2:compile
+|     \- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
++- com.dcsquare:dropwizard-papertrail:jar:1.2:compile
+|  +- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - version managed from 1.0.2; omitted for duplicate)
+|  \- com.papertrailapp:logback-syslog4j:jar:1.0.0:compile
+|     +- (ch.qos.logback:logback-core:jar:1.1.2:compile - omitted for conflict with 1.2.1)
+|     +- (ch.qos.logback:logback-classic:jar:1.1.2:compile - omitted for conflict with 1.2.1)
+|     \- org.syslog4j:syslog4j:jar:0.9.30:compile
++- org.bouncycastle:bcprov-jdk16:jar:1.46:compile
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.115:compile
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.115:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.115:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.115:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.115:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - version managed from 4.5.2; omitted for duplicate)
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - version managed from 2.6.6; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.6:compile - omitted for conflict with 2.8.7)
+|  |  \- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.9.7)
+|  \- com.amazonaws:jmespath-java:jar:1.11.115:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - version managed from 2.6.6; omitted for duplicate)
++- com.google.protobuf:protobuf-java:jar:2.6.1:compile
++- redis.clients:jedis:jar:2.7.3:compile
+|  \- org.apache.commons:commons-pool2:jar:2.3:compile
++- com.twilio.sdk:twilio-java-sdk:jar:4.4.4:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - version managed from 4.2.6; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- com.googlecode.json-simple:json-simple:jar:1.1:compile
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.3:compile
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.3:compile
+|     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.3:compile - omitted for duplicate)
++- org.postgresql:postgresql:jar:9.4-1201-jdbc41:compile
++- org.whispersystems:websocket-resources:jar:0.5.0:compile
+|  +- (io.dropwizard:dropwizard-core:jar:1.1.0:compile - version managed from 1.0.2; omitted for duplicate)
+|  +- (io.dropwizard:dropwizard-auth:jar:1.1.0:compile - omitted for duplicate)
+|  +- (io.dropwizard:dropwizard-client:jar:1.1.0:compile - omitted for duplicate)
+|  +- (io.dropwizard:dropwizard-servlets:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-server:jar:9.4.2.v20170220:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.2.v20170220:compile
+|  |  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.2.v20170220:compile
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.2.v20170220:compile
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty:jetty-client:jar:9.4.2.v20170220:compile
+|  |  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.2.v20170220:compile
+|  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.6.1:compile - omitted for duplicate)
+|  \- (io.dropwizard:dropwizard-testing:jar:1.1.0:compile - omitted for duplicate)
++- org.whispersystems:dropwizard-simpleauth:jar:0.2.0:compile
+|  \- (io.dropwizard:dropwizard-auth:jar:1.1.0:compile - omitted for duplicate)
++- com.notnoop.apns:apns:jar:0.2.3:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.2:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
++- org.whispersystems:gcm-sender-async:jar:0.1.4:compile
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.0.2:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.3.2; omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.3.2:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.3.2; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - version managed from 4.3.5; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - version managed from 2.3.3; omitted for duplicate)
+|  \- com.nurkiewicz.asyncretry:asyncretry-jdk7:jar:0.0.5:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.2)
+|     \- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 21.0)
++- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.19:test
+|  +- (org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.19:compile - scope updated from test; omitted for duplicate)
+|  +- org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.19:test
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b25:test - omitted for conflict with 2.5.0-b32)
+|  |  +- org.glassfish.grizzly:grizzly-http-server:jar:2.3.19:test
+|  |  |  \- org.glassfish.grizzly:grizzly-http:jar:2.3.19:test
+|  |  |     \- org.glassfish.grizzly:grizzly-framework:jar:2.3.19:test
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.19:test - omitted for conflict with 2.25.1)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.19:test - omitted for conflict with 2.25.1)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:jar:2.19:test
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet:jar:2.19:test - omitted for conflict with 2.25.1)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.19:test - omitted for duplicate)
+|  |  +- org.glassfish.grizzly:grizzly-http-servlet:jar:2.3.19:test
+|  |  |  \- (org.glassfish.grizzly:grizzly-http-server:jar:2.3.19:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.19:test - omitted for conflict with 2.25.1)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.19:test - omitted for conflict with 2.25.1)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  \- org.ow2.asm:asm-debug-all:jar:5.0.3:test
+\- org.mockito:mockito-core:jar:2.7.22:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.11:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.11:test
+   \- (org.objenesis:objenesis:jar:2.5:test - omitted for conflict with 2.5.1)
+

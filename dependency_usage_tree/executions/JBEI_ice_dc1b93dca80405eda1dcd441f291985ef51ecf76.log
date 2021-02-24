@@ -1,0 +1,213 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.jbei:ice:war:5.7.0
++- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.28:compile
+|  +- org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.28:compile
+|  |  +- (jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.5:compile - omitted for duplicate)
+|  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.4:compile
+|  |  +- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.core:jersey-server:jar:2.28:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.28:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.core:jersey-client:jar:2.28:compile
+|  |  |  +- (jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.5:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.28:compile - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|  |  +- (jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.5:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.28:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.28:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- (jakarta.annotation:jakarta.annotation-api:jar:1.3.4:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|  |  \- (javax.validation:validation-api:jar:2.0.1.Final:compile - omitted for duplicate)
+|  \- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.5:compile
++- org.glassfish.jersey.media:jersey-media-multipart:jar:2.28:compile
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.28:compile - omitted for duplicate)
+|  \- org.jvnet.mimepull:mimepull:jar:1.9.11:compile
++- org.glassfish.jersey.inject:jersey-hk2:jar:2.28:compile
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.28:compile - omitted for duplicate)
+|  \- org.glassfish.hk2:hk2-locator:jar:2.5.0:compile
+|     +- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|     +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0:compile
+|     +- org.glassfish.hk2:hk2-api:jar:2.5.0:compile
+|     |  +- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|     |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0:compile - omitted for duplicate)
+|     |  \- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0:compile - omitted for duplicate)
+|     +- org.glassfish.hk2:hk2-utils:jar:2.5.0:compile
+|     |  +- (jakarta.annotation:jakarta.annotation-api:jar:1.3.4:compile - omitted for duplicate)
+|     |  \- (org.glassfish.hk2.external:jakarta.inject:jar:2.5.0:compile - omitted for duplicate)
+|     +- (jakarta.annotation:jakarta.annotation-api:jar:1.3.4:compile - omitted for duplicate)
+|     \- (org.javassist:javassist:jar:3.22.0-CR2:compile - omitted for conflict with 3.24.0-GA)
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.postgresql:postgresql:jar:42.2.6:compile
++- com.h2database:h2:jar:1.4.199:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.code.gson:gson:jar:2.8.5:compile
++- org.hibernate:hibernate-core:jar:5.4.4.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  +- javax.persistence:javax.persistence-api:jar:2.2:compile
+|  +- org.javassist:javassist:jar:3.24.0-GA:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.9.11:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile
+|  +- org.jboss:jandex:jar:2.0.5.Final:compile
+|  +- com.fasterxml:classmate:jar:1.3.4:compile
+|  +- javax.activation:javax.activation-api:jar:1.2.0:compile
+|  +- org.dom4j:dom4j:jar:2.1.1:compile
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for duplicate)
+|  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+|  |  \- (javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile
+|     +- (javax.xml.bind:jaxb-api:jar:2.3.1:compile - omitted for duplicate)
+|     +- org.glassfish.jaxb:txw2:jar:2.3.1:compile
+|     +- com.sun.istack:istack-commons-runtime:jar:3.0.7:compile
+|     +- org.jvnet.staxex:stax-ex:jar:1.8:compile
+|     +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile
+|     \- (javax.activation:javax.activation-api:jar:1.2.0:compile - omitted for duplicate)
++- org.hibernate:hibernate-search-orm:jar:5.11.2.Final:compile
+|  +- org.hibernate:hibernate-search-engine:jar:5.11.2.Final:compile
+|  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-misc:jar:5.5.5:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.5:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-facet:jar:5.5.5:compile
+|  |  |  +- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  |  |  \- org.apache.lucene:lucene-queries:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.5:compile
+|  |  |  +- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  |  |  \- (org.apache.lucene:lucene-queries:jar:5.5.5:compile - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for duplicate)
+|  \- (org.hibernate:hibernate-core:jar:5.4.3.Final:compile - omitted for conflict with 5.4.4.Final)
++- javax.validation:validation-api:jar:2.0.1.Final:compile
++- org.hibernate:hibernate-validator:jar:4.3.2.Final:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for conflict with 2.0.1.Final)
+|  \- (org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile - omitted for conflict with 3.3.2.Final)
++- javax.el:javax.el-api:jar:3.0.0:compile
++- org.hibernate:hibernate-c3p0:jar:5.4.4.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile - omitted for duplicate)
+|  +- (org.hibernate:hibernate-core:jar:5.4.4.Final:compile - omitted for duplicate)
+|  \- com.mchange:c3p0:jar:0.9.5.3:compile
+|     \- com.mchange:mchange-commons-java:jar:0.2.15:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-email:jar:1.4:compile
+|  +- com.sun.mail:javax.mail:jar:1.5.2:compile
+|  |  \- (javax.activation:activation:jar:1.1:compile - omitted for conflict with 1.1.1)
+|  \- javax.activation:activation:jar:1.1.1:compile
++- com.opencsv:opencsv:jar:4.6:compile
+|  +- org.apache.commons:commons-lang3:jar:3.8.1:compile
+|  +- org.apache.commons:commons-text:jar:1.3:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.8.1)
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-collections4:jar:4.2:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.biojava:core:jar:1.9.2:compile
+|  +- commons-dbcp:commons-dbcp:jar:1.2.2:compile
+|  |  \- commons-pool:commons-pool:jar:1.3:compile
+|  \- org.biojava:bytecode:jar:1.9.2:compile
++- org.mockito:mockito-core:jar:3.0.0:test
+|  +- (net.bytebuddy:byte-buddy:jar:1.9.10:test - omitted for conflict with 1.9.11)
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- com.google.guava:guava:jar:20.0:compile
++- commons-validator:commons-validator:jar:1.5.1:compile
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for conflict with 1.9.3)
+|  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- javax.transaction:jta:jar:1.1:compile
++- org.sbolstandard:libSBOLj:jar:2.2.1:compile
+|  +- uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile
+|  +- uk.ac.ncl.intbio:sbol-data-examples:jar:0.1.3:compile
+|  |  +- (uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile - omitted for duplicate)
+|  |  +- (uk.ac.ncl.intbio:sbol-data-io-RDF:jar:0.1.3:compile - omitted for duplicate)
+|  |  +- uk.ac.ncl.intbio:sbol-data-io-graphviz:jar:0.1.3:compile
+|  |  |  \- (uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile - omitted for duplicate)
+|  |  +- uk.ac.ncl.intbio:sbol-data-io-json:jar:0.1.3:compile
+|  |  |  +- (uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile - omitted for duplicate)
+|  |  |  +- (uk.ac.ncl.intbio:sbol-data-io-RDF:jar:0.1.3:compile - omitted for duplicate)
+|  |  |  \- org.glassfish:javax.json:jar:1.0.2:compile
+|  |  +- uk.ac.ncl.intbio:sbol-data-io-turtle:jar:0.1.3:compile
+|  |  |  \- (uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile - omitted for duplicate)
+|  |  \- net.java.dev.stax-utils:stax-utils:jar:20070216:compile
+|  +- uk.ac.ncl.intbio:sbol-data-io-RDF:jar:0.1.3:compile
+|  |  \- (uk.ac.ncl.intbio:sbol-data-core:jar:0.1.3:compile - omitted for duplicate)
+|  +- uk.ac.ncl.intbio:sbol-data-nativeSbol:jar:0.1.3:compile
+|  +- org.sbolstandard:libSBOLj-deprecated:jar:1.0.0:compile
+|  +- org.jdom:jdom:jar:1.1:compile
+|  +- org.openscience.cdk:cdk-smiles:jar:1.5.14:compile
+|  |  +- javax.vecmath:vecmath:jar:1.5.2:compile
+|  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  +- uk.ac.ebi.beam:beam-core:jar:0.9.2:compile
+|  |  +- uk.ac.ebi.beam:beam-func:jar:0.9.2:compile
+|  |  |  \- (uk.ac.ebi.beam:beam-core:jar:0.9.2:compile - omitted for duplicate)
+|  |  +- org.openscience.cdk:cdk-core:jar:1.5.14:compile
+|  |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  |  \- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  +- org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile
+|  |  |  \- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|  |  +- org.openscience.cdk:cdk-ioformats:jar:1.5.14:compile
+|  |  |  \- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  +- org.openscience.cdk:cdk-io:jar:1.5.14:compile
+|  |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|  |  |  +- xpp3:xpp3:jar:1.1.4c:compile
+|  |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  |  +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  +- (org.openscience.cdk:cdk-ioformats:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  +- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  +- (org.openscience.cdk:cdk-standard:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  +- org.openscience.cdk:cdk-atomtype:jar:1.5.14:compile
+|  |  |  |  +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  |  +- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  |  \- (org.openscience.cdk:cdk-standard:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  \- org.openscience.cdk:cdk-isomorphism:jar:1.5.14:compile
+|  |  |     +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|  |  |     +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  |     +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  |     +- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  |  |     \- (org.openscience.cdk:cdk-standard:jar:1.5.14:compile - omitted for duplicate)
+|  |  +- org.openscience.cdk:cdk-standard:jar:1.5.14:compile
+|  |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  |  +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  |  \- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  |  \- org.openscience.cdk:cdk-valencycheck:jar:1.5.14:compile
+|  |     +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |     +- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  |     \- (org.openscience.cdk:cdk-standard:jar:1.5.14:compile - omitted for duplicate)
+|  +- org.openscience.cdk:cdk-data:jar:1.5.14:compile
+|  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for conflict with 20.0)
+|  |  +- (org.openscience.cdk:cdk-interfaces:jar:1.5.14:compile - omitted for duplicate)
+|  |  \- (org.openscience.cdk:cdk-core:jar:1.5.14:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- (commons-io:commons-io:jar:1.3.2:compile - omitted for conflict with 2.6)
+|  +- (com.google.code.gson:gson:jar:2.7:compile - omitted for conflict with 2.8.5)
+|  \- org.apache.httpcomponents:httpmime:jar:4.0.1:compile
+|     +- (org.apache.httpcomponents:httpcore:jar:4.0.1:compile - omitted for conflict with 4.4.3)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.0.1:compile - omitted for conflict with 4.5.1)
+|     +- org.apache.james:apache-mime4j:jar:0.6:compile
+|     |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
++- org.rauschig:jarchivelib:jar:1.0.0:compile
+|  \- org.apache.commons:commons-compress:jar:1.18:compile
+\- io.undertow:undertow-servlet:jar:1.4.18.Final:compile
+   +- io.undertow:undertow-core:jar:1.4.18.Final:compile
+   |  +- (org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile - omitted for conflict with 3.3.2.Final)
+   |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+   |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+   |     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
+   +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
+   \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+

@@ -1,0 +1,79 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.vlingo:vlingo-symbio:jar:0.3.2
++- org.msgpack:msgpack:jar:0.6.12:compile
+|  +- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  \- org.javassist:javassist:jar:3.18.1-GA:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- io.vlingo:vlingo-common:jar:0.3.4:compile
+|  \- com.google.code.gson:gson:jar:2.8.2:compile
++- io.vlingo:vlingo-actors:jar:0.5.1:compile
+|  +- org.agrona:agrona:jar:0.9.20:compile
+|  \- (io.vlingo:vlingo-common:jar:0.3.4:compile - omitted for duplicate)
++- org.hsqldb:hsqldb:jar:2.4.1:compile
++- org.postgresql:postgresql:jar:42.2.2.jre7:compile
++- com.amazonaws:DynamoDBLocal:jar:1.15.0:test
+|  +- org.antlr:antlr4-runtime:jar:4.5:test
+|  |  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:test
+|  +- commons-cli:commons-cli:jar:1.2:test
+|  +- org.apache.commons:commons-lang3:jar:3.8.1:test
+|  +- (com.almworks.sqlite4java:libsqlite4java-linux-i386:so:1.0.392:test - omitted for duplicate)
+|  +- (com.almworks.sqlite4java:libsqlite4java-linux-amd64:so:1.0.392:test - omitted for duplicate)
+|  +- (com.almworks.sqlite4java:sqlite4java-win32-x64:dll:1.0.392:test - omitted for duplicate)
+|  +- (com.almworks.sqlite4java:sqlite4java-win32-x86:dll:1.0.392:test - omitted for duplicate)
+|  +- (com.almworks.sqlite4java:libsqlite4java-osx:dylib:1.0.392:test - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.907:compile - scope updated from test; omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.907:test - omitted for conflict with 1.11.362)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.13.3:test
+|  +- org.apache.logging.log4j:log4j-core:jar:2.13.3:test
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.13.3:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-client:jar:9.4.18.v20190429:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.18.v20190429:test
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  \- com.google.guava:guava:jar:21.0:test
++- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.362:compile
+|  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.362:compile
+|  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.362:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.907:compile - omitted for conflict with 1.11.362)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.362:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.362:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.362:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.362:compile - omitted for duplicate)
+|  \- com.amazonaws:jmespath-java:jar:1.11.362:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-core:jar:1.11.362:compile
+|  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  \- joda-time:joda-time:jar:2.8.1:compile
++- com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test
++- com.almworks.sqlite4java:sqlite4java-win32-x86:dll:1.0.392:test
+|  \- (com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test - omitted for duplicate)
++- com.almworks.sqlite4java:sqlite4java-win32-x64:dll:1.0.392:test
+|  \- (com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test - omitted for duplicate)
++- com.almworks.sqlite4java:libsqlite4java-osx:dylib:1.0.392:test
+|  \- (com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test - omitted for duplicate)
++- com.almworks.sqlite4java:libsqlite4java-linux-i386:so:1.0.392:test
+|  \- (com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test - omitted for duplicate)
+\- com.almworks.sqlite4java:libsqlite4java-linux-amd64:so:1.0.392:test
+   \- (com.almworks.sqlite4java:sqlite4java:jar:1.0.392:test - omitted for duplicate)
+

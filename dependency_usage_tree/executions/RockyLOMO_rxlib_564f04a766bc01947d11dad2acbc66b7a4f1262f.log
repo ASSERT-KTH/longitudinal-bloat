@@ -1,0 +1,76 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.rockylomo:rxlib:jar:2.16.8
++- org.springframework:spring-context:jar:5.2.4.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.2.4.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.2.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.2.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:5.2.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.2.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.2.4.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.2.4.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:5.2.4.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:5.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:5.2.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:5.2.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:5.2.4.RELEASE:compile - omitted for duplicate)
++- org.aspectj:aspectjweaver:jar:1.9.5:compile
++- org.apache.poi:poi:jar:4.1.2:compile
+|  +- commons-codec:commons-codec:jar:1.13:compile
+|  +- org.apache.commons:commons-collections4:jar:4.4:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  \- com.zaxxer:SparseBitSet:jar:1.2:compile
++- org.apache.poi:poi-ooxml:jar:4.1.2:compile
+|  +- (org.apache.poi:poi:jar:4.1.2:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:4.1.2:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:3.1.0:compile
+|  +- org.apache.commons:commons-compress:jar:1.19:compile
+|  \- com.github.virtuald:curvesapi:jar:1.06:compile
++- com.zaxxer:HikariCP:jar:3.4.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.30)
++- com.alibaba:druid:jar:1.1.23:compile
++- org.yaml:snakeyaml:jar:1.26:compile
++- io.netty:netty-all:jar:4.1.51.Final:compile
++- com.squareup.okhttp3:okhttp:jar:4.8.1:compile
+|  +- com.squareup.okio:okio:jar:2.7.0:compile
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.70:compile - omitted for conflict with 1.3.72)
+|  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.70:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.72:compile
+|     +- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.72:compile - omitted for conflict with 1.3.70)
+|     \- org.jetbrains:annotations:jar:13.0:compile
++- cglib:cglib:jar:3.3.0:compile
+|  \- org.ow2.asm:asm:jar:7.1:compile
++- commons-io:commons-io:jar:2.7:compile
++- org.apache.commons:commons-pool2:jar:2.8.1:compile
++- org.apache.commons:commons-lang3:jar:3.11:compile
++- com.alibaba:fastjson:jar:1.2.73:compile
++- com.google.guava:guava:jar:29.0-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- org.checkerframework:checker-qual:jar:2.11.1:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
++- javax.validation:validation-api:jar:2.0.1.Final:compile
++- javax.servlet:javax.servlet-api:jar:4.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.30:compile
++- org.projectlombok:lombok:jar:1.18.12:provided
++- org.junit.jupiter:junit-jupiter:jar:5.5.2:test
+|  +- org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test
+|  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.5.2:test
+|  |     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  +- org.junit.jupiter:junit-jupiter-params:jar:5.5.2:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  |  \- (org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test - omitted for duplicate)
+|  \- org.junit.jupiter:junit-jupiter-engine:jar:5.5.2:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     +- org.junit.platform:junit-platform-engine:jar:1.5.2:test
+|     |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     |  +- (org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)
+|     |  \- (org.junit.platform:junit-platform-commons:jar:1.5.2:test - omitted for duplicate)
+|     \- (org.junit.jupiter:junit-jupiter-api:jar:5.5.2:test - omitted for duplicate)
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.30)
+

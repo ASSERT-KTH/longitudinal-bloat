@@ -1,0 +1,22 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+br.com.tecsinapse:tecsinapse-data-io:jar:3.1.8
++- com.google.guava:guava:jar:19.0:compile
++- org.apache.poi:poi:jar:4.0.1:compile
+|  +- commons-codec:commons-codec:jar:1.11:compile
+|  +- org.apache.commons:commons-collections4:jar:4.2:compile
+|  \- org.apache.commons:commons-math3:jar:3.6.1:compile
++- org.apache.poi:poi-ooxml:jar:4.0.1:compile
+|  +- (org.apache.poi:poi:jar:4.0.1:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:4.0.1:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:3.0.2:compile
+|  +- org.apache.commons:commons-compress:jar:1.18:compile
+|  \- com.github.virtuald:curvesapi:jar:1.05:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 19.0)
+|  \- org.javassist:javassist:jar:3.21.0-GA:compile
++- org.projectlombok:lombok:jar:1.18.6:provided
++- org.slf4j:slf4j-api:jar:1.7.26:compile
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test
+

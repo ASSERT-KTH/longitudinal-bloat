@@ -1,0 +1,43 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+fatal: reference is not a tree: 1a5bd1b6a27e7a3d7f75ca0c3a0990ede26fb98b
+com.gmail.nossr50.mcMMO:mcMMO:jar:1.6.4-SNAPSHOT
++- org.spigotmc:spigot-api:jar:1.14-R0.1-SNAPSHOT:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  +- com.google.guava:guava:jar:21.0:provided
+|  +- com.google.code.gson:gson:jar:2.8.0:provided
+|  +- net.md-5:bungeecord-chat:jar:1.13-SNAPSHOT:provided
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:20.0:provided - omitted for conflict with 21.0)
+|  \- org.yaml:snakeyaml:jar:1.23:provided
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.powermock:powermock-module-junit4:jar:2.0.7:test
+|  +- org.powermock:powermock-module-junit4-common:jar:2.0.7:test
+|  |  +- org.powermock:powermock-reflect:jar:2.0.7:test
+|  |  |  +- (org.objenesis:objenesis:jar:3.0.1:test - omitted for conflict with 2.6)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.9.10:test - omitted for conflict with 1.10.13)
+|  |  |  \- (net.bytebuddy:byte-buddy-agent:jar:1.9.10:test - omitted for conflict with 1.10.13)
+|  |  +- org.powermock:powermock-core:jar:2.0.7:test
+|  |  |  +- (org.powermock:powermock-reflect:jar:2.0.7:test - omitted for duplicate)
+|  |  |  +- org.javassist:javassist:jar:3.27.0-GA:test
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.9.10:test - omitted for duplicate)
+|  |  |  \- (net.bytebuddy:byte-buddy-agent:jar:1.9.10:test - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.11)
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.11)
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.powermock:powermock-api-mockito2:jar:2.0.7:test
+|  +- org.powermock:powermock-api-support:jar:2.0.7:test
+|  |  +- (org.powermock:powermock-reflect:jar:2.0.7:test - omitted for duplicate)
+|  |  \- (org.powermock:powermock-core:jar:2.0.7:test - omitted for duplicate)
+|  \- (org.mockito:mockito-core:jar:2.28.2:test - omitted for conflict with 3.4.6)
++- org.mockito:mockito-core:jar:3.4.6:test
+|  +- net.bytebuddy:byte-buddy:jar:1.10.13:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.10.13:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.apache.tomcat:tomcat-jdbc:jar:7.0.52:compile
+   \- org.apache.tomcat:tomcat-juli:jar:7.0.52:compile
+

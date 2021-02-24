@@ -1,0 +1,39 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+net.sourceforge.htmlunit:htmlunit:jar:1.11
++- junit:junit:jar:3.8.2:compile
++- jaxen:jaxen:jar:1.1:compile
+|  +- (jaxen:jaxen:jar:1.1-beta-6:compile - omitted for cycle)
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  +- (jaxen:jaxen:jar:1.0-FCS:compile - omitted for cycle)
+|  +- jdom:jdom:jar:1.0:compile
+|  +- xml-apis:xml-apis:jar:1.3.02:compile
+|  +- (xerces:xercesImpl:jar:2.6.2:compile - omitted for duplicate)
+|  \- xom:xom:jar:1.0:compile
+|     +- (xerces:xmlParserAPIs:jar:2.6.2:compile - omitted for duplicate)
+|     +- (xerces:xercesImpl:jar:2.6.2:compile - omitted for duplicate)
+|     +- xalan:xalan:jar:2.6.0:compile
+|     |  \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.02)
+|     \- com.ibm.icu:icu4j:jar:2.6.1:compile
++- commons-collections:commons-collections:jar:3.2:compile
++- commons-lang:commons-lang:jar:2.2:compile
++- commons-httpclient:commons-httpclient:jar:3.0.1:compile
+|  +- (junit:junit:jar:3.8.1:compile - omitted for conflict with 3.8.2)
+|  +- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1)
+|  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.3)
++- commons-codec:commons-codec:jar:1.3:compile
++- gsbase:gsbase:jar:2.0.1:test
+|  +- (junit:junit:jar:3.8.1:test - omitted for conflict with 3.8.2)
+|  \- junitperf:junitperf:jar:1.8:test
++- rhino:js:jar:1.6R5:compile
++- xerces:xercesImpl:jar:2.6.2:compile
++- xerces:xmlParserAPIs:jar:2.6.2:compile
++- nekohtml:nekohtml:jar:0.9.5:compile
+|  \- (xerces:xercesImpl:jar:2.4.0:compile - omitted for conflict with 2.6.2)
++- commons-logging:commons-logging:jar:1.1:compile
+|  +- log4j:log4j:jar:1.2.12:compile
+|  +- logkit:logkit:jar:1.0.1:compile
+|  +- avalon-framework:avalon-framework:jar:4.1.3:compile
+|  \- javax.servlet:servlet-api:jar:2.3:compile
++- commons-io:commons-io:jar:1.3:compile
+\- jetty:org.mortbay.jetty:jar:5.1.4:test
+

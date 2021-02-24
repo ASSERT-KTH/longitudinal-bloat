@@ -1,0 +1,12 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.easytesting:fest-assert-core:jar:2.0M6
++- org.easytesting:fest-util:jar:1.2.1:compile
++- org.easytesting:fest-reflect:jar:1.3:test
+|  \- (org.easytesting:fest-util:jar:1.1.6:test - omitted for conflict with 1.2.1)
++- org.easytesting:fest-test:jar:2.0:test
+|  +- (org.easytesting:fest-util:jar:1.1.5:test - omitted for conflict with 1.2.1)
+|  \- (junit:junit:jar:4.10:test - version managed from 4.8.2; omitted for duplicate)
++- org.mockito:mockito-all:jar:1.9.0:test
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test
+

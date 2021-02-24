@@ -1,0 +1,21 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.github.davidmoten:rtree:jar:0.6.4
++- com.google.guava:guava:jar:18.0:compile
++- io.reactivex:rxjava:jar:1.0.12:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- io.reactivex:rxjava-string:jar:0.22.0:test
+|  \- (io.reactivex:rxjava:jar:1.0.0:test - omitted for conflict with 1.0.12)
++- com.github.davidmoten:rxjava-extras:jar:0.5.1:test
+|  \- (io.reactivex:rxjava:jar:1.0.8:test - omitted for conflict with 1.0.12)
++- com.github.davidmoten:grumpy-core:jar:0.2.2:test
+|  \- org.apache.commons:commons-math3:jar:3.2:test
++- org.openjdk.jmh:jmh-core:jar:1.2:test
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+|  \- (org.apache.commons:commons-math3:jar:3.2:test - omitted for duplicate)
++- org.openjdk.jmh:jmh-generator-annprocess:jar:1.2:test
+|  \- (org.openjdk.jmh:jmh-core:jar:1.2:test - omitted for duplicate)
+\- org.mockito:mockito-core:jar:1.10.8:test
+   +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   \- org.objenesis:objenesis:jar:2.1:test
+

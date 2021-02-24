@@ -1,0 +1,423 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.wiley:wiley-selenium-base:jar:2.1.16
++- br.eti.kinoshita:testlink-java-api:jar:1.9.3-2:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  +- commons-io:commons-io:jar:2.0.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.6.2)
+|  +- commons-configuration:commons-configuration:jar:1.7:compile
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.8.0:compile - omitted for conflict with 1.8.3)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - omitted for conflict with 1.8.0)
+|  +- org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:compile
+|  |  \- org.apache.ws.commons.util:ws-commons-util:jar:1.0.2:compile
+|  |     +- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
+|  |     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for duplicate)
+|  +- org.apache.xmlrpc:xmlrpc-client:jar:3.1.3:compile
+|  |  \- (org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:compile - omitted for duplicate)
+|  +- xml-apis:xml-apis:jar:1.0.b2:compile
+|  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|     +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|     \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.10)
++- net.sf.json-lib:json-lib:jar:jdk15:2.3:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.0:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.5)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.5)
++- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.9.0:test
+|  \- org.objenesis:objenesis:jar:1.0:test
++- org.springframework:spring-context:jar:4.2.4.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.2.4.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.2.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.2.4.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:4.2.4.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-test:jar:4.2.4.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.2.4.RELEASE:compile - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-java:jar:3.0.1:compile
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.0.1:compile
+|  |  \- org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile
+|  |     +- org.seleniumhq.selenium:selenium-api:jar:3.0.1:compile
+|  |     +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |     +- org.apache.commons:commons-exec:jar:1.3:compile
+|  |     +- (com.google.code.gson:gson:jar:2.3.1:compile - omitted for conflict with 2.7)
+|  |     +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with r07)
+|  |     +- (org.apache.httpcomponents:httpmime:jar:4.5.2:compile - omitted for duplicate)
+|  |     \- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  |        \- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.0.1:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.0.1:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.0.1:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.0.1:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.0.1:compile
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  |  \- io.netty:netty:jar:3.5.7.Final:compile
+|  +- org.seleniumhq.selenium:selenium-support:jar:3.0.1:compile
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile - omitted for duplicate)
+|  |  \- (junit:junit:jar:4.12:compile - omitted for conflict with 4.10)
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.23:compile
+|  |  +- xalan:xalan:jar:2.7.2:compile
+|  |  |  \- xalan:serializer:jar:2.7.2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.2)
+|  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.23:compile
+|  |  +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.23:compile
+|  |  |  \- (xerces:xercesImpl:jar:2.11.0:compile - omitted for conflict with 2.8.1)
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.20:compile
+|  |  |  \- org.w3c.css:sac:jar:1.3:compile
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for conflict with 2.0.1)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (org.eclipse.jetty.websocket:websocket-client:jar:9.2.18.v20160721:compile - omitted for conflict with 9.2.15.v20160210)
+|  +- (org.seleniumhq.selenium:selenium-java:jar:2.53.0:compile - omitted for cycle)
+|  +- com.codeborne:phantomjsdriver:jar:1.3.0:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.0:compile - omitted for conflict with 3.0.1)
+|  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.15.v20160210:compile
+|     +- org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:compile
+|     +- org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:compile
+|     |  \- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:compile - omitted for duplicate)
+|     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.15.v20160210:compile
+|        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.15.v20160210:compile
+|        +- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:compile - omitted for duplicate)
+|        \- (org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:compile - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-server:jar:3.0.1:compile
+|  +- (org.seleniumhq.selenium:selenium-java:jar:3.0.1:compile - omitted for duplicate)
+|  +- com.beust:jcommander:jar:1.48:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  +- org.seleniumhq.selenium:jetty-repacked:jar:9.2.13.v20160825:compile
+|  |  \- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.seleniumhq.selenium:htmlunit-driver:jar:2.23:compile
+|  |  +- (org.seleniumhq.selenium:selenium-support:jar:3.0.0-beta2:compile - omitted for conflict with 3.0.1)
+|  |  \- (net.sourceforge.htmlunit:htmlunit:jar:2.23:compile - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.15:compile
++- org.testng:testng:jar:6.8.21:compile
+|  +- org.beanshell:bsh:jar:2.0b4:compile
+|  \- (com.beust:jcommander:jar:1.27:compile - omitted for conflict with 1.48)
++- net.sourceforge.jexcelapi:jxl:jar:2.6:compile
++- org.json:json:jar:20090211:compile
++- joda-time:joda-time:jar:2.7:compile
++- org.slf4j:slf4j-api:jar:1.6.2:compile
++- org.slf4j:slf4j-log4j12:jar:1.6.2:runtime (scope not updated to compile)
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:runtime - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.16:runtime
++- com.google.inject:guice:jar:2.0:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- com.google.code.findbugs:jsr305:jar:1.3.9:provided
++- org.apache.maven.doxia:doxia-converter:jar:1.2:compile
+|  +- org.apache.maven.doxia:doxia-core:jar:1.1.2:compile
+|  |  +- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-logging-api:jar:1.1.2:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.5:compile - omitted for conflict with 1.5.12)
+|  |  |  +- org.codehaus.plexus:plexus-classworlds:jar:1.2-alpha-9:compile
+|  |  |  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
+|  |  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
+|  |  +- xerces:xercesImpl:jar:2.8.1:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for conflict with 1.0.b2)
+|  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.5)
+|  |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-logging-api:jar:1.1.2:compile
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile
+|  |  \- (org.apache.maven.doxia:doxia-logging-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-apt:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-confluence:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-docbook-simple:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-fo:jar:1.1.2:compile
+|  |  +- (org.apache.maven.doxia:doxia-logging-api:jar:1.1.2:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for conflict with 1.7)
+|  |  +- org.apache.xmlgraphics:fop:jar:0.95:compile
+|  |  |  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:1.3.1:compile
+|  |  |  |  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.0.1)
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|  |  |  +- org.apache.xmlgraphics:batik-svg-dom:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.7:compile - omitted for cycle)
+|  |  |  |  +- org.apache.xmlgraphics:batik-anim:jar:1.7:compile
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.xmlgraphics:batik-parser:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-css:jar:1.7:compile
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-dom:jar:1.7:compile
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (xalan:xalan:jar:2.6.0:compile - omitted for conflict with 2.7.2)
+|  |  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-parser:jar:1.7:compile
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.xmlgraphics:batik-xml:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-util:jar:1.7:compile
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
+|  |  |  +- org.apache.xmlgraphics:batik-bridge:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.7:compile - omitted for cycle)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.7:compile - omitted for cycle)
+|  |  |  |  +- org.apache.xmlgraphics:batik-script:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-xml:jar:1.7:compile
+|  |  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (xalan:xalan:jar:2.6.0:compile - omitted for conflict with 2.7.2)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-gvt:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.7:compile - omitted for cycle)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  +- org.apache.xmlgraphics:batik-transcoder:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:batik-svggen:jar:1.7:compile
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-extension:jar:1.7:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-ext:jar:1.7:compile
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  |  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|  |  |  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.0.1)
+|  |  |  \- org.apache.avalon.framework:avalon-framework-api:jar:4.3.1:compile
+|  |  +- (log4j:log4j:jar:1.2.12:runtime - omitted for conflict with 1.2.16)
+|  |  +- (xerces:xercesImpl:jar:2.9.1:compile - omitted for conflict with 2.8.1)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-latex:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-itext:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- com.lowagie:itext:jar:1.4:compile
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-rtf:jar:1.1.2:compile
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-twiki:jar:1.1.2:compile
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-xdoc:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.12:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.doxia:doxia-core:jar:1.1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.doxia:doxia-sink-api:jar:1.1.2:compile - omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.1:compile
+|  +- com.ibm.icu:icu4j:jar:3.8:compile
+|  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.0.b2)
+|  \- org.codehaus.plexus:plexus-utils:jar:1.5.12:compile
++- org.apache.pdfbox:pdfbox:jar:1.6.0:compile
+|  +- org.apache.pdfbox:fontbox:jar:1.6.0:compile
+|  +- org.apache.pdfbox:jempbox:jar:1.6.0:compile
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- net.lightbody.bmp:browsermob-proxy:jar:2.0-beta-8:compile
+|  +- org.slf4j:slf4j-jdk14:jar:1.5.3:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.3:compile - omitted for conflict with 1.6.2)
+|  +- com.google.sitebricks:sitebricks:jar:0.8.3:compile
+|  |  +- org.mvel:mvel2:jar:2.0.18:compile
+|  |  +- (com.google.guava:guava:jar:r07:compile - omitted for conflict with 15.0)
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:compile - omitted for duplicate)
+|  |  +- com.intellij:annotations:jar:7.0.3:compile
+|  |  +- (com.google.inject:guice:jar:2.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:2.0:compile - omitted for conflict with 3.0)
+|  |  +- (com.google.inject.extensions:guice-multibindings:jar:2.0:compile - omitted for conflict with 3.0)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  +- jaxen:jaxen:jar:1.1.1:compile
+|  |  |  +- (jaxen:jaxen:jar:1.1-beta-6:compile - omitted for cycle)
+|  |  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  +- (jaxen:jaxen:jar:1.0-FCS:compile - omitted for cycle)
+|  |  |  +- jdom:jdom:jar:1.0:compile
+|  |  |  \- xom:xom:jar:1.0:compile
+|  |  |     +- xerces:xmlParserAPIs:jar:2.6.2:compile
+|  |  |     +- (xalan:xalan:jar:2.6.0:compile - omitted for conflict with 2.7.2)
+|  |  |     \- (com.ibm.icu:icu4j:jar:2.6.1:compile - omitted for conflict with 3.8)
+|  |  +- saxpath:saxpath:jar:1.0-FCS:compile
+|  |  +- javax.servlet:servlet-api:jar:2.5:compile
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.3.2:compile - omitted for conflict with 1.7.1)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.3.2:compile - omitted for conflict with 1.7.1)
+|  |  +- (org.jsoup:jsoup:jar:1.4.1:compile - omitted for conflict with 1.8.3)
+|  |  \- org.freemarker:freemarker:jar:2.3.10:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for conflict with 2.0)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.7.1:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.7.1:compile - omitted for duplicate)
+|  +- net.sf.jopt-simple:jopt-simple:jar:3.2:compile
+|  +- org.apache.ant:ant:jar:1.8.2:compile
+|  |  \- org.apache.ant:ant-launcher:jar:1.8.2:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.47:compile
+|  +- org.eclipse.jetty:jetty-server:jar:7.3.0.v20110203:compile
+|  |  +- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:7.3.0.v20110203:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:7.3.0.v20110203:compile
+|  |     \- (org.eclipse.jetty:jetty-io:jar:7.3.0.v20110203:compile - omitted for conflict with 9.2.15.v20160210)
+|  +- org.eclipse.jetty:jetty-servlet:jar:7.3.0.v20110203:compile
+|  |  \- org.eclipse.jetty:jetty-security:jar:7.3.0.v20110203:compile
+|  |     \- (org.eclipse.jetty:jetty-server:jar:7.3.0.v20110203:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for conflict with 2.0)
+|  +- com.google.inject.extensions:guice-servlet:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for conflict with 2.0)
+|  \- (net.jcip:jcip-annotations:jar:1.0:compile - omitted for duplicate)
++- com.google.guava:guava:jar:15.0:compile
++- io.appium:java-client:jar:4.1.2:compile
+|  +- (org.seleniumhq.selenium:selenium-java:jar:2.53.1:compile - omitted for conflict with 3.0.1)
+|  +- com.google.code.gson:gson:jar:2.7:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.2)
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 15.0)
+|  +- commons-validator:commons-validator:jar:1.5.1:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for conflict with 1.8.0)
+|  |  +- (commons-digester:commons-digester:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for conflict with 3.2.1)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- cglib:cglib-nodep:jar:3.2.4:compile
+|  +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - omitted for conflict with 4.2.4.RELEASE)
+|  \- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- de.sstoehr:har-reader:jar:1.0.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile - omitted for duplicate)
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- org.jsoup:jsoup:jar:1.8.3:compile
++- mysql:mysql-connector-java:jar:5.1.34:compile
++- ru.yandex.qatools.allure:allure-testng-adaptor:jar:1.4.14:compile
+|  +- (org.testng:testng:jar:6.8:compile - omitted for conflict with 6.8.21)
+|  \- ru.yandex.qatools.allure:allure-java-aspects:jar:1.4.14:compile
+|     +- ru.yandex.qatools.allure:allure-java-adaptor-api:jar:1.4.14:compile
+|     |  +- ru.yandex.qatools.allure:allure-java-annotations:jar:1.4.14:compile
+|     |  |  \- ru.yandex.qatools.allure:allure-model:jar:1.4.14:compile
+|     |  |     +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.9.3:compile
+|     |  |     +- ru.yandex.qatools.properties:properties-loader:jar:1.5:compile
+|     |  |     |  \- commons-beanutils:commons-beanutils-core:jar:1.8.3:compile
+|     |  |     |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|     |  |     \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.2)
+|     |  \- org.apache.tika:tika-core:jar:1.7:compile
+|     \- org.aspectj:aspectjrt:jar:1.8.3:compile
++- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  \- junit:junit:jar:4.10:compile
+|     \- (org.hamcrest:hamcrest-core:jar:1.1:compile - omitted for conflict with 1.3)
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.apache.poi:poi:jar:3.14:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- io.rest-assured:rest-assured:jar:3.0.0:test
+|  +- (org.codehaus.groovy:groovy:jar:2.4.6:compile - scope updated from test; omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.6:test
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.1:compile - scope updated from test; omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- (io.rest-assured:json-path:jar:3.0.0:test - omitted for duplicate)
+|  \- io.rest-assured:xml-path:jar:3.0.0:test
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.4.6:test - omitted for duplicate)
+|     +- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|     +- (io.rest-assured:rest-assured-common:jar:3.0.0:test - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.4:test - omitted for duplicate)
+|     \- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test - omitted for duplicate)
++- io.rest-assured:json-path:jar:3.0.0:compile
+|  +- org.codehaus.groovy:groovy-json:jar:2.4.6:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.6:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy:jar:2.4.6:compile
+|  \- io.rest-assured:rest-assured-common:jar:3.0.0:compile
+|     +- (org.codehaus.groovy:groovy:jar:2.4.6:compile - omitted for duplicate)
+|     \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+\- io.github.bonigarcia:webdrivermanager:jar:1.4.10:compile
+   +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.6.2)
+   +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.0.1)
+   +- (com.google.code.gson:gson:jar:2.3.1:compile - omitted for conflict with 2.7)
+   +- com.typesafe:config:jar:1.2.1:compile
+   +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+   +- org.rauschig:jarchivelib:jar:0.7.1:compile
+   |  \- org.apache.commons:commons-compress:jar:1.9:compile
+   +- (org.jsoup:jsoup:jar:1.9.2:compile - omitted for conflict with 1.8.3)
+   +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 15.0)
+   \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+

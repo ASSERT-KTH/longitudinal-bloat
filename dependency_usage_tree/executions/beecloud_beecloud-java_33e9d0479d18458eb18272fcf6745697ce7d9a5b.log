@@ -1,0 +1,60 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+cn.beecloud:beecloud-java-sdk-beta:jar:1.0.2
++- org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.5.1:compile
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:compile
+|  +- org.glassfish.grizzly:grizzly-http-server:jar:2.3.8:compile
+|  |  \- org.glassfish.grizzly:grizzly-http:jar:2.3.8:compile
+|  |     \- org.glassfish.grizzly:grizzly-framework:jar:2.3.8:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.5.1:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  +- com.google.guava:guava:jar:14.0.1:compile
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.2.0-b21:compile
+|  |  |  \- org.glassfish.hk2:hk2-utils:jar:2.2.0-b21:compile
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  +- org.glassfish.hk2:hk2-locator:jar:2.2.0-b21:compile
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2.external:asm-all-repackaged:jar:2.2.0-b21:compile
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.hk2.external:cglib:jar:2.2.0-b21:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.core:jersey-server:jar:2.5.1:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.5.1:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.core:jersey-client:jar:2.5.1:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.5.1:compile - omitted for duplicate)
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:hk2-locator:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.2.0-b21:compile - omitted for duplicate)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
++- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.5.1:compile
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.5.1:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-xc:jar:1.9.13:compile
+|     +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|     \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.6:compile
++- net.sf.json-lib:json-lib:jar:jdk15:2.2.3:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1.1)
+|  +- commons-collections:commons-collections:jar:3.2:compile
+|  +- commons-lang:commons-lang:jar:2.4:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.4)
+\- junit:junit:jar:4.9:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test
+

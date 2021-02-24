@@ -1,0 +1,15 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Unable to correctly install elimu-ai/webapp
+/main.py", line 25, in <module>
+    run()
+  File "./main.py", line 22, in run
+    subprocess.call("./%s %s" % (program, " ".join(sys.argv[2:])), shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 325, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.7/subprocess.py", line 990, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.7/subprocess.py", line 1624, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.7/subprocess.py", line 1582, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

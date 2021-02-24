@@ -1,0 +1,68 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.dynacrongroup:parallel-webtest:jar:1.0.20
++- junit:junit-dep:jar:4.10:compile
++- org.hamcrest:hamcrest-integration:jar:1.3.RC2:compile
+|  \- org.hamcrest:hamcrest-library:jar:1.3.RC2:compile
+|     \- org.hamcrest:hamcrest-core:jar:1.3.RC2:compile
++- com.google.guava:guava:jar:r09:compile
++- org.seleniumhq.selenium:selenium-java:jar:2.18.0:compile
+|  +- org.seleniumhq.selenium:selenium-android-driver:jar:2.18.0:compile
+|  |  \- org.seleniumhq.selenium:selenium-remote-driver:jar:2.18.0:compile
+|  |     +- cglib:cglib-nodep:jar:2.1_3:compile
+|  |     +- org.json:json:jar:20080701:compile
+|  |     +- (org.seleniumhq.selenium:selenium-api:jar:2.18.0:compile - omitted for duplicate)
+|  |     +- (org.apache.httpcomponents:httpclient:jar:4.1.2:compile - omitted for duplicate)
+|  |     +- (com.google.guava:guava:jar:11.0.1:compile - omitted for conflict with r09)
+|  |     +- (org.apache.commons:commons-exec:jar:1.1:compile - omitted for duplicate)
+|  |     +- (net.java.dev.jna:jna:jar:3.4.0:compile - omitted for duplicate)
+|  |     \- (net.java.dev.jna:platform:jar:3.4.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.18.0:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.18.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.18.0:compile
+|  |  +- org.seleniumhq.selenium:selenium-api:jar:2.18.0:compile
+|  |  |  \- (com.google.guava:guava:jar:11.0.1:compile - omitted for conflict with r09)
+|  |  +- net.sourceforge.htmlunit:htmlunit:jar:2.9:compile
+|  |  |  +- xalan:xalan:jar:2.7.1:compile
+|  |  |  |  \- xalan:serializer:jar:2.7.1:compile
+|  |  |  |     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  +- org.apache.httpcomponents:httpmime:jar:4.1.2:compile
+|  |  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.1.2:compile - omitted for duplicate)
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- commons-codec:commons-codec:jar:1.4:compile
+|  |  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.9:compile
+|  |  |  +- xerces:xercesImpl:jar:2.9.1:compile
+|  |  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.15:compile
+|  |  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.5:compile
+|  |  |  |  \- org.w3c.css:sac:jar:1.3:compile
+|  |  |  +- (commons-io:commons-io:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.1.2:compile
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.1.2:compile
+|  |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.18.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.18.0:compile - omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.0.1:compile
+|  |  \- org.apache.commons:commons-exec:jar:1.1:compile
+|  +- org.seleniumhq.selenium:selenium-ie-driver:jar:2.18.0:compile
+|  |  +- net.java.dev.jna:jna:jar:3.4.0:compile
+|  |  +- net.java.dev.jna:platform:jar:3.4.0:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.18.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-iphone-driver:jar:2.18.0:compile
+|  |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.18.0:compile - omitted for duplicate)
+|  \- org.seleniumhq.selenium:selenium-support:jar:2.18.0:compile
+|     \- (org.seleniumhq.selenium:selenium-api:jar:2.18.0:compile - omitted for duplicate)
++- net.sf.jtidy:jtidy:jar:r938:compile
++- com.googlecode.json-simple:json-simple:jar:1.1:compile
++- ch.qos.logback:logback-classic:jar:1.0.0:compile
+|  \- ch.qos.logback:logback-core:jar:1.0.0:compile
++- org.slf4j:slf4j-api:jar:1.6.4:compile
++- org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.6.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.1.1:provided (scope not updated to compile)
+\- org.mockito:mockito-all:jar:1.9.0:test
+

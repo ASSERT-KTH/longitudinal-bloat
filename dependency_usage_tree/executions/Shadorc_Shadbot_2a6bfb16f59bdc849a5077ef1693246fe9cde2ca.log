@@ -1,0 +1,67 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+me.shadorc.discordbot:discordbot:jar:1.7.5
++- com.github.austinv11:Discord4J:jar:2.9:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for conflict with 1.7.25)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.3.v20170317:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:compile
+|  |  +- org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-client:jar:9.4.3.v20170317:compile
+|  |  |  +- org.eclipse.jetty:jetty-http:jar:9.4.3.v20170317:compile
+|  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty.websocket:websocket-common:jar:9.4.3.v20170317:compile
+|  |     +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.3.v20170317:compile
+|  |     +- (org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  |     \- (org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  +- net.jodah:typetools:jar:0.4.8:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.7:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile
+|  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  +- net.java.dev.jna:jna:jar:4.3.0:compile
+|  +- com.googlecode.soundlibs:mp3spi:jar:1.9.5-2:compile
+|  |  +- com.googlecode.soundlibs:jlayer:jar:1.0.1-2:compile
+|  |  |  \- junit:junit:jar:3.8.2:compile
+|  |  \- (com.googlecode.soundlibs:tritonus-share:jar:0.3.7-3:compile - omitted for duplicate)
+|  +- org.jcraft:jorbis:jar:0.0.17:compile
+|  +- jflac:jflac:jar:1.3:compile
+|  +- com.googlecode.soundlibs:tritonus-share:jar:0.3.7-3:compile
+|  +- org.tritonus:tritonus-dsp:jar:0.3.6:compile
+|  +- com.vdurmont:emoji-java:jar:3.2.0:compile
+|  |  \- org.json:json:jar:20140107:compile
+|  \- com.koloboke:koloboke-impl-common-jdk8:jar:1.0.0:compile
+|     \- com.koloboke:koloboke-api-jdk8:jar:1.0.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.twitter4j:twitter4j-core:jar:4.0.6:compile
++- com.sedmelluq:lavaplayer:jar:1.2.43:compile
+|  +- com.sedmelluq:lavaplayer-common:jar:1.0.5:runtime
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - omitted for conflict with 1.7.25)
+|  |  \- (commons-io:commons-io:jar:2.5:runtime - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - omitted for conflict with 1.7.25)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:runtime - omitted for conflict with 4.5.3)
+|  +- (commons-io:commons-io:jar:2.5:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - scope updated from runtime; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.jsoup:jsoup:jar:1.10.1:runtime - omitted for conflict with 1.10.3)
+|  \- net.iharder:base64:jar:2.3.9:runtime
++- openweathermap:owm-japis:jar:2.5.0.5:compile
++- org.jsoup:jsoup:jar:1.10.3:compile
++- com.michaelwflaherty:cleverbotapi:jar:1.0.2:compile
+|  \- com.google.code.gson:gson:jar:2.8.0:compile
+\- shadorc:overwatch4j:jar:0.1.2:compile
+

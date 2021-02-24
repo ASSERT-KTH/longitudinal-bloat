@@ -1,0 +1,27 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+error: unable to write file sandbox/all.png
+error: unable to write file sandbox/closer.png
+error: unable to write file sandbox/hipchat.png
+error: unable to write file sandbox/rendered_form.png
+error: unable to write file sandbox/repo.png
+error: unable to write file setup-atlassian-sdk.sh
+fatal: cannot create directory at 'src': No space left on device
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry the checkout with 'git checkout -f HEAD'
+
+/bin/sh: 1: cd: can't cd to None
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/bin/sh: 1: cd: can't cd to None
+OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+   25
+Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 30, in clone
+    subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpz9kbbdf9;git clone -q --depth=1 https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket.git;' returned non-zero exit status 128.
+Unable to correctly install tomasbjerre/pull-request-notifier-for-bitbucket

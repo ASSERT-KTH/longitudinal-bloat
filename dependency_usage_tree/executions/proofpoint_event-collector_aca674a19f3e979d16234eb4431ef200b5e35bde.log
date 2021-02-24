@@ -1,0 +1,165 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.proofpoint.collector:calligraphus-collector:jar:1.2
++- com.proofpoint.platform:jmx-http-rpc-experimental:jar:0.49:compile
+|  +- (com.proofpoint.platform:discovery-experimental:jar:0.49:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.0:compile
+|     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile - omitted for duplicate)
++- net.java.dev.jets3t:jets3t:jar:0.8.1:compile
+|  +- commons-codec:commons-codec:jar:1.3:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  \- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
++- org.iq80.snappy:snappy:jar:0.1:compile
++- javax.validation:validation-api:jar:1.0.0.GA:compile
++- org.hibernate:hibernate-validator:jar:4.0.2.GA:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  +- javax.xml.bind:jaxb-api:jar:2.1:compile
+|  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.1.3:compile
+|     \- (javax.xml.bind:jaxb-api:jar:2.1:compile - omitted for duplicate)
++- com.google.inject:guice:jar:3.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
++- com.proofpoint.platform:bootstrap:jar:0.49:compile
+|  +- (com.proofpoint.platform:log:jar:0.49:compile - omitted for duplicate)
+|  +- com.proofpoint.platform:configuration:jar:0.49:compile
+|  |  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-validator:jar:4.0.2.GA:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  \- cglib:cglib-nodep:jar:2.2:compile
+|  +- (com.proofpoint.platform:jmx:jar:0.49:compile - omitted for duplicate)
+|  \- (com.proofpoint.platform:testing:jar:0.49:test - scope managed from compile; omitted for duplicate)
++- com.proofpoint.platform:discovery-experimental:jar:0.49:compile
+|  +- com.proofpoint.platform:http-client-experimental:jar:0.49:compile
+|  |  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  |  +- (com.proofpoint.platform:json:jar:0.49:compile - omitted for duplicate)
+|  |  +- (com.proofpoint.platform:stats:jar:0.49:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:jaxrs:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  +- com.proofpoint.platform:node:jar:0.49:compile
+|  |  +- (com.proofpoint.platform:log:jar:0.49:compile - omitted for duplicate)
+|  |  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- (org.weakref:jmxutils:jar:1.8:compile - omitted for duplicate)
+|  |  \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  +- com.proofpoint.platform:stats:jar:0.49:compile
+|  |  +- (com.proofpoint.platform:units:jar:0.49:compile - omitted for duplicate)
+|  |  +- (org.weakref:jmxutils:jar:1.8:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-math:jar:2.2:compile
+|  +- com.proofpoint.platform:json:jar:0.49:compile
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.0:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.ning:async-http-client:jar:1.6.5:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:10.0:compile
+|     \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
++- com.proofpoint.platform:event-experimental:jar:0.49:compile
+|  +- (com.proofpoint.platform:http-client-experimental:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:discovery-experimental:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:jaxrs:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:node:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:stats:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:json:jar:0.49:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.ning:async-http-client:jar:1.6.5:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
++- com.proofpoint.platform:log:jar:0.49:compile
+|  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.6.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.slf4j:jul-to-slf4j:jar:1.6.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.6.1:compile
+|  +- ch.qos.logback:logback-classic:jar:0.9.28:compile
+|  |  +- ch.qos.logback:logback-core:jar:0.9.28:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
++- com.proofpoint.platform:http-server:jar:0.49:compile
+|  +- (com.proofpoint.platform:log:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:node:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-servlet:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.eclipse.jetty:jetty-server:jar:8.0.3.v20111011:compile
+|  |  +- org.mortbay.jetty:servlet-api:jar:3.0.20100224:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:8.0.3.v20111011:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:8.0.3.v20111011:compile
+|  |     \- org.eclipse.jetty:jetty-io:jar:8.0.3.v20111011:compile
+|  |        \- (org.eclipse.jetty:jetty-util:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:8.0.3.v20111011:compile
+|  +- org.eclipse.jetty:jetty-servlet:jar:8.0.3.v20111011:compile
+|  |  \- (org.eclipse.jetty:jetty-security:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlets:jar:8.0.3.v20111011:compile
+|  |  +- (org.eclipse.jetty:jetty-continuation:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-client:jar:8.0.3.v20111011:compile
+|  |  |  \- (org.eclipse.jetty:jetty-http:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-util:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-security:jar:8.0.3.v20111011:compile
+|  |  \- (org.eclipse.jetty:jetty-server:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-jmx:jar:8.0.3.v20111011:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:8.0.3.v20111011:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:1.6.2:compile
+|  \- (com.proofpoint.platform:stats:jar:0.49:compile - omitted for duplicate)
++- com.proofpoint.platform:jaxrs:jar:0.49:compile
+|  +- (com.proofpoint.platform:http-server:jar:0.49:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-servlet:jar:3.0:compile - omitted for duplicate)
+|  +- com.sun.jersey.contribs:jersey-guice:jar:1.9.1:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:compile - omitted for duplicate)
+|  |  \- (com.sun.jersey:jersey-server:jar:1.9.1:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.9.1:compile
+|  |  +- asm:asm:jar:3.1:compile
+|  |  \- com.sun.jersey:jersey-core:jar:1.9.1:compile
+|  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.0:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile - omitted for duplicate)
+|  \- (com.proofpoint.platform:json:jar:0.49:compile - omitted for duplicate)
++- com.proofpoint.platform:jmx:jar:0.49:compile
+|  +- (com.proofpoint.platform:log:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:experimental:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:configuration:jar:0.49:compile - omitted for duplicate)
+|  +- org.weakref:jmxutils:jar:1.8:compile
+|  \- (com.google.inject.extensions:guice-multibindings:jar:3.0:compile - omitted for duplicate)
++- com.proofpoint.platform:units:jar:0.49:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-jaxrs:jar:1.9.0:compile
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile - omitted for duplicate)
+|  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.0:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile
++- com.proofpoint.platform:experimental:jar:0.49:compile
+|  +- (com.proofpoint.platform:discovery-experimental:jar:0.49:compile - omitted for duplicate)
+|  +- (com.proofpoint.platform:json:jar:0.49:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.ning:async-http-client:jar:1.6.5:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.0:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:10.0:compile - omitted for duplicate)
++- com.ning:async-http-client:jar:1.6.5:compile
+|  +- org.jboss.netty:netty:jar:3.2.5.Final:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for conflict with 1.6.1)
++- com.proofpoint.platform:launcher:tar.gz:bin:0.49:compile
++- org.testng:testng:jar:6.0.1:test
+|  +- junit:junit:jar:3.8.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
+\- com.proofpoint.platform:testing:jar:0.49:test
+   +- (com.google.guava:guava:jar:10.0:test - omitted for duplicate)
+   \- (org.testng:testng:jar:6.0.1:test - omitted for duplicate)
+

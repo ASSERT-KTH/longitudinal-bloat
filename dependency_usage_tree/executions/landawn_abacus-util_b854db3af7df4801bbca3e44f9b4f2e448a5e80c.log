@@ -1,0 +1,80 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.landawn:abacus-util:jar:1.8.6
++- jdk.tools:jdk.tools:jar:1.8:system
++- org.projectlombok:lombok:jar:1.18.8:provided
++- com.google.guava:guava:jar:28.0-jre:provided
+|  +- com.google.guava:failureaccess:jar:1.0.1:provided
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:provided
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+|  +- org.checkerframework:checker-qual:jar:2.8.1:provided
+|  +- com.google.errorprone:error_prone_annotations:jar:2.3.2:provided
+|  +- com.google.j2objc:j2objc-annotations:jar:1.3:provided
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:provided
++- org.apache.commons:commons-lang3:jar:3.9:provided
++- net.spy:spymemcached:jar:2.12.3:provided
++- redis.clients:jedis:jar:3.0.1:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - omitted for conflict with 1.7.26)
+|  \- org.apache.commons:commons-pool2:jar:2.4.3:provided
++- com.mchange:c3p0:jar:0.9.5.4:provided
+|  \- com.mchange:mchange-commons-java:jar:0.2.15:provided
++- org.ehcache:ehcache:jar:3.8.0:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.22)
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:provided
+|     +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|     |  \- (javax.activation:javax.activation-api:jar:1.2.0:provided - omitted for duplicate)
+|     +- org.glassfish.jaxb:txw2:jar:2.3.1:provided
+|     +- com.sun.istack:istack-commons-runtime:jar:3.0.7:provided
+|     +- org.jvnet.staxex:stax-ex:jar:1.8:provided
+|     +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:provided
+|     \- javax.activation:javax.activation-api:jar:1.2.0:provided
++- com.github.ben-manes.caffeine:caffeine:jar:2.7.0:provided
+|  +- (org.checkerframework:checker-qual:jar:2.6.0:provided - omitted for conflict with 2.8.1)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.3.3:provided - omitted for conflict with 2.3.2)
++- org.apache.commons:commons-dbcp2:jar:2.6.0:provided
+|  +- (org.apache.commons:commons-pool2:jar:2.6.1:provided - omitted for conflict with 2.4.3)
+|  \- commons-logging:commons-logging:jar:1.2:provided
++- commons-dbcp:commons-dbcp:jar:1.4:provided
+|  \- commons-pool:commons-pool:jar:1.5.4:provided
++- com.zaxxer:HikariCP:jar:3.3.1:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.22)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.9:provided
++- org.slf4j:slf4j-api:jar:1.7.26:provided
++- org.apache.logging.log4j:log4j-core:jar:2.12.0:provided
+|  \- org.apache.logging.log4j:log4j-api:jar:2.12.0:provided
++- javax:javaee-api:jar:8.0.1:provided
+|  \- com.sun.mail:javax.mail:jar:1.6.2:provided
+|     \- javax.activation:activation:jar:1.1:provided
++- com.squareup.okhttp3:okhttp:jar:3.14.2:provided
+|  \- com.squareup.okio:okio:jar:1.17.2:provided
++- mysql:mysql-connector-java:jar:5.1.47:provided
++- org.springframework:spring-jdbc:jar:5.1.8.RELEASE:provided
+|  +- org.springframework:spring-beans:jar:5.1.8.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:5.1.8.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.1.8.RELEASE:provided
+|  |  \- org.springframework:spring-jcl:jar:5.1.8.RELEASE:provided
+|  \- org.springframework:spring-tx:jar:5.1.8.RELEASE:provided
+|     +- (org.springframework:spring-beans:jar:5.1.8.RELEASE:provided - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:5.1.8.RELEASE:provided - omitted for duplicate)
++- com.esotericsoftware:reflectasm:jar:1.11.9:provided
++- com.h2database:h2:jar:1.4.197:test
++- org.junit.jupiter:junit-jupiter-engine:jar:5.5.1:test
+|  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.5.1:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.5.1:test
+|  |     \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.5.1:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+|     +- (org.opentest4j:opentest4j:jar:1.2.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.5.1:test - omitted for duplicate)
+\- org.junit.platform:junit-platform-runner:jar:1.5.1:test
+   +- junit:junit:jar:4.12:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+   +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+   +- org.junit.platform:junit-platform-launcher:jar:1.5.1:test
+   |  +- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+   |  \- (org.junit.platform:junit-platform-engine:jar:1.5.1:test - omitted for duplicate)
+   \- org.junit.platform:junit-platform-suite-api:jar:1.5.1:test
+      \- (org.apiguardian:apiguardian-api:jar:1.1.0:test - omitted for duplicate)
+

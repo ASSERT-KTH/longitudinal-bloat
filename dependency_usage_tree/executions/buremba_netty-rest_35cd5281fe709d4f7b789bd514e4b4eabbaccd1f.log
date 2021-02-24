@@ -1,0 +1,29 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.rakam:netty-rest:jar:0.73
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.4.5:compile
++- io.airlift:log:jar:0.117:compile
+|  \- javax.inject:javax.inject:jar:1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.4.5:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.5:compile - omitted for duplicate)
++- com.jcraft:jzlib:jar:1.1.2:compile
++- io.netty:netty-all:jar:4.0.33.Final:compile
++- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
++- io.swagger:swagger-core:jar:1.5.9:compile
+|  +- org.apache.commons:commons-lang3:jar:3.2.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.5:compile - omitted for conflict with 2.4.0)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.5:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.5:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.5:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.12:compile
+|  +- io.swagger:swagger-models:jar:1.5.9:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.5:compile - omitted for conflict with 2.4.0)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for duplicate)
+|  |  \- io.swagger:swagger-annotations:jar:1.5.9:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+

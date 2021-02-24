@@ -1,0 +1,17 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+fatal: failed to write to /tmp/tmpfba07gp8/BattleArena/.git/shallow.lock: No space left on device
+/bin/sh: 1: cd: can't cd to None
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/bin/sh: 1: cd: can't cd to None
+OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+   18
+Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+
+Unable to correctly install alkarinv/BattleArena
+Traceback (most recent call last):
+  File "/home/jdbl/core/Project.py", line 30, in clone
+    subprocess.check_call(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 347, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpfba07gp8;git clone -q --depth=1 https://github.com/alkarinv/BattleArena.git;' returned non-zero exit status 128.

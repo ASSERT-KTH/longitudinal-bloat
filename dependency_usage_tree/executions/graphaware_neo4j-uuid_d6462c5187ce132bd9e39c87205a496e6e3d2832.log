@@ -1,0 +1,309 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.graphaware.neo4j:uuid:jar:2.3.3.37.8
++- com.graphaware.neo4j:runtime:jar:2.3.3.37:provided
+|  +- com.graphaware.neo4j:runtime-api:jar:2.3.3.37:provided
+|  |  +- (com.graphaware.neo4j:writer-api:jar:2.3.3.37:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
+|  +- com.graphaware.neo4j:writer-api:jar:2.3.3.37:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
+|  +- com.graphaware.neo4j:writer:jar:2.3.3.37:provided
+|  |  +- (com.graphaware.neo4j:writer-api:jar:2.3.3.37:provided - omitted for duplicate)
+|  |  +- (com.graphaware.neo4j:tx-executor:jar:2.3.3.37:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
+|  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- (com.graphaware.neo4j:tx-api:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- org.apache.commons:commons-math3:jar:3.5:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.6; scope managed from test; omitted for duplicate)
++- com.graphaware.neo4j:tx-api:jar:2.3.3.37:provided
+|  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- (com.graphaware.neo4j:tx-executor:jar:2.3.3.37:provided - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
++- com.graphaware.neo4j:tx-executor:jar:2.3.3.37:provided
+|  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.2.2.RELEASE:provided
+|  +- org.springframework:spring-beans:jar:4.2.2.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.2.2.RELEASE:provided
+|  |  +- org.springframework:spring-aop:jar:4.2.2.RELEASE:provided
+|  |  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.2.2.RELEASE:provided
+|  |  \- commons-logging:commons-logging:jar:1.2:provided
+|  +- org.springframework:spring-expression:jar:4.2.2.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  \- org.springframework:spring-web:jar:4.2.2.RELEASE:provided
+|     +- (org.springframework:spring-aop:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - omitted for duplicate)
++- com.graphaware.neo4j:server:jar:2.3.3.37:provided
+|  +- com.graphaware.neo4j:api:jar:2.3.3.37:provided
+|  |  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:provided - scope managed from test; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
+|  +- (com.graphaware.neo4j:runtime-api:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-webmvc:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
++- com.graphaware.neo4j:common:jar:2.3.3.37:provided
+|  +- com.esotericsoftware.kryo:kryo:jar:2.16:provided
+|  |  +- com.esotericsoftware.reflectasm:reflectasm:jar:shaded:1.06:provided
+|  |  +- com.esotericsoftware.minlog:minlog:jar:1.2:provided
+|  |  \- org.objenesis:objenesis:jar:1.2:provided
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:provided
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:provided
+|  |  +- (commons-logging:commons-logging:jar:1.2:provided - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.2.2.RELEASE:provided - omitted for duplicate)
+|  +- com.eaio.uuid:uuid:jar:3.2:provided
+|  +- commons-codec:commons-codec:jar:1.10:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - omitted for duplicate)
++- org.neo4j:neo4j:jar:2.3.3:provided
+|  +- org.neo4j:neo4j-kernel:jar:2.3.3:provided
+|  |  +- org.neo4j:neo4j-primitive-collections:jar:2.3.3:provided
+|  |  |  +- (org.neo4j:neo4j-unsafe:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  \- org.neo4j:neo4j-function:jar:2.3.3:provided
+|  |  +- org.neo4j:neo4j-io:jar:2.3.3:provided
+|  |  |  +- (org.neo4j:neo4j-unsafe:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:provided - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-csv:jar:2.3.3:provided
+|  |  |  \- (org.neo4j:neo4j-primitive-collections:jar:2.3.3:provided - omitted for duplicate)
+|  |  \- org.neo4j:neo4j-logging:jar:2.3.3:provided
+|  |     \- (org.neo4j:neo4j-io:jar:2.3.3:provided - omitted for duplicate)
+|  +- org.neo4j:neo4j-lucene-index:jar:2.3.3:provided
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  \- org.apache.lucene:lucene-core:jar:3.6.2:provided
+|  +- org.neo4j:neo4j-graph-algo:jar:2.3.3:provided
+|  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  +- org.neo4j:neo4j-udc:jar:2.3.3:provided
+|  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  +- org.neo4j:neo4j-graph-matching:jar:2.3.3:provided
+|  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  +- org.neo4j:neo4j-cypher:jar:2.3.3:provided
+|  |  +- org.scala-lang:scala-library:jar:2.11.7:provided
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.7:provided
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:provided
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:provided - omitted for conflict with 2.11.7)
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-lucene-index:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graph-matching:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graph-algo:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-codegen:jar:2.3.3:provided
+|  |  |  +- org.ow2.asm:asm:jar:5.0.2:provided
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:provided - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-compiler-1.9_2.11:jar:2.0.5:provided
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.2_2.11:jar:2.2.6:provided
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:provided - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:provided - omitted for duplicate)
+|  |  |  \- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4:provided - omitted for conflict with 1.4.2)
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.3:provided
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.3:provided
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:provided - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:provided - omitted for duplicate)
+|  |  |  \- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:provided - omitted for duplicate)
+|  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:provided
+|  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:provided
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:provided
+|  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:provided
+|  +- org.neo4j:neo4j-jmx:jar:2.3.3:provided
+|  \- org.neo4j:neo4j-consistency-check:jar:2.3.3:provided
+|     +- org.neo4j:neo4j-consistency-check-legacy:jar:2.3.3:provided
+|     |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|     |  \- (org.neo4j:neo4j-lucene-index:jar:2.3.3:provided - omitted for duplicate)
+|     +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|     \- (org.neo4j:neo4j-lucene-index:jar:2.3.3:provided - omitted for duplicate)
++- com.graphaware.neo4j:tests:jar:2.3.3.37:test
+|  +- org.neo4j:neo4j-kernel:test-jar:tests:2.3.3:test
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-io:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-csv:jar:2.3.3:test - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-logging:jar:2.3.3:test - omitted for duplicate)
+|  +- org.neo4j:neo4j-io:test-jar:tests:2.3.3:test
+|  |  +- org.neo4j:neo4j-unsafe:jar:2.3.3:test
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.3.2:test
+|  +- org.neo4j.app:neo4j-server-enterprise:test-jar:tests:2.3.3:test
+|  |  +- org.neo4j.app:neo4j-server-advanced:jar:2.3.3:test
+|  |  |  +- (org.neo4j.app:neo4j-server:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-advanced:jar:2.3.3:test
+|  |  |  |  +- (org.neo4j:neo4j:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  |  |  \- org.neo4j:neo4j-management:jar:2.3.3:test
+|  |  |  \- (org.neo4j:neo4j-shell:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j.app:neo4j-server:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- org.neo4j:neo4j-enterprise:jar:2.3.3:provided (scope managed from test)
+|  |  |  +- (org.neo4j:neo4j-advanced:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-query-logging:jar:2.3.3:provided
+|  |  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-com:jar:2.3.3:provided
+|  |  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  +- org.neo4j:neo4j-enterprise-kernel:jar:2.3.3:provided
+|  |  |  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  \- io.netty:netty:jar:3.6.3.Final:provided
+|  |  |  +- org.neo4j:neo4j-backup:jar:2.3.3:provided
+|  |  |  |  +- (org.neo4j:neo4j-com:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  +- org.neo4j:neo4j-cluster:jar:2.3.3:provided
+|  |  |  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  |  \- (io.netty:netty:jar:3.6.3.Final:provided - omitted for duplicate)
+|  |  |  |  \- (org.neo4j:neo4j-consistency-check:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-ha:jar:2.3.3:provided
+|  |  |  |  +- (org.neo4j:neo4j-enterprise-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  +- (org.neo4j:neo4j-backup:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  +- (org.neo4j:neo4j-lucene-index:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  +- (org.neo4j:neo4j-com:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  |  \- (org.neo4j:neo4j-cluster:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  \- org.neo4j:neo4j-metrics:jar:2.3.3:provided
+|  |  |     +- io.dropwizard.metrics:metrics-core:jar:3.1.2:provided
+|  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  |     +- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:provided
+|  |  |     |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:provided - omitted for duplicate)
+|  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  |     \- io.dropwizard.metrics:metrics-ganglia:jar:3.1.2:provided
+|  |  |        +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:provided - omitted for duplicate)
+|  |  |        +- info.ganglia.gmetric4j:gmetric4j:jar:1.0.7:provided
+|  |  |        |  \- org.acplt:oncrpc:jar:1.0.7:provided
+|  |  |        \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  \- org.neo4j:neo4j-shell:jar:2.3.3:test
+|  |     \- jline:jline:jar:2.12:test
+|  +- org.neo4j.app:neo4j-server:test-jar:tests:2.3.3:test
+|  |  +- org.neo4j:neo4j:pom:2.3.3:test
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-lucene-index:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graph-algo:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-udc:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graph-matching:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher:jar:2.3.3:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-jmx:jar:2.3.3:test - omitted for duplicate)
+|  |  |  \- (org.neo4j:neo4j-consistency-check:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:test - omitted for duplicate)
+|  |  +- org.neo4j:server-api:jar:2.3.3:provided
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  |  +- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:provided
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.10:provided - omitted for duplicate)
+|  |  |  \- (commons-digester:commons-digester:jar:2.1:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-cypher:jar:2.3.3:test - omitted for duplicate)
+|  |  +- org.neo4j.app:neo4j-browser:jar:2.3.3:test
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-shell:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.2:provided - scope managed from test; omitted for duplicate)
+|  |  +- ch.qos.logback:logback-access:jar:1.1.2:test
+|  |  |  \- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.2.4.v20141103:provided
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  |  |  +- org.eclipse.jetty:jetty-http:jar:9.2.4.v20141103:provided
+|  |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.2.4.v20141103:provided
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.4.v20141103:provided
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.4.v20141103:provided - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:test
+|  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.9.v20150224:test
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:test - omitted for conflict with 9.2.4.v20141103)
+|  |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.4.v20141103:provided (version managed from 9.2.9.v20150224; scope managed from test)
+|  |  |     \- org.eclipse.jetty:jetty-security:jar:9.2.4.v20141103:provided
+|  |  |        \- (org.eclipse.jetty:jetty-server:jar:9.2.4.v20141103:provided - version managed from 9.2.9.v20150224; scope managed from test; omitted for duplicate)
+|  |  +- com.sun.jersey:jersey-server:jar:1.19:test
+|  |  |  \- com.sun.jersey:jersey-core:jar:1.19:test
+|  |  +- com.sun.jersey:jersey-servlet:jar:1.19:test
+|  |  |  \- (com.sun.jersey:jersey-server:jar:1.19:test - omitted for duplicate)
+|  |  +- commons-configuration:commons-configuration:jar:1.10:test
+|  |  |  +- commons-lang:commons-lang:jar:2.6:test
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  |  +- io.netty:netty-all:jar:4.0.28.Final:test
+|  |  +- commons-digester:commons-digester:jar:2.1:test
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:test
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - scope managed from test; omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:test
+|  |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+|  |  |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+|  |  |     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test - omitted for duplicate)
+|  |  +- org.rrd4j:rrd4j:jar:2.2:test
+|  |  +- org.mozilla:rhino:jar:1.7R4:test
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:test
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.52:test
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:test - omitted for duplicate)
+|  |  \- com.sun.jersey.contribs:jersey-multipart:jar:1.19:test
+|  |     +- org.jvnet.mimepull:mimepull:jar:1.9.3:test
+|  |     \- (com.sun.jersey:jersey-core:jar:1.19:test - omitted for duplicate)
+|  +- org.neo4j.app:neo4j-server:jar:static-web:2.3.3:test
+|  |  +- (org.neo4j:neo4j:pom:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:server-api:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-cypher:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j.app:neo4j-browser:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-shell:jar:2.3.3:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.4.v20141103:provided - version managed from 9.2.9.v20150224; scope managed from test; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-server:jar:1.19:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-servlet:jar:1.19:test - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:test - omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.0.28.Final:test - omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:2.1:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:test - omitted for duplicate)
+|  |  +- (org.rrd4j:rrd4j:jar:2.2:test - omitted for duplicate)
+|  |  +- (org.mozilla:rhino:jar:1.7R4:test - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:test - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:test - omitted for duplicate)
+|  |  \- (com.sun.jersey.contribs:jersey-multipart:jar:1.19:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (com.graphaware.neo4j:common:jar:2.3.3.37:provided - scope managed from test; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.2.3:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:provided
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:provided - scope managed from test; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.2.3:provided - scope managed from test; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:provided
+|  +- org.neo4j.app:neo4j-server:jar:2.3.3:provided
+|  |  +- (org.neo4j:neo4j:pom:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:server-api:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-cypher:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j.app:neo4j-browser:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-shell:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.4.v20141103:provided - version managed from 9.2.9.v20150224; scope managed from test; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:provided - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-server:jar:1.19:provided - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-servlet:jar:1.19:provided - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:provided - omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.0.28.Final:provided - omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:2.1:provided - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:provided - omitted for duplicate)
+|  |  +- (org.rrd4j:rrd4j:jar:2.2:provided - omitted for duplicate)
+|  |  +- (org.mozilla:rhino:jar:1.7R4:provided - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:provided - omitted for duplicate)
+|  |  \- (com.sun.jersey.contribs:jersey-multipart:jar:1.19:provided - omitted for duplicate)
+|  +- org.neo4j.app:neo4j-server-enterprise:jar:2.3.3:provided (scope managed from test)
+|  |  +- (org.neo4j.app:neo4j-server-advanced:jar:2.3.3:provided - omitted for duplicate)
+|  |  +- (org.neo4j.app:neo4j-server:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-enterprise:jar:2.3.3:provided - scope managed from test; omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-shell:jar:2.3.3:provided - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:provided - scope managed from test; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:provided - scope managed from test; omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.2.2.RELEASE:provided - scope managed from test; omitted for duplicate)
+|  +- (org.springframework:spring-webmvc:jar:4.2.2.RELEASE:provided - scope managed from test; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.6; scope managed from test; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.13:provided
++- ch.qos.logback:logback-classic:jar:1.1.2:provided
+|  +- ch.qos.logback:logback-core:jar:1.1.2:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.6; scope managed from test; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.10.19:test
+

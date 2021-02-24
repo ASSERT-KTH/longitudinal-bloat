@@ -1,0 +1,337 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.alibaba:fastjson:jar:1.2.59_preview_05
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
++- org.apache.cxf:cxf-rt-transports-http:jar:3.1.2:provided
+|  \- org.apache.cxf:cxf-core:jar:3.1.2:provided
+|     +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided
+|     |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:provided
+|     \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1:provided
++- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.2:provided
+|  +- (org.apache.cxf:cxf-core:jar:3.1.2:provided - omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  \- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.2:provided - omitted for duplicate)
++- org.springframework:spring-websocket:jar:4.3.7.RELEASE:provided
+|  +- org.springframework:spring-context:jar:4.3.7.RELEASE:provided
+|  |  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:provided
+|  |  \- (commons-logging:commons-logging:jar:1.2:provided - omitted for conflict with 1.1.1)
+|  \- org.springframework:spring-web:jar:4.3.7.RELEASE:provided
+|     +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.3.7.RELEASE:provided
+|  +- org.springframework:spring-aop:jar:4.3.7.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:4.3.7.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.7.RELEASE:provided - omitted for duplicate)
++- org.springframework:spring-messaging:jar:4.3.7.RELEASE:provided
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:provided - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:provided - omitted for duplicate)
++- org.springframework.data:spring-data-redis:jar:1.8.6.RELEASE:provided
+|  +- org.springframework.data:spring-data-keyvalue:jar:1.2.6.RELEASE:provided
+|  |  +- org.springframework.data:spring-data-commons:jar:1.13.6.RELEASE:provided
+|  |  |  +- (org.springframework:spring-core:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-tx:jar:4.3.10.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:provided - omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.3.10.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  +- org.springframework:spring-oxm:jar:4.3.10.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-aop:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  +- org.springframework:spring-context-support:jar:4.3.10.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:provided
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:provided
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
++- com.squareup.retrofit2:retrofit:jar:2.5.0:provided
+|  \- (com.squareup.okhttp3:okhttp:jar:3.12.0:provided - omitted for conflict with 3.6.0)
++- com.squareup.okhttp3:okhttp:jar:3.6.0:provided
+|  \- com.squareup.okio:okio:jar:1.11.0:provided
++- io.springfox:springfox-spring-web:jar:2.6.1:provided
+|  +- com.google.guava:guava:jar:18.0:provided
+|  +- com.fasterxml:classmate:jar:1.3.1:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for conflict with 1.7.25)
+|  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:4.0.9.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-aop:jar:4.0.9.RELEASE:provided - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:provided - omitted for conflict with 1.7.25)
+|  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:provided
+|  |  +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:provided - omitted for conflict with 1.7.25)
+|  \- io.springfox:springfox-spi:jar:2.6.1:provided
+|     \- io.springfox:springfox-core:jar:2.6.1:provided
+|        +- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|        +- (com.fasterxml:classmate:jar:1.3.1:provided - omitted for duplicate)
+|        +- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for conflict with 1.7.25)
+|        +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:provided - omitted for duplicate)
+|        \- (org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:provided - omitted for duplicate)
++- io.javaslang:javaslang:jar:2.0.6:provided
+|  \- io.javaslang:javaslang-match:jar:2.0.6:provided
++- org.glassfish.jersey.core:jersey-common:jar:2.23.2:provided
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:provided - omitted for duplicate)
+|  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.23.2:provided
+|  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b05:provided
+|  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:provided
+|  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:provided
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:provided
+|  +- org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:provided
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:provided - omitted for duplicate)
+|  |  \- (org.javassist:javassist:jar:3.20.0-GA:provided - omitted for conflict with 3.18.0-GA)
+|  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
++- joda-time:joda-time:jar:2.10:provided
++- net.sf.trove4j:core:jar:3.1.0:provided
++- org.javamoney.moneta:moneta-core:jar:1.3:provided
+|  +- javax.money:money-api:jar:1.0.3:provided
+|  \- (javax.annotation:javax.annotation-api:jar:1.3.2:provided - omitted for conflict with 1.2)
++- io.airlift:slice:jar:0.36:provided
+|  \- org.openjdk.jol:jol-core:jar:0.2:provided
++- org.eclipse.jetty:jetty-server:jar:9.4.17.v20190418:test
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.17.v20190418:test
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.17.v20190418:test
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.17.v20190418:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.17.v20190418:test
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.17.v20190418:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.4.17.v20190418:test
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.17.v20190418:test
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.17.v20190418:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.4.17.v20190418:test
+|     \- org.eclipse.jetty:jetty-security:jar:9.4.17.v20190418:test
+|        \- (org.eclipse.jetty:jetty-server:jar:9.4.17.v20190418:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.9:test
++- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.9:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.9:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:test - omitted for duplicate)
++- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.9:test
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.3.10:test - omitted for conflict with 1.1.51)
++- cglib:cglib-nodep:jar:2.2.2:test
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.9:test
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.9:test
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.9:test - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:test - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.9:test
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.9:test - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:test - omitted for duplicate)
++- com.googlecode.json-simple:json-simple:jar:1.1.1:test
+|  \- (junit:junit:jar:4.10:test - omitted for conflict with 4.12)
++- commons-io:commons-io:jar:1.4:test
++- net.sf.json-lib:json-lib:jar:jdk15:2.4:test
+|  +- commons-beanutils:commons-beanutils:jar:1.8.0:test
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  +- commons-collections:commons-collections:jar:3.2.1:test
+|  +- commons-lang:commons-lang:jar:2.5:test
+|  +- commons-logging:commons-logging:jar:1.1.1:test
+|  \- net.sf.ezmorph:ezmorph:jar:1.0.6:test
+|     \- (commons-lang:commons-lang:jar:2.3:test - omitted for conflict with 2.5)
++- com.google.code.gson:gson:jar:2.6.2:test
++- net.minidev:json-smart:jar:2.2.1:test
+|  \- net.minidev:accessors-smart:jar:1.1:test
+|     \- (org.ow2.asm:asm:jar:5.0.3:test - omitted for conflict with 4.0)
++- org.clojure:clojure:jar:1.5.1:test
++- org.codehaus.groovy:groovy:jar:2.1.5:test
+|  +- antlr:antlr:jar:2.7.7:test
+|  +- org.ow2.asm:asm-tree:jar:4.0:test
+|  |  \- (org.ow2.asm:asm:jar:4.0:test - omitted for conflict with 5.0.3)
+|  +- org.ow2.asm:asm-commons:jar:4.0:test
+|  |  \- (org.ow2.asm:asm-tree:jar:4.0:test - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:4.0:test
+|  +- org.ow2.asm:asm-util:jar:4.0:test
+|  |  \- (org.ow2.asm:asm-tree:jar:4.0:test - omitted for duplicate)
+|  \- org.ow2.asm:asm-analysis:jar:4.0:test
+|     \- (org.ow2.asm:asm-tree:jar:4.0:test - omitted for duplicate)
++- org.springframework:spring-test:jar:4.3.7.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:test - omitted for duplicate)
++- org.javassist:javassist:jar:3.18.0-GA:test
++- org.apache.cxf:cxf-rt-rs-client:jar:3.1.2:test
+|  +- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.2:test - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-core:jar:3.1.2:test - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.2:test - omitted for duplicate)
++- org.springframework.data:spring-data-commons-core:jar:1.4.1.RELEASE:test
+|  +- (org.springframework:spring-core:jar:3.1.2.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  \- (org.springframework:spring-beans:jar:3.1.2.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
++- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.23.2:test
+|  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.23.2:test
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.23.2:test - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  +- org.glassfish.jersey.core:jersey-server:jar:2.23.2:test
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.23.2:test
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:test - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:test - omitted for duplicate)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:test
+|  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
++- org.glassfish.jersey.core:jersey-client:jar:2.23.2:test
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:test - omitted for duplicate)
+|  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:test - omitted for duplicate)
+|  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:test - omitted for duplicate)
++- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jdk-http:jar:2.23.2:test
+|  +- org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.23.2:test
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.0.1:test - omitted for conflict with 3.1.0)
+|  |  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  |  \- (org.ow2.asm:asm-debug-all:jar:5.0.4:test - omitted for duplicate)
+|  +- org.glassfish.jersey.containers:jersey-container-jdk-http:jar:2.23.2:test
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.23.2:test - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-server:jar:2.23.2:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-client:jar:2.23.2:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.ow2.asm:asm-debug-all:jar:5.0.4:test
++- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.23.2:test
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:test - omitted for duplicate)
+|  +- org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.23.2:test
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.5.4:test - omitted for conflict with 2.9.9)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.5.4:test - omitted for conflict with 2.9.9)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:test - omitted for conflict with 2.9.0)
++- com.jsoniter:jsoniter:jar:0.9.8:test
++- org.apache.commons:commons-lang3:jar:3.4:test
++- org.hibernate:hibernate-core:jar:5.2.10.Final:test
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:test
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:test
+|  +- (org.javassist:javassist:jar:3.20.0-GA:test - omitted for conflict with 3.18.0-GA)
+|  +- (antlr:antlr:jar:2.7.7:test - omitted for duplicate)
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:test
+|  +- org.jboss:jandex:jar:2.0.3.Final:test
+|  +- (com.fasterxml:classmate:jar:1.3.0:test - omitted for conflict with 1.3.1)
+|  +- dom4j:dom4j:jar:1.6.1:test
+|  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:test
+|     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:test - omitted for duplicate)
++- com.jayway.jsonpath:json-path:jar:2.3.0:test
+|  +- (net.minidev:json-smart:jar:2.3:test - omitted for conflict with 2.2.1)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.51:test
+|  \- org.jetbrains:annotations:jar:13.0:test
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.1.51:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.51:test - omitted for duplicate)
++- org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:test
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  +- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:test
+|  |  +- (aopalliance:aopalliance:jar:1.0:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.springframework:spring-expression:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-expression:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  \- (org.springframework:spring-web:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
++- org.apache.commons:commons-collections4:jar:4.1:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-module-junit4:jar:1.6.6:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.6:test
+|     +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|     +- org.powermock:powermock-core:jar:1.6.6:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
+|     |  \- (org.javassist:javassist:jar:3.21.0-GA:test - omitted for conflict with 3.18.0-GA)
+|     \- org.powermock:powermock-reflect:jar:1.6.6:test
+|        \- (org.objenesis:objenesis:jar:2.4:test - omitted for conflict with 2.5.1)
++- com.diffblue:deeptestutils:jar:1.1.0:test
+|  +- (org.javassist:javassist:jar:3.21.0-GA:test - omitted for conflict with 3.18.0-GA)
+|  +- org.objenesis:objenesis:jar:2.5.1:test
+|  \- org.powermock:powermock-api-mockito:jar:1.6.6:test
+|     +- org.mockito:mockito-core:jar:1.10.19:test
+|     |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|     |  \- (org.objenesis:objenesis:jar:2.1:test - omitted for conflict with 2.5.1)
+|     +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|     \- org.powermock:powermock-api-mockito-common:jar:1.6.6:test
+|        +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|        \- org.powermock:powermock-api-support:jar:1.6.6:test
+|           +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+|           \- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.18.4:test
++- org.openjdk.jmh:jmh-core:jar:1.21:test
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.6:test
+|  \- org.apache.commons:commons-math3:jar:3.2:test
++- org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:test
+|  \- (org.openjdk.jmh:jmh-core:jar:1.21:test - omitted for duplicate)
++- org.springframework.security.oauth:spring-security-oauth2:jar:2.3.5.RELEASE:test
+|  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.0.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework:spring-webmvc:jar:4.0.9.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:test - omitted for conflict with 4.2.3.RELEASE)
+|  +- org.springframework.security:spring-security-config:jar:3.2.10.RELEASE:test
+|  |  +- (aopalliance:aopalliance:jar:1.0:test - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:test - omitted for conflict with 4.2.3.RELEASE)
+|  |  +- (org.springframework:spring-aop:jar:3.2.18.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:3.2.18.RELEASE:test - omitted for conflict with 4.3.7.RELEASE)
+|  +- (org.springframework.security:spring-security-web:jar:3.2.10.RELEASE:test - omitted for conflict with 4.2.3.RELEASE)
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+|     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+\- org.gitlab4j:gitlab4j-api:jar:4.8.42:test
+   +- javax.xml.bind:jaxb-api:jar:2.3.0:test
+   +- com.sun.activation:javax.activation:jar:1.2.0:test
+   +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.6:test - omitted for conflict with 2.9.9)
+   +- org.glassfish.jersey.inject:jersey-hk2:jar:2.27:test
+   |  +- (org.glassfish.jersey.core:jersey-common:jar:2.27:test - omitted for conflict with 2.23.2)
+   |  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b42:test - omitted for conflict with 2.5.0-b05)
+   +- (org.glassfish.jersey.core:jersey-client:jar:2.27:test - omitted for conflict with 2.23.2)
+   +- org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.27:test
+   |  +- org.apache.httpcomponents:httpclient:jar:4.5:test
+   |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:test
+   |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for conflict with 1.1.1)
+   |  |  \- commons-codec:commons-codec:jar:1.9:test
+   |  +- (org.glassfish.jersey.core:jersey-common:jar:2.27:test - omitted for conflict with 2.23.2)
+   |  +- (org.glassfish.jersey.core:jersey-client:jar:2.27:test - omitted for conflict with 2.23.2)
+   |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1:test - omitted for conflict with 2.0.1)
+   +- org.glassfish.jersey.media:jersey-media-multipart:jar:2.27:test
+   |  +- (org.glassfish.jersey.core:jersey-common:jar:2.27:test - omitted for conflict with 2.23.2)
+   |  \- org.jvnet.mimepull:mimepull:jar:1.9.6:test
+   \- (javax.servlet:javax.servlet-api:jar:4.0.1:test - omitted for conflict with 3.1.0)
+

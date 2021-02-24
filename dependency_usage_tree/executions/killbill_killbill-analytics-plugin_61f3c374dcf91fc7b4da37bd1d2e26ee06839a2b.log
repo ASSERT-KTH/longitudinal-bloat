@@ -1,0 +1,206 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+org.kill-bill.billing.plugin.java:analytics-plugin:bundle:2.0.0
++- com.bpodgursky:jbool_expressions:jar:1.5:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  +- (com.google.guava:guava:jar:18.0:provided - version managed from 14.0-rc3; scope managed from compile; omitted for duplicate)
+|  \- org.antlr:antlr:jar:3.3:compile
+|     \- org.antlr:antlr-runtime:jar:3.3:compile
+|        \- (org.antlr:stringtemplate:jar:3.2.1:compile - omitted for duplicate)
++- io.dropwizard.metrics:metrics-core:jar:3.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.4.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.4.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:2.0.1:provided
++- com.google.guava:guava:jar:18.0:compile
++- com.jayway.awaitility:awaitility:jar:1.3.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.1:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- cglib:cglib-nodep:jar:2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- joda-time:joda-time:jar:2.3:compile
++- mysql:mysql-connector-java:jar:5.1.33:test
++- mysql:mysql-connector-mxj:jar:5.0.12:test (scope not updated to compile)
+|  +- (mysql:mysql-connector-mxj-db-files:jar:5.0.12:test - omitted for duplicate)
+|  \- (mysql:mysql-connector-java:jar:5.1.33:test - version managed from 5.1.17; omitted for duplicate)
++- mysql:mysql-connector-mxj-db-files:jar:5.0.12:test (scope not updated to runtime)
++- org.antlr:stringtemplate:jar:3.2.1:runtime (scope not updated to compile)
+|  \- antlr:antlr:jar:2.7.7:runtime
++- org.osgi:org.osgi.compendium:jar:5.0.0:compile
++- org.apache.felix:org.apache.felix.framework:jar:4.4.1:compile
++- org.jdbi:jdbi:jar:2.62:compile
++- org.jooq:jooq:jar:3.5.0:compile
++- org.kill-bill.billing:killbill-api:jar:0.24:provided
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:provided - version managed from 2.4.0; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.3:provided - version managed from 2.2; omitted for duplicate)
++- org.kill-bill.billing:killbill-platform-osgi-api:jar:0.9:compile
+|  \- org.osgi:org.osgi.core:jar:5.0.0:compile
++- org.kill-bill.billing:killbill-platform-osgi-bundles-lib-killbill:jar:0.9:compile
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - scope managed from compile; omitted for duplicate)
+|  +- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.7; omitted for duplicate)
++- org.kill-bill.billing:killbill-platform-osgi-bundles-lib-slf4j-osgi:jar:0.9:compile
+|  +- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
+|  \- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
++- org.kill-bill.billing:killbill-platform-test:jar:0.9:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:test - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.0:compile - version managed from 2.0.3; scope updated from test; omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-healthchecks:jar:3.1.1:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.7.7; omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - scope updated from test; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.3:test - version managed from 2.2; omitted for duplicate)
+|  +- (org.jdbi:jdbi:jar:2.62:test - omitted for duplicate)
+|  +- (org.kill-bill.billing:killbill-api:jar:0.24:test - omitted for duplicate)
+|  +- org.kill-bill.billing:killbill-platform-api:jar:0.9:test
+|  +- org.kill-bill.billing:killbill-platform-base:jar:0.9:test
+|  |  +- (com.google.code.findbugs:annotations:jar:3.0.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 14.0-rc3; scope managed from test; omitted for duplicate)
+|  |  +- org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:jar:1.16:test
+|  |  +- (org.kill-bill.billing:killbill-platform-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-osgi-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-queue:jar:0.8:test - omitted for duplicate)
+|  |  +- org.kill-bill.commons:killbill-xmlloader:jar:0.8:test
+|  |  |  +- (org.kill-bill.billing:killbill-api:jar:0.24:test - version managed from 0.19; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  |  +- (org.skife.config:config-magic:jar:0.14:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  +- org.kill-bill.billing:killbill-platform-base:test-jar:tests:0.9:test
+|  |  +- (com.google.code.findbugs:annotations:jar:3.0.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 14.0-rc3; scope managed from test; omitted for duplicate)
+|  |  +- (org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:jar:1.16:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-osgi-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-queue:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-xmlloader:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.skife.config:config-magic:jar:0.14:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  +- org.kill-bill.billing:killbill-platform-lifecycle:jar:0.9:test
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:test - omitted for duplicate)
+|  |  +- (org.jdbi:jdbi:jar:2.62:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-clock:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-jdbi:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-queue:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.skife.config:config-magic:jar:0.14:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  +- org.kill-bill.billing:killbill-platform-osgi:jar:0.9:test
+|  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  +- (org.apache.felix:org.apache.felix.framework:jar:4.4.1:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-api:jar:0.24:test - version managed from 0.19; omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-base:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.billing:killbill-platform-osgi-api:jar:0.9:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-concurrent:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-jdbi:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-queue:jar:0.8:test - omitted for duplicate)
+|  |  +- (org.osgi:org.osgi.compendium:jar:5.0.0:test - omitted for duplicate)
+|  |  +- (org.skife.config:config-magic:jar:0.14:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  +- (org.kill-bill.billing:killbill-platform-osgi-api:jar:0.9:test - omitted for duplicate)
+|  +- org.kill-bill.billing:killbill-platform-osgi-api:test-jar:tests:0.9:test
+|  |  \- (org.osgi:org.osgi.core:jar:5.0.0:test - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-clock:jar:0.8:test - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-embeddeddb-common:jar:0.8:compile - version managed from 0.4; scope updated from test; omitted for duplicate)
+|  +- org.kill-bill.commons:killbill-embeddeddb-h2:jar:0.8:test
+|  |  +- (com.h2database:h2:jar:1.4.186:test - omitted for duplicate)
+|  |  +- (org.kill-bill.commons:killbill-embeddeddb-common:jar:0.8:test - version managed from 0.4; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-embeddeddb-mysql:jar:0.8:test - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-embeddeddb-postgresql:jar:0.8:test - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-jdbi:jar:0.8:test - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-queue:jar:0.8:test - omitted for duplicate)
+|  +- (org.mockito:mockito-all:jar:1.10.19:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.billing.plugin:killbill-plugin-api-notification:jar:0.16:provided
+|  \- (org.kill-bill.billing:killbill-api:jar:0.24:provided - version managed from 0.20; omitted for duplicate)
++- org.kill-bill.commons:killbill-clock:jar:0.8:compile
+|  +- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-clock:test-jar:tests:0.8:test
+|  +- (joda-time:joda-time:jar:2.3:test - version managed from 2.2; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-concurrent:jar:0.8:compile
+|  +- com.google.code.findbugs:annotations:jar:3.0.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-embeddeddb-mysql:jar:0.8:compile
+|  +- (mysql:mysql-connector-mxj:jar:5.0.12:compile - omitted for duplicate)
+|  +- (mysql:mysql-connector-mxj-db-files:jar:5.0.12:runtime - omitted for duplicate)
+|  +- org.kill-bill.commons:killbill-embeddeddb-common:jar:0.8:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
+|  +- org.mariadb.jdbc:mariadb-java-client:jar:1.1.9:compile
+|  |  +- net.java.dev.jna:jna:jar:3.3.0:compile
+|  |  +- net.java.dev.jna:jna:jar:platform:3.3.0:compile
+|  |  \- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  |     \- commons-pool:commons-pool:jar:1.5.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-embeddeddb-postgresql:jar:0.8:test
+|  +- io.airlift:testing-postgresql-server:jar:0.3:test
+|  |  +- (org.postgresql:postgresql:jar:9.4-1201-jdbc41:test - version managed from 9.3-1102-jdbc41; omitted for duplicate)
+|  |  +- io.airlift:command:jar:0.2:test
+|  |  |  +- (io.airlift:units:jar:0.84:test - omitted for conflict with 0.94)
+|  |  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 16.0.1; scope managed from test; omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:annotations:jar:3.0.0:test - version managed from 2.0.2; omitted for duplicate)
+|  |  +- io.airlift:concurrent:jar:0.94:test
+|  |  |  +- (io.airlift:units:jar:0.94:test - omitted for conflict with 0.84)
+|  |  |  +- (io.airlift:log:jar:0.94:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 16.0.1; scope managed from test; omitted for duplicate)
+|  |  |  \- (org.weakref:jmxutils:jar:1.18:test - omitted for duplicate)
+|  |  +- io.airlift:log:jar:0.94:test
+|  |  |  \- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  +- io.airlift:units:jar:0.94:test
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:test
+|  |  |  \- (com.google.guava:guava:jar:18.0:provided - version managed from 16.0.1; scope managed from test; omitted for duplicate)
+|  |  +- io.airlift:testing:jar:0.94:test
+|  |  |  +- (com.google.code.findbugs:annotations:jar:3.0.0:test - version managed from 2.0.3; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 16.0.1; scope managed from test; omitted for duplicate)
+|  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  |  |  \- org.apache.bval:bval-jsr303:jar:0.5:test
+|  |  |     +- org.apache.bval:bval-core:jar:0.5:test
+|  |  |     |  +- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for duplicate)
+|  |  |     |  \- commons-beanutils:commons-beanutils-core:jar:1.8.3:test
+|  |  |     \- org.apache.commons:commons-lang3:jar:3.1:test
+|  |  \- (com.google.guava:guava:jar:18.0:provided - version managed from 16.0.1; scope managed from test; omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-embeddeddb-common:jar:0.8:test - version managed from 0.4; omitted for duplicate)
+|  +- (org.postgresql:postgresql:jar:9.4-1201-jdbc41:test - version managed from 9.3-1102-jdbc41; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-jdbi:jar:0.8:compile
+|  +- com.h2database:h2:jar:1.4.186:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- (org.jdbi:jdbi:jar:2.62:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- org.kill-bill.commons:killbill-queue:jar:0.8:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.3:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.0:compile - version managed from 2.0.3; omitted for duplicate)
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
+|  +- (org.jdbi:jdbi:jar:2.62:compile - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-clock:jar:0.8:compile - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-concurrent:jar:0.8:compile - omitted for duplicate)
+|  +- (org.kill-bill.commons:killbill-jdbi:jar:0.8:compile - omitted for duplicate)
+|  +- (org.skife.config:config-magic:jar:0.14:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
+|  \- org.weakref:jmxutils:jar:1.18:compile
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.postgresql:postgresql:jar:9.4-1201-jdbc41:runtime
++- org.skife.config:config-magic:jar:0.14:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.6; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.12:compile
+\- org.testng:testng:jar:6.8.8:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   \- com.beust:jcommander:jar:1.27:test
+

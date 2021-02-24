@@ -1,0 +1,1076 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+ru.mail.jira.plugins:groovy:atlassian-plugin:1.20.0-jira8
++- com.atlassian.jira:jira-api:jar:8.2.1:provided
+|  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:compile - version managed from 0.19; scope updated from provided; omitted for duplicate)
+|  +- com.atlassian.ofbiz:entityengine-share:jar:1.4.0:provided
+|  |  \- (xerces:xercesImpl:jar:2.9.1:provided - version managed from 2.2.1; omitted for duplicate)
+|  +- com.atlassian.ofbiz:entityengine:jar:1.4.0:provided
+|  +- com.atlassian.collectors:atlassian-collectors-util:jar:1.1:provided
+|  +- opensymphony:webwork:jar:1.4-atlassian-30:provided
+|  |  \- com.atlassian.html:atlassian-html-encoder:jar:1.4:provided
+|  +- webwork:pell-multipart-request:jar:1.31.0:provided
+|  +- com.atlassian.core:atlassian-core:jar:7.0.0:provided
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 2.1; omitted for duplicate)
+|  |  +- (opensymphony:propertyset:jar:1.5:provided - version managed from 1.3-21Nov03; omitted for duplicate)
+|  |  \- com.atlassian.image:atlassian-image-consumer:jar:1.0.1:provided
+|  +- com.atlassian.core:atlassian-core-user:jar:7.0.0:provided
+|  |  +- (com.atlassian.core:atlassian-core:jar:7.0.0:provided - omitted for duplicate)
+|  |  \- (opensymphony:propertyset:jar:1.5:provided - version managed from 1.3-21Nov03; omitted for duplicate)
+|  +- com.atlassian.core:atlassian-core-thumbnail:jar:7.0.0:provided
+|  |  +- com.twelvemonkeys.imageio:imageio-jpeg:jar:3.4.1:provided
+|  |  |  +- com.twelvemonkeys.imageio:imageio-core:jar:3.4.1:provided
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.imageio:imageio-metadata:jar:3.4.1:provided
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.common:common-lang:jar:3.4.1:provided
+|  |  |  +- com.twelvemonkeys.common:common-io:jar:3.4.1:provided
+|  |  |  |  \- (com.twelvemonkeys.common:common-lang:jar:3.4.1:provided - omitted for duplicate)
+|  |  |  \- com.twelvemonkeys.common:common-image:jar:3.4.1:provided
+|  |  |     +- (com.twelvemonkeys.common:common-lang:jar:3.4.1:provided - omitted for duplicate)
+|  |  |     \- (com.twelvemonkeys.common:common-io:jar:3.4.1:provided - omitted for duplicate)
+|  |  \- com.twelvemonkeys.imageio:imageio-tiff:jar:3.4.1:provided
+|  |     +- (com.twelvemonkeys.imageio:imageio-core:jar:3.4.1:provided - omitted for duplicate)
+|  |     +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.4.1:provided - omitted for duplicate)
+|  |     +- (com.twelvemonkeys.common:common-lang:jar:3.4.1:provided - omitted for duplicate)
+|  |     +- (com.twelvemonkeys.common:common-io:jar:3.4.1:provided - omitted for duplicate)
+|  |     \- (com.twelvemonkeys.common:common-image:jar:3.4.1:provided - omitted for duplicate)
+|  +- com.atlassian.extras:atlassian-extras:jar:3.2:provided
+|  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.7; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.10; omitted for duplicate)
+|  +- com.atlassian.velocity:atlassian-velocity:jar:1.3:provided
+|  |  +- (com.atlassian.core:atlassian-core:jar:7.0.0:provided - version managed from 4.6.0; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.16; omitted for duplicate)
+|  |  +- (opensymphony:oscore:jar:2.2.7-atlassian-1:provided - version managed from 2.2.7; omitted for duplicate)
+|  |  \- (org.apache.velocity:velocity:jar:1.6.4-atlassian-7:provided - version managed from 1.6.4; omitted for duplicate)
+|  +- osworkflow:osworkflow:jar:2.9.0-atlassian-1:provided
+|  +- opensymphony:propertyset:jar:1.5:provided
+|  +- com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided
+|  |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  |  +- (com.atlassian.instrumentation:atlassian-instrumentation-core:jar:3.0.0:provided - omitted for duplicate)
+|  |  +- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  +- com.atlassian.beehive:beehive-api:jar:2.0.0:provided
+|  +- com.atlassian.tenancy:atlassian-tenancy-api:jar:3.0.1:provided
+|  |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 2.0.0.beta1; omitted for duplicate)
+|  |  +- (io.atlassian.fugue:fugue:jar:4.7.2:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- com.atlassian.upgrade:upgrade-task-framework-api:jar:2.0.2:provided
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  +- com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  |  \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 14.0.1; omitted for duplicate)
+|  +- com.atlassian.fugue:fugue:jar:2.7.0:provided
+|  +- io.atlassian.fugue:fugue:jar:4.7.2:provided
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided - omitted for duplicate)
+|  +- javax.mail:javax.mail-api:jar:1.6.0:provided
+|  +- com.sun.mail:javax.mail:jar:1.6.0:provided
+|  +- com.atlassian.mail:atlassian-mail:jar:5.0.0:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6.1:provided - version managed from 1.6; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.1; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.4.1:provided - omitted for duplicate)
+|  |  +- (javax.mail:javax.mail-api:jar:1.6.0:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  +- (com.sun.mail:javax.mail:jar:1.6.0:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.7; omitted for duplicate)
+|  +- oro:oro:jar:2.0.7:provided
+|  +- com.atlassian.threadlocal:atlassian-threadlocal:jar:1.3:provided
+|  +- com.atlassian.applinks:applinks-api:jar:6.0.4:provided
+|  |  \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  +- com.google.javascript:closure-compiler-unshaded:jar:v20181008:provided
+|  |  +- com.google.javascript:closure-compiler-externs:jar:v20181008:provided
+|  |  +- args4j:args4j:jar:2.0.26:provided
+|  |  +- (com.google.errorprone:error_prone_annotations:jar:2.3.1:provided - omitted for conflict with 2.1.3)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:3.0.2:provided
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.1; omitted for duplicate)
+|  |  \- com.google.jsinterop:jsinterop-annotations:jar:1.0.0:provided
+|  +- com.atlassian.velocity.htmlsafe:velocity-htmlsafe:jar:3.0.0:provided
+|  +- com.atlassian.plugins:atlassian-plugins-api:jar:5.2.1:provided
+|  |  +- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - omitted for duplicate)
+|  |  +- (io.atlassian.fugue:fugue:jar:4.7.2:provided - omitted for duplicate)
+|  |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.1; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-webfragment:jar:5.0.0:provided
+|  |  \- (com.atlassian.plugins:atlassian-plugins-webfragment-api:jar:5.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-webfragment-api:jar:5.0.0:provided
+|  +- com.atlassian.ozymandias:atlassian-plugin-point-safety:jar:1.0.0:provided
+|  +- jfree:jfreechart:jar:1.0.13:provided
+|  +- com.atlassian.plugins:atlassian-plugins-webresource:jar:4.0.3:provided
+|  |  +- com.atlassian.plugins:atlassian-plugins-webresource-spi:jar:4.0.3:provided
+|  |  +- (com.atlassian.plugins:atlassian-plugins-webfragment:jar:5.0.0:provided - omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-webfragment-api:jar:5.0.0:provided - omitted for duplicate)
+|  |  +- com.atlassian.plugins:atlassian-plugins-webresource-api:jar:4.0.3:provided
+|  |  +- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.11; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 2.1; omitted for duplicate)
+|  |  +- (org.tuckey:urlrewritefilter:jar:4.0.3:provided - version managed from 4.0.4; omitted for duplicate)
+|  |  +- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  |  \- com.atlassian.sourcemap:sourcemap:jar:1.7.6:provided
+|  |     \- (com.google.code.gson:gson:jar:2.3.1:provided - version managed from 2.2.3; omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-webresource-compiler-gcc:jar:4.0.3:provided
+|  +- jfree:jcommon:jar:1.0.8:provided
+|  +- com.atlassian.sal:sal-api:jar:4.0.0:provided
+|  +- com.atlassian.gadgets:atlassian-gadgets-api:jar:4.3.9:provided
+|  +- com.atlassian.johnson:atlassian-johnson-core:jar:4.0.0:provided
+|  |  \- (com.atlassian.plugins:atlassian-plugins-servlet:jar:5.2.1:provided - version managed from 5.0.0; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.8.2:provided - version managed from 2.10; omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  +- org.apache.commons:commons-lang3:jar:3.8:provided
+|  +- commons-io:commons-io:jar:2.6:provided
+|  +- commons-httpclient:commons-httpclient:jar:3.1-atlassian-2:provided
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.2; omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.17-atlassian-2:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; omitted for duplicate)
+|  +- com.atlassian.profiling:atlassian-profiling:jar:3.2.0:provided
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- com.atlassian.scheduler:atlassian-scheduler-api:jar:3.0.0:provided
+|  +- com.atlassian.analytics:analytics-api:jar:5.7.2:provided
+|  +- com.atlassian.application:atlassian-application-api:jar:2.0.0:provided
+|  |  +- (com.atlassian.sal:sal-api:jar:4.0.0:provided - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.8.2:provided - version managed from 2.3; omitted for duplicate)
+|  |  +- (io.atlassian.fugue:fugue:jar:4.7.2:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.1; omitted for duplicate)
+|  |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:2.0.1.Final:compile - version managed from 1.1.0.Final; scope updated from provided; omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  \- com.atlassian:lucene-extras:jar:7.3.1-atlassian-4:provided
++- com.atlassian.jira:jira-core:jar:8.2.1:provided
+|  +- (com.atlassian.jira:jira-api:jar:8.2.1:provided - omitted for duplicate)
+|  +- com.atlassian.jira:jira-dmz-api:jar:8.2.1:provided
+|  |  \- (com.atlassian.jira:jira-api:jar:8.2.1:provided - omitted for duplicate)
+|  +- com.atlassian.jira:jira-lucene-dmz:jar:8.2.1:provided
+|  |  +- (com.atlassian.jira:jira-api:jar:8.2.1:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- (com.atlassian.fugue:fugue:jar:2.7.0:provided - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-core:jar:7.3.1:provided
+|  |  \- org.apache.lucene:lucene-join:jar:7.3.1:provided
+|  |     \- (org.apache.lucene:lucene-core:jar:7.3.1:provided - omitted for duplicate)
+|  +- com.atlassian.crowd:embedded-crowd-core:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:embedded-crowd-spi:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-core:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-ldap:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-remote:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 4.0.0-07963a34; omitted for duplicate)
+|  |  +- com.atlassian.crowd:crowd-core-tiny:jar:2.10.5-j11:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (opensymphony:propertyset:jar:1.5:provided - version managed from 1.3-21Nov03; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  +- com.atlassian.crowd:embedded-crowd-spi:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.8:provided - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 2.1; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.10; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-server-api:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- com.atlassian.extras:atlassian-extras-api:jar:3.2:provided
+|  |  \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-core:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-ldap:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-persistence:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-password-encoders:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.security:atlassian-secure-random:jar:3.2.3:provided - version managed from 3.2.11; omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-core-tiny:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 4.0.0-07963a34; omitted for duplicate)
+|  |  +- (com.atlassian.beehive:beehive-api:jar:2.0.0:provided - version managed from 2.0.0-8ce05cb7; omitted for duplicate)
+|  |  +- (com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided - version managed from 4.0.0-cdee60a; omitted for duplicate)
+|  |  +- (com.atlassian.scheduler:atlassian-scheduler-api:jar:3.0.0:provided - version managed from 3.0.0-6d46a01; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.8:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:provided - version managed from 4.5.1; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-integration-client-rest:jar:2.10.5-j11:provided
+|  |  +- com.atlassian.crowd:crowd-integration-client-common:jar:2.10.5-j11:provided
+|  |  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  |  +- com.atlassian.security:atlassian-cookie-tools:jar:3.2.3:provided (version managed from 3.2.4)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:annotations:jar:3.0.0:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:provided - version managed from 4.5.1; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient-cache:jar:4.5.5:provided - version managed from 4.5.1; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-persistence:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:embedded-crowd-spi:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-password-encoders:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided - version managed from 4.0.0-cdee60a; omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 4.0.0-07963a34; omitted for duplicate)
+|  |  +- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 25.1-jre; omitted for duplicate)
+|  |  +- (com.atlassian.sal:sal-api:jar:4.0.0:provided - version managed from 4.0.0-e2407f64; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  \- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-ldap:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-password-encoders:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-persistence:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-remote:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 4.0.0-07963a34; omitted for duplicate)
+|  |  +- com.google.code.findbugs:annotations:jar:3.0.0:provided
+|  |  +- (org.springframework.ldap:spring-ldap-core:jar:2.3.2.RELEASE:provided - version managed from 2.0.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-remote:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-client-rest:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-persistence:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 4.0.0-07963a34; omitted for duplicate)
+|  |  \- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-server-common:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-client-common:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-events:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.ip:atlassian-ip:jar:3.0:provided - version managed from 3.1; omitted for duplicate)
+|  |  \- (com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided - version managed from 4.0.0-cdee60a; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-password-encoders:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.security:atlassian-password-encoder:jar:3.2.3:provided - version managed from 3.2.4; omitted for duplicate)
+|  |  +- (com.atlassian.security:atlassian-secure-random:jar:3.2.3:provided - version managed from 3.2.4; omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.1.7.RELEASE:provided - version managed from 3.2.5.RELEASE; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.10; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:annotations:jar:3.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.util.concurrent:atlassian-util-concurrent:jar:3.0.0:provided
+|  +- com.atlassian.http:atlassian-http:jar:2.0.2:provided
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 18.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; omitted for duplicate)
+|  +- (com.querydsl:querydsl-sql:jar:4.1.4:compile - scope updated from provided; omitted for duplicate)
+|  +- com.atlassian.ip:atlassian-ip:jar:3.0:provided
+|  +- (com.atlassian.threadlocal:atlassian-threadlocal:jar:1.3:provided - omitted for duplicate)
+|  +- com.atlassian.security:atlassian-password-encoder:jar:3.2.3:provided
+|  |  +- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.8; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.4:provided - omitted for conflict with 2.6)
+|  +- com.atlassian.security:atlassian-secure-utils:jar:3.2.3:provided
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.8; omitted for duplicate)
+|  +- (com.atlassian.tenancy:atlassian-tenancy-api:jar:3.0.1:provided - omitted for duplicate)
+|  +- org.springframework.security:spring-security-core:jar:3.1.7.RELEASE:provided
+|  |  +- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  \- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-context:jar:5.0.10.RELEASE:provided (version managed from 2.0.6)
+|  |  +- org.springframework:spring-aop:jar:5.0.10.RELEASE:provided
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:5.0.10.RELEASE:provided
+|  |     \- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.0.10.RELEASE:provided
+|  |  \- org.springframework:spring-jcl:jar:5.0.10.RELEASE:provided
+|  +- org.springframework:spring-beans:jar:5.0.10.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 3.0.7.RELEASE; omitted for duplicate)
+|  +- org.springframework.ldap:spring-ldap-core:jar:2.3.2.RELEASE:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:5.0.10.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-integration-seraph:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:embedded-crowd-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (com.atlassian.crowd:crowd-integration-client-common:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  +- com.atlassian.crowd:crowd-query-language:jar:2.10.5-j11:provided
+|  |  +- (com.atlassian.crowd:crowd-integration-api:jar:2.10.5-j11:provided - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.8.2:provided - version managed from 2.6; omitted for duplicate)
+|  |  \- (org.antlr:antlr-runtime:jar:3.5.2:provided - omitted for duplicate)
+|  +- wsdl4j:wsdl4j:jar:1.6.1:provided
+|  +- org.codehaus.xfire:xfire-core:jar:1.2.6:provided
+|  |  +- (wsdl4j:wsdl4j:jar:1.6.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.3; omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:provided - version managed from 3.2.0; omitted for duplicate)
+|  |  +- (jdom:jdom:jar:1.0:provided - omitted for duplicate)
+|  |  \- (commons-httpclient:commons-httpclient:jar:3.1-atlassian-2:provided - version managed from 3.0; omitted for duplicate)
+|  +- org.codehaus.xfire:xfire-aegis:jar:1.2.6:provided
+|  |  \- (org.codehaus.xfire:xfire-core:jar:1.2.6:provided - omitted for duplicate)
+|  +- com.atlassian.soy:soy-template-renderer-api:jar:5.0.0:provided
+|  +- com.atlassian.soy:soy-template-renderer-plugin-api:jar:5.0.0:provided
+|  |  \- (com.atlassian.soy:soy-template-renderer-api:jar:5.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.sal:sal-spi:jar:4.0.0:provided
+|  +- (com.atlassian.gadgets:atlassian-gadgets-api:jar:4.3.9:provided - omitted for duplicate)
+|  +- com.atlassian.gadgets:atlassian-gadgets-spi:jar:4.3.9:provided
+|  |  \- net.jcip:jcip-annotations:jar:1.0:provided
+|  +- com.atlassian.oauth:atlassian-oauth-api:jar:4.0.2:provided
+|  +- com.atlassian.p4package:atlassian-p4package:jar:2007.12.14:provided
+|  |  \- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.9; omitted for duplicate)
+|  +- (com.atlassian.extras:atlassian-extras:jar:3.2:provided - omitted for duplicate)
+|  +- (com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided - version managed from 4.0.0-cdee60a; omitted for duplicate)
+|  +- com.atlassian.vcache:atlassian-vcache-internal-legacy:jar:1.12.0:provided
+|  |  \- com.atlassian.vcache:atlassian-vcache-internal-core:jar:1.12.0:provided
+|  |     +- (com.atlassian.vcache:atlassian-vcache-internal-api:jar:1.12.0:provided - omitted for duplicate)
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- com.atlassian.vcache:atlassian-vcache-internal-api:jar:1.12.0:provided
+|  |  \- com.atlassian.vcache:atlassian-vcache-api:jar:1.12.0:provided
+|  |     +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - version managed from 0.19; omitted for duplicate)
+|  |     +- com.atlassian.marshalling:atlassian-marshalling-api:jar:1.0.0:provided
+|  |     |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - version managed from 0.19; omitted for duplicate)
+|  |     |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  |     \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  +- com.atlassian.vcache:atlassian-vcache-internal-memcached:jar:1.12.0:provided
+|  |  +- com.atlassian.vcache:atlassian-vcache-internal-guava:jar:1.12.0:provided
+|  |  |  \- (com.atlassian.vcache:atlassian-vcache-internal-core:jar:1.12.0:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 18.0; omitted for duplicate)
+|  +- net.spy:spymemcached:jar:2.12.0:provided
+|  +- com.atlassian.cache:atlassian-cache-ehcache:jar:4.0.0:provided
+|  |  +- com.atlassian.cache:atlassian-cache-common-impl:jar:4.0.0:provided
+|  |  |  \- (com.atlassian.cache:atlassian-cache-api:jar:4.0.0:provided - version managed from 4.0.0-cdee60a; omitted for duplicate)
+|  |  \- net.sf.ehcache:ehcache:jar:2.10.2-atlassian-18:provided (version managed from 2.7.5)
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.7; omitted for duplicate)
+|  +- com.atlassian.cache:atlassian-cache-memory:jar:4.0.0:provided
+|  |  +- (com.atlassian.cache:atlassian-cache-common-impl:jar:4.0.0:provided - omitted for duplicate)
+|  |  \- (com.atlassian.instrumentation:atlassian-instrumentation-core:jar:3.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.beehive:beehive-core:jar:2.0.0:provided
+|  +- com.atlassian.beehive:beehive-single-node:jar:2.0.0:provided
+|  |  \- (com.atlassian.beehive:beehive-core:jar:2.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.beehive:beehive-db:jar:2.0.0:provided
+|  |  \- (com.atlassian.beehive:beehive-core:jar:2.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.config:atlassian-config:jar:0.15:provided (version managed from 0.27)
+|  |  +- (com.atlassian.core:atlassian-core:jar:7.0.0:provided - version managed from 5.0-rc1; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  |  +- com.atlassian.spring:atlassian-spring:jar:2.0.0:provided (version managed from 1.1)
+|  |  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 0.5; omitted for duplicate)
+|  |  |  +- (com.atlassian.profiling:atlassian-profiling:jar:3.2.0:provided - version managed from 1.8; omitted for duplicate)
+|  |  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.9; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 2.0.6; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:5.0.10.RELEASE:provided - version managed from 2.0.6; omitted for duplicate)
+|  |  |  +- org.springframework:spring-web:jar:5.0.10.RELEASE:provided (version managed from 2.0.6)
+|  |  |  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 4.3.4.RELEASE; omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-core:jar:5.0.10.RELEASE:provided - version managed from 2.0.6; omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.2; omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 2.0.0.beta1; omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.9; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.10.RELEASE:provided - version managed from 2.0.6; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for conflict with 2.6)
+|  |  \- (org.springframework:spring-context:jar:5.0.10.RELEASE:provided - version managed from 2.0.6; omitted for duplicate)
+|  +- com.atlassian:atlassian-localhost:jar:1.1.0:provided
+|  +- com.sun:jai_core:jar:1.1.3:provided
+|  +- com.sun:jai_codec:jar:1.1.3:provided
+|  +- commons-collections:commons-collections:jar:3.2.2:provided
+|  +- com.atlassian.activeobjects:activeobjects-spi:jar:3.0.0:provided
+|  +- dom4j:dom4j:jar:1.4:provided
+|  +- io.dropwizard.metrics:metrics-core:jar:4.0.3:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-jmx:jar:4.0.3:provided
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:4.0.3:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- (oro:oro:jar:2.0.7:provided - version managed from 2.0.8; omitted for duplicate)
+|  +- com.atlassian.adapter:jackson:jar:1.0:provided
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.1; omitted for duplicate)
+|  +- io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided
+|  +- (com.atlassian.profiling:atlassian-profiling:jar:3.2.0:provided - version managed from 1.8; omitted for duplicate)
+|  +- com.atlassian.profiling:atlassian-profiling-dropwizard-metrics:jar:3.2.0:provided
+|  |  +- (com.atlassian.profiling:atlassian-profiling:jar:3.2.0:provided - version managed from 1.8; omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:4.0.3:provided - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- com.atlassian.instrumentation:atlassian-instrumentation-core:jar:3.0.0:provided
+|  |  \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - version managed from 0.19; omitted for duplicate)
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.25:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.17; omitted for duplicate)
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.25:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- com.atlassian:atlassian-logging:jar:2.21:provided
+|  |  +- org.apache.logging.log4j:log4j2-stacktrace-origins:jar:2.2-atlassian-2:provided
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  |  \- com.github.rholder:guava-retrying:jar:1.0.7:provided
+|  |     \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 2.0.2; omitted for duplicate)
+|  +- com.atlassian.jdk.utilities:atlassian-jdk-utilities:jar:0.6:provided
+|  |  \- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.7; omitted for duplicate)
+|  +- com.atlassian.scheduler:atlassian-scheduler-core:jar:3.0.0:provided
+|  |  \- (joda-time:joda-time:jar:2.8.2:provided - version managed from 2.10; omitted for duplicate)
+|  +- com.atlassian.scheduler.caesium:atlassian-scheduler-caesium:jar:3.0.0:provided
+|  +- (com.atlassian.johnson:atlassian-johnson-core:jar:4.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided
+|  |  +- (com.atlassian.plugins:atlassian-plugins-api:jar:5.2.1:provided - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.17; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.8:provided - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.6:provided - omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 2.0.0.beta1; omitted for duplicate)
+|  |  +- (io.atlassian.fugue:fugue:jar:4.7.2:provided - omitted for duplicate)
+|  |  +- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - version managed from 0.19; omitted for duplicate)
+|  |  +- (com.atlassian.security:atlassian-secure-xml:jar:3.2.3:provided - version managed from 3.1.4; omitted for duplicate)
+|  |  \- net.jcip:com.springsource.net.jcip.annotations:jar:1.0.0:provided
+|  +- com.atlassian.plugins:atlassian-plugins-schema:jar:5.2.1:provided
+|  |  +- (com.atlassian.plugins:atlassian-plugins-osgi:jar:5.2.1:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 18.0; omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  |  \- (com.atlassian.security:atlassian-secure-xml:jar:3.2.3:provided - version managed from 3.1.4; omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-servlet:jar:5.2.1:provided
+|  |  \- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  +- (com.atlassian.plugins:atlassian-plugins-webresource:jar:4.0.3:provided - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.3.1:provided
+|  +- com.atlassian.plugins:atlassian-plugins-osgi:jar:5.2.1:provided
+|  |  +- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-osgi-events:jar:5.2.1:provided - omitted for duplicate)
+|  |  +- org.apache.felix:org.apache.felix.framework:jar:5.6.12:provided
+|  |  +- io.github.lukehutch:fast-classpath-scanner:jar:2.18.1:provided
+|  |  +- org.twdata.pkgscanner:package-scanner:jar:0.9.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.6:provided - omitted for duplicate)
+|  +- com.atlassian.plugins:atlassian-plugins-osgi-events:jar:5.2.1:provided
+|  +- com.atlassian.plugins:atlassian-plugins-eventlistener:jar:5.2.1:provided
+|  |  \- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  +- com.atlassian.seraph:atlassian-seraph:jar:4.0.2:provided
+|  |  +- (org.apache.commons:commons-lang3:jar:3.8:provided - version managed from 3.7; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; omitted for duplicate)
+|  |  +- (opensymphony:oscore:jar:2.2.7-atlassian-1:provided - version managed from 2.2.7; omitted for duplicate)
+|  |  +- (com.atlassian.security:atlassian-secure-random:jar:3.2.3:provided - version managed from 3.2.11; omitted for duplicate)
+|  |  \- (com.atlassian.security:atlassian-secure-utils:jar:3.2.3:provided - version managed from 3.2.11; omitted for duplicate)
+|  +- com.atlassian.security:atlassian-secure-random:jar:3.2.3:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.8; omitted for duplicate)
+|  +- com.atlassian.security.auth.trustedapps:atlassian-trusted-apps-core:jar:5.0.0:provided
+|  +- com.atlassian.security.auth.trustedapps:atlassian-trusted-apps-seraph-integration:jar:5.0.0:provided
+|  |  +- (com.atlassian.security.auth.trustedapps:atlassian-trusted-apps-core:jar:5.0.0:provided - omitted for duplicate)
+|  |  \- (com.atlassian.seraph:atlassian-seraph:jar:4.0.2:provided - version managed from 4.0.0; omitted for duplicate)
+|  +- com.atlassian.upgrade:upgrade-task-framework-core:jar:2.0.2:provided
+|  |  \- (com.atlassian.upgrade:upgrade-task-framework-api:jar:2.0.2:provided - omitted for duplicate)
+|  +- (com.atlassian.analytics:analytics-api:jar:5.7.2:provided - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.50:provided
+|  +- com.atlassian.renderer:atlassian-renderer:jar:8.0.26:provided
+|  |  +- (commons-lang:commons-lang:jar:2.1:provided - omitted for conflict with 2.6)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6.1:provided - version managed from 1.6; omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.7; omitted for duplicate)
+|  |  +- (xerces:xercesImpl:jar:2.9.1:provided - version managed from 2.6.2; omitted for duplicate)
+|  |  +- (com.atlassian.profiling:atlassian-profiling:jar:3.2.0:provided - version managed from 1.8; omitted for duplicate)
+|  |  +- (com.atlassian.util.concurrent:atlassian-util-concurrent:jar:3.0.0:provided - version managed from 0.0.12; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-webfragment:jar:5.0.0:provided - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (radeox:radeox:jar:1.0b2-forked-22Apr2004:provided - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.8; omitted for duplicate)
+|  +- com.atlassian.gzipfilter:atlassian-gzipfilter:jar:3.0.0:provided
+|  |  \- com.atlassian.gzipfilter:atlassian-flushable-gzipoutputstream:jar:1.1:provided
+|  +- com.atlassian.gzipfilter:atlassian-gzipfilter-legacy:jar:1.23.0:provided
+|  +- com.atlassian.event:atlassian-event:jar:4.0.0:provided
+|  +- opensymphony:oscore:jar:2.2.7-atlassian-1:provided
+|  +- opensymphony:sitemesh:jar:2.5-atlassian-11:provided
+|  +- commons-digester:commons-digester:jar:1.4.1:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6.1:provided - version managed from 1.6; omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 2.1; omitted for duplicate)
+|  +- commons-beanutils:commons-beanutils:jar:1.6.1:provided
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 2.0; omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.0:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.0; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.0:provided - omitted for conflict with 2.6)
+|  |  +- (dom4j:dom4j:jar:1.4:provided - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.4.1:provided - version managed from 1.5; omitted for duplicate)
+|  |  +- (xerces:xercesImpl:jar:2.9.1:provided - version managed from 2.2.1; omitted for duplicate)
+|  |  \- (hsqldb:hsqldb:jar:1.8.0.5:provided - version managed from 1.7.2.2; omitted for duplicate)
+|  +- org.apache.lucene:lucene-analyzers-common:jar:7.3.1:provided
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:7.3.1:provided
+|  |  +- (org.apache.lucene:lucene-core:jar:7.3.1:provided - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-queries:jar:7.3.1:provided
+|  |  \- org.apache.lucene:lucene-sandbox:jar:7.3.1:provided
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:provided
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:provided
+|  |  +- commons-logging:commons-logging:jar:1.1.1:provided
+|  |  \- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.5:provided
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:provided - version managed from 4.5.1; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.2; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.5:provided
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:provided - version managed from 4.5.1; omitted for duplicate)
+|  +- org.apache.velocity:velocity:jar:1.6.4-atlassian-7:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for conflict with 2.6)
+|  |  \- (oro:oro:jar:2.0.7:provided - version managed from 2.0.8; omitted for duplicate)
+|  +- org.apache.velocity:velocity-tools:jar:1.3:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6.1:provided - version managed from 1.7.0; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.4.1:provided - version managed from 1.8; omitted for duplicate)
+|  |  \- (oro:oro:jar:2.0.7:provided - version managed from 2.0.8; omitted for duplicate)
+|  +- (com.atlassian.velocity.htmlsafe:velocity-htmlsafe:jar:3.0.0:provided - omitted for duplicate)
+|  +- com.sun.activation:javax.activation:jar:1.2.0:provided
+|  +- (javax.mail:javax.mail-api:jar:1.6.0:provided - version managed from 1.5.6; omitted for duplicate)
+|  +- (com.sun.mail:javax.mail:jar:1.6.0:provided - version managed from 1.5.6; omitted for duplicate)
+|  +- glue:glue:jar:5.0b2:provided
+|  +- bsf:bsf:jar:2.2:provided
+|  +- bsh:bsh:jar:1.2b7:provided
+|  +- (com.atlassian.ofbiz:entityengine-share:jar:1.4.0:provided - omitted for duplicate)
+|  +- (com.atlassian.ofbiz:entityengine:jar:1.4.0:provided - omitted for duplicate)
+|  +- csv:csv:jar:20:provided
+|  +- org.picocontainer:picocontainer:jar:2.14.3:provided
+|  +- jzlib:jzlib:jar:1.0.5:provided
+|  +- com.octo.captcha:jcaptcha:jar:2.0-alpha-1:provided
+|  +- com.octo.captcha:jcaptcha-api:jar:2.0-alpha-1:provided
+|  +- com.jhlabs:filters:jar:2.0.235:provided
+|  +- org.apache.commons:commons-dbcp2:jar:2.1:provided
+|  |  +- (org.apache.commons:commons-pool2:jar:2.3:provided - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.2; omitted for duplicate)
+|  +- org.apache.commons:commons-pool2:jar:2.3:provided
+|  +- commons-pool:commons-pool:jar:1.6:provided
+|  +- com.h2database:h2:jar:1.4.185:provided
+|  +- hsqldb:hsqldb:jar:1.8.0.5:provided
+|  +- ots-jts:ots-jts:jar:1.0:provided
+|  +- jotm:jotm:jar:1.4.3:provided
+|  +- jotm:jotm-jrmp_stubs:jar:1.4.3:provided
+|  +- jotm:jotm-iiop_stubs:jar:1.4.3:provided
+|  +- jotm:jonas_timer:jar:1.4.3:provided
+|  +- jotm:objectweb-datasource:jar:1.4.3:provided
+|  +- carol:carol:jar:1.5.2:provided
+|  +- carol:carol-properties:jar:1.5.2:provided
+|  +- xapool:xapool:jar:1.3.1:provided
+|  +- commons-jexl:commons-jexl:jar:1.1:provided
+|  +- (commons-httpclient:commons-httpclient:jar:3.1-atlassian-2:provided - version managed from 3.0; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.9:provided
+|  +- commons-fileupload:commons-fileupload:jar:1.3.3:provided
+|  |  \- (commons-io:commons-io:jar:2.6:provided - version managed from 2.2; omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.8.1:provided
+|  +- commons-discovery:commons-discovery:jar:0.2:provided
+|  +- xerces:xercesImpl:jar:2.9.1:provided
+|  +- xalan:xalan:jar:2.7.2:provided
+|  |  \- xalan:serializer:jar:2.7.2:provided
+|  +- xml-security:xmlsec:jar:1.4.2:provided
+|  +- com.atlassian.security:atlassian-secure-xml:jar:3.2.3:provided
+|  +- datafile:datafile:jar:1.3.3:provided
+|  +- xpp3:xpp3:jar:1.1.4c:provided
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.9:provided
+|  |  \- xmlpull:xmlpull:jar:1.1.3.1:provided
+|  +- (jfree:jfreechart:jar:1.0.13:provided - omitted for duplicate)
+|  +- (jfree:jcommon:jar:1.0.8:provided - omitted for duplicate)
+|  +- org.tuckey:urlrewritefilter:jar:4.0.3:provided
+|  +- radeox:radeox:jar:1.0b2-forked-22Apr2004:provided
+|  +- jtidy:jtidy:jar:r8-20050104:provided
+|  +- jdom:jdom:jar:1.0:provided
+|  +- org.jsoup:jsoup:jar:1.8.3:provided
+|  +- org.codehaus.woodstox:wstx-asl:jar:3.2.4:provided
+|  +- javax.xml.bind:jaxb-api:jar:2.3.0:provided
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0:provided
+|  +- com.sun.xml.bind:jaxb-impl:jar:2.3.0:provided
+|  +- com.atlassian.modzdetector:modz-detector:jar:0.12:provided
+|  |  +- (commons-codec:commons-codec:jar:1.9:provided - version managed from 1.3; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; omitted for duplicate)
+|  +- org.antlr:antlr-runtime:jar:3.5.2:provided
+|  +- commons-jrcs:commons-jrcs:jar:diff-0.1.7:provided
+|  +- cglib:cglib-nodep:jar:2.1_3:provided
+|  +- (com.atlassian.sal:sal-api:jar:4.0.0:provided - version managed from 4.0.0-e2407f64; omitted for duplicate)
+|  +- com.atlassian.sal:sal-trust-api:jar:4.0.0:provided
+|  +- (com.atlassian.applinks:applinks-api:jar:6.0.4:provided - omitted for duplicate)
+|  +- com.atlassian.applinks:applinks-spi:jar:6.0.4:provided
+|  +- com.atlassian.applinks:applinks-host:jar:6.0.4:provided
+|  +- org.mozilla:rhino:jar:1.7R4:provided
+|  +- (com.atlassian.ozymandias:atlassian-plugin-point-safety:jar:1.0.0:provided - omitted for duplicate)
+|  +- commons-validator:commons-validator:jar:1.6:provided
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6.1:provided - version managed from 1.9.2; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.4.1:provided - version managed from 1.8.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.2; omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.2.1; omitted for duplicate)
+|  +- com.atlassian.botocss:botocss-core:jar:6.4:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.10; omitted for duplicate)
+|  |  +- (org.jsoup:jsoup:jar:1.8.3:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 14.0.1; omitted for duplicate)
+|  |  +- net.sf.cssbox:jstyleparser:jar:1.16-atlassian-1:provided
+|  |  |  +- (org.antlr:antlr-runtime:jar:3.5.2:provided - omitted for duplicate)
+|  |  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.19:provided
+|  |  |  |  \- (xerces:xercesImpl:jar:2.9.1:provided - version managed from 2.10.0; omitted for duplicate)
+|  |  |  +- (xerces:xercesImpl:jar:2.9.1:provided - version managed from 2.11.0; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17-atlassian-2:provided - version managed from 1.2.16; omitted for duplicate)
+|  +- com.atlassian.json:atlassian-json-api:jar:0.9:provided
+|  +- com.atlassian.plugins:atlassian-plugins-webresource-common:jar:5.2.1:provided
+|  |  \- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 2.1.0; omitted for duplicate)
+|  +- (com.atlassian.application:atlassian-application-api:jar:2.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.application:atlassian-application-host:jar:2.0.0:provided
+|  |  +- (com.atlassian.application:atlassian-application-api:jar:2.0.0:provided - omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-core:jar:5.2.1:provided - version managed from 5.0.0; omitted for duplicate)
+|  |  +- (com.atlassian.plugins:atlassian-plugins-osgi:jar:5.2.1:provided - version managed from 5.0.0; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.8:provided - version managed from 3.7; omitted for duplicate)
+|  |  \- (com.atlassian.event:atlassian-event:jar:4.0.0:provided - version managed from 2.3.0; omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-transcoder:jar:1.9:provided
+|  |  +- org.apache.xmlgraphics:batik-anim:jar:1.9:provided
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-css:jar:1.9:provided
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:provided
+|  |  |  |  |  +- (commons-io:commons-io:jar:2.6:provided - version managed from 1.3.1; omitted for duplicate)
+|  |  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-ext:jar:1.9:provided
+|  |  |  +- org.apache.xmlgraphics:batik-parser:jar:1.9:provided
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-svg-dom:jar:1.9:provided
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided
+|  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-bridge:jar:1.9:provided
+|  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-script:jar:1.9:provided
+|  |  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.9:provided - omitted for duplicate)
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (xalan:xalan:jar:2.7.2:provided - omitted for duplicate)
+|  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-dom:jar:1.9:provided
+|  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:provided - omitted for duplicate)
+|  |  |  +- (xalan:xalan:jar:2.7.2:provided - omitted for duplicate)
+|  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:provided - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-gvt:jar:1.9:provided
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-util:jar:1.9:provided
+|  |  |  +- org.apache.xmlgraphics:batik-constants:jar:1.9:provided
+|  |  |  \- org.apache.xmlgraphics:batik-i18n:jar:1.9:provided
+|  |  +- org.apache.xmlgraphics:batik-xml:jar:1.9:provided
+|  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  |  \- xml-apis:xml-apis-ext:jar:1.3.04:provided
+|  +- org.apache.xmlgraphics:batik-codec:jar:1.9:provided
+|  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:provided - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.9:provided - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-transcoder:jar:1.9:provided - omitted for duplicate)
+|  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:provided - omitted for duplicate)
+|  +- com.atlassian.web:atlassian-servlet-api:jar:4.0.0:provided
+|  +- (com.atlassian.fugue:fugue:jar:2.7.0:provided - omitted for duplicate)
+|  +- (io.atlassian.fugue:fugue:jar:4.7.2:provided - omitted for duplicate)
+|  +- io.atlassian.fugue:fugue-guava:jar:4.7.2:provided
+|  +- io.atlassian.fugue:fugue-retry:jar:4.7.2:provided
+|  +- com.squareup:tape:jar:1.2.3:provided
+|  +- org.xerial.snappy:snappy-java:jar:1.1.7.1:provided (version managed from 1.1.1.7)
+|  +- com.atlassian.diagnostics:atlassian-diagnostics-api:jar:1.1.1:provided
+|  +- com.atlassian.diagnostics:atlassian-diagnostics-core:jar:1.1.1:provided
+|  |  +- (com.atlassian.diagnostics:atlassian-diagnostics-api:jar:1.1.1:provided - omitted for duplicate)
+|  |  +- (com.atlassian:atlassian-localhost:jar:1.2.0:provided - omitted for conflict with 1.1.0)
+|  |  \- (com.atlassian.scheduler:atlassian-scheduler-api:jar:3.0.0:provided - version managed from 1.7.0; omitted for duplicate)
+|  +- com.atlassian.diagnostics:atlassian-diagnostics-platform:jar:1.1.1:provided
+|  |  +- (com.atlassian.diagnostics:atlassian-diagnostics-api:jar:1.1.1:provided - omitted for duplicate)
+|  |  \- (com.atlassian.diagnostics:atlassian-diagnostics-core:jar:1.1.1:provided - omitted for duplicate)
+|  \- com.atlassian.healthcheck:atlassian-healthcheck-spi:jar:6.0.0:provided
+|     \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided - version managed from 0.19; omitted for duplicate)
++- com.atlassian.plugin:atlassian-spring-scanner-annotation:jar:2.1.7:provided
++- javax.inject:javax.inject:jar:1:provided
++- com.atlassian.plugins.rest:atlassian-rest-common:jar:6.0.0:provided
+|  \- com.atlassian.plugins.rest:com.atlassian.jersey-library:pom:6.0.0:provided
+|     +- javax.ws.rs:jsr311-api:jar:1.1.1:provided
+|     +- com.sun.jersey:jersey-core:jar:1.19.4:provided
+|     |  \- (javax.ws.rs:jsr311-api:jar:1.1.1:provided - omitted for duplicate)
+|     +- com.sun.jersey:jersey-server:jar:1.19.4:provided
+|     |  \- (com.sun.jersey:jersey-core:jar:1.19.4:provided - omitted for duplicate)
+|     +- org.ow2.asm:asm:jar:5.0.3:provided
+|     +- com.sun.jersey:jersey-servlet:jar:1.19.4:provided
+|     |  \- (com.sun.jersey:jersey-server:jar:1.19.4:provided - omitted for duplicate)
+|     +- com.sun.jersey:jersey-client:jar:1.19.4:provided
+|     |  \- (com.sun.jersey:jersey-core:jar:1.19.4:provided - omitted for duplicate)
+|     +- com.sun.jersey:jersey-json:jar:1.19.4:provided
+|     |  +- org.codehaus.jettison:jettison:jar:1.1:provided
+|     |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  +- (org.codehaus.jackson:jackson-xc:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  \- (com.sun.jersey:jersey-core:jar:1.19.4:provided - omitted for duplicate)
+|     +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13-atlassian-3:provided
+|     |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     +- org.codehaus.jackson:jackson-xc:jar:1.9.13-atlassian-3:provided
+|     |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13-atlassian-3:provided - version managed from 1.9.2; omitted for duplicate)
+|     \- (commons-fileupload:commons-fileupload:jar:1.3.3:provided - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.16:provided
++- org.codehaus.groovy:groovy:jar:indy:2.5.8:compile
++- org.codehaus.groovy:groovy-json:jar:indy:2.5.8:compile
++- org.codehaus.groovy:groovy-sql:jar:indy:2.5.8:compile
++- org.codehaus.groovy:groovy-templates:jar:indy:2.5.8:compile
++- org.codehaus.groovy:groovy-xml:jar:indy:2.5.8:compile
++- org.codehaus.groovy:groovy-groovydoc:jar:indy:2.5.8:compile
+|  +- org.codehaus.groovy:groovy-cli-picocli:jar:2.5.8:compile
+|  |  \- info.picocli:picocli:jar:4.0.1:compile
+|  \- org.codehaus.groovy:groovy-docgenerator:jar:2.5.8:runtime
+|     +- (org.codehaus.groovy:groovy-cli-picocli:jar:2.5.8:runtime - omitted for duplicate)
+|     \- com.thoughtworks.qdox:qdox:jar:1.12.1:runtime
++- org.codehaus.groovy:groovy-dateutil:jar:indy:2.5.8:compile
++- javax.servlet:servlet-api:jar:2.4:provided
++- org.slf4j:slf4j-api:jar:1.7.25:provided (scope not updated to compile)
++- com.atlassian.templaterenderer:atlassian-template-renderer-api:jar:4.0.0:provided
++- com.atlassian.activeobjects:activeobjects-plugin:jar:3.0.0:provided
+|  +- net.java.dev.activeobjects:activeobjects:jar:3.0.0:provided
+|  |  +- (com.google.guava:guava:jar:26.0-jre:provided - version managed from 14.0.1; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 2.0.2; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.8:provided - version managed from 3.7; omitted for duplicate)
+|  +- com.atlassian.activeobjects:activeobjects-core:jar:3.0.0:provided
+|  |  +- (com.atlassian.activeobjects:activeobjects-spi:jar:3.0.0:provided - omitted for duplicate)
+|  |  \- (net.java.dev.activeobjects:activeobjects:jar:3.0.0:provided - omitted for duplicate)
+|  +- com.atlassian.activeobjects:activeobjects-dbex:jar:3.0.0:provided
+|  |  \- (com.atlassian.activeobjects:activeobjects-spi:jar:3.0.0:provided - omitted for duplicate)
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.1.0:provided
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.0:provided
+|  \- (com.google.code.gson:gson:jar:2.3.1:provided - version managed from 1.7.2; omitted for duplicate)
++- io.github.java-diff-utils:java-diff-utils:jar:4.0:compile
++- com.github.ben-manes.caffeine:caffeine:jar:2.8.0:compile
+|  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+|  \- com.google.errorprone:error_prone_annotations:jar:2.3.3:compile
++- com.atlassian.pocketknife:atlassian-pocketknife-querydsl:jar:5.0.3:compile
+|  +- com.querydsl:querydsl-sql:jar:4.1.4:compile
+|  |  +- com.querydsl:querydsl-core:jar:4.1.4:compile
+|  |  |  \- com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+|  |  \- (javax.validation:validation-api:jar:2.0.1.Final:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  +- org.jooq:joor:jar:0.9.5:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.0; omitted for duplicate)
+|  \- (com.atlassian.annotations:atlassian-annotations:jar:2.1.0:compile - version managed from 0.19; omitted for duplicate)
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
++- io.sentry:sentry:jar:1.7.25:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile (version managed from 2.9.9)
++- com.google.guava:guava:jar:26.0-jre:provided
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
+|  +- (org.checkerframework:checker-qual:jar:2.5.2:provided - omitted for conflict with 2.10.0)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.1.3:provided - omitted for conflict with 2.3.3)
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:provided
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:provided
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- javax.annotation:javax.annotation-api:jar:1.3.2:compile
++- joda-time:joda-time:jar:2.8.2:provided
++- com.atlassian.annotations:atlassian-annotations:jar:2.1.0:provided (scope not updated to compile)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 3.0.0; omitted for duplicate)
++- javax.validation:validation-api:jar:2.0.1.Final:provided (scope not updated to compile)
++- com.atlassian.jira.plugins:jira-greenhopper-api:jar:8.0.0-DAILY20190122023019:provided
++- com.atlassian.jira.plugins:jira-greenhopper-plugin:jar:8.0.0-DAILY20190122023019:provided
+|  +- (com.atlassian.jira.plugins:jira-greenhopper-api:jar:8.0.0-DAILY20190122023019:provided - omitted for duplicate)
+|  +- com.atlassian.jira.plugins:greenhopper-jira-bridge:jar:8.0.0-DAILY20190122023019:provided
+|  +- com.atlassian.jira.plugins:greenhopper-jira70-bridge:jar:8.0.0-DAILY20190122023019:provided
+|  |  +- (com.atlassian.jira:jira-core:jar:8.2.1:provided - version managed from 7.0.1-QR20151013020536; omitted for duplicate)
+|  |  \- (com.atlassian.jira.plugins:greenhopper-jira-bridge:jar:8.0.0-DAILY20190122023019:provided - omitted for duplicate)
+|  +- com.atlassian.jira.plugins:greenhopper-jira71-bridge:jar:8.0.0-DAILY20190122023019:provided
+|  |  +- (com.atlassian.jira:jira-core:jar:8.2.1:provided - version managed from 7.1.0-QR20151218174006; omitted for duplicate)
+|  |  \- (com.atlassian.jira.plugins:greenhopper-jira-bridge:jar:8.0.0-DAILY20190122023019:provided - omitted for duplicate)
+|  +- com.atlassian.jira.plugins:greenhopper-rest:jar:8.0.0-DAILY20190122023019:provided
+|  |  \- (com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-factory:jar:0.28:provided - version managed from 0.51; omitted for duplicate)
+|  +- org.json:json:jar:20070829:provided (version managed from 20090211)
+|  +- (com.thoughtworks.xstream:xstream:jar:1.4.9:provided - version managed from 1.4.8; omitted for duplicate)
+|  +- (xpp3:xpp3:jar:1.1.4c:provided - version managed from 1.1.3.4-RC8; omitted for duplicate)
+|  +- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  +- com.atlassian.cache:atlassian-cache-compat:jar:2.0:provided
+|  |  +- com.atlassian.cache:atlassian-cache-compat-common:jar:2.0:provided
+|  |  |  \- (io.atlassian.util.concurrent:atlassian-util-concurrent:jar:4.0.1:provided - omitted for duplicate)
+|  |  +- com.atlassian.cache:atlassian-cache-guava-10-compat:jar:2.0:provided
+|  |  \- com.atlassian.cache:atlassian-cache-guava-11-compat:jar:2.0:provided
+|  +- com.atlassian.pocketknife:atlassian-pocketknife-dynamic-modules:jar:0.20:provided
+|  +- (com.atlassian.pocketknife:atlassian-pocketknife-querydsl:jar:0.80:provided - omitted for conflict with 5.0.3)
+|  +- com.atlassian.scheduler:atlassian-scheduler-compat:jar:2.0.0-java11-compatibility:provided
+|  +- com.atlassian.beehive:beehive-compat:jar:1.0.0:provided
+|  +- com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-factory:jar:0.28:provided
+|  |  +- com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-api:jar:0.28:provided
+|  |  +- com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-63:jar:0.28:provided
+|  |  |  \- (com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-api:jar:0.28:provided - omitted for duplicate)
+|  |  \- com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-70:jar:0.28:provided
+|  |     \- (com.atlassian.jira.compat:jira-cross-compatibility-lib-bridge-api:jar:0.28:provided - omitted for duplicate)
+|  \- org.apache.commons:commons-text:jar:1.4:provided
+|     \- (org.apache.commons:commons-lang3:jar:3.8:provided - version managed from 3.7; omitted for duplicate)
++- org.junit.platform:junit-platform-runner:jar:1.2.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-launcher:jar:1.2.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-engine:jar:1.2.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-suite-api:jar:1.2.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.2.0:test
+|  |     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.2.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.2.0:test - omitted for duplicate)
+|  |  \- org.opentest4j:opentest4j:jar:1.1.0:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- (org.opentest4j:opentest4j:jar:1.1.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.2.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-params:jar:5.2.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test - omitted for duplicate)
++- org.jboss.arquillian.junit:arquillian-junit-container:jar:1.4.0.Final:test
+|  +- org.jboss.arquillian.junit:arquillian-junit-core:jar:1.4.0.Final:test
+|  |  \- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.test:arquillian-test-api:jar:1.4.0.Final:test
+|  |  \- org.jboss.arquillian.core:arquillian-core-api:jar:1.4.0.Final:test
+|  +- org.jboss.arquillian.test:arquillian-test-spi:jar:1.4.0.Final:test
+|  |  +- org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.0.Final:test
+|  |  |  \- (org.jboss.arquillian.core:arquillian-core-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.test:arquillian-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-test-api:jar:1.4.0.Final:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:test
+|  +- org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.core:arquillian-core-impl-base:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.test:arquillian-test-impl-base:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.test:arquillian-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-impl-base:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- org.jboss.arquillian.config:arquillian-config-api:jar:1.4.0.Final:test
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:test - omitted for duplicate)
+|  |  +- org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.4.0.Final:test
+|  |  |  +- (org.jboss.arquillian.config:arquillian-config-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  |  +- org.jboss.arquillian.config:arquillian-config-spi:jar:1.4.0.Final:test
+|  |  |  |  \- (org.jboss.arquillian.config:arquillian-config-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  |  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:test
+|  |     \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:test - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-test-impl-base:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.test:arquillian-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test
+|     +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|     \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test
+|        \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
++- com.adaptavist.arquillian.atlassian:remote-atlas-container:jar:3.5.1:test
+|  +- org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.config:arquillian-config-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:test - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.protocol:arquillian-protocol-servlet:jar:1.4.0.Final:test
+|  |  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.container:arquillian-container-test-impl-base:jar:1.4.0.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:test - omitted for duplicate)
+|  +- com.adaptavist.shrinkwrap:shrinkwrap-atlassian-plugin-impl:jar:3.5.1:test
+|  |  +- com.adaptavist.shrinkwrap:shrinkwrap-atlassian-plugin-api:jar:3.5.1:test
+|  |  |  \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.1.3:test - omitted for duplicate)
+|  |  |  \- org.apache.maven:maven-model:jar:3.5.2:test
+|  |  |     +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |     \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  +- biz.aQute.bnd:biz.aQute.bndlib:jar:3.5.0:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.24; omitted for duplicate)
+|  |  +- com.atlassian.plugin:atlassian-spring-scanner-maven-plugin:jar:2.1.5:test
+|  |  \- org.reflections:reflections:jar:0.9.10:test (version managed from 0.9.11)
+|  |     +- (com.google.guava:guava:jar:26.0-jre:test - version managed from 15.0; omitted for duplicate)
+|  |     +- org.javassist:javassist:jar:3.19.0-GA:test
+|  |     \- (com.google.code.findbugs:annotations:jar:3.0.0:test - version managed from 2.0.1; omitted for duplicate)
+|  +- org.jboss.shrinkwrap:shrinkwrap-depchain:pom:1.2.6:test
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test - omitted for duplicate)
+|  |  \- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain:pom:3.1.3:test
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.1.3:test
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.1.3:test
+|  |  |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.1.3:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.1.3:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.1.3:test - omitted for duplicate)
+|  |  |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- org.apache.maven:maven-resolver-provider:jar:3.5.2:test
+|  |  |  |  +- (org.apache.maven:maven-model:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven:maven-model-builder:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven:maven-repository-metadata:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:26.0-jre:test - version managed from 20.0; omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-model:jar:3.5.2:test - omitted for duplicate)
+|  |  |  +- org.apache.maven:maven-model-builder:jar:3.5.2:test
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:test - omitted for duplicate)
+|  |  |  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:test
+|  |  |  |  +- (org.apache.maven:maven-model:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- org.apache.maven:maven-artifact:jar:3.5.2:test
+|  |  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  |  |  +- org.apache.maven:maven-builder-support:jar:3.5.2:test
+|  |  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:26.0-jre:test - version managed from 20.0; omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  |  +- org.apache.maven:maven-repository-metadata:jar:3.5.2:test
+|  |  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven:maven-settings:jar:3.5.2:test
+|  |  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven:maven-settings-builder:jar:3.5.2:test
+|  |  |  |  +- (org.apache.maven:maven-builder-support:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven:maven-settings:jar:3.5.2:test - omitted for duplicate)
+|  |  |  |  +- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.8:test - version managed from 3.5; omitted for duplicate)
+|  |  |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test
+|  |  |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:test
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:test
+|  |  |  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:test
+|  |  |  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.0:test
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:test - omitted for duplicate)
+|  |  |  +- org.apache.maven.resolver:maven-resolver-transport-wagon:jar:1.1.0:test
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.12:test - omitted for duplicate)
+|  |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.24:test
+|  |  |  +- org.codehaus.plexus:plexus-utils:jar:3.1.0:test
+|  |  |  +- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:test
+|  |  |  |  \- org.sonatype.plexus:plexus-cipher:jar:1.4:test
+|  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:2.12:test
+|  |  |  +- org.apache.maven.wagon:wagon-file:jar:2.12:test
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:test - omitted for conflict with 3.1.0)
+|  |  |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.12:test - omitted for duplicate)
+|  |  |  \- org.apache.maven.wagon:wagon-http-lightweight:jar:2.12:test
+|  |  |     +- org.apache.maven.wagon:wagon-http-shared:jar:2.12:test
+|  |  |     |  +- (org.jsoup:jsoup:jar:1.8.3:test - version managed from 1.7.2; omitted for duplicate)
+|  |  |     |  +- (commons-io:commons-io:jar:2.6:test - version managed from 2.5; omitted for duplicate)
+|  |  |     |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.22; omitted for duplicate)
+|  |  |     |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.12:test - omitted for duplicate)
+|  |  |     +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:test - omitted for conflict with 3.1.0)
+|  |  |     +- (commons-io:commons-io:jar:2.6:test - version managed from 2.5; omitted for duplicate)
+|  |  |     \- (org.apache.maven.wagon:wagon-provider-api:jar:2.12:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven-archive:jar:3.1.3:test
+|  |  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.1.3:test - omitted for duplicate)
+|  |  |  |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:test
+|  |  |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:test
+|  |  |  +- org.codehaus.plexus:plexus-compiler-javac:jar:2.7:test
+|  |  |  |  \- org.codehaus.plexus:plexus-compiler-api:jar:2.7:test
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-embedded:jar:3.1.3:test
+|  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.1.3:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.1.3:test - omitted for duplicate)
+|  |  |  \- org.apache.maven.shared:maven-invoker:jar:3.0.0:test
+|  |  |     +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:test - omitted for conflict with 3.1.0)
+|  |  |     \- (org.codehaus.plexus:plexus-component-annotations:jar:1.7:test - omitted for conflict with 1.7.1)
+|  |  \- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-embedded:jar:3.1.3:test
+|  |     +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|  |     +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-embedded:jar:3.1.3:test - omitted for duplicate)
+|  |     +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.1.3:test - omitted for duplicate)
+|  |     +- (org.apache.maven.shared:maven-invoker:jar:3.0.0:test - omitted for duplicate)
+|  |     +- org.arquillian.spacelift:arquillian-spacelift:jar:1.0.2:test
+|  |     |  +- org.arquillian.spacelift:arquillian-spacelift-api:jar:1.0.2:test
+|  |     |  \- (org.apache.commons:commons-compress:jar:1.8.1:test - omitted for duplicate)
+|  |     \- (commons-codec:commons-codec:jar:1.9:test - version managed from 1.10; omitted for duplicate)
+|  \- com.squareup.okhttp:okhttp:jar:2.6.0:test
+|     \- com.squareup.okio:okio:jar:1.6.0:test
++- org.mockito:mockito-core:jar:2.21.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.15:test
+|  \- org.objenesis:objenesis:jar:2.1:test (version managed from 2.6)
+\- com.atlassian.jira:jira-tests:jar:8.2.1:test
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   +- org.hamcrest:hamcrest-core:jar:1.3:test
+   +- org.hamcrest:hamcrest-library:jar:1.3:test
+   |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   +- (org.mockito:mockito-core:jar:2.21.0:test - omitted for duplicate)
+   +- cglib:cglib:jar:2.1_3:test
+   |  \- asm:asm:jar:1.5.3:test
+   +- mockobjects:mockobjects-jdk1.3-j2ee1.3:jar:0.07:test
+   \- com.atlassian.inception:inception:jar:1.25:test
+      +- (com.atlassian.modzdetector:modz-detector:jar:0.12:test - version managed from 0.2; omitted for duplicate)
+      +- (dom4j:dom4j:jar:1.4:test - version managed from 1.6.1; omitted for duplicate)
+      \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.5.8; omitted for duplicate)
+

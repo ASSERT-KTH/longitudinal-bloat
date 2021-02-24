@@ -1,0 +1,40 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.fusionauth:fusionauth-java-client:jar:1.21.1
++- com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile
++- com.inversoft:restify:jar:3.4.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  \- (com.inversoft:jackson5:jar:2.4.6:compile - omitted for conflict with 2.4.7)
++- io.fusionauth:fusionauth-jwt:jar:3.4.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile - omitted for duplicate)
++- com.inversoft:jackson5:jar:2.4.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.2.3:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:27.1-jre:compile
+|  |     +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  |     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  |     +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|  |     +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+|  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- com.inversoft:java-error:jar:2.2.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1:compile - omitted for conflict with 2.10.3)
+|  \- (com.inversoft:jackson5:jar:2.4.4:compile - omitted for conflict with 2.4.7)
+\- org.testng:testng:jar:6.14.3:test
+   +- com.beust:jcommander:jar:1.72:test
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
+

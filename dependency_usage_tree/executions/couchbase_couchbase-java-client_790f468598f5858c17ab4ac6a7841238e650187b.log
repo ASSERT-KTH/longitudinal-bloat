@@ -1,0 +1,25 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+com.couchbase.client:java-client:jar:2.6.1
++- com.couchbase.client:core-io:jar:1.6.1:compile
+|  +- io.reactivex:rxjava:jar:1.3.7:compile
+|  \- io.opentracing:opentracing-api:jar:0.31.0:compile
++- org.slf4j:slf4j-api:jar:1.7.7:provided
++- commons-logging:commons-logging:jar:1.1.3:provided
++- log4j:log4j:jar:1.2.17:provided
++- com.couchbase.client:encryption:jar:1.0.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.3:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- eu.codearte.catch-exception:catch-exception:jar:1.4.4:test
+|  \- org.objenesis:objenesis:jar:1.2:test
++- org.assertj:assertj-core:jar:1.7.1:test
++- com.google.guava:guava-testlib:jar:19.0:test
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.2:test
+|  +- com.google.guava:guava:jar:19.0:test
+|  \- (junit:junit:jar:4.8.2:test - omitted for conflict with 4.12)
+\- com.couchbase.mock:CouchbaseMock:jar:1.5.9:test
+

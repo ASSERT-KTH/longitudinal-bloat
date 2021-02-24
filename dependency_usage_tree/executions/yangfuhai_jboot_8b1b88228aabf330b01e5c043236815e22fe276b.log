@@ -1,0 +1,109 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.jboot:jboot:jar:1.0-alpha
++- com.jfinal:jfinal:jar:3.1:compile
+|  \- cglib:cglib-nodep:jar:3.1:compile
++- com.jfinal:cos:jar:26Dec2008:compile
++- com.jfinal:jfinal-weixin:jar:1.9:compile
+|  \- (com.jfinal:jfinal:jar:3.1:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:compile
++- com.zaxxer:HikariCP:jar:2.6.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
++- mysql:mysql-connector-java:jar:5.1.42:compile
++- junit:junit:jar:4.12:provided
+|  \- org.hamcrest:hamcrest-core:jar:1.3:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- io.undertow:undertow-core:jar:1.4.12.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  +- org.jboss.xnio:xnio-api:jar:3.3.6.Final:compile
+|  \- org.jboss.xnio:xnio-nio:jar:3.3.6.Final:runtime
+|     \- (org.jboss.xnio:xnio-api:jar:3.3.6.Final:runtime - omitted for duplicate)
++- io.undertow:undertow-servlet:jar:1.4.12.Final:compile
+|  +- (io.undertow:undertow-core:jar:1.4.12.Final:compile - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
+|  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
++- com.weibo:motan-core:jar:0.3.0:compile
+|  +- commons-pool:commons-pool:jar:1.6:compile
+|  +- com.caucho:hessian:jar:4.0.38:compile
+|  +- (com.alibaba:fastjson:jar:1.1.30:compile - omitted for conflict with 1.2.31)
+|  +- com.codahale.metrics:metrics-core:jar:3.0.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- com.squareup:javapoet:jar:1.8.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.22)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.5.8:compile - omitted for conflict with 1.7.22)
+|  +- log4j:log4j:jar:1.2.14:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  \- commons-codec:commons-codec:jar:1.4:compile
++- com.weibo:motan-transport-netty:jar:0.3.0:compile
+|  +- org.jboss.netty:netty:jar:3.2.5.Final:compile
+|  +- (com.weibo:motan-core:jar:0.3.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.22)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.5.8:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.14:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
++- com.weibo:motan-registry-consul:jar:0.3.0:compile
+|  +- (com.weibo:motan-core:jar:0.3.0:compile - omitted for duplicate)
+|  +- com.ecwid.consul:consul-api:jar:1.1.4:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.5:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for conflict with 4.2.5)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1)
+|  |  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.4)
+|  |  +- commons-logging:commons-logging:jar:1.1:compile
+|  |  |  +- (log4j:log4j:jar:1.2.12:compile - omitted for conflict with 1.2.14)
+|  |  |  +- logkit:logkit:jar:1.0.1:compile
+|  |  |  +- avalon-framework:avalon-framework:jar:4.1.3:compile
+|  |  |  \- javax.servlet:servlet-api:jar:2.3:compile
+|  |  \- com.google.code.gson:gson:jar:2.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.22)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.5.8:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.14:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.22:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.22:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.14)
++- com.alibaba:fastjson:jar:1.2.31:compile
++- it.sauronsoftware.cron4j:cron4j:jar:2.2.5:provided
++- org.redisson:redisson:jar:3.4.2:compile
+|  +- io.netty:netty-common:jar:4.1.10.Final:compile
+|  +- io.netty:netty-codec:jar:4.1.10.Final:compile
+|  |  \- (io.netty:netty-transport:jar:4.1.10.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.1.10.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.10.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.10.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.10.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.10.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.10.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.10.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.10.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.10.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.10.Final:compile - omitted for duplicate)
+|  +- javax.cache:cache-api:jar:1.0.0:compile
+|  +- io.projectreactor:reactor-stream:jar:2.0.8.RELEASE:compile
+|  |  \- io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile
+|  |     +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.22)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.22)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.7:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  +- net.openhft:zero-allocation-hashing:jar:0.8:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.6.8:compile
+|  \- org.jodd:jodd-bean:jar:3.7.1:compile
+|     \- org.jodd:jodd-core:jar:3.7.1:compile
++- de.ruedigermoeller:fst:jar:2.50:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for conflict with 2.6.7)
+|  +- org.javassist:javassist:jar:3.21.0-GA:compile
+|  +- org.objenesis:objenesis:jar:2.5.1:compile
+|  \- com.cedarsoftware:java-util:jar:1.9.0:compile
+|     +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1)
+|     \- com.cedarsoftware:json-io:jar:2.5.1:compile
+\- org.jsoup:jsoup:jar:1.10.2:compile
+

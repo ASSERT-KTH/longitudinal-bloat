@@ -1,0 +1,95 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+io.ebean:ebean:jar:11.14.3
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.yaml:snakeyaml:jar:1.19:compile
++- io.ebean:ebean-jsr305:jar:1.1:provided
++- io.ebean:persistence-api:jar:2.2.1:compile
++- io.ebean:ebean-annotation:jar:3.8:compile
++- org.avaje:avaje-datasource:jar:3.1.1:compile
+|  \- org.avaje:avaje-datasource-api:jar:3.1:compile
++- org.avaje:avaje-classpath-scanner:jar:3.1.1:compile
+|  \- org.avaje:avaje-classpath-scanner-api:jar:2.2:compile
++- io.ebean:ebean-migration:jar:11.3.1:compile
+|  \- (org.avaje:avaje-classpath-scanner:jar:2.2.4:compile - omitted for conflict with 3.1.1)
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:provided - omitted for duplicate)
++- javax.transaction:jta:jar:1.1:provided
++- javax.validation:validation-api:jar:1.1.0.Final:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- joda-time:joda-time:jar:2.9.7:provided
++- org.postgresql:postgresql:jar:9.4.1212:provided
++- io.ebean:ebean-docker-run:jar:1.5.1:test
+|  \- org.avaje.docker:docker-commands:jar:1.5.1:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.avaje:avaje-agentloader:jar:2.1.2:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.25)
++- io.ebean:ebean-agent:jar:11.10.1:test
++- com.h2database:h2:jar:1.4.196:provided
++- org.xerial:sqlite-jdbc:jar:3.15.1:test
++- org.hsqldb:hsqldb:jar:2.3.4:test
++- com.microsoft.sqlserver:mssql-jdbc:jar:6.1.3.jre8-preview:test
+|  \- com.microsoft.azure:azure-keyvault:jar:0.9.7:test
+|     +- com.microsoft.azure:azure-core:jar:0.9.7:test
+|     |  +- (org.apache.httpcomponents:httpclient:jar:4.3.6:test - omitted for duplicate)
+|     |  +- commons-codec:commons-codec:jar:1.10:test
+|     |  +- commons-lang:commons-lang:jar:2.6:test
+|     |  +- javax.mail:mail:jar:1.4.5:test
+|     |  |  \- javax.activation:activation:jar:1.1:test
+|     |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|     |  +- com.sun.jersey:jersey-client:jar:1.19:test
+|     |  |  \- com.sun.jersey:jersey-core:jar:1.19:test
+|     |  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:test
+|     |  \- com.sun.jersey:jersey-json:jar:1.19:test
+|     |     +- org.codehaus.jettison:jettison:jar:1.1:test
+|     |     +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:test
+|     |     |  \- javax.xml.bind:jaxb-api:jar:2.2.2:test
+|     |     |     +- javax.xml.stream:stax-api:jar:1.0-2:test
+|     |     |     \- (javax.activation:activation:jar:1.1:test - omitted for duplicate)
+|     |     +- org.codehaus.jackson:jackson-core-asl:jar:1.9.2:test
+|     |     +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:test
+|     |     |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:test - omitted for duplicate)
+|     |     +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.2:test
+|     |     |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:test - omitted for duplicate)
+|     |     |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:test - omitted for duplicate)
+|     |     +- org.codehaus.jackson:jackson-xc:jar:1.9.2:test
+|     |     |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:test - omitted for duplicate)
+|     |     |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:test - omitted for duplicate)
+|     |     \- (com.sun.jersey:jersey-core:jar:1.19:test - omitted for duplicate)
+|     +- org.apache.httpcomponents:httpclient:jar:4.3.6:test
+|     |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:test
+|     |  +- commons-logging:commons-logging:jar:1.1.3:test
+|     |  \- (commons-codec:commons-codec:jar:1.6:test - omitted for conflict with 1.10)
+|     +- javax.inject:javax.inject:jar:1:test
+|     \- com.microsoft.azure:adal4j:jar:1.0.0:test
+|        +- com.nimbusds:oauth2-oidc-sdk:jar:4.5:test
+|        |  +- (javax.mail:mail:jar:1.4.7:test - omitted for conflict with 1.4.5)
+|        |  +- net.jcip:jcip-annotations:jar:1.0:test
+|        |  +- org.apache.commons:commons-lang3:jar:3.3.1:test
+|        |  +- (commons-codec:commons-codec:jar:1.9:test - omitted for conflict with 1.10)
+|        |  +- net.minidev:json-smart:jar:1.1.1:test
+|        |  +- com.nimbusds:lang-tag:jar:1.4:test
+|        |  |  \- (net.minidev:json-smart:jar:1.1.1:test - omitted for duplicate)
+|        |  \- com.nimbusds:nimbus-jose-jwt:jar:3.1.2:test
+|        |     +- (net.jcip:jcip-annotations:jar:1.0:test - omitted for duplicate)
+|        |     +- (net.minidev:json-smart:jar:1.1.1:test - omitted for duplicate)
+|        |     \- org.bouncycastle:bcprov-jdk15on:jar:1.51:test
+|        +- com.google.code.gson:gson:jar:2.2.4:test
+|        +- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.25)
+|        \- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
++- mysql:mysql-connector-java:jar:5.1.43:test
++- org.avaje.composite:avaje-composite-testing:pom:1.1:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.assertj:assertj-core:jar:3.1.0:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:test - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:test
+\- org.avaje.moduuid:avaje-moduuid:jar:2.1:test
+

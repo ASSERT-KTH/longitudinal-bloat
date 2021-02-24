@@ -1,0 +1,383 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+[ERROR] Command 'cd /tmp/tmpnx72ekxj/rhino; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/PLOS_rhino/f4ab9b489ce89d3a648e9c7461dfecc434e69175/depClean.log 2>&1' returned non-zero exit status 1.
+org.ambraproject:rhino:war:1.2.6
++- commons-io:commons-io:jar:2.4:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- com.google.guava:guava:jar:15.0:compile
++- com.google.code.gson:gson:jar:2.2.2:compile
++- org.ambraproject:rhombat:jar:1.0.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.6.1)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.6.6:runtime - omitted for conflict with 1.6.1)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.6.6:compile - scope updated from runtime; omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.15:compile - scope updated from runtime; omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for conflict with 2.2.2)
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  \- spy:spymemcached:jar:2.8.1:compile
++- org.yaml:snakeyaml:jar:1.13:compile
++- org.ambraproject:ambra-base:jar:2.10.20:compile
+|  +- org.ambraproject:ambra-models:jar:2.10.20:compile
+|  |  +- org.hibernate:hibernate-core:jar:3.6.3.Final:compile
+|  |  |  +- antlr:antlr:jar:2.7.6:compile
+|  |  |  +- (commons-collections:commons-collections:jar:3.1:compile - omitted for conflict with 3.2)
+|  |  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  +- org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.6.6)
+|  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.0.Final:compile
+|  |  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.6.6)
+|  |  +- javassist:javassist:jar:3.12.0.GA:compile
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for conflict with 1.6.1)
+|  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  \- (org.ambraproject:conf-helper:jar:2.10.20:compile - omitted for duplicate)
+|  +- org.ambraproject:ambra-password-service:jar:2.10.20:compile
+|  |  +- commons-math:commons-math:jar:1.1:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.0.4)
+|  |  |  \- commons-discovery:commons-discovery:jar:0.2:compile
+|  |  |     \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- org.ambraproject:file-store:jar:1.2.0:compile
+|  |  +- com.guba:mogileFS-client:jar:1.1.0.1:compile
+|  |  +- (commons-pool:commons-pool:jar:1.5.4:runtime - omitted for duplicate)
+|  |  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  +- org.testng:testng:jar:5.14.9:compile
+|  |  |  +- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.7)
+|  |  |  +- org.beanshell:bsh:jar:2.0b4:compile
+|  |  |  +- com.google.inject:guice:jar:2.0:compile
+|  |  |  |  \- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- com.beust:jcommander:jar:1.12:compile
+|  |  |  \- (org.yaml:snakeyaml:jar:1.6:compile - omitted for conflict with 1.13)
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.04)
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.11:compile - omitted for conflict with 1.6.6)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.5.11:compile - omitted for conflict with 1.7.7)
+|  |  +- commons-codec:commons-codec:jar:1.5:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.3:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for conflict with 2.2.2)
+|  |  \- (org.apache.httpcomponents:httpmime:jar:4.3.3:compile - omitted for duplicate)
+|  +- org.ambraproject:conf-helper:jar:2.10.20:compile
+|  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2:compile
+|  |  \- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.7)
+|  +- org.ambraproject:dom-ranges-helper:jar:2.10.20:compile
+|  +- org.ambraproject:ambra-emailer:jar:2.10.20:compile
+|  |  +- (org.freemarker:freemarker:jar:2.3.19:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.7)
+|  |  \- javax.mail:mail:jar:1.4:compile
+|  |     \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  +- net.tanesha.recaptcha4j:recaptcha4j:jar:0.0.7:compile
+|  +- com.googlecode.jcsv:jcsv:jar:1.4.0:compile
+|  +- org.jdom:jdom:jar:1.1:compile
+|  +- rome:rome:jar:1.0:compile
+|  |  \- jdom:jdom:jar:1.0:compile
+|  +- org.apache.poi:poi-scratchpad:jar:3.8:compile
+|  |  \- org.apache.poi:poi:jar:3.8:compile
+|  |     \- (commons-codec:commons-codec:jar:1.5:compile - omitted for duplicate)
+|  +- cas:casclient:jar:2.1.1:compile
+|  |  \- commons-logging:commons-logging:jar:1.0.4:compile
+|  +- (net.sf.ehcache:ehcache:jar:2.7.0:compile - omitted for duplicate)
+|  +- it.unibo.cs:unibo-xpointer:jar:1.2-t1:compile
+|  |  \- gnu-regexp:gnu-regexp:jar:1.1.4:compile
+|  +- org.ambraproject:entity-resolver:jar:2.10.20:compile
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.7)
+|  |  \- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.4)
+|  +- org.apache.struts:struts2-core:jar:2.3.16.3:compile
+|  |  +- org.apache.struts.xwork:xwork-core:jar:2.3.16.3:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.4)
+|  |  |  +- (ognl:ognl:jar:3.0.6:compile - omitted for duplicate)
+|  |  |  +- (asm:asm:jar:3.3:compile - omitted for conflict with 3.3.1)
+|  |  |  \- asm:asm-commons:jar:3.3:compile
+|  |  |     \- asm:asm-tree:jar:3.3:compile
+|  |  |        \- (asm:asm:jar:3.3:compile - omitted for duplicate)
+|  |  +- (org.freemarker:freemarker:jar:2.3.19:compile - omitted for duplicate)
+|  |  +- ognl:ognl:jar:3.0.6:compile
+|  |  |  \- (javassist:javassist:jar:3.11.0.GA:compile - omitted for conflict with 3.12.0.GA)
+|  |  +- (commons-fileupload:commons-fileupload:jar:1.3.1:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  +- net.sourceforge.findbugs:jsr305:jar:1.3.2:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.1.1:compile
+|  |  \- (commons-io:commons-io:jar:1.1:compile - omitted for conflict with 2.4)
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.3:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.0.4)
+|  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.5)
+|  +- org.apache.httpcomponents:httpmime:jar:4.3.3:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.3.3:compile - omitted for duplicate)
+|  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.5)
+|  +- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.4)
+|  +- oro:oro:jar:2.0.8:compile
+|  +- com.thoughtworks.xstream:xstream:jar:1.3:compile
+|  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  +- org.apache.struts:struts2-json-plugin:jar:2.3.16.3:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.4)
+|  |  \- (org.apache.struts:struts2-core:jar:2.3.16.3:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:1.4:compile - omitted for conflict with 2.2.2)
+|  +- javax.activation:activation:jar:1.1:compile
+|  +- (net.sf.saxon:Saxon-HE:jar:9.6.0-4:compile - omitted for duplicate)
+|  +- opensymphony:oscore:jar:2.2.4:compile
+|  +- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2)
+|  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  \- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  +- org.freemarker:freemarker:jar:2.3.19:compile
+|  +- org.apache.solr:solr-solrj:jar:4.1.0:compile
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.5:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.6.6)
+|  |  +- (commons-io:commons-io:jar:2.1:compile - omitted for conflict with 2.4)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.1.3:compile - omitted for conflict with 4.3.3)
+|  |  +- (org.apache.httpcomponents:httpmime:jar:4.1.3:compile - omitted for conflict with 4.3.3)
+|  |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.7:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.6.6)
+|  +- xerces:xercesImpl:jar:2.9.1:compile
+|  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  +- org.apache.xmlrpc:xmlrpc-client:jar:3.1.3:compile
+|  |  \- (org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:compile - omitted for duplicate)
+|  +- org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:compile
+|  |  \- org.apache.ws.commons.util:ws-commons-util:jar:1.0.2:compile
+|  |     +- (junit:junit:jar:3.8.1:compile - omitted for duplicate)
+|  |     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.04)
+|  +- org.apache.xmlrpc:xmlrpc-server:jar:3.1.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.0.4)
+|  |  \- (org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:compile - omitted for duplicate)
+|  +- org.im4java:im4java:jar:1.2.0:compile
+|  \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
++- org.ambraproject:ambra-queue:jar:2.10.20:compile
+|  +- (org.ambraproject:ambra-base:jar:2.10.20:compile - omitted for duplicate)
+|  +- (org.ambraproject:ambra-models:jar:2.10.20:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-core:jar:2.10.4:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-jms:jar:2.10.4:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-mail:jar:2.10.4:compile
+|  |  +- (org.apache.camel:camel-core:jar:2.10.4:compile - omitted for duplicate)
+|  |  \- (javax.mail:mail:jar:1.4.5:compile - omitted for conflict with 1.4)
+|  +- (org.apache.camel:camel-spring:jar:2.10.4:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-quartz:jar:2.10.4:compile
+|  |  +- (org.apache.camel:camel-core:jar:2.10.4:compile - omitted for duplicate)
+|  |  +- org.quartz-scheduler:quartz:jar:1.8.5:compile
+|  |  |  +- (javax.transaction:jta:jar:1.1:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.0:compile - omitted for conflict with 1.6.6)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for duplicate)
+|  +- org.apache.xbean:xbean-spring:jar:3.5:compile
+|  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.0.4)
+|  \- org.apache.camel:camel-freemarker:jar:2.10.4:compile
+|     +- (org.apache.camel:camel-core:jar:2.10.4:compile - omitted for duplicate)
+|     \- (org.freemarker:freemarker:jar:2.3.19:compile - omitted for duplicate)
++- org.ambraproject:ambra-base:jar:tests:2.10.20:test
+|  +- (org.ambraproject:ambra-models:jar:2.10.20:test - omitted for duplicate)
+|  +- (org.ambraproject:ambra-password-service:jar:2.10.20:test - omitted for duplicate)
+|  +- (org.ambraproject:file-store:jar:1.2.0:test - omitted for duplicate)
+|  +- (org.ambraproject:conf-helper:jar:2.10.20:test - omitted for duplicate)
+|  +- (org.ambraproject:dom-ranges-helper:jar:2.10.20:test - omitted for duplicate)
+|  +- (org.ambraproject:ambra-emailer:jar:2.10.20:test - omitted for duplicate)
+|  +- (net.tanesha.recaptcha4j:recaptcha4j:jar:0.0.7:test - omitted for duplicate)
+|  +- (com.googlecode.jcsv:jcsv:jar:1.4.0:test - omitted for duplicate)
+|  +- (org.jdom:jdom:jar:1.1:test - omitted for duplicate)
+|  +- (rome:rome:jar:1.0:test - omitted for duplicate)
+|  +- (org.apache.poi:poi-scratchpad:jar:3.8:test - omitted for duplicate)
+|  +- (cas:casclient:jar:2.1.1:test - omitted for duplicate)
+|  +- (net.sf.ehcache:ehcache:jar:2.7.0:test - omitted for duplicate)
+|  +- (it.unibo.cs:unibo-xpointer:jar:1.2-t1:test - omitted for duplicate)
+|  +- (org.ambraproject:entity-resolver:jar:2.10.20:test - omitted for duplicate)
+|  +- (org.apache.struts:struts2-core:jar:2.3.16.3:test - omitted for duplicate)
+|  +- (net.sourceforge.findbugs:jsr305:jar:1.3.2:test - omitted for duplicate)
+|  +- (commons-fileupload:commons-fileupload:jar:1.1.1:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.3:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.3.3:test - omitted for duplicate)
+|  +- (commons-httpclient:commons-httpclient:jar:3.1:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:1.4:test - omitted for conflict with 2.4)
+|  +- (oro:oro:jar:2.0.8:test - omitted for duplicate)
+|  +- (com.thoughtworks.xstream:xstream:jar:1.3:test - omitted for duplicate)
+|  +- (org.apache.struts:struts2-json-plugin:jar:2.3.16.3:test - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:1.4:test - omitted for conflict with 2.2.2)
+|  +- (javax.activation:activation:jar:1.1:test - omitted for duplicate)
+|  +- (net.sf.saxon:Saxon-HE:jar:9.6.0-4:test - omitted for duplicate)
+|  +- (opensymphony:oscore:jar:2.2.4:test - omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.6:test - omitted for duplicate)
+|  +- (org.freemarker:freemarker:jar:2.3.19:test - omitted for duplicate)
+|  +- org.mortbay.jetty:jetty-util:jar:6.1.21:test
+|  +- (org.apache.solr:solr-solrj:jar:4.1.0:test - omitted for duplicate)
+|  +- (xerces:xercesImpl:jar:2.9.1:test - omitted for duplicate)
+|  +- (org.apache.xmlrpc:xmlrpc-client:jar:3.1.3:test - omitted for duplicate)
+|  +- (org.apache.xmlrpc:xmlrpc-common:jar:3.1.3:test - omitted for duplicate)
+|  +- (org.apache.xmlrpc:xmlrpc-server:jar:3.1.3:test - omitted for duplicate)
+|  +- (org.im4java:im4java:jar:1.2.0:test - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
++- org.plos:content-repo-library:jar:1.5.0:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 15.0)
+|  +- org.aspectj:aspectjweaver:jar:1.8.2:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.6.6)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.7:runtime - omitted for conflict with 1.6.6)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.3:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for conflict with 2.2.2)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  +- (org.apache.httpcomponents:httpmime:jar:4.3.3:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.0:compile - omitted for conflict with 3.4)
++- cglib:cglib:jar:2.2.2:compile
+|  \- asm:asm:jar:3.3.1:compile
++- net.sf.saxon:Saxon-HE:jar:9.6.0-4:compile
++- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  \- commons-pool:commons-pool:jar:1.5.4:compile
++- org.hsqldb:hsqldb:jar:2.3.2:compile
++- org.springframework:spring-context:jar:4.1.6.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.1.6.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.1.6.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.1.6.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:4.1.6.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.1.6.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-web:jar:4.1.6.RELEASE:compile
+|     +- (org.springframework:spring-aop:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-orm:jar:4.1.6.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-jdbc:jar:4.1.6.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-tx:jar:4.1.6.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.1.6.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-test:jar:4.1.6.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
++- org.aspectj:aspectjrt:jar:1.6.9:compile
++- org.slf4j:slf4j-api:jar:1.6.1:compile
++- org.slf4j:jcl-over-slf4j:jar:1.6.1:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:runtime - omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.6.1:runtime (scope not updated to compile)
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:runtime - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:runtime - omitted for conflict with 1.2.15)
++- log4j:log4j:jar:1.2.15:runtime
++- javax.inject:javax.inject:jar:1:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.servlet.jsp:jsp-api:jar:2.1:provided
++- javax.servlet:jstl:jar:1.2:compile
++- org.apache.camel:camel-core:jar:2.10.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.6.1)
++- org.apache.camel:camel-jms:jar:2.10.4:runtime (scope not updated to compile)
+|  +- (org.apache.camel:camel-core:jar:2.10.4:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-spring:jar:2.10.4:runtime - omitted for duplicate)
+|  +- org.springframework:spring-jms:jar:3.0.7.RELEASE:runtime
+|  |  +- (aopalliance:aopalliance:jar:1.0:runtime - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  |  \- (org.springframework:spring-tx:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  +- (org.springframework:spring-core:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  +- (org.springframework:spring-tx:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
+|  \- (org.springframework:spring-beans:jar:3.0.7.RELEASE:runtime - omitted for conflict with 4.1.6.RELEASE)
++- org.apache.camel:camel-spring:jar:2.10.4:compile
+|  +- (org.apache.camel:camel-core:jar:2.10.4:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+|  +- (org.springframework:spring-aop:jar:3.0.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+|  \- (org.springframework:spring-tx:jar:3.0.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
++- org.apache.activemq:activemq-camel:jar:5.2.0:compile
+|  +- commons-logging:commons-logging-api:jar:1.1:compile
+|  +- (org.apache.camel:camel-jms:jar:1.5.0:compile - omitted for conflict with 2.10.4)
+|  +- org.apache.activemq:activemq-core:jar:5.2.0:compile
+|  |  +- (commons-logging:commons-logging-api:jar:1.1:compile - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-core:jar:1.5.0:compile - omitted for conflict with 2.10.4)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  |  +- org.apache.activemq:activeio-core:jar:3.1.0:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.0.4)
+|  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:2.1:compile
+|  |  \- org.apache.geronimo.specs:geronimo-j2ee-management_1.0_spec:jar:1.0:compile
+|  \- org.apache.activemq:activemq-pool:jar:5.2.0:compile
+|     +- (commons-logging:commons-logging-api:jar:1.1:compile - omitted for duplicate)
+|     +- (org.apache.activemq:activemq-core:jar:5.2.0:compile - omitted for duplicate)
+|     +- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:compile
+|     +- (commons-pool:commons-pool:jar:1.4:compile - omitted for conflict with 1.5.4)
+|     \- (org.springframework:spring-beans:jar:2.5.5:compile - omitted for conflict with 4.1.6.RELEASE)
++- net.sf.ehcache:ehcache:jar:2.7.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.6.1)
++- junit:junit:jar:4.7:test (scope not updated to compile)
++- xmlunit:xmlunit:jar:1.3:test
+\- com.mangofactory:swagger-springmvc:jar:0.8.8:compile
+   +- com.wordnik:swagger-core_2.10:jar:1.3.5:compile
+   |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.6.1)
+   |  +- com.fasterxml.jackson.module:jackson-module-scala_2.10:jar:2.1.5:compile
+   |  |  +- org.scala-lang:scala-library:jar:2.10.0:compile
+   |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.1.5:compile
+   |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.5:compile - omitted for duplicate)
+   |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.1.5:compile
+   |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.5:compile - omitted for duplicate)
+   |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.1.5:compile - omitted for duplicate)
+   |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+   |  |  +- (com.google.guava:guava:jar:13.0.1:compile - omitted for conflict with 15.0)
+   |  |  \- org.scala-lang:scala-reflect:jar:2.10.0:compile
+   |  |     \- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.1.5:compile
+   |  +- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.1.0:compile
+   |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.1.0:compile - omitted for conflict with 2.1.5)
+   |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.1.0:compile - omitted for conflict with 2.1.5)
+   |  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.0:compile - omitted for conflict with 2.1.5)
+   |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.0.0:compile
+   |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.0.0:compile - omitted for conflict with 2.1.5)
+   |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.0.0:compile - omitted for conflict with 2.1.5)
+   |  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.0.0:compile
+   |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.0.0:compile - omitted for conflict with 2.1.5)
+   |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.0.0:compile - omitted for conflict with 2.1.5)
+   |  |  \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+   |  +- com.wordnik:swagger-annotations:jar:1.3.5:compile
+   |  +- org.json4s:json4s-ext_2.10:jar:3.2.5:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  |  +- joda-time:joda-time:jar:2.1:compile
+   |  |  \- org.joda:joda-convert:jar:1.2:compile
+   |  +- org.json4s:json4s-native_2.10:jar:3.2.5:compile
+   |  |  +- org.json4s:json4s-core_2.10:jar:3.2.5:compile
+   |  |  |  +- org.json4s:json4s-ast_2.10:jar:3.2.5:compile
+   |  |  |  |  \- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.5.6:compile - omitted for conflict with 2.3)
+   |  |  |  \- org.scala-lang:scalap:jar:2.10.0:compile
+   |  |  |     \- org.scala-lang:scala-compiler:jar:2.10.0:compile
+   |  |  |        +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  |  |        \- (org.scala-lang:scala-reflect:jar:2.10.0:compile - omitted for duplicate)
+   |  |  \- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |  \- org.json4s:json4s-jackson_2.10:jar:3.2.5:compile
+   |     +- (org.json4s:json4s-core_2.10:jar:3.2.5:compile - omitted for duplicate)
+   |     +- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for duplicate)
+   |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - omitted for conflict with 2.1.5)
+   +- (org.springframework:spring-webmvc:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+   +- (org.springframework:spring-web:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+   +- (cglib:cglib:jar:2.2:compile - omitted for conflict with 2.2.2)
+   +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+   +- com.mangofactory.swagger:swagger-models:jar:0.8.8:compile
+   |  +- (org.springframework:spring-context:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+   |  +- (org.springframework:spring-beans:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+   |  +- (com.fasterxml:classmate:jar:1.0.0:compile - omitted for duplicate)
+   |  +- (com.wordnik:swagger-core_2.10:jar:1.3.5:compile - omitted for duplicate)
+   |  \- cglib:cglib-nodep:jar:3.1:compile
+   \- com.fasterxml:classmate:jar:1.0.0:compile
+
+Traceback (most recent call last):
+  File "/home/jdbl/core/Debloat.py", line 80, in depClean
+    output = subprocess.check_output(cmd, shell=True)
+  File "/usr/lib/python3.7/subprocess.py", line 395, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.7/subprocess.py", line 487, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command 'cd /tmp/tmpnx72ekxj/rhino; mvn -gs /home/jdbl/core/../maven-proxy.xml se.kth.castor:depclean-maven-plugin:1.1.0:depclean -Dcreate.pom.debloated=true -Dcreate.result.json=true > /home/jdbl/results/PLOS_rhino/f4ab9b489ce89d3a648e9c7461dfecc434e69175/depClean.log 2>&1' returned non-zero exit status 1.
