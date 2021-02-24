@@ -1,0 +1,1277 @@
+{
+ "usage": {
+  "com.treasure_data.model.bulkimport.GetErrorRecordsResult": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.Unpacker"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestFreezeSession": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestUnfreezeSession": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestCommitSession": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Before"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestUploadPart": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.DefaultClientAdaptorImpl": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.Unpacker"
+   ],
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestImportData": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestPerformSession": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.BulkImportClientAdaptorImpl": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.BufferUnpacker",
+    "org.msgpack.MessagePack",
+    "org.msgpack.unpacker.Unpacker"
+   ],
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.HttpConnectionImpl": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.BufferUnpacker",
+    "org.msgpack.MessagePack",
+    "org.msgpack.unpacker.Unpacker"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestDeletePart": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.TestDeletePartialTable": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack",
+    "org.msgpack.packer.Packer"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.model.JobResult": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.Unpacker"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestGetErrorRecords": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.MessagePack"
+   ],
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Before"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.BulkImportClient": {
+   "org.msgpack:msgpack:jar:0.6.6:compile": [
+    "org.msgpack.unpacker.Unpacker"
+   ]
+  },
+  "com.treasure_data.client.TestImportData$HttpConnectionImplforImportData01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestGetServerStatus$HttpConnectionImplforGetServerStatus01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestKillJob$HttpConnectionImplforKillJob01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestListDatabases$HttpConnectionImplforListDatabases01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestDeleteTable$HttpConnectionImplforDeleteTable01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestExportData$HttpConnectionImplforExportData01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestListTables$HttpConnectionImplforListTables01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestShowJob$HttpConnectionImplforShowJob01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestDeletePartialTable$HttpConnectionImplforDeletePartialTable01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestAuthenticate$HttpConnectionImplforAuthenticate01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestListJobs$HttpConnectionImplforListJobs01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestSubmitJob$HttpConnectionImplforSubmitJob01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestDeleteDatabase$HttpConnectionImplforDeleteDatabase01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestCreateDatabase$HttpConnectionImplforCreateDatabase01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestCreateTable$HttpConnectionImplforCreateTable01": {
+   "com.googlecode.json-simple:json-simple:jar:1.1.1:compile": [
+    "org.json.simple.JSONValue"
+   ]
+  },
+  "com.treasure_data.client.TestExportData": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestDeleteDatabase": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.auth.TestTreasureDataCredentials": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestGetServerStatus": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestDeleteTable": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestCreateSession": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.TestSubmitJob": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestKillJob": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestListTables": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestListParts": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Before"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestListSessions": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.TestListDatabases": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.bulkimport.TestDeleteSession": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore"
+   ]
+  },
+  "com.treasure_data.client.TestCreateDatabase": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestShowJob": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestCreateTable": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestGetJobResult": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Before"
+   ]
+  },
+  "com.treasure_data.client.TestHttpClientAdaptor": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestAuthenticate": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  },
+  "com.treasure_data.client.TestTreasureDataClient": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Before"
+   ]
+  },
+  "com.treasure_data.client.TestListJobs": {
+   "junit:junit:jar:4.8.2:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Ignore",
+    "org.junit.Assert"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.treasure_data:td-client:jar:0.1.2:null",
+  "coordinates": "com.treasure_data:td-client:0.1.2",
+  "groupId": "com.treasure_data",
+  "artifactId": "td-client",
+  "version": "0.1.2",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "org.msgpack:msgpack:jar:0.6.6:compile",
+    "coordinates": "org.msgpack:msgpack:0.6.6",
+    "groupId": "org.msgpack",
+    "artifactId": "msgpack",
+    "version": "0.6.6",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 208295,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.treasure_data:td-client:jar:0.1.2",
+    "allTypes": [
+     "org.msgpack.annotation.MessagePackOrdinalEnum",
+     "org.msgpack.annotation.Beans",
+     "org.msgpack.template.builder.TemplateBuilderChain",
+     "org.msgpack.unpacker.MessagePackBufferUnpacker",
+     "org.msgpack.template.MessagePackableTemplate",
+     "org.msgpack.template.BigDecimalTemplate",
+     "org.msgpack.unpacker.MapAccept",
+     "org.msgpack.packer.AbstractPacker",
+     "org.msgpack.util.json.JSON",
+     "org.msgpack.unpacker.BufferUnpacker",
+     "org.msgpack.annotation.Ignore",
+     "org.msgpack.unpacker.ArrayAccept",
+     "org.msgpack.template.builder.DefaultFieldEntry",
+     "org.msgpack.template.builder.TemplateBuilder",
+     "org.msgpack.io.ByteBufferOutput$ExpandBufferCallback",
+     "org.msgpack.template.builder.ReflectionTemplateBuilder$ReflectionFieldTemplate",
+     "org.msgpack.template.OrdinalEnumTemplate",
+     "org.msgpack.annotation.OrdinalEnum",
+     "org.msgpack.type.AbstractArrayValue",
+     "org.msgpack.MessagePack",
+     "org.msgpack.annotation.Optional",
+     "org.msgpack.template.builder.OrdinalEnumTemplateBuilder",
+     "org.msgpack.io.Input",
+     "org.msgpack.template.GenericCollectionTemplate",
+     "org.msgpack.template.IntegerTemplate",
+     "org.msgpack.template.BooleanTemplate",
+     "org.msgpack.type.FloatValue",
+     "org.msgpack.template.TemplateRegistry",
+     "org.msgpack.packer.Packer",
+     "org.msgpack.type.ArrayValue",
+     "org.msgpack.type.AbstractMapValue",
+     "org.msgpack.template.FieldList",
+     "org.msgpack.template.LongTemplate",
+     "org.msgpack.template.ShortTemplate",
+     "org.msgpack.template.builder.ArrayTemplateBuilder$ReflectionMultidimentionalArrayTemplate",
+     "org.msgpack.template.builder.DefaultBuildContext",
+     "org.msgpack.type.RawValue",
+     "org.msgpack.type.LongValueImpl",
+     "org.msgpack.io.StreamInput",
+     "org.msgpack.template.builder.JavassistTemplateBuilder$JavassistTemplate",
+     "org.msgpack.annotation.MessagePackDelegate",
+     "org.msgpack.unpacker.Unpacker",
+     "org.msgpack.template.builder.ReflectionTemplateBuilder$FieldTemplateImpl",
+     "org.msgpack.template.CollectionTemplate",
+     "org.msgpack.packer.Unconverter",
+     "org.msgpack.template.DoubleTemplate",
+     "org.msgpack.type.ValueType",
+     "org.msgpack.type.SequentialMapValueImpl$ValueCollection",
+     "org.msgpack.MessagePackable",
+     "org.msgpack.annotation.MessagePackBeans",
+     "org.msgpack.unpacker.UnpackerStack",
+     "org.msgpack.template.AnyTemplate",
+     "org.msgpack.template.FloatArrayTemplate",
+     "org.msgpack.template.FloatTemplate",
+     "org.msgpack.unpacker.ValueAccept",
+     "org.msgpack.template.GenericTemplate",
+     "org.msgpack.template.AbstractTemplate",
+     "org.msgpack.template.StringTemplate",
+     "org.msgpack.template.builder.ReflectionBeansTemplateBuilder",
+     "org.msgpack.unpacker.Accept",
+     "org.msgpack.io.BufferedOutput",
+     "org.msgpack.template.DoubleArrayTemplate",
+     "org.msgpack.util.json.JSONBufferPacker",
+     "org.msgpack.packer.PackerStack",
+     "org.msgpack.type.AbstractValue",
+     "org.msgpack.template.ListTemplate",
+     "org.msgpack.io.StreamOutput",
+     "org.msgpack.type.Value",
+     "org.msgpack.io.EndOfBufferException",
+     "org.msgpack.unpacker.SkipAccept",
+     "org.msgpack.unpacker.DoubleAccept",
+     "org.msgpack.template.ObjectArrayTemplate",
+     "org.msgpack.packer.MessagePackPacker",
+     "org.msgpack.template.ByteTemplate",
+     "org.msgpack.template.MapTemplate",
+     "org.msgpack.template.builder.AbstractTemplateBuilder",
+     "org.msgpack.type.BigIntegerValueImpl",
+     "org.msgpack.type.BooleanValue",
+     "org.msgpack.template.builder.JavassistTemplateBuilder",
+     "org.msgpack.io.Output",
+     "org.msgpack.template.LongArrayTemplate",
+     "org.msgpack.packer.BufferPacker",
+     "org.msgpack.type.NumberValue",
+     "org.msgpack.packer.MessagePackBufferPacker",
+     "org.msgpack.unpacker.MessagePackUnpacker",
+     "org.msgpack.io.LinkedBufferOutput$Link",
+     "org.msgpack.template.builder.BuildContext",
+     "org.msgpack.template.BigIntegerTemplate",
+     "org.msgpack.annotation.Delegate",
+     "org.msgpack.template.FieldOption",
+     "org.msgpack.io.BufferReferer",
+     "org.msgpack.template.Template",
+     "org.msgpack.type.AbstractRawValue",
+     "org.msgpack.io.LinkedBufferOutput",
+     "org.msgpack.template.builder.ReflectionTemplateBuilder$ReflectionClassTemplate",
+     "org.msgpack.unpacker.ByteArrayAccept",
+     "org.msgpack.unpacker.LongAccept",
+     "org.msgpack.template.ByteBufferTemplate",
+     "org.msgpack.type.SequentialMapValueImpl$EntrySetIterator",
+     "org.msgpack.template.builder.BeansBuildContext",
+     "org.msgpack.template.builder.BeansFieldEntry",
+     "org.msgpack.type.DoubleValueImpl",
+     "org.msgpack.template.builder.JavassistBeansTemplateBuilder",
+     "org.msgpack.util.json.JSONBufferUnpacker",
+     "org.msgpack.io.AbstractInput",
+     "org.msgpack.template.IntegerArrayTemplate",
+     "org.msgpack.unpacker.IntAccept",
+     "org.msgpack.template.builder.TemplateBuildException",
+     "org.msgpack.util.TemplatePrecompiler",
+     "org.msgpack.type.SequentialMapValueImpl$KeySet",
+     "org.msgpack.io.ByteBufferOutput",
+     "org.msgpack.template.builder.ArrayTemplateBuilder",
+     "org.msgpack.io.LinkedBufferInput",
+     "org.msgpack.type.FalseValueImpl",
+     "org.msgpack.type.MapValue",
+     "org.msgpack.MessageTypeException",
+     "org.msgpack.util.json.JSONPacker",
+     "org.msgpack.annotation.NotNullable",
+     "org.msgpack.unpacker.SizeLimitException",
+     "org.msgpack.template.builder.FieldEntry",
+     "org.msgpack.util.TemplatePrecompiler$1",
+     "org.msgpack.template.BooleanArrayTemplate",
+     "org.msgpack.template.ShortArrayTemplate",
+     "org.msgpack.type.SequentialMapValueImpl",
+     "org.msgpack.template.CharacterTemplate",
+     "org.msgpack.template.builder.ReflectionTemplateBuilder",
+     "org.msgpack.type.SequentialMapValueImpl$EntrySet",
+     "org.msgpack.type.FloatValueImpl",
+     "org.msgpack.type.NilValue",
+     "org.msgpack.type.TrueValueImpl",
+     "org.msgpack.template.builder.ReflectionBeansTemplateBuilder$ReflectionBeansFieldTemplate",
+     "org.msgpack.type.ValueFactory",
+     "org.msgpack.unpacker.StringAccept",
+     "org.msgpack.template.TemplateReference",
+     "org.msgpack.type.IntegerValue",
+     "org.msgpack.unpacker.AbstractUnpacker",
+     "org.msgpack.annotation.Message",
+     "org.msgpack.template.ByteArrayTemplate",
+     "org.msgpack.template.DateTemplate",
+     "org.msgpack.type.ArrayValueImpl",
+     "org.msgpack.type.ByteArrayRawValueImpl",
+     "org.msgpack.util.json.JSONUnpacker",
+     "org.msgpack.template.FieldList$Entry",
+     "org.msgpack.type.SequentialMapValueImpl$ValueIterator",
+     "org.msgpack.unpacker.Converter",
+     "org.msgpack.template.Templates",
+     "org.msgpack.unpacker.UnpackerIterator",
+     "org.msgpack.annotation.MessagePackMessage",
+     "org.msgpack.template.GenericMapTemplate",
+     "org.msgpack.type.IntValueImpl",
+     "org.msgpack.type.StringRawValueImpl",
+     "org.msgpack.template.NotNullableTemplate",
+     "org.msgpack.unpacker.BigIntegerAccept",
+     "org.msgpack.annotation.Index",
+     "org.msgpack.type.AbstractBooleanValue",
+     "org.msgpack.template.ValueTemplate"
+    ],
+    "usedTypes": [
+     "org.msgpack.MessagePack",
+     "org.msgpack.unpacker.Unpacker",
+     "org.msgpack.unpacker.BufferUnpacker",
+     "org.msgpack.packer.Packer"
+    ],
+    "usageRatio": 0.02564102564102564,
+    "children": [
+     {
+      "id": "com.googlecode.json-simple:json-simple:jar:1.1.1:compile",
+      "coordinates": "com.googlecode.json-simple:json-simple:1.1.1",
+      "groupId": "com.googlecode.json-simple",
+      "artifactId": "json-simple",
+      "version": "1.1.1",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 23931,
+      "type": "transitive",
+      "status": "used",
+      "parent": "org.msgpack:msgpack:jar:0.6.6:compile",
+      "allTypes": [
+       "org.json.simple.ItemList",
+       "org.json.simple.JSONObject",
+       "org.json.simple.parser.ParseException",
+       "org.json.simple.JSONValue",
+       "org.json.simple.parser.ContainerFactory",
+       "org.json.simple.parser.JSONParser",
+       "org.json.simple.JSONStreamAware",
+       "org.json.simple.JSONAware",
+       "org.json.simple.parser.Yytoken",
+       "org.json.simple.JSONArray",
+       "org.json.simple.parser.Yylex",
+       "org.json.simple.parser.ContentHandler"
+      ],
+      "usedTypes": [
+       "org.json.simple.JSONValue"
+      ],
+      "usageRatio": 0.08333333333333333,
+      "children": [
+       {
+        "id": "junit:junit:jar:4.10:compile",
+        "coordinates": "junit:junit:4.10",
+        "groupId": "junit",
+        "artifactId": "junit",
+        "version": "4.10",
+        "scope": "compile",
+        "packaging": "jar",
+        "omitted": true,
+        "type": "unknown",
+        "status": "unknown",
+        "parent": "com.googlecode.json-simple:json-simple:jar:1.1.1:compile",
+        "allTypes": [],
+        "usedTypes": [],
+        "usageRatio": -1.0,
+        "children": []
+       }
+      ]
+     },
+     {
+      "id": "org.javassist:javassist:jar:3.16.1-GA:compile",
+      "coordinates": "org.javassist:javassist:3.16.1-GA",
+      "groupId": "org.javassist",
+      "artifactId": "javassist",
+      "version": "3.16.1-GA",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 659343,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "org.msgpack:msgpack:jar:0.6.6:compile",
+      "allTypes": [
+       "javassist.expr.FieldAccess$ProceedForWrite",
+       "javassist.bytecode.CodeIterator$Pointers",
+       "javassist.scopedpool.ScopedClassPoolRepository",
+       "javassist.tools.reflect.Reflection",
+       "javassist.CtField$CodeInitializer0",
+       "javassist.runtime.DotClass",
+       "javassist.bytecode.stackmap.TypedBlock",
+       "javassist.bytecode.DuplicateMemberException",
+       "javassist.CtClass",
+       "javassist.bytecode.StackMap$Shifter",
+       "javassist.bytecode.SignatureAttribute$Type",
+       "javassist.compiler.Lex",
+       "javassist.expr.Cast$ProceedForCast",
+       "javassist.bytecode.CodeIterator$LdcW",
+       "javassist.convert.TransformBefore",
+       "javassist.tools.reflect.CannotInvokeException",
+       "javassist.tools.reflect.CannotCreateException",
+       "javassist.bytecode.SignatureAttribute$BaseType",
+       "javassist.bytecode.Utf8Info",
+       "javassist.tools.reflect.Loader",
+       "javassist.bytecode.stackmap.TypeTag",
+       "javassist.util.proxy.ProxyObjectInputStream",
+       "javassist.bytecode.annotation.BooleanMemberValue",
+       "javassist.bytecode.stackmap.TypeData$UninitThis",
+       "javassist.compiler.CompileError",
+       "javassist.compiler.MemberCodeGen$JsrHook",
+       "javassist.bytecode.StringInfo",
+       "javassist.CodeConverter",
+       "javassist.Modifier",
+       "javassist.compiler.ast.DoubleConst",
+       "javassist.bytecode.NameAndTypeInfo",
+       "javassist.ClassMap",
+       "javassist.bytecode.CodeIterator$Jump16",
+       "javassist.bytecode.CodeIterator$If16",
+       "javassist.bytecode.SignatureAttribute",
+       "javassist.bytecode.Opcode",
+       "javassist.CtMethod$IntConstParameter",
+       "javassist.bytecode.StackMap",
+       "javassist.ClassPathList",
+       "javassist.util.proxy.SecurityActions",
+       "javassist.bytecode.analysis.SubroutineScanner",
+       "javassist.CtField$PtreeInitializer",
+       "javassist.tools.web.ServiceThread",
+       "javassist.bytecode.analysis.ControlFlow$Block",
+       "javassist.bytecode.stackmap.BasicBlock$Mark",
+       "javassist.bytecode.annotation.ShortMemberValue",
+       "javassist.expr.NewExpr$ProceedForNew",
+       "javassist.ClassPoolTail",
+       "javassist.bytecode.SyntheticAttribute",
+       "javassist.compiler.NoFieldException",
+       "javassist.bytecode.stackmap.BasicBlock$Catch",
+       "javassist.bytecode.StackMap$InsertLocal",
+       "javassist.bytecode.CodeIterator$Switcher",
+       "javassist.bytecode.AnnotationsAttribute$Renamer",
+       "javassist.bytecode.StackMapTable$RuntimeCopyException",
+       "javassist.bytecode.EnclosingMethodAttribute",
+       "javassist.CtField$IntInitializer",
+       "javassist.bytecode.ParameterAnnotationsAttribute",
+       "javassist.bytecode.annotation.MemberValue",
+       "javassist.bytecode.StackMapTable$Copier",
+       "javassist.bytecode.ByteArray",
+       "javassist.bytecode.analysis.Analyzer$1",
+       "javassist.bytecode.StackMap$NewRemover",
+       "javassist.convert.TransformFieldAccess",
+       "javassist.util.proxy.SerializedProxy",
+       "javassist.bytecode.DoubleInfo",
+       "javassist.bytecode.InstructionPrinter",
+       "javassist.util.proxy.RuntimeSupport$DefaultMethodHandler",
+       "javassist.bytecode.LongVector",
+       "javassist.CtNewMethod",
+       "javassist.util.proxy.SecurityActions$6",
+       "javassist.bytecode.annotation.Annotation$Pair",
+       "javassist.util.proxy.SecurityActions$5",
+       "javassist.bytecode.StackMapTable$Walker",
+       "javassist.tools.reflect.Metalevel",
+       "javassist.CtField$CodeInitializer",
+       "javassist.bytecode.annotation.ArrayMemberValue",
+       "javassist.util.proxy.SerializedProxy$1",
+       "javassist.bytecode.ClassFileWriter$AttributeWriter",
+       "javassist.compiler.ast.InstanceOfExpr",
+       "javassist.compiler.SyntaxError",
+       "javassist.scopedpool.ScopedClassPoolFactoryImpl",
+       "javassist.util.proxy.SecurityActions$2",
+       "javassist.compiler.KeywordTable",
+       "javassist.util.proxy.SecurityActions$1",
+       "javassist.util.proxy.SecurityActions$4",
+       "javassist.util.proxy.SecurityActions$3",
+       "javassist.bytecode.CodeIterator$AlignmentException",
+       "javassist.bytecode.CodeIterator$Jump32",
+       "javassist.bytecode.MethodrefInfo",
+       "javassist.compiler.ast.CondExpr",
+       "javassist.compiler.ast.ASTree",
+       "javassist.bytecode.stackmap.TypeData$BasicType",
+       "javassist.bytecode.analysis.IntQueue$Entry",
+       "javassist.bytecode.StackMapTable$Shifter",
+       "javassist.bytecode.analysis.Executor",
+       "javassist.tools.web.BadHttpRequest",
+       "javassist.tools.rmi.RemoteRef",
+       "javassist.bytecode.analysis.MultiArrayType",
+       "javassist.tools.rmi.Sample",
+       "javassist.expr.Instanceof$ProceedForInstanceof",
+       "javassist.bytecode.StackMapTable$InsertLocal",
+       "javassist.bytecode.Bytecode",
+       "javassist.bytecode.StackMap$Writer",
+       "javassist.CtField$DoubleInitializer",
+       "javassist.Translator",
+       "javassist.CtNewClass",
+       "javassist.CtNewWrappedConstructor",
+       "javassist.util.proxy.Proxy",
+       "javassist.compiler.ast.MethodDecl",
+       "javassist.bytecode.CodeIterator$Lookup",
+       "javassist.convert.TransformCall",
+       "javassist.CodeConverter$DefaultArrayAccessReplacementMethodNames",
+       "javassist.expr.NewArray",
+       "javassist.compiler.ast.FieldDecl",
+       "javassist.scopedpool.ScopedClassPoolFactory",
+       "javassist.bytecode.CodeAnalyzer",
+       "javassist.bytecode.SignatureAttribute$MethodSignature",
+       "javassist.CtField$Initializer",
+       "javassist.bytecode.InnerClassesAttribute",
+       "javassist.compiler.ast.CastExpr",
+       "javassist.bytecode.stackmap.TypeData",
+       "javassist.bytecode.SignatureAttribute$TypeVariable",
+       "javassist.bytecode.annotation.AnnotationImpl",
+       "javassist.bytecode.ClassInfo",
+       "javassist.bytecode.stackmap.Tracer",
+       "javassist.bytecode.ConstInfo",
+       "javassist.util.HotSwapper$1",
+       "javassist.CtConstructor",
+       "javassist.scopedpool.SoftValueHashMap",
+       "javassist.NotFoundException",
+       "javassist.bytecode.analysis.ControlFlow$Catcher",
+       "javassist.tools.rmi.AppletServer",
+       "javassist.CtClassType",
+       "javassist.tools.reflect.Metaobject",
+       "javassist.util.proxy.MethodFilter",
+       "javassist.bytecode.annotation.FloatMemberValue",
+       "javassist.compiler.MemberCodeGen$JsrHook2",
+       "javassist.ClassPath",
+       "javassist.bytecode.CodeIterator$Gap",
+       "javassist.bytecode.InterfaceMethodrefInfo",
+       "javassist.CtField",
+       "javassist.bytecode.analysis.Subroutine",
+       "javassist.bytecode.FloatInfo",
+       "javassist.CodeConverter$ArrayAccessReplacementMethodNames",
+       "javassist.expr.Handler",
+       "javassist.CtBehavior",
+       "javassist.bytecode.annotation.ClassMemberValue",
+       "javassist.bytecode.stackmap.TypeData$ArrayElement",
+       "javassist.compiler.ast.Member",
+       "javassist.ClassPool",
+       "javassist.bytecode.LocalVariableTypeAttribute",
+       "javassist.bytecode.Descriptor$Iterator",
+       "javassist.CtPrimitiveType",
+       "javassist.CtMethod$StringConstParameter",
+       "javassist.bytecode.analysis.Frame",
+       "javassist.compiler.ast.Symbol",
+       "javassist.compiler.Javac$CtFieldWithInit",
+       "javassist.JarDirClassPath$1",
+       "javassist.bytecode.CodeIterator$Table",
+       "javassist.util.proxy.ProxyFactory$2",
+       "javassist.compiler.MemberResolver",
+       "javassist.compiler.ProceedHandler",
+       "javassist.bytecode.CodeAttribute$LdcEntry",
+       "javassist.bytecode.LocalVariableAttribute",
+       "javassist.tools.reflect.CannotReflectException",
+       "javassist.tools.reflect.Compiler",
+       "javassist.bytecode.analysis.MultiType",
+       "javassist.scopedpool.ScopedClassPoolRepositoryImpl",
+       "javassist.util.proxy.ProxyFactory$1",
+       "javassist.CtField$ParamInitializer",
+       "javassist.CtNewWrappedMethod",
+       "javassist.ByteArrayClassPath",
+       "javassist.bytecode.stackmap.MapMaker",
+       "javassist.CtField$FloatInitializer",
+       "javassist.bytecode.SourceFileAttribute",
+       "javassist.tools.Dump",
+       "javassist.CannotCompileException",
+       "javassist.CtField$MethodInitializer",
+       "javassist.bytecode.SignatureAttribute$ClassSignature",
+       "javassist.compiler.MemberCodeGen",
+       "javassist.DirClassPath",
+       "javassist.compiler.ast.Expr",
+       "javassist.expr.ExprEditor$NewOp",
+       "javassist.bytecode.analysis.Util",
+       "javassist.bytecode.AnnotationsAttribute",
+       "javassist.bytecode.ClassFilePrinter",
+       "javassist.bytecode.stackmap.BasicBlock",
+       "javassist.bytecode.stackmap.Liveness",
+       "javassist.bytecode.SignatureAttribute$ClassType",
+       "javassist.bytecode.Mnemonic",
+       "javassist.bytecode.analysis.ControlFlow$Access",
+       "javassist.bytecode.stackmap.TypeData$TypeName",
+       "javassist.bytecode.DeprecatedAttribute",
+       "javassist.compiler.ast.Variable",
+       "javassist.util.proxy.ProxyFactory",
+       "javassist.runtime.Cflow",
+       "javassist.bytecode.analysis.Analyzer$ExceptionInfo",
+       "javassist.convert.TransformNew",
+       "javassist.expr.Cast",
+       "javassist.bytecode.Descriptor",
+       "javassist.bytecode.SignatureAttribute$ArrayType",
+       "javassist.bytecode.ConstPool",
+       "javassist.bytecode.StackMap$Printer",
+       "javassist.bytecode.AccessFlag",
+       "javassist.bytecode.analysis.Analyzer",
+       "javassist.tools.framedump",
+       "javassist.bytecode.SignatureAttribute$TypeArgument",
+       "javassist.bytecode.annotation.NoSuchClassError",
+       "javassist.bytecode.AnnotationsAttribute$Parser",
+       "javassist.CtClass$1",
+       "javassist.util.proxy.RuntimeSupport",
+       "javassist.bytecode.SignatureAttribute$TypeParameter",
+       "javassist.expr.MethodCall",
+       "javassist.bytecode.CodeAttribute",
+       "javassist.bytecode.FieldInfo",
+       "javassist.CtArray",
+       "javassist.bytecode.annotation.AnnotationMemberValue",
+       "javassist.bytecode.stackmap.BasicBlock$Maker",
+       "javassist.compiler.CodeGen$1",
+       "javassist.bytecode.annotation.Annotation",
+       "javassist.bytecode.ConstantAttribute",
+       "javassist.bytecode.stackmap.TypeData$UninitData",
+       "javassist.compiler.JvstTypeChecker",
+       "javassist.bytecode.ByteStream",
+       "javassist.ClassPool$1",
+       "javassist.bytecode.MemberrefInfo",
+       "javassist.compiler.TypeChecker",
+       "javassist.expr.Expr",
+       "javassist.compiler.CodeGen$ReturnHook",
+       "javassist.compiler.Javac$3",
+       "javassist.bytecode.AnnotationsAttribute$Walker",
+       "javassist.compiler.Javac$2",
+       "javassist.bytecode.analysis.ControlFlow",
+       "javassist.compiler.Javac$1",
+       "javassist.compiler.ast.BinExpr",
+       "javassist.scopedpool.ScopedClassPool",
+       "javassist.bytecode.StackMap$Walker",
+       "javassist.bytecode.LineNumberAttribute$Pc",
+       "javassist.bytecode.SignatureAttribute$ObjectType",
+       "javassist.bytecode.stackmap.TypeData$ClassName",
+       "javassist.bytecode.SignatureAttribute$1",
+       "javassist.bytecode.annotation.LongMemberValue",
+       "javassist.bytecode.analysis.IntQueue",
+       "javassist.bytecode.AnnotationDefaultAttribute",
+       "javassist.bytecode.SignatureAttribute$NestedClassType",
+       "javassist.bytecode.LongInfo",
+       "javassist.bytecode.analysis.ControlFlow$1",
+       "javassist.bytecode.analysis.ControlFlow$2",
+       "javassist.bytecode.analysis.ControlFlow$3",
+       "javassist.tools.rmi.RemoteException",
+       "javassist.bytecode.ClassFileWriter$FieldWriter",
+       "javassist.CtMember",
+       "javassist.CtClass$DelayedFileOutputStream",
+       "javassist.compiler.ast.Stmnt",
+       "javassist.CtMember$Cache",
+       "javassist.bytecode.StackMap$Copier",
+       "javassist.SerialVersionUID",
+       "javassist.bytecode.analysis.ControlFlow$Node",
+       "javassist.CtMethod$LongConstParameter",
+       "javassist.expr.ConstructorCall",
+       "javassist.compiler.SymbolTable",
+       "javassist.tools.reflect.CompiledClass",
+       "javassist.runtime.Inner",
+       "javassist.bytecode.ClassFileWriter$ConstPoolWriter",
+       "javassist.SerialVersionUID$2",
+       "javassist.CtNewConstructor",
+       "javassist.bytecode.StackMapTable",
+       "javassist.expr.ExprEditor",
+       "javassist.SerialVersionUID$3",
+       "javassist.LoaderClassPath",
+       "javassist.convert.TransformReadField",
+       "javassist.bytecode.ExceptionsAttribute",
+       "javassist.compiler.ast.AssignExpr",
+       "javassist.tools.rmi.ExportedObject",
+       "javassist.bytecode.annotation.AnnotationsWriter",
+       "javassist.util.proxy.MethodHandler",
+       "javassist.compiler.ast.Keyword",
+       "javassist.bytecode.annotation.StringMemberValue",
+       "javassist.compiler.ast.ArrayInit",
+       "javassist.convert.TransformAfter",
+       "javassist.bytecode.Descriptor$PrettyPrinter",
+       "javassist.bytecode.StackMapTable$Writer",
+       "javassist.bytecode.annotation.ByteMemberValue",
+       "javassist.bytecode.stackmap.TypeData$NullType",
+       "javassist.compiler.ast.StringL",
+       "javassist.compiler.ast.Declarator",
+       "javassist.compiler.AccessorMaker",
+       "javassist.CtMethod",
+       "javassist.ClassClassPath",
+       "javassist.bytecode.annotation.MemberValueVisitor",
+       "javassist.util.proxy.ProxyObjectOutputStream",
+       "javassist.CtNewNestedClass",
+       "javassist.util.Trigger",
+       "javassist.compiler.ast.Pair",
+       "javassist.tools.reflect.Sample",
+       "javassist.bytecode.ClassFileWriter$MethodWriter",
+       "javassist.tools.rmi.ObjectNotFoundException",
+       "javassist.compiler.CodeGen",
+       "javassist.bytecode.analysis.Type",
+       "javassist.bytecode.CodeIterator$Branch",
+       "javassist.expr.FieldAccess$ProceedForRead",
+       "javassist.bytecode.ByteVector",
+       "javassist.runtime.Cflow$Depth",
+       "javassist.convert.TransformWriteField",
+       "javassist.compiler.MemberResolver$Method",
+       "javassist.compiler.ast.CallExpr",
+       "javassist.bytecode.StackMapTable$Printer",
+       "javassist.bytecode.ExceptionTable",
+       "javassist.CtMethod$ConstParameter",
+       "javassist.SerialVersionUID$1",
+       "javassist.bytecode.ClassFileWriter",
+       "javassist.bytecode.ConstInfoPadding",
+       "javassist.util.proxy.FactoryHelper",
+       "javassist.compiler.ast.Visitor",
+       "javassist.Loader",
+       "javassist.util.proxy.ProxyObject",
+       "javassist.convert.TransformAccessArrayField",
+       "javassist.util.proxy.ProxyFactory$ProxyDetails",
+       "javassist.runtime.Desc",
+       "javassist.bytecode.MethodInfo",
+       "javassist.tools.rmi.Proxy",
+       "javassist.CtField$MultiArrayInitializer",
+       "javassist.JarClassPath",
+       "javassist.bytecode.StackMapTable$SimpleCopy",
+       "javassist.expr.FieldAccess",
+       "javassist.URLClassPath",
+       "javassist.bytecode.CodeIterator$Branch16",
+       "javassist.compiler.ast.NewExpr",
+       "javassist.bytecode.BadBytecode",
+       "javassist.tools.web.Viewer",
+       "javassist.expr.NewExpr",
+       "javassist.bytecode.IntegerInfo",
+       "javassist.expr.NewArray$ProceedForArray",
+       "javassist.compiler.ast.IntConst",
+       "javassist.util.HotSwapper",
+       "javassist.bytecode.FieldrefInfo",
+       "javassist.bytecode.analysis.IntQueue$1",
+       "javassist.compiler.TokenId",
+       "javassist.CtField$ArrayInitializer",
+       "javassist.compiler.Token",
+       "javassist.bytecode.analysis.FramePrinter",
+       "javassist.tools.web.Webserver",
+       "javassist.CtField$LongInitializer",
+       "javassist.JarDirClassPath",
+       "javassist.bytecode.annotation.CharMemberValue",
+       "javassist.CtField$NewInitializer",
+       "javassist.bytecode.CodeIterator",
+       "javassist.bytecode.ExceptionTableEntry",
+       "javassist.tools.rmi.ObjectImporter",
+       "javassist.compiler.JvstCodeGen",
+       "javassist.bytecode.ClassFile",
+       "javassist.convert.TransformNewClass",
+       "javassist.bytecode.AnnotationsAttribute$Copier",
+       "javassist.compiler.Javac",
+       "javassist.compiler.Parser",
+       "javassist.bytecode.SignatureAttribute$Cursor",
+       "javassist.expr.ExprEditor$LoopContext",
+       "javassist.tools.reflect.ClassMetaobject",
+       "javassist.bytecode.CodeAttribute$RuntimeCopyException",
+       "javassist.CtField$StringInitializer",
+       "javassist.FieldInitLink",
+       "javassist.convert.Transformer",
+       "javassist.bytecode.annotation.DoubleMemberValue",
+       "javassist.bytecode.StackMapTable$NewRemover",
+       "javassist.tools.rmi.StubGenerator",
+       "javassist.util.proxy.ProxyFactory$ClassLoaderProvider",
+       "javassist.bytecode.stackmap.TypedBlock$Maker",
+       "javassist.bytecode.AttributeInfo",
+       "javassist.bytecode.annotation.IntegerMemberValue",
+       "javassist.bytecode.StackMap$SimpleCopy",
+       "javassist.expr.Instanceof",
+       "javassist.bytecode.LineNumberAttribute",
+       "javassist.compiler.ast.ASTList",
+       "javassist.bytecode.annotation.EnumMemberValue",
+       "javassist.scopedpool.SoftValueHashMap$SoftValueRef"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "junit:junit:jar:4.8.2:test",
+    "coordinates": "junit:junit:4.8.2",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.8.2",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 237344,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.treasure_data:td-client:jar:0.1.2",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.internal.matchers.SubstringMatcher",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.runner.Result$1",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Request$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "junit.textui.ResultPrinter",
+     "org.hamcrest.BaseDescription",
+     "org.hamcrest.core.IsNot",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.hamcrest.core.AllOf",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.internal.ComparisonCriteria",
+     "org.hamcrest.core.IsEqual",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.rules.Timeout",
+     "junit.framework.TestCase",
+     "org.junit.Before",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.hamcrest.Matcher",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.ComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.hamcrest.SelfDescribing",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "org.hamcrest.internal.SelfDescribingValue",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.matchers.Each$1",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.internal.runners.statements.FailOnTimeout$1",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.hamcrest.internal.ArrayIterator",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.internal.matchers.StringContains",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.hamcrest.StringDescription",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.InexactComparisonCriteria",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.hamcrest.core.Is",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.internal.matchers.Each",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.hamcrest.core.DescribedAs",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.internal.matchers.CombinableMatcher",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.hamcrest.BaseMatcher",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.hamcrest.internal.SelfDescribingValueIterator",
+     "org.junit.runners.model.InitializationError",
+     "org.hamcrest.core.IsSame",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "junit.framework.JUnit4TestAdapterCache",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "org.hamcrest.core.IsNull",
+     "junit.framework.Protectable",
+     "org.hamcrest.CoreMatchers",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.MethodRule",
+     "org.junit.experimental.ParallelComputer$1$1",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.runner.Computer",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "junit.runner.BaseTestRunner",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runners.Parameterized",
+     "org.junit.internal.matchers.IsCollectionContaining",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.rules.ExpectedException$1",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.hamcrest.core.AnyOf",
+     "org.junit.runner.manipulation.Filter$2",
+     "junit.extensions.RepeatedTest",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "org.hamcrest.core.IsAnything",
+     "org.hamcrest.Factory",
+     "org.junit.rules.ExpectedException",
+     "org.hamcrest.core.IsInstanceOf",
+     "org.hamcrest.Description",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.Ignore",
+     "org.junit.After",
+     "org.junit.Test",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.021739130434782608,
+    "children": []
+   }
+  ]
+ }
+}

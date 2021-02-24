@@ -1,0 +1,2577 @@
+{
+ "usage": {
+  "org.jbasics.persistence.TransactionRunnable": {
+   "javax.persistence:persistence-api:jar:1.0:compile": [
+    "javax.persistence.EntityManager"
+   ]
+  },
+  "org.jbasics.persistence.EntityManagerDelegateFactory": {
+   "javax.persistence:persistence-api:jar:1.0:compile": [
+    "javax.persistence.Persistence",
+    "javax.persistence.EntityManager",
+    "javax.persistence.EntityManagerFactory"
+   ]
+  },
+  "org.jbasics.persistence.PersistenceManager": {
+   "javax.persistence:persistence-api:jar:1.0:compile": [
+    "javax.persistence.EntityManager"
+   ]
+  },
+  "org.jbasics.persistence.EntityManagerDelegate": {
+   "javax.persistence:persistence-api:jar:1.0:compile": [
+    "javax.persistence.EntityTransaction",
+    "javax.persistence.EntityManager"
+   ]
+  },
+  "org.jbasics.jee.servlet.ServletExecutorPool": {
+   "javax.servlet:servlet-api:jar:2.5:compile": [
+    "javax.servlet.ServletContextEvent",
+    "javax.servlet.ServletContextListener"
+   ]
+  },
+  "org.jbasics.jee.servlet.RootRedirectSuppressingFilter": {
+   "javax.servlet:servlet-api:jar:2.5:compile": [
+    "javax.servlet.FilterChain",
+    "javax.servlet.ServletRequest",
+    "javax.servlet.ServletException",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletResponse",
+    "javax.servlet.FilterConfig",
+    "javax.servlet.Filter"
+   ]
+  },
+  "org.jbasics.jee.servlet.HttpServletRequestAccessor": {
+   "javax.servlet:servlet-api:jar:2.5:compile": [
+    "javax.servlet.http.HttpServletRequest"
+   ]
+  },
+  "org.jbasics.jee.servlet.RequestInfoLoggingFilter": {
+   "javax.servlet:servlet-api:jar:2.5:compile": [
+    "javax.servlet.FilterChain",
+    "javax.servlet.ServletRequest",
+    "javax.servlet.ServletException",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletResponse",
+    "javax.servlet.FilterConfig",
+    "javax.servlet.Filter"
+   ]
+  },
+  "org.jbasics.jee.servlet.RequestAppendWrapper": {
+   "javax.servlet:servlet-api:jar:2.5:compile": [
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.http.HttpServletRequestWrapper"
+   ]
+  },
+  "org.jbasics.jms.JMSSessionMode": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.Session"
+   ]
+  },
+  "org.jbasics.jms.JMSConnectionDelegate": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.Connection",
+    "javax.jms.XAConnectionFactory",
+    "javax.jms.JMSException",
+    "javax.jms.ConnectionFactory"
+   ]
+  },
+  "org.jbasics.jms.JMSMessageProducerDelegate": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.Session",
+    "javax.jms.Destination",
+    "javax.jms.MessageProducer",
+    "javax.jms.JMSException"
+   ]
+  },
+  "org.jbasics.jms.JMSSessionDelegate": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.Connection",
+    "javax.jms.JMSException",
+    "javax.jms.Session",
+    "javax.jms.ConnectionFactory"
+   ]
+  },
+  "org.jbasics.jms.JMSConnectionFactoryDelegate": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.ConnectionFactory"
+   ]
+  },
+  "org.jbasics.jms.JMSMessageDeliverable": {
+   "javax.jms:jms-api:jar:1.1-rev-1:compile": [
+    "javax.jms.MessageProducer",
+    "javax.jms.Message",
+    "javax.jms.JMSException"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBMarshallerFactory": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Marshaller",
+    "javax.xml.bind.JAXBException",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBUnmarshallerPool": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Unmarshaller",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.XMLTypeQNameResolver": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.annotation.XmlRootElement",
+    "javax.xml.bind.annotation.XmlType",
+    "javax.xml.bind.annotation.XmlSchema"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBContextFactory": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.JAXBException",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBPool": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Unmarshaller",
+    "javax.xml.bind.Marshaller",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBSimpleTools": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Marshaller",
+    "javax.xml.bind.Unmarshaller",
+    "javax.xml.bind.JAXBElement",
+    "javax.xml.bind.JAXBException"
+   ]
+  },
+  "org.jbasics.jaxrs.XHTMLStylesheetAttachedJAXB": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.JAXBElement"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBUnmarshallerFactory": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Unmarshaller",
+    "javax.xml.bind.JAXBException",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBMarshallerPool": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Marshaller",
+    "javax.xml.bind.JAXBContext"
+   ]
+  },
+  "org.jbasics.jaxb.JAXBInstanceFactory": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.Unmarshaller",
+    "javax.xml.bind.JAXBException"
+   ]
+  },
+  "org.jbasics.jaxrs.XHTMLStylesheetAttachedXMLProvider": {
+   "javax.xml.bind:jaxb-api:jar:2.1:compile": [
+    "javax.xml.bind.JAXBException",
+    "javax.xml.bind.Marshaller",
+    "javax.xml.bind.JAXBContext",
+    "javax.xml.bind.util.JAXBSource"
+   ],
+   "javax.ws.rs:jsr311-api:jar:1.1.1:compile": [
+    "javax.ws.rs.ext.MessageBodyWriter",
+    "javax.ws.rs.ext.ContextResolver",
+    "javax.ws.rs.core.MediaType",
+    "javax.ws.rs.core.Response$Status",
+    "javax.ws.rs.core.Context",
+    "javax.ws.rs.ext.Providers",
+    "javax.ws.rs.core.Response",
+    "javax.ws.rs.WebApplicationException",
+    "javax.ws.rs.core.MultivaluedMap"
+   ],
+   "com.sun.jersey:jersey-core:jar:1.5:test": [
+    "javax.ws.rs.ext.MessageBodyWriter",
+    "javax.ws.rs.ext.ContextResolver",
+    "javax.ws.rs.core.MediaType",
+    "javax.ws.rs.core.Response$Status",
+    "javax.ws.rs.core.Context",
+    "javax.ws.rs.ext.Providers",
+    "javax.ws.rs.core.Response",
+    "javax.ws.rs.WebApplicationException",
+    "javax.ws.rs.core.MultivaluedMap"
+   ]
+  },
+  "org.jbasics.csv.CSVTableProvider": {
+   "javax.ws.rs:jsr311-api:jar:1.1.1:compile": [
+    "javax.ws.rs.ext.Provider",
+    "javax.ws.rs.core.MediaType",
+    "javax.ws.rs.core.MultivaluedMap",
+    "javax.ws.rs.WebApplicationException",
+    "javax.ws.rs.ext.MessageBodyReader"
+   ],
+   "com.sun.jersey:jersey-core:jar:1.5:test": [
+    "javax.ws.rs.ext.Provider",
+    "javax.ws.rs.core.MediaType",
+    "javax.ws.rs.core.MultivaluedMap",
+    "javax.ws.rs.WebApplicationException",
+    "javax.ws.rs.ext.MessageBodyReader"
+   ]
+  },
+  "org.jbasics.csv.CSVTableProviderTest": {
+   "javax.ws.rs:jsr311-api:jar:1.1.1:compile": [
+    "javax.ws.rs.core.MediaType"
+   ],
+   "com.sun.jersey:jersey-core:jar:1.5:test": [
+    "javax.ws.rs.core.MediaType"
+   ],
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.mail.JavaMailSessionFactory": {
+   "javax.mail:mail:jar:1.4.5:compile": [
+    "javax.mail.Session",
+    "javax.mail.Authenticator"
+   ]
+  },
+  "org.jbasics.net.mail.MimeMessageBuilder": {
+   "javax.mail:mail:jar:1.4.5:compile": [
+    "javax.mail.Message",
+    "javax.mail.Address",
+    "javax.mail.MessagingException",
+    "javax.mail.internet.InternetAddress",
+    "javax.mail.Transport",
+    "javax.mail.internet.AddressException",
+    "javax.mail.internet.MimeMessage",
+    "javax.mail.Message$RecipientType",
+    "javax.mail.Session"
+   ]
+  },
+  "org.jbasics.math.calculator.TypeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.net.TagURIFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.utilities.QuickMapCreatorTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.csv.CSVRecordReaderTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.obsolete.IntegerMagnitudeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.types.strategy.ContextualCalculateStrategiesDiscoverFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.impl.GoldenRatioIrationalNumberTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.impl.GammaIncompleteIrationalNumberTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.codec.ChunkedEncoderTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arrays.ArrayCollectionTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.impl.FacultyTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.environment.JVMEnvironmentTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.csv.CSVDataLocationTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arrays.ArrayConstantsTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.URITransposerTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.csv.CSVDataTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.utilities.DataUtilitiesTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.http.browser.WebBrowserTypeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.strategy.PropertySubstitutionStrategyTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arrays.LongArrayComparatorTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jbasics.csv.CSVRecordTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.impl.BigDecimalIrationalNumberTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.xml.XMLDateConverterTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.tuples.RangeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.BeforeClass",
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.AfterClass",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.distribution.GammaDistributionTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.Parameterized",
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.expression.simple.SimpleExpressionParserTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.csv.CSVRecordWriterTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arch.ArithmeticArchitectureTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.testing.ParameterizedTestRunner": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.model.Statement",
+    "org.junit.runners.model.FrameworkMethod",
+    "org.junit.runners.BlockJUnit4ClassRunner",
+    "org.junit.runners.model.TestClass",
+    "org.junit.runners.model.InitializationError",
+    "org.junit.runner.notification.RunNotifier"
+   ]
+  },
+  "org.jbasics.testing.JUnitParallelTestScheduler": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.model.RunnerScheduler"
+   ]
+  },
+  "org.jbasics.math.obsolete.ComplementHelperTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.composite.DelegateCompositeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.codec.EncoderFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.mediatype.AcceptMediaTypeSetTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.mediatype.RFC2616MediaTypeParserTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.tuples.PairTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.BigDecimalMatrixBuilderTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.types.sequences.SequenceTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.event.SynchronizedEventListenerSetTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.obsolete.TaylorFunctionTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.math.BigRationalTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.matrix.ColumnNamedMatrixTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.testing.ParallelizedParameterized": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.model.FrameworkMethod",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.runners.model.TestClass",
+    "org.junit.runner.Runner",
+    "org.junit.runners.Suite",
+    "org.junit.runners.model.InitializationError",
+    "org.junit.runners.Parameterized"
+   ]
+  },
+  "org.jbasics.xml.types.XmlSpaceTypeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.configuration.properties.SystemPropertiesBundleTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.configuration.properties.MathContextValueTypeFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.utilities.NamespacePackageFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.sequences.RangeSequenceTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.pattern.builder.ReflectionBuilderFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.codec.RFC3548Base32CodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.Parameterized",
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.DecoderFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.RFC3548Base16CodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.Parameterized",
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.mediatype.MediaTypeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.value.UUIDValueCodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.RFC3548Base64CodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.Parameterized",
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.impl.GammaFunctionIrationalNumberTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arrays.ShortArrayComparatorTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jbasics.math.arbitrary.SpeedTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.XOrCryptCodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.command.CommandsTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.net.URLMappingFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.net.mediatype.MediaTypeRangeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runner.RunWith",
+    "org.junit.runners.Parameterized",
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.configuration.properties.ValueTypeFactoryTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Ignore",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.BigDecimalMatrixTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.codec.value.ISODateValueCodecTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.expression.simple.SimpleExpressionLexerTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.runners.Parameterized$Parameters",
+    "org.junit.runner.RunWith",
+    "org.junit.Test",
+    "org.junit.runners.Parameterized"
+   ]
+  },
+  "org.jbasics.math.arbitrary.ArbitraryIntegerTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.versionmanager.VersionManagerTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.arrays.ByteArrayComparatorTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jbasics.xml.xhtml.XHTMLStandardEntityMapperTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.types.transpose.ArrayTransposerTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.configuration.properties.SystemPropertyTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.polynom.PolynomTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.csv.CSVDataReferenceBuilderTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.utilities.DateTimeUtilitiesTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.text.StringUtilitiesTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test"
+   ]
+  },
+  "org.jbasics.arrays.IntArrayComparatorTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jbasics.types.tuples.TupleEqualAndHashCodeTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.checker.ContractCheckTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.types.transpose.CollectionFilterTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jbasics.math.obsolete.NumberPoolConverterTest": {
+   "junit:junit:jar:4.11:compile": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.jbasics:jbasics:jar:0.6.4:null",
+  "coordinates": "org.jbasics:jbasics:0.6.4",
+  "groupId": "org.jbasics",
+  "artifactId": "jbasics",
+  "version": "0.6.4",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "javax.persistence:persistence-api:jar:1.0:compile",
+    "coordinates": "javax.persistence:persistence-api:1.0",
+    "groupId": "javax.persistence",
+    "artifactId": "persistence-api",
+    "version": "1.0",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 52150,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.persistence.PrePersist",
+     "javax.persistence.MappedSuperclass",
+     "javax.persistence.NoResultException",
+     "javax.persistence.EnumType",
+     "javax.persistence.MapKey",
+     "javax.persistence.NonUniqueResultException",
+     "javax.persistence.TransactionRequiredException",
+     "javax.persistence.SequenceGenerator",
+     "javax.persistence.spi.ClassTransformer",
+     "javax.persistence.QueryHint",
+     "javax.persistence.ColumnResult",
+     "javax.persistence.NamedQuery",
+     "javax.persistence.Enumerated",
+     "javax.persistence.NamedNativeQueries",
+     "javax.persistence.PersistenceProperty",
+     "javax.persistence.ManyToMany",
+     "javax.persistence.NamedQueries",
+     "javax.persistence.Version",
+     "javax.persistence.Entity",
+     "javax.persistence.JoinTable",
+     "javax.persistence.ManyToOne",
+     "javax.persistence.AssociationOverrides",
+     "javax.persistence.CascadeType",
+     "javax.persistence.PersistenceContexts",
+     "javax.persistence.UniqueConstraint",
+     "javax.persistence.EntityExistsException",
+     "javax.persistence.spi.PersistenceUnitInfo",
+     "javax.persistence.SqlResultSetMapping",
+     "javax.persistence.Basic",
+     "javax.persistence.DiscriminatorValue",
+     "javax.persistence.AttributeOverride",
+     "javax.persistence.Column",
+     "javax.persistence.GenerationType",
+     "javax.persistence.Query",
+     "javax.persistence.DiscriminatorColumn",
+     "javax.persistence.GeneratedValue",
+     "javax.persistence.PersistenceException",
+     "javax.persistence.RollbackException",
+     "javax.persistence.EntityManagerFactory",
+     "javax.persistence.Embeddable",
+     "javax.persistence.PrimaryKeyJoinColumns",
+     "javax.persistence.Persistence",
+     "javax.persistence.DiscriminatorType",
+     "javax.persistence.IdClass",
+     "javax.persistence.EntityResult",
+     "javax.persistence.FlushModeType",
+     "javax.persistence.AttributeOverrides",
+     "javax.persistence.Table",
+     "javax.persistence.TableGenerator",
+     "javax.persistence.PostLoad",
+     "javax.persistence.EntityListeners",
+     "javax.persistence.NamedNativeQuery",
+     "javax.persistence.EntityNotFoundException",
+     "javax.persistence.ExcludeDefaultListeners",
+     "javax.persistence.OrderBy",
+     "javax.persistence.PersistenceUnit",
+     "javax.persistence.Id",
+     "javax.persistence.Lob",
+     "javax.persistence.InheritanceType",
+     "javax.persistence.PreUpdate",
+     "javax.persistence.FieldResult",
+     "javax.persistence.PersistenceUnits",
+     "javax.persistence.AssociationOverride",
+     "javax.persistence.PostPersist",
+     "javax.persistence.OptimisticLockException",
+     "javax.persistence.PersistenceContextType",
+     "javax.persistence.TemporalType",
+     "javax.persistence.Embedded",
+     "javax.persistence.JoinColumn",
+     "javax.persistence.OneToMany",
+     "javax.persistence.JoinColumns",
+     "javax.persistence.spi.PersistenceUnitTransactionType",
+     "javax.persistence.SecondaryTable",
+     "javax.persistence.EntityManager",
+     "javax.persistence.PersistenceContext",
+     "javax.persistence.SecondaryTables",
+     "javax.persistence.SqlResultSetMappings",
+     "javax.persistence.PrimaryKeyJoinColumn",
+     "javax.persistence.spi.PersistenceProvider",
+     "javax.persistence.OneToOne",
+     "javax.persistence.PreRemove",
+     "javax.persistence.Inheritance",
+     "javax.persistence.EmbeddedId",
+     "javax.persistence.Temporal",
+     "javax.persistence.Transient",
+     "javax.persistence.EntityTransaction",
+     "javax.persistence.FetchType",
+     "javax.persistence.ExcludeSuperclassListeners",
+     "javax.persistence.LockModeType",
+     "javax.persistence.PostUpdate",
+     "javax.persistence.PostRemove"
+    ],
+    "usedTypes": [
+     "javax.persistence.Persistence",
+     "javax.persistence.EntityManagerFactory",
+     "javax.persistence.EntityTransaction",
+     "javax.persistence.EntityManager"
+    ],
+    "usageRatio": 0.04395604395604396,
+    "children": []
+   },
+   {
+    "id": "javax.servlet:servlet-api:jar:2.5:compile",
+    "coordinates": "javax.servlet:servlet-api:2.5",
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "2.5",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 105112,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.servlet.ServletRequestListener",
+     "javax.servlet.FilterChain",
+     "javax.servlet.ServletException",
+     "javax.servlet.ServletInputStream",
+     "javax.servlet.http.HttpServletRequestWrapper",
+     "javax.servlet.http.HttpSessionActivationListener",
+     "javax.servlet.http.HttpSessionAttributeListener",
+     "javax.servlet.http.HttpServletRequest",
+     "javax.servlet.http.HttpSessionBindingEvent",
+     "javax.servlet.ServletContextAttributeListener",
+     "javax.servlet.ServletOutputStream",
+     "javax.servlet.http.HttpSessionEvent",
+     "javax.servlet.Filter",
+     "javax.servlet.http.NoBodyOutputStream",
+     "javax.servlet.http.Cookie",
+     "javax.servlet.ServletContextListener",
+     "javax.servlet.http.HttpSession",
+     "javax.servlet.http.NoBodyResponse",
+     "javax.servlet.ServletRequest",
+     "javax.servlet.ServletConfig",
+     "javax.servlet.http.HttpServlet",
+     "javax.servlet.http.HttpSessionListener",
+     "javax.servlet.RequestDispatcher",
+     "javax.servlet.Servlet",
+     "javax.servlet.ServletRequestAttributeEvent",
+     "javax.servlet.http.HttpServletResponse",
+     "javax.servlet.ServletRequestAttributeListener",
+     "javax.servlet.SingleThreadModel",
+     "javax.servlet.ServletContextEvent",
+     "javax.servlet.ServletResponseWrapper",
+     "javax.servlet.UnavailableException",
+     "javax.servlet.ServletResponse",
+     "javax.servlet.FilterConfig",
+     "javax.servlet.GenericServlet",
+     "javax.servlet.http.HttpServletResponseWrapper",
+     "javax.servlet.http.HttpUtils",
+     "javax.servlet.ServletRequestEvent",
+     "javax.servlet.ServletContext",
+     "javax.servlet.ServletContextAttributeEvent",
+     "javax.servlet.http.HttpSessionBindingListener",
+     "javax.servlet.http.HttpSessionContext",
+     "javax.servlet.ServletRequestWrapper"
+    ],
+    "usedTypes": [
+     "javax.servlet.http.HttpServletRequest",
+     "javax.servlet.ServletRequest",
+     "javax.servlet.FilterChain",
+     "javax.servlet.ServletContextEvent",
+     "javax.servlet.ServletException",
+     "javax.servlet.ServletResponse",
+     "javax.servlet.http.HttpServletRequestWrapper",
+     "javax.servlet.FilterConfig",
+     "javax.servlet.Filter",
+     "javax.servlet.ServletContextListener"
+    ],
+    "usageRatio": 0.23809523809523808,
+    "children": []
+   },
+   {
+    "id": "javax.jms:jms-api:jar:1.1-rev-1:compile",
+    "coordinates": "javax.jms:jms-api:1.1-rev-1",
+    "groupId": "javax.jms",
+    "artifactId": "jms-api",
+    "version": "1.1-rev-1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 39117,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.jms.QueueBrowser",
+     "javax.jms.XAQueueConnection",
+     "javax.jms.XAConnection",
+     "javax.jms.MapMessage",
+     "javax.jms.MessageListener",
+     "javax.jms.XASession",
+     "javax.jms.Session",
+     "javax.jms.QueueRequestor",
+     "javax.jms.MessageNotWriteableException",
+     "javax.jms.MessageNotReadableException",
+     "javax.jms.MessageProducer",
+     "javax.jms.DeliveryMode",
+     "javax.jms.XATopicSession",
+     "javax.jms.StreamMessage",
+     "javax.jms.TemporaryTopic",
+     "javax.jms.Topic",
+     "javax.jms.MessageEOFException",
+     "javax.jms.ResourceAllocationException",
+     "javax.jms.IllegalStateException",
+     "javax.jms.JMSException",
+     "javax.jms.ConnectionConsumer",
+     "javax.jms.MessageConsumer",
+     "javax.jms.MessageFormatException",
+     "javax.jms.Destination",
+     "javax.jms.QueueSender",
+     "javax.jms.TransactionRolledBackException",
+     "javax.jms.TransactionInProgressException",
+     "javax.jms.ObjectMessage",
+     "javax.jms.XAQueueSession",
+     "javax.jms.ConnectionMetaData",
+     "javax.jms.ExceptionListener",
+     "javax.jms.ServerSessionPool",
+     "javax.jms.TopicPublisher",
+     "javax.jms.XATopicConnection",
+     "javax.jms.InvalidDestinationException",
+     "javax.jms.TopicRequestor",
+     "javax.jms.XAQueueConnectionFactory",
+     "javax.jms.TopicSession",
+     "javax.jms.QueueReceiver",
+     "javax.jms.TopicSubscriber",
+     "javax.jms.Message",
+     "javax.jms.Connection",
+     "javax.jms.TopicConnection",
+     "javax.jms.XAConnectionFactory",
+     "javax.jms.QueueSession",
+     "javax.jms.TextMessage",
+     "javax.jms.QueueConnection",
+     "javax.jms.BytesMessage",
+     "javax.jms.InvalidClientIDException",
+     "javax.jms.QueueConnectionFactory",
+     "javax.jms.Queue",
+     "javax.jms.InvalidSelectorException",
+     "javax.jms.XATopicConnectionFactory",
+     "javax.jms.ServerSession",
+     "javax.jms.JMSSecurityException",
+     "javax.jms.TemporaryQueue",
+     "javax.jms.TopicConnectionFactory",
+     "javax.jms.ConnectionFactory"
+    ],
+    "usedTypes": [
+     "javax.jms.Connection",
+     "javax.jms.Session",
+     "javax.jms.XAConnectionFactory",
+     "javax.jms.Destination",
+     "javax.jms.MessageProducer",
+     "javax.jms.Message",
+     "javax.jms.JMSException",
+     "javax.jms.ConnectionFactory"
+    ],
+    "usageRatio": 0.13793103448275862,
+    "children": []
+   },
+   {
+    "id": "javax.xml.bind:jaxb-api:jar:2.1:compile",
+    "coordinates": "javax.xml.bind:jaxb-api:2.1",
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 89967,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.xml.bind.Element",
+     "javax.xml.bind.annotation.XmlAccessOrder",
+     "javax.xml.bind.MarshalException",
+     "javax.xml.bind.annotation.XmlElement$DEFAULT",
+     "javax.xml.bind.annotation.XmlIDREF",
+     "javax.xml.bind.ValidationEventHandler",
+     "javax.xml.bind.annotation.XmlSchemaType",
+     "javax.xml.bind.annotation.XmlElementDecl",
+     "javax.xml.bind.helpers.NotIdentifiableEventImpl",
+     "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT",
+     "javax.xml.bind.UnmarshallerHandler",
+     "javax.xml.bind.helpers.ParseConversionEventImpl",
+     "javax.xml.bind.Binder",
+     "javax.xml.bind.Validator",
+     "javax.xml.bind.ContextFinder",
+     "javax.xml.bind.annotation.XmlNs",
+     "javax.xml.bind.annotation.adapters.HexBinaryAdapter",
+     "javax.xml.bind.annotation.W3CDomHandler",
+     "javax.xml.bind.helpers.PrintConversionEventImpl",
+     "javax.xml.bind.JAXBIntrospector",
+     "javax.xml.bind.annotation.XmlElementDecl$GLOBAL",
+     "javax.xml.bind.annotation.XmlValue",
+     "javax.xml.bind.NotIdentifiableEvent",
+     "javax.xml.bind.DatatypeConverter",
+     "javax.xml.bind.annotation.XmlSchema",
+     "javax.xml.bind.DatatypeConverterInterface",
+     "javax.xml.bind.helpers.ValidationEventImpl",
+     "javax.xml.bind.PrintConversionEvent",
+     "javax.xml.bind.TypeConstraintException",
+     "javax.xml.bind.annotation.XmlSeeAlso",
+     "javax.xml.bind.annotation.XmlMixed",
+     "javax.xml.bind.annotation.XmlType",
+     "javax.xml.bind.util.ValidationEventCollector",
+     "javax.xml.bind.helpers.DefaultValidationEventHandler",
+     "javax.xml.bind.DatatypeConverterImpl",
+     "javax.xml.bind.GetPropertyAction",
+     "javax.xml.bind.annotation.XmlSchemaType$DEFAULT",
+     "javax.xml.bind.helpers.Messages",
+     "javax.xml.bind.annotation.XmlAttribute",
+     "javax.xml.bind.ParseConversionEvent",
+     "javax.xml.bind.annotation.XmlMimeType",
+     "javax.xml.bind.ValidationEventLocator",
+     "javax.xml.bind.JAXBElement",
+     "javax.xml.bind.annotation.XmlRootElement",
+     "javax.xml.bind.annotation.XmlElementRef$DEFAULT",
+     "javax.xml.bind.helpers.ValidationEventLocatorImpl",
+     "javax.xml.bind.annotation.XmlID",
+     "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters",
+     "javax.xml.bind.util.JAXBSource",
+     "javax.xml.bind.attachment.AttachmentUnmarshaller",
+     "javax.xml.bind.annotation.XmlAnyElement",
+     "javax.xml.bind.annotation.XmlElementWrapper",
+     "javax.xml.bind.helpers.AbstractUnmarshallerImpl",
+     "javax.xml.bind.DatatypeConverterImpl$CalendarFormatter",
+     "javax.xml.bind.annotation.XmlSchemaTypes",
+     "javax.xml.bind.PropertyException",
+     "javax.xml.bind.annotation.XmlElementRef",
+     "javax.xml.bind.annotation.XmlElements",
+     "javax.xml.bind.annotation.adapters.CollapsedStringAdapter",
+     "javax.xml.bind.util.JAXBSource$1",
+     "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter",
+     "javax.xml.bind.annotation.XmlEnum",
+     "javax.xml.bind.JAXB",
+     "javax.xml.bind.annotation.XmlAccessorType",
+     "javax.xml.bind.Unmarshaller$Listener",
+     "javax.xml.bind.annotation.XmlAnyAttribute",
+     "javax.xml.bind.annotation.XmlEnumValue",
+     "javax.xml.bind.JAXB$Cache",
+     "javax.xml.bind.annotation.XmlTransient",
+     "javax.xml.bind.ContextFinder$1",
+     "javax.xml.bind.JAXBException",
+     "javax.xml.bind.annotation.XmlAccessType",
+     "javax.xml.bind.ValidationEvent",
+     "javax.xml.bind.annotation.XmlAttachmentRef",
+     "javax.xml.bind.annotation.XmlElementRefs",
+     "javax.xml.bind.SchemaOutputResolver",
+     "javax.xml.bind.annotation.adapters.NormalizedStringAdapter",
+     "javax.xml.bind.annotation.XmlInlineBinaryData",
+     "javax.xml.bind.util.JAXBResult",
+     "javax.xml.bind.Marshaller",
+     "javax.xml.bind.JAXBElement$GlobalScope",
+     "javax.xml.bind.WhiteSpaceProcessor",
+     "javax.xml.bind.annotation.XmlNsForm",
+     "javax.xml.bind.Messages",
+     "javax.xml.bind.annotation.DomHandler",
+     "javax.xml.bind.DataBindingException",
+     "javax.xml.bind.annotation.XmlType$DEFAULT",
+     "javax.xml.bind.attachment.AttachmentMarshaller",
+     "javax.xml.bind.JAXBContext",
+     "javax.xml.bind.Unmarshaller",
+     "javax.xml.bind.annotation.adapters.XmlAdapter",
+     "javax.xml.bind.annotation.XmlAccessorOrder",
+     "javax.xml.bind.UnmarshalException",
+     "javax.xml.bind.helpers.AbstractMarshallerImpl",
+     "javax.xml.bind.util.Messages",
+     "javax.xml.bind.Marshaller$Listener",
+     "javax.xml.bind.annotation.XmlRegistry",
+     "javax.xml.bind.ValidationException",
+     "javax.xml.bind.annotation.XmlList",
+     "javax.xml.bind.annotation.XmlElement"
+    ],
+    "usedTypes": [
+     "javax.xml.bind.Unmarshaller",
+     "javax.xml.bind.annotation.XmlType",
+     "javax.xml.bind.JAXBElement",
+     "javax.xml.bind.Marshaller",
+     "javax.xml.bind.annotation.XmlRootElement",
+     "javax.xml.bind.annotation.XmlSchema",
+     "javax.xml.bind.JAXBException",
+     "javax.xml.bind.JAXBContext",
+     "javax.xml.bind.util.JAXBSource"
+    ],
+    "usageRatio": 0.09,
+    "children": [
+     {
+      "id": "javax.xml.stream:stax-api:jar:1.0-2:compile",
+      "coordinates": "javax.xml.stream:stax-api:1.0-2",
+      "groupId": "javax.xml.stream",
+      "artifactId": "stax-api",
+      "version": "1.0-2",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 23346,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "javax.xml.bind:jaxb-api:jar:2.1:compile",
+      "allTypes": [
+       "javax.xml.stream.util.StreamReaderDelegate",
+       "javax.xml.stream.XMLInputFactory",
+       "javax.xml.stream.util.XMLEventAllocator",
+       "javax.xml.stream.FactoryFinder",
+       "javax.xml.stream.util.XMLEventConsumer",
+       "javax.xml.stream.events.EndDocument",
+       "javax.xml.stream.XMLEventWriter",
+       "javax.xml.stream.XMLStreamConstants",
+       "javax.xml.stream.events.Attribute",
+       "javax.xml.stream.events.ProcessingInstruction",
+       "javax.xml.stream.events.XMLEvent",
+       "javax.xml.stream.XMLStreamReader",
+       "javax.xml.stream.XMLStreamException",
+       "javax.xml.stream.FactoryFinder$ClassLoaderFinder",
+       "javax.xml.stream.FactoryFinder$ClassLoaderFinderConcrete",
+       "javax.xml.stream.XMLStreamWriter",
+       "javax.xml.stream.events.EndElement",
+       "javax.xml.stream.events.StartElement",
+       "javax.xml.stream.XMLResolver",
+       "javax.xml.stream.XMLReporter",
+       "javax.xml.stream.XMLEventReader",
+       "javax.xml.stream.events.EntityDeclaration",
+       "javax.xml.stream.StreamFilter",
+       "javax.xml.stream.events.NotationDeclaration",
+       "javax.xml.stream.util.EventReaderDelegate",
+       "javax.xml.stream.EventFilter",
+       "javax.xml.stream.FactoryConfigurationError",
+       "javax.xml.stream.XMLOutputFactory",
+       "javax.xml.stream.events.Namespace",
+       "javax.xml.stream.events.StartDocument",
+       "javax.xml.stream.events.Characters",
+       "javax.xml.stream.events.Comment",
+       "javax.xml.stream.Location",
+       "javax.xml.stream.FactoryFinder$1",
+       "javax.xml.stream.events.DTD",
+       "javax.xml.stream.events.EntityReference",
+       "javax.xml.stream.XMLEventFactory"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     },
+     {
+      "id": "javax.activation:activation:jar:1.1:compile",
+      "coordinates": "javax.activation:activation:1.1",
+      "groupId": "javax.activation",
+      "artifactId": "activation",
+      "version": "1.1",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 62983,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "javax.xml.bind:jaxb-api:jar:2.1:compile",
+      "allTypes": [
+       "com.sun.activation.viewers.TextEditor",
+       "javax.activation.DataContentHandlerFactory",
+       "com.sun.activation.registries.MailcapParseException",
+       "com.sun.activation.registries.MailcapTokenizer",
+       "javax.activation.ActivationDataFlavor",
+       "javax.activation.DataSourceDataContentHandler",
+       "javax.activation.DataHandlerDataSource",
+       "javax.activation.ObjectDataContentHandler",
+       "javax.activation.SecuritySupport$2",
+       "com.sun.activation.viewers.ImageViewer",
+       "javax.activation.CommandObject",
+       "javax.activation.DataHandler",
+       "javax.activation.MimetypesFileTypeMap",
+       "javax.activation.SecuritySupport$1",
+       "javax.activation.DataHandler$1",
+       "javax.activation.SecuritySupport$4",
+       "javax.activation.SecuritySupport",
+       "javax.activation.SecuritySupport$3",
+       "javax.activation.CommandMap",
+       "javax.activation.MimeTypeParameterList",
+       "javax.activation.FileDataSource",
+       "javax.activation.MimeType",
+       "javax.activation.URLDataSource",
+       "javax.activation.DataContentHandler",
+       "javax.activation.MailcapCommandMap",
+       "com.sun.activation.registries.LineTokenizer",
+       "com.sun.activation.viewers.TextViewer",
+       "com.sun.activation.registries.MimeTypeFile",
+       "com.sun.activation.viewers.ImageViewerCanvas",
+       "com.sun.activation.registries.LogSupport",
+       "javax.activation.MimeTypeParseException",
+       "javax.activation.SecuritySupport$5",
+       "javax.activation.CommandInfo",
+       "com.sun.activation.registries.MailcapFile",
+       "javax.activation.FileTypeMap",
+       "javax.activation.DataSource",
+       "javax.activation.UnsupportedDataTypeException",
+       "com.sun.activation.registries.MimeTypeEntry"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "javax.ws.rs:jsr311-api:jar:1.1.1:compile",
+    "coordinates": "javax.ws.rs:jsr311-api:1.1.1",
+    "groupId": "javax.ws.rs",
+    "artifactId": "jsr311-api",
+    "version": "1.1.1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 46367,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.ws.rs.Encoded",
+     "javax.ws.rs.Produces",
+     "javax.ws.rs.ext.Provider",
+     "javax.ws.rs.core.SecurityContext",
+     "javax.ws.rs.ext.ExceptionMapper",
+     "javax.ws.rs.Path",
+     "javax.ws.rs.ext.MessageBodyWriter",
+     "javax.ws.rs.core.Application",
+     "javax.ws.rs.core.NewCookie",
+     "javax.ws.rs.ext.ContextResolver",
+     "javax.ws.rs.core.MediaType",
+     "javax.ws.rs.QueryParam",
+     "javax.ws.rs.Consumes",
+     "javax.ws.rs.ext.RuntimeDelegate",
+     "javax.ws.rs.DefaultValue",
+     "javax.ws.rs.core.Response$Status",
+     "javax.ws.rs.HeaderParam",
+     "javax.ws.rs.core.UriBuilder",
+     "javax.ws.rs.DELETE",
+     "javax.ws.rs.ext.FactoryFinder",
+     "javax.ws.rs.core.Context",
+     "javax.ws.rs.ext.Providers",
+     "javax.ws.rs.core.UriBuilderException",
+     "javax.ws.rs.core.GenericEntity",
+     "javax.ws.rs.core.StreamingOutput",
+     "javax.ws.rs.core.Response$StatusType",
+     "javax.ws.rs.core.Cookie",
+     "javax.ws.rs.core.HttpHeaders",
+     "javax.ws.rs.core.Response",
+     "javax.ws.rs.core.Response$ResponseBuilder",
+     "javax.ws.rs.MatrixParam",
+     "javax.ws.rs.WebApplicationException",
+     "javax.ws.rs.core.UriInfo",
+     "javax.ws.rs.core.Request",
+     "javax.ws.rs.core.CacheControl",
+     "javax.ws.rs.HEAD",
+     "javax.ws.rs.PathParam",
+     "javax.ws.rs.GET",
+     "javax.ws.rs.HttpMethod",
+     "javax.ws.rs.core.MediaType$1",
+     "javax.ws.rs.ext.FactoryFinder$1",
+     "javax.ws.rs.CookieParam",
+     "javax.ws.rs.FormParam",
+     "javax.ws.rs.POST",
+     "javax.ws.rs.core.Variant$VariantListBuilder",
+     "javax.ws.rs.core.PathSegment",
+     "javax.ws.rs.ApplicationPath",
+     "javax.ws.rs.OPTIONS",
+     "javax.ws.rs.core.EntityTag",
+     "javax.ws.rs.ext.RuntimeDelegate$HeaderDelegate",
+     "javax.ws.rs.core.MultivaluedMap",
+     "javax.ws.rs.core.Response$Status$Family",
+     "javax.ws.rs.PUT",
+     "javax.ws.rs.core.Variant",
+     "javax.ws.rs.ext.MessageBodyReader"
+    ],
+    "usedTypes": [
+     "javax.ws.rs.core.MultivaluedMap",
+     "javax.ws.rs.ext.ContextResolver",
+     "javax.ws.rs.core.MediaType",
+     "javax.ws.rs.core.Context",
+     "javax.ws.rs.ext.Providers",
+     "javax.ws.rs.core.Response",
+     "javax.ws.rs.ext.Provider",
+     "javax.ws.rs.core.Response$Status",
+     "javax.ws.rs.WebApplicationException",
+     "javax.ws.rs.ext.MessageBodyWriter",
+     "javax.ws.rs.ext.MessageBodyReader"
+    ],
+    "usageRatio": 0.2,
+    "children": []
+   },
+   {
+    "id": "javax.mail:mail:jar:1.4.5:compile",
+    "coordinates": "javax.mail:mail:1.4.5",
+    "groupId": "javax.mail",
+    "artifactId": "mail",
+    "version": "1.4.5",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 508143,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "javax.mail.internet.ParameterList$ToStringBuffer",
+     "com.sun.mail.imap.protocol.IMAPSaslAuthenticator$1",
+     "javax.mail.util.ByteArrayDataSource",
+     "com.sun.mail.handlers.text_plain$NoCloseOutputStream",
+     "com.sun.mail.imap.IMAPFolder$10",
+     "javax.mail.internet.MailDateFormat",
+     "com.sun.mail.imap.IMAPFolder$12",
+     "com.sun.mail.imap.IMAPFolder$11",
+     "com.sun.mail.imap.IMAPFolder$14",
+     "javax.mail.internet.ParameterList$MultiValue",
+     "com.sun.mail.imap.IMAPFolder$13",
+     "javax.mail.FolderClosedException",
+     "com.sun.mail.imap.IMAPFolder$16",
+     "com.sun.mail.smtp.SMTPTransport$LoginAuthenticator",
+     "com.sun.mail.imap.IMAPFolder$15",
+     "com.sun.mail.imap.IMAPFolder$18",
+     "com.sun.mail.imap.IMAPFolder$17",
+     "com.sun.mail.imap.IMAPFolder$19",
+     "javax.mail.event.TransportEvent",
+     "javax.mail.Quota",
+     "javax.mail.util.ByteArrayDataSource$DSByteArrayOutputStream",
+     "com.sun.mail.imap.protocol.SearchSequence",
+     "com.sun.mail.imap.IMAPStore",
+     "javax.mail.SendFailedException",
+     "javax.mail.Session$2",
+     "javax.mail.search.ComparisonTerm",
+     "javax.mail.Session$1",
+     "javax.mail.Session$4",
+     "javax.mail.internet.MimeMessage$RecipientType",
+     "com.sun.mail.pop3.POP3Folder",
+     "javax.mail.Session$3",
+     "javax.mail.Flags$Flag",
+     "com.sun.mail.imap.protocol.UID",
+     "com.sun.mail.iap.Literal",
+     "com.sun.mail.util.SocksSupport",
+     "javax.mail.internet.UniqueValue",
+     "javax.mail.Session$6",
+     "com.sun.mail.imap.IMAPInputStream",
+     "javax.mail.Session$5",
+     "javax.mail.Session$7",
+     "com.sun.mail.imap.protocol.Item",
+     "com.sun.mail.util.FolderClosedIOException",
+     "com.sun.mail.imap.IMAPFolder$ProtocolCommand",
+     "com.sun.mail.imap.IMAPBodyPart",
+     "javax.mail.internet.MimePart",
+     "com.sun.mail.smtp.SMTPSenderFailedException",
+     "com.sun.mail.imap.protocol.IMAPAddress",
+     "javax.mail.search.DateTerm",
+     "com.sun.mail.imap.MessageCache",
+     "com.sun.mail.iap.ParsingException",
+     "javax.mail.search.AddressTerm",
+     "javax.mail.StreamLoader",
+     "com.sun.mail.smtp.SMTPTransport$NtlmAuthenticator",
+     "javax.mail.event.StoreListener",
+     "javax.mail.event.MessageCountAdapter",
+     "com.sun.mail.imap.LengthCounter",
+     "com.sun.mail.handlers.image_jpeg",
+     "javax.mail.BodyPart",
+     "com.sun.mail.pop3.WritableSharedFile",
+     "com.sun.mail.util.UUDecoderStream",
+     "javax.mail.util.SharedFileInputStream$SharedFile",
+     "javax.mail.internet.MailDateParser",
+     "com.sun.mail.util.ReadableMime",
+     "javax.mail.Provider",
+     "javax.mail.AuthenticationFailedException",
+     "com.sun.mail.util.ASCIIUtility",
+     "javax.mail.Service",
+     "javax.mail.search.ReceivedDateTerm",
+     "com.sun.mail.imap.protocol.RFC822SIZE",
+     "javax.mail.event.ConnectionListener",
+     "com.sun.mail.imap.protocol.IMAPResponse",
+     "com.sun.mail.imap.protocol.MessageSet",
+     "com.sun.mail.imap.protocol.Status",
+     "com.sun.mail.imap.Rights",
+     "javax.mail.internet.InternetHeaders$InternetHeader",
+     "com.sun.mail.util.QPDecoderStream",
+     "javax.mail.PasswordAuthentication",
+     "com.sun.mail.smtp.SMTPTransport",
+     "javax.mail.search.SentDateTerm",
+     "com.sun.mail.util.BASE64EncoderStream",
+     "javax.mail.MessageAware",
+     "javax.mail.Session",
+     "javax.mail.UIDFolder$FetchProfileItem",
+     "javax.mail.FetchProfile$Item",
+     "com.sun.mail.iap.CommandFailedException",
+     "com.sun.mail.util.logging.LogManagerProperties",
+     "javax.mail.event.FolderAdapter",
+     "javax.mail.URLName",
+     "javax.mail.internet.MimeUtility",
+     "javax.mail.internet.HeaderTokenizer$Token",
+     "javax.mail.internet.SharedInputStream",
+     "com.sun.mail.imap.IMAPStore$ConnectionPool",
+     "com.sun.mail.pop3.Status",
+     "com.sun.mail.util.MessageRemovedIOException",
+     "com.sun.mail.util.BEncoderStream",
+     "javax.mail.event.ConnectionEvent",
+     "javax.mail.ReadOnlyFolderException",
+     "javax.mail.search.NotTerm",
+     "javax.mail.search.SearchException",
+     "javax.mail.internet.NewsAddress",
+     "com.sun.mail.imap.protocol.SaslAuthenticator",
+     "com.sun.mail.auth.Ntlm",
+     "com.sun.mail.util.MailSSLSocketFactory$MailTrustManager",
+     "javax.mail.event.FolderListener",
+     "com.sun.mail.imap.protocol.IMAPProtocol",
+     "com.sun.mail.imap.protocol.BODY",
+     "com.sun.mail.iap.Protocol",
+     "javax.mail.FetchProfile",
+     "javax.mail.EventQueue",
+     "javax.mail.Quota$Resource",
+     "javax.mail.internet.AsciiOutputStream",
+     "javax.mail.NoSuchProviderException",
+     "com.sun.mail.smtp.SMTPSaslAuthenticator",
+     "com.sun.mail.imap.IMAPFolder$FetchProfileItem",
+     "com.sun.mail.imap.protocol.BASE64MailboxEncoder",
+     "com.sun.mail.imap.protocol.ENVELOPE",
+     "javax.mail.Authenticator",
+     "com.sun.mail.pop3.DefaultFolder",
+     "javax.mail.MultipartDataSource",
+     "javax.mail.search.FromTerm",
+     "javax.mail.Flags",
+     "com.sun.mail.util.UUEncoderStream",
+     "javax.mail.MethodNotSupportedException",
+     "javax.mail.Folder",
+     "javax.mail.Service$TerminatorEvent",
+     "javax.mail.search.SearchTerm",
+     "com.sun.mail.util.QDecoderStream",
+     "com.sun.mail.util.LineOutputStream",
+     "javax.mail.internet.ParameterList",
+     "com.sun.mail.imap.IMAPSSLStore",
+     "com.sun.mail.iap.Argument",
+     "com.sun.mail.imap.IMAPMultipartDataSource",
+     "com.sun.mail.imap.protocol.BODYSTRUCTURE",
+     "javax.mail.internet.ParameterList$1",
+     "com.sun.mail.util.SocketFetcher",
+     "com.sun.mail.util.QPEncoderStream",
+     "javax.mail.UIDFolder",
+     "com.sun.mail.iap.Response",
+     "com.sun.mail.util.LineInputStream",
+     "javax.mail.event.FolderEvent",
+     "com.sun.mail.handlers.message_rfc822",
+     "com.sun.mail.imap.protocol.ListInfo",
+     "javax.mail.event.TransportListener",
+     "javax.mail.EventQueue$QueueElement",
+     "javax.mail.search.FromStringTerm",
+     "com.sun.mail.imap.Rights$Right",
+     "com.sun.mail.handlers.image_gif",
+     "com.sun.mail.smtp.SMTPTransport$Authenticator",
+     "com.sun.mail.util.PropUtil",
+     "com.sun.mail.util.BASE64DecoderStream",
+     "javax.mail.internet.MimeUtility$1NullInputStream",
+     "javax.mail.search.MessageIDTerm",
+     "com.sun.mail.imap.protocol.FLAGS",
+     "javax.mail.search.BodyTerm",
+     "javax.mail.event.ConnectionAdapter",
+     "com.sun.mail.util.MimeUtil",
+     "com.sun.mail.handlers.text_plain",
+     "com.sun.mail.util.QEncoderStream",
+     "javax.mail.internet.MimeMultipart",
+     "javax.mail.Transport",
+     "javax.mail.search.AddressStringTerm",
+     "com.sun.mail.imap.protocol.BASE64MailboxDecoder",
+     "com.sun.mail.iap.LiteralException",
+     "javax.mail.search.FlagTerm",
+     "com.sun.mail.imap.protocol.INTERNALDATE",
+     "javax.mail.internet.ParameterList$ParamEnum",
+     "com.sun.mail.pop3.TempFile",
+     "javax.mail.search.RecipientStringTerm",
+     "javax.mail.search.SizeTerm",
+     "com.sun.mail.imap.DefaultFolder$2",
+     "com.sun.mail.imap.DefaultFolder$1",
+     "com.sun.mail.util.TraceOutputStream",
+     "javax.mail.Header",
+     "javax.mail.internet.ParameterList$Value",
+     "com.sun.mail.util.TraceInputStream",
+     "javax.mail.search.RecipientTerm",
+     "com.sun.mail.iap.ConnectionException",
+     "com.sun.mail.handlers.multipart_mixed",
+     "javax.mail.internet.HeaderTokenizer",
+     "javax.mail.Part",
+     "javax.mail.Multipart",
+     "javax.mail.Version",
+     "com.sun.mail.iap.ResponseHandler",
+     "com.sun.mail.imap.Utility$Condition",
+     "javax.mail.internet.InternetAddress",
+     "com.sun.mail.iap.BadCommandException",
+     "com.sun.mail.imap.protocol.Namespaces$Namespace",
+     "com.sun.mail.imap.IMAPFolder$8",
+     "com.sun.mail.imap.IMAPFolder$9",
+     "javax.mail.event.MessageCountEvent",
+     "com.sun.mail.imap.IMAPFolder$4",
+     "com.sun.mail.imap.IMAPFolder$5",
+     "com.sun.mail.imap.IMAPFolder$6",
+     "com.sun.mail.imap.IMAPFolder$7",
+     "com.sun.mail.handlers.text_html",
+     "com.sun.mail.util.MimeUtil$1",
+     "com.sun.mail.imap.IMAPFolder$1",
+     "com.sun.mail.imap.protocol.UIDSet",
+     "com.sun.mail.imap.IMAPFolder$2",
+     "com.sun.mail.smtp.SMTPAddressFailedException",
+     "com.sun.mail.imap.IMAPFolder$3",
+     "com.sun.mail.util.CRLFOutputStream",
+     "javax.mail.search.OrTerm",
+     "com.sun.mail.smtp.SMTPMessage",
+     "com.sun.mail.pop3.POP3Message",
+     "com.sun.mail.util.MailSSLSocketFactory",
+     "javax.mail.internet.InternetHeaders$matchEnum",
+     "com.sun.mail.handlers.text_xml",
+     "javax.mail.internet.MimeMessage",
+     "com.sun.mail.pop3.POP3SSLStore",
+     "javax.mail.MessageRemovedException",
+     "javax.mail.search.AndTerm",
+     "javax.mail.StoreClosedException",
+     "com.sun.mail.imap.AppendUID",
+     "com.sun.mail.iap.AString",
+     "javax.mail.Message",
+     "com.sun.mail.iap.ResponseInputStream",
+     "javax.mail.search.HeaderTerm",
+     "com.sun.mail.smtp.SMTPSendFailedException",
+     "com.sun.mail.util.logging.LogManagerProperties$1",
+     "javax.mail.internet.MimePartDataSource",
+     "com.sun.mail.smtp.SMTPSSLTransport",
+     "com.sun.mail.imap.MessageLiteral",
+     "javax.mail.MessagingException",
+     "com.sun.mail.util.DecodingException",
+     "com.sun.mail.smtp.SaslAuthenticator",
+     "com.sun.mail.auth.MD4",
+     "com.sun.mail.imap.IMAPNestedMessage",
+     "javax.mail.event.MessageChangedListener",
+     "com.sun.mail.imap.IMAPMessage$1FetchProfileCondition",
+     "com.sun.mail.smtp.SMTPSaslAuthenticator$1",
+     "com.sun.mail.pop3.Response",
+     "com.sun.mail.util.logging.MailHandler",
+     "com.sun.mail.imap.Utility",
+     "com.sun.mail.pop3.AppendStream",
+     "javax.mail.Store",
+     "com.sun.mail.imap.protocol.IMAPSaslAuthenticator",
+     "javax.mail.search.StringTerm",
+     "javax.mail.internet.AddressException",
+     "com.sun.mail.iap.ProtocolException",
+     "javax.mail.internet.MimeBodyPart$MimePartDataHandler",
+     "com.sun.mail.imap.protocol.Namespaces",
+     "javax.mail.search.SubjectTerm",
+     "com.sun.mail.smtp.SMTPOutputStream",
+     "com.sun.mail.smtp.SMTPTransport$DigestMD5Authenticator",
+     "com.sun.mail.iap.ByteArray",
+     "javax.mail.util.SharedFileInputStream",
+     "com.sun.mail.smtp.SMTPTransport$PlainAuthenticator",
+     "com.sun.mail.imap.SortTerm",
+     "javax.mail.Provider$Type",
+     "com.sun.mail.util.logging.MailHandler$TailNameFormatter",
+     "com.sun.mail.imap.protocol.FetchResponse",
+     "com.sun.mail.pop3.Protocol",
+     "javax.mail.FolderNotFoundException",
+     "com.sun.mail.imap.DefaultFolder",
+     "com.sun.mail.smtp.SMTPAddressSucceededException",
+     "javax.mail.event.MailEvent",
+     "javax.mail.Address",
+     "javax.mail.event.MessageCountListener",
+     "javax.mail.internet.ContentType",
+     "com.sun.mail.smtp.DigestMD5",
+     "javax.mail.internet.MimeBodyPart",
+     "com.sun.mail.util.SharedByteArrayOutputStream",
+     "javax.mail.Folder$TerminatorEvent",
+     "com.sun.mail.util.MailSSLSocketFactory$1",
+     "com.sun.mail.imap.ACL",
+     "javax.mail.event.TransportAdapter",
+     "javax.mail.util.SharedByteArrayInputStream",
+     "javax.mail.internet.ParseException",
+     "com.sun.mail.imap.IMAPMessage",
+     "javax.mail.event.MessageChangedEvent",
+     "com.sun.mail.imap.protocol.MailboxInfo",
+     "javax.mail.search.IntegerComparisonTerm",
+     "com.sun.mail.imap.protocol.RFC822DATA",
+     "javax.mail.MessageContext",
+     "javax.mail.QuotaAwareStore",
+     "com.sun.mail.imap.IMAPFolder",
+     "javax.mail.event.StoreEvent",
+     "javax.mail.internet.InternetHeaders",
+     "com.sun.mail.pop3.POP3Store",
+     "com.sun.mail.iap.Atom",
+     "com.sun.mail.imap.IMAPStore$1",
+     "javax.mail.Message$RecipientType",
+     "javax.mail.internet.PreencodedMimeBodyPart",
+     "javax.mail.search.MessageNumberTerm",
+     "com.sun.mail.util.SocketFetcher$1",
+     "javax.mail.internet.ContentDisposition",
+     "javax.mail.IllegalWriteException"
+    ],
+    "usedTypes": [
+     "javax.mail.internet.InternetAddress",
+     "javax.mail.Message",
+     "javax.mail.Address",
+     "javax.mail.internet.AddressException",
+     "javax.mail.Transport",
+     "javax.mail.Message$RecipientType",
+     "javax.mail.MessagingException",
+     "javax.mail.Session",
+     "javax.mail.internet.MimeMessage",
+     "javax.mail.Authenticator"
+    ],
+    "usageRatio": 0.034722222222222224,
+    "children": [
+     {
+      "id": "javax.activation:activation:jar:1.1:compile",
+      "coordinates": "javax.activation:activation:1.1",
+      "groupId": "javax.activation",
+      "artifactId": "activation",
+      "version": "1.1",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 62983,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "javax.mail:mail:jar:1.4.5:compile",
+      "allTypes": [
+       "com.sun.activation.viewers.TextEditor",
+       "javax.activation.DataContentHandlerFactory",
+       "com.sun.activation.registries.MailcapParseException",
+       "com.sun.activation.registries.MailcapTokenizer",
+       "javax.activation.ActivationDataFlavor",
+       "javax.activation.DataSourceDataContentHandler",
+       "javax.activation.DataHandlerDataSource",
+       "javax.activation.ObjectDataContentHandler",
+       "javax.activation.SecuritySupport$2",
+       "com.sun.activation.viewers.ImageViewer",
+       "javax.activation.CommandObject",
+       "javax.activation.DataHandler",
+       "javax.activation.MimetypesFileTypeMap",
+       "javax.activation.SecuritySupport$1",
+       "javax.activation.DataHandler$1",
+       "javax.activation.SecuritySupport$4",
+       "javax.activation.SecuritySupport",
+       "javax.activation.SecuritySupport$3",
+       "javax.activation.CommandMap",
+       "javax.activation.MimeTypeParameterList",
+       "javax.activation.FileDataSource",
+       "javax.activation.MimeType",
+       "javax.activation.URLDataSource",
+       "javax.activation.DataContentHandler",
+       "javax.activation.MailcapCommandMap",
+       "com.sun.activation.registries.LineTokenizer",
+       "com.sun.activation.viewers.TextViewer",
+       "com.sun.activation.registries.MimeTypeFile",
+       "com.sun.activation.viewers.ImageViewerCanvas",
+       "com.sun.activation.registries.LogSupport",
+       "javax.activation.MimeTypeParseException",
+       "javax.activation.SecuritySupport$5",
+       "javax.activation.CommandInfo",
+       "com.sun.activation.registries.MailcapFile",
+       "javax.activation.FileTypeMap",
+       "javax.activation.DataSource",
+       "javax.activation.UnsupportedDataTypeException",
+       "com.sun.activation.registries.MimeTypeEntry"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "com.sun.jersey:jersey-client:jar:1.5:test",
+    "coordinates": "com.sun.jersey:jersey-client:1.5",
+    "groupId": "com.sun.jersey",
+    "artifactId": "jersey-client",
+    "version": "1.5",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 128096,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "com.sun.jersey.api.client.RequestWriter$RequestEntityWriterImpl",
+     "com.sun.jersey.api.client.ViewResource$1",
+     "com.sun.jersey.api.client.ClientHandler",
+     "com.sun.ws.rs.ext.RuntimeDelegateImpl",
+     "com.sun.jersey.client.impl.async.FutureClientResponseListener",
+     "com.sun.jersey.api.client.ViewResource$Builder",
+     "com.sun.jersey.api.client.ClientResponse$Status",
+     "com.sun.jersey.api.client.filter.HTTPDigestAuthFilter$QOP",
+     "com.sun.jersey.api.client.AsyncViewResource$Builder",
+     "com.sun.jersey.client.proxy.ViewProxyProvider",
+     "com.sun.jersey.api.client.filter.HTTPDigestAuthFilter",
+     "com.sun.jersey.api.client.filter.OnStartConnectionListener",
+     "com.sun.jersey.api.client.PartialRequestBuilder",
+     "com.sun.jersey.api.client.filter.LoggingFilter$Adapter",
+     "com.sun.jersey.api.client.ViewResource",
+     "com.sun.jersey.api.client.AsyncWebResource",
+     "com.sun.jersey.api.client.TerminatingClientHandler",
+     "com.sun.jersey.api.client.ClientRequest$Builder",
+     "com.sun.jersey.api.client.RequestWriter$RequestEntityWriterListener",
+     "com.sun.jersey.api.client.AsyncViewResource$2",
+     "com.sun.jersey.api.client.filter.ReportingOutputStream",
+     "com.sun.jersey.api.client.AsyncViewResource$1",
+     "com.sun.jersey.api.client.AsyncViewUniformInterface",
+     "com.sun.jersey.client.urlconnection.HttpURLConnectionFactory",
+     "com.sun.jersey.api.client.async.AsyncClientHandler",
+     "com.sun.jersey.client.impl.async.FutureClientResponseListener$1",
+     "com.sun.jersey.api.client.async.TypeListener",
+     "com.sun.jersey.api.client.CommittingOutputStream",
+     "com.sun.jersey.api.client.filter.ClientFilter",
+     "com.sun.jersey.api.client.filter.ConnectionListenerFilter$Adapter",
+     "com.sun.jersey.api.client.Client$4",
+     "com.sun.jersey.api.client.Client$3",
+     "com.sun.jersey.api.client.Client$2",
+     "com.sun.jersey.api.client.ClientRequestAdapter",
+     "com.sun.jersey.api.client.Client$1",
+     "com.sun.jersey.api.client.AsyncWebResource$6",
+     "com.sun.jersey.api.client.filter.GZIPContentEncodingFilter",
+     "com.sun.jersey.api.client.AsyncWebResource$3",
+     "com.sun.jersey.api.client.AsyncWebResource$2",
+     "com.sun.jersey.api.client.AsyncWebResource$5",
+     "com.sun.jersey.api.client.AsyncWebResource$4",
+     "com.sun.jersey.api.client.AsyncWebResource$1",
+     "com.sun.jersey.api.client.Client$4$1",
+     "com.sun.jersey.api.client.UniformInterfaceException",
+     "com.sun.jersey.api.client.WebResource$1",
+     "com.sun.jersey.api.client.Client$ContextInjectableProvider",
+     "com.sun.jersey.api.client.filter.ContainerListener",
+     "com.sun.jersey.api.client.ClientRequest",
+     "com.sun.jersey.api.client.RequestWriter$RequestEntityWriter",
+     "com.sun.jersey.api.client.ClientResponse",
+     "com.sun.jersey.client.urlconnection.URLConnectionClientHandler$1$1",
+     "com.sun.jersey.api.client.RequestBuilder",
+     "com.sun.jersey.api.client.filter.ReportingInputStream",
+     "com.sun.jersey.client.urlconnection.URLConnectionClientHandler",
+     "com.sun.jersey.api.client.filter.ClientRequestContainer",
+     "com.sun.jersey.api.client.config.ClientConfig",
+     "com.sun.jersey.client.impl.ClientRequestImpl",
+     "com.sun.jersey.client.urlconnection.URLConnectionClientHandler$1",
+     "com.sun.jersey.api.client.Client$ComponentProcessorFactoryImpl$1",
+     "com.sun.jersey.api.client.WebResource$Builder",
+     "com.sun.jersey.api.client.AbstractClientRequestAdapter",
+     "com.sun.jersey.api.client.AsyncWebResource$Builder",
+     "com.sun.jersey.api.client.GenericType",
+     "com.sun.jersey.api.client.filter.LoggingFilter$LoggingOutputStream",
+     "com.sun.jersey.api.client.AsyncUniformInterface",
+     "com.sun.jersey.api.client.async.FutureListener",
+     "com.sun.jersey.api.client.WebResource",
+     "com.sun.jersey.api.client.async.ITypeListener",
+     "com.sun.jersey.client.impl.CopyOnWriteHashMap",
+     "com.sun.jersey.client.urlconnection.URLConnectionClientHandler$URLConnectionResponse",
+     "com.sun.jersey.api.client.filter.ConnectionListenerFilter",
+     "com.sun.jersey.api.client.ViewUniformInterface",
+     "com.sun.jersey.api.client.RequestWriter",
+     "com.sun.jersey.api.client.filter.Filterable",
+     "com.sun.jersey.api.client.AsyncViewResource",
+     "com.sun.jersey.client.urlconnection.HTTPSProperties",
+     "com.sun.jersey.api.client.config.DefaultClientConfig",
+     "com.sun.jersey.api.client.UniformInterface",
+     "com.sun.jersey.api.client.filter.GZIPContentEncodingFilter$Adapter",
+     "com.sun.jersey.api.client.filter.HTTPDigestAuthFilter$State",
+     "com.sun.jersey.client.osgi.Activator",
+     "com.sun.jersey.api.client.filter.HTTPBasicAuthFilter",
+     "com.sun.jersey.api.client.filter.HTTPDigestAuthFilter$1",
+     "com.sun.jersey.api.client.filter.LoggingFilter",
+     "com.sun.jersey.client.proxy.ViewProxy",
+     "com.sun.jersey.api.client.Client",
+     "com.sun.jersey.api.client.ClientHandlerException",
+     "com.sun.jersey.api.client.WebResourceLinkHeaders",
+     "com.sun.jersey.api.client.Client$ComponentProcessorFactoryImpl",
+     "com.sun.jersey.api.client.ComponentsClientConfig"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": [
+     {
+      "id": "com.sun.jersey:jersey-core:jar:1.5:test",
+      "coordinates": "com.sun.jersey:jersey-core:1.5",
+      "groupId": "com.sun.jersey",
+      "artifactId": "jersey-core",
+      "version": "1.5",
+      "scope": "test",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 455665,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.sun.jersey:jersey-client:jar:1.5:test",
+      "allTypes": [
+       "com.sun.jersey.core.spi.factory.ResponseImpl",
+       "com.sun.jersey.core.spi.component.ioc.IoCComponentProvider",
+       "com.sun.jersey.core.spi.component.ComponentProviderFactory",
+       "javax.ws.rs.Encoded",
+       "com.sun.jersey.core.spi.scanning.uri.BundleSchemeScanner$1",
+       "com.sun.jersey.core.header.OutBoundHeaders",
+       "com.sun.jersey.core.util.UnmodifiableMultivaluedMap",
+       "com.sun.jersey.core.osgi.OsgiLocator",
+       "com.sun.jersey.core.spi.component.ComponentInjector",
+       "com.sun.jersey.api.uri.UriTemplateParser$StringCharacterIterator",
+       "com.sun.jersey.core.impl.provider.header.StringProvider",
+       "com.sun.jersey.core.header.FormDataContentDisposition",
+       "javax.ws.rs.ext.ContextResolver",
+       "javax.ws.rs.core.MediaType",
+       "javax.ws.rs.ext.RuntimeDelegate",
+       "javax.ws.rs.HeaderParam",
+       "com.sun.jersey.core.impl.provider.xml.LazySingletonContextProvider$1",
+       "com.sun.jersey.core.header.AcceptableToken",
+       "com.sun.jersey.core.header.reader.HttpHeaderListAdapter",
+       "com.sun.jersey.core.util.KeyComparator",
+       "com.sun.jersey.core.impl.provider.header.MediaTypeProvider",
+       "com.sun.jersey.core.header.ContentDisposition",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$KeyIterator",
+       "com.sun.jersey.spi.service.ServiceFinder$ServiceIteratorProvider",
+       "com.sun.jersey.core.impl.provider.header.URIProvider",
+       "com.sun.jersey.spi.service.ServiceFinder$DefaultServiceIteratorProvider",
+       "javax.ws.rs.core.Response$ResponseBuilder",
+       "com.sun.jersey.core.spi.scanning.uri.UriSchemeScanner",
+       "com.sun.jersey.core.spi.scanning.uri.FileSchemeScanner$1",
+       "com.sun.jersey.core.header.QualitySourceMediaType",
+       "com.sun.jersey.core.impl.provider.xml.ThreadLocalSingletonContextProvider",
+       "javax.ws.rs.HttpMethod",
+       "com.sun.jersey.core.spi.component.ProviderFactory$SingletonComponentProvider",
+       "com.sun.jersey.core.spi.component.ioc.IoCProviderFactory$ProxiedSingletonWrapper",
+       "com.sun.jersey.core.osgi.Activator$BundleFactoryLoader",
+       "com.sun.jersey.localization.LocalizableMessage",
+       "javax.ws.rs.CookieParam",
+       "com.sun.jersey.core.spi.component.ioc.IoCProxiedComponentProvider",
+       "com.sun.jersey.core.impl.provider.entity.InputStreamProvider",
+       "com.sun.jersey.core.util.ThrowHelper",
+       "com.sun.jersey.core.impl.provider.entity.DataSourceProvider$ByteArrayDataSource$DSByteArrayOutputStream",
+       "com.sun.jersey.core.provider.jaxb.AbstractListElementProvider",
+       "com.sun.jersey.core.spi.component.ioc.IoCProviderFactory",
+       "com.sun.jersey.api.uri.UriPattern$1",
+       "com.sun.jersey.core.impl.provider.header.DateProvider",
+       "com.sun.jersey.spi.CloseableService",
+       "javax.ws.rs.core.Variant$VariantListBuilder",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap",
+       "com.sun.jersey.core.impl.provider.entity.SourceProvider$SAXSourceReader",
+       "com.sun.jersey.core.provider.jaxb.AbstractRootElementProvider",
+       "com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$App",
+       "com.sun.jersey.core.spi.component.ComponentConstructor",
+       "com.sun.jersey.impl.SpiMessages",
+       "com.sun.jersey.spi.inject.SingletonTypeInjectableProvider",
+       "com.sun.jersey.spi.StringReaderWorkers",
+       "javax.ws.rs.ext.RuntimeDelegate$HeaderDelegate",
+       "com.sun.jersey.core.impl.provider.entity.ByteArrayProvider",
+       "com.sun.jersey.core.impl.provider.entity.DataSourceProvider",
+       "com.sun.jersey.core.spi.component.ioc.IoCComponentProviderFactory",
+       "com.sun.jersey.spi.inject.ConstrainedTo",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$EntryIterator",
+       "com.sun.jersey.core.spi.component.ioc.IoCInstantiatedComponentProvider",
+       "com.sun.jersey.core.impl.provider.entity.RenderedImageProvider",
+       "com.sun.jersey.core.spi.component.ProviderServices$ProviderClass",
+       "com.sun.jersey.core.reflection.MethodList",
+       "com.sun.jersey.core.reflection.ReflectionHelper$ClassTypePair",
+       "com.sun.jersey.spi.inject.ConstrainedToType",
+       "com.sun.jersey.core.impl.provider.entity.FileProvider",
+       "com.sun.jersey.core.impl.provider.xml.DocumentBuilderFactoryProvider",
+       "javax.ws.rs.ext.MessageBodyReader",
+       "com.sun.jersey.core.header.reader.CookiesParser$MutableNewCookie",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$HashIterator",
+       "com.sun.jersey.spi.inject.Errors$1",
+       "com.sun.jersey.core.spi.scanning.JarFileScanner$1",
+       "javax.ws.rs.Path",
+       "com.sun.jersey.core.provider.jaxb.AbstractJAXBProvider",
+       "javax.ws.rs.ext.MessageBodyWriter",
+       "com.sun.jersey.spi.MessageBodyWorkers",
+       "com.sun.jersey.core.spi.scanning.FilesScanner",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$EntryIterator",
+       "javax.ws.rs.Consumes",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory$NullContextResolverAdapter",
+       "com.sun.jersey.api.uri.UriComponent$1",
+       "com.sun.jersey.core.spi.component.ProviderServices$ProviderListener",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory$1$2",
+       "com.sun.jersey.core.spi.factory.AbstractRuntimeDelegate",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory$1$1",
+       "javax.ws.rs.DELETE",
+       "com.sun.jersey.spi.inject.Errors$ErrorMessage",
+       "javax.ws.rs.core.Context",
+       "com.sun.jersey.core.impl.provider.header.LocaleProvider",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$KeyIterator",
+       "com.sun.jersey.core.osgi.Activator$OsgiServiceFinder",
+       "javax.ws.rs.core.StreamingOutput",
+       "com.sun.jersey.core.spi.factory.MessageBodyFactory$DistanceComparator",
+       "com.sun.jersey.core.util.StringIgnoreCaseKeyComparator",
+       "com.sun.jersey.spi.service.ServiceFinder",
+       "javax.ws.rs.core.Cookie",
+       "com.sun.jersey.core.impl.provider.xml.TransformerFactoryProvider",
+       "com.sun.jersey.spi.inject.Errors$Closure",
+       "com.sun.jersey.core.impl.provider.entity.DocumentProvider",
+       "javax.ws.rs.core.Response",
+       "com.sun.jersey.core.impl.provider.entity.Inflector$Replacer",
+       "javax.ws.rs.MatrixParam",
+       "com.sun.jersey.core.impl.provider.entity.DataSourceProvider$ByteArrayDataSource",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$LinkedHashIterator",
+       "com.sun.jersey.core.spi.factory.MessageBodyFactory",
+       "com.sun.jersey.core.header.LanguageTag",
+       "com.sun.jersey.spi.inject.ServerSide",
+       "com.sun.jersey.core.header.reader.CookiesParser$MutableCookie",
+       "com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$Text",
+       "com.sun.jersey.core.impl.provider.xml.LazySingletonContextProvider",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$Event",
+       "com.sun.jersey.core.impl.provider.entity.Inflector",
+       "com.sun.jersey.core.spi.scanning.PackageNamesScanner$ResourcesProvider$1",
+       "com.sun.jersey.core.spi.component.ComponentInjector$1",
+       "com.sun.jersey.api.uri.UriPattern$GroupIndexMatchResult",
+       "com.sun.jersey.core.spi.component.ioc.IoCComponentProcessor",
+       "com.sun.jersey.core.util.StringKeyIgnoreCaseMultivaluedMap",
+       "com.sun.jersey.spi.service.ServiceFinder$AbstractLazyIterator",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$ListElementCreator",
+       "javax.ws.rs.ext.FactoryFinder$1",
+       "com.sun.jersey.core.spi.factory.MessageBodyFactory$1",
+       "com.sun.jersey.core.spi.factory.MessageBodyFactory$2",
+       "com.sun.jersey.core.header.AcceptableLanguageTag",
+       "com.sun.jersey.impl.ApiMessages",
+       "com.sun.jersey.core.spi.component.ProviderFactory$Destroyable",
+       "com.sun.jersey.core.header.reader.HttpHeaderReaderImpl",
+       "com.sun.jersey.core.header.AcceptableMediaType",
+       "com.sun.jersey.core.provider.AbstractMessageReaderWriterProvider",
+       "javax.ws.rs.FormParam",
+       "com.sun.jersey.core.spi.component.ProviderFactory",
+       "com.sun.jersey.core.header.InBoundHeaders",
+       "javax.ws.rs.POST",
+       "com.sun.jersey.core.impl.provider.entity.StringProvider",
+       "com.sun.jersey.core.spi.component.ioc.IoCProviderFactory$ManagedSingleton",
+       "com.sun.jersey.core.osgi.Activator$OsgiServiceFinder$1",
+       "com.sun.jersey.core.spi.factory.InjectableProviderFactory",
+       "javax.ws.rs.ApplicationPath",
+       "com.sun.jersey.api.uri.UriTemplateParser",
+       "javax.ws.rs.OPTIONS",
+       "com.sun.jersey.api.uri.UriBuilderImpl",
+       "javax.ws.rs.core.EntityTag",
+       "com.sun.jersey.core.osgi.Activator$OsgiServiceFinder$2",
+       "com.sun.jersey.core.provider.jaxb.AbstractJAXBElementProvider",
+       "com.sun.jersey.core.header.ContentDisposition$ContentDispositionBuilder",
+       "com.sun.jersey.core.spi.component.ioc.IoCFullyManagedComponentProvider",
+       "com.sun.jersey.core.header.MatchingEntityTag",
+       "com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$General",
+       "com.sun.jersey.spi.service.ServiceConfigurationError",
+       "javax.ws.rs.core.Response$Status$Family",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$General",
+       "com.sun.jersey.api.uri.UriPattern",
+       "javax.ws.rs.PUT",
+       "com.sun.jersey.core.util.Closing$Closure",
+       "javax.ws.rs.core.Variant",
+       "com.sun.jersey.api.uri.UriComponent",
+       "com.sun.jersey.api.uri.UriPattern$EmptyStringMatchResult",
+       "com.sun.jersey.core.spi.component.ComponentConstructor$ConstructorComparator",
+       "com.sun.jersey.core.spi.factory.InjectableProviderFactory$MetaInjectableProvider",
+       "com.sun.jersey.core.header.reader.CookiesParser",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader",
+       "javax.ws.rs.Produces",
+       "com.sun.jersey.core.util.StringKeyObjectValueIgnoreCaseMultivaluedMap",
+       "com.sun.jersey.core.impl.provider.entity.BaseFormProvider",
+       "javax.ws.rs.core.SecurityContext",
+       "com.sun.jersey.core.spi.component.AnnotatedContext",
+       "com.sun.jersey.core.spi.scanning.uri.FileSchemeScanner",
+       "com.sun.jersey.core.spi.scanning.ScannerException",
+       "com.sun.jersey.core.impl.provider.entity.SourceProvider$StreamSourceReader",
+       "com.sun.jersey.spi.service.ServiceFinder$LazyClassIterator",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$App",
+       "com.sun.jersey.core.impl.provider.header.LinkHeaderProvider",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory$ContextResolverAdapter",
+       "com.sun.jersey.core.spi.scanning.PackageNamesScanner",
+       "com.sun.jersey.core.spi.factory.ResponseImpl$1",
+       "com.sun.jersey.core.spi.component.ioc.IoCComponentProcessorFactory",
+       "com.sun.jersey.core.impl.provider.entity.MimeMultipartProvider",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider",
+       "com.sun.jersey.core.impl.provider.xml.XMLStreamReaderContextProvider",
+       "javax.ws.rs.core.Response$Status",
+       "javax.ws.rs.core.UriBuilder",
+       "com.sun.jersey.spi.inject.PerRequestTypeInjectableProvider",
+       "com.sun.jersey.core.spi.component.ComponentConstructor$1",
+       "com.sun.jersey.core.util.MultivaluedMapImpl",
+       "javax.ws.rs.core.UriBuilderException",
+       "com.sun.jersey.core.spi.factory.VariantListBuilderImpl",
+       "javax.ws.rs.core.GenericEntity",
+       "com.sun.jersey.core.util.Closing",
+       "com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider",
+       "com.sun.jersey.core.spi.scanning.uri.BundleSchemeScanner",
+       "com.sun.jersey.spi.inject.Errors",
+       "com.sun.jersey.core.provider.CompletableReader",
+       "com.sun.jersey.core.spi.factory.MessageBodyFactory$MessageBodyWriterPair",
+       "com.sun.jersey.core.util.StringKeyStringValueIgnoreCaseMultivaluedMap",
+       "com.sun.jersey.localization.Localizer",
+       "com.sun.jersey.core.header.LinkHeader",
+       "com.sun.jersey.core.spi.scanning.Scanner",
+       "com.sun.jersey.core.spi.scanning.uri.VfsSchemeScanner",
+       "com.sun.jersey.core.reflection.AnnotatedMethod",
+       "javax.ws.rs.WebApplicationException",
+       "com.sun.jersey.core.header.Token",
+       "com.sun.jersey.core.header.QualityFactor",
+       "javax.ws.rs.core.UriInfo",
+       "com.sun.jersey.core.reflection.ReflectionHelper",
+       "javax.ws.rs.HEAD",
+       "com.sun.jersey.core.spi.scanning.PackageNamesScanner$ResourcesProvider",
+       "javax.ws.rs.GET",
+       "com.sun.jersey.spi.inject.ClientSide",
+       "com.sun.jersey.core.spi.component.ComponentDestructor",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider",
+       "com.sun.jersey.core.spi.component.ProviderServices",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$ValueIterator",
+       "com.sun.jersey.spi.HeaderDelegateProvider",
+       "com.sun.jersey.spi.inject.InjectableProviderContext$InjectableScopePair",
+       "com.sun.jersey.core.impl.provider.header.CacheControlProvider",
+       "com.sun.jersey.core.header.MediaTypes$1",
+       "com.sun.jersey.core.reflection.ReflectionHelper$1",
+       "com.sun.jersey.core.reflection.ReflectionHelper$2",
+       "com.sun.jersey.core.header.MediaTypes$4",
+       "com.sun.jersey.core.spi.factory.ResponseBuilderHeaders",
+       "com.sun.jersey.core.util.KeyComparatorHashMap",
+       "com.sun.jersey.spi.service.ServiceFinder$1",
+       "com.sun.jersey.core.header.MediaTypes$2",
+       "com.sun.jersey.core.impl.provider.entity.ReaderProvider",
+       "com.sun.jersey.core.header.MediaTypes$3",
+       "com.sun.jersey.spi.StringReader$ValidateDefaultValue",
+       "com.sun.jersey.core.util.Base64",
+       "com.sun.jersey.core.spi.scanning.uri.JarZipSchemeScanner",
+       "com.sun.jersey.core.header.HttpDateFormat$1",
+       "com.sun.jersey.core.impl.provider.entity.SourceProvider$SourceWriter",
+       "com.sun.jersey.core.impl.provider.entity.XMLListElementProvider$Text",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$App",
+       "com.sun.jersey.core.spi.scanning.uri.JarZipSchemeScanner$1",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory$1",
+       "javax.ws.rs.core.PathSegment",
+       "com.sun.jersey.core.impl.provider.entity.SourceProvider$DOMSourceReader",
+       "com.sun.jersey.core.spi.scanning.uri.VfsSchemeScanner$1",
+       "com.sun.jersey.spi.inject.Inject",
+       "com.sun.jersey.core.impl.provider.header.CookieProvider",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$1",
+       "com.sun.jersey.core.spi.scanning.FilesScanner$1",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$General",
+       "com.sun.jersey.core.spi.component.ComponentConstructor$ConstructorInjectablePair",
+       "com.sun.jersey.core.reflection.MethodList$6",
+       "com.sun.jersey.core.impl.provider.header.EntityTagProvider",
+       "com.sun.jersey.core.reflection.MethodList$7",
+       "com.sun.jersey.core.reflection.MethodList$8",
+       "com.sun.jersey.core.reflection.MethodList$2",
+       "javax.ws.rs.ext.Provider",
+       "com.sun.jersey.core.reflection.MethodList$3",
+       "com.sun.jersey.core.reflection.MethodList$4",
+       "com.sun.jersey.core.reflection.MethodList$5",
+       "javax.ws.rs.ext.ExceptionMapper",
+       "com.sun.jersey.core.spi.factory.ResponseBuilderImpl",
+       "javax.ws.rs.core.Application",
+       "javax.ws.rs.core.NewCookie",
+       "com.sun.jersey.core.spi.scanning.JarFileScanner",
+       "com.sun.jersey.core.impl.provider.entity.XMLListElementProvider",
+       "com.sun.jersey.core.reflection.ReflectionHelper$DeclaringClassInterfacePair",
+       "com.sun.jersey.spi.inject.InjectableProvider",
+       "com.sun.jersey.api.uri.UriTemplate",
+       "com.sun.jersey.core.spi.component.ioc.IoCDestroyable",
+       "javax.ws.rs.QueryParam",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootObjectProvider$Text",
+       "com.sun.jersey.spi.service.ServiceFinder$LazyObjectIterator",
+       "com.sun.jersey.core.spi.component.ComponentProvider",
+       "javax.ws.rs.DefaultValue",
+       "com.sun.jersey.core.header.LinkHeaders",
+       "com.sun.jersey.core.reflection.MethodList$1",
+       "com.sun.jersey.spi.inject.Injectable",
+       "com.sun.jersey.core.header.MediaTypes",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$ValueIterator",
+       "com.sun.jersey.core.spi.component.ioc.IoCComponentProcessorFactoryInitializer",
+       "javax.ws.rs.ext.FactoryFinder",
+       "javax.ws.rs.ext.Providers",
+       "com.sun.jersey.spi.StringReader",
+       "com.sun.jersey.core.impl.provider.header.NewCookieProvider",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$Entry",
+       "com.sun.jersey.core.util.ReaderWriter",
+       "com.sun.jersey.impl.ImplMessages",
+       "com.sun.jersey.spi.inject.Errors$ErrorMessagesException",
+       "javax.ws.rs.core.Response$StatusType",
+       "com.sun.jersey.core.header.LinkHeader$LinkHeaderBuilder",
+       "com.sun.jersey.core.header.HttpDateFormat",
+       "javax.ws.rs.core.HttpHeaders",
+       "com.sun.jersey.core.spi.component.ioc.IoCProviderFactory$FullyManagedSingleton",
+       "com.sun.jersey.localization.LocalizableMessageFactory",
+       "com.sun.jersey.core.impl.provider.entity.FormMultivaluedMapProvider",
+       "com.sun.jersey.core.impl.provider.entity.EntityHolderReader",
+       "javax.ws.rs.core.Request",
+       "com.sun.jersey.core.util.KeyComparatorLinkedHashMap$Entry",
+       "javax.ws.rs.core.CacheControl",
+       "com.sun.jersey.core.reflection.ReflectionHelper$TypeClassPair",
+       "com.sun.jersey.core.osgi.Activator$2",
+       "com.sun.jersey.core.impl.provider.header.WriterUtil",
+       "com.sun.jersey.core.osgi.Activator$1",
+       "javax.ws.rs.PathParam",
+       "com.sun.jersey.localization.Localizable",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$EntrySet",
+       "com.sun.jersey.core.spi.scanning.uri.VfsSchemeScanner$1$1",
+       "com.sun.jersey.core.spi.scanning.ScannerListener",
+       "com.sun.jersey.core.spi.component.ComponentScope",
+       "com.sun.jersey.core.header.FormDataContentDisposition$FormDataContentDispositionBuilder",
+       "javax.ws.rs.core.MediaType$1",
+       "com.sun.jersey.core.impl.provider.xml.SAXParserContextProvider",
+       "com.sun.jersey.core.spi.component.ioc.IoCManagedComponentProvider",
+       "com.sun.jersey.core.util.KeyComparatorHashMap$1",
+       "com.sun.jersey.core.osgi.Activator",
+       "com.sun.jersey.spi.inject.InjectableProviderContext",
+       "com.sun.jersey.api.uri.UriTemplate$1",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$1",
+       "com.sun.jersey.spi.StringReaderProvider",
+       "com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$General",
+       "com.sun.jersey.api.uri.UriTemplateParser$CharacterIterator",
+       "com.sun.jersey.core.spi.factory.InjectableProviderFactory$2",
+       "com.sun.jersey.core.util.FeaturesAndProperties",
+       "com.sun.jersey.core.spi.factory.InjectableProviderFactory$1",
+       "com.sun.jersey.api.representation.Form",
+       "com.sun.jersey.core.impl.provider.xml.ThreadLocalSingletonContextProvider$2",
+       "com.sun.jersey.core.impl.provider.xml.ThreadLocalSingletonContextProvider$1",
+       "com.sun.jersey.core.impl.provider.entity.SourceProvider",
+       "javax.ws.rs.core.MultivaluedMap",
+       "com.sun.jersey.core.header.ParameterizedHeader",
+       "com.sun.jersey.core.spi.component.ComponentContext",
+       "com.sun.jersey.core.util.LazyVal",
+       "com.sun.jersey.api.uri.UriComponent$PathSegmentImpl",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$8",
+       "com.sun.jersey.core.impl.provider.entity.StreamingOutputProvider",
+       "com.sun.jersey.api.uri.UriComponent$Type",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$9",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$6",
+       "com.sun.jersey.core.provider.EntityHolder",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$7",
+       "com.sun.jersey.core.reflection.MethodList$Filter",
+       "com.sun.jersey.core.spi.component.ioc.IoCProviderFactory$InstantiatedSingleton",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$4",
+       "com.sun.jersey.core.impl.provider.entity.FormProvider",
+       "com.sun.jersey.core.spi.factory.ContextResolverFactory",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$5",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$2",
+       "com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider$App",
+       "com.sun.jersey.core.impl.provider.entity.XMLRootElementProvider$Text",
+       "com.sun.jersey.core.header.reader.HttpHeaderReader$3"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "junit:junit:jar:4.11:compile",
+    "coordinates": "junit:junit:4.11",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 245039,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jbasics:jbasics:jar:0.6.4",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.runner.Result$1",
+     "org.junit.rules.ExpectedExceptionMatcherBuilder",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Request$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.matchers.package-info",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "org.junit.internal.requests.package-info",
+     "junit.textui.ResultPrinter",
+     "org.junit.runners.package-info",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.internal.ComparisonCriteria",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.rules.Timeout",
+     "junit.framework.TestCase",
+     "org.junit.runner.package-info",
+     "org.junit.Before",
+     "junit.runner.package-info",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.junit.runners.Parameterized$Parameter",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.ComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.MethodSorters",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.internal.runners.package-info",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.internal.MethodSorter",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "junit.textui.package-info",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "junit.extensions.package-info",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.internal.matchers.StacktracePrintingMatcher",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.InexactComparisonCriteria",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.junit.internal.matchers.ThrowableMessageMatcher",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.internal.MethodSorter$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.internal.MethodSorter$1",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.FixMethodOrder",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "junit.framework.JUnit4TestAdapterCache",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "junit.framework.package-info",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "junit.framework.Protectable",
+     "org.junit.runner.manipulation.package-info",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.MethodRule",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.runner.Computer",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "junit.runner.BaseTestRunner",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "junit.extensions.RepeatedTest",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "org.junit.rules.ExpectedException",
+     "org.junit.rules.TestWatcher$1",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.package-info",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.internal.matchers.ThrowableCauseMatcher",
+     "org.junit.runner.notification.package-info",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.internal.runners.rules.RuleFieldValidator",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.runners.model.Statement",
+     "org.junit.AfterClass",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.BeforeClass",
+     "org.junit.runners.Parameterized$Parameters",
+     "org.junit.runner.RunWith",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.Test",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "org.junit.Ignore",
+     "org.junit.runners.model.TestClass",
+     "org.junit.runner.Runner",
+     "org.junit.runners.Suite",
+     "org.junit.After",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.Assert",
+     "org.junit.runners.Parameterized",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.0815450643776824,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.3:compile",
+      "coordinates": "org.hamcrest:hamcrest-core:1.3",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 45024,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "junit:junit:jar:4.11:compile",
+      "allTypes": [
+       "org.hamcrest.Condition$1",
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.internal.ReflectiveTypeFinder",
+       "org.hamcrest.Condition$Step",
+       "org.hamcrest.CustomTypeSafeMatcher",
+       "org.hamcrest.core.CombinableMatcher",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Every",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.TypeSafeDiagnosingMatcher",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.core.StringContains",
+       "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.core.ShortcutCombination",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.core.StringEndsWith",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame",
+       "org.hamcrest.Condition$Matched",
+       "org.hamcrest.core.StringStartsWith",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.SubstringMatcher",
+       "org.hamcrest.Condition",
+       "org.hamcrest.CustomMatcher",
+       "org.hamcrest.TypeSafeMatcher",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.IsCollectionContaining",
+       "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.FeatureMatcher",
+       "org.hamcrest.MatcherAssert",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.Condition$NotMatched",
+       "org.hamcrest.Description$NullDescription",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.DiagnosingMatcher"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}

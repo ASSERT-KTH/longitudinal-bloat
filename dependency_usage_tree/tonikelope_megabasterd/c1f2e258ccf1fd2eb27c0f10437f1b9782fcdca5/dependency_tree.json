@@ -1,0 +1,54 @@
+[
+ {
+  "artifactid": "MegaBasterd",
+  "groupid": "com.tonikelope",
+  "version": "5.17",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "jackson-core-asl",
+    "groupid": "org.codehaus.jackson",
+    "version": "1.9.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-mapper-asl",
+    "groupid": "org.codehaus.jackson",
+    "version": "1.9.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-core-asl",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.9.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "sqlite-jdbc",
+    "groupid": "org.xerial",
+    "version": "3.21.0.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]
