@@ -1,0 +1,524 @@
+{
+ "usage": {
+  "org.jruby.ext.posix.JavaFileStatTest": {
+   "junit:junit:jar:4.4:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "org.jruby.ext.posix.IDTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.GroupTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStructTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jruby.ext.posix.PasswdTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jruby.ext.posix.FreeBSDPOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.SolarisPOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.SolarisFileStat$TimeStruct": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.MacOSPOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Library",
+    "com.sun.jna.Native"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFunctionMapper": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FunctionMapper",
+    "com.sun.jna.NativeLibrary"
+   ]
+  },
+  "org.jruby.ext.posix.NativeGroup": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.FreeBSDPasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeLong",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativeFileStat": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.WindowsLibCFunctionMapper": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FunctionMapper",
+    "com.sun.jna.NativeLibrary"
+   ]
+  },
+  "org.jruby.ext.posix.MacOSPasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeLong",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.LinuxPasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeLibrary"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX$PointerConverter": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeConverter",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.NativeTimeval": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.OpenBSDPOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.NativePasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.DefaultNativeTimeval": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeLong"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Library"
+   ]
+  },
+  "org.jruby.ext.posix.UTimBuf64": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Structure"
+   ]
+  },
+  "org.jruby.ext.posix.LinuxPOSIX$1": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.FromNativeContext",
+    "com.sun.jna.NativeMapped",
+    "com.sun.jna.Pointer",
+    "com.sun.jna.Platform"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXTypeMapper": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.TypeMapper",
+    "com.sun.jna.FromNativeConverter",
+    "com.sun.jna.ToNativeConverter"
+   ]
+  },
+  "org.jruby.ext.posix.OpenBSDPasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeLong",
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.BaseHeapFileStat": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.NativeMapped"
+   ]
+  },
+  "org.jruby.ext.posix.DefaultNativeGroup": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.LibC": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Library"
+   ]
+  },
+  "org.jruby.ext.posix.SolarisPasswd": {
+   "net.java.dev.jna:jna:jar:3.0.9:provided": [
+    "com.sun.jna.Pointer"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.jruby.ext.posix:jna-posix:jar:0.9:null",
+  "coordinates": "org.jruby.ext.posix:jna-posix:0.9",
+  "groupId": "org.jruby.ext.posix",
+  "artifactId": "jna-posix",
+  "version": "0.9",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "junit:junit:jar:4.4:test",
+    "coordinates": "junit:junit:4.4",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.4",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 161477,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.ext.posix:jna-posix:jar:0.9",
+    "allTypes": [
+     "org.junit.runners.Parameterized$1",
+     "org.junit.experimental.theories.PotentialParameterValue$1",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.hamcrest.StringDescription",
+     "org.junit.runner.Request",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.requests.IgnoredClassRunner",
+     "org.junit.experimental.theories.internal.TheoryMethod",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.hamcrest.core.Is",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.runner.Result$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "junit.framework.ComparisonFailure",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.Assume$AssumptionViolatedException",
+     "org.junit.internal.runners.CompositeRunner",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.matchers.StringContains",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "junit.extensions.TestSetup",
+     "org.junit.matchers.Each$1",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runner.Request$1",
+     "org.hamcrest.core.DescribedAs",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.internal.requests.ClassesRequest",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "junit.textui.ResultPrinter",
+     "org.junit.internal.runners.FailedBefore",
+     "org.hamcrest.BaseDescription",
+     "org.hamcrest.core.IsNot",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.hamcrest.core.AllOf",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.hamcrest.BaseMatcher",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "org.junit.matchers.Each",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.runner.Runner",
+     "org.junit.runners.Enclosed",
+     "org.hamcrest.core.IsEqual",
+     "org.hamcrest.internal.SelfDescribingValueIterator",
+     "org.junit.internal.requests.ClassRequest",
+     "junit.framework.TestCase",
+     "org.hamcrest.core.IsSame",
+     "org.junit.Before",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.CompositeRunner$1",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "org.junit.Test",
+     "org.junit.experimental.theories.PotentialParameterValue$CouldNotGenerateValueException",
+     "junit.framework.JUnit4TestCaseFacade",
+     "junit.framework.JUnit4TestAdapterCache",
+     "org.junit.experimental.theories.PotentialParameterValue",
+     "junit.framework.TestSuite$1",
+     "org.junit.matchers.CombinableMatcher",
+     "junit.framework.TestListener",
+     "org.hamcrest.Matcher",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.runners.Suite$1",
+     "org.junit.Assert",
+     "org.junit.internal.runners.OldTestClassRunner",
+     "org.junit.ComparisonFailure",
+     "org.hamcrest.core.IsNull",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "junit.framework.Protectable",
+     "org.hamcrest.CoreMatchers",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.runner.manipulation.Filterable",
+     "junit.framework.TestResult$1",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "org.junit.matchers.TypeSafeMatcher",
+     "junit.runner.BaseTestRunner",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.matchers.SubstringMatcher",
+     "org.junit.experimental.theories.ParameterSignature$1",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.Failure",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.matchers.IsCollectionContaining",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.hamcrest.SelfDescribing",
+     "org.junit.experimental.theories.internal.TheoryMethod$PotentialMethodValues",
+     "org.junit.runner.notification.RunNotifier$2",
+     "junit.runner.TestRunListener",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "junit.framework.Test",
+     "org.junit.BeforeClass",
+     "org.junit.matchers.JUnitMatchers",
+     "org.hamcrest.internal.SelfDescribingValue",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.experimental.theories.ParameterSignature$1$1",
+     "org.junit.internal.runners.TestClass",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.hamcrest.core.AnyOf",
+     "org.junit.internal.runners.MethodValidator",
+     "junit.extensions.RepeatedTest",
+     "org.hamcrest.core.IsAnything",
+     "org.junit.runner.Result$Listener",
+     "org.hamcrest.Factory",
+     "org.junit.Assume",
+     "org.junit.internal.runners.TestClassRunner",
+     "org.hamcrest.core.IsInstanceOf",
+     "org.junit.internal.requests.ErrorReportingRequest",
+     "org.hamcrest.Description",
+     "org.junit.internal.runners.ClassRoadie",
+     "junit.runner.Version",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.hamcrest.internal.ArrayIterator",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.runner.notification.RunNotifier"
+    ],
+    "usedTypes": [
+     "org.junit.AfterClass",
+     "org.junit.BeforeClass",
+     "org.junit.After",
+     "org.junit.Test",
+     "junit.framework.TestCase",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.045454545454545456,
+    "children": []
+   },
+   {
+    "id": "net.java.dev.jna:jna:jar:3.0.9:provided",
+    "coordinates": "net.java.dev.jna:jna:3.0.9",
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "3.0.9",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 795871,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.ext.posix:jna-posix:jar:0.9",
+    "allTypes": [
+     "com.sun.jna.NativeLong",
+     "com.sun.jna.TypeMapper",
+     "com.sun.jna.Structure$ByValue",
+     "com.sun.jna.Function",
+     "com.sun.jna.NativeString",
+     "com.sun.jna.StructureWriteContext",
+     "com.sun.jna.win32.W32APITypeMapper$1",
+     "com.sun.jna.FromNativeConverter",
+     "com.sun.jna.Library$1",
+     "com.sun.jna.Callback",
+     "com.sun.jna.IntegerType",
+     "com.sun.jna.Structure$FFIType$size_t",
+     "com.sun.jna.win32.StdCallLibrary",
+     "com.sun.jna.win32.W32APITypeMapper",
+     "com.sun.jna.CallbackResultContext",
+     "com.sun.jna.Pointer$Opaque",
+     "com.sun.jna.ptr.ByteByReference",
+     "com.sun.jna.ptr.ByReference",
+     "com.sun.jna.CallbackReference$NativeFunctionHandler$1",
+     "com.sun.jna.WString",
+     "com.sun.jna.CallbackReference$NativeFunctionProxy",
+     "com.sun.jna.Native$2",
+     "com.sun.jna.Native$1",
+     "com.sun.jna.Library",
+     "com.sun.jna.Union",
+     "com.sun.jna.Native",
+     "com.sun.jna.win32.W32APIFunctionMapper",
+     "com.sun.jna.NativeMappedConverter",
+     "com.sun.jna.ptr.DoubleByReference",
+     "com.sun.jna.PointerType",
+     "com.sun.jna.AltCallingConvention",
+     "com.sun.jna.ptr.PointerByReference",
+     "com.sun.jna.Memory",
+     "com.sun.jna.Library$Handler$FunctionInfo",
+     "com.sun.jna.DefaultTypeMapper$Entry",
+     "com.sun.jna.MethodResultContext",
+     "com.sun.jna.TypeConverter",
+     "com.sun.jna.Platform",
+     "com.sun.jna.Library$Handler$FunctionNameMap",
+     "com.sun.jna.ToNativeContext",
+     "com.sun.jna.ptr.IntByReference",
+     "com.sun.jna.win32.StdCall",
+     "com.sun.jna.NativeLibrary",
+     "com.sun.jna.CallbackProxy",
+     "com.sun.jna.CallbackReference",
+     "com.sun.jna.Function$PointerArray",
+     "com.sun.jna.FunctionMapper",
+     "com.sun.jna.win32.StdCallFunctionMapper",
+     "com.sun.jna.Structure$MemberOrder",
+     "com.sun.jna.StructureReadContext",
+     "com.sun.jna.FromNativeContext",
+     "com.sun.jna.ptr.LongByReference",
+     "com.sun.jna.Structure$StructField",
+     "com.sun.jna.ptr.NativeLongByReference",
+     "com.sun.jna.Native$DeleteNativeLibrary",
+     "com.sun.jna.Pointer$1",
+     "com.sun.jna.InvocationMapper",
+     "com.sun.jna.Function$PostCallRead",
+     "com.sun.jna.MethodParameterContext",
+     "com.sun.jna.ToNativeConverter",
+     "com.sun.jna.CallbackReference$DefaultCallbackProxy",
+     "com.sun.jna.FunctionParameterContext",
+     "com.sun.jna.CallbackReference$NativeFunctionHandler",
+     "com.sun.jna.Structure",
+     "com.sun.jna.Structure$ByReference",
+     "com.sun.jna.NativeLibrary$2",
+     "com.sun.jna.CallbackParameterContext",
+     "com.sun.jna.NativeLibrary$1",
+     "com.sun.jna.win32.StdCallLibrary$StdCallCallback",
+     "com.sun.jna.ptr.ShortByReference",
+     "com.sun.jna.NativeMapped",
+     "com.sun.jna.Structure$FFIType$FFITypes",
+     "com.sun.jna.ptr.FloatByReference",
+     "com.sun.jna.Pointer",
+     "com.sun.jna.Structure$FFIType",
+     "com.sun.jna.Library$Handler",
+     "com.sun.jna.Memory$SharedMemory",
+     "com.sun.jna.DefaultTypeMapper",
+     "com.sun.jna.StringArray",
+     "com.sun.jna.win32.W32APITypeMapper$2",
+     "com.sun.jna.FunctionResultContext"
+    ],
+    "usedTypes": [
+     "com.sun.jna.NativeLong",
+     "com.sun.jna.TypeMapper",
+     "com.sun.jna.Library",
+     "com.sun.jna.Native",
+     "com.sun.jna.NativeMapped",
+     "com.sun.jna.FunctionMapper",
+     "com.sun.jna.FromNativeConverter",
+     "com.sun.jna.FromNativeContext",
+     "com.sun.jna.Pointer",
+     "com.sun.jna.ToNativeConverter",
+     "com.sun.jna.Platform",
+     "com.sun.jna.Structure",
+     "com.sun.jna.NativeLibrary"
+    ],
+    "usageRatio": 0.16049382716049382,
+    "children": []
+   }
+  ]
+ }
+}

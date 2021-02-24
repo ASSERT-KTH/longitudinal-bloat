@@ -1,0 +1,811 @@
+{
+ "usage": {
+  "com.healthmarketscience.jackcess.query.QueryFormat": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.SystemUtils"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Cursor$Id": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.ObjectUtils"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Database": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.builder.ToStringBuilder"
+   ],
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.RowId": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.builder.CompareToBuilder"
+   ]
+  },
+  "com.healthmarketscience.jackcess.SimpleColumnMatcher": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.ObjectUtils"
+   ]
+  },
+  "com.healthmarketscience.jackcess.query.Query$Row": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.builder.ToStringBuilder"
+   ]
+  },
+  "com.healthmarketscience.jackcess.query.QueryTest": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.StringUtils",
+    "org.apache.commons.lang.SystemUtils"
+   ],
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.RowFilter$1": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.ObjectUtils"
+   ]
+  },
+  "com.healthmarketscience.jackcess.RowFilter$2": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.ObjectUtils"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ExportTest": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.SystemUtils"
+   ],
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.query.Query": {
+   "commons-lang:commons-lang:jar:2.0:compile": [
+    "org.apache.commons.lang.builder.ToStringBuilder"
+   ],
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.IndexCursor": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Index": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.complex.ComplexColumnInfo": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.DebugErrorHandler": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.scsu.Debug": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ExportUtil": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Cursor": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ImportUtil": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.UsageMap": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.PageChannel": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.Log",
+    "org.apache.commons.logging.LogFactory"
+   ]
+  },
+  "com.healthmarketscience.jackcess.IndexData": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Column": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.Table": {
+   "commons-logging:commons-logging:jar:1.0.3:compile": [
+    "org.apache.commons.logging.LogFactory",
+    "org.apache.commons.logging.Log"
+   ]
+  },
+  "com.healthmarketscience.jackcess.CodecHandlerTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ImportTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.IndexTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.BigIndexTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.RowFilterTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ComplexColumnTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.RelationshipTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.ErrorHandlerTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.JoinerTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.DatabaseTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.JetFormatTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.scsu.CompressTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.TableTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.CursorTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.IndexCodesTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.PropertiesTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.FKEnforcerTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.DatabaseTest$1": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.Assert"
+   ]
+  },
+  "com.healthmarketscience.jackcess.MemFileChannelTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.CursorBuilderTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.UsageMapTest": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "com.healthmarketscience.jackcess.CodecHandlerTest$FullCodecHandler": {
+   "junit:junit:jar:4.0:test": [
+    "junit.framework.Assert"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.healthmarketscience.jackcess:jackcess:jar:1.2.11:null",
+  "coordinates": "com.healthmarketscience.jackcess:jackcess:1.2.11",
+  "groupId": "com.healthmarketscience.jackcess",
+  "artifactId": "jackcess",
+  "version": "1.2.11",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "commons-lang:commons-lang:jar:2.0:compile",
+    "coordinates": "commons-lang:commons-lang:2.0",
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "2.0",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 169763,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.healthmarketscience.jackcess:jackcess:jar:1.2.11",
+    "allTypes": [
+     "org.apache.commons.lang.StringUtils",
+     "org.apache.commons.lang.math.LongRange",
+     "org.apache.commons.lang.time.FastDateFormat$TimeZoneNameRule",
+     "org.apache.commons.lang.ClassUtils",
+     "org.apache.commons.lang.time.FastDateFormat$CharacterLiteral",
+     "org.apache.commons.lang.math.Range",
+     "org.apache.commons.lang.Entities$PrimitiveEntityMap",
+     "org.apache.commons.lang.time.FastDateFormat$NumberRule",
+     "org.apache.commons.lang.enum.Enum$1",
+     "org.apache.commons.lang.math.NumberUtils",
+     "org.apache.commons.lang.BitField",
+     "org.apache.commons.lang.math.RandomUtils",
+     "org.apache.commons.lang.BooleanUtils",
+     "org.apache.commons.lang.exception.NestableDelegate",
+     "org.apache.commons.lang.exception.NestableException",
+     "org.apache.commons.lang.builder.ReflectionToStringBuilder",
+     "org.apache.commons.lang.Entities$LookupEntityMap",
+     "org.apache.commons.lang.NotImplementedException",
+     "org.apache.commons.lang.time.FastDateFormat$TimeZoneNumberRule",
+     "org.apache.commons.lang.Entities$HashEntityMap",
+     "org.apache.commons.lang.time.FastDateFormat$Pair",
+     "org.apache.commons.lang.Entities$BinaryEntityMap",
+     "org.apache.commons.lang.IllegalClassException",
+     "org.apache.commons.lang.NumberRange",
+     "org.apache.commons.lang.IncompleteArgumentException",
+     "org.apache.commons.lang.SystemUtils",
+     "org.apache.commons.lang.enum.EnumUtils",
+     "org.apache.commons.lang.time.FastDateFormat$UnpaddedNumberField",
+     "org.apache.commons.lang.builder.CompareToBuilder",
+     "org.apache.commons.lang.builder.ToStringStyle$MultiLineToStringStyle",
+     "org.apache.commons.lang.time.FastDateFormat$TwoDigitYearField",
+     "org.apache.commons.lang.enum.Enum",
+     "org.apache.commons.lang.time.FastDateFormat$StringLiteral",
+     "org.apache.commons.lang.StringPrintWriter",
+     "org.apache.commons.lang.enum.Enum$Entry",
+     "org.apache.commons.lang.ObjectUtils",
+     "org.apache.commons.lang.builder.ToStringStyle$SimpleToStringStyle",
+     "org.apache.commons.lang.time.DateUtils$DateIterator",
+     "org.apache.commons.lang.enum.ValuedEnum",
+     "org.apache.commons.lang.math.FloatRange",
+     "org.apache.commons.lang.builder.StandardToStringStyle",
+     "org.apache.commons.lang.time.StopWatch",
+     "org.apache.commons.lang.time.DurationFormatUtils",
+     "org.apache.commons.lang.SerializationException",
+     "org.apache.commons.lang.Entities$MapIntMap",
+     "org.apache.commons.lang.Validate",
+     "org.apache.commons.lang.time.FastDateFormat$PaddedNumberField",
+     "org.apache.commons.lang.time.FastDateFormat$TwentyFourHourField",
+     "org.apache.commons.lang.WordUtils",
+     "org.apache.commons.lang.builder.ReflectionToStringBuilder$1",
+     "org.apache.commons.lang.math.NumberRange",
+     "org.apache.commons.lang.time.FastDateFormat",
+     "org.apache.commons.lang.time.FastDateFormat$TwoDigitNumberField",
+     "org.apache.commons.lang.exception.NestableRuntimeException",
+     "org.apache.commons.lang.SerializationUtils",
+     "org.apache.commons.lang.builder.ToStringStyle$DefaultToStringStyle",
+     "org.apache.commons.lang.exception.NestableError",
+     "org.apache.commons.lang.builder.ToStringBuilder",
+     "org.apache.commons.lang.IntHashMap$Entry",
+     "org.apache.commons.lang.builder.HashCodeBuilder",
+     "org.apache.commons.lang.time.FastDateFormat$TextField",
+     "org.apache.commons.lang.CharSet",
+     "org.apache.commons.lang.UnhandledException",
+     "org.apache.commons.lang.builder.ToStringStyle",
+     "org.apache.commons.lang.time.DateUtils",
+     "org.apache.commons.lang.IntHashMap",
+     "org.apache.commons.lang.time.FastDateFormat$TwelveHourField",
+     "org.apache.commons.lang.Entities",
+     "org.apache.commons.lang.Entities$ArrayEntityMap",
+     "org.apache.commons.lang.Entities$EntityMap",
+     "org.apache.commons.lang.Entities$TreeEntityMap",
+     "org.apache.commons.lang.NullArgumentException",
+     "org.apache.commons.lang.time.FastDateFormat$UnpaddedMonthField",
+     "org.apache.commons.lang.RandomStringUtils",
+     "org.apache.commons.lang.time.FastDateFormat$TwoDigitMonthField",
+     "org.apache.commons.lang.CharRange",
+     "org.apache.commons.lang.math.DoubleRange",
+     "org.apache.commons.lang.time.FastDateFormat$TimeZoneDisplayKey",
+     "org.apache.commons.lang.builder.ToStringStyle$NoFieldNameToStringStyle",
+     "org.apache.commons.lang.math.JVMRandom",
+     "org.apache.commons.lang.exception.ExceptionUtils",
+     "org.apache.commons.lang.math.Fraction",
+     "org.apache.commons.lang.CharSetUtils",
+     "org.apache.commons.lang.time.DateFormatUtils",
+     "org.apache.commons.lang.exception.Nestable",
+     "org.apache.commons.lang.ObjectUtils$Null",
+     "org.apache.commons.lang.builder.EqualsBuilder",
+     "org.apache.commons.lang.time.FastDateFormat$Rule",
+     "org.apache.commons.lang.NumberUtils",
+     "org.apache.commons.lang.builder.ToStringStyle$1",
+     "org.apache.commons.lang.math.IntRange",
+     "org.apache.commons.lang.StringEscapeUtils",
+     "org.apache.commons.lang.ArrayUtils"
+    ],
+    "usedTypes": [
+     "org.apache.commons.lang.builder.CompareToBuilder",
+     "org.apache.commons.lang.StringUtils",
+     "org.apache.commons.lang.builder.ToStringBuilder",
+     "org.apache.commons.lang.SystemUtils",
+     "org.apache.commons.lang.ObjectUtils"
+    ],
+    "usageRatio": 0.053763440860215055,
+    "children": []
+   },
+   {
+    "id": "commons-logging:commons-logging:jar:1.0.3:compile",
+    "coordinates": "commons-logging:commons-logging:1.0.3",
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.0.3",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 31605,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.healthmarketscience.jackcess:jackcess:jar:1.2.11",
+    "allTypes": [
+     "org.apache.commons.logging.impl.SimpleLog",
+     "org.apache.commons.logging.impl.NoOpLog",
+     "org.apache.commons.logging.impl.Log4JLogger",
+     "org.apache.commons.logging.LogFactory$3",
+     "org.apache.commons.logging.impl.LogKitLogger",
+     "org.apache.commons.logging.LogFactory$1",
+     "org.apache.commons.logging.LogFactory$2",
+     "org.apache.commons.logging.LogSource",
+     "org.apache.commons.logging.impl.LogFactoryImpl",
+     "org.apache.commons.logging.impl.Log4jFactory",
+     "org.apache.commons.logging.impl.LogFactoryImpl$1",
+     "org.apache.commons.logging.impl.SimpleLog$1",
+     "org.apache.commons.logging.Log",
+     "org.apache.commons.logging.LogFactory",
+     "org.apache.commons.logging.impl.Jdk14Logger",
+     "org.apache.commons.logging.impl.Log4JCategoryLog",
+     "org.apache.commons.logging.LogConfigurationException"
+    ],
+    "usedTypes": [
+     "org.apache.commons.logging.Log",
+     "org.apache.commons.logging.LogFactory"
+    ],
+    "usageRatio": 0.11764705882352941,
+    "children": []
+   },
+   {
+    "id": "log4j:log4j:jar:1.2.7:runtime",
+    "coordinates": "log4j:log4j:1.2.7",
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "1.2.7",
+    "scope": "runtime",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 350677,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "com.healthmarketscience.jackcess:jackcess:jar:1.2.11",
+    "allTypes": [
+     "org.apache.log4j.net.SocketAppender",
+     "org.apache.log4j.lf5.LogRecordFilter",
+     "org.apache.log4j.helpers.PatternConverter",
+     "org.apache.log4j.varia.FallbackErrorHandler",
+     "org.apache.log4j.AppenderSkeleton",
+     "org.apache.log4j.lf5.StartLogFactor5",
+     "org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener",
+     "org.apache.log4j.helpers.DateTimeDateFormat",
+     "org.apache.log4j.Level",
+     "org.apache.log4j.helpers.SyslogQuietWriter",
+     "org.apache.log4j.lf5.viewer.LogTable",
+     "org.apache.log4j.lf5.viewer.configure.ConfigurationManager",
+     "org.apache.log4j.helpers.QuietWriter",
+     "org.apache.log4j.lf5.viewer.FilteredLogTableModel",
+     "org.apache.log4j.chainsaw.Main",
+     "org.apache.log4j.SimpleLayout",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$19",
+     "org.apache.log4j.helpers.ISO8601DateFormat",
+     "org.apache.log4j.lf5.AppenderFinalizer",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter",
+     "org.apache.log4j.spi.Filter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$11",
+     "org.apache.log4j.config.PropertySetter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$12",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$13",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$14",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$15",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$16",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$17",
+     "org.apache.log4j.helpers.PatternParser$BasicPatternConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$18",
+     "org.apache.log4j.nt.NTEventLogAppender",
+     "org.apache.log4j.Layout",
+     "org.apache.log4j.chainsaw.EventDetails",
+     "org.apache.log4j.net.JMSAppender",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$10",
+     "org.apache.log4j.helpers.SyslogWriter",
+     "org.apache.log4j.jmx.LoggerDynamicMBean",
+     "org.apache.log4j.varia.LevelMatchFilter",
+     "org.apache.log4j.chainsaw.XMLFileHandler",
+     "org.apache.log4j.Hierarchy",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$22",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$23",
+     "org.apache.log4j.lf5.PassingLogRecordFilter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$24",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$25",
+     "org.apache.log4j.lf5.viewer.LogTableColumnFormatException",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$26",
+     "org.apache.log4j.helpers.PatternParser$CategoryPatternConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$27",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$28",
+     "org.apache.log4j.varia.HUP",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$29",
+     "org.apache.log4j.spi.TriggeringEventEvaluator",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$20",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$21",
+     "org.apache.log4j.helpers.NullEnumeration",
+     "org.apache.log4j.spi.DefaultRepositorySelector",
+     "org.apache.log4j.spi.OptionHandler",
+     "org.apache.log4j.jmx.Agent",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8",
+     "org.apache.log4j.varia.Roller",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5",
+     "org.apache.log4j.lf5.LogLevel",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2",
+     "org.apache.log4j.RollingFileAppender",
+     "org.apache.log4j.helpers.FormattingInfo",
+     "org.apache.log4j.helpers.OptionConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$30",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$31",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$32",
+     "org.apache.log4j.helpers.BoundedFIFO",
+     "org.apache.log4j.net.TelnetAppender$SocketHandler",
+     "org.apache.log4j.net.TelnetAppender",
+     "org.apache.log4j.lf5.LF5Appender",
+     "org.apache.log4j.or.ObjectRenderer",
+     "org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter",
+     "org.apache.log4j.lf5.viewer.LF5SwingUtils",
+     "org.apache.log4j.helpers.PatternParser",
+     "org.apache.log4j.lf5.util.AdapterLogRecord",
+     "org.apache.log4j.AsyncAppender",
+     "org.apache.log4j.lf5.util.ResourceUtils",
+     "org.apache.log4j.xml.XMLWatchdog",
+     "org.apache.log4j.Category",
+     "org.apache.log4j.jmx.LayoutDynamicMBean",
+     "org.apache.log4j.net.SyslogAppender",
+     "org.apache.log4j.net.SocketServer",
+     "org.apache.log4j.helpers.ThreadLocalMap",
+     "org.apache.log4j.lf5.DefaultLF5Configurator",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor",
+     "org.apache.log4j.lf5.viewer.LogTableModel",
+     "org.apache.log4j.helpers.RelativeTimeDateFormat",
+     "org.apache.log4j.ConsoleAppender",
+     "org.apache.log4j.spi.LoggerFactory",
+     "org.apache.log4j.spi.Configurator",
+     "org.apache.log4j.chainsaw.DetailPanel",
+     "org.apache.log4j.spi.LocationInfo",
+     "org.apache.log4j.PropertyWatchdog",
+     "org.apache.log4j.TTCCLayout",
+     "org.apache.log4j.varia.StringMatchFilter",
+     "org.apache.log4j.chainsaw.LoggingReceiver$Slurper",
+     "org.apache.log4j.helpers.PatternParser$NamedPatternConverter",
+     "org.apache.log4j.xml.SAXErrorHandler",
+     "org.apache.log4j.HTMLLayout",
+     "org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog",
+     "org.apache.log4j.net.SocketHubAppender",
+     "org.apache.log4j.jmx.AppenderDynamicMBean",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor",
+     "org.apache.log4j.spi.AppenderAttachable",
+     "org.apache.log4j.helpers.PatternParser$DatePatternConverter",
+     "org.apache.log4j.spi.NullWriter",
+     "org.apache.log4j.helpers.PatternParser$MDCPatternConverter",
+     "org.apache.log4j.Priority",
+     "org.apache.log4j.lf5.LogLevelFormatException",
+     "org.apache.log4j.FileAppender",
+     "org.apache.log4j.net.JMSSink",
+     "org.apache.log4j.config.PropertySetterException",
+     "org.apache.log4j.LogManager",
+     "org.apache.log4j.lf5.viewer.LogFactor5Dialog",
+     "org.apache.log4j.chainsaw.ControlPanel$5",
+     "org.apache.log4j.chainsaw.ControlPanel$6",
+     "org.apache.log4j.chainsaw.ControlPanel$7",
+     "org.apache.log4j.DefaultCategoryFactory",
+     "org.apache.log4j.chainsaw.ControlPanel$1",
+     "org.apache.log4j.chainsaw.ControlPanel$2",
+     "org.apache.log4j.or.RendererMap",
+     "org.apache.log4j.chainsaw.ControlPanel$3",
+     "org.apache.log4j.chainsaw.ControlPanel$4",
+     "org.apache.log4j.NDC$DiagnosticContext",
+     "org.apache.log4j.helpers.Transform",
+     "org.apache.log4j.config.PropertyGetter$PropertyCallback",
+     "org.apache.log4j.lf5.Log4JLogRecord",
+     "org.apache.log4j.lf5.util.LogFileParser$1",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog",
+     "org.apache.log4j.NDC",
+     "org.apache.log4j.jmx.AbstractDynamicMBean",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor",
+     "org.apache.log4j.xml.XMLLayout",
+     "org.apache.log4j.spi.RootCategory",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1",
+     "org.apache.log4j.or.sax.AttributesRenderer",
+     "org.apache.log4j.helpers.PatternParser$LocationPatternConverter",
+     "org.apache.log4j.RollingCalendar",
+     "org.apache.log4j.CategoryKey",
+     "org.apache.log4j.jdbc.JDBCAppender",
+     "org.apache.log4j.WriterAppender",
+     "org.apache.log4j.lf5.viewer.TrackingAdjustmentListener",
+     "org.apache.log4j.net.SocketNode",
+     "org.apache.log4j.varia.DenyAllFilter",
+     "org.apache.log4j.helpers.DateLayout",
+     "org.apache.log4j.helpers.OnlyOnceErrorHandler",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3",
+     "org.apache.log4j.chainsaw.ControlPanel",
+     "org.apache.log4j.helpers.Loader",
+     "org.apache.log4j.ProvisionNode",
+     "org.apache.log4j.config.PropertyGetter",
+     "org.apache.log4j.Dispatcher",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath",
+     "org.apache.log4j.lf5.viewer.configure.MRUFileManager",
+     "org.apache.log4j.net.SMTPAppender",
+     "org.apache.log4j.helpers.FileWatchdog",
+     "org.apache.log4j.jmx.MethodUnion",
+     "org.apache.log4j.lf5.util.Resource",
+     "org.apache.log4j.chainsaw.ExitAction",
+     "org.apache.log4j.MDC",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel",
+     "org.apache.log4j.helpers.PatternParser$LiteralPatternConverter",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer",
+     "org.apache.log4j.spi.ErrorHandler",
+     "org.apache.log4j.spi.VectorWriter",
+     "org.apache.log4j.chainsaw.MyTableModel$Processor",
+     "org.apache.log4j.lf5.util.DateFormatManager",
+     "org.apache.log4j.spi.RendererSupport",
+     "org.apache.log4j.lf5.viewer.LogTableColumn",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode",
+     "org.apache.log4j.spi.ErrorCode",
+     "org.apache.log4j.helpers.AppenderAttachableImpl",
+     "org.apache.log4j.lf5.util.StreamUtils",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2",
+     "org.apache.log4j.varia.ExternallyRolledFileAppender",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$6",
+     "org.apache.log4j.config.PropertyPrinter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$7",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$4",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$5",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$2",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$3",
+     "org.apache.log4j.net.SocketAppender$Connector",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$1",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor",
+     "org.apache.log4j.BasicConfigurator",
+     "org.apache.log4j.helpers.AbsoluteTimeDateFormat",
+     "org.apache.log4j.varia.LevelRangeFilter",
+     "org.apache.log4j.Logger",
+     "org.apache.log4j.jmx.HierarchyDynamicMBean",
+     "org.apache.log4j.lf5.util.LogMonitorAdapter",
+     "org.apache.log4j.varia.HUPNode",
+     "org.apache.log4j.net.SimpleSocketServer",
+     "org.apache.log4j.helpers.LogLog",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$8",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$9",
+     "org.apache.log4j.chainsaw.MyTableModel",
+     "org.apache.log4j.lf5.viewer.LF5SwingUtils$1",
+     "org.apache.log4j.or.ThreadGroupRenderer",
+     "org.apache.log4j.net.SocketHubAppender$ServerMonitor",
+     "org.apache.log4j.spi.RepositorySelector",
+     "org.apache.log4j.net.DefaultEvaluator",
+     "org.apache.log4j.DailyRollingFileAppender",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor",
+     "org.apache.log4j.chainsaw.LoadXMLAction",
+     "org.apache.log4j.or.DefaultRenderer",
+     "org.apache.log4j.varia.NullAppender",
+     "org.apache.log4j.chainsaw.MyTableModel$1",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree",
+     "org.apache.log4j.PropertyConfigurator",
+     "org.apache.log4j.lf5.LogRecord",
+     "org.apache.log4j.xml.DOMConfigurator",
+     "org.apache.log4j.chainsaw.LoggingReceiver",
+     "org.apache.log4j.Appender",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter",
+     "org.apache.log4j.helpers.CyclicBuffer",
+     "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog",
+     "org.apache.log4j.chainsaw.Main$1",
+     "org.apache.log4j.helpers.CountingQuietWriter",
+     "org.apache.log4j.spi.HierarchyEventListener",
+     "org.apache.log4j.spi.LoggingEvent",
+     "org.apache.log4j.lf5.viewer.LogTableRowRenderer",
+     "org.apache.log4j.varia.ReloadingPropertyConfigurator",
+     "org.apache.log4j.spi.ThrowableInformation",
+     "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1",
+     "org.apache.log4j.PatternLayout",
+     "org.apache.log4j.spi.LoggerRepository",
+     "org.apache.log4j.lf5.util.LogFileParser"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": []
+   },
+   {
+    "id": "junit:junit:jar:4.0:test",
+    "coordinates": "junit:junit:4.0",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.0",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 105601,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.healthmarketscience.jackcess:jackcess:jar:1.2.11",
+    "allTypes": [
+     "junit.framework.Protectable",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.junit.runner.Request",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.runner.manipulation.Filterable",
+     "junit.framework.TestSuite",
+     "junit.framework.TestResult$1",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.runner.manipulation.Sortable",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "org.junit.internal.runners.TestMethodRunner$1",
+     "junit.runner.BaseTestRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.internal.runners.TestClassMethodsRunner$1",
+     "org.junit.internal.runners.CompositeRunner",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.runners.Parameterized$RunAllParameterMethods",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.runner.notification.RunListener",
+     "org.junit.runner.Request$1",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.internal.runners.TestClassMethodsRunner",
+     "org.junit.internal.runners.TextListener",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.internal.runners.BeforeAndAfterRunner$FailedBefore",
+     "org.junit.internal.requests.ClassesRequest",
+     "org.junit.runners.Suite",
+     "org.junit.runner.notification.RunNotifier$6",
+     "junit.textui.ResultPrinter",
+     "org.junit.runner.notification.RunNotifier$2",
+     "junit.runner.TestRunListener",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.internal.runners.BeforeAndAfterRunner",
+     "org.junit.runner.notification.RunNotifier$5",
+     "junit.framework.Test",
+     "org.junit.internal.runners.TestClassRunner$1",
+     "org.junit.BeforeClass",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.internal.runners.TestMethodRunner",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.runner.RunWith",
+     "org.junit.internal.runners.OldTestClassRunner$1",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.runner.Runner",
+     "org.junit.internal.runners.MethodValidator",
+     "junit.extensions.RepeatedTest",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.runners.TestClassRunner",
+     "junit.framework.TestCase",
+     "org.junit.Before",
+     "org.junit.internal.requests.ErrorReportingRequest",
+     "org.junit.internal.runners.CompositeRunner$1",
+     "junit.runner.Version",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "junit.framework.JUnit4TestAdapterCache",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.internal.requests.FilterRequest",
+     "junit.extensions.TestDecorator",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.Assert",
+     "org.junit.internal.runners.TestIntrospector",
+     "org.junit.internal.runners.OldTestClassRunner",
+     "org.junit.ComparisonFailure"
+    ],
+    "usedTypes": [
+     "junit.framework.Assert",
+     "junit.framework.TestCase"
+    ],
+    "usageRatio": 0.021739130434782608,
+    "children": []
+   }
+  ]
+ }
+}

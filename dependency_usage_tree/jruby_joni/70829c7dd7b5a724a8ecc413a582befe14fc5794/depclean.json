@@ -1,0 +1,616 @@
+{
+ "usage": {
+  "org.joni.test.TestInterrupt": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestCrnl": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.OptEnvironment": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ast.CClassNode": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.IntHolder",
+    "org.jcodings.exception.EncodingException",
+    "org.jcodings.constants.CharacterType",
+    "org.jcodings.CodeRange",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.bench.AbstractBench": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding"
+   ]
+  },
+  "org.joni.Regex": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.specific.UTF8Encoding",
+    "org.jcodings.Encoding",
+    "org.jcodings.util.BytesHash"
+   ]
+  },
+  "org.joni.Matcher": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Parser": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.Encoding",
+    "org.jcodings.constants.PosixBracket"
+   ]
+  },
+  "org.joni.Compiler": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ScanEnvironment": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ArrayCompiler": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.OptExactInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.SearchAlgorithm$2": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.SearchAlgorithm$4": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.SearchAlgorithm$5": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.SearchAlgorithm$6": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.SearchAlgorithm$7": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.NodeOptInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ScannerSupport": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestNSU8": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.NonStrictUTF8Encoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestCornerCases": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.OptMapInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.CaseFoldCodeItem",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Config": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Config"
+   ]
+  },
+  "org.joni.SearchAlgorithm$SLOW_IC": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.CodeRangeBuffer": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestU8": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.UTF8Encoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ApplyCaseFold": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.ApplyAllCaseFoldFunction"
+   ]
+  },
+  "org.joni.Lexer": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.exception.ErrorMessages",
+    "org.jcodings.Encoding",
+    "org.jcodings.constants.CharacterType",
+    "org.jcodings.exception.CharacterPropertyException"
+   ]
+  },
+  "org.joni.test.Test": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestU": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.UTF16BEEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ByteCodePrinter": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ast.StringNode": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestC": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.Config",
+    "org.jcodings.specific.EUCJPEncoding"
+   ]
+  },
+  "org.joni.Analyser": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.CaseFoldCodeItem",
+    "org.jcodings.ObjPtr",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ByteCodeMachine": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.CodeRange",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestA": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.specific.ASCIIEncoding"
+   ]
+  },
+  "org.joni.test.TestLookBehind": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.exception.ErrorMessages": {
+   "org.jruby.jcodings:jcodings:jar:1.0.12:compile": [
+    "org.jcodings.exception.ErrorMessages"
+   ]
+  },
+  "org.joni.test.TestJoni": {
+   "junit:junit:jar:3.8.1:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "org.joni.AsmCompilerSupport": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassWriter",
+    "org.objectweb.asm.MethodVisitor",
+    "org.objectweb.asm.Opcodes"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.jruby.joni:joni:jar:2.1.5:null",
+  "coordinates": "org.jruby.joni:joni:2.1.5",
+  "groupId": "org.jruby.joni",
+  "artifactId": "joni",
+  "version": "2.1.5",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "org.jruby.jcodings:jcodings:jar:1.0.12:compile",
+    "coordinates": "org.jruby.jcodings:jcodings:1.0.12",
+    "groupId": "org.jruby.jcodings",
+    "artifactId": "jcodings",
+    "version": "1.0.12",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 1512807,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.5",
+    "allTypes": [
+     "org.jcodings.specific.CP1251Encoding",
+     "org.jcodings.transcode.specific.Iso2022jp_kddi_encoder_Transcoder",
+     "org.jcodings.util.CaseInsensitiveBytesHash$CaseInsensitiveBytesHashEntryIterator",
+     "org.jcodings.Ptr",
+     "org.jcodings.specific.BaseSJISEncoding",
+     "org.jcodings.exception.ErrorMessages",
+     "org.jcodings.util.Hash",
+     "org.jcodings.util.IntArrayHash$IntArrayHashEntry",
+     "org.jcodings.specific.ISO8859_9Encoding",
+     "org.jcodings.specific.GB18030Encoding$1",
+     "org.jcodings.specific.UTF32LEEncoding",
+     "org.jcodings.transcode.specific.From_UTF_16_Transcoder",
+     "org.jcodings.specific.ISO8859_16Encoding",
+     "org.jcodings.specific.USASCIIEncoding",
+     "org.jcodings.specific.SJISEncoding",
+     "org.jcodings.transcode.specific.From_UTF_16BE_Transcoder",
+     "org.jcodings.specific.ISO8859_6Encoding",
+     "org.jcodings.util.Hash$HashIterator",
+     "org.jcodings.CanBeTrailTableEncoding",
+     "org.jcodings.transcode.TranscoderDB$SearchPathQueue",
+     "org.jcodings.transcode.specific.From_UTF_16LE_Transcoder",
+     "org.jcodings.specific.ISO8859_2Encoding",
+     "org.jcodings.transcode.specific.To_UTF_32_Transcoder",
+     "org.jcodings.EucEncoding",
+     "org.jcodings.MultiByteEncoding",
+     "org.jcodings.AbstractEncoding",
+     "org.jcodings.SingleByteEncoding",
+     "org.jcodings.specific.UTF16BEEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CaseFold",
+     "org.jcodings.transcode.Transcoder",
+     "org.jcodings.util.BytesHash$BytesHashEntry",
+     "org.jcodings.util.Hash$HashEntryIterator",
+     "org.jcodings.transcode.Transcoding",
+     "org.jcodings.EncodingDB",
+     "org.jcodings.exception.TranscoderException",
+     "org.jcodings.EncodingList",
+     "org.jcodings.specific.UTF32BEEncoding",
+     "org.jcodings.util.Hash$HashEntry",
+     "org.jcodings.transcode.specific.To_UTF_32LE_Transcoder",
+     "org.jcodings.util.ObjHash",
+     "org.jcodings.transcode.specific.Eucjp2sjis_Transcoder",
+     "org.jcodings.IntHolder",
+     "org.jcodings.exception.EncodingException",
+     "org.jcodings.specific.ISO8859_11Encoding",
+     "org.jcodings.transcode.TranscoderDB$Entry",
+     "org.jcodings.transcode.EConv$EConvElement",
+     "org.jcodings.transcode.specific.To_UTF_32BE_Transcoder",
+     "org.jcodings.transcode.AsciiCompatibility",
+     "org.jcodings.ascii.AsciiTables",
+     "org.jcodings.transcode.specific.Iso2022jp_encoder_Transcoder",
+     "org.jcodings.specific.ISO8859_8Encoding",
+     "org.jcodings.constants.PosixBracket",
+     "org.jcodings.specific.KOI8Encoding",
+     "org.jcodings.transcode.TranscoderDB",
+     "org.jcodings.specific.ISO8859_15Encoding",
+     "org.jcodings.transcode.specific.From_UTF_32BE_Transcoder",
+     "org.jcodings.transcode.specific.From_UTF_32LE_Transcoder",
+     "org.jcodings.specific.ISO8859_5Encoding",
+     "org.jcodings.CaseFoldMapEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CTypeName",
+     "org.jcodings.specific.BaseBIG5Encoding",
+     "org.jcodings.specific.ISO8859_1Encoding",
+     "org.jcodings.transcode.specific.Cp50220_encoder_Transcoder",
+     "org.jcodings.exception.InternalException",
+     "org.jcodings.transcode.specific.Escape_xml_attr_quote_Transcoder",
+     "org.jcodings.transcode.specific.To_UTF_16_Transcoder",
+     "org.jcodings.transcode.specific.Universal_newline_Transcoder",
+     "org.jcodings.util.CaseInsensitiveBytesHash$CaseInsensitiveBytesHashEntry",
+     "org.jcodings.specific.BaseEUCJPEncoding",
+     "org.jcodings.transcode.specific.Cp50221_encoder_Transcoder",
+     "org.jcodings.ISOEncoding",
+     "org.jcodings.specific.BIG5Encoding",
+     "org.jcodings.unicode.UnicodeProperties",
+     "org.jcodings.exception.IllegalCharacterException",
+     "org.jcodings.transcode.Transcoder$GenericTranscoderEntry",
+     "org.jcodings.transcode.specific.To_UTF_16LE_Transcoder",
+     "org.jcodings.util.IntHash$IntHashEntry",
+     "org.jcodings.specific.ASCIIEncoding",
+     "org.jcodings.specific.NonStrictUTF8Encoding",
+     "org.jcodings.transcode.specific.Eucjp_to_stateless_iso2022jp_Transcoder",
+     "org.jcodings.transcode.EConvResult",
+     "org.jcodings.util.ArrayCopy",
+     "org.jcodings.transcode.TranscoderDB$1",
+     "org.jcodings.specific.Windows_31JEncoding",
+     "org.jcodings.specific.KOI8UEncoding",
+     "org.jcodings.specific.NonStrictEUCJPEncoding",
+     "org.jcodings.transcode.specific.To_UTF_16BE_Transcoder",
+     "org.jcodings.specific.GB18030Encoding",
+     "org.jcodings.transcode.specific.From_UTF8_MAC_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding$CaseFold11",
+     "org.jcodings.transcode.EConv",
+     "org.jcodings.unicode.UnicodeEncoding$CaseFold12",
+     "org.jcodings.specific.ISO8859_14Encoding",
+     "org.jcodings.transcode.specific.Sjis2eucjp_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding$CaseFold13",
+     "org.jcodings.transcode.GenericTranscoder",
+     "org.jcodings.transcode.specific.Iso2022jp_kddi_decoder_Transcoder",
+     "org.jcodings.specific.BaseUTF8Encoding",
+     "org.jcodings.specific.ISO8859_4Encoding",
+     "org.jcodings.transcode.specific.Iso2022jp_decoder_Transcoder",
+     "org.jcodings.transcode.TranscoderList",
+     "org.jcodings.util.IntHash",
+     "org.jcodings.EncodingDB$Entry",
+     "org.jcodings.transcode.specific.Stateless_iso2022jp_to_eucjp_Transcoder",
+     "org.jcodings.transcode.specific.Cp50221_decoder_Transcoder",
+     "org.jcodings.exception.JCodingsException",
+     "org.jcodings.specific.UTF8Encoding",
+     "org.jcodings.ObjPtr",
+     "org.jcodings.transcode.Buffer",
+     "org.jcodings.specific.GB18030Encoding$State",
+     "org.jcodings.transcode.specific.Cp50220_decoder_Transcoder",
+     "org.jcodings.util.ArrayReader",
+     "org.jcodings.Encoding",
+     "org.jcodings.Config",
+     "org.jcodings.util.ObjHash$ObjHashEntry",
+     "org.jcodings.transcode.specific.From_GB18030_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CodeRangeEntry",
+     "org.jcodings.ApplyAllCaseFoldFunction",
+     "org.jcodings.specific.UTF16LEEncoding",
+     "org.jcodings.util.IntArrayHash",
+     "org.jcodings.specific.EUCJPEncoding",
+     "org.jcodings.specific.GBKEncoding",
+     "org.jcodings.specific.ISO8859_13Encoding",
+     "org.jcodings.transcode.TranscodingInstruction",
+     "org.jcodings.CaseFoldCodeItem",
+     "org.jcodings.util.CaseInsensitiveBytesHash",
+     "org.jcodings.transcode.specific.From_UTF_32_Transcoder",
+     "org.jcodings.specific.KOI8REncoding",
+     "org.jcodings.specific.ISO8859_7Encoding",
+     "org.jcodings.transcode.TranscodeFunctions",
+     "org.jcodings.unicode.FixedWidthUnicodeEncoding",
+     "org.jcodings.specific.EUCKREncoding",
+     "org.jcodings.specific.EUCTWEncoding",
+     "org.jcodings.transcode.EConv$LastError",
+     "org.jcodings.specific.CP949Encoding",
+     "org.jcodings.specific.Big5UAOEncoding",
+     "org.jcodings.transcode.specific.To_GB18030_Transcoder",
+     "org.jcodings.transcode.TranscodeTableSupport",
+     "org.jcodings.constants.CharacterType",
+     "org.jcodings.specific.ISO8859_3Encoding",
+     "org.jcodings.transcode.EConvFlags",
+     "org.jcodings.specific.ISO8859_10Encoding",
+     "org.jcodings.specific.NonStrictSJISEncoding",
+     "org.jcodings.exception.CharacterPropertyException",
+     "org.jcodings.specific.EmacsMuleEncoding",
+     "org.jcodings.CodeRange",
+     "org.jcodings.specific.Big5HKSCSEncoding",
+     "org.jcodings.transcode.TranscoderDB$SearchPathCallback",
+     "org.jcodings.util.BytesHash",
+     "org.jcodings.transcode.EConv$1"
+    ],
+    "usedTypes": [
+     "org.jcodings.Config",
+     "org.jcodings.constants.PosixBracket",
+     "org.jcodings.specific.ASCIIEncoding",
+     "org.jcodings.specific.NonStrictUTF8Encoding",
+     "org.jcodings.IntHolder",
+     "org.jcodings.Ptr",
+     "org.jcodings.exception.EncodingException",
+     "org.jcodings.ApplyAllCaseFoldFunction",
+     "org.jcodings.exception.ErrorMessages",
+     "org.jcodings.specific.UTF8Encoding",
+     "org.jcodings.constants.CharacterType",
+     "org.jcodings.ObjPtr",
+     "org.jcodings.specific.EUCJPEncoding",
+     "org.jcodings.exception.CharacterPropertyException",
+     "org.jcodings.CodeRange",
+     "org.jcodings.specific.UTF16BEEncoding",
+     "org.jcodings.CaseFoldCodeItem",
+     "org.jcodings.util.BytesHash",
+     "org.jcodings.Encoding"
+    ],
+    "usageRatio": 0.12582781456953643,
+    "children": []
+   },
+   {
+    "id": "junit:junit:jar:3.8.1:test",
+    "coordinates": "junit:junit:3.8.1",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.1",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 121070,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.5",
+    "allTypes": [
+     "junit.extensions.ExceptionTestCase",
+     "junit.extensions.TestSetup$1",
+     "junit.swingui.TestSelector$ParallelSwapper",
+     "junit.textui.TestRunner",
+     "junit.awtui.ProgressBar",
+     "junit.framework.TestSuite",
+     "junit.runner.TestCollector",
+     "junit.swingui.CounterPanel",
+     "junit.framework.ComparisonFailure",
+     "junit.runner.StandardTestSuiteLoader",
+     "junit.swingui.DefaultFailureDetailView",
+     "junit.extensions.TestSetup",
+     "junit.swingui.TestTreeModel",
+     "junit.runner.ClassPathTestCollector",
+     "junit.runner.FailureDetailView",
+     "junit.awtui.Logo",
+     "junit.runner.Sorter",
+     "junit.swingui.DefaultFailureDetailView$StackTraceListModel",
+     "junit.swingui.StatusLine",
+     "junit.textui.ResultPrinter",
+     "junit.swingui.FailureRunView$FailureListCellRenderer",
+     "junit.extensions.ActiveTestSuite$1",
+     "junit.swingui.TestSelector$TestCellRenderer",
+     "junit.swingui.TestSelector$KeySelectListener",
+     "junit.swingui.TestRunView",
+     "junit.extensions.ActiveTestSuite",
+     "junit.framework.TestCase",
+     "junit.swingui.AboutDialog",
+     "junit.swingui.TestSuitePanel$TestTreeCellRenderer",
+     "junit.framework.AssertionFailedError",
+     "junit.runner.TestCaseClassLoader",
+     "junit.swingui.TestRunContext",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "junit.swingui.DefaultFailureDetailView$StackEntryRenderer",
+     "junit.runner.LoadingTestCollector",
+     "junit.framework.Protectable",
+     "junit.swingui.FailureRunView",
+     "junit.swingui.TestSuitePanel$1",
+     "junit.awtui.TestRunner$4",
+     "junit.swingui.TestSelector$2",
+     "junit.awtui.TestRunner$5",
+     "junit.swingui.TestSelector$1",
+     "junit.awtui.TestRunner$2",
+     "junit.swingui.ProgressBar",
+     "junit.awtui.TestRunner$3",
+     "junit.awtui.AboutDialog$1",
+     "junit.awtui.AboutDialog$2",
+     "junit.awtui.TestRunner$1",
+     "junit.swingui.TestSelector$4",
+     "junit.swingui.TestSelector$3",
+     "junit.swingui.TestSelector$DoubleClickListener",
+     "junit.framework.TestResult$1",
+     "junit.awtui.TestRunner$8",
+     "junit.swingui.AboutDialog$2",
+     "junit.awtui.TestRunner$9",
+     "junit.swingui.AboutDialog$1",
+     "junit.awtui.TestRunner$6",
+     "junit.awtui.TestRunner$7",
+     "junit.framework.TestResult",
+     "junit.runner.BaseTestRunner",
+     "junit.swingui.TestRunner",
+     "junit.runner.ReloadingTestSuiteLoader",
+     "junit.framework.TestFailure",
+     "junit.runner.Sorter$Swapper",
+     "junit.runner.TestRunListener",
+     "junit.swingui.TestRunner$3",
+     "junit.swingui.TestRunner$2",
+     "junit.swingui.TestSuitePanel",
+     "junit.swingui.TestRunner$5",
+     "junit.framework.Test",
+     "junit.swingui.TestRunner$4",
+     "junit.swingui.TestRunner$1",
+     "junit.swingui.FailureRunView$1",
+     "junit.swingui.TestHierarchyRunView",
+     "junit.awtui.TestRunner",
+     "junit.swingui.TestSelector",
+     "junit.swingui.TestRunner$15",
+     "junit.swingui.TestRunner$16",
+     "junit.swingui.TestRunner$13",
+     "junit.swingui.TestRunner$14",
+     "junit.awtui.TestRunner$10",
+     "junit.swingui.TestRunner$19",
+     "junit.runner.SimpleTestCollector",
+     "junit.swingui.TestRunner$17",
+     "junit.extensions.RepeatedTest",
+     "junit.swingui.TestRunner$18",
+     "junit.awtui.AboutDialog",
+     "junit.runner.TestSuiteLoader",
+     "junit.swingui.TestRunner$11",
+     "junit.swingui.TestRunner$7",
+     "junit.swingui.TestRunner$12",
+     "junit.swingui.TestRunner$6",
+     "junit.swingui.TestRunner$9",
+     "junit.swingui.TestRunner$10",
+     "junit.swingui.TestRunner$8",
+     "junit.runner.Version",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "junit.swingui.TestHierarchyRunView$1"
+    ],
+    "usedTypes": [
+     "junit.framework.TestCase"
+    ],
+    "usageRatio": 0.01,
+    "children": []
+   },
+   {
+    "id": "org.ow2.asm:asm:jar:5.0.3:provided",
+    "coordinates": "org.ow2.asm:asm:5.0.3",
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "5.0.3",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 53231,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.5",
+    "allTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.AnnotationVisitor",
+     "org.objectweb.asm.MethodVisitor",
+     "org.objectweb.asm.Edge",
+     "org.objectweb.asm.FieldWriter",
+     "org.objectweb.asm.FieldVisitor",
+     "org.objectweb.asm.TypeReference",
+     "org.objectweb.asm.Label",
+     "org.objectweb.asm.Type",
+     "org.objectweb.asm.Context",
+     "org.objectweb.asm.Attribute",
+     "org.objectweb.asm.signature.SignatureWriter",
+     "org.objectweb.asm.ClassVisitor",
+     "org.objectweb.asm.Frame",
+     "org.objectweb.asm.ByteVector",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.Handler",
+     "org.objectweb.asm.signature.SignatureReader",
+     "org.objectweb.asm.Handle",
+     "org.objectweb.asm.Item",
+     "org.objectweb.asm.TypePath",
+     "org.objectweb.asm.ClassReader",
+     "org.objectweb.asm.AnnotationWriter",
+     "org.objectweb.asm.MethodWriter",
+     "org.objectweb.asm.signature.SignatureVisitor"
+    ],
+    "usedTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.MethodVisitor"
+    ],
+    "usageRatio": 0.12,
+    "children": []
+   }
+  ]
+ }
+}

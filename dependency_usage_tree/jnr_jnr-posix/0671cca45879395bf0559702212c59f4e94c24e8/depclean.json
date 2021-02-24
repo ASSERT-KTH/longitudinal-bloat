@@ -1,0 +1,859 @@
+{
+ "usage": {
+  "org.jruby.ext.posix.JavaFileStatTest": {
+   "junit:junit:jar:4.4:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "org.jruby.ext.posix.IDTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.GroupTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStructTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct",
+    "com.kenai.jaffl.struct.Struct$Unsigned8",
+    "com.kenai.jaffl.struct.Struct$Unsigned16",
+    "com.kenai.jaffl.struct.Struct$UnsignedLong"
+   ]
+  },
+  "org.jruby.ext.posix.PasswdTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.jruby.ext.posix.FileStatTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.JavaPOSIXTest": {
+   "junit:junit:jar:4.4:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "org.jruby.ext.posix.FreeBSDPOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStructTest$Unsigned16Test": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Unsigned16",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.SolarisPOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct$Int64": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Signed64",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.MacOSPOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.LibraryOption"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Library"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFunctionMapper": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Library",
+    "com.kenai.jaffl.mapper.FunctionMapper",
+    "com.kenai.jaffl.mapper.FunctionMapper$Context"
+   ]
+  },
+  "org.jruby.ext.posix.NativeGroup": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX$2": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.mapper.ToNativeConverter",
+    "com.kenai.jaffl.mapper.ToNativeContext",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.FreeBSDPasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.WindowsFileStat": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.struct.Struct$Signed64",
+    "com.kenai.jaffl.struct.Struct$Signed16",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$SolarisLibCProvider$SingletonHolder": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Library"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStructTest$Unsigned8Test": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Unsigned8",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct$Long": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.Solaris64FileStat": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UnsignedLong",
+    "com.kenai.jaffl.struct.Struct$Signed8",
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.WindowsLibCFunctionMapper": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.mapper.FunctionMapper",
+    "com.kenai.jaffl.mapper.FunctionMapper$Context"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStructTest$UnsignedLongTest": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UnsignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct$Int16": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Signed16",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.MacOSPasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.LinuxPasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.LastError",
+    "com.kenai.jaffl.Library",
+    "com.kenai.jaffl.mapper.ToNativeConverter",
+    "com.kenai.jaffl.struct.Struct",
+    "com.kenai.jaffl.struct.StructUtil"
+   ]
+  },
+  "org.jruby.ext.posix.BaseNativePOSIX$PointerConverter": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.mapper.FromNativeConverter",
+    "com.kenai.jaffl.Pointer"
+   ]
+  },
+  "org.jruby.ext.posix.OpenBSDPOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.NativePasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.DefaultNativeTimeval": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$LinuxLibCProvider$SingletonHolder": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Library"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct$Int32": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.LibraryOption"
+   ]
+  },
+  "org.jruby.ext.posix.UTimBuf64": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Signed64",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.LinuxLibC": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.annotations.NulTerminate",
+    "com.kenai.jaffl.annotations.In",
+    "com.kenai.jaffl.annotations.Transient",
+    "com.kenai.jaffl.annotations.Out"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct$UInt32": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$Unsigned32",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.Timeval": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.LinuxPOSIX$1": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.mapper.FromNativeContext"
+   ]
+  },
+  "org.jruby.ext.posix.HeapStruct": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$WindowsLibCProvider$SingletonHolder": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.Library"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXTypeMapper": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.mapper.TypeMapper",
+    "com.kenai.jaffl.mapper.ToNativeConverter",
+    "com.kenai.jaffl.mapper.FromNativeConverter"
+   ]
+  },
+  "org.jruby.ext.posix.OpenBSDPasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct$SignedLong",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.DefaultNativeGroup": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Pointer",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  },
+  "org.jruby.ext.posix.LibC": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.annotations.Transient",
+    "com.kenai.jaffl.annotations.Out",
+    "com.kenai.jaffl.annotations.In",
+    "com.kenai.jaffl.annotations.IgnoreError"
+   ]
+  },
+  "org.jruby.ext.posix.POSIXFactory$WindowsLibCProvider": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.LibraryOption"
+   ]
+  },
+  "org.jruby.ext.posix.SolarisPasswd": {
+   "org.jruby.extras:jaffl:jar:0.3.3:provided": [
+    "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+    "com.kenai.jaffl.struct.Struct$Pointer",
+    "com.kenai.jaffl.struct.Struct$Signed32",
+    "com.kenai.jaffl.Pointer",
+    "com.kenai.jaffl.struct.Struct"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.jruby.ext.posix:jnr-posix:jar:1.0.3:null",
+  "coordinates": "org.jruby.ext.posix:jnr-posix:1.0.3",
+  "groupId": "org.jruby.ext.posix",
+  "artifactId": "jnr-posix",
+  "version": "1.0.3",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "junit:junit:jar:4.4:test",
+    "coordinates": "junit:junit:4.4",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.4",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 161477,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.ext.posix:jnr-posix:jar:1.0.3",
+    "allTypes": [
+     "org.junit.runners.Parameterized$1",
+     "org.junit.experimental.theories.PotentialParameterValue$1",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.hamcrest.StringDescription",
+     "org.junit.runner.Request",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.requests.IgnoredClassRunner",
+     "org.junit.experimental.theories.internal.TheoryMethod",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.hamcrest.core.Is",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.runner.Result$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "junit.framework.ComparisonFailure",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.Assume$AssumptionViolatedException",
+     "org.junit.internal.runners.CompositeRunner",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.matchers.StringContains",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "junit.extensions.TestSetup",
+     "org.junit.matchers.Each$1",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runner.Request$1",
+     "org.hamcrest.core.DescribedAs",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.internal.requests.ClassesRequest",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "junit.textui.ResultPrinter",
+     "org.junit.internal.runners.FailedBefore",
+     "org.hamcrest.BaseDescription",
+     "org.hamcrest.core.IsNot",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.hamcrest.core.AllOf",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.hamcrest.BaseMatcher",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "org.junit.matchers.Each",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.runner.Runner",
+     "org.junit.runners.Enclosed",
+     "org.hamcrest.core.IsEqual",
+     "org.hamcrest.internal.SelfDescribingValueIterator",
+     "org.junit.internal.requests.ClassRequest",
+     "junit.framework.TestCase",
+     "org.hamcrest.core.IsSame",
+     "org.junit.Before",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.CompositeRunner$1",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "org.junit.Test",
+     "org.junit.experimental.theories.PotentialParameterValue$CouldNotGenerateValueException",
+     "junit.framework.JUnit4TestCaseFacade",
+     "junit.framework.JUnit4TestAdapterCache",
+     "org.junit.experimental.theories.PotentialParameterValue",
+     "junit.framework.TestSuite$1",
+     "org.junit.matchers.CombinableMatcher",
+     "junit.framework.TestListener",
+     "org.hamcrest.Matcher",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.runners.Suite$1",
+     "org.junit.Assert",
+     "org.junit.internal.runners.OldTestClassRunner",
+     "org.junit.ComparisonFailure",
+     "org.hamcrest.core.IsNull",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "junit.framework.Protectable",
+     "org.hamcrest.CoreMatchers",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.runner.manipulation.Filterable",
+     "junit.framework.TestResult$1",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "org.junit.matchers.TypeSafeMatcher",
+     "junit.runner.BaseTestRunner",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.matchers.SubstringMatcher",
+     "org.junit.experimental.theories.ParameterSignature$1",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.Failure",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.matchers.IsCollectionContaining",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.hamcrest.SelfDescribing",
+     "org.junit.experimental.theories.internal.TheoryMethod$PotentialMethodValues",
+     "org.junit.runner.notification.RunNotifier$2",
+     "junit.runner.TestRunListener",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "junit.framework.Test",
+     "org.junit.BeforeClass",
+     "org.junit.matchers.JUnitMatchers",
+     "org.hamcrest.internal.SelfDescribingValue",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.experimental.theories.ParameterSignature$1$1",
+     "org.junit.internal.runners.TestClass",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.hamcrest.core.AnyOf",
+     "org.junit.internal.runners.MethodValidator",
+     "junit.extensions.RepeatedTest",
+     "org.hamcrest.core.IsAnything",
+     "org.junit.runner.Result$Listener",
+     "org.hamcrest.Factory",
+     "org.junit.Assume",
+     "org.junit.internal.runners.TestClassRunner",
+     "org.hamcrest.core.IsInstanceOf",
+     "org.junit.internal.requests.ErrorReportingRequest",
+     "org.hamcrest.Description",
+     "org.junit.internal.runners.ClassRoadie",
+     "junit.runner.Version",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.hamcrest.internal.ArrayIterator",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.runner.notification.RunNotifier"
+    ],
+    "usedTypes": [
+     "org.junit.AfterClass",
+     "org.junit.BeforeClass",
+     "org.junit.After",
+     "org.junit.Test",
+     "junit.framework.TestCase",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.045454545454545456,
+    "children": []
+   },
+   {
+    "id": "org.jruby.extras:jaffl:jar:0.3.3:provided",
+    "coordinates": "org.jruby.extras:jaffl:0.3.3",
+    "groupId": "org.jruby.extras",
+    "artifactId": "jaffl",
+    "version": "0.3.3",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 238070,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.ext.posix:jnr-posix:jar:1.0.3",
+    "allTypes": [
+     "com.kenai.jaffl.LastError",
+     "com.kenai.jaffl.provider.jffi.InvokerUtil",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$PointerInvoker",
+     "com.kenai.jaffl.struct.Struct$Enum8",
+     "com.kenai.jaffl.struct.Struct$Enum",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$NoErrnoInvokerIIIrI",
+     "com.kenai.jaffl.provider.jna.marshallers.StringBufferMarshaller$1",
+     "com.kenai.jaffl.provider.jna.marshallers.BaseMarshaller",
+     "com.kenai.jaffl.mapper.ToNativeContext",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Float32Invoker",
+     "com.kenai.jaffl.provider.jna.marshallers.ByRefMarshaller$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ByteBufferMarshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int8Marshaller",
+     "com.kenai.jaffl.byref.DoubleByReference",
+     "com.kenai.jaffl.util.SimpleBufferPool$DefaultPool",
+     "com.kenai.jaffl.FFIProvider",
+     "com.kenai.jaffl.util.MultiBufferPool$SynchronizedPool",
+     "com.kenai.jaffl.Platform$Darwin",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$ResultConverter",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$ArrayIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$1",
+     "com.kenai.jaffl.mapper.FromNativeContext",
+     "com.kenai.jaffl.provider.NativeInvocationHandler",
+     "com.kenai.jaffl.provider.jffi.InvokerFactory",
+     "com.kenai.jaffl.provider.AbstractBufferMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$CharSequenceMarshaller",
+     "com.kenai.jaffl.annotations.In",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$VoidInvoker",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$FunctionInvokerIrI",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$FastIntFunctionInvoker",
+     "com.kenai.jaffl.provider.jna.marshallers.ToNativeConverterMarshaller",
+     "com.kenai.jaffl.byref.AbstractPrimitiveReference",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$LE64ArrayIO",
+     "com.kenai.jaffl.struct.Struct$AsciiStringRef",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$NativeLongIO$LongIO64",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ByReferenceMarshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$VoidInvoker",
+     "com.kenai.jaffl.ParameterFlags",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$NoErrnoInvokerIIrI",
+     "com.kenai.jaffl.mapper.MethodParameterContext",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ByReferenceMarshaller$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StringBuilderMarshaller$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ToNativeConverterMarshaller",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$LE32ArrayIO",
+     "com.kenai.jaffl.provider.InvocationSession$PostInvoke",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Float64Invoker",
+     "com.kenai.jaffl.util.BufferUtil$AddressIO$AddressIO64",
+     "com.kenai.jaffl.util.EnumMapper$Entry",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StringBuilderMarshaller$2",
+     "com.kenai.jaffl.provider.jffi.AllocatedDirectMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$SessionInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$BaseInvoker",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper$PointerConverter",
+     "com.kenai.jaffl.struct.Struct$SignedLong",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$DoubleBufferMarshaller",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$NativeLong32Invoker",
+     "com.kenai.jaffl.provider.jffi.Provider",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$NoErrnoInvokerIrI",
+     "com.kenai.jaffl.struct.Struct$Signed16",
+     "com.kenai.jaffl.struct.Struct$UTFString",
+     "com.kenai.jaffl.struct.Struct$Enum16",
+     "com.kenai.jaffl.Platform$OS",
+     "com.kenai.jaffl.byref.AddressByReference",
+     "com.kenai.jaffl.byref.IntByReference",
+     "com.kenai.jaffl.struct.Struct$Unsigned16",
+     "com.kenai.jaffl.annotations.IgnoreError",
+     "com.kenai.jaffl.util.SimpleBufferPool",
+     "com.kenai.jaffl.MemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory",
+     "com.kenai.jaffl.provider.Invoker",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap$NameHasherSingleton$NameHasher",
+     "com.kenai.jaffl.util.EnumMapper",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StructInvoker",
+     "com.kenai.jaffl.annotations.Transient",
+     "com.kenai.jaffl.mapper.FunctionMapper",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$EnumInvoker",
+     "com.kenai.jaffl.mapper.ToNativeConverter",
+     "com.kenai.jaffl.Platform$CPU",
+     "com.kenai.jaffl.provider.jna.marshallers.StringBuilderMarshaller$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ShortBufferMarshaller",
+     "com.kenai.jaffl.byref.ByteByReference",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$AddressIO",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$BE64ArrayIO",
+     "com.kenai.jaffl.struct.Struct$String",
+     "com.kenai.jaffl.provider.jna.invokers.FromNativeMarshallingInvoker$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$DoubleArrayMarshaller",
+     "com.kenai.jaffl.Platform$Linux",
+     "com.kenai.jaffl.util.BufferUtil$AddressIO$AddressIO32",
+     "com.kenai.jaffl.provider.jna.invokers.FromNativeMarshallingInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int8Invoker",
+     "com.kenai.jaffl.provider.jna.JNAMemoryManager",
+     "com.kenai.jaffl.struct.Struct$Constants",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StructArrayMarshaller",
+     "com.kenai.jaffl.util.BufferUtil$AddressIO",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$PointerInvoker",
+     "com.kenai.jaffl.struct.Struct$Info",
+     "com.kenai.jaffl.Platform$SingletonHolder",
+     "com.kenai.jaffl.mapper.FunctionMapper$Context",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper",
+     "com.kenai.jaffl.Platform",
+     "com.kenai.jaffl.struct.Struct$UTF8String",
+     "com.kenai.jaffl.annotations.NulTerminate",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$LongBufferMarshaller",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper$StructConverter",
+     "com.kenai.jaffl.struct.Struct$Pointer",
+     "com.kenai.jaffl.mapper.TypeMapper",
+     "com.kenai.jaffl.mapper.MethodResultContext",
+     "com.kenai.jaffl.LibraryOption",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ConvertingInvoker",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$NativeLongInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ShortArrayMarshaller",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$ByteInvoker",
+     "com.kenai.jaffl.struct.Struct$AsciiString",
+     "com.kenai.jaffl.CallingConvention",
+     "com.kenai.jaffl.mapper.FromNativeConverter",
+     "com.kenai.jaffl.Platform$Default",
+     "com.kenai.jaffl.provider.NullMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$FloatArrayMarshaller",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$AddressIO$AddressIO32",
+     "com.kenai.jaffl.provider.jna.InvocationSession",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$EnumMarshaller",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StringBuilderMarshaller",
+     "com.kenai.jaffl.struct.Struct$Unsigned8",
+     "com.kenai.jaffl.struct.Struct$UTFStringRef",
+     "com.kenai.jaffl.util.EnumMapper$1",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$FunctionInvoker",
+     "com.kenai.jaffl.provider.jna.BufferMemoryIO",
+     "com.kenai.jaffl.util.EnumMapper$IntegerEnum",
+     "com.kenai.jaffl.provider.jffi.BoundedDirectMemoryIO",
+     "com.kenai.jaffl.struct.Struct$Double",
+     "com.kenai.jaffl.struct.Struct$Member",
+     "com.kenai.jaffl.struct.Struct$Float",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Float32Marshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$LongArrayMarshaller",
+     "com.kenai.jaffl.struct.Struct$Address",
+     "com.kenai.jaffl.provider.ShareMemoryIO",
+     "com.kenai.jaffl.provider.jna.marshallers.CharSequenceMarshaller",
+     "com.kenai.jaffl.util.BufferPool",
+     "com.kenai.jaffl.struct.Struct$Enum64",
+     "com.kenai.jaffl.provider.jna.MemoryUtil",
+     "com.kenai.jaffl.util.MultiBufferPool",
+     "com.kenai.jaffl.provider.jffi.MemoryManager",
+     "com.kenai.jaffl.provider.jna.marshallers.StringBufferMarshaller",
+     "com.kenai.jaffl.struct.Struct$AbstractMember",
+     "com.kenai.jaffl.struct.Struct$Unsigned64",
+     "com.kenai.jaffl.annotations.Synchronized",
+     "com.kenai.jaffl.provider.jna.PointerMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int16Marshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StructMarshaller",
+     "com.kenai.jaffl.Platform$1",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap$IdentityHasherSingleton$IdentityHasher",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper$EnumConverter",
+     "com.kenai.jaffl.provider.jna.InvocationSession$PostInvoke",
+     "com.kenai.jaffl.annotations.Pinned",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$ByteArrayMarshaller",
+     "com.kenai.jaffl.struct.Struct$EnumLong",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int64Invoker",
+     "com.kenai.jaffl.provider.jna.invokers.DefaultMarshallingInvoker",
+     "com.kenai.jaffl.NativeLong",
+     "com.kenai.jaffl.provider.jna.invokers.MarshallingInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int32Marshaller",
+     "com.kenai.jaffl.Library",
+     "com.kenai.jaffl.provider.jffi.ArrayMemoryIO",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$SynchronizedInvoker",
+     "com.kenai.jaffl.provider.BoundedMemoryIO",
+     "com.kenai.jaffl.Address",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper$1",
+     "com.kenai.jaffl.annotations.Out",
+     "com.kenai.jaffl.provider.jna.JNAProvider",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$IntArrayMarshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$StringInvoker",
+     "com.kenai.jaffl.NativeLong$Cache",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$FunctionInvokerVrI",
+     "com.kenai.jaffl.byref.ByReference",
+     "com.kenai.jaffl.provider.jna.marshallers.Marshaller",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int16Invoker",
+     "com.kenai.jaffl.provider.InvocationSession",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$FloatBufferMarshaller",
+     "com.kenai.jaffl.util.BufferUtil",
+     "com.kenai.jaffl.Platform$Windows",
+     "com.kenai.jaffl.provider.Library",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap$IdentityHasherSingleton",
+     "com.kenai.jaffl.struct.StructUtil",
+     "com.kenai.jaffl.provider.jffi.ByteBufferMemoryIO",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$AddressIO$AddressIO64",
+     "com.kenai.jaffl.struct.Union",
+     "com.kenai.jaffl.provider.jna.marshallers.MarshalContext",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Marshaller",
+     "com.kenai.jaffl.byref.FloatByReference",
+     "com.kenai.jaffl.Platform$Supported",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int64Marshaller",
+     "com.kenai.jaffl.provider.StringIO",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$NativeLongIO",
+     "com.kenai.jaffl.provider.jffi.Library",
+     "com.kenai.jaffl.provider.AbstractMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$IntBufferMarshaller",
+     "com.kenai.jaffl.Platform$Linux$1",
+     "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$IntInvoker",
+     "com.kenai.jaffl.provider.jffi.DirectMemoryIO",
+     "com.kenai.jaffl.provider.jna.JNALibrary",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$1",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap$NameHasherSingleton",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$NoErrnoInvokerVrI",
+     "com.kenai.jaffl.provider.jna.marshallers.ByRefMarshaller",
+     "com.kenai.jaffl.provider.jna.invokers.SimpleInvoker",
+     "com.kenai.jaffl.struct.Struct$Signed32",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$PointerMarshaller",
+     "com.kenai.jaffl.annotations.Clear",
+     "com.kenai.jaffl.struct.Struct$Enum32",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$BooleanInvoker",
+     "com.kenai.jaffl.struct.Struct$Unsigned32",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$NativeLong64Invoker",
+     "com.kenai.jaffl.FFIProvider$SingletonHolder",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$BigEndianArrayIO",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$LittleEndianArrayIO",
+     "com.kenai.jaffl.Pointer",
+     "com.kenai.jaffl.struct.Struct$UnsignedLong",
+     "com.kenai.jaffl.provider.jna.invokers.BaseInvoker",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$SingletonHolder",
+     "com.kenai.jaffl.struct.Struct$Offset",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$BaseMarshaller",
+     "com.kenai.jaffl.provider.jffi.JFFIPointer",
+     "com.kenai.jaffl.struct.Struct$EnumField",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Float64Marshaller",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$EnumInvoker",
+     "com.kenai.jaffl.provider.MemoryManager",
+     "com.kenai.jaffl.annotations.SaveError",
+     "com.kenai.jaffl.struct.Struct$Signed64",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$FunctionInvokerIIrI",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$FunctionInvokerIIIrI",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$BooleanMarshaller",
+     "com.kenai.jaffl.struct.Struct$Signed8",
+     "com.kenai.jaffl.provider.jna.JNAPointer",
+     "com.kenai.jaffl.annotations.Direct",
+     "com.kenai.jaffl.provider.jna.JNALibrary$1",
+     "com.kenai.jaffl.provider.StringIO$1",
+     "com.kenai.jaffl.byref.ShortByReference",
+     "com.kenai.jaffl.provider.NativeInvocationHandler$InvokerMap$Hasher",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$DefaultInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$BooleanInvoker",
+     "com.kenai.jaffl.byref.LongLongByReference",
+     "com.kenai.jaffl.Platform$Unsupported",
+     "com.kenai.jaffl.provider.AbstractMemoryIO$NativeLongIO$LongIO32",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$Int32Invoker",
+     "com.kenai.jaffl.provider.DelegatingMemoryIO",
+     "com.kenai.jaffl.provider.jna.marshallers.StringBuilderMarshaller",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$ShortInvoker",
+     "com.kenai.jaffl.provider.jffi.DefaultInvokerFactory$SingletonHolder",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$1",
+     "com.kenai.jaffl.struct.Struct",
+     "com.kenai.jaffl.provider.AbstractArrayMemoryIO$BE32ArrayIO",
+     "com.kenai.jaffl.provider.jffi.FastIntInvokerFactory$BaseInvoker",
+     "com.kenai.jaffl.struct.Struct$NumberField",
+     "com.kenai.jaffl.provider.jna.JNATypeMapper$NativeLongConverter"
+    ],
+    "usedTypes": [
+     "com.kenai.jaffl.LastError",
+     "com.kenai.jaffl.annotations.NulTerminate",
+     "com.kenai.jaffl.Library",
+     "com.kenai.jaffl.struct.Struct$Pointer",
+     "com.kenai.jaffl.mapper.TypeMapper",
+     "com.kenai.jaffl.struct.Struct$Signed64",
+     "com.kenai.jaffl.annotations.Transient",
+     "com.kenai.jaffl.mapper.FunctionMapper",
+     "com.kenai.jaffl.annotations.Out",
+     "com.kenai.jaffl.LibraryOption",
+     "com.kenai.jaffl.struct.Struct$Signed8",
+     "com.kenai.jaffl.mapper.ToNativeConverter",
+     "com.kenai.jaffl.mapper.FromNativeConverter",
+     "com.kenai.jaffl.struct.Struct$UTF8StringRef",
+     "com.kenai.jaffl.mapper.ToNativeContext",
+     "com.kenai.jaffl.struct.Struct$SignedLong",
+     "com.kenai.jaffl.struct.Struct$Signed32",
+     "com.kenai.jaffl.struct.Struct$Signed16",
+     "com.kenai.jaffl.mapper.FromNativeContext",
+     "com.kenai.jaffl.struct.Struct",
+     "com.kenai.jaffl.struct.Struct$Unsigned32",
+     "com.kenai.jaffl.struct.Struct$Unsigned8",
+     "com.kenai.jaffl.annotations.In",
+     "com.kenai.jaffl.struct.StructUtil",
+     "com.kenai.jaffl.struct.Struct$Unsigned16",
+     "com.kenai.jaffl.Pointer",
+     "com.kenai.jaffl.struct.Struct$UnsignedLong",
+     "com.kenai.jaffl.annotations.IgnoreError",
+     "com.kenai.jaffl.mapper.FunctionMapper$Context"
+    ],
+    "usageRatio": 0.11196911196911197,
+    "children": []
+   }
+  ]
+ }
+}

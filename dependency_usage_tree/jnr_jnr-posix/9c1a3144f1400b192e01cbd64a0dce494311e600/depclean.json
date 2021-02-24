@@ -1,0 +1,3398 @@
+{
+ "usage": {
+  "jnr.posix.IDTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "jnr.posix.IOTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.AddressFamily",
+    "jnr.constants.platform.SocketLevel",
+    "jnr.constants.platform.OpenFlags",
+    "jnr.constants.platform.Sock"
+   ]
+  },
+  "jnr.posix.SpawnTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform",
+    "jnr.ffi.Library"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.windows.OpenFlags"
+   ]
+  },
+  "jnr.posix.util.PlatformTest": {
+   "junit:junit:jar:4.11:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "jnr.posix.windows.WindowsHelpersTest": {
+   "junit:junit:jar:4.11:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "jnr.posix.SignalTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Signal"
+   ]
+  },
+  "jnr.posix.DTableSizeTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assume",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-core:jar:1.3:test": [
+    "org.hamcrest.CoreMatchers"
+   ]
+  },
+  "jnr.posix.HANDLETest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "jnr.posix.util.ConditionalTestRule$1": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.runners.model.Statement"
+   ]
+  },
+  "jnr.posix.LinuxPOSIXTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.ClassRule",
+    "org.junit.Assert"
+   ]
+  },
+  "jnr.posix.POSIXFactoryTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "jnr.posix.CryptTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "jnr.posix.FileTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Runtime"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Access",
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.OpenFlags"
+   ]
+  },
+  "jnr.posix.PasswdTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform"
+   ]
+  },
+  "jnr.posix.JavaPOSIXTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.AfterClass",
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.After",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "jnr.posix.FileStatTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform$OS",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Platform"
+   ]
+  },
+  "jnr.posix.util.DefaultPOSIXHandlerTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-core:jar:1.3:test": [
+    "org.hamcrest.CoreMatchers"
+   ]
+  },
+  "jnr.posix.util.ConditionalTestRule": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.runners.model.Statement",
+    "org.junit.rules.TestRule",
+    "org.junit.runner.Description"
+   ]
+  },
+  "jnr.posix.ProcessTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.RLIMIT",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.windows.WindowsFileTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "jnr.posix.NlLanginfoTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.LangInfo"
+   ]
+  },
+  "jnr.posix.GroupTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform"
+   ]
+  },
+  "jnr.posix.JavaFileStatTest": {
+   "junit:junit:jar:4.11:test": [
+    "junit.framework.TestCase"
+   ]
+  },
+  "jnr.posix.EnvTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.BeforeClass",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jffi:jar:1.2.15:compile": [
+    "com.kenai.jffi.MemoryIO"
+   ]
+  },
+  "jnr.posix.UTimBuf64": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Signed64"
+   ]
+  },
+  "jnr.posix.NSGetEnviron": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.AixFileStat$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.NativeType",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Unsigned16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.StructLayout$Padding",
+    "jnr.ffi.StructLayout$Unsigned64"
+   ]
+  },
+  "jnr.posix.MacOSPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.LinuxPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.SolarisFileStat64": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$UnsignedLong",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.MacOSSocketMacros": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.OpenBSDFileStat$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.StructLayout$Unsigned64",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.AixPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$uid_t",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.LibC$LibCSignalHandler": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Delegate"
+   ]
+  },
+  "jnr.posix.OpenBSDFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.StructLayout$Unsigned64"
+   ]
+  },
+  "jnr.posix.MacOSFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.SpawnFileAction$Close": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.DefaultNativeGroup$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnAttribute$Sigdef": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.NativePOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.DefaultNativeTimeval": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$SignedLong",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.POSIXFactory$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform$OS",
+    "jnr.ffi.Platform"
+   ]
+  },
+  "jnr.posix.OpenBSDPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.MacOSFileStat$Layout$time_t": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.DefaultNativeRLimit": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$UnsignedLong",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.LinuxSocketMacros": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.TypeAlias",
+    "jnr.ffi.Type",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.CheckedPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Signal",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$2": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$3": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.mapper.ToNativeContext",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter"
+   ]
+  },
+  "jnr.posix.Timeval": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.HANDLE": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.mapper.DataConverter",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.WindowsProcessInformation": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$Pointer",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.FreeBSDPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.SolarisPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$4": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter",
+    "jnr.ffi.mapper.ToNativeContext"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$5": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.mapper.ToNativeConverter",
+    "jnr.ffi.mapper.ToNativeContext"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.Constant"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$6": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.mapper.ToNativeContext",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter"
+   ]
+  },
+  "jnr.posix.LinuxFileStat32$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.LinuxFileStatAARCH64": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$mode_t",
+    "jnr.ffi.StructLayout$nlink_t",
+    "jnr.ffi.StructLayout$blksize_t",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$uid_t",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.StructLayout$dev_t",
+    "jnr.ffi.StructLayout$blkcnt_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$ino_t",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.StructLayout$time_t"
+   ]
+  },
+  "jnr.posix.JavaLibCHelper": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.FreeBSDFileStat$Layout$dev_t": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.OpenBSDFileStat$Layout$time_t": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.LinuxMsgHdr$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$socklen_t",
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.WindowsFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.NativePasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.SpawnFileAction$Open": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.WString$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter",
+    "jnr.ffi.Memory",
+    "jnr.ffi.mapper.ToNativeContext"
+   ]
+  },
+  "jnr.posix.SpawnTest$LibC": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Out"
+   ]
+  },
+  "jnr.posix.AixPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.LinuxFileStat64$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$mode_t",
+    "jnr.ffi.StructLayout$nlink_t",
+    "jnr.ffi.StructLayout$blksize_t",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$uid_t",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$dev_t",
+    "jnr.ffi.StructLayout$blkcnt_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$ino_t",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.StructLayout$time_t"
+   ]
+  },
+  "jnr.posix.SolarisPOSIX$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$off_t",
+    "jnr.ffi.StructLayout$int32_t",
+    "jnr.ffi.StructLayout$pid_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$int16_t",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.POSIXTypeMapper": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform$OS",
+    "jnr.ffi.mapper.TypeMapper",
+    "jnr.ffi.mapper.ToNativeContext",
+    "jnr.ffi.mapper.FromNativeContext",
+    "jnr.ffi.Platform",
+    "jnr.ffi.mapper.FromNativeConverter",
+    "jnr.ffi.mapper.ToNativeConverter"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.Constant"
+   ]
+  },
+  "jnr.posix.RLimit": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SimpleFunctionMapper": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.mapper.FunctionMapper",
+    "jnr.ffi.mapper.FunctionMapper$Context"
+   ]
+  },
+  "jnr.posix.BaseMsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.AixFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.StructLayout$Unsigned64"
+   ]
+  },
+  "jnr.posix.LinuxPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnAttribute$Sigmask": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.WindowsLibC": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Out",
+    "jnr.ffi.byref.IntByReference",
+    "jnr.ffi.Variable",
+    "jnr.ffi.annotations.In",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.annotations.StdCall",
+    "jnr.ffi.annotations.Transient"
+   ]
+  },
+  "jnr.posix.MacOSPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.LibraryLoader",
+    "jnr.ffi.Memory"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.SpawnAttribute$PGroup": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.FreeBSDPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.OpenBSDFileStat$Layout$dev_t": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.LinuxPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.windows.WindowsByHandleFileInformation": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$UnsignedLong",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.windows.SystemTime": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$Unsigned16",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnAttribute": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.JavaPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Sysconf",
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.Signal"
+   ]
+  },
+  "jnr.posix.WindowsSecurityAttributes": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$WBOOL",
+    "jnr.ffi.Struct$Pointer",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.SolarisFileStat32": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.WindowsFileStat$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnFileAction$Dup": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.SolarisPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$off_t",
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.StructLayout$int16_t",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory",
+    "jnr.ffi.StructLayout"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.windows.CommonFileInformation$HackyFileTime": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$UnsignedLong",
+    "jnr.ffi.Struct"
+   ]
+  },
+  "jnr.posix.FreeBSDFileStat$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.BaseCmsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.SolarisFileStat64$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$UnsignedLong",
+    "jnr.ffi.StructLayout$Signed8",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$Field"
+   ]
+  },
+  "jnr.posix.UnixLibC": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Out",
+    "jnr.ffi.annotations.In",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.types.pid_t",
+    "jnr.ffi.byref.ByReference",
+    "jnr.ffi.byref.ShortByReference",
+    "jnr.ffi.byref.NumberByReference"
+   ]
+  },
+  "jnr.posix.MacOSPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.BaseIovec": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$size_t"
+   ]
+  },
+  "jnr.posix.AixPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$uid_t"
+   ]
+  },
+  "jnr.posix.MacOSMsgHdr$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$socklen_t",
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.windows.WindowsFindData": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.NativeType",
+    "jnr.ffi.Struct$UnsignedLong",
+    "jnr.ffi.Struct$Padding",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.FreeBSDFileStat$Layout$time_t": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.LinuxPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.MacOSPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.POSIXFunctionMapper": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Library",
+    "jnr.ffi.mapper.FunctionMapper",
+    "jnr.ffi.mapper.FunctionMapper$Context"
+   ]
+  },
+  "jnr.posix.MacOSFileStat$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong"
+   ]
+  },
+  "jnr.posix.FileTime": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.OpenBSDTimeval": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$SignedLong",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Signed64"
+   ]
+  },
+  "jnr.posix.SolarisPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.FreeBSDPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.MacOSMsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$socklen_t",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.LinuxLibC": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Out",
+    "jnr.ffi.annotations.In",
+    "jnr.ffi.annotations.NulTerminate",
+    "jnr.ffi.annotations.Transient"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$PointerConverter": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeConverter"
+   ]
+  },
+  "jnr.posix.SocketMacros": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.WindowsStartupInfo": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$Unsigned16",
+    "jnr.ffi.Struct$Pointer",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.SolarisFileStat32$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$Signed8",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$Field"
+   ]
+  },
+  "jnr.posix.WString": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter"
+   ]
+  },
+  "jnr.posix.OpenBSDPasswd": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.LinuxFileStatAARCH64$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$mode_t",
+    "jnr.ffi.StructLayout$nlink_t",
+    "jnr.ffi.StructLayout$blksize_t",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$uid_t",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout$dev_t",
+    "jnr.ffi.StructLayout$blkcnt_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$ino_t",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.StructLayout$time_t"
+   ]
+  },
+  "jnr.posix.LibC": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.annotations.Out",
+    "jnr.ffi.types.clock_t",
+    "jnr.ffi.types.off_t",
+    "jnr.ffi.types.size_t",
+    "jnr.ffi.types.intptr_t",
+    "jnr.ffi.annotations.Direct",
+    "jnr.ffi.annotations.IgnoreError",
+    "jnr.ffi.Variable",
+    "jnr.ffi.annotations.In",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.types.ssize_t",
+    "jnr.ffi.annotations.Transient"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.BaseFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.FreeBSDPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.MacOSCmsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32"
+   ]
+  },
+  "jnr.posix.NativeGroup": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnAttribute$SetFlags": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.windows.WindowsFileInformation": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct$UnsignedLong",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.NativeTimes$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$clock_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.OpenBSDPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.MacOSCmsgHdr$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$Unsigned32",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.LinuxFileStat32": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.POSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Signal",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.WindowsPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.byref.IntByReference",
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.Variable",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Struct$Unsigned32",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.windows.LastError",
+    "jnr.constants.platform.OpenFlags"
+   ]
+  },
+  "jnr.posix.DefaultNativeGroup": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.LazyPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Signal",
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.windows.CommonFileInformation": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Library"
+   ]
+  },
+  "jnr.posix.AixPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.NativeTimes": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout$clock_t",
+    "jnr.ffi.Memory",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.SpawnFileAction": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer"
+   ]
+  },
+  "jnr.posix.OpenBSDPOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.RunningOnLinux": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform$OS",
+    "jnr.ffi.Platform"
+   ]
+  },
+  "jnr.posix.HANDLE$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.FromNativeContext",
+    "jnr.ffi.mapper.DataConverter",
+    "jnr.ffi.mapper.ToNativeContext"
+   ]
+  },
+  "jnr.posix.WindowsPOSIX$1": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.mapper.FromNativeContext"
+   ]
+  },
+  "jnr.posix.BaseIovec$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.POSIXFactory": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Platform$OS",
+    "jnr.ffi.Platform",
+    "jnr.ffi.mapper.FunctionMapper",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.LibraryOption"
+   ]
+  },
+  "jnr.posix.util.WindowsHelpers": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.Memory"
+   ]
+  },
+  "jnr.posix.LinuxCmsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$size_t"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.byref.NumberByReference",
+    "jnr.ffi.TypeAlias",
+    "jnr.ffi.provider.MemoryManager",
+    "jnr.ffi.Variable",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.mapper.ToNativeConverter",
+    "jnr.ffi.LastError",
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime"
+   ],
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf",
+    "jnr.constants.Constant",
+    "jnr.constants.platform.Fcntl",
+    "jnr.constants.platform.Errno",
+    "jnr.constants.platform.Signal"
+   ]
+  },
+  "jnr.posix.LinuxMsgHdr": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.StructLayout$socklen_t",
+    "jnr.ffi.Pointer",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.windows.WindowsFileTime": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.Struct",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.Struct$Unsigned32"
+   ]
+  },
+  "jnr.posix.LinuxFileStat64": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$mode_t",
+    "jnr.ffi.StructLayout$nlink_t",
+    "jnr.ffi.StructLayout$blksize_t",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$uid_t",
+    "jnr.ffi.StructLayout$gid_t",
+    "jnr.ffi.StructLayout$dev_t",
+    "jnr.ffi.StructLayout$blkcnt_t",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$ino_t",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.StructLayout$time_t"
+   ]
+  },
+  "jnr.posix.FreeBSDFileStat": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed16",
+    "jnr.ffi.Runtime",
+    "jnr.ffi.StructLayout$SignedLong",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout$Signed64",
+    "jnr.ffi.StructLayout"
+   ]
+  },
+  "jnr.posix.SolarisPasswd$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Pointer",
+    "jnr.ffi.StructLayout$UTF8StringRef",
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.LinuxCmsgHdr$Layout": {
+   "com.github.jnr:jnr-ffi:jar:2.1.4:compile": [
+    "jnr.ffi.StructLayout$Signed32",
+    "jnr.ffi.StructLayout",
+    "jnr.ffi.StructLayout$size_t",
+    "jnr.ffi.Runtime"
+   ]
+  },
+  "jnr.posix.util.DefaultPOSIXHandler": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.BaseNativePOSIX$7": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.JavaLibCHelper$PosixExec": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.POSIXHandler": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.JavaLibCHelper$ErrnoParsingOutputStream": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.JavaPOSIX$1": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Sysconf"
+   ]
+  },
+  "jnr.posix.DummyPOSIXHandler": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Errno"
+   ]
+  },
+  "jnr.posix.WindowsPOSIX$2": {
+   "com.github.jnr:jnr-constants:jar:0.9.8:compile": [
+    "jnr.constants.platform.Fcntl"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.github.jnr:jnr-posix:jar:3.0.40:null",
+  "coordinates": "com.github.jnr:jnr-posix:3.0.40",
+  "groupId": "com.github.jnr",
+  "artifactId": "jnr-posix",
+  "version": "3.0.40",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "junit:junit:jar:4.11:test",
+    "coordinates": "junit:junit:4.11",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 245039,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.jnr:jnr-posix:jar:3.0.40",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.runner.Result$1",
+     "org.junit.rules.ExpectedExceptionMatcherBuilder",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Request$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.matchers.package-info",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "org.junit.internal.requests.package-info",
+     "junit.textui.ResultPrinter",
+     "org.junit.runners.package-info",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.internal.ComparisonCriteria",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.rules.Timeout",
+     "junit.framework.TestCase",
+     "org.junit.runner.package-info",
+     "org.junit.Before",
+     "junit.runner.package-info",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.junit.runners.Parameterized$Parameter",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.ComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.MethodSorters",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.internal.runners.package-info",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.internal.MethodSorter",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "junit.textui.package-info",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "junit.extensions.package-info",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.internal.matchers.StacktracePrintingMatcher",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.InexactComparisonCriteria",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.junit.internal.matchers.ThrowableMessageMatcher",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.internal.MethodSorter$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.internal.MethodSorter$1",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.FixMethodOrder",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "junit.framework.JUnit4TestAdapterCache",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "junit.framework.package-info",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "junit.framework.Protectable",
+     "org.junit.runner.manipulation.package-info",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.MethodRule",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.runner.Computer",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "junit.runner.BaseTestRunner",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "junit.extensions.RepeatedTest",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "org.junit.rules.ExpectedException",
+     "org.junit.rules.TestWatcher$1",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.package-info",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.internal.matchers.ThrowableCauseMatcher",
+     "org.junit.runner.notification.package-info",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.internal.runners.rules.RuleFieldValidator",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.runners.model.Statement",
+     "org.junit.AfterClass",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.After",
+     "org.junit.Assume",
+     "org.junit.Test",
+     "org.junit.runner.Description",
+     "junit.framework.TestCase",
+     "org.junit.ClassRule",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.05150214592274678,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.3:test",
+      "coordinates": "org.hamcrest:hamcrest-core:1.3",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "scope": "test",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 45024,
+      "type": "transitive",
+      "status": "used",
+      "parent": "junit:junit:jar:4.11:test",
+      "allTypes": [
+       "org.hamcrest.Condition$1",
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.internal.ReflectiveTypeFinder",
+       "org.hamcrest.Condition$Step",
+       "org.hamcrest.CustomTypeSafeMatcher",
+       "org.hamcrest.core.CombinableMatcher",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Every",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.TypeSafeDiagnosingMatcher",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.core.StringContains",
+       "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.core.ShortcutCombination",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.core.StringEndsWith",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame",
+       "org.hamcrest.Condition$Matched",
+       "org.hamcrest.core.StringStartsWith",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.SubstringMatcher",
+       "org.hamcrest.Condition",
+       "org.hamcrest.CustomMatcher",
+       "org.hamcrest.TypeSafeMatcher",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.IsCollectionContaining",
+       "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.FeatureMatcher",
+       "org.hamcrest.MatcherAssert",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.Condition$NotMatched",
+       "org.hamcrest.Description$NullDescription",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.DiagnosingMatcher"
+      ],
+      "usedTypes": [
+       "org.hamcrest.CoreMatchers"
+      ],
+      "usageRatio": 0.022222222222222223,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+    "coordinates": "com.github.jnr:jnr-ffi:2.1.4",
+    "groupId": "com.github.jnr",
+    "artifactId": "jnr-ffi",
+    "version": "2.1.4",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 679401,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.jnr:jnr-posix:jar:3.0.40",
+    "allTypes": [
+     "jnr.ffi.Struct$AsciiStringRef",
+     "jnr.ffi.Platform$OS",
+     "jnr.ffi.types.socklen_t",
+     "jnr.ffi.mapper.ToNativeTypes",
+     "jnr.ffi.Platform$SingletonHolder",
+     "jnr.ffi.provider.jffi.Provider",
+     "jnr.ffi.StructLayout$ssize_t",
+     "jnr.ffi.provider.jffi.X86_64StubCompiler$1",
+     "jnr.ffi.provider.converters.EnumConverter",
+     "jnr.ffi.provider.jffi.BaseMethodGenerator",
+     "jnr.ffi.types.gid_t",
+     "jnr.ffi.StructLayout$off_t",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader",
+     "jnr.ffi.mapper.AbstractToNativeType",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader$1",
+     "jnr.ffi.types.fsblkcnt_t",
+     "jnr.ffi.provider.converters.BoxedShortArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.AsmBuilder",
+     "jnr.ffi.StructLayout$in_port_t",
+     "jnr.ffi.provider.converters.NativeLong32ArrayParameterConverter",
+     "jnr.ffi.StructLayout$Unsigned32",
+     "jnr.ffi.provider.jffi.NativeRuntime$TypeDelegate",
+     "jnr.ffi.types.mode_t",
+     "jnr.ffi.provider.jffi.AsmStructByReferenceFromNativeConverter",
+     "jnr.ffi.Platform$1",
+     "jnr.ffi.provider.converters.StructArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.AbstractAsmLibraryInterface",
+     "jnr.ffi.mapper.FromNativeConverter",
+     "jnr.ffi.provider.converters.BoxedFloatArrayParameterConverter",
+     "jnr.ffi.provider.jffi.platform.ppc.darwin.TypeAliases",
+     "jnr.ffi.Struct$intptr_t",
+     "jnr.ffi.provider.MemoryManager",
+     "jnr.ffi.provider.NativeInvocationHandler",
+     "jnr.ffi.Struct$caddr_t",
+     "jnr.ffi.Struct$WORD",
+     "jnr.ffi.provider.jffi.ClosureFromNativeConverter$AbstractClosurePointer",
+     "jnr.ffi.provider.jffi.platform.s390.linux.TypeAliases",
+     "jnr.ffi.util.ref.FinalizableReferenceQueue$DecoupledLoader",
+     "jnr.ffi.provider.ToNativeType",
+     "jnr.ffi.StructLayout$Signed64",
+     "jnr.ffi.byref.DoubleByReference",
+     "jnr.ffi.StructLayout$u_int16_t",
+     "jnr.ffi.mapper.ToNativeConverter$PostInvocation",
+     "jnr.ffi.LibraryLoader$StaticDataHolder",
+     "jnr.ffi.provider.Invoker",
+     "jnr.ffi.StructLayout$ino_t",
+     "jnr.ffi.provider.jffi.MemoryUtil",
+     "jnr.ffi.provider.converters.StructByReferenceFromNativeConverter",
+     "jnr.ffi.LastError",
+     "jnr.ffi.annotations.Out",
+     "jnr.ffi.Struct$swblk_t",
+     "jnr.ffi.provider.jffi.StubCompiler$1",
+     "jnr.ffi.provider.jffi.SkinnyMethodAdapter",
+     "jnr.ffi.provider.jffi.StubCompiler",
+     "jnr.ffi.types.blkcnt_t",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$ArrayIO",
+     "jnr.ffi.mapper.FunctionMapper",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Marshaller",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory",
+     "jnr.ffi.Struct$uid_t",
+     "jnr.ffi.types.dev_t",
+     "jnr.ffi.StructLayout$Unsigned16",
+     "jnr.ffi.provider.jffi.NumberUtil",
+     "jnr.ffi.Struct$u_int8_t",
+     "jnr.ffi.StructLayout$UnsignedLong",
+     "jnr.ffi.StructLayout$sa_family_t",
+     "jnr.ffi.annotations.Direct",
+     "jnr.ffi.provider.jffi.NativeFinalizer$SingletonHolder",
+     "jnr.ffi.types.u_int32_t",
+     "jnr.ffi.ObjectReferenceManager",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$LE64ArrayIO",
+     "jnr.ffi.types.rlim_t",
+     "jnr.ffi.types.in_addr_t",
+     "jnr.ffi.provider.jffi.ToNativeOp$Primitive",
+     "jnr.ffi.Address",
+     "jnr.ffi.StructLayout$SignedLong",
+     "jnr.ffi.provider.jffi.SymbolNotFoundError",
+     "jnr.ffi.provider.jffi.LibraryLoader",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$NumberDataConverter",
+     "jnr.ffi.provider.jffi.LocalVariableAllocator",
+     "jnr.ffi.provider.converters.StructByReferenceToNativeConverter",
+     "jnr.ffi.provider.jffi.BufferMethodGenerator",
+     "jnr.ffi.types.ssize_t",
+     "jnr.ffi.NativeLong$Cache",
+     "jnr.ffi.Struct$EnumField",
+     "jnr.ffi.provider.jffi.X86Disassembler$UDis86",
+     "jnr.ffi.StructLayout$Double",
+     "jnr.ffi.StructLayout$uintptr_t",
+     "jnr.ffi.provider.jffi.DirectMemoryIO",
+     "jnr.ffi.Struct$Member",
+     "jnr.ffi.provider.AbstractMemoryIO",
+     "jnr.ffi.Struct$Double",
+     "jnr.ffi.Struct$EnumLong",
+     "jnr.ffi.provider.jffi.AbstractX86StubCompiler",
+     "jnr.ffi.Struct$Function",
+     "jnr.ffi.Struct$gid_t",
+     "jnr.ffi.StructLayout$Signed8",
+     "jnr.ffi.mapper.AbstractDataConverter",
+     "jnr.ffi.mapper.MethodResultContext",
+     "jnr.ffi.mapper.FromNativeConverter$NoContext",
+     "jnr.ffi.mapper.ToNativeConverter$Cacheable",
+     "jnr.ffi.StructLayout$WBOOL",
+     "jnr.ffi.NativeType",
+     "jnr.ffi.Struct$rlim_t",
+     "jnr.ffi.provider.jffi.BufferMethodGenerator$Operation",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$BooleanMarshaller",
+     "jnr.ffi.Struct$Boolean",
+     "jnr.ffi.provider.jffi.platform.i386.windows.TypeAliases",
+     "jnr.ffi.Struct$Padding",
+     "jnr.ffi.Type",
+     "jnr.ffi.Struct$size_t",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$PointerVariable",
+     "jnr.ffi.Struct$UnsignedLong",
+     "jnr.ffi.StructLayout$Signed16",
+     "jnr.ffi.provider.jffi.VariableAccessorGenerator",
+     "jnr.ffi.StructLayout$int16_t",
+     "jnr.ffi.provider.jffi.X86Disassembler$Syntax",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$1",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader$LazyLoader$VariableAcccessorInvoker",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$1",
+     "jnr.ffi.mapper.FromNativeConverter$Cacheable",
+     "jnr.ffi.Struct$fsfilcnt_t",
+     "jnr.ffi.Platform$Unsupported",
+     "jnr.ffi.mapper.ToNativeConverter$NoContext",
+     "jnr.ffi.Struct$sa_family_t",
+     "jnr.ffi.util.ref.FinalizablePhantomReference",
+     "jnr.ffi.provider.IntPointer",
+     "jnr.ffi.mapper.SignatureTypeMapper",
+     "jnr.ffi.types.swblk_t",
+     "jnr.ffi.types.uid_t",
+     "jnr.ffi.Struct$ino64_t",
+     "jnr.ffi.annotations.Delegate",
+     "jnr.ffi.Struct$in_addr_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Float32Invoker",
+     "jnr.ffi.types.blksize_t",
+     "jnr.ffi.annotations.NulTerminate",
+     "jnr.ffi.byref.FloatByReference",
+     "jnr.ffi.provider.jffi.X86_64StubCompiler",
+     "jnr.ffi.StructLayout$fsblkcnt_t",
+     "jnr.ffi.Runtime",
+     "jnr.ffi.mapper.ToNativeType",
+     "jnr.ffi.util.ref.FinalizableReference",
+     "jnr.ffi.byref.LongLongByReference",
+     "jnr.ffi.provider.AbstractBufferMemoryIO",
+     "jnr.ffi.util.EnumMapper$IntegerEnum",
+     "jnr.ffi.StructLayout$Signed32",
+     "jnr.ffi.StructLayout$id_t",
+     "jnr.ffi.Struct$nlink_t",
+     "jnr.ffi.util.ref.FinalizableReferenceQueue",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$LongInvoker",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Int32Marshaller",
+     "jnr.ffi.StructLayout$size_t",
+     "jnr.ffi.provider.converters.ByReferenceParameterConverter$Out",
+     "jnr.ffi.StructLayout$Enum8",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$BooleanConverter",
+     "jnr.ffi.provider.jffi.PointerParameterStrategy",
+     "jnr.ffi.util.AnnotationProperty",
+     "jnr.ffi.provider.InterfaceScanner$1",
+     "jnr.ffi.provider.InterfaceScanner",
+     "jnr.ffi.provider.InterfaceScanner$2",
+     "jnr.ffi.StructLayout$clock_t",
+     "jnr.ffi.annotations.Clear",
+     "jnr.ffi.byref.ByteByReference",
+     "jnr.ffi.Struct$Address",
+     "jnr.ffi.mapper.Util",
+     "jnr.ffi.mapper.SignatureTypeMapperAdapter",
+     "jnr.ffi.provider.converters.Pointer32ArrayParameterConverter",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$LittleEndianArrayIO",
+     "jnr.ffi.provider.converters.Pointer64ArrayParameterConverter$Out",
+     "jnr.ffi.Struct$DWORD",
+     "jnr.ffi.StructLayout$AbstractBoolean",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$DoublePointerOp",
+     "jnr.ffi.types.pid_t",
+     "jnr.ffi.provider.jffi.X86Disassembler$SingletonHolder",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$FloatPointerOp",
+     "jnr.ffi.provider.jffi.ToNativeOp$Integral",
+     "jnr.ffi.provider.jffi.VariableAccessorGenerator$PointerOp",
+     "jnr.ffi.StructLayout$AsciiString",
+     "jnr.ffi.Struct$Offset",
+     "jnr.ffi.StructLayout$rlim_t",
+     "jnr.ffi.StructLayout$NumberField",
+     "jnr.ffi.provider.jffi.AbstractX86StubCompiler$Stub",
+     "jnr.ffi.provider.converters.BoxedByteArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.X86_32StubCompiler",
+     "jnr.ffi.provider.jffi.platform.s390x.linux.TypeAliases",
+     "jnr.ffi.provider.jffi.NumberUtil$1",
+     "jnr.ffi.types.size_t",
+     "jnr.ffi.provider.jffi.AsmUtil$1",
+     "jnr.ffi.types.time_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ByteResultConverter",
+     "jnr.ffi.StructLayout$EnumField",
+     "jnr.ffi.provider.jffi.TransientNativeMemory$1",
+     "jnr.ffi.provider.jffi.VariableAccessorGenerator$1",
+     "jnr.ffi.Struct$id_t",
+     "jnr.ffi.mapper.FromNativeTypes",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Int64Marshaller",
+     "jnr.ffi.mapper.DataConverter",
+     "jnr.ffi.Struct$u_int32_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$FunctionInvoker",
+     "jnr.ffi.provider.converters.Pointer32ArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.NativeClosurePointer",
+     "jnr.ffi.provider.jffi.NativeClosureFactory",
+     "jnr.ffi.provider.jffi.BaseMethodGenerator$2",
+     "jnr.ffi.provider.converters.BoxedLong64ArrayParameterConverter",
+     "jnr.ffi.provider.jffi.AnnotationTypeMapper$ReflectionFromNativeConverter",
+     "jnr.ffi.provider.IdentityFunctionMapper$SingletonHolder",
+     "jnr.ffi.mapper.FromNativeType$Cacheable",
+     "jnr.ffi.provider.jffi.BaseMethodGenerator$1",
+     "jnr.ffi.Struct$UTF8String",
+     "jnr.ffi.provider.converters.CharSequenceArrayParameterConverter$StringArray",
+     "jnr.ffi.provider.InAccessibleMemoryIO",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$FunctionNotFoundInvoker",
+     "jnr.ffi.provider.jffi.NativeFunctionMapperContext",
+     "jnr.ffi.annotations.Encoding",
+     "jnr.ffi.Struct$Alignment",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$PointerOp",
+     "jnr.ffi.provider.jffi.NativeMemoryManager",
+     "jnr.ffi.provider.jffi.platform.ppc.linux.TypeAliases",
+     "jnr.ffi.util.AnnotationNameComparator",
+     "jnr.ffi.provider.jffi.CodegenUtils",
+     "jnr.ffi.provider.jffi.FastIntMethodGenerator",
+     "jnr.ffi.provider.jffi.platform.aarch64.linux.TypeAliases",
+     "jnr.ffi.provider.jffi.AnnotationTypeMapper$AbstractReflectionConverter",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ResultConverter",
+     "jnr.ffi.provider.jffi.platform.ppc64le.linux.TypeAliases",
+     "jnr.ffi.mapper.TypeMapper",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy",
+     "jnr.ffi.provider.jffi.LocalVariable",
+     "jnr.ffi.CallingConvention",
+     "jnr.ffi.Platform$Darwin",
+     "jnr.ffi.provider.jffi.platform.mips.linux.TypeAliases",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$PointerInvoker",
+     "jnr.ffi.mapper.DefaultTypeMapper",
+     "jnr.ffi.provider.jffi.platform.x86_64.linux.TypeAliases",
+     "jnr.ffi.provider.converters.BoxedIntegerArrayParameterConverter",
+     "jnr.ffi.types.ino64_t",
+     "jnr.ffi.StructLayout$key_t",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$BE32ArrayIO",
+     "jnr.ffi.provider.converters.BoxedIntegerArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.AnnotationTypeMapper$ReflectionToNativeConverter",
+     "jnr.ffi.provider.ResultType",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$Int16PointerOp",
+     "jnr.ffi.annotations.In",
+     "jnr.ffi.provider.jffi.ArrayMemoryIO",
+     "jnr.ffi.mapper.ToNativeTypes$UnCacheable",
+     "jnr.ffi.provider.jffi.ToNativeOp",
+     "jnr.ffi.StructLayout",
+     "jnr.ffi.provider.jffi.NativeRuntime$SingletonHolder",
+     "jnr.ffi.provider.jffi.platform.x86_64.solaris.TypeAliases",
+     "jnr.ffi.Union",
+     "jnr.ffi.provider.converters.BoxedDoubleArrayParameterConverter",
+     "jnr.ffi.Struct$fsblkcnt_t",
+     "jnr.ffi.byref.IntByReference",
+     "jnr.ffi.Struct$mode_t",
+     "jnr.ffi.annotations.LongLong",
+     "jnr.ffi.provider.jffi.platform.sparc.solaris.TypeAliases",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Float64Invoker",
+     "jnr.ffi.provider.converters.BoxedBooleanArrayParameterConverter",
+     "jnr.ffi.types.sa_family_t",
+     "jnr.ffi.mapper.ToNativeType$Cacheable",
+     "jnr.ffi.provider.jffi.NativeRuntime",
+     "jnr.ffi.provider.jffi.platform.i386.openbsd.TypeAliases",
+     "jnr.ffi.TypeAlias",
+     "jnr.ffi.StructLayout$Padding",
+     "jnr.ffi.provider.converters.StringBuilderParameterConverter",
+     "jnr.ffi.byref.AddressByReference",
+     "jnr.ffi.Struct$Signed16",
+     "jnr.ffi.Struct$uintptr_t",
+     "jnr.ffi.provider.jffi.BufferParameterStrategy$1",
+     "jnr.ffi.Struct$socklen_t",
+     "jnr.ffi.annotations.TypeDefinition",
+     "jnr.ffi.Platform$Supported",
+     "jnr.ffi.types.u_int8_t",
+     "jnr.ffi.provider.converters.ByReferenceParameterConverter",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$BufferMarshaller",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Signed32Converter",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$Int8PointerOp",
+     "jnr.ffi.annotations.SaveError",
+     "jnr.ffi.provider.jffi.ClosureUtil",
+     "jnr.ffi.provider.jffi.HeapBufferParameterStrategy",
+     "jnr.ffi.Struct$LONG",
+     "jnr.ffi.provider.jffi.platform.x86_64.darwin.TypeAliases",
+     "jnr.ffi.StructLayout$Enum16",
+     "jnr.ffi.StructLayout$blkcnt_t",
+     "jnr.ffi.annotations.Synchronized",
+     "jnr.ffi.Struct$Pointer",
+     "jnr.ffi.util.ref.internal.Finalizer",
+     "jnr.ffi.provider.jffi.NativeClosureProxy$Factory",
+     "jnr.ffi.StructLayout$Unsigned64",
+     "jnr.ffi.byref.PointerByReference",
+     "jnr.ffi.provider.jffi.X86Disassembler",
+     "jnr.ffi.types.fsfilcnt_t",
+     "jnr.ffi.types.int16_t",
+     "jnr.ffi.provider.AbstractMemoryIO$1",
+     "jnr.ffi.Struct",
+     "jnr.ffi.provider.DelegatingMemoryIO",
+     "jnr.ffi.annotations.Meta",
+     "jnr.ffi.Struct$int16_t",
+     "jnr.ffi.StructLayout$Boolean",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$Int64PointerOp",
+     "jnr.ffi.types.intptr_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ToNativeConverterMarshaller$1",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ConvertingInvoker",
+     "jnr.ffi.mapper.FromNativeContext",
+     "jnr.ffi.NativeLong",
+     "jnr.ffi.provider.converters.CharSequenceParameterConverter",
+     "jnr.ffi.provider.jffi.AsmBuilder$ObjectNameGenerator",
+     "jnr.ffi.provider.jffi.platform.x86_64.freebsd.TypeAliases",
+     "jnr.ffi.provider.converters.NativeLong64ArrayParameterConverter$1",
+     "jnr.ffi.Platform$CPU",
+     "jnr.ffi.provider.converters.BoxedByteArrayParameterConverter",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ShortResultConverter",
+     "jnr.ffi.types.caddr_t",
+     "jnr.ffi.provider.jffi.NativeLibraryLoader",
+     "jnr.ffi.Struct$int8_t",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader$LazyLoader",
+     "jnr.ffi.Struct$Float",
+     "jnr.ffi.StructLayout$fsfilcnt_t",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator",
+     "jnr.ffi.Struct$Signed32",
+     "jnr.ffi.provider.jffi.platform.i386.freebsd.TypeAliases",
+     "jnr.ffi.Struct$in_port_t",
+     "jnr.ffi.provider.InvalidProvider",
+     "jnr.ffi.provider.jffi.AsmBuilder$ObjectField",
+     "jnr.ffi.Struct$u_int64_t",
+     "jnr.ffi.annotations.Pinned",
+     "jnr.ffi.LibraryOption",
+     "jnr.ffi.types.int32_t",
+     "jnr.ffi.provider.ParameterFlags",
+     "jnr.ffi.provider.jffi.X86MethodGenerator$1",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$1",
+     "jnr.ffi.provider.jffi.platform.x86_64.openbsd.TypeAliases",
+     "jnr.ffi.Struct$UTFStringRef",
+     "jnr.ffi.provider.NativeVariable",
+     "jnr.ffi.types.off_t",
+     "jnr.ffi.provider.jffi.NativeClosureProxy",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$LE32ArrayIO",
+     "jnr.ffi.provider.jffi.platform.arm.linux.TypeAliases",
+     "jnr.ffi.byref.NumberByReference",
+     "jnr.ffi.provider.jffi.InvokerTypeMapper",
+     "jnr.ffi.Struct$Unsigned8",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$ToNativeConverterMarshaller",
+     "jnr.ffi.mapper.FromNativeTypes$UnCacheable",
+     "jnr.ffi.LibraryLoader$1",
+     "jnr.ffi.provider.jffi.AsmUtil",
+     "jnr.ffi.LibraryLoader$2",
+     "jnr.ffi.provider.InterfaceScanner$FunctionsIterator",
+     "jnr.ffi.provider.jffi.NativeRuntime$1",
+     "jnr.ffi.Struct$Enum",
+     "jnr.ffi.types.uintptr_t",
+     "jnr.ffi.StructLayout$time_t",
+     "jnr.ffi.StructLayout$intptr_t",
+     "jnr.ffi.Struct$BYTE",
+     "jnr.ffi.StructLayout$nlink_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$AddressResultConverter",
+     "jnr.ffi.provider.jffi.AsmClassLoader",
+     "jnr.ffi.StructLayout$blksize_t",
+     "jnr.ffi.types.int8_t",
+     "jnr.ffi.StructLayout$Enum64",
+     "jnr.ffi.util.ref.FinalizableReferenceQueue$SystemLoader",
+     "jnr.ffi.provider.converters.BoxedDoubleArrayParameterConverter$Out",
+     "jnr.ffi.Struct$Enum16",
+     "jnr.ffi.Pointer",
+     "jnr.ffi.provider.jffi.FastLongMethodGenerator",
+     "jnr.ffi.types.ino_t",
+     "jnr.ffi.provider.jffi.X86MethodGenerator",
+     "jnr.ffi.mapper.ToNativeConverter",
+     "jnr.ffi.provider.jffi.InvokerUtil",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$DoubleResultConverter",
+     "jnr.ffi.types.nlink_t",
+     "jnr.ffi.provider.jffi.ToNativeOp$Delegate",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Unsigned16Converter",
+     "jnr.ffi.StructLayout$u_int8_t",
+     "jnr.ffi.StructLayout$UTF8String",
+     "jnr.ffi.Struct$Signed64",
+     "jnr.ffi.Struct$UTF8StringRef",
+     "jnr.ffi.StructLayout$IntegerAlias",
+     "jnr.ffi.provider.InvocationSession$PostInvoke",
+     "jnr.ffi.provider.jffi.platform.sparcv9.solaris.TypeAliases",
+     "jnr.ffi.StructLayout$dev_t",
+     "jnr.ffi.StructLayout$Enum",
+     "jnr.ffi.Platform$Windows",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$IntInvoker",
+     "jnr.ffi.StructLayout$String",
+     "jnr.ffi.Runtime$SingletonHolder",
+     "jnr.ffi.provider.jffi.platform.ppc.aix.TypeAliases",
+     "jnr.ffi.provider.jffi.platform.ppc64.linux.TypeAliases",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Unsigned32Converter",
+     "jnr.ffi.provider.jffi.BufferMethodGenerator$MarshalOp",
+     "jnr.ffi.provider.jffi.NotImplMethodGenerator",
+     "jnr.ffi.mapper.FromNativeType",
+     "jnr.ffi.provider.AbstractArrayMemoryIO",
+     "jnr.ffi.provider.jffi.AllocatedDirectMemoryIO",
+     "jnr.ffi.provider.converters.NativeLong32ArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.BufferMethodGenerator$1",
+     "jnr.ffi.provider.jffi.NativeClosureFactory$ClosureReference",
+     "jnr.ffi.StructLayout$int32_t",
+     "jnr.ffi.provider.converters.Long32ArrayParameterConverter",
+     "jnr.ffi.provider.jffi.JNINativeInterface",
+     "jnr.ffi.util.AnnotationProxy",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader$GetRuntimeInvoker",
+     "jnr.ffi.StructLayout$UTFString",
+     "jnr.ffi.mapper.SimpleFunctionMapper",
+     "jnr.ffi.provider.jffi.NoX86",
+     "jnr.ffi.Struct$AbstractBoolean",
+     "jnr.ffi.provider.LoadedLibrary",
+     "jnr.ffi.Struct$int64_t",
+     "jnr.ffi.Struct$Info",
+     "jnr.ffi.provider.jffi.Types",
+     "jnr.ffi.mapper.ToNativeTypes$Cacheable",
+     "jnr.ffi.provider.jffi.ConverterMetaData",
+     "jnr.ffi.provider.jffi.BufferParameterStrategy",
+     "jnr.ffi.StructLayout$Enum32",
+     "jnr.ffi.provider.FFIProvider$SystemProviderSingletonHolder",
+     "jnr.ffi.StructLayout$AbstractField",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$6",
+     "jnr.ffi.StructLayout$Offset",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$5",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$8",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$7",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$2",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$1",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$4",
+     "jnr.ffi.StructLayout$EnumLong",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Float32Marshaller",
+     "jnr.ffi.provider.jffi.PrimitiveArrayParameterStrategy$3",
+     "jnr.ffi.util.BufferUtil",
+     "jnr.ffi.StructLayout$ino64_t",
+     "jnr.ffi.Struct$Unsigned16",
+     "jnr.ffi.StructLayout$AsciiStringRef",
+     "jnr.ffi.provider.converters.BoxedLong32ArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$PointerMarshaller",
+     "jnr.ffi.byref.NumberByReference$1",
+     "jnr.ffi.provider.converters.EnumSetConverter",
+     "jnr.ffi.provider.jffi.platform.i386.solaris.TypeAliases",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$BooleanInvoker",
+     "jnr.ffi.Struct$PointerField",
+     "jnr.ffi.provider.NullMemoryIO",
+     "jnr.ffi.Struct$blkcnt_t",
+     "jnr.ffi.provider.jffi.JNIInvokeInterface",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$PrimitiveArrayMarshaller",
+     "jnr.ffi.provider.jffi.X86Disassembler$X86DisassemblerConverter",
+     "jnr.ffi.Struct$ino_t",
+     "jnr.ffi.Struct$pid_t",
+     "jnr.ffi.provider.converters.BoxedBooleanArrayParameterConverter$Out",
+     "jnr.ffi.Struct$AsciiString",
+     "jnr.ffi.provider.jffi.AsmRuntime",
+     "jnr.ffi.provider.jffi.StructByReferenceResultConverterFactory",
+     "jnr.ffi.StructLayout$UTFStringRef",
+     "jnr.ffi.StructLayout$Field",
+     "jnr.ffi.Platform$Linux$1",
+     "jnr.ffi.provider.jffi.BufferMethodGenerator$InvokeOp",
+     "jnr.ffi.types.in_port_t",
+     "jnr.ffi.mapper.ToNativeConverter$ToNative",
+     "jnr.ffi.byref.AbstractReference",
+     "jnr.ffi.Struct$Unsigned32",
+     "jnr.ffi.provider.jffi.Util",
+     "jnr.ffi.provider.jffi.NoTrace",
+     "jnr.ffi.StructLayout$int64_t",
+     "jnr.ffi.provider.converters.StringUtil",
+     "jnr.ffi.util.AnnotationProxy$1",
+     "jnr.ffi.provider.converters.ByReferenceParameterConverter$1",
+     "jnr.ffi.provider.InvalidProvider$1",
+     "jnr.ffi.provider.jffi.AbstractFastNumericMethodGenerator",
+     "jnr.ffi.StructLayout$caddr_t",
+     "jnr.ffi.StructLayout$in_addr_t",
+     "jnr.ffi.mapper.TypeMapper$Builder",
+     "jnr.ffi.StructLayout$uid_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$VariadicInvoker",
+     "jnr.ffi.mapper.FunctionMapper$Builder",
+     "jnr.ffi.provider.jffi.ByteBufferMemoryIO",
+     "jnr.ffi.annotations.StdCall",
+     "jnr.ffi.provider.converters.Long32ArrayParameterConverter$Out",
+     "jnr.ffi.Struct$Enum8",
+     "jnr.ffi.Struct$IntegerAlias",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$BE64ArrayIO",
+     "jnr.ffi.Struct$SignedLong",
+     "jnr.ffi.types.u_int16_t",
+     "jnr.ffi.provider.converters.BoxedLong64ArrayParameterConverter$Out",
+     "jnr.ffi.Struct$String",
+     "jnr.ffi.mapper.FromNativeTypes$Cacheable",
+     "jnr.ffi.util.Annotations",
+     "jnr.ffi.provider.DefaultObjectReferenceManager$ObjectReference",
+     "jnr.ffi.StructLayout$u_int32_t",
+     "jnr.ffi.util.ref.FinalizableSoftReference",
+     "jnr.ffi.StructLayout$gid_t",
+     "jnr.ffi.provider.jffi.ClosureFromNativeConverter",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$ConvertingVariable",
+     "jnr.ffi.mapper.SignatureType",
+     "jnr.ffi.provider.jffi.SimpleNativeContext",
+     "jnr.ffi.provider.jffi.NativeClosureFactory$1",
+     "jnr.ffi.provider.NullTypeMapper",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Float64Marshaller",
+     "jnr.ffi.provider.jffi.ToNativeOp$AddressOp",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$VoidInvoker",
+     "jnr.ffi.provider.converters.StringBufferParameterConverter",
+     "jnr.ffi.Struct$WBOOL",
+     "jnr.ffi.StructLayout$Unsigned8",
+     "jnr.ffi.StructLayout$pid_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Int8Marshaller",
+     "jnr.ffi.Struct$int32_t",
+     "jnr.ffi.provider.jffi.ParameterStrategy",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$DefaultInvoker",
+     "jnr.ffi.provider.jffi.platform.x86_64.windows.TypeAliases",
+     "jnr.ffi.util.EnumMapper",
+     "jnr.ffi.provider.AbstractRuntime",
+     "jnr.ffi.provider.FromNativeType",
+     "jnr.ffi.provider.converters.Pointer64ArrayParameterConverter",
+     "jnr.ffi.byref.ShortByReference",
+     "jnr.ffi.Struct$Unsigned64",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$AbstractVariable",
+     "jnr.ffi.provider.jffi.ReflectionLibraryLoader$FunctionNotFoundInvoker",
+     "jnr.ffi.Struct$ssize_t",
+     "jnr.ffi.provider.jffi.ToNativeOp$Float64",
+     "jnr.ffi.StructLayout$mode_t",
+     "jnr.ffi.mapper.FunctionMapper$1",
+     "jnr.ffi.provider.jffi.platform.mipsel.linux.TypeAliases",
+     "jnr.ffi.Struct$blksize_t",
+     "jnr.ffi.Variable",
+     "jnr.ffi.provider.converters.BoxedShortArrayParameterConverter",
+     "jnr.ffi.provider.converters.NativeLong64ArrayParameterConverter$Out",
+     "jnr.ffi.provider.ClosureManager",
+     "jnr.ffi.provider.jffi.TransientNativeMemory$Magazine",
+     "jnr.ffi.provider.jffi.ClosureTypeMapper",
+     "jnr.ffi.provider.ParameterType",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$LongLongConverter",
+     "jnr.ffi.provider.converters.CharSequenceArrayParameterConverter$Out",
+     "jnr.ffi.Struct$AbstractMember",
+     "jnr.ffi.types.u_int64_t",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Signed8Converter",
+     "jnr.ffi.provider.InterfaceScanner$VariablesIterator",
+     "jnr.ffi.Struct$u_int16_t",
+     "jnr.ffi.byref.NativeLongByReference",
+     "jnr.ffi.provider.jffi.TransientNativeMemory",
+     "jnr.ffi.provider.jffi.AbstractX86StubCompiler$StaticDataHolder",
+     "jnr.ffi.provider.jffi.X86Disassembler$Mode",
+     "jnr.ffi.mapper.CompositeFunctionMapper",
+     "jnr.ffi.LibraryLoader",
+     "jnr.ffi.mapper.MethodParameterContext",
+     "jnr.ffi.provider.jffi.NativeClosureManager",
+     "jnr.ffi.provider.DefaultObjectReferenceManager",
+     "jnr.ffi.mapper.CompositeTypeMapper",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$SynchronizedInvoker",
+     "jnr.ffi.Library",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$DoubleConverter",
+     "jnr.ffi.Struct$key_t",
+     "jnr.ffi.mapper.CachingTypeMapper",
+     "jnr.ffi.mapper.AbstractFromNativeType",
+     "jnr.ffi.provider.InvocationSession",
+     "jnr.ffi.types.key_t",
+     "jnr.ffi.provider.BoundedMemoryIO",
+     "jnr.ffi.types.id_t",
+     "jnr.ffi.Struct$Signed8",
+     "jnr.ffi.util.ref.FinalizableWeakReference",
+     "jnr.ffi.provider.jffi.NativeClosureManager$ClosureSite",
+     "jnr.ffi.provider.converters.Long32ArrayParameterConverter$1",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$LongResultConverter",
+     "jnr.ffi.annotations.Transient",
+     "jnr.ffi.StructLayout$int8_t",
+     "jnr.ffi.StructLayout$Pointer",
+     "jnr.ffi.Struct$off_t",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$NumberVariable",
+     "jnr.ffi.types.clock_t",
+     "jnr.ffi.Struct$time_t",
+     "jnr.ffi.Struct$Enum64",
+     "jnr.ffi.provider.converters.StringResultConverter",
+     "jnr.ffi.Struct$clock_t",
+     "jnr.ffi.provider.jffi.TransientNativeMemory$Sentinel",
+     "jnr.ffi.provider.jffi.StubCompiler$DummyStubCompiler",
+     "jnr.ffi.provider.IdentityFunctionMapper",
+     "jnr.ffi.StructLayout$UTF8StringRef",
+     "jnr.ffi.StructLayout$u_int64_t",
+     "jnr.ffi.mapper.CachingTypeMapper$1",
+     "jnr.ffi.provider.jffi.ReflectionVariableAccessorGenerator$Int32PointerOp",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Int16Marshaller",
+     "jnr.ffi.provider.jffi.AsmLibraryLoader",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Unsigned8Converter",
+     "jnr.ffi.Platform",
+     "jnr.ffi.Struct$StructRef",
+     "jnr.ffi.Struct$BOOL16",
+     "jnr.ffi.provider.jffi.NullObjectParameterStrategy",
+     "jnr.ffi.types.int64_t",
+     "jnr.ffi.byref.ByReference",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$FloatResultConverter",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$IntegerResultConverter",
+     "jnr.ffi.mapper.FunctionMapper$Context",
+     "jnr.ffi.provider.AbstractArrayMemoryIO$BigEndianArrayIO",
+     "jnr.ffi.provider.jffi.MethodGenerator",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$BaseInvoker",
+     "jnr.ffi.provider.FFIProvider",
+     "jnr.ffi.mapper.AbstractSignatureTypeMapper",
+     "jnr.ffi.Struct$NumberField",
+     "jnr.ffi.provider.jffi.platform.i386.darwin.TypeAliases",
+     "jnr.ffi.provider.jffi.NativeClosureManager$1",
+     "jnr.ffi.Struct$dev_t",
+     "jnr.ffi.mapper.CachingTypeMapper$InvalidType",
+     "jnr.ffi.provider.jffi.platform.i386.linux.TypeAliases",
+     "jnr.ffi.provider.jffi.NativeFinalizer",
+     "jnr.ffi.Platform$Linux",
+     "jnr.ffi.provider.jffi.ToNativeOp$Float32",
+     "jnr.ffi.provider.jffi.FastIntMethodGenerator$1",
+     "jnr.ffi.util.ref.FinalizableReferenceQueue$DirectLoader",
+     "jnr.ffi.provider.converters.CharSequenceArrayParameterConverter",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$Signed16Converter",
+     "jnr.ffi.mapper.SimpleTypeMapper",
+     "jnr.ffi.StructLayout$Float",
+     "jnr.ffi.provider.converters.NativeLong64ArrayParameterConverter",
+     "jnr.ffi.provider.converters.NativeLongConverter",
+     "jnr.ffi.provider.ShareMemoryIO",
+     "jnr.ffi.provider.converters.StructArrayParameterConverter",
+     "jnr.ffi.mapper.ToNativeContext",
+     "jnr.ffi.provider.jffi.InvokerUtil$1",
+     "jnr.ffi.provider.BadType",
+     "jnr.ffi.provider.jffi.AnnotationTypeMapper",
+     "jnr.ffi.provider.converters.BoxedFloatArrayParameterConverter$Out",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$FloatConverter",
+     "jnr.ffi.provider.jffi.FastNumericMethodGenerator",
+     "jnr.ffi.provider.jffi.X86_32StubCompiler$1",
+     "jnr.ffi.provider.converters.BoxedLong32ArrayParameterConverter",
+     "jnr.ffi.byref.AbstractNumberReference",
+     "jnr.ffi.util.EnumMapper$StaticDataHolder",
+     "jnr.ffi.provider.jffi.DefaultInvokerFactory$AbstractNumberResultConverter",
+     "jnr.ffi.annotations.IgnoreError",
+     "jnr.ffi.provider.jffi.ClosureFromNativeConverter$ProxyConverter",
+     "jnr.ffi.provider.jffi.NativeClosureProxy$1",
+     "jnr.ffi.mapper.DefaultSignatureType",
+     "jnr.ffi.Struct$UTFString",
+     "jnr.ffi.Struct$Enum32",
+     "jnr.ffi.provider.NativeFunction",
+     "jnr.ffi.StructLayout$swblk_t",
+     "jnr.ffi.util.ref.FinalizableReferenceQueue$FinalizerLoader",
+     "jnr.ffi.StructLayout$socklen_t",
+     "jnr.ffi.Platform$Default",
+     "jnr.ffi.Memory",
+     "jnr.ffi.provider.jffi.AbstractX86StubCompiler$PageHolder",
+     "jnr.ffi.StructLayout$Function",
+     "jnr.ffi.provider.SigType",
+     "jnr.ffi.provider.InvalidRuntime",
+     "jnr.ffi.mapper.FromNativeConverter$FromNative",
+     "jnr.ffi.provider.jffi.NativeLibrary"
+    ],
+    "usedTypes": [
+     "jnr.ffi.Struct$WBOOL",
+     "jnr.ffi.StructLayout$Pointer",
+     "jnr.ffi.Platform$OS",
+     "jnr.ffi.Struct$Unsigned16",
+     "jnr.ffi.StructLayout$pid_t",
+     "jnr.ffi.types.clock_t",
+     "jnr.ffi.StructLayout$Signed8",
+     "jnr.ffi.byref.IntByReference",
+     "jnr.ffi.types.off_t",
+     "jnr.ffi.types.size_t",
+     "jnr.ffi.byref.NumberByReference",
+     "jnr.ffi.StructLayout$off_t",
+     "jnr.ffi.NativeType",
+     "jnr.ffi.StructLayout$UTF8StringRef",
+     "jnr.ffi.TypeAlias",
+     "jnr.ffi.StructLayout$Unsigned32",
+     "jnr.ffi.Struct$Padding",
+     "jnr.ffi.Type",
+     "jnr.ffi.byref.ShortByReference",
+     "jnr.ffi.mapper.DataConverter",
+     "jnr.ffi.StructLayout$Padding",
+     "jnr.ffi.Platform",
+     "jnr.ffi.StructLayout$time_t",
+     "jnr.ffi.StructLayout$mode_t",
+     "jnr.ffi.StructLayout$nlink_t",
+     "jnr.ffi.mapper.FromNativeConverter",
+     "jnr.ffi.Struct$UnsignedLong",
+     "jnr.ffi.StructLayout$Signed16",
+     "jnr.ffi.StructLayout$blksize_t",
+     "jnr.ffi.provider.MemoryManager",
+     "jnr.ffi.byref.ByReference",
+     "jnr.ffi.StructLayout$int16_t",
+     "jnr.ffi.mapper.FunctionMapper$Context",
+     "jnr.ffi.StructLayout$Field",
+     "jnr.ffi.Variable",
+     "jnr.ffi.StructLayout$Signed64",
+     "jnr.ffi.Pointer",
+     "jnr.ffi.StructLayout$blkcnt_t",
+     "jnr.ffi.mapper.ToNativeConverter",
+     "jnr.ffi.Struct$Pointer",
+     "jnr.ffi.StructLayout$ino_t",
+     "jnr.ffi.StructLayout$Unsigned64",
+     "jnr.ffi.Struct$Unsigned32",
+     "jnr.ffi.LastError",
+     "jnr.ffi.annotations.Delegate",
+     "jnr.ffi.annotations.Out",
+     "jnr.ffi.mapper.FunctionMapper",
+     "jnr.ffi.annotations.NulTerminate",
+     "jnr.ffi.Struct",
+     "jnr.ffi.Runtime",
+     "jnr.ffi.mapper.TypeMapper",
+     "jnr.ffi.StructLayout$uid_t",
+     "jnr.ffi.Struct$Signed64",
+     "jnr.ffi.mapper.ToNativeContext",
+     "jnr.ffi.StructLayout$Signed32",
+     "jnr.ffi.types.intptr_t",
+     "jnr.ffi.StructLayout$dev_t",
+     "jnr.ffi.StructLayout$Unsigned16",
+     "jnr.ffi.LibraryLoader",
+     "jnr.ffi.StructLayout$UnsignedLong",
+     "jnr.ffi.mapper.FromNativeContext",
+     "jnr.ffi.annotations.Direct",
+     "jnr.ffi.annotations.StdCall",
+     "jnr.ffi.StructLayout$size_t",
+     "jnr.ffi.annotations.IgnoreError",
+     "jnr.ffi.StructLayout$int32_t",
+     "jnr.ffi.Library",
+     "jnr.ffi.Struct$SignedLong",
+     "jnr.ffi.StructLayout$clock_t",
+     "jnr.ffi.StructLayout$SignedLong",
+     "jnr.ffi.StructLayout$socklen_t",
+     "jnr.ffi.annotations.In",
+     "jnr.ffi.StructLayout$gid_t",
+     "jnr.ffi.types.pid_t",
+     "jnr.ffi.types.ssize_t",
+     "jnr.ffi.Memory",
+     "jnr.ffi.StructLayout",
+     "jnr.ffi.annotations.Transient",
+     "jnr.ffi.LibraryOption"
+    ],
+    "usageRatio": 0.1234375,
+    "children": [
+     {
+      "id": "com.github.jnr:jffi:jar:1.2.15:compile",
+      "coordinates": "com.github.jnr:jffi:1.2.15",
+      "groupId": "com.github.jnr",
+      "artifactId": "jffi",
+      "version": "1.2.15",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 151208,
+      "type": "transitive",
+      "status": "used",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "com.kenai.jffi.Type$TypeInfo",
+       "com.kenai.jffi.HeapInvocationBuffer$BigEndianArrayIO",
+       "com.kenai.jffi.ClosureManager",
+       "com.kenai.jffi.PageManager",
+       "com.kenai.jffi.Aggregate",
+       "com.kenai.jffi.Platform$Windows",
+       "com.kenai.jffi.HeapInvocationBuffer$InvalidArrayIO",
+       "com.kenai.jffi.InvocationBuffer",
+       "com.kenai.jffi.MemoryIO$NativeImpl32",
+       "com.kenai.jffi.ClosurePool$1",
+       "com.kenai.jffi.Version",
+       "com.kenai.jffi.Library",
+       "com.kenai.jffi.ClosurePool$MagazineHolder",
+       "com.kenai.jffi.HeapInvocationBuffer$LittleEndianArrayIO",
+       "com.kenai.jffi.HeapInvocationBuffer$LE64ArrayIO",
+       "com.kenai.jffi.PageManager$Windows",
+       "com.kenai.jffi.internal.StubLoader$1",
+       "com.kenai.jffi.HeapInvocationBuffer$ArrayIO",
+       "com.kenai.jffi.NativeMethods$ResourceHolder",
+       "com.kenai.jffi.MemoryIO$1",
+       "com.kenai.jffi.Foreign$ValidInstanceHolder",
+       "com.kenai.jffi.NativeMethods",
+       "com.kenai.jffi.ObjectParameterType$ObjectType",
+       "com.kenai.jffi.Main",
+       "com.kenai.jffi.Platform$SingletonHolder",
+       "com.kenai.jffi.Closure$Handle",
+       "com.kenai.jffi.ClosureMagazine",
+       "com.kenai.jffi.CallContextCache$SingletonHolder",
+       "com.kenai.jffi.CallContextCache",
+       "com.kenai.jffi.LastError$SingletonHolder",
+       "com.kenai.jffi.MemoryIO$CheckedNativeImpl",
+       "com.kenai.jffi.HeapInvocationBuffer$DefaultEncoder",
+       "com.kenai.jffi.Struct$1",
+       "com.kenai.jffi.Init",
+       "com.kenai.jffi.Platform$OS",
+       "com.kenai.jffi.PageManager$SingletonHolder",
+       "com.kenai.jffi.HeapInvocationBuffer$ArrayIO$SingletonHolder",
+       "com.kenai.jffi.NativeObjectParameterInvoker",
+       "com.kenai.jffi.DirectClosureBuffer$1",
+       "com.kenai.jffi.LastError",
+       "com.kenai.jffi.Platform$CPU",
+       "com.kenai.jffi.CallingConvention",
+       "com.kenai.jffi.ClosurePool$Proxy",
+       "com.kenai.jffi.DirectClosureBuffer$NativeWordIO",
+       "com.kenai.jffi.ObjectBuffer",
+       "com.kenai.jffi.Type$1",
+       "com.kenai.jffi.Invoker$ILP32",
+       "com.kenai.jffi.MemoryIO$NativeImpl",
+       "com.kenai.jffi.InvokeDynamicSupport$Invoker",
+       "com.kenai.jffi.ObjectParameterType",
+       "com.kenai.jffi.ClosureMagazine$Handle",
+       "com.kenai.jffi.LastError$1",
+       "com.kenai.jffi.DirectClosureBuffer$NativeWordIO64",
+       "com.kenai.jffi.Platform$Darwin",
+       "com.kenai.jffi.Platform$Default",
+       "com.kenai.jffi.ObjectParameterType$ComponentType",
+       "com.kenai.jffi.Library$DefaultLibrary",
+       "com.kenai.jffi.Platform$1",
+       "com.kenai.jffi.ClosurePool$Handle",
+       "com.kenai.jffi.Type$Builtin",
+       "com.kenai.jffi.Util",
+       "com.kenai.jffi.NativeMethod",
+       "com.kenai.jffi.CallContextCache$1",
+       "com.kenai.jffi.MemoryIO$UnsafeImpl64",
+       "com.kenai.jffi.HeapInvocationBuffer$LE32ArrayIO",
+       "com.kenai.jffi.HeapInvocationBuffer$Encoder",
+       "com.kenai.jffi.internal.StubLoader",
+       "com.kenai.jffi.Invoker$LP64",
+       "com.kenai.jffi.MemoryIO$UnsafeImpl",
+       "com.kenai.jffi.Foreign$InValidInstanceHolder",
+       "com.kenai.jffi.MemoryIO",
+       "com.kenai.jffi.ObjectParameterInvoker$SingletonHolder",
+       "com.kenai.jffi.CallContextCache$CallContextRef",
+       "com.kenai.jffi.ObjectParameterInvoker",
+       "com.kenai.jffi.Foreign$InstanceHolder",
+       "com.kenai.jffi.PageManager$Unix",
+       "com.kenai.jffi.HeapInvocationBuffer",
+       "com.kenai.jffi.ClosureManager$1",
+       "com.kenai.jffi.MemoryIO$SingletonHolder",
+       "com.kenai.jffi.ClosurePool",
+       "com.kenai.jffi.Invoker$SingletonHolder",
+       "com.kenai.jffi.HeapInvocationBuffer$BE64ArrayIO",
+       "com.kenai.jffi.internal.StubLoader$OS",
+       "com.kenai.jffi.ClosureMagazine$1",
+       "com.kenai.jffi.NativeType",
+       "com.kenai.jffi.ObjectParameterType$TypeCache",
+       "com.kenai.jffi.HeapObjectParameterInvoker",
+       "com.kenai.jffi.Foreign$1",
+       "com.kenai.jffi.Struct$StructReference",
+       "com.kenai.jffi.ClosurePool$Magazine$Slot",
+       "com.kenai.jffi.ClosureManager$SingletonHolder",
+       "com.kenai.jffi.Foreign",
+       "com.kenai.jffi.Platform",
+       "com.kenai.jffi.InvokeDynamicSupport$JSR292",
+       "com.kenai.jffi.Type",
+       "com.kenai.jffi.Array",
+       "com.kenai.jffi.ObjectParameterStrategy",
+       "com.kenai.jffi.MemoryIO$NativeImpl64",
+       "com.kenai.jffi.MemoryIO$CheckedMemorySingletonHolder",
+       "com.kenai.jffi.InvokeDynamicSupport",
+       "com.kenai.jffi.CallContext",
+       "com.kenai.jffi.Invoker",
+       "com.kenai.jffi.Union",
+       "com.kenai.jffi.ObjectParameterInfo$ComponentType",
+       "com.kenai.jffi.DirectClosureBuffer",
+       "com.kenai.jffi.HeapInvocationBuffer$1",
+       "com.kenai.jffi.DirectClosureBuffer$NativeWordIO32",
+       "com.kenai.jffi.ObjectParameterInfo",
+       "com.kenai.jffi.HeapInvocationBuffer$BE32ArrayIO",
+       "com.kenai.jffi.ArrayFlags",
+       "com.kenai.jffi.Invoker$1",
+       "com.kenai.jffi.Closure",
+       "com.kenai.jffi.HeapInvocationBuffer$Encoder$SingletonHolder",
+       "com.kenai.jffi.FaultException",
+       "com.kenai.jffi.MemoryIO$UnsafeImpl32",
+       "com.kenai.jffi.Function",
+       "com.kenai.jffi.ClosurePool$Magazine",
+       "com.kenai.jffi.CallContextCache$Signature",
+       "com.kenai.jffi.Closure$Buffer",
+       "com.kenai.jffi.internal.StubLoader$CPU",
+       "com.kenai.jffi.Platform$ArchHolder",
+       "com.kenai.jffi.ObjectParameterInfo$ObjectType",
+       "com.kenai.jffi.Internals",
+       "com.kenai.jffi.Struct",
+       "com.kenai.jffi.DirectObjectParameterStrategy",
+       "com.kenai.jffi.ObjectParameterStrategy$StrategyType"
+      ],
+      "usedTypes": [
+       "com.kenai.jffi.MemoryIO"
+      ],
+      "usageRatio": 0.007936507936507936,
+      "children": []
+     },
+     {
+      "id": "com.github.jnr:jffi:jar:1.2.15:runtime",
+      "coordinates": "com.github.jnr:jffi:1.2.15",
+      "groupId": "com.github.jnr",
+      "artifactId": "jffi",
+      "version": "1.2.15",
+      "scope": "runtime",
+      "packaging": "jar",
+      "omitted": false,
+      "classifier": "native",
+      "size": 151208,
+      "type": "unknown",
+      "status": "unknown",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [],
+      "usedTypes": [],
+      "usageRatio": -1.0,
+      "children": []
+     },
+     {
+      "id": "org.ow2.asm:asm:jar:5.0.3:compile",
+      "coordinates": "org.ow2.asm:asm:5.0.3",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm",
+      "version": "5.0.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 53231,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "org.objectweb.asm.ClassWriter",
+       "org.objectweb.asm.AnnotationVisitor",
+       "org.objectweb.asm.MethodVisitor",
+       "org.objectweb.asm.Edge",
+       "org.objectweb.asm.FieldWriter",
+       "org.objectweb.asm.FieldVisitor",
+       "org.objectweb.asm.TypeReference",
+       "org.objectweb.asm.Label",
+       "org.objectweb.asm.Type",
+       "org.objectweb.asm.Context",
+       "org.objectweb.asm.Attribute",
+       "org.objectweb.asm.signature.SignatureWriter",
+       "org.objectweb.asm.ClassVisitor",
+       "org.objectweb.asm.Frame",
+       "org.objectweb.asm.ByteVector",
+       "org.objectweb.asm.Opcodes",
+       "org.objectweb.asm.Handler",
+       "org.objectweb.asm.signature.SignatureReader",
+       "org.objectweb.asm.Handle",
+       "org.objectweb.asm.Item",
+       "org.objectweb.asm.TypePath",
+       "org.objectweb.asm.ClassReader",
+       "org.objectweb.asm.AnnotationWriter",
+       "org.objectweb.asm.MethodWriter",
+       "org.objectweb.asm.signature.SignatureVisitor"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     },
+     {
+      "id": "org.ow2.asm:asm-commons:jar:5.0.3:compile",
+      "coordinates": "org.ow2.asm:asm-commons:5.0.3",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-commons",
+      "version": "5.0.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 41717,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "org.objectweb.asm.commons.Remapper",
+       "org.objectweb.asm.commons.RemappingAnnotationAdapter",
+       "org.objectweb.asm.commons.AdviceAdapter",
+       "org.objectweb.asm.commons.JSRInlinerAdapter$Instantiation",
+       "org.objectweb.asm.commons.RemappingMethodAdapter",
+       "org.objectweb.asm.commons.TryCatchBlockSorter",
+       "org.objectweb.asm.commons.CodeSizeEvaluator",
+       "org.objectweb.asm.commons.SerialVersionUIDAdder",
+       "org.objectweb.asm.commons.AnalyzerAdapter",
+       "org.objectweb.asm.commons.Method",
+       "org.objectweb.asm.commons.GeneratorAdapter",
+       "org.objectweb.asm.commons.LocalVariablesSorter",
+       "org.objectweb.asm.commons.RemappingClassAdapter",
+       "org.objectweb.asm.commons.RemappingFieldAdapter",
+       "org.objectweb.asm.commons.TableSwitchGenerator",
+       "org.objectweb.asm.commons.StaticInitMerger",
+       "org.objectweb.asm.commons.SimpleRemapper",
+       "org.objectweb.asm.commons.InstructionAdapter",
+       "org.objectweb.asm.commons.SerialVersionUIDAdder$Item",
+       "org.objectweb.asm.commons.TryCatchBlockSorter$1",
+       "org.objectweb.asm.commons.RemappingSignatureAdapter",
+       "org.objectweb.asm.commons.JSRInlinerAdapter"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": [
+       {
+        "id": "org.ow2.asm:asm-tree:jar:5.0.3:compile",
+        "coordinates": "org.ow2.asm:asm-tree:5.0.3",
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm-tree",
+        "version": "5.0.3",
+        "scope": "compile",
+        "packaging": "jar",
+        "omitted": true,
+        "size": 29036,
+        "type": "transitive",
+        "status": "bloated",
+        "parent": "org.ow2.asm:asm-commons:jar:5.0.3:compile",
+        "allTypes": [
+         "org.objectweb.asm.tree.AnnotationNode",
+         "org.objectweb.asm.tree.FieldInsnNode",
+         "org.objectweb.asm.tree.MethodInsnNode",
+         "org.objectweb.asm.tree.TableSwitchInsnNode",
+         "org.objectweb.asm.tree.LineNumberNode",
+         "org.objectweb.asm.tree.IincInsnNode",
+         "org.objectweb.asm.tree.IntInsnNode",
+         "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+         "org.objectweb.asm.tree.InnerClassNode",
+         "org.objectweb.asm.tree.MethodNode",
+         "org.objectweb.asm.tree.LocalVariableNode",
+         "org.objectweb.asm.tree.TypeInsnNode",
+         "org.objectweb.asm.tree.InsnList$InsnListIterator",
+         "org.objectweb.asm.tree.TypeAnnotationNode",
+         "org.objectweb.asm.tree.JumpInsnNode",
+         "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+         "org.objectweb.asm.tree.ParameterNode",
+         "org.objectweb.asm.tree.InsnList",
+         "org.objectweb.asm.tree.LabelNode",
+         "org.objectweb.asm.tree.LdcInsnNode",
+         "org.objectweb.asm.tree.MethodNode$1",
+         "org.objectweb.asm.tree.AbstractInsnNode",
+         "org.objectweb.asm.tree.TryCatchBlockNode",
+         "org.objectweb.asm.tree.VarInsnNode",
+         "org.objectweb.asm.tree.FrameNode",
+         "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+         "org.objectweb.asm.tree.FieldNode",
+         "org.objectweb.asm.tree.ClassNode",
+         "org.objectweb.asm.tree.InsnNode",
+         "org.objectweb.asm.tree.LookupSwitchInsnNode"
+        ],
+        "usedTypes": [],
+        "usageRatio": 0.0,
+        "children": []
+       }
+      ]
+     },
+     {
+      "id": "org.ow2.asm:asm-analysis:jar:5.0.3:compile",
+      "coordinates": "org.ow2.asm:asm-analysis:5.0.3",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-analysis",
+      "version": "5.0.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 20443,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "org.objectweb.asm.tree.analysis.SourceInterpreter",
+       "org.objectweb.asm.tree.analysis.SourceValue",
+       "org.objectweb.asm.tree.analysis.AnalyzerException",
+       "org.objectweb.asm.tree.analysis.BasicVerifier",
+       "org.objectweb.asm.tree.analysis.Frame",
+       "org.objectweb.asm.tree.analysis.SmallSet",
+       "org.objectweb.asm.tree.analysis.Analyzer",
+       "org.objectweb.asm.tree.analysis.SimpleVerifier",
+       "org.objectweb.asm.tree.analysis.Value",
+       "org.objectweb.asm.tree.analysis.BasicValue",
+       "org.objectweb.asm.tree.analysis.BasicInterpreter",
+       "org.objectweb.asm.tree.analysis.Interpreter",
+       "org.objectweb.asm.tree.analysis.Subroutine"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": [
+       {
+        "id": "org.ow2.asm:asm-tree:jar:5.0.3:compile",
+        "coordinates": "org.ow2.asm:asm-tree:5.0.3",
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm-tree",
+        "version": "5.0.3",
+        "scope": "compile",
+        "packaging": "jar",
+        "omitted": true,
+        "size": 29036,
+        "type": "transitive",
+        "status": "bloated",
+        "parent": "org.ow2.asm:asm-analysis:jar:5.0.3:compile",
+        "allTypes": [
+         "org.objectweb.asm.tree.AnnotationNode",
+         "org.objectweb.asm.tree.FieldInsnNode",
+         "org.objectweb.asm.tree.MethodInsnNode",
+         "org.objectweb.asm.tree.TableSwitchInsnNode",
+         "org.objectweb.asm.tree.LineNumberNode",
+         "org.objectweb.asm.tree.IincInsnNode",
+         "org.objectweb.asm.tree.IntInsnNode",
+         "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+         "org.objectweb.asm.tree.InnerClassNode",
+         "org.objectweb.asm.tree.MethodNode",
+         "org.objectweb.asm.tree.LocalVariableNode",
+         "org.objectweb.asm.tree.TypeInsnNode",
+         "org.objectweb.asm.tree.InsnList$InsnListIterator",
+         "org.objectweb.asm.tree.TypeAnnotationNode",
+         "org.objectweb.asm.tree.JumpInsnNode",
+         "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+         "org.objectweb.asm.tree.ParameterNode",
+         "org.objectweb.asm.tree.InsnList",
+         "org.objectweb.asm.tree.LabelNode",
+         "org.objectweb.asm.tree.LdcInsnNode",
+         "org.objectweb.asm.tree.MethodNode$1",
+         "org.objectweb.asm.tree.AbstractInsnNode",
+         "org.objectweb.asm.tree.TryCatchBlockNode",
+         "org.objectweb.asm.tree.VarInsnNode",
+         "org.objectweb.asm.tree.FrameNode",
+         "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+         "org.objectweb.asm.tree.FieldNode",
+         "org.objectweb.asm.tree.ClassNode",
+         "org.objectweb.asm.tree.InsnNode",
+         "org.objectweb.asm.tree.LookupSwitchInsnNode"
+        ],
+        "usedTypes": [],
+        "usageRatio": 0.0,
+        "children": []
+       }
+      ]
+     },
+     {
+      "id": "org.ow2.asm:asm-tree:jar:5.0.3:compile",
+      "coordinates": "org.ow2.asm:asm-tree:5.0.3",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-tree",
+      "version": "5.0.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 29036,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "org.objectweb.asm.tree.AnnotationNode",
+       "org.objectweb.asm.tree.FieldInsnNode",
+       "org.objectweb.asm.tree.MethodInsnNode",
+       "org.objectweb.asm.tree.TableSwitchInsnNode",
+       "org.objectweb.asm.tree.LineNumberNode",
+       "org.objectweb.asm.tree.IincInsnNode",
+       "org.objectweb.asm.tree.IntInsnNode",
+       "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+       "org.objectweb.asm.tree.InnerClassNode",
+       "org.objectweb.asm.tree.MethodNode",
+       "org.objectweb.asm.tree.LocalVariableNode",
+       "org.objectweb.asm.tree.TypeInsnNode",
+       "org.objectweb.asm.tree.InsnList$InsnListIterator",
+       "org.objectweb.asm.tree.TypeAnnotationNode",
+       "org.objectweb.asm.tree.JumpInsnNode",
+       "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+       "org.objectweb.asm.tree.ParameterNode",
+       "org.objectweb.asm.tree.InsnList",
+       "org.objectweb.asm.tree.LabelNode",
+       "org.objectweb.asm.tree.LdcInsnNode",
+       "org.objectweb.asm.tree.MethodNode$1",
+       "org.objectweb.asm.tree.AbstractInsnNode",
+       "org.objectweb.asm.tree.TryCatchBlockNode",
+       "org.objectweb.asm.tree.VarInsnNode",
+       "org.objectweb.asm.tree.FrameNode",
+       "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+       "org.objectweb.asm.tree.FieldNode",
+       "org.objectweb.asm.tree.ClassNode",
+       "org.objectweb.asm.tree.InsnNode",
+       "org.objectweb.asm.tree.LookupSwitchInsnNode"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": [
+       {
+        "id": "org.ow2.asm:asm:jar:5.0.3:compile",
+        "coordinates": "org.ow2.asm:asm:5.0.3",
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm",
+        "version": "5.0.3",
+        "scope": "compile",
+        "packaging": "jar",
+        "omitted": true,
+        "size": 53231,
+        "type": "transitive",
+        "status": "bloated",
+        "parent": "org.ow2.asm:asm-tree:jar:5.0.3:compile",
+        "allTypes": [
+         "org.objectweb.asm.ClassWriter",
+         "org.objectweb.asm.AnnotationVisitor",
+         "org.objectweb.asm.MethodVisitor",
+         "org.objectweb.asm.Edge",
+         "org.objectweb.asm.FieldWriter",
+         "org.objectweb.asm.FieldVisitor",
+         "org.objectweb.asm.TypeReference",
+         "org.objectweb.asm.Label",
+         "org.objectweb.asm.Type",
+         "org.objectweb.asm.Context",
+         "org.objectweb.asm.Attribute",
+         "org.objectweb.asm.signature.SignatureWriter",
+         "org.objectweb.asm.ClassVisitor",
+         "org.objectweb.asm.Frame",
+         "org.objectweb.asm.ByteVector",
+         "org.objectweb.asm.Opcodes",
+         "org.objectweb.asm.Handler",
+         "org.objectweb.asm.signature.SignatureReader",
+         "org.objectweb.asm.Handle",
+         "org.objectweb.asm.Item",
+         "org.objectweb.asm.TypePath",
+         "org.objectweb.asm.ClassReader",
+         "org.objectweb.asm.AnnotationWriter",
+         "org.objectweb.asm.MethodWriter",
+         "org.objectweb.asm.signature.SignatureVisitor"
+        ],
+        "usedTypes": [],
+        "usageRatio": 0.0,
+        "children": []
+       }
+      ]
+     },
+     {
+      "id": "org.ow2.asm:asm-util:jar:5.0.3:compile",
+      "coordinates": "org.ow2.asm:asm-util:5.0.3",
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm-util",
+      "version": "5.0.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 43296,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "org.objectweb.asm.util.TraceClassVisitor",
+       "org.objectweb.asm.util.ASMifier",
+       "org.objectweb.asm.util.TraceFieldVisitor",
+       "org.objectweb.asm.util.TraceSignatureVisitor",
+       "org.objectweb.asm.util.CheckFieldAdapter",
+       "org.objectweb.asm.util.Textifiable",
+       "org.objectweb.asm.util.CheckClassAdapter",
+       "org.objectweb.asm.util.CheckSignatureAdapter",
+       "org.objectweb.asm.util.ASMifiable",
+       "org.objectweb.asm.util.CheckMethodAdapter$1",
+       "org.objectweb.asm.util.Printer",
+       "org.objectweb.asm.util.CheckAnnotationAdapter",
+       "org.objectweb.asm.util.TraceAnnotationVisitor",
+       "org.objectweb.asm.util.Textifier",
+       "org.objectweb.asm.util.CheckMethodAdapter",
+       "org.objectweb.asm.util.TraceMethodVisitor"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": [
+       {
+        "id": "org.ow2.asm:asm-tree:jar:5.0.3:compile",
+        "coordinates": "org.ow2.asm:asm-tree:5.0.3",
+        "groupId": "org.ow2.asm",
+        "artifactId": "asm-tree",
+        "version": "5.0.3",
+        "scope": "compile",
+        "packaging": "jar",
+        "omitted": true,
+        "size": 29036,
+        "type": "transitive",
+        "status": "bloated",
+        "parent": "org.ow2.asm:asm-util:jar:5.0.3:compile",
+        "allTypes": [
+         "org.objectweb.asm.tree.AnnotationNode",
+         "org.objectweb.asm.tree.FieldInsnNode",
+         "org.objectweb.asm.tree.MethodInsnNode",
+         "org.objectweb.asm.tree.TableSwitchInsnNode",
+         "org.objectweb.asm.tree.LineNumberNode",
+         "org.objectweb.asm.tree.IincInsnNode",
+         "org.objectweb.asm.tree.IntInsnNode",
+         "org.objectweb.asm.tree.MultiANewArrayInsnNode",
+         "org.objectweb.asm.tree.InnerClassNode",
+         "org.objectweb.asm.tree.MethodNode",
+         "org.objectweb.asm.tree.LocalVariableNode",
+         "org.objectweb.asm.tree.TypeInsnNode",
+         "org.objectweb.asm.tree.InsnList$InsnListIterator",
+         "org.objectweb.asm.tree.TypeAnnotationNode",
+         "org.objectweb.asm.tree.JumpInsnNode",
+         "org.objectweb.asm.tree.LocalVariableAnnotationNode",
+         "org.objectweb.asm.tree.ParameterNode",
+         "org.objectweb.asm.tree.InsnList",
+         "org.objectweb.asm.tree.LabelNode",
+         "org.objectweb.asm.tree.LdcInsnNode",
+         "org.objectweb.asm.tree.MethodNode$1",
+         "org.objectweb.asm.tree.AbstractInsnNode",
+         "org.objectweb.asm.tree.TryCatchBlockNode",
+         "org.objectweb.asm.tree.VarInsnNode",
+         "org.objectweb.asm.tree.FrameNode",
+         "org.objectweb.asm.tree.InvokeDynamicInsnNode",
+         "org.objectweb.asm.tree.FieldNode",
+         "org.objectweb.asm.tree.ClassNode",
+         "org.objectweb.asm.tree.InsnNode",
+         "org.objectweb.asm.tree.LookupSwitchInsnNode"
+        ],
+        "usedTypes": [],
+        "usageRatio": 0.0,
+        "children": []
+       }
+      ]
+     },
+     {
+      "id": "com.github.jnr:jnr-x86asm:jar:1.0.2:compile",
+      "coordinates": "com.github.jnr:jnr-x86asm:1.0.2",
+      "groupId": "com.github.jnr",
+      "artifactId": "jnr-x86asm",
+      "version": "1.0.2",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 219943,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.github.jnr:jnr-ffi:jar:2.1.4:compile",
+      "allTypes": [
+       "jnr.x86asm.SerializerCore",
+       "jnr.x86asm.TrampolineWriter",
+       "com.kenai.jnr.x86asm.RelocData",
+       "jnr.x86asm.Mem",
+       "com.kenai.jnr.x86asm.X87Register",
+       "com.kenai.jnr.x86asm.Immediate$Cache",
+       "com.kenai.jnr.x86asm.OperandFlags",
+       "jnr.x86asm.Immediate$Cache",
+       "com.kenai.jnr.x86asm.CpuInfo",
+       "com.kenai.jnr.x86asm.Asm",
+       "com.kenai.jnr.x86asm.MMRegister",
+       "jnr.x86asm.Label",
+       "jnr.x86asm.InstructionGroup",
+       "jnr.x86asm.LinkData",
+       "jnr.x86asm.X87Register",
+       "com.kenai.jnr.x86asm.HINT",
+       "com.kenai.jnr.x86asm.TrampolineWriter",
+       "com.kenai.jnr.x86asm.SIZE",
+       "com.kenai.jnr.x86asm.Immediate",
+       "com.kenai.jnr.x86asm.PROPERTY",
+       "jnr.x86asm.SEGMENT",
+       "jnr.x86asm.InstructionDescription",
+       "jnr.x86asm.MMRegister",
+       "com.kenai.jnr.x86asm.SerializerIntrinsics",
+       "com.kenai.jnr.x86asm.BaseReg",
+       "com.kenai.jnr.x86asm.Logger",
+       "jnr.x86asm.Serializer",
+       "jnr.x86asm.Immediate",
+       "com.kenai.jnr.x86asm.Mem",
+       "jnr.x86asm.PROPERTY",
+       "jnr.x86asm.Asm",
+       "com.kenai.jnr.x86asm.RelocData$Type",
+       "jnr.x86asm.RelocData$Type",
+       "com.kenai.jnr.x86asm.Serializer",
+       "jnr.x86asm.SerializerIntrinsics",
+       "jnr.x86asm.REG",
+       "com.kenai.jnr.x86asm.SerializerCore",
+       "jnr.x86asm.XMMRegister",
+       "com.kenai.jnr.x86asm.Assembler$1",
+       "jnr.x86asm.INST_CODE",
+       "jnr.x86asm.OperandFlags",
+       "jnr.x86asm.SIZE",
+       "jnr.x86asm.Assembler",
+       "com.kenai.jnr.x86asm.SEGMENT",
+       "com.kenai.jnr.x86asm.XMMRegister",
+       "jnr.x86asm.Operand",
+       "jnr.x86asm.RID",
+       "com.kenai.jnr.x86asm.CpuInfo$Vendor",
+       "jnr.x86asm.CPU",
+       "com.kenai.jnr.x86asm.INST_CODE",
+       "com.kenai.jnr.x86asm.InstructionDescription",
+       "jnr.x86asm.HINT",
+       "com.kenai.jnr.x86asm.OP",
+       "com.kenai.jnr.x86asm.SerializerCore$1",
+       "jnr.x86asm.Logger",
+       "com.kenai.jnr.x86asm.Operand",
+       "com.kenai.jnr.x86asm.CONDITION",
+       "com.kenai.jnr.x86asm.Assembler",
+       "jnr.x86asm.CodeBuffer",
+       "com.kenai.jnr.x86asm.CPU",
+       "com.kenai.jnr.x86asm.InstructionGroup",
+       "jnr.x86asm.Util",
+       "com.kenai.jnr.x86asm.LinkData",
+       "jnr.x86asm.Register",
+       "jnr.x86asm.RELOC_MODE",
+       "com.kenai.jnr.x86asm.Label",
+       "com.kenai.jnr.x86asm.ERROR_CODE",
+       "jnr.x86asm.RelocData",
+       "jnr.x86asm.CpuInfo$Vendor",
+       "jnr.x86asm.SerializerCore$1",
+       "com.kenai.jnr.x86asm.CodeBuffer",
+       "jnr.x86asm.CONDITION",
+       "com.kenai.jnr.x86asm.LABEL_STATE",
+       "com.kenai.jnr.x86asm.Register",
+       "com.kenai.jnr.x86asm.REG",
+       "com.kenai.jnr.x86asm.RELOC_MODE",
+       "jnr.x86asm.OP",
+       "com.kenai.jnr.x86asm.Util",
+       "jnr.x86asm.BaseReg",
+       "jnr.x86asm.Assembler$1",
+       "jnr.x86asm.LABEL_STATE",
+       "com.kenai.jnr.x86asm.RID",
+       "jnr.x86asm.ERROR_CODE",
+       "jnr.x86asm.CpuInfo"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "com.github.jnr:jnr-constants:jar:0.9.8:compile",
+    "coordinates": "com.github.jnr:jnr-constants:0.9.8",
+    "groupId": "com.github.jnr",
+    "artifactId": "jnr-constants",
+    "version": "0.9.8",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 358029,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.jnr:jnr-posix:jar:3.0.40",
+    "allTypes": [
+     "jnr.constants.platform.solaris.Access",
+     "jnr.constants.platform.openbsd.RLIM",
+     "jnr.constants.platform.darwin.RLIMIT",
+     "jnr.constants.Platform$PackageNameResolver",
+     "jnr.constants.platform.ConstantResolver",
+     "jnr.constants.platform.freebsd.PosixFadvise",
+     "jnr.constants.platform.freebsd.Access",
+     "jnr.constants.platform.linux.RLIM",
+     "jnr.constants.platform.windows.Signal",
+     "jnr.constants.platform.solaris.PosixFadvise",
+     "jnr.constants.platform.darwin.LangInfo",
+     "jnr.constants.platform.IPProto",
+     "jnr.constants.platform.fake.SocketOption",
+     "jnr.constants.platform.darwin.Errno$StringTable",
+     "jnr.constants.platform.solaris.SocketLevel",
+     "jnr.constants.platform.linux.Access",
+     "jnr.constants.platform.openbsd.Errno",
+     "jnr.constants.platform.linux.Fcntl",
+     "jnr.constants.platform.openbsd.PRIO",
+     "jnr.constants.platform.linux.WaitFlags",
+     "jnr.constants.platform.linux.TCP",
+     "com.kenai.constantine.ConstantSet$ConstantIterator",
+     "jnr.constants.platform.freebsd.RLIM",
+     "jnr.constants.platform.fake.INAddr",
+     "jnr.constants.platform.freebsd.Signal",
+     "jnr.constants.platform.linux.OpenFlags",
+     "jnr.constants.platform.solaris.Signal",
+     "com.kenai.constantine.platform.Sock",
+     "jnr.constants.platform.openbsd.IPProto",
+     "jnr.constants.platform.linux.Signal",
+     "jnr.constants.platform.freebsd.AddressFamily",
+     "jnr.constants.platform.fake.Signal",
+     "jnr.constants.platform.solaris.Sock",
+     "jnr.constants.platform.solaris.ProtocolFamily",
+     "jnr.constants.platform.freebsd.WaitFlags",
+     "jnr.constants.platform.darwin.NameInfo",
+     "jnr.constants.platform.openbsd.Locale",
+     "com.kenai.constantine.platform.RLIMIT",
+     "jnr.constants.platform.RLIMIT",
+     "jnr.constants.platform.openbsd.TCP",
+     "jnr.constants.platform.fake.Sysconf",
+     "jnr.constants.platform.fake.WaitFlags",
+     "jnr.constants.platform.openbsd.Sysconf",
+     "jnr.constants.platform.fake.ProtocolFamily",
+     "jnr.constants.platform.Sock",
+     "jnr.constants.platform.darwin.IPProto",
+     "jnr.constants.platform.openbsd.Fcntl",
+     "com.kenai.constantine.platform.Signal",
+     "jnr.constants.platform.darwin.PRIO",
+     "jnr.constants.platform.WaitFlags",
+     "jnr.constants.Platform$1",
+     "jnr.constants.platform.freebsd.Shutdown",
+     "jnr.constants.platform.freebsd.TCP",
+     "jnr.constants.platform.darwin.Shutdown",
+     "jnr.constants.platform.solaris.Locale",
+     "jnr.constants.platform.fake.Shutdown",
+     "jnr.constants.platform.SocketLevel",
+     "com.kenai.constantine.platform.TCP",
+     "jnr.constants.platform.linux.Errno",
+     "jnr.constants.ConstantSet$ConstantIterator",
+     "com.kenai.constantine.platform.ConstantResolver",
+     "com.kenai.constantine.ConstantSet",
+     "jnr.constants.platform.openbsd.Shutdown",
+     "jnr.constants.platform.ProtocolFamily",
+     "jnr.constants.platform.fake.Sock",
+     "jnr.constants.platform.Access",
+     "jnr.constants.Platform$2",
+     "jnr.constants.platform.darwin.OpenFlags",
+     "jnr.constants.platform.fake.PosixFadvise",
+     "jnr.constants.platform.linux.ProtocolFamily",
+     "jnr.constants.Constant",
+     "jnr.constants.platform.freebsd.RLIMIT",
+     "jnr.constants.platform.linux.PRIO",
+     "jnr.constants.platform.darwin.Locale",
+     "jnr.constants.platform.darwin.SocketLevel",
+     "com.kenai.constantine.platform.SocketOption",
+     "jnr.constants.platform.linux.Shutdown",
+     "com.kenai.constantine.platform.IPProto",
+     "jnr.constants.platform.Errno",
+     "com.kenai.constantine.platform.OpenFlags",
+     "jnr.constants.platform.darwin.Errno",
+     "jnr.constants.platform.windows.Errno",
+     "jnr.constants.platform.darwin.RLIM",
+     "jnr.constants.platform.linux.INAddr",
+     "com.kenai.constantine.platform.NameInfo",
+     "jnr.constants.platform.Locale",
+     "jnr.constants.platform.PosixFadvise",
+     "jnr.constants.platform.solaris.Sysconf",
+     "jnr.constants.platform.linux.SocketLevel",
+     "jnr.constants.platform.openbsd.RLIMIT",
+     "jnr.constants.platform.Shutdown",
+     "jnr.constants.platform.solaris.AddressFamily",
+     "com.kenai.constantine.platform.AddressFamily",
+     "jnr.constants.platform.openbsd.Sock",
+     "jnr.constants.platform.Signal",
+     "jnr.constants.platform.solaris.RLIMIT",
+     "jnr.constants.platform.solaris.Errno",
+     "jnr.constants.platform.darwin.Signal",
+     "jnr.constants.platform.linux.PosixFadvise",
+     "jnr.constants.platform.openbsd.WaitFlags",
+     "com.kenai.constantine.Constant",
+     "jnr.constants.platform.fake.Locale",
+     "jnr.constants.platform.linux.NameInfo",
+     "jnr.constants.platform.linux.Sock",
+     "jnr.constants.platform.freebsd.ProtocolFamily",
+     "jnr.constants.platform.darwin.Sysconf",
+     "jnr.constants.platform.freebsd.IPProto",
+     "jnr.constants.platform.windows.LastError$StringTable",
+     "jnr.constants.platform.openbsd.OpenFlags",
+     "com.kenai.constantine.platform.PRIO",
+     "jnr.constants.platform.solaris.NameInfo",
+     "jnr.constants.platform.openbsd.SocketOption",
+     "jnr.constants.platform.solaris.PRIO",
+     "jnr.constants.platform.solaris.OpenFlags",
+     "jnr.constants.platform.fake.LangInfo",
+     "jnr.constants.platform.freebsd.LangInfo",
+     "com.kenai.constantine.platform.ProtocolFamily",
+     "jnr.constants.platform.solaris.WaitFlags",
+     "jnr.constants.platform.solaris.Fcntl",
+     "jnr.constants.platform.linux.LangInfo",
+     "jnr.constants.platform.darwin.Fcntl",
+     "jnr.constants.platform.openbsd.ProtocolFamily",
+     "jnr.constants.platform.fake.Errno",
+     "jnr.constants.platform.darwin.TCP",
+     "jnr.constants.platform.TCP",
+     "jnr.constants.platform.INAddr",
+     "jnr.constants.platform.solaris.RLIM",
+     "jnr.constants.platform.openbsd.SocketLevel",
+     "jnr.constants.platform.openbsd.AddressFamily",
+     "jnr.constants.platform.fake.RLIMIT",
+     "jnr.constants.platform.linux.Sysconf",
+     "jnr.constants.platform.freebsd.Errno$StringTable",
+     "jnr.constants.platform.freebsd.Sock",
+     "jnr.constants.platform.PRIO",
+     "jnr.constants.platform.fake.Fcntl",
+     "com.kenai.constantine.platform.Sysconf",
+     "jnr.constants.platform.fake.NameInfo",
+     "jnr.constants.platform.RLIM",
+     "com.kenai.constantine.platform.WaitFlags",
+     "jnr.constants.platform.freebsd.INAddr",
+     "com.kenai.constantine.platform.RLIM",
+     "jnr.constants.platform.SocketOption",
+     "jnr.constants.platform.Fcntl",
+     "jnr.constants.platform.darwin.Access",
+     "jnr.constants.platform.solaris.TCP",
+     "jnr.constants.platform.solaris.Shutdown",
+     "jnr.constants.platform.windows.LastError",
+     "jnr.constants.platform.solaris.LangInfo",
+     "jnr.constants.platform.darwin.SocketOption",
+     "jnr.constants.platform.freebsd.SocketLevel",
+     "com.kenai.constantine.platform.INAddr",
+     "jnr.constants.platform.openbsd.Signal",
+     "jnr.constants.platform.fake.Access",
+     "jnr.constants.platform.darwin.ProtocolFamily",
+     "jnr.constants.Platform",
+     "jnr.constants.platform.windows.Errno$StringTable",
+     "jnr.constants.platform.linux.Errno$StringTable",
+     "jnr.constants.platform.darwin.INAddr",
+     "jnr.constants.platform.fake.RLIM",
+     "jnr.constants.platform.freebsd.Locale",
+     "com.kenai.constantine.platform.Fcntl",
+     "jnr.constants.platform.NameInfo",
+     "jnr.constants.platform.solaris.Errno$StringTable",
+     "jnr.constants.platform.fake.IPProto",
+     "com.kenai.constantine.platform.Shutdown",
+     "jnr.constants.platform.linux.IPProto",
+     "jnr.constants.ConstantSet",
+     "jnr.constants.platform.freebsd.Fcntl",
+     "jnr.constants.platform.freebsd.Sysconf",
+     "jnr.constants.platform.fake.TCP",
+     "jnr.constants.platform.solaris.SocketOption",
+     "jnr.constants.platform.darwin.WaitFlags",
+     "com.kenai.constantine.platform.SocketLevel",
+     "jnr.constants.platform.ConstantResolver$UnknownConstant",
+     "jnr.constants.platform.openbsd.Access",
+     "jnr.constants.platform.LangInfo",
+     "jnr.constants.platform.Sysconf",
+     "jnr.constants.platform.linux.Locale",
+     "jnr.constants.platform.linux.AddressFamily",
+     "jnr.constants.platform.freebsd.NameInfo",
+     "jnr.constants.platform.fake.OpenFlags",
+     "jnr.constants.platform.AddressFamily",
+     "jnr.constants.platform.freebsd.OpenFlags",
+     "jnr.constants.platform.openbsd.INAddr",
+     "jnr.constants.platform.darwin.Sock",
+     "jnr.constants.platform.solaris.INAddr",
+     "jnr.constants.platform.darwin.AddressFamily",
+     "com.kenai.constantine.platform.ConstantResolver$UnknownConstant",
+     "jnr.constants.platform.linux.SocketOption",
+     "jnr.constants.platform.solaris.IPProto",
+     "jnr.constants.platform.freebsd.SocketOption",
+     "jnr.constants.platform.openbsd.NameInfo",
+     "jnr.constants.platform.fake.AddressFamily",
+     "jnr.constants.platform.OpenFlags",
+     "jnr.constants.platform.fake.PRIO",
+     "jnr.constants.platform.fake.SocketLevel",
+     "jnr.constants.platform.linux.RLIMIT",
+     "jnr.constants.platform.openbsd.LangInfo",
+     "jnr.constants.platform.openbsd.Errno$StringTable",
+     "jnr.constants.platform.freebsd.Errno",
+     "com.kenai.constantine.ConstantSet$ConstantImpl",
+     "jnr.constants.platform.freebsd.PRIO",
+     "jnr.constants.platform.windows.OpenFlags",
+     "com.kenai.constantine.platform.Errno"
+    ],
+    "usedTypes": [
+     "jnr.constants.platform.windows.LastError",
+     "jnr.constants.platform.RLIMIT",
+     "jnr.constants.platform.OpenFlags",
+     "jnr.constants.platform.Fcntl",
+     "jnr.constants.platform.Access",
+     "jnr.constants.platform.AddressFamily",
+     "jnr.constants.platform.Errno",
+     "jnr.constants.platform.windows.OpenFlags",
+     "jnr.constants.platform.LangInfo",
+     "jnr.constants.platform.SocketLevel",
+     "jnr.constants.platform.Signal",
+     "jnr.constants.platform.Sysconf",
+     "jnr.constants.Constant",
+     "jnr.constants.platform.Sock"
+    ],
+    "usageRatio": 0.06862745098039216,
+    "children": []
+   }
+  ]
+ }
+}

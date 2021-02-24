@@ -1,0 +1,952 @@
+{
+ "usage": {
+  "org.joni.test.TestInterrupt": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ],
+   "junit:junit:jar:4.12:test": [
+    "org.junit.Test"
+   ]
+  },
+  "org.joni.test.TestCrnl": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ],
+   "junit:junit:jar:4.12:test": [
+    "org.junit.Ignore"
+   ]
+  },
+  "org.joni.OptEnvironment": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ast.CClassNode": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.CodeRange",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.bench.AbstractBench": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding"
+   ]
+  },
+  "org.joni.Search": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Regex": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.specific.UTF8Encoding",
+    "org.jcodings.Encoding",
+    "org.jcodings.CaseFoldCodeItem",
+    "org.jcodings.util.BytesHash"
+   ]
+  },
+  "org.joni.Matcher": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.IntHolder",
+    "org.jcodings.constants.CharacterType",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Parser": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.ObjPtr",
+    "org.jcodings.Encoding",
+    "org.jcodings.constants.PosixBracket",
+    "org.jcodings.constants.CharacterType"
+   ]
+  },
+  "module-info": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "module-info"
+   ],
+   "org.ow2.asm:asm:jar:6.2.1:provided": [
+    "module-info"
+   ]
+  },
+  "org.joni.Search$14": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Compiler": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$13": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$12": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$11": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$15": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ScanEnvironment": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ArrayCompiler": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.OptExactInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.NodeOptInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestPerl": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ScannerSupport": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestNSU8": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.NonStrictUTF8Encoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestCornerCases": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.ASCIIEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.OptMapInfo": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.CaseFoldCodeItem",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Config": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Config"
+   ]
+  },
+  "org.joni.CodeRangeBuffer": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Parser$GraphemeNames": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestU8": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.specific.UTF8Encoding"
+   ]
+  },
+  "org.joni.Search$7": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$6": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ApplyCaseFold": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.ApplyAllCaseFoldFunction"
+   ]
+  },
+  "org.joni.Search$5": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$2": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Search$1": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.Lexer": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.exception.ErrorMessages",
+    "org.jcodings.Encoding",
+    "org.jcodings.exception.EncodingError",
+    "org.jcodings.constants.CharacterType",
+    "org.jcodings.exception.CharacterPropertyException"
+   ]
+  },
+  "org.joni.Search$8": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestError": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.UTF8Encoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.Test": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.exception.CharacterPropertyException",
+    "org.jcodings.Encoding"
+   ],
+   "junit:junit:jar:4.12:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "org.joni.test.TestU": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.specific.UTF16BEEncoding",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ByteCodePrinter": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.ast.StringNode": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestC": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.specific.EUCJPEncoding"
+   ]
+  },
+  "org.joni.Analyser": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Ptr",
+    "org.jcodings.ObjPtr",
+    "org.jcodings.Encoding",
+    "org.jcodings.CaseFoldCodeItem"
+   ]
+  },
+  "org.joni.ByteCodeMachine": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.IntHolder",
+    "org.jcodings.CodeRange",
+    "org.jcodings.Encoding"
+   ]
+  },
+  "org.joni.test.TestA": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.Encoding",
+    "org.jcodings.specific.ASCIIEncoding"
+   ]
+  },
+  "org.joni.exception.ErrorMessages": {
+   "org.jruby.jcodings:jcodings:jar:1.0.40:compile": [
+    "org.jcodings.exception.ErrorMessages"
+   ]
+  },
+  "org.joni.AsmCompilerSupport": {
+   "org.ow2.asm:asm:jar:6.2.1:provided": [
+    "org.objectweb.asm.ClassWriter",
+    "org.objectweb.asm.MethodVisitor",
+    "org.objectweb.asm.Opcodes"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.jruby.joni:joni:jar:2.1.23:null",
+  "coordinates": "org.jruby.joni:joni:2.1.23",
+  "groupId": "org.jruby.joni",
+  "artifactId": "joni",
+  "version": "2.1.23",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "org.jruby.jcodings:jcodings:jar:1.0.40:compile",
+    "coordinates": "org.jruby.jcodings:jcodings:1.0.40",
+    "groupId": "org.jruby.jcodings",
+    "artifactId": "jcodings",
+    "version": "1.0.40",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 1665806,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.23",
+    "allTypes": [
+     "org.jcodings.util.CaseInsensitiveBytesHash$CaseInsensitiveBytesHashEntryIterator",
+     "org.jcodings.transcode.specific.Iso2022jp_kddi_encoder_Transcoder",
+     "org.jcodings.Ptr",
+     "org.jcodings.specific.BaseSJISEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CodeList",
+     "org.jcodings.exception.ErrorMessages",
+     "org.jcodings.util.Hash",
+     "org.jcodings.util.IntArrayHash$IntArrayHashEntry",
+     "org.jcodings.specific.ISO8859_9Encoding",
+     "org.jcodings.specific.GB18030Encoding$1",
+     "org.jcodings.specific.UTF32LEEncoding",
+     "org.jcodings.transcode.specific.From_UTF_16_Transcoder",
+     "org.jcodings.specific.USASCIIEncoding",
+     "org.jcodings.specific.ISO8859_16Encoding",
+     "org.jcodings.specific.SJISEncoding",
+     "org.jcodings.transcode.specific.From_UTF_16BE_Transcoder",
+     "org.jcodings.specific.ISO8859_6Encoding",
+     "org.jcodings.util.Hash$HashIterator",
+     "org.jcodings.CanBeTrailTableEncoding",
+     "org.jcodings.specific.Windows_1251Encoding",
+     "org.jcodings.transcode.TranscoderDB$SearchPathQueue",
+     "org.jcodings.transcode.specific.From_UTF_16LE_Transcoder",
+     "org.jcodings.specific.ISO8859_2Encoding",
+     "org.jcodings.transcode.specific.To_UTF_32_Transcoder",
+     "org.jcodings.EucEncoding",
+     "org.jcodings.MultiByteEncoding",
+     "org.jcodings.AbstractEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CaseFold",
+     "org.jcodings.specific.UTF16BEEncoding",
+     "org.jcodings.SingleByteEncoding",
+     "org.jcodings.transcode.Transcoder",
+     "org.jcodings.util.Hash$HashEntryIterator",
+     "org.jcodings.util.BytesHash$BytesHashEntry",
+     "org.jcodings.transcode.Transcoding",
+     "org.jcodings.EncodingDB",
+     "org.jcodings.specific.GB2312Encoding",
+     "org.jcodings.specific.Windows_1257Encoding",
+     "org.jcodings.exception.TranscoderException",
+     "org.jcodings.EncodingList",
+     "org.jcodings.specific.UTF32BEEncoding",
+     "org.jcodings.util.Hash$HashEntry",
+     "org.jcodings.util.ObjHash",
+     "org.jcodings.transcode.specific.To_UTF_32LE_Transcoder",
+     "org.jcodings.transcode.specific.Eucjp2sjis_Transcoder",
+     "org.jcodings.exception.EncodingError",
+     "org.jcodings.IntHolder",
+     "org.jcodings.exception.EncodingException",
+     "org.jcodings.specific.ISO8859_11Encoding",
+     "org.jcodings.transcode.TranscoderDB$Entry",
+     "org.jcodings.transcode.EConv$EConvElement",
+     "org.jcodings.transcode.specific.To_UTF_32BE_Transcoder",
+     "org.jcodings.transcode.AsciiCompatibility",
+     "org.jcodings.ascii.AsciiTables",
+     "org.jcodings.transcode.specific.Iso2022jp_encoder_Transcoder",
+     "org.jcodings.specific.ISO8859_8Encoding",
+     "org.jcodings.constants.PosixBracket",
+     "org.jcodings.spi.ISO_8859_16$Encoder",
+     "org.jcodings.specific.KOI8Encoding",
+     "org.jcodings.transcode.TranscoderDB",
+     "org.jcodings.specific.ISO8859_15Encoding",
+     "org.jcodings.specific.Windows_1250Encoding",
+     "org.jcodings.transcode.specific.From_UTF_32LE_Transcoder",
+     "org.jcodings.transcode.specific.From_UTF_32BE_Transcoder",
+     "module-info",
+     "org.jcodings.specific.ISO8859_5Encoding",
+     "org.jcodings.CaseFoldMapEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CTypeName",
+     "org.jcodings.specific.ISO8859_1Encoding",
+     "org.jcodings.specific.BaseBIG5Encoding",
+     "org.jcodings.transcode.specific.Cp50220_encoder_Transcoder",
+     "org.jcodings.exception.InternalException",
+     "org.jcodings.transcode.specific.Escape_xml_attr_quote_Transcoder",
+     "org.jcodings.transcode.specific.To_UTF_16_Transcoder",
+     "org.jcodings.transcode.specific.Universal_newline_Transcoder",
+     "org.jcodings.util.CaseInsensitiveBytesHash$CaseInsensitiveBytesHashEntry",
+     "org.jcodings.specific.Windows_1254Encoding",
+     "org.jcodings.util.Macros",
+     "org.jcodings.specific.BaseEUCJPEncoding",
+     "org.jcodings.transcode.specific.Cp50221_encoder_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding$CaseUnfold13",
+     "org.jcodings.ISOEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CaseUnfold12",
+     "org.jcodings.unicode.UnicodeProperties",
+     "org.jcodings.specific.BIG5Encoding",
+     "org.jcodings.unicode.UnicodeEncoding$CaseUnfold11",
+     "org.jcodings.transcode.Transcoder$GenericTranscoderEntry",
+     "org.jcodings.util.IntHash$IntHashEntry",
+     "org.jcodings.transcode.specific.To_UTF_16LE_Transcoder",
+     "org.jcodings.specific.ASCIIEncoding",
+     "org.jcodings.specific.NonStrictUTF8Encoding",
+     "org.jcodings.transcode.specific.Eucjp_to_stateless_iso2022jp_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding$CaseMappingSpecials",
+     "org.jcodings.transcode.EConvResult",
+     "org.jcodings.transcode.TranscoderDB$1",
+     "org.jcodings.spi.ISO_8859_16$Decoder",
+     "org.jcodings.specific.Windows_31JEncoding",
+     "org.jcodings.specific.KOI8UEncoding",
+     "org.jcodings.exception.ErrorCodes",
+     "org.jcodings.specific.NonStrictEUCJPEncoding",
+     "org.jcodings.transcode.specific.To_UTF_16BE_Transcoder",
+     "org.jcodings.specific.GB18030Encoding",
+     "org.jcodings.transcode.specific.From_UTF8_MAC_Transcoder",
+     "org.jcodings.transcode.EConv",
+     "org.jcodings.specific.ISO8859_14Encoding",
+     "org.jcodings.transcode.specific.Sjis2eucjp_Transcoder",
+     "org.jcodings.transcode.GenericTranscoder",
+     "org.jcodings.transcode.specific.Iso2022jp_kddi_decoder_Transcoder",
+     "org.jcodings.specific.BaseUTF8Encoding",
+     "org.jcodings.specific.ISO8859_4Encoding",
+     "org.jcodings.transcode.TranscoderList",
+     "org.jcodings.transcode.specific.Iso2022jp_decoder_Transcoder",
+     "org.jcodings.util.IntHash",
+     "org.jcodings.EncodingDB$Entry",
+     "org.jcodings.transcode.specific.Stateless_iso2022jp_to_eucjp_Transcoder",
+     "org.jcodings.transcode.specific.Cp50221_decoder_Transcoder",
+     "org.jcodings.specific.Windows_1253Encoding",
+     "org.jcodings.specific.UTF8Encoding",
+     "org.jcodings.exception.JCodingsException",
+     "org.jcodings.ObjPtr",
+     "org.jcodings.transcode.Buffer",
+     "org.jcodings.specific.GB18030Encoding$State",
+     "org.jcodings.transcode.specific.Cp50220_decoder_Transcoder",
+     "org.jcodings.util.ArrayReader",
+     "org.jcodings.Encoding",
+     "org.jcodings.Config",
+     "org.jcodings.util.ObjHash$ObjHashEntry",
+     "org.jcodings.transcode.specific.From_GB18030_Transcoder",
+     "org.jcodings.unicode.UnicodeEncoding",
+     "org.jcodings.unicode.UnicodeEncoding$CodeRangeEntry",
+     "org.jcodings.ApplyAllCaseFoldFunction",
+     "org.jcodings.util.IntArrayHash",
+     "org.jcodings.specific.UTF16LEEncoding",
+     "org.jcodings.specific.EUCJPEncoding",
+     "org.jcodings.specific.GBKEncoding",
+     "org.jcodings.specific.ISO8859_13Encoding",
+     "org.jcodings.transcode.TranscodingInstruction",
+     "org.jcodings.CaseFoldCodeItem",
+     "org.jcodings.util.CaseInsensitiveBytesHash",
+     "org.jcodings.spi.Charsets",
+     "org.jcodings.transcode.specific.From_UTF_32_Transcoder",
+     "org.jcodings.spi.ISO_8859_16",
+     "org.jcodings.specific.KOI8REncoding",
+     "org.jcodings.specific.ISO8859_7Encoding",
+     "org.jcodings.transcode.TranscodeFunctions",
+     "org.jcodings.unicode.FixedWidthUnicodeEncoding",
+     "org.jcodings.specific.EUCKREncoding",
+     "org.jcodings.specific.EUCTWEncoding",
+     "org.jcodings.transcode.EConv$LastError",
+     "org.jcodings.specific.CP949Encoding",
+     "org.jcodings.specific.Big5UAOEncoding",
+     "org.jcodings.transcode.TranscodeTableSupport",
+     "org.jcodings.transcode.specific.To_GB18030_Transcoder",
+     "org.jcodings.constants.CharacterType",
+     "org.jcodings.specific.ISO8859_3Encoding",
+     "org.jcodings.transcode.EConvFlags",
+     "org.jcodings.specific.NonStrictSJISEncoding",
+     "org.jcodings.specific.ISO8859_10Encoding",
+     "org.jcodings.exception.CharacterPropertyException",
+     "org.jcodings.specific.EmacsMuleEncoding",
+     "org.jcodings.specific.Windows_1252Encoding",
+     "org.jcodings.CodeRange",
+     "org.jcodings.specific.Big5HKSCSEncoding",
+     "org.jcodings.transcode.TranscoderDB$SearchPathCallback",
+     "org.jcodings.util.BytesHash",
+     "org.jcodings.transcode.EConv$1"
+    ],
+    "usedTypes": [
+     "org.jcodings.Config",
+     "org.jcodings.constants.PosixBracket",
+     "org.jcodings.specific.ASCIIEncoding",
+     "org.jcodings.specific.NonStrictUTF8Encoding",
+     "org.jcodings.IntHolder",
+     "org.jcodings.exception.EncodingError",
+     "module-info",
+     "org.jcodings.Ptr",
+     "org.jcodings.ApplyAllCaseFoldFunction",
+     "org.jcodings.exception.ErrorMessages",
+     "org.jcodings.specific.UTF8Encoding",
+     "org.jcodings.constants.CharacterType",
+     "org.jcodings.ObjPtr",
+     "org.jcodings.specific.EUCJPEncoding",
+     "org.jcodings.exception.CharacterPropertyException",
+     "org.jcodings.CodeRange",
+     "org.jcodings.specific.UTF16BEEncoding",
+     "org.jcodings.CaseFoldCodeItem",
+     "org.jcodings.util.BytesHash",
+     "org.jcodings.Encoding"
+    ],
+    "usageRatio": 0.12121212121212122,
+    "children": []
+   },
+   {
+    "id": "junit:junit:jar:4.12:test",
+    "coordinates": "junit:junit:4.12",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 314932,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.23",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.categories.IncludeCategories",
+     "org.junit.validator.AnnotationsValidator$AnnotatableValidator",
+     "org.junit.rules.Stopwatch$1",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.validator.AnnotationsValidator$FieldValidator",
+     "org.junit.runner.Result$1",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.rules.ExpectedExceptionMatcherBuilder",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$DeclaringClassMustBePublic",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.runner.Request$1",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "junit.textui.ResultPrinter",
+     "org.junit.ComparisonFailure$ComparisonCompactor$DiffExtractor",
+     "org.junit.internal.runners.rules.ValidationError",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeStatic",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.experimental.theories.Theories",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.internal.ComparisonCriteria",
+     "org.junit.rules.Timeout",
+     "org.junit.internal.requests.ClassRequest",
+     "junit.framework.TestCase",
+     "org.junit.Before",
+     "org.junit.AssumptionViolatedException",
+     "org.junit.Test$None",
+     "org.junit.experimental.categories.IncludeCategories$IncludesAny",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.internal.runners.statements.FailOnTimeout$CallableStatement",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.runner.notification.RunListener$ThreadSafe",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.junit.runners.Parameterized$Parameter",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.CategoryValidator",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.runners.model.TestClass$1",
+     "org.junit.ComparisonFailure",
+     "org.junit.runners.MethodSorters",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.validator.AnnotationsValidator$MethodValidator",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.internal.MethodSorter",
+     "org.junit.internal.Throwables",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.validator.AnnotationValidator",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.runner.Result$SerializedForm",
+     "org.junit.validator.ValidateWith",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.junit.rules.DisableOnDebug",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.internal.matchers.StacktracePrintingMatcher",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.runner.JUnitCommandLineParseResult$CommandLineParserError",
+     "org.junit.internal.runners.statements.FailOnTimeout$Builder",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.categories.ExcludeCategories",
+     "org.junit.runner.Result$Listener",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.validator.AnnotationsValidator",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory",
+     "org.junit.rules.Stopwatch$Clock",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.TestTimedOutException",
+     "org.junit.internal.runners.statements.FailOnTimeout$1",
+     "org.junit.experimental.theories.internal.SpecificDataPointsSupplier",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.runner.JUnitCommandLineParseResult",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "org.junit.runners.parameterized.ParametersRunnerFactory",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "junit.extensions.TestDecorator",
+     "org.junit.validator.TestClassValidator",
+     "org.junit.internal.runners.rules.RuleMemberValidator$1",
+     "org.junit.runner.Result",
+     "org.junit.runner.JUnitCore",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "org.junit.internal.InexactComparisonCriteria",
+     "junit.textui.TestRunner",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.runner.FilterFactories",
+     "org.junit.internal.matchers.ThrowableMessageMatcher",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "org.junit.runner.FilterFactory$FilterNotCreatedException",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeARule",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.internal.MethodSorter$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.internal.MethodSorter$1",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.runners.parameterized.TestWithParameters",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.Parameterized$UseParametersRunnerFactory",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBePublic",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeARule",
+     "org.junit.FixMethodOrder",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.rules.Stopwatch",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.runners.model.Annotatable",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.junit.experimental.theories.internal.BooleanSupplier",
+     "org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeATestRule",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.internal.runners.rules.RuleMemberValidator$RuleValidator",
+     "org.junit.internal.TextListener",
+     "org.junit.experimental.categories.CategoryFilterFactory",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "org.junit.validator.PublicClassValidator",
+     "org.junit.experimental.categories.ExcludeCategories$ExcludesAny",
+     "junit.framework.JUnit4TestAdapterCache",
+     "org.junit.experimental.theories.internal.EnumSupplier",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "junit.framework.Protectable",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.Timeout$Builder",
+     "org.junit.runner.FilterFactory",
+     "org.junit.rules.MethodRule",
+     "org.junit.rules.Stopwatch$InternalWatcher",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "org.junit.runner.FilterFactoryParams",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.internal.Classes",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runners.model.TestClass$FieldComparator",
+     "org.junit.runner.Computer",
+     "org.junit.After",
+     "junit.framework.TestResult",
+     "junit.runner.BaseTestRunner",
+     "org.junit.runner.notification.SynchronizedRunListener",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.runners.Parameterized",
+     "org.junit.validator.AnnotationsValidator$ClassValidator",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.experimental.theories.FromDataPoints",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.internal.runners.rules.RuleMemberValidator",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.rules.Timeout$1",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.ComparisonFailure$1",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "org.junit.validator.AnnotationValidatorFactory",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "junit.extensions.RepeatedTest",
+     "org.junit.rules.TestWatcher$1",
+     "org.junit.rules.ExpectedException",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeATestRule",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.rules.RuleMemberValidator$Builder",
+     "org.junit.runners.model.TestClass$MethodComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeNonStaticOrAlsoClassRule",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.internal.matchers.ThrowableCauseMatcher",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.validator.AnnotationsValidator$1",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.Ignore",
+     "org.junit.Test",
+     "org.junit.Assert"
+    ],
+    "usageRatio": 0.01048951048951049,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.3:test",
+      "coordinates": "org.hamcrest:hamcrest-core:1.3",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "scope": "test",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 45024,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "junit:junit:jar:4.12:test",
+      "allTypes": [
+       "org.hamcrest.Condition$1",
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.internal.ReflectiveTypeFinder",
+       "org.hamcrest.Condition$Step",
+       "org.hamcrest.CustomTypeSafeMatcher",
+       "org.hamcrest.core.CombinableMatcher",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Every",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.TypeSafeDiagnosingMatcher",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.core.StringContains",
+       "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.core.ShortcutCombination",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.core.StringEndsWith",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame",
+       "org.hamcrest.Condition$Matched",
+       "org.hamcrest.core.StringStartsWith",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.SubstringMatcher",
+       "org.hamcrest.Condition",
+       "org.hamcrest.CustomMatcher",
+       "org.hamcrest.TypeSafeMatcher",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.IsCollectionContaining",
+       "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.FeatureMatcher",
+       "org.hamcrest.MatcherAssert",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.Condition$NotMatched",
+       "org.hamcrest.Description$NullDescription",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.DiagnosingMatcher"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "org.ow2.asm:asm:jar:6.2.1:provided",
+    "coordinates": "org.ow2.asm:asm:6.2.1",
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "6.2.1",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 112958,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.jruby.joni:joni:jar:2.1.23",
+    "allTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.SymbolTable$Entry",
+     "org.objectweb.asm.AnnotationVisitor",
+     "org.objectweb.asm.MethodVisitor",
+     "org.objectweb.asm.Edge",
+     "org.objectweb.asm.FieldWriter",
+     "org.objectweb.asm.FieldVisitor",
+     "org.objectweb.asm.TypeReference",
+     "org.objectweb.asm.Symbol",
+     "org.objectweb.asm.Label",
+     "org.objectweb.asm.Type",
+     "org.objectweb.asm.SymbolTable",
+     "org.objectweb.asm.ModuleWriter",
+     "org.objectweb.asm.Constants",
+     "org.objectweb.asm.Context",
+     "org.objectweb.asm.Attribute",
+     "org.objectweb.asm.signature.SignatureWriter",
+     "org.objectweb.asm.MethodTooLargeException",
+     "org.objectweb.asm.ClassVisitor",
+     "org.objectweb.asm.Frame",
+     "org.objectweb.asm.Attribute$Set",
+     "org.objectweb.asm.ByteVector",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.ModuleVisitor",
+     "org.objectweb.asm.CurrentFrame",
+     "org.objectweb.asm.Handler",
+     "org.objectweb.asm.signature.SignatureReader",
+     "module-info",
+     "org.objectweb.asm.Handle",
+     "org.objectweb.asm.TypePath",
+     "org.objectweb.asm.ClassReader",
+     "org.objectweb.asm.AnnotationWriter",
+     "org.objectweb.asm.MethodWriter",
+     "org.objectweb.asm.signature.SignatureVisitor",
+     "org.objectweb.asm.ClassTooLargeException",
+     "org.objectweb.asm.ConstantDynamic"
+    ],
+    "usedTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.MethodVisitor"
+    ],
+    "usageRatio": 0.08333333333333333,
+    "children": []
+   }
+  ]
+ }
+}

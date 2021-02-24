@@ -1,0 +1,95 @@
+[
+ {
+  "artifactid": "jboss-remoting",
+  "groupid": "org.jboss.remoting3",
+  "version": "3.3.0.Beta1",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "jboss-logging",
+    "groupid": "org.jboss.logging",
+    "version": "3.1.0.GA",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jboss-logging-processor",
+    "groupid": "org.jboss.logging",
+    "version": "1.0.0.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jdk-tools",
+      "groupid": "system",
+      "version": "jdk",
+      "package": "jar",
+      "scope": "system",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "xnio-api",
+    "groupid": "org.jboss.xnio",
+    "version": "3.0.0.GA",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "xnio-nio",
+    "groupid": "org.jboss.xnio",
+    "version": "3.0.0.GA",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "xnio-api",
+      "groupid": "org.jboss.xnio",
+      "version": "3.0.0.GA",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.8.2",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jboss-logmanager",
+    "groupid": "org.jboss.logmanager",
+    "version": "1.2.0.GA",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]
