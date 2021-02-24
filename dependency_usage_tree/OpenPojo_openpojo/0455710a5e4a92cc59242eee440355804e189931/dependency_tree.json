@@ -1,0 +1,136 @@
+[
+ {
+  "artifactid": "openpojo",
+  "groupid": "com.googlecode.openpojo",
+  "version": "0.3.10",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "log4j",
+    "groupid": "log4j",
+    "version": "1.2.16",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.6.1",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-log4j12",
+    "groupid": "org.slf4j",
+    "version": "1.6.1",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.6.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log4j",
+      "groupid": "log4j",
+      "version": "1.2.16",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.8.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "testng",
+    "groupid": "org.testng",
+    "version": "5.14.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "junit",
+      "groupid": "junit",
+      "version": "3.8.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "bsh",
+      "groupid": "org.beanshell",
+      "version": "2.0b4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "2.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aopalliance",
+        "groupid": "aopalliance",
+        "version": "1.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

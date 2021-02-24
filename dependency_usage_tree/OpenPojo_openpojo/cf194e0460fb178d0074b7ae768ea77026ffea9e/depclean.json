@@ -1,0 +1,3303 @@
+{
+ "usage": {
+  "com.openpojo.utils.log.LogHelper": {
+   "log4j:log4j:jar:1.2.17:provided": [
+    "org.apache.log4j.BasicConfigurator",
+    "org.apache.log4j.PropertyConfigurator"
+   ]
+  },
+  "com.openpojo.reflection.java.packageloader.impl.JARPackageLoaderTest": {
+   "log4j:log4j:jar:1.2.17:provided": [
+    "org.apache.log4j.EnhancedPatternLayout",
+    "org.apache.log4j.DefaultThrowableRenderer",
+    "org.apache.log4j.BasicConfigurator",
+    "org.apache.log4j.DefaultCategoryFactory",
+    "org.apache.log4j.EnhancedThrowableRenderer",
+    "org.apache.log4j.AppenderSkeleton",
+    "org.apache.log4j.Logger",
+    "org.apache.log4j.ConsoleAppender$SystemErrStream",
+    "org.apache.log4j.NDC$DiagnosticContext",
+    "org.apache.log4j.AsyncAppender$DiscardSummary",
+    "org.apache.log4j.Level",
+    "org.apache.log4j.AsyncAppender",
+    "org.apache.log4j.NDC",
+    "org.apache.log4j.ConsoleAppender$SystemOutStream",
+    "org.apache.log4j.Category",
+    "org.apache.log4j.SimpleLayout",
+    "org.apache.log4j.AsyncAppender$Dispatcher",
+    "org.apache.log4j.DailyRollingFileAppender",
+    "org.apache.log4j.RollingCalendar",
+    "org.apache.log4j.CategoryKey",
+    "org.apache.log4j.ConsoleAppender",
+    "org.apache.log4j.WriterAppender",
+    "org.apache.log4j.Layout",
+    "org.apache.log4j.LogSF",
+    "org.apache.log4j.PropertyWatchdog",
+    "org.apache.log4j.TTCCLayout",
+    "org.apache.log4j.NameValue",
+    "org.apache.log4j.PropertyConfigurator",
+    "org.apache.log4j.ProvisionNode",
+    "org.apache.log4j.Hierarchy",
+    "org.apache.log4j.Dispatcher",
+    "org.apache.log4j.Appender",
+    "org.apache.log4j.LogXF",
+    "org.apache.log4j.HTMLLayout",
+    "org.apache.log4j.MDC",
+    "org.apache.log4j.LogMF",
+    "org.apache.log4j.SortedKeyEnumeration",
+    "org.apache.log4j.Priority",
+    "org.apache.log4j.FileAppender",
+    "org.apache.log4j.RollingFileAppender",
+    "org.apache.log4j.PatternLayout",
+    "org.apache.log4j.LogManager"
+   ],
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.log.impl.Log4JLogger": {
+   "log4j:log4j:jar:1.2.17:provided": [
+    "org.apache.log4j.Logger",
+    "org.apache.log4j.Level"
+   ]
+  },
+  "com.openpojo.utils.log.MockAppenderLog4J": {
+   "log4j:log4j:jar:1.2.17:provided": [
+    "org.apache.log4j.spi.LoggingEvent",
+    "org.apache.log4j.Level",
+    "org.apache.log4j.WriterAppender"
+   ]
+  },
+  "com.openpojo.log.impl.SLF4JLogger": {
+   "org.slf4j:slf4j-api:jar:1.7.7:provided": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.GetterMustExistRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoParameterImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-core:jar:1.3:provided": [
+    "org.hamcrest.CoreMatchers"
+   ],
+   "org.hamcrest:hamcrest-all:jar:1.3:test": [
+    "org.hamcrest.CoreMatchers",
+    "org.hamcrest.Matchers"
+   ]
+  },
+  "com.openpojo.random.dynamic.RandomInstanceFromInterfaceRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.log.JavaLoggerTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue47.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.utils.ValidationHelperTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.util.HelperTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.java.packageloader.utils.PackageNameHelperTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-core:jar:1.3:provided": [
+    "org.hamcrest.CoreMatchers"
+   ],
+   "org.hamcrest:hamcrest-all:jar:1.3:test": [
+    "org.hamcrest.CoreMatchers"
+   ]
+  },
+  "com.openpojo.random.impl.BasicRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue22.GetterSetterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.affirm.JavaAssertAffirmationTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.coverage.impl.JacocoTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterCloverClassesTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.queue.ArrayDequeRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.log.SL4JLoggerTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.utils.BusinessIdentityUtilsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.NoPublicFieldsRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoClassImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoMethodImplGenericParametersTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.identity.impl.DefaultIdentityEvaluatorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.random.impl.TimestampRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.issues.issue26.TestEntityTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.BusinessIdentityInheritenceTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue45.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-all:jar:1.3:test": [
+    "org.hamcrest.Matchers"
+   ]
+  },
+  "com.openpojo.random.collection.list.RoleUnresolvedListRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.java.packageloader.impl.URLToFileSystemAdapterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.cache.CacheStorageFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue27.issue27Test": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue14enumset.BeanTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.queue.LinkedTransferQueueRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.issues.unmodifiableCollection.CollectionsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.test.impl.GetterTesterAndSetterTesterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterChainTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.CollectionRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterNestedClassesTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.map.DictionaryRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.log.utils.MessageFormatterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.business.identity.impl.IdentityFactoryRaceConditionTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.NoNestedClassRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.NoPrimitivesRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.util.BaseCollectionRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.NoStaticExceptFinalRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.map.MapWithGenericsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.service.impl.DefaultRandomGeneratorServiceTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.issues.issue42.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.impl.CommonCode": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.issues.genericconstructor.GenericConstructorsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.set.ConcurrentSkipListSetRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.random.collection.list.RoleListRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.util.ComparableDelayedTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.adapt.impl.CloverPojoClassAdapterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.BeforeClass",
+    "org.junit.Before",
+    "org.junit.AfterClass",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.cache.BusinessKeyFieldCacheTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.test.impl.DefaultValuesNullTesterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.impl.DefaultValidatorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.facade.FacadeFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.dynamic.EnumRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterBasedOnInheritanceTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterEnumTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.GenericCollectionMultiThreadedTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue28.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.NoPublicFieldsExceptStaticFinalRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.util.SerializableComparableObjectTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.RandomFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.affirm.TestNGAssertAffirmationTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.log.LoggerFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterPackageInfoTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.SetterMustExistRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue29.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.affirm.AbstractAffirmationTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.queue.BlockingDequeRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.validation.affirm.JUnitAssertAffirmationTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.ValidatorBuilderTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue43.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue56.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.performance.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoFieldImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.service.impl.RandomGeneratorAdapterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.adapt.impl.CoberturaPojoClassAdapterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.coverage.impl.CoberturaTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoAbstractMethodImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.reflection.coverage.impl.Clover3Test": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.queue.ConcurrentLinkedDequeRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.random.map.NavigableMapRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.issues.issue55.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.impl.ObjectRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.random.collection.list.AttributeListRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.CollectionAndMapPackageRandomGeneratorsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.BeforeClass",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.impl.VoidRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterNonConcreteTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.registry.ServiceRegistrarTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.queue.LinkedBlockingDequeRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.exception.ExceptionsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ClassReaderFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.reflection.coverage.impl.Clover4Test": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.map.util.BaseMapRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.java.load.ClassUtilTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.util.MapCollectionAssertionHelper": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-all:jar:1.3:test": [
+    "org.hamcrest.Matchers"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoPackageImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.construct.InstanceFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "org.hamcrest:hamcrest-all:jar:1.3:test": [
+    "org.hamcrest.Matchers"
+   ]
+  },
+  "com.openpojo.issues.PerformanceTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.BusinessKeyMustExistRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue46.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.java.packageloader.PackageTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue14.ClassMemberTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.random.array.RandomFactoryArrayTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.ByteCodeFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ASMDetectorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue31.DirtTruckTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterClassNameTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.business.BusinessIdentityTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue33.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoClassFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.sample.AClassWithExhaustiveCollection": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.business.identity.impl.IdentityFactoryTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.test.impl.BusinessIdentityTesterTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.issues.issue34.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.cache.impl.CacheStorageTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.StructuralTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ASMNotLoadedExceptionTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.SerializableMustHaveSerialVersionUIDRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoFieldPrefixedFieldsTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.log.Log4JLoggerTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.business.cache.impl.DefaultBusinessKeyFieldTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.issues.issue36.IssueTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.impl.EnumRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.reflection.filters.FilterSyntheticClassesTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.queue.TransferQueueRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.validation.affirm.JUnitAssertAffirmation": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.TestClassMustBeProperlyNamedRule": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ],
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.annotations.Test"
+   ]
+  },
+  "com.openpojo.reflection.java.packageloader.impl.ZIPPackageLoaderTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test"
+   ]
+  },
+  "com.openpojo.random.collection.set.NavigableSetRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.impl.PojoMethodImplTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.PojoValidatorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.TestClassMustEndWithRuleTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "com.openpojo.random.collection.queue.DequeRandomGeneratorTest": {
+   "junit:junit:jar:4.12:provided": [
+    "org.junit.Assume",
+    "org.junit.Before"
+   ]
+  },
+  "com.openpojo.reflection.filters.IdentitiesAreEqual": {
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.validation.affirm.TestNGAssertAffirmation": {
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.Assert"
+   ]
+  },
+  "com.openpojo.validation.rule.impl.sampleclasses.ATestNGClassEndsWithTest": {
+   "org.testng:testng:jar:6.8.8:provided": [
+    "org.testng.annotations.Test"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.SubClassDefinition": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassReader"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ClassReaderFactory": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassReader"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ASMService": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassWriter",
+    "org.objectweb.asm.ClassReader"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.ASMDetector": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassWriter"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.DefaultSubClassDefinition": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassReader"
+   ]
+  },
+  "com.openpojo.reflection.java.bytecode.asm.SubClassCreator": {
+   "org.ow2.asm:asm:jar:5.0.3:provided": [
+    "org.objectweb.asm.ClassWriter",
+    "org.objectweb.asm.Opcodes",
+    "org.objectweb.asm.MethodVisitor",
+    "org.objectweb.asm.ClassVisitor"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.openpojo:openpojo:jar:0.7.5:null",
+  "coordinates": "com.openpojo:openpojo:0.7.5",
+  "groupId": "com.openpojo",
+  "artifactId": "openpojo",
+  "version": "0.7.5",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "log4j:log4j:jar:1.2.17:provided",
+    "coordinates": "log4j:log4j:1.2.17",
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "1.2.17",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 489884,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.apache.log4j.net.SocketAppender",
+     "org.apache.log4j.lf5.LogRecordFilter",
+     "org.apache.log4j.helpers.PatternConverter",
+     "org.apache.log4j.varia.FallbackErrorHandler",
+     "org.apache.log4j.AppenderSkeleton",
+     "org.apache.log4j.lf5.StartLogFactor5",
+     "org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener",
+     "org.apache.log4j.Level",
+     "org.apache.log4j.helpers.DateTimeDateFormat",
+     "org.apache.log4j.helpers.SyslogQuietWriter",
+     "org.apache.log4j.lf5.viewer.LogTable",
+     "org.apache.log4j.xml.DOMConfigurator$2",
+     "org.apache.log4j.xml.DOMConfigurator$3",
+     "org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat",
+     "org.apache.log4j.xml.DOMConfigurator$4",
+     "org.apache.log4j.lf5.viewer.configure.ConfigurationManager",
+     "org.apache.log4j.xml.DOMConfigurator$5",
+     "org.apache.log4j.helpers.QuietWriter",
+     "org.apache.log4j.ConsoleAppender$SystemOutStream",
+     "org.apache.log4j.xml.DOMConfigurator$1",
+     "org.apache.log4j.lf5.viewer.FilteredLogTableModel",
+     "org.apache.log4j.chainsaw.Main",
+     "org.apache.log4j.SimpleLayout",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$19",
+     "org.apache.log4j.helpers.ISO8601DateFormat",
+     "org.apache.log4j.lf5.AppenderFinalizer",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter",
+     "org.apache.log4j.spi.Filter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$11",
+     "org.apache.log4j.pattern.PatternParser",
+     "org.apache.log4j.config.PropertySetter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$12",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$13",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$14",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$15",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$16",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$17",
+     "org.apache.log4j.helpers.PatternParser$BasicPatternConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$18",
+     "org.apache.log4j.pattern.FormattingInfo",
+     "org.apache.log4j.nt.NTEventLogAppender",
+     "org.apache.log4j.Layout",
+     "org.apache.log4j.chainsaw.EventDetails",
+     "org.apache.log4j.net.JMSAppender",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$10",
+     "org.apache.log4j.pattern.LiteralPatternConverter",
+     "org.apache.log4j.pattern.NDCPatternConverter",
+     "org.apache.log4j.helpers.SyslogWriter",
+     "org.apache.log4j.jmx.LoggerDynamicMBean",
+     "org.apache.log4j.pattern.FullLocationPatternConverter",
+     "org.apache.log4j.varia.LevelMatchFilter",
+     "org.apache.log4j.chainsaw.XMLFileHandler",
+     "org.apache.log4j.pattern.CachedDateFormat",
+     "org.apache.log4j.Hierarchy",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$22",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$23",
+     "org.apache.log4j.lf5.PassingLogRecordFilter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$24",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$25",
+     "org.apache.log4j.lf5.viewer.LogTableColumnFormatException",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$26",
+     "org.apache.log4j.helpers.PatternParser$CategoryPatternConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$27",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$28",
+     "org.apache.log4j.rewrite.MapRewritePolicy",
+     "org.apache.log4j.varia.HUP",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$29",
+     "org.apache.log4j.spi.TriggeringEventEvaluator",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$20",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$21",
+     "org.apache.log4j.helpers.NullEnumeration",
+     "org.apache.log4j.LogMF",
+     "org.apache.log4j.spi.DefaultRepositorySelector",
+     "org.apache.log4j.spi.OptionHandler",
+     "org.apache.log4j.jmx.Agent",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8",
+     "org.apache.log4j.varia.Roller",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5",
+     "org.apache.log4j.lf5.LogLevel",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2",
+     "org.apache.log4j.pattern.LoggerPatternConverter",
+     "org.apache.log4j.RollingFileAppender",
+     "org.apache.log4j.helpers.FormattingInfo",
+     "org.apache.log4j.helpers.OptionConverter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$30",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$31",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$32",
+     "org.apache.log4j.helpers.BoundedFIFO",
+     "org.apache.log4j.net.TelnetAppender$SocketHandler",
+     "org.apache.log4j.pattern.ThrowableInformationPatternConverter",
+     "org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator",
+     "org.apache.log4j.EnhancedPatternLayout",
+     "org.apache.log4j.net.TelnetAppender",
+     "org.apache.log4j.pattern.SequenceNumberPatternConverter",
+     "org.apache.log4j.lf5.LF5Appender",
+     "org.apache.log4j.or.ObjectRenderer",
+     "org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter",
+     "org.apache.log4j.lf5.viewer.LF5SwingUtils",
+     "org.apache.log4j.helpers.PatternParser",
+     "org.apache.log4j.lf5.util.AdapterLogRecord",
+     "org.apache.log4j.AsyncAppender",
+     "org.apache.log4j.net.SMTPAppender$1",
+     "org.apache.log4j.lf5.util.ResourceUtils",
+     "org.apache.log4j.xml.XMLWatchdog",
+     "org.apache.log4j.Category",
+     "org.apache.log4j.jmx.LayoutDynamicMBean",
+     "org.apache.log4j.pattern.RelativeTimePatternConverter",
+     "org.apache.log4j.net.SyslogAppender",
+     "org.apache.log4j.net.SocketServer",
+     "org.apache.log4j.AsyncAppender$Dispatcher",
+     "org.apache.log4j.pattern.DatePatternConverter",
+     "org.apache.log4j.helpers.ThreadLocalMap",
+     "org.apache.log4j.lf5.DefaultLF5Configurator",
+     "org.apache.log4j.lf5.viewer.LogTableModel",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor",
+     "org.apache.log4j.helpers.RelativeTimeDateFormat",
+     "org.apache.log4j.ConsoleAppender",
+     "org.apache.log4j.rewrite.PropertyRewritePolicy",
+     "org.apache.log4j.spi.LoggerFactory",
+     "org.apache.log4j.spi.Configurator",
+     "org.apache.log4j.chainsaw.DetailPanel",
+     "org.apache.log4j.pattern.LevelPatternConverter",
+     "org.apache.log4j.pattern.FileDatePatternConverter",
+     "org.apache.log4j.spi.LocationInfo",
+     "org.apache.log4j.PropertyWatchdog",
+     "org.apache.log4j.TTCCLayout",
+     "org.apache.log4j.xml.DOMConfigurator$ParseAction",
+     "org.apache.log4j.varia.StringMatchFilter",
+     "org.apache.log4j.chainsaw.LoggingReceiver$Slurper",
+     "org.apache.log4j.pattern.MessagePatternConverter",
+     "org.apache.log4j.helpers.UtilLoggingLevel",
+     "org.apache.log4j.helpers.PatternParser$NamedPatternConverter",
+     "org.apache.log4j.xml.SAXErrorHandler",
+     "org.apache.log4j.HTMLLayout",
+     "org.apache.log4j.pattern.PatternConverter",
+     "org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog",
+     "org.apache.log4j.net.SocketHubAppender",
+     "org.apache.log4j.net.ZeroConfSupport",
+     "org.apache.log4j.jmx.AppenderDynamicMBean",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor",
+     "org.apache.log4j.spi.AppenderAttachable",
+     "org.apache.log4j.helpers.PatternParser$DatePatternConverter",
+     "org.apache.log4j.spi.NullWriter",
+     "org.apache.log4j.helpers.PatternParser$MDCPatternConverter",
+     "org.apache.log4j.pattern.LineSeparatorPatternConverter",
+     "org.apache.log4j.Priority",
+     "org.apache.log4j.pattern.PatternParser$ReadOnlyMap",
+     "org.apache.log4j.lf5.LogLevelFormatException",
+     "org.apache.log4j.pattern.LoggingEventPatternConverter",
+     "org.apache.log4j.FileAppender",
+     "org.apache.log4j.net.JMSSink",
+     "org.apache.log4j.LogManager",
+     "org.apache.log4j.config.PropertySetterException",
+     "org.apache.log4j.pattern.ThreadPatternConverter",
+     "org.apache.log4j.lf5.viewer.LogFactor5Dialog",
+     "org.apache.log4j.chainsaw.ControlPanel$5",
+     "org.apache.log4j.pattern.BridgePatternConverter",
+     "org.apache.log4j.chainsaw.ControlPanel$6",
+     "org.apache.log4j.DefaultCategoryFactory",
+     "org.apache.log4j.EnhancedThrowableRenderer",
+     "org.apache.log4j.chainsaw.ControlPanel$7",
+     "org.apache.log4j.chainsaw.ControlPanel$1",
+     "org.apache.log4j.chainsaw.ControlPanel$2",
+     "org.apache.log4j.or.RendererMap",
+     "org.apache.log4j.chainsaw.ControlPanel$3",
+     "org.apache.log4j.chainsaw.ControlPanel$4",
+     "org.apache.log4j.pattern.MethodLocationPatternConverter",
+     "org.apache.log4j.ConsoleAppender$SystemErrStream",
+     "org.apache.log4j.NDC$DiagnosticContext",
+     "org.apache.log4j.helpers.Transform",
+     "org.apache.log4j.pattern.BridgePatternParser",
+     "org.apache.log4j.pattern.ClassNamePatternConverter",
+     "org.apache.log4j.config.PropertyGetter$PropertyCallback",
+     "org.apache.log4j.lf5.Log4JLogRecord",
+     "org.apache.log4j.lf5.util.LogFileParser$1",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog",
+     "org.apache.log4j.NDC",
+     "org.apache.log4j.jmx.AbstractDynamicMBean",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor",
+     "org.apache.log4j.or.jms.MessageRenderer",
+     "org.apache.log4j.xml.XMLLayout",
+     "org.apache.log4j.spi.RootCategory",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1",
+     "org.apache.log4j.pattern.IntegerPatternConverter",
+     "org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp",
+     "org.apache.log4j.or.sax.AttributesRenderer",
+     "org.apache.log4j.helpers.PatternParser$LocationPatternConverter",
+     "org.apache.log4j.pattern.LogEvent",
+     "org.apache.log4j.RollingCalendar",
+     "org.apache.log4j.CategoryKey",
+     "org.apache.log4j.WriterAppender",
+     "org.apache.log4j.jdbc.JDBCAppender",
+     "org.apache.log4j.LogSF",
+     "org.apache.log4j.lf5.viewer.TrackingAdjustmentListener",
+     "org.apache.log4j.net.SocketNode",
+     "org.apache.log4j.varia.DenyAllFilter",
+     "org.apache.log4j.helpers.DateLayout",
+     "org.apache.log4j.helpers.OnlyOnceErrorHandler",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3",
+     "org.apache.log4j.chainsaw.ControlPanel",
+     "org.apache.log4j.NameValue",
+     "org.apache.log4j.helpers.Loader",
+     "org.apache.log4j.spi.NOPLoggerRepository",
+     "org.apache.log4j.ProvisionNode",
+     "org.apache.log4j.config.PropertyGetter",
+     "org.apache.log4j.helpers.MDCKeySetExtractor",
+     "org.apache.log4j.Dispatcher",
+     "org.apache.log4j.pattern.PropertiesPatternConverter",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath",
+     "org.apache.log4j.lf5.viewer.configure.MRUFileManager",
+     "org.apache.log4j.net.SMTPAppender",
+     "org.apache.log4j.helpers.FileWatchdog",
+     "org.apache.log4j.pattern.LineLocationPatternConverter",
+     "org.apache.log4j.rewrite.RewritePolicy",
+     "org.apache.log4j.jmx.MethodUnion",
+     "org.apache.log4j.lf5.util.Resource",
+     "org.apache.log4j.MDC",
+     "org.apache.log4j.chainsaw.ExitAction",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel",
+     "org.apache.log4j.helpers.PatternParser$LiteralPatternConverter",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer",
+     "org.apache.log4j.spi.RootLogger",
+     "org.apache.log4j.spi.ErrorHandler",
+     "org.apache.log4j.spi.VectorWriter",
+     "org.apache.log4j.chainsaw.MyTableModel$Processor",
+     "org.apache.log4j.lf5.util.DateFormatManager",
+     "org.apache.log4j.rewrite.RewriteAppender",
+     "org.apache.log4j.spi.RendererSupport",
+     "org.apache.log4j.lf5.viewer.LogTableColumn",
+     "org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode",
+     "org.apache.log4j.pattern.FileLocationPatternConverter",
+     "org.apache.log4j.spi.ErrorCode",
+     "org.apache.log4j.helpers.AppenderAttachableImpl",
+     "org.apache.log4j.lf5.util.StreamUtils",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1",
+     "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2",
+     "org.apache.log4j.xml.UnrecognizedElementHandler",
+     "org.apache.log4j.varia.ExternallyRolledFileAppender",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$6",
+     "org.apache.log4j.config.PropertyPrinter",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$7",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$4",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$5",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$2",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$3",
+     "org.apache.log4j.net.SocketAppender$Connector",
+     "org.apache.log4j.DefaultThrowableRenderer",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$1",
+     "org.apache.log4j.rewrite.ReflectionRewritePolicy",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement",
+     "org.apache.log4j.BasicConfigurator",
+     "org.apache.log4j.helpers.AbsoluteTimeDateFormat",
+     "org.apache.log4j.varia.LevelRangeFilter",
+     "org.apache.log4j.Logger",
+     "org.apache.log4j.jmx.HierarchyDynamicMBean",
+     "org.apache.log4j.AsyncAppender$DiscardSummary",
+     "org.apache.log4j.lf5.util.LogMonitorAdapter",
+     "org.apache.log4j.varia.HUPNode",
+     "org.apache.log4j.net.SimpleSocketServer",
+     "org.apache.log4j.helpers.LogLog",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$8",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer",
+     "org.apache.log4j.lf5.viewer.LogBrokerMonitor$9",
+     "org.apache.log4j.chainsaw.MyTableModel",
+     "org.apache.log4j.lf5.viewer.LF5SwingUtils$1",
+     "org.apache.log4j.or.ThreadGroupRenderer",
+     "org.apache.log4j.net.SocketHubAppender$ServerMonitor",
+     "org.apache.log4j.spi.RepositorySelector",
+     "org.apache.log4j.net.DefaultEvaluator",
+     "org.apache.log4j.DailyRollingFileAppender",
+     "org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor",
+     "org.apache.log4j.chainsaw.LoadXMLAction",
+     "org.apache.log4j.or.DefaultRenderer",
+     "org.apache.log4j.xml.Log4jEntityResolver",
+     "org.apache.log4j.varia.NullAppender",
+     "org.apache.log4j.chainsaw.MyTableModel$1",
+     "org.apache.log4j.spi.ThrowableRendererSupport",
+     "org.apache.log4j.PropertyConfigurator",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree",
+     "org.apache.log4j.spi.ThrowableRenderer",
+     "org.apache.log4j.lf5.LogRecord",
+     "org.apache.log4j.xml.DOMConfigurator",
+     "org.apache.log4j.chainsaw.LoggingReceiver",
+     "org.apache.log4j.Appender",
+     "org.apache.log4j.spi.NOPLogger",
+     "org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter",
+     "org.apache.log4j.helpers.CyclicBuffer",
+     "org.apache.log4j.pattern.NameAbbreviator",
+     "org.apache.log4j.LogXF",
+     "org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator",
+     "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog",
+     "org.apache.log4j.chainsaw.Main$1",
+     "org.apache.log4j.helpers.CountingQuietWriter",
+     "org.apache.log4j.pattern.NamePatternConverter",
+     "org.apache.log4j.spi.HierarchyEventListener",
+     "org.apache.log4j.SortedKeyEnumeration",
+     "org.apache.log4j.spi.LoggingEvent",
+     "org.apache.log4j.lf5.viewer.LogTableRowRenderer",
+     "org.apache.log4j.varia.ReloadingPropertyConfigurator",
+     "org.apache.log4j.spi.ThrowableInformation",
+     "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1",
+     "org.apache.log4j.PatternLayout",
+     "org.apache.log4j.spi.LoggerRepository",
+     "org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator",
+     "org.apache.log4j.lf5.util.LogFileParser"
+    ],
+    "usedTypes": [
+     "org.apache.log4j.TTCCLayout",
+     "org.apache.log4j.PropertyWatchdog",
+     "org.apache.log4j.EnhancedPatternLayout",
+     "org.apache.log4j.DefaultThrowableRenderer",
+     "org.apache.log4j.BasicConfigurator",
+     "org.apache.log4j.NameValue",
+     "org.apache.log4j.DefaultCategoryFactory",
+     "org.apache.log4j.PropertyConfigurator",
+     "org.apache.log4j.EnhancedThrowableRenderer",
+     "org.apache.log4j.AppenderSkeleton",
+     "org.apache.log4j.ProvisionNode",
+     "org.apache.log4j.Hierarchy",
+     "org.apache.log4j.Logger",
+     "org.apache.log4j.Dispatcher",
+     "org.apache.log4j.ConsoleAppender$SystemErrStream",
+     "org.apache.log4j.NDC$DiagnosticContext",
+     "org.apache.log4j.Appender",
+     "org.apache.log4j.AsyncAppender$DiscardSummary",
+     "org.apache.log4j.Level",
+     "org.apache.log4j.LogXF",
+     "org.apache.log4j.HTMLLayout",
+     "org.apache.log4j.MDC",
+     "org.apache.log4j.AsyncAppender",
+     "org.apache.log4j.NDC",
+     "org.apache.log4j.Category",
+     "org.apache.log4j.ConsoleAppender$SystemOutStream",
+     "org.apache.log4j.LogMF",
+     "org.apache.log4j.SortedKeyEnumeration",
+     "org.apache.log4j.SimpleLayout",
+     "org.apache.log4j.spi.LoggingEvent",
+     "org.apache.log4j.AsyncAppender$Dispatcher",
+     "org.apache.log4j.DailyRollingFileAppender",
+     "org.apache.log4j.Priority",
+     "org.apache.log4j.RollingCalendar",
+     "org.apache.log4j.ConsoleAppender",
+     "org.apache.log4j.CategoryKey",
+     "org.apache.log4j.FileAppender",
+     "org.apache.log4j.WriterAppender",
+     "org.apache.log4j.Layout",
+     "org.apache.log4j.RollingFileAppender",
+     "org.apache.log4j.PatternLayout",
+     "org.apache.log4j.LogManager",
+     "org.apache.log4j.LogSF"
+    ],
+    "usageRatio": 0.13694267515923567,
+    "children": []
+   },
+   {
+    "id": "org.slf4j:slf4j-api:jar:1.7.7:provided",
+    "coordinates": "org.slf4j:slf4j-api:1.7.7",
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.7",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 29257,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.slf4j.helpers.BasicMDCAdapter",
+     "org.slf4j.Logger",
+     "org.slf4j.spi.LoggerFactoryBinder",
+     "org.slf4j.LoggerFactory",
+     "org.slf4j.helpers.SubstituteLogger",
+     "org.slf4j.MarkerFactory",
+     "org.slf4j.helpers.FormattingTuple",
+     "org.slf4j.spi.MarkerFactoryBinder",
+     "org.slf4j.spi.MDCAdapter",
+     "org.slf4j.spi.LocationAwareLogger",
+     "org.slf4j.helpers.SubstituteLoggerFactory",
+     "org.slf4j.helpers.NOPMDCAdapter",
+     "org.slf4j.helpers.Util",
+     "org.slf4j.helpers.BasicMarkerFactory",
+     "org.slf4j.helpers.NOPLogger",
+     "org.slf4j.Marker",
+     "org.slf4j.MDC",
+     "org.slf4j.helpers.MarkerIgnoringBase",
+     "org.slf4j.helpers.BasicMarker",
+     "org.slf4j.helpers.NOPLoggerFactory",
+     "org.slf4j.IMarkerFactory",
+     "org.slf4j.helpers.NamedLoggerBase",
+     "org.slf4j.ILoggerFactory",
+     "org.slf4j.helpers.MessageFormatter"
+    ],
+    "usedTypes": [
+     "org.slf4j.Logger",
+     "org.slf4j.LoggerFactory"
+    ],
+    "usageRatio": 0.08333333333333333,
+    "children": []
+   },
+   {
+    "id": "org.slf4j:slf4j-log4j12:jar:1.7.7:provided",
+    "coordinates": "org.slf4j:slf4j-log4j12:1.7.7",
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-log4j12",
+    "version": "1.7.7",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 8870,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.slf4j.impl.Log4jLoggerAdapter",
+     "org.slf4j.impl.Log4jMDCAdapter",
+     "org.slf4j.impl.StaticLoggerBinder",
+     "org.slf4j.impl.Log4jLoggerFactory",
+     "org.slf4j.impl.StaticMDCBinder",
+     "org.slf4j.impl.StaticMarkerBinder"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": [
+     {
+      "id": "org.slf4j:slf4j-api:jar:1.7.7:provided",
+      "coordinates": "org.slf4j:slf4j-api:1.7.7",
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.7.7",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 29257,
+      "type": "direct",
+      "status": "used",
+      "parent": "org.slf4j:slf4j-log4j12:jar:1.7.7:provided",
+      "allTypes": [
+       "org.slf4j.helpers.BasicMDCAdapter",
+       "org.slf4j.Logger",
+       "org.slf4j.spi.LoggerFactoryBinder",
+       "org.slf4j.LoggerFactory",
+       "org.slf4j.helpers.SubstituteLogger",
+       "org.slf4j.MarkerFactory",
+       "org.slf4j.helpers.FormattingTuple",
+       "org.slf4j.spi.MarkerFactoryBinder",
+       "org.slf4j.spi.MDCAdapter",
+       "org.slf4j.spi.LocationAwareLogger",
+       "org.slf4j.helpers.SubstituteLoggerFactory",
+       "org.slf4j.helpers.NOPMDCAdapter",
+       "org.slf4j.helpers.Util",
+       "org.slf4j.helpers.BasicMarkerFactory",
+       "org.slf4j.helpers.NOPLogger",
+       "org.slf4j.Marker",
+       "org.slf4j.MDC",
+       "org.slf4j.helpers.MarkerIgnoringBase",
+       "org.slf4j.helpers.BasicMarker",
+       "org.slf4j.helpers.NOPLoggerFactory",
+       "org.slf4j.IMarkerFactory",
+       "org.slf4j.helpers.NamedLoggerBase",
+       "org.slf4j.ILoggerFactory",
+       "org.slf4j.helpers.MessageFormatter"
+      ],
+      "usedTypes": [
+       "org.slf4j.Logger",
+       "org.slf4j.LoggerFactory"
+      ],
+      "usageRatio": 0.08333333333333333,
+      "children": []
+     },
+     {
+      "id": "log4j:log4j:jar:1.2.17:provided",
+      "coordinates": "log4j:log4j:1.2.17",
+      "groupId": "log4j",
+      "artifactId": "log4j",
+      "version": "1.2.17",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 489884,
+      "type": "direct",
+      "status": "used",
+      "parent": "org.slf4j:slf4j-log4j12:jar:1.7.7:provided",
+      "allTypes": [
+       "org.apache.log4j.net.SocketAppender",
+       "org.apache.log4j.lf5.LogRecordFilter",
+       "org.apache.log4j.helpers.PatternConverter",
+       "org.apache.log4j.varia.FallbackErrorHandler",
+       "org.apache.log4j.AppenderSkeleton",
+       "org.apache.log4j.lf5.StartLogFactor5",
+       "org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener",
+       "org.apache.log4j.Level",
+       "org.apache.log4j.helpers.DateTimeDateFormat",
+       "org.apache.log4j.helpers.SyslogQuietWriter",
+       "org.apache.log4j.lf5.viewer.LogTable",
+       "org.apache.log4j.xml.DOMConfigurator$2",
+       "org.apache.log4j.xml.DOMConfigurator$3",
+       "org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat",
+       "org.apache.log4j.xml.DOMConfigurator$4",
+       "org.apache.log4j.lf5.viewer.configure.ConfigurationManager",
+       "org.apache.log4j.xml.DOMConfigurator$5",
+       "org.apache.log4j.helpers.QuietWriter",
+       "org.apache.log4j.ConsoleAppender$SystemOutStream",
+       "org.apache.log4j.xml.DOMConfigurator$1",
+       "org.apache.log4j.lf5.viewer.FilteredLogTableModel",
+       "org.apache.log4j.chainsaw.Main",
+       "org.apache.log4j.SimpleLayout",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$19",
+       "org.apache.log4j.helpers.ISO8601DateFormat",
+       "org.apache.log4j.lf5.AppenderFinalizer",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter",
+       "org.apache.log4j.spi.Filter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$11",
+       "org.apache.log4j.pattern.PatternParser",
+       "org.apache.log4j.config.PropertySetter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$12",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$13",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$14",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$15",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$16",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$17",
+       "org.apache.log4j.helpers.PatternParser$BasicPatternConverter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$18",
+       "org.apache.log4j.pattern.FormattingInfo",
+       "org.apache.log4j.nt.NTEventLogAppender",
+       "org.apache.log4j.Layout",
+       "org.apache.log4j.chainsaw.EventDetails",
+       "org.apache.log4j.net.JMSAppender",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$10",
+       "org.apache.log4j.pattern.LiteralPatternConverter",
+       "org.apache.log4j.pattern.NDCPatternConverter",
+       "org.apache.log4j.helpers.SyslogWriter",
+       "org.apache.log4j.jmx.LoggerDynamicMBean",
+       "org.apache.log4j.pattern.FullLocationPatternConverter",
+       "org.apache.log4j.varia.LevelMatchFilter",
+       "org.apache.log4j.chainsaw.XMLFileHandler",
+       "org.apache.log4j.pattern.CachedDateFormat",
+       "org.apache.log4j.Hierarchy",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$22",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$23",
+       "org.apache.log4j.lf5.PassingLogRecordFilter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$24",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$25",
+       "org.apache.log4j.lf5.viewer.LogTableColumnFormatException",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$26",
+       "org.apache.log4j.helpers.PatternParser$CategoryPatternConverter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$27",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$28",
+       "org.apache.log4j.rewrite.MapRewritePolicy",
+       "org.apache.log4j.varia.HUP",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$29",
+       "org.apache.log4j.spi.TriggeringEventEvaluator",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$20",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$21",
+       "org.apache.log4j.helpers.NullEnumeration",
+       "org.apache.log4j.LogMF",
+       "org.apache.log4j.spi.DefaultRepositorySelector",
+       "org.apache.log4j.spi.OptionHandler",
+       "org.apache.log4j.jmx.Agent",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8",
+       "org.apache.log4j.varia.Roller",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5",
+       "org.apache.log4j.lf5.LogLevel",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2",
+       "org.apache.log4j.pattern.LoggerPatternConverter",
+       "org.apache.log4j.RollingFileAppender",
+       "org.apache.log4j.helpers.FormattingInfo",
+       "org.apache.log4j.helpers.OptionConverter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$30",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$31",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$32",
+       "org.apache.log4j.helpers.BoundedFIFO",
+       "org.apache.log4j.net.TelnetAppender$SocketHandler",
+       "org.apache.log4j.pattern.ThrowableInformationPatternConverter",
+       "org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator",
+       "org.apache.log4j.EnhancedPatternLayout",
+       "org.apache.log4j.net.TelnetAppender",
+       "org.apache.log4j.pattern.SequenceNumberPatternConverter",
+       "org.apache.log4j.lf5.LF5Appender",
+       "org.apache.log4j.or.ObjectRenderer",
+       "org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter",
+       "org.apache.log4j.lf5.viewer.LF5SwingUtils",
+       "org.apache.log4j.helpers.PatternParser",
+       "org.apache.log4j.lf5.util.AdapterLogRecord",
+       "org.apache.log4j.AsyncAppender",
+       "org.apache.log4j.net.SMTPAppender$1",
+       "org.apache.log4j.lf5.util.ResourceUtils",
+       "org.apache.log4j.xml.XMLWatchdog",
+       "org.apache.log4j.Category",
+       "org.apache.log4j.jmx.LayoutDynamicMBean",
+       "org.apache.log4j.pattern.RelativeTimePatternConverter",
+       "org.apache.log4j.net.SyslogAppender",
+       "org.apache.log4j.net.SocketServer",
+       "org.apache.log4j.AsyncAppender$Dispatcher",
+       "org.apache.log4j.pattern.DatePatternConverter",
+       "org.apache.log4j.helpers.ThreadLocalMap",
+       "org.apache.log4j.lf5.DefaultLF5Configurator",
+       "org.apache.log4j.lf5.viewer.LogTableModel",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor",
+       "org.apache.log4j.helpers.RelativeTimeDateFormat",
+       "org.apache.log4j.ConsoleAppender",
+       "org.apache.log4j.rewrite.PropertyRewritePolicy",
+       "org.apache.log4j.spi.LoggerFactory",
+       "org.apache.log4j.spi.Configurator",
+       "org.apache.log4j.chainsaw.DetailPanel",
+       "org.apache.log4j.pattern.LevelPatternConverter",
+       "org.apache.log4j.pattern.FileDatePatternConverter",
+       "org.apache.log4j.spi.LocationInfo",
+       "org.apache.log4j.PropertyWatchdog",
+       "org.apache.log4j.TTCCLayout",
+       "org.apache.log4j.xml.DOMConfigurator$ParseAction",
+       "org.apache.log4j.varia.StringMatchFilter",
+       "org.apache.log4j.chainsaw.LoggingReceiver$Slurper",
+       "org.apache.log4j.pattern.MessagePatternConverter",
+       "org.apache.log4j.helpers.UtilLoggingLevel",
+       "org.apache.log4j.helpers.PatternParser$NamedPatternConverter",
+       "org.apache.log4j.xml.SAXErrorHandler",
+       "org.apache.log4j.HTMLLayout",
+       "org.apache.log4j.pattern.PatternConverter",
+       "org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog",
+       "org.apache.log4j.net.SocketHubAppender",
+       "org.apache.log4j.net.ZeroConfSupport",
+       "org.apache.log4j.jmx.AppenderDynamicMBean",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor",
+       "org.apache.log4j.spi.AppenderAttachable",
+       "org.apache.log4j.helpers.PatternParser$DatePatternConverter",
+       "org.apache.log4j.spi.NullWriter",
+       "org.apache.log4j.helpers.PatternParser$MDCPatternConverter",
+       "org.apache.log4j.pattern.LineSeparatorPatternConverter",
+       "org.apache.log4j.Priority",
+       "org.apache.log4j.pattern.PatternParser$ReadOnlyMap",
+       "org.apache.log4j.lf5.LogLevelFormatException",
+       "org.apache.log4j.pattern.LoggingEventPatternConverter",
+       "org.apache.log4j.FileAppender",
+       "org.apache.log4j.net.JMSSink",
+       "org.apache.log4j.LogManager",
+       "org.apache.log4j.config.PropertySetterException",
+       "org.apache.log4j.pattern.ThreadPatternConverter",
+       "org.apache.log4j.lf5.viewer.LogFactor5Dialog",
+       "org.apache.log4j.chainsaw.ControlPanel$5",
+       "org.apache.log4j.pattern.BridgePatternConverter",
+       "org.apache.log4j.chainsaw.ControlPanel$6",
+       "org.apache.log4j.DefaultCategoryFactory",
+       "org.apache.log4j.EnhancedThrowableRenderer",
+       "org.apache.log4j.chainsaw.ControlPanel$7",
+       "org.apache.log4j.chainsaw.ControlPanel$1",
+       "org.apache.log4j.chainsaw.ControlPanel$2",
+       "org.apache.log4j.or.RendererMap",
+       "org.apache.log4j.chainsaw.ControlPanel$3",
+       "org.apache.log4j.chainsaw.ControlPanel$4",
+       "org.apache.log4j.pattern.MethodLocationPatternConverter",
+       "org.apache.log4j.ConsoleAppender$SystemErrStream",
+       "org.apache.log4j.NDC$DiagnosticContext",
+       "org.apache.log4j.helpers.Transform",
+       "org.apache.log4j.pattern.BridgePatternParser",
+       "org.apache.log4j.pattern.ClassNamePatternConverter",
+       "org.apache.log4j.config.PropertyGetter$PropertyCallback",
+       "org.apache.log4j.lf5.Log4JLogRecord",
+       "org.apache.log4j.lf5.util.LogFileParser$1",
+       "org.apache.log4j.lf5.viewer.LogFactor5InputDialog",
+       "org.apache.log4j.NDC",
+       "org.apache.log4j.jmx.AbstractDynamicMBean",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor",
+       "org.apache.log4j.or.jms.MessageRenderer",
+       "org.apache.log4j.xml.XMLLayout",
+       "org.apache.log4j.spi.RootCategory",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1",
+       "org.apache.log4j.pattern.IntegerPatternConverter",
+       "org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp",
+       "org.apache.log4j.or.sax.AttributesRenderer",
+       "org.apache.log4j.helpers.PatternParser$LocationPatternConverter",
+       "org.apache.log4j.pattern.LogEvent",
+       "org.apache.log4j.RollingCalendar",
+       "org.apache.log4j.CategoryKey",
+       "org.apache.log4j.WriterAppender",
+       "org.apache.log4j.jdbc.JDBCAppender",
+       "org.apache.log4j.LogSF",
+       "org.apache.log4j.lf5.viewer.TrackingAdjustmentListener",
+       "org.apache.log4j.net.SocketNode",
+       "org.apache.log4j.varia.DenyAllFilter",
+       "org.apache.log4j.helpers.DateLayout",
+       "org.apache.log4j.helpers.OnlyOnceErrorHandler",
+       "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3",
+       "org.apache.log4j.chainsaw.ControlPanel",
+       "org.apache.log4j.NameValue",
+       "org.apache.log4j.helpers.Loader",
+       "org.apache.log4j.spi.NOPLoggerRepository",
+       "org.apache.log4j.ProvisionNode",
+       "org.apache.log4j.config.PropertyGetter",
+       "org.apache.log4j.helpers.MDCKeySetExtractor",
+       "org.apache.log4j.Dispatcher",
+       "org.apache.log4j.pattern.PropertiesPatternConverter",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath",
+       "org.apache.log4j.lf5.viewer.configure.MRUFileManager",
+       "org.apache.log4j.net.SMTPAppender",
+       "org.apache.log4j.helpers.FileWatchdog",
+       "org.apache.log4j.pattern.LineLocationPatternConverter",
+       "org.apache.log4j.rewrite.RewritePolicy",
+       "org.apache.log4j.jmx.MethodUnion",
+       "org.apache.log4j.lf5.util.Resource",
+       "org.apache.log4j.MDC",
+       "org.apache.log4j.chainsaw.ExitAction",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel",
+       "org.apache.log4j.helpers.PatternParser$LiteralPatternConverter",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer",
+       "org.apache.log4j.spi.RootLogger",
+       "org.apache.log4j.spi.ErrorHandler",
+       "org.apache.log4j.spi.VectorWriter",
+       "org.apache.log4j.chainsaw.MyTableModel$Processor",
+       "org.apache.log4j.lf5.util.DateFormatManager",
+       "org.apache.log4j.rewrite.RewriteAppender",
+       "org.apache.log4j.spi.RendererSupport",
+       "org.apache.log4j.lf5.viewer.LogTableColumn",
+       "org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode",
+       "org.apache.log4j.pattern.FileLocationPatternConverter",
+       "org.apache.log4j.spi.ErrorCode",
+       "org.apache.log4j.helpers.AppenderAttachableImpl",
+       "org.apache.log4j.lf5.util.StreamUtils",
+       "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1",
+       "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2",
+       "org.apache.log4j.xml.UnrecognizedElementHandler",
+       "org.apache.log4j.varia.ExternallyRolledFileAppender",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$6",
+       "org.apache.log4j.config.PropertyPrinter",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$7",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$4",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$5",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$2",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$3",
+       "org.apache.log4j.net.SocketAppender$Connector",
+       "org.apache.log4j.DefaultThrowableRenderer",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$1",
+       "org.apache.log4j.rewrite.ReflectionRewritePolicy",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement",
+       "org.apache.log4j.BasicConfigurator",
+       "org.apache.log4j.helpers.AbsoluteTimeDateFormat",
+       "org.apache.log4j.varia.LevelRangeFilter",
+       "org.apache.log4j.Logger",
+       "org.apache.log4j.jmx.HierarchyDynamicMBean",
+       "org.apache.log4j.AsyncAppender$DiscardSummary",
+       "org.apache.log4j.lf5.util.LogMonitorAdapter",
+       "org.apache.log4j.varia.HUPNode",
+       "org.apache.log4j.net.SimpleSocketServer",
+       "org.apache.log4j.helpers.LogLog",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$8",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer",
+       "org.apache.log4j.lf5.viewer.LogBrokerMonitor$9",
+       "org.apache.log4j.chainsaw.MyTableModel",
+       "org.apache.log4j.lf5.viewer.LF5SwingUtils$1",
+       "org.apache.log4j.or.ThreadGroupRenderer",
+       "org.apache.log4j.net.SocketHubAppender$ServerMonitor",
+       "org.apache.log4j.spi.RepositorySelector",
+       "org.apache.log4j.net.DefaultEvaluator",
+       "org.apache.log4j.DailyRollingFileAppender",
+       "org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor",
+       "org.apache.log4j.chainsaw.LoadXMLAction",
+       "org.apache.log4j.or.DefaultRenderer",
+       "org.apache.log4j.xml.Log4jEntityResolver",
+       "org.apache.log4j.varia.NullAppender",
+       "org.apache.log4j.chainsaw.MyTableModel$1",
+       "org.apache.log4j.spi.ThrowableRendererSupport",
+       "org.apache.log4j.PropertyConfigurator",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree",
+       "org.apache.log4j.spi.ThrowableRenderer",
+       "org.apache.log4j.lf5.LogRecord",
+       "org.apache.log4j.xml.DOMConfigurator",
+       "org.apache.log4j.chainsaw.LoggingReceiver",
+       "org.apache.log4j.Appender",
+       "org.apache.log4j.spi.NOPLogger",
+       "org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter",
+       "org.apache.log4j.helpers.CyclicBuffer",
+       "org.apache.log4j.pattern.NameAbbreviator",
+       "org.apache.log4j.LogXF",
+       "org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator",
+       "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog",
+       "org.apache.log4j.chainsaw.Main$1",
+       "org.apache.log4j.helpers.CountingQuietWriter",
+       "org.apache.log4j.pattern.NamePatternConverter",
+       "org.apache.log4j.spi.HierarchyEventListener",
+       "org.apache.log4j.SortedKeyEnumeration",
+       "org.apache.log4j.spi.LoggingEvent",
+       "org.apache.log4j.lf5.viewer.LogTableRowRenderer",
+       "org.apache.log4j.varia.ReloadingPropertyConfigurator",
+       "org.apache.log4j.spi.ThrowableInformation",
+       "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1",
+       "org.apache.log4j.PatternLayout",
+       "org.apache.log4j.spi.LoggerRepository",
+       "org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator",
+       "org.apache.log4j.lf5.util.LogFileParser"
+      ],
+      "usedTypes": [
+       "org.apache.log4j.TTCCLayout",
+       "org.apache.log4j.PropertyWatchdog",
+       "org.apache.log4j.EnhancedPatternLayout",
+       "org.apache.log4j.DefaultThrowableRenderer",
+       "org.apache.log4j.BasicConfigurator",
+       "org.apache.log4j.NameValue",
+       "org.apache.log4j.DefaultCategoryFactory",
+       "org.apache.log4j.PropertyConfigurator",
+       "org.apache.log4j.EnhancedThrowableRenderer",
+       "org.apache.log4j.AppenderSkeleton",
+       "org.apache.log4j.ProvisionNode",
+       "org.apache.log4j.Hierarchy",
+       "org.apache.log4j.Logger",
+       "org.apache.log4j.Dispatcher",
+       "org.apache.log4j.ConsoleAppender$SystemErrStream",
+       "org.apache.log4j.NDC$DiagnosticContext",
+       "org.apache.log4j.Appender",
+       "org.apache.log4j.AsyncAppender$DiscardSummary",
+       "org.apache.log4j.Level",
+       "org.apache.log4j.LogXF",
+       "org.apache.log4j.HTMLLayout",
+       "org.apache.log4j.MDC",
+       "org.apache.log4j.AsyncAppender",
+       "org.apache.log4j.NDC",
+       "org.apache.log4j.Category",
+       "org.apache.log4j.ConsoleAppender$SystemOutStream",
+       "org.apache.log4j.LogMF",
+       "org.apache.log4j.SortedKeyEnumeration",
+       "org.apache.log4j.SimpleLayout",
+       "org.apache.log4j.spi.LoggingEvent",
+       "org.apache.log4j.AsyncAppender$Dispatcher",
+       "org.apache.log4j.DailyRollingFileAppender",
+       "org.apache.log4j.Priority",
+       "org.apache.log4j.RollingCalendar",
+       "org.apache.log4j.ConsoleAppender",
+       "org.apache.log4j.CategoryKey",
+       "org.apache.log4j.FileAppender",
+       "org.apache.log4j.WriterAppender",
+       "org.apache.log4j.Layout",
+       "org.apache.log4j.RollingFileAppender",
+       "org.apache.log4j.PatternLayout",
+       "org.apache.log4j.LogManager",
+       "org.apache.log4j.LogSF"
+      ],
+      "usageRatio": 0.13694267515923567,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "junit:junit:jar:4.12:provided",
+    "coordinates": "junit:junit:4.12",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 314932,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.categories.IncludeCategories",
+     "org.junit.validator.AnnotationsValidator$AnnotatableValidator",
+     "org.junit.rules.Stopwatch$1",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.validator.AnnotationsValidator$FieldValidator",
+     "org.junit.runner.Result$1",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.rules.ExpectedExceptionMatcherBuilder",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$DeclaringClassMustBePublic",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.runner.Request$1",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "junit.textui.ResultPrinter",
+     "org.junit.ComparisonFailure$ComparisonCompactor$DiffExtractor",
+     "org.junit.internal.runners.rules.ValidationError",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeStatic",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.experimental.theories.Theories",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.internal.ComparisonCriteria",
+     "org.junit.rules.Timeout",
+     "org.junit.internal.requests.ClassRequest",
+     "junit.framework.TestCase",
+     "org.junit.Before",
+     "org.junit.AssumptionViolatedException",
+     "org.junit.Test$None",
+     "org.junit.experimental.categories.IncludeCategories$IncludesAny",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.internal.runners.statements.FailOnTimeout$CallableStatement",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.runner.notification.RunListener$ThreadSafe",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.junit.runners.Parameterized$Parameter",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.CategoryValidator",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.runners.model.TestClass$1",
+     "org.junit.ComparisonFailure",
+     "org.junit.runners.MethodSorters",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.validator.AnnotationsValidator$MethodValidator",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.internal.MethodSorter",
+     "org.junit.internal.Throwables",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.validator.AnnotationValidator",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.runner.Result$SerializedForm",
+     "org.junit.validator.ValidateWith",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.junit.rules.DisableOnDebug",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.internal.matchers.StacktracePrintingMatcher",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.runner.JUnitCommandLineParseResult$CommandLineParserError",
+     "org.junit.internal.runners.statements.FailOnTimeout$Builder",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.categories.ExcludeCategories",
+     "org.junit.runner.Result$Listener",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.validator.AnnotationsValidator",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory",
+     "org.junit.rules.Stopwatch$Clock",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.TestTimedOutException",
+     "org.junit.internal.runners.statements.FailOnTimeout$1",
+     "org.junit.experimental.theories.internal.SpecificDataPointsSupplier",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.runner.JUnitCommandLineParseResult",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "org.junit.runners.parameterized.ParametersRunnerFactory",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "junit.extensions.TestDecorator",
+     "org.junit.validator.TestClassValidator",
+     "org.junit.internal.runners.rules.RuleMemberValidator$1",
+     "org.junit.runner.Result",
+     "org.junit.runner.JUnitCore",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "org.junit.internal.InexactComparisonCriteria",
+     "junit.textui.TestRunner",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.runner.FilterFactories",
+     "org.junit.internal.matchers.ThrowableMessageMatcher",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "org.junit.runner.FilterFactory$FilterNotCreatedException",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeARule",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.internal.MethodSorter$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.internal.MethodSorter$1",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.runners.parameterized.TestWithParameters",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.Parameterized$UseParametersRunnerFactory",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBePublic",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeARule",
+     "org.junit.FixMethodOrder",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.rules.Stopwatch",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.runners.model.Annotatable",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.junit.experimental.theories.internal.BooleanSupplier",
+     "org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeATestRule",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.internal.runners.rules.RuleMemberValidator$RuleValidator",
+     "org.junit.internal.TextListener",
+     "org.junit.experimental.categories.CategoryFilterFactory",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "org.junit.validator.PublicClassValidator",
+     "org.junit.experimental.categories.ExcludeCategories$ExcludesAny",
+     "junit.framework.JUnit4TestAdapterCache",
+     "org.junit.experimental.theories.internal.EnumSupplier",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "junit.framework.Protectable",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.Timeout$Builder",
+     "org.junit.runner.FilterFactory",
+     "org.junit.rules.MethodRule",
+     "org.junit.rules.Stopwatch$InternalWatcher",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "org.junit.runner.FilterFactoryParams",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.internal.Classes",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runners.model.TestClass$FieldComparator",
+     "org.junit.runner.Computer",
+     "org.junit.After",
+     "junit.framework.TestResult",
+     "junit.runner.BaseTestRunner",
+     "org.junit.runner.notification.SynchronizedRunListener",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.runners.Parameterized",
+     "org.junit.validator.AnnotationsValidator$ClassValidator",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.experimental.theories.FromDataPoints",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.internal.runners.rules.RuleMemberValidator",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.rules.Timeout$1",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.ComparisonFailure$1",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "org.junit.validator.AnnotationValidatorFactory",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "junit.extensions.RepeatedTest",
+     "org.junit.rules.TestWatcher$1",
+     "org.junit.rules.ExpectedException",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeATestRule",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.rules.RuleMemberValidator$Builder",
+     "org.junit.runners.model.TestClass$MethodComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeNonStaticOrAlsoClassRule",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.internal.matchers.ThrowableCauseMatcher",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.validator.AnnotationsValidator$1",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.AfterClass",
+     "org.junit.BeforeClass",
+     "org.junit.After",
+     "org.junit.Assume",
+     "org.junit.Test",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.024475524475524476,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.3:provided",
+      "coordinates": "org.hamcrest:hamcrest-core:1.3",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 45024,
+      "type": "transitive",
+      "status": "used",
+      "parent": "junit:junit:jar:4.12:provided",
+      "allTypes": [
+       "org.hamcrest.Condition$1",
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.internal.ReflectiveTypeFinder",
+       "org.hamcrest.Condition$Step",
+       "org.hamcrest.CustomTypeSafeMatcher",
+       "org.hamcrest.core.CombinableMatcher",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Every",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.TypeSafeDiagnosingMatcher",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.core.StringContains",
+       "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.core.ShortcutCombination",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.core.StringEndsWith",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame",
+       "org.hamcrest.Condition$Matched",
+       "org.hamcrest.core.StringStartsWith",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.SubstringMatcher",
+       "org.hamcrest.Condition",
+       "org.hamcrest.CustomMatcher",
+       "org.hamcrest.TypeSafeMatcher",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.IsCollectionContaining",
+       "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.FeatureMatcher",
+       "org.hamcrest.MatcherAssert",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.Condition$NotMatched",
+       "org.hamcrest.Description$NullDescription",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.DiagnosingMatcher"
+      ],
+      "usedTypes": [
+       "org.hamcrest.CoreMatchers"
+      ],
+      "usageRatio": 0.022222222222222223,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "org.hamcrest:hamcrest-all:jar:1.3:test",
+    "coordinates": "org.hamcrest:hamcrest-all:1.3",
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-all",
+    "version": "1.3",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 306578,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationVisitor",
+     "org.hamcrest.generator.QDoxFactoryReader",
+     "org.hamcrest.generator.qdox.JavaDocBuilder$ErrorHandler",
+     "org.hamcrest.generator.qdox.model.ModelBuilder",
+     "org.hamcrest.collection.IsArrayContainingInOrder",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationCast",
+     "org.hamcrest.collection.IsArrayWithSize",
+     "org.hamcrest.JavaLangMatcherAssert",
+     "org.hamcrest.generator.qdox.model.JavaPackage",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationMinusSign",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationShiftLeft",
+     "org.hamcrest.generator.qdox.parser.impl.Parser$1",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationQuery",
+     "org.hamcrest.DiagnosingMatcher",
+     "org.hamcrest.BaseDescription",
+     "org.hamcrest.generator.qdox.parser.impl.JFlexLexer$ZzFlexStreamInfo",
+     "org.hamcrest.core.IsNot",
+     "org.hamcrest.core.AllOf",
+     "org.hamcrest.core.Every",
+     "org.hamcrest.collection.IsIterableContainingInAnyOrder$Matching",
+     "org.hamcrest.beans.SamePropertyValuesAs",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationParenExpression",
+     "org.hamcrest.core.IsEqual",
+     "org.hamcrest.generator.qdox.JavaDocBuilder",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationLogicalOr",
+     "org.hamcrest.collection.IsIterableContainingInOrder$MatchSeries",
+     "org.hamcrest.object.IsCompatibleType",
+     "org.hamcrest.generator.qdox.DefaultJavaClassCache",
+     "org.hamcrest.text.IsEmptyString",
+     "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+     "org.hamcrest.generator.qdox.model.annotation.EvaluatingVisitor",
+     "org.hamcrest.generator.qdox.model.JavaField",
+     "org.hamcrest.collection.IsIterableWithSize",
+     "org.hamcrest.integration.JMock1Adapter",
+     "org.hamcrest.Matcher",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationLogicalAnd",
+     "org.hamcrest.generator.QDoxFactoryReader$1",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationShiftRight",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationDivide",
+     "org.hamcrest.collection.IsEmptyIterable",
+     "org.hamcrest.generator.qdox.model.TypeVariable",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationExclusiveOr",
+     "org.hamcrest.generator.qdox.parser.ParseException",
+     "org.hamcrest.generator.qdox.parser.structs.TagDef",
+     "org.hamcrest.collection.IsArrayContainingInAnyOrder",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationLogicalNot",
+     "org.hamcrest.collection.IsEmptyCollection",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationEquals",
+     "org.hamcrest.generator.qdox.model.AbstractBaseJavaEntity",
+     "org.hamcrest.generator.qdox.tools.QDoxTester$ConsoleReporter",
+     "org.hamcrest.core.StringContains",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationFieldRef",
+     "org.hamcrest.generator.qdox.parser.impl.JFlexLexer",
+     "org.hamcrest.generator.qdox.model.JavaClassParent",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationValue",
+     "org.hamcrest.generator.qdox.parser.Lexer",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationLessEquals",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationNotEquals",
+     "org.hamcrest.generator.qdox.directorywalker.DirectoryScanner$1",
+     "org.hamcrest.TypeSafeMatcher",
+     "org.hamcrest.generator.qdox.model.DefaultDocletTagFactory",
+     "org.hamcrest.text.IsEqualIgnoringCase",
+     "org.hamcrest.generator.QuickReferenceWriter",
+     "org.hamcrest.generator.QDox",
+     "org.hamcrest.Condition$NotMatched",
+     "org.hamcrest.Description$NullDescription",
+     "org.hamcrest.SelfDescribing",
+     "org.hamcrest.generator.qdox.parser.structs.PackageDef",
+     "org.hamcrest.generator.qdox.model.DefaultDocletTag",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationAdd",
+     "org.hamcrest.generator.qdox.model.util.OrderedMap$Entry",
+     "org.hamcrest.generator.qdox.parser.impl.Parser$Value",
+     "org.hamcrest.internal.SelfDescribingValue",
+     "org.hamcrest.EasyMock2Matchers",
+     "org.hamcrest.internal.ReflectiveTypeFinder",
+     "org.hamcrest.core.CombinableMatcher",
+     "org.hamcrest.generator.qdox.JavaDocBuilder$DefaultErrorHandler",
+     "org.hamcrest.generator.qdox.parser.structs.TypeVariableDef",
+     "org.hamcrest.generator.qdox.tools.QDoxTester",
+     "org.hamcrest.text.StringContainsInOrder",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationLessThan",
+     "org.hamcrest.core.IsCollectionContaining",
+     "org.hamcrest.generator.qdox.model.JavaSource",
+     "org.hamcrest.internal.ArrayIterator",
+     "org.hamcrest.collection.IsMapContaining",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationNot",
+     "org.hamcrest.generator.FactoryWriter",
+     "org.hamcrest.generator.qdox.model.JavaMethod",
+     "org.hamcrest.collection.IsIterableContainingInAnyOrder",
+     "org.hamcrest.generator.qdox.parser.impl.Parser",
+     "org.hamcrest.StringDescription",
+     "org.hamcrest.generator.qdox.model.DocletTagFactory",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationMultiply",
+     "org.hamcrest.generator.qdox.parser.structs.AnnoDef",
+     "org.hamcrest.generator.SugarGenerator",
+     "org.hamcrest.core.Is",
+     "org.hamcrest.collection.IsIn",
+     "org.hamcrest.generator.qdox.model.DocletTag",
+     "org.hamcrest.generator.qdox.model.JavaClass",
+     "org.hamcrest.generator.qdox.model.annotation.RecursiveAnnotationVisitor",
+     "org.hamcrest.generator.qdox.model.AbstractInheritableJavaEntity",
+     "org.hamcrest.core.SubstringMatcher",
+     "org.hamcrest.number.IsCloseTo",
+     "org.hamcrest.xml.HasXPath$1",
+     "org.hamcrest.Condition",
+     "org.hamcrest.CustomMatcher",
+     "org.hamcrest.generator.qdox.directorywalker.SuffixFilter",
+     "org.hamcrest.core.DescribedAs",
+     "org.hamcrest.generator.qdox.junit.APITestCase$1",
+     "org.hamcrest.generator.config.XmlConfigurator",
+     "org.hamcrest.generator.qdox.directorywalker.DirectoryScanner",
+     "org.hamcrest.beans.SamePropertyValuesAs$PropertyMatcher",
+     "org.hamcrest.generator.qdox.model.util.TagParser",
+     "org.hamcrest.beans.HasPropertyWithValue$1",
+     "org.hamcrest.generator.qdox.parser.structs.TypeDef",
+     "org.hamcrest.integration.EasyMock2Adapter",
+     "org.hamcrest.beans.HasPropertyWithValue$2",
+     "org.hamcrest.number.OrderingComparison",
+     "org.hamcrest.generator.qdox.model.IndentBuffer",
+     "org.hamcrest.generator.qdox.tools.QDoxTester$Reporter",
+     "org.hamcrest.JMock1Matchers",
+     "org.hamcrest.generator.qdox.model.JavaClassCache",
+     "org.hamcrest.generator.qdox.Searcher",
+     "org.hamcrest.generator.qdox.model.ClassLibrary",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationBinaryOperator",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationGreaterEquals",
+     "org.hamcrest.CustomTypeSafeMatcher",
+     "org.hamcrest.generator.ReflectiveFactoryReader$1",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationTypeRef",
+     "org.hamcrest.TypeSafeDiagnosingMatcher",
+     "org.hamcrest.BaseMatcher",
+     "org.hamcrest.generator.HamcrestFactoryWriter",
+     "org.hamcrest.beans.PropertyUtil",
+     "org.hamcrest.generator.qdox.model.BeanProperty",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationConstant",
+     "org.hamcrest.internal.SelfDescribingValueIterator",
+     "org.hamcrest.generator.qdox.model.JavaMethodDelegate",
+     "org.hamcrest.generator.qdox.model.Annotation",
+     "org.hamcrest.collection.IsCollectionWithSize",
+     "org.hamcrest.generator.qdox.model.WildcardType",
+     "org.hamcrest.core.IsSame",
+     "org.hamcrest.Condition$Matched",
+     "org.hamcrest.beans.HasProperty",
+     "org.hamcrest.object.HasToString",
+     "org.hamcrest.object.IsEventFrom",
+     "org.hamcrest.generator.qdox.model.util.OrderedMap",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationUnaryOperator",
+     "org.hamcrest.generator.qdox.junit.APITestCase",
+     "org.hamcrest.generator.qdox.directorywalker.Filter",
+     "org.hamcrest.generator.qdox.parser.structs.FieldDef",
+     "org.hamcrest.core.IsNull",
+     "org.hamcrest.CoreMatchers",
+     "org.hamcrest.collection.IsIterableContainingInOrder",
+     "org.hamcrest.generator.FactoryMethod$Parameter",
+     "org.hamcrest.generator.qdox.parser.Builder",
+     "org.hamcrest.collection.IsArray",
+     "org.hamcrest.Condition$Step",
+     "org.hamcrest.generator.qdox.model.ModelBuilder$1",
+     "org.hamcrest.generator.qdox.tools.QDoxTester$1",
+     "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+     "org.hamcrest.core.StringEndsWith",
+     "org.hamcrest.generator.FactoryMethod",
+     "org.hamcrest.core.StringStartsWith",
+     "org.hamcrest.generator.qdox.parser.structs.WildcardTypeDef",
+     "org.hamcrest.text.IsEqualIgnoringWhiteSpace",
+     "org.hamcrest.xml.HasXPath",
+     "org.hamcrest.generator.qdox.JavaClassContext",
+     "org.hamcrest.generator.qdox.model.util.OrderedMap$OrderedSet",
+     "org.hamcrest.beans.HasPropertyWithValue",
+     "org.hamcrest.generator.SugarConfiguration",
+     "org.hamcrest.generator.EasyMock2FactoryWriter",
+     "org.hamcrest.generator.qdox.JavaDocBuilder$2",
+     "org.hamcrest.MatcherAssert",
+     "org.hamcrest.generator.qdox.JavaDocBuilder$1",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationPlusSign",
+     "org.hamcrest.generator.qdox.ant.AbstractQdoxTask",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationGreaterThan",
+     "org.hamcrest.generator.qdox.model.AbstractJavaEntity",
+     "org.hamcrest.Condition$1",
+     "org.hamcrest.collection.IsArrayContaining",
+     "org.hamcrest.generator.qdox.parser.structs.ClassDef",
+     "org.hamcrest.generator.qdox.parser.structs.MethodDef",
+     "org.hamcrest.generator.config.XmlConfigurator$1",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationSubtract",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationValueList",
+     "org.hamcrest.core.AnyOf",
+     "org.hamcrest.generator.qdox.model.Member",
+     "org.hamcrest.core.IsAnything",
+     "org.hamcrest.core.ShortcutCombination",
+     "org.hamcrest.Factory",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationOr",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationRemainder",
+     "org.hamcrest.core.IsInstanceOf",
+     "org.hamcrest.Description",
+     "org.hamcrest.number.BigDecimalCloseTo",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationUnsignedShiftRight",
+     "org.hamcrest.generator.qdox.parser.structs.LocatedDef",
+     "org.hamcrest.Matchers",
+     "org.hamcrest.generator.qdox.model.Type",
+     "org.hamcrest.FeatureMatcher",
+     "org.hamcrest.generator.qdox.model.JavaParameter",
+     "org.hamcrest.generator.qdox.model.annotation.AnnotationAnd",
+     "org.hamcrest.generator.qdox.directorywalker.FileVisitor",
+     "org.hamcrest.generator.ReflectiveFactoryReader"
+    ],
+    "usedTypes": [
+     "org.hamcrest.Matchers"
+    ],
+    "usageRatio": 0.004901960784313725,
+    "children": []
+   },
+   {
+    "id": "org.testng:testng:jar:6.8.8:provided",
+    "coordinates": "org.testng:testng:6.8.8",
+    "groupId": "org.testng",
+    "artifactId": "testng",
+    "version": "6.8.8",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 836479,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.testng.internal.annotations.IBaseBeforeAfter",
+     "org.testng.internal.DataProviderHolder",
+     "org.testng.internal.Invoker$Predicate",
+     "org.testng.TestNG$ExitCodeListener",
+     "org.testng.annotations.NoInjection",
+     "org.testng.annotations.Test",
+     "org.testng.internal.Nullable",
+     "org.testng.reporters.Files",
+     "org.testng.util.RetryAnalyzerCount",
+     "org.testng.xml.XmlScript",
+     "org.testng.internal.TestNGProperty",
+     "org.testng.xml.dom.ITagFactory",
+     "org.testng.annotations.BeforeGroups",
+     "org.testng.internal.annotations.IAfterSuite",
+     "org.testng.xml.dom.ITagSetter",
+     "org.testng.junit.JUnitTestRunner",
+     "org.testng.asserts.IAssertLifecycle",
+     "org.testng.xml.TestNGContentHandler$1",
+     "org.testng.internal.annotations.TestAnnotation",
+     "org.testng.internal.DynamicGraph$Status",
+     "org.testng.IMethodInstance",
+     "org.testng.internal.annotations.ParametersAnnotation",
+     "org.testng.remote.strprotocol.BaseMessageSender$ReaderThread",
+     "org.testng.xml.XmlDependencies",
+     "org.testng.IAttributes",
+     "org.testng.collections.Objects$ValueHolder",
+     "org.testng.annotations.AfterTest",
+     "org.testng.internal.thread.ExecutorAdapter",
+     "org.testng.junit.JUnit3TestMethod",
+     "org.testng.ITestNGMethod",
+     "org.testng.xml.dom.DomUtil",
+     "org.testng.remote.adapter.RemoteResultListener",
+     "org.testng.reporters.EmailableReporter$TestSorter",
+     "org.testng.TestRunner",
+     "org.testng.internal.annotations.JDK15TagFactory$1",
+     "org.testng.internal.annotations.JDK15TagFactory$2",
+     "org.testng.xml.LaunchSuite$CustomizedSuite",
+     "org.testng.internal.MethodHelper",
+     "org.testng.TestClass",
+     "org.testng.internal.PackageUtils$1",
+     "org.testng.internal.thread.graph.GraphThreadPoolExecutor",
+     "org.testng.internal.remote.SocketLinkedBlockingQueue",
+     "org.testng.internal.junit.ComparisonCriteria",
+     "org.testng.TestNG",
+     "org.testng.xml.LaunchSuite",
+     "org.testng.annotations.ExpectedExceptions",
+     "org.testng.IInvokedMethod",
+     "org.testng.internal.Tarjan",
+     "org.testng.internal.annotations.Converter",
+     "org.testng.internal.annotations.Sets",
+     "org.testng.ISuiteListener",
+     "org.testng.internal.annotations.IAfterGroups",
+     "org.testng.internal.annotations.ExpectedExceptionsAnnotation",
+     "org.testng.internal.annotations.JDK15AnnotationFinder",
+     "org.testng.SuiteRunnerWorker",
+     "org.testng.mustache.Model",
+     "org.testng.internal.ITestResultNotifier",
+     "org.testng.ITestClassFinder",
+     "org.testng.annotations.IParametersAnnotation",
+     "org.testng.internal.Configuration",
+     "org.testng.internal.ParameterHolder$ParameterOrigin",
+     "org.testng.xml.LaunchSuite$1",
+     "org.testng.xml.XmlClass",
+     "org.testng.annotations.AfterGroups",
+     "org.testng.collections.Lists",
+     "org.testng.internal.annotations.IDataProvidable",
+     "org.testng.ITestMethodFinder",
+     "org.testng.xml.LaunchSuite$ClassListSuite",
+     "org.testng.Reporter",
+     "org.testng.reporters.jq.INavigatorPanel",
+     "org.testng.TestNGAntTask",
+     "org.testng.xml.dom.Tag",
+     "org.testng.internal.Bsh",
+     "org.testng.SuiteResult",
+     "org.testng.internal.annotations.BaseAnnotation",
+     "org.testng.reporters.VerboseReporter$1",
+     "org.testng.util.Strings",
+     "org.testng.xml.dom.OnElement",
+     "org.testng.internal.BaseTestMethod$1",
+     "org.testng.IMethodSelectorContext",
+     "org.testng.asserts.LoggingAssert",
+     "org.testng.remote.adapter.IWorkerAdapter",
+     "org.testng.IResultMap",
+     "org.testng.mustache.Model$SubModel",
+     "org.testng.xml.dom.ParentSetter",
+     "org.testng.remote.strprotocol.MessageHelper",
+     "org.testng.internal.annotations.IAnnotationTransformer",
+     "org.testng.IConfigurationListener2",
+     "org.testng.xml.SuiteGenerator",
+     "org.testng.internal.annotations.DefaultAnnotationTransformer",
+     "org.testng.internal.Constants",
+     "org.testng.xml.LaunchSuite$MethodsSuite",
+     "org.testng.reporters.XMLConstants",
+     "org.testng.xml.dom.DomUtil$1",
+     "org.testng.remote.strprotocol.IMessageSender",
+     "org.testng.remote.strprotocol.IStringMessage",
+     "org.testng.AssertJUnit",
+     "org.testng.xml.dom.DomUtil$3",
+     "org.testng.xml.dom.DomUtil$2",
+     "org.testng.internal.PoolService",
+     "org.testng.internal.thread.IAtomicInteger",
+     "org.testng.reporters.jq.ChronologicalPanel$1",
+     "org.testng.annotations.BeforeTest",
+     "org.testng.IRetryAnalyzer",
+     "org.testng.IInvokedMethodListener2",
+     "org.testng.internal.IConfiguration",
+     "org.testng.internal.remote.SlavePool",
+     "org.testng.IModuleFactory",
+     "org.testng.internal.annotations.AnnotationHelper",
+     "org.testng.asserts.Assertion",
+     "org.testng.internal.PropertyUtils",
+     "org.testng.SuiteRunner$DefaultTestRunnerFactory",
+     "org.testng.internal.annotations.ListenersAnnotation",
+     "org.testng.internal.ObjectFactoryImpl",
+     "org.testng.xml.LaunchSuite$ExistingSuite",
+     "org.testng.remote.strprotocol.SerializedMessageSender",
+     "org.testng.internal.junit.ArrayAsserts",
+     "org.testng.reporters.XMLReporter",
+     "org.testng.annotations.Guice",
+     "org.testng.internal.DefaultMethodSelectorContext",
+     "org.testng.internal.BaseClassFinder",
+     "org.testng.PreserveOrderMethodInterceptor",
+     "org.testng.internal.EclipseInterface",
+     "org.testng.remote.strprotocol.TestMessage",
+     "org.testng.asserts.Assertion$28",
+     "org.testng.asserts.Assertion$29",
+     "org.testng.asserts.Assertion$26",
+     "org.testng.annotations.Listeners",
+     "org.testng.asserts.Assertion$27",
+     "org.testng.internal.PropertiesFile",
+     "org.testng.internal.collections.Pair",
+     "org.testng.internal.YamlParser",
+     "org.testng.reporters.TestHTMLReporter$1",
+     "org.testng.junit.JUnitTestRunner$TestRunInfo",
+     "org.testng.TestRunner$ListenerHolder",
+     "org.testng.annotations.AfterMethod",
+     "org.testng.reporters.VerboseReporter$Status",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy",
+     "org.testng.reporters.jq.TimesPanel$1",
+     "org.testng.asserts.Assertion$31",
+     "org.testng.asserts.Assertion$32",
+     "org.testng.internal.thread.graph.IWorker",
+     "org.testng.IHookCallBack",
+     "org.testng.asserts.Assertion$30",
+     "org.testng.asserts.Assertion$35",
+     "org.testng.internal.Version",
+     "org.testng.asserts.Assertion$36",
+     "org.testng.asserts.Assertion$SimpleAssert",
+     "org.testng.asserts.Assertion$33",
+     "org.testng.asserts.Assertion$34",
+     "org.testng.asserts.Assertion$17",
+     "org.testng.asserts.Assertion$18",
+     "org.testng.internal.ParameterHolder",
+     "org.testng.asserts.Assertion$15",
+     "org.testng.asserts.Assertion$16",
+     "org.testng.asserts.Assertion$19",
+     "org.testng.reporters.jq.TimesPanel",
+     "org.testng.internal.annotations.TestOrConfiguration",
+     "org.testng.xml.ResultContentHandler",
+     "org.testng.annotations.IObjectFactoryAnnotation",
+     "org.testng.internal.Invoker$CanRunFromClassPredicate",
+     "org.testng.remote.strprotocol.IRemoteSuiteListener",
+     "org.testng.remote.strprotocol.IMessage",
+     "org.testng.reporters.jq.ChronologicalPanel",
+     "org.testng.asserts.Assertion$20",
+     "org.testng.asserts.Assertion$21",
+     "org.testng.asserts.Assertion$24",
+     "org.testng.SuiteResultCounts",
+     "org.testng.asserts.Assertion$25",
+     "org.testng.internal.ConstructorOrMethod",
+     "org.testng.asserts.Assertion$22",
+     "org.testng.asserts.Assertion$23",
+     "org.testng.internal.thread.ICountDown",
+     "org.testng.internal.annotations.IBeforeGroups",
+     "org.testng.internal.Attributes",
+     "org.testng.junit.JUnitMethodFinder$1",
+     "org.testng.ReporterConfig",
+     "org.testng.junit.JUnitMethodFinder$2",
+     "org.testng.junit.JUnitMethodFinder$3",
+     "org.testng.remote.strprotocol.SuiteMessage",
+     "org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable",
+     "org.testng.xml.dom.Reflect",
+     "org.testng.Assert",
+     "org.testng.internal.thread.FutureResultAdapter",
+     "org.testng.internal.thread.CountDownAdapter",
+     "org.testng.TestNGAntTask$TestNGLogSH",
+     "org.testng.xml.dom.TagContent",
+     "org.testng.xml.XmlUtils",
+     "org.testng.asserts.Assertion$10",
+     "org.testng.ClassMethodMap",
+     "org.testng.mustache.VariableChunk",
+     "org.testng.internal.Parameters",
+     "org.testng.asserts.Assertion$13",
+     "org.testng.asserts.Assertion$14",
+     "org.testng.asserts.Assertion$11",
+     "org.testng.asserts.Assertion$12",
+     "org.testng.internal.ArrayIterator",
+     "org.testng.remote.adapter.DefaultWorkerAdapter",
+     "org.testng.ITestObjectFactory",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker",
+     "org.testng.internal.SuiteRunnerMap",
+     "org.testng.xml.dom.Wrapper",
+     "org.testng.xml.dom.XDom",
+     "org.testng.mustache.Model$1",
+     "org.testng.reporters.EmailableReporter2$TestResult",
+     "org.testng.internal.BshMock",
+     "org.testng.annotations.ITestAnnotation",
+     "org.testng.xml.dom.OnElementList",
+     "org.testng.internal.annotations.IAfterClass",
+     "org.testng.internal.Parameters$MethodParameters",
+     "org.testng.internal.Graph$Node",
+     "org.testng.TestRunner$3",
+     "org.testng.TestRunner$2",
+     "org.testng.IObjectFactory",
+     "org.testng.TestRunner$1",
+     "org.testng.SuiteRunner$SuiteWorker",
+     "org.testng.internal.NoOpTestClass",
+     "org.testng.internal.RunInfo",
+     "org.testng.IObjectFactory2",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithoutContextStrategy",
+     "org.testng.TestRunner$ConfigurationListener",
+     "org.testng.xml.XMLParser",
+     "org.testng.asserts.IAssert",
+     "org.testng.reporters.jq.Model",
+     "org.testng.CommandLineArgs",
+     "org.testng.internal.PackageUtils",
+     "org.testng.remote.adapter.IMasterAdapter",
+     "org.testng.reporters.JUnitReportReporter",
+     "org.testng.annotations.ITestOrConfiguration",
+     "org.testng.xml.XmlRun",
+     "org.testng.internal.IBsh",
+     "org.testng.internal.ExtraOutput",
+     "org.testng.internal.ResultMap",
+     "org.testng.junit.JUnit4TestClass",
+     "org.testng.annotations.BeforeMethod",
+     "org.testng.reporters.jq.SuitePanel",
+     "org.testng.xml.XmlGroups",
+     "org.testng.remote.ConnectionInfo",
+     "org.testng.internal.thread.graph.TestNGThreadPoolFactory",
+     "org.testng.internal.MethodInstance$1",
+     "org.testng.DependencyMap",
+     "org.testng.junit.JUnit4TestRecognizer",
+     "org.testng.xml.dom.DomXmlParser",
+     "org.testng.internal.ClassImpl",
+     "org.testng.reporters.TestHTMLReporter$NameComparator",
+     "org.testng.remote.strprotocol.StringMessageSender",
+     "org.testng.internal.annotations.IBeforeMethod",
+     "org.testng.reporters.TestHTMLReporter",
+     "org.testng.junit.JUnit3TestRecognizer",
+     "org.testng.internal.MethodInheritance",
+     "org.testng.log4testng.Logger",
+     "org.testng.IExecutionListener",
+     "org.testng.TestNGException",
+     "org.testng.reporters.FailedReporter",
+     "org.testng.reporters.EmailableReporter2",
+     "org.testng.reporters.util.StackTraceTools",
+     "org.testng.ISuite",
+     "org.testng.ConversionUtils",
+     "org.testng.mustache.StringChunk",
+     "org.testng.internal.annotations.IBeforeClass",
+     "org.testng.reporters.jq.GroupPanel",
+     "org.testng.internal.thread.IThreadFactory",
+     "org.testng.annotations.Factory",
+     "org.testng.ITestRunnerFactory",
+     "org.testng.internal.IResultListener",
+     "org.testng.internal.Utils$1",
+     "org.testng.annotations.TestInstance",
+     "org.testng.internal.MethodGroupsHelper",
+     "org.testng.xml.SuiteXmlParser",
+     "org.testng.asserts.Assertion$8",
+     "org.testng.asserts.Assertion$9",
+     "org.testng.asserts.Assertion$6",
+     "org.testng.asserts.Assertion$7",
+     "org.testng.asserts.Assertion$4",
+     "org.testng.asserts.Assertion$5",
+     "org.testng.asserts.Assertion$2",
+     "org.testng.remote.strprotocol.BaseMessageSender",
+     "org.testng.asserts.Assertion$3",
+     "org.testng.mustache.BaseChunk",
+     "org.testng.asserts.Assertion$1",
+     "org.testng.internal.TestMethodWorker",
+     "org.testng.junit.IJUnitTestRunner",
+     "org.testng.SkipException",
+     "org.testng.reporters.EmailableReporter2$TestResult$1",
+     "org.testng.annotations.IConfigurationAnnotation",
+     "org.testng.internal.thread.IPooledExecutor",
+     "org.testng.internal.ClassInfoMap",
+     "org.testng.reporters.VerboseReporter",
+     "org.testng.internal.junit.ExactComparisonCriteria",
+     "org.testng.internal.IInvoker",
+     "org.testng.junit.JUnit4TestMethod",
+     "org.testng.IConfigurationListener",
+     "org.testng.remote.strprotocol.TestResultMessage",
+     "org.testng.reporters.IBuffer",
+     "org.testng.annotations.IAnnotation",
+     "org.testng.reporters.EmailableReporter$1",
+     "org.testng.internal.annotations.BaseBeforeAfter",
+     "org.testng.internal.thread.graph.IThreadWorkerFactory",
+     "org.testng.internal.DynamicGraph$1",
+     "org.testng.xml.ResultXMLParser",
+     "org.testng.reporters.JUnitReportReporter$TestTag",
+     "org.testng.collections.SetMultiMap",
+     "org.testng.reporters.jq.TestPanel",
+     "org.testng.junit.JUnitMethodFinder",
+     "org.testng.collections.Maps",
+     "org.testng.remote.strprotocol.AbstractRemoteTestRunnerClient",
+     "org.testng.annotations.BeforeSuite",
+     "org.testng.xml.Parameters",
+     "org.testng.xml.XmlSuite$1",
+     "org.testng.xml.dom.TestNGTagFactory",
+     "org.testng.remote.RemoteTestNG",
+     "org.testng.internal.Invoker$ParameterBag",
+     "org.testng.ITestResult",
+     "org.testng.mustache.Value",
+     "org.testng.IHookable",
+     "org.testng.xml.XmlInclude",
+     "org.testng.reporters.ExitCodeListener",
+     "org.testng.annotations.AfterClass",
+     "org.testng.TestException",
+     "org.testng.junit.JUnitTestFinder",
+     "org.testng.remote.adapter.DefaultMastertAdapter",
+     "org.testng.reporters.JUnitXMLReporter",
+     "org.testng.internal.Utils",
+     "org.testng.FileAssert",
+     "org.testng.xml.TestNGContentHandler$Include",
+     "org.testng.remote.RemoteArgs",
+     "org.testng.internal.OverrideProcessor",
+     "org.testng.annotations.Parameters",
+     "org.testng.internal.ConfigurationGroupMethods",
+     "org.testng.TestListenerAdapter",
+     "org.testng.internal.InvokeMethodRunnable",
+     "org.testng.internal.TestMethodWithDataProviderMethodWorker",
+     "org.testng.internal.annotations.IListeners",
+     "org.testng.ISuiteResult",
+     "org.testng.annotations.IFactoryAnnotation",
+     "org.testng.internal.ClassHelper",
+     "org.testng.internal.thread.ThreadExecutionException",
+     "org.testng.reporters.DotTestListener",
+     "org.testng.reporters.SuiteHTMLReporter$1",
+     "org.testng.internal.annotations.IBeforeTest",
+     "org.testng.IInvokedMethodListener",
+     "org.testng.reporters.XMLUtils",
+     "org.testng.internal.Parameters$1",
+     "org.testng.mustache.Mustache",
+     "org.testng.internal.annotations.IAfterTest",
+     "org.testng.xml.XmlMethodSelectors",
+     "org.testng.internal.invokers.InvokedMethodListenerSubtype",
+     "org.testng.internal.thread.ThreadTimeoutException",
+     "org.testng.asserts.SoftAssert",
+     "org.testng.asserts.Assertion$59",
+     "org.testng.internal.XmlMethodSelector",
+     "org.testng.ITestContext",
+     "org.testng.reporters.jq.BannerPanel",
+     "org.testng.IInstanceInfo",
+     "org.testng.annotations.BeforeClass",
+     "org.testng.remote.RemoteTestNG$DelegatingTestRunnerFactory",
+     "org.testng.InstanceOrderingMethodInterceptor",
+     "org.testng.junit.JUnitTestClass",
+     "org.testng.internal.Dynamic",
+     "org.testng.internal.TestNGMethod$1",
+     "org.testng.reporters.XMLReporterConfig$1",
+     "org.testng.reporters.Tag",
+     "org.testng.xml.IFileParser",
+     "org.testng.xml.XmlPackage",
+     "org.testng.asserts.Assertion$60",
+     "org.testng.asserts.Assertion$61",
+     "org.testng.internal.SingleTestMethodWorker",
+     "org.testng.asserts.Assertion$64",
+     "org.testng.asserts.Assertion$65",
+     "org.testng.asserts.Assertion$62",
+     "org.testng.asserts.Assertion$63",
+     "org.testng.IMethodInterceptor",
+     "org.testng.junit.JUnit4TestRunner$RL",
+     "org.testng.asserts.Assertion$66",
+     "org.testng.IConfigureCallBack",
+     "org.testng.reporters.EmailableReporter",
+     "org.testng.asserts.Assertion$48",
+     "org.testng.reporters.XMLSuiteResultWriter$1",
+     "org.testng.SuiteRunner",
+     "org.testng.asserts.Assertion$49",
+     "org.testng.xml.dom.DomUtil$NodeProcessor",
+     "org.testng.annotations.DataProvider",
+     "org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException",
+     "org.testng.internal.MethodSelectorDescriptor",
+     "org.testng.xml.TestNGContentHandler$Location",
+     "org.testng.internal.thread.IExecutor",
+     "org.testng.internal.InstanceInfo",
+     "com.beust.testng.TestNG",
+     "org.testng.reporters.TestHTMLReporter$ConfigurationComparator",
+     "org.testng.IConfigurable",
+     "org.testng.internal.FactoryMethod",
+     "org.testng.IReporter",
+     "org.testng.internal.thread.TestNGThread",
+     "org.testng.asserts.Assertion$50",
+     "org.testng.asserts.Assertion$53",
+     "org.testng.asserts.Assertion$54",
+     "org.testng.asserts.Assertion$51",
+     "org.testng.asserts.Assertion$52",
+     "org.testng.ITestNGListenerFactory",
+     "org.testng.asserts.Assertion$57",
+     "org.testng.asserts.Assertion$58",
+     "org.testng.asserts.Assertion$55",
+     "org.testng.internal.annotations.BeforeSuiteAnnotation",
+     "org.testng.asserts.Assertion$56",
+     "org.testng.asserts.Assertion$39",
+     "org.testng.reporters.XMLSuiteResultWriter",
+     "org.testng.reporters.JqReporter",
+     "org.testng.asserts.Assertion$37",
+     "org.testng.asserts.Assertion$38",
+     "org.testng.internal.junit.InexactComparisonCriteria",
+     "org.testng.remote.SuiteDispatcher",
+     "org.testng.remote.SuiteSlave",
+     "org.testng.TestNGAntTask$TestNGLogOS",
+     "org.testng.xml.TestNGContentHandler",
+     "org.testng.log.TextFormatter",
+     "org.testng.internal.MethodInvocationHelper",
+     "org.testng.Converter",
+     "org.testng.xml.Parser",
+     "org.testng.asserts.Assertion$42",
+     "org.testng.asserts.Assertion$43",
+     "org.testng.asserts.Assertion$40",
+     "org.testng.annotations.AfterSuite",
+     "org.testng.asserts.Assertion$41",
+     "org.testng.IExtraOutput",
+     "org.testng.asserts.Assertion$46",
+     "org.testng.asserts.Assertion$47",
+     "org.testng.internal.PoolService$1",
+     "org.testng.asserts.Assertion$44",
+     "org.testng.asserts.Assertion$45",
+     "org.testng.internal.annotations.ITest",
+     "org.testng.annotations.Configuration",
+     "org.testng.internal.Graph",
+     "org.testng.internal.thread.graph.SuiteWorkerFactory",
+     "org.testng.reporters.jq.TestNgXmlPanel",
+     "org.testng.junit.JUnit4TestRunner",
+     "org.testng.internal.ClonedMethod",
+     "org.testng.remote.RemoteTestNG$RemoteSuiteListener",
+     "org.testng.internal.TestResult",
+     "org.testng.annotations.ObjectFactory",
+     "org.testng.IAnnotationTransformer",
+     "org.testng.xml.XmlTest",
+     "org.testng.remote.RemoteSuiteWorker",
+     "org.testng.internal.ConfigurationMethod",
+     "org.testng.internal.MethodInvocationHelper$2",
+     "org.testng.internal.MethodInvocationHelper$1",
+     "org.testng.IAnnotationTransformer2",
+     "org.testng.internal.TestNGMethod",
+     "org.testng.internal.annotations.DataProviderAnnotation",
+     "org.testng.SuiteRunState",
+     "org.testng.xml.XmlSuite",
+     "org.testng.ITestNGListener",
+     "org.testng.junit.JUnit4TestRunner$1",
+     "org.testng.ITestClass",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy",
+     "org.testng.internal.Yaml",
+     "org.testng.SuiteRunner$ProxyTestRunnerFactory",
+     "org.testng.TimeBombSkipException",
+     "org.testng.internal.annotations.AfterSuiteAnnotation",
+     "org.testng.internal.thread.ThreadUtil",
+     "org.testng.xml.ResultXMLParser$2",
+     "org.testng.xml.ResultXMLParser$1",
+     "org.testng.internal.IResultListener2",
+     "org.testng.reporters.jq.IPanel",
+     "org.testng.junit.JUnitTestRecognizer",
+     "org.testng.remote.strprotocol.AbstractRemoteTestRunnerClient$ServerConnection",
+     "org.testng.remote.strprotocol.IRemoteTestListener",
+     "org.testng.remote.strprotocol.GenericMessage",
+     "org.testng.collections.Objects",
+     "org.testng.annotations.Optional",
+     "org.testng.annotations.IExpectedExceptionsAnnotation",
+     "org.testng.reporters.SuiteHTMLReporter",
+     "org.testng.internal.BaseTestMethod",
+     "org.testng.internal.thread.ThreadUtil$1",
+     "org.testng.internal.thread.ThreadUtil$2",
+     "org.testng.internal.thread.ThreadUtil$ThreadFactoryImpl",
+     "org.testng.collections.Objects$ToStringHelper",
+     "org.testng.internal.Invoker",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$1",
+     "org.testng.xml.LaunchSuite$ClassesAndMethodsSuite",
+     "org.testng.annotations.IDataProviderAnnotation",
+     "org.testng.remote.strprotocol.RemoteTestListener",
+     "org.testng.internal.annotations.IBeforeSuite",
+     "org.testng.internal.Invoker$SameClassNamePredicate",
+     "org.testng.xml.IPostProcessor",
+     "org.testng.SuiteRunner$1",
+     "org.testng.internal.junit.ArrayComparisonFailure",
+     "org.testng.ReporterConfig$Property",
+     "org.testng.junit.INameFilter",
+     "org.testng.internal.invokers.InvokedMethodListenerMethod",
+     "org.testng.reporters.Buffer",
+     "org.testng.reporters.XMLReporterConfig",
+     "org.testng.reporters.XMLStringBuffer",
+     "org.testng.remote.strprotocol.MessageHub",
+     "org.testng.reporters.FileStringBuffer",
+     "org.testng.reporters.HtmlHelper",
+     "org.testng.reporters.jq.NavigatorPanel",
+     "org.testng.internal.InvokedMethod",
+     "org.testng.IMethodSelector",
+     "org.testng.collections.CollectionUtils",
+     "org.testng.reporters.jq.ResultsByClass",
+     "org.testng.annotations.IParameterizable",
+     "org.testng.internal.MethodInstance",
+     "org.testng.reporters.jq.NavigatorPanel$BaseResultProvider",
+     "org.testng.xml.XmlDefine",
+     "org.testng.internal.annotations.ObjectFactoryAnnotation",
+     "com.beust.testng.TestNGAntTask",
+     "org.testng.IClass",
+     "org.testng.reporters.jq.ResultsByClass$1",
+     "org.testng.reporters.EmailableReporter2$MethodResult",
+     "org.testng.reporters.jq.IgnoredMethodsPanel",
+     "org.testng.reporters.jq.Main",
+     "org.testng.internal.annotations.JDK15TagFactory",
+     "org.testng.internal.thread.AtomicIntegerAdapter",
+     "org.testng.internal.ExpectedExceptionsHolder",
+     "org.testng.internal.thread.IFutureResult",
+     "org.testng.internal.annotations.IAnnotationFinder",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$InvocationStrategy",
+     "org.testng.reporters.EmailableReporter2$SuiteResult",
+     "org.testng.junit.JUnit3TestClass",
+     "org.testng.internal.TestNGClassFinder",
+     "org.testng.internal.annotations.ConfigurationAnnotation",
+     "org.testng.remote.RemoteWorker",
+     "org.testng.xml.XmlMethodSelector",
+     "org.testng.internal.annotations.FactoryAnnotation",
+     "org.testng.reporters.jq.ReporterPanel",
+     "org.testng.ITestListener",
+     "org.testng.TestNGAntTask$Mode",
+     "org.testng.collections.ListMultiMap",
+     "org.testng.internal.annotations.JDK15TagFactory$Default",
+     "org.testng.reporters.TextReporter",
+     "org.testng.ITest",
+     "org.testng.reporters.jq.NavigatorPanel$ResultsByStatus",
+     "org.testng.internal.annotations.IAfterMethod",
+     "org.testng.reporters.jq.NavigatorPanel$IResultProvider",
+     "org.testng.remote.RemoteTestNG$1",
+     "org.testng.internal.DynamicGraph",
+     "org.testng.reporters.jq.BasePanel",
+     "org.testng.internal.TestNGMethodFinder",
+     "org.testng.junit.JUnitTestMethod",
+     "org.testng.reporters.EmailableReporter2$ClassResult",
+     "org.testng.internal.annotations.IAfterTests",
+     "org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithContextStrategy",
+     "org.testng.collections.Sets",
+     "org.testng.reporters.jq.BaseMultiSuitePanel",
+     "org.testng.TestNGUtils"
+    ],
+    "usedTypes": [
+     "org.testng.Assert",
+     "org.testng.annotations.Test"
+    ],
+    "usageRatio": 0.003669724770642202,
+    "children": [
+     {
+      "id": "org.beanshell:bsh:jar:2.0b4:provided",
+      "coordinates": "org.beanshell:bsh:2.0b4",
+      "groupId": "org.beanshell",
+      "artifactId": "bsh",
+      "version": "2.0b4",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 281694,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "org.testng:testng:jar:6.8.8:provided",
+      "allTypes": [
+       "bsh.Capabilities",
+       "bsh.org.objectweb.asm.Label",
+       "bsh.CollectionManager",
+       "bsh.ClassGeneratorImpl",
+       "bsh.UtilTargetError",
+       "bsh.classpath.ClassManagerImpl",
+       "bsh.util.SessiondConnection",
+       "bsh.BshClassManager$SignatureKey",
+       "bsh.util.AWTConsole",
+       "bsh.BshClassManager",
+       "bsh.LHS",
+       "bsh.BSHMethodInvocation",
+       "bsh.Parser",
+       "bsh.classpath.BshClassPath$DirClassSource",
+       "bsh.BSHStatementExpressionList",
+       "bsh.ParserTokenManager",
+       "bsh.classpath.ClassPathListener",
+       "bsh.BSHTypedVariableDeclaration",
+       "bsh.NameSource$Listener",
+       "bsh.org.objectweb.asm.Constants",
+       "bsh.TargetError",
+       "bsh.BlockNameSpace",
+       "bsh.ClassGeneratorUtil",
+       "bsh.BSHPrimarySuffix",
+       "bsh.util.Httpd",
+       "bsh.BSHThrowStatement",
+       "bsh.BSHImportDeclaration",
+       "bsh.util.AWTConsole$1",
+       "bsh.org.objectweb.asm.Edge",
+       "bsh.CollectionManager$BasicBshIterator",
+       "bsh.org.objectweb.asm.CodeVisitor",
+       "bsh.classpath.BshClassPath$ClassSource",
+       "bsh.util.Sessiond",
+       "bsh.servlet.SimpleTemplate",
+       "bsh.SimpleNode$1",
+       "bsh.ConsoleInterface",
+       "bsh.InterpreterError",
+       "bsh.classpath.BshClassPath$GeneratedClassSource",
+       "bsh.BSHEnhancedForStatement",
+       "bsh.TokenMgrError",
+       "bsh.Console",
+       "bsh.BSHLiteral",
+       "bsh.util.GUIConsoleInterface",
+       "bsh.NameSource",
+       "bsh.classpath.BshClassPath$AmbiguousName",
+       "bsh.ClassPathException",
+       "bsh.NameSpace",
+       "bsh.ClassGeneratorImpl$ClassNodeFilter",
+       "bsh.BSHBlock$NodeFilter",
+       "bsh.BSHReturnType",
+       "bsh.UtilEvalError",
+       "bsh.util.ClassBrowser",
+       "bsh.org.objectweb.asm.CodeWriter",
+       "bsh.ClassGenerator",
+       "bsh.Variable",
+       "bsh.util.NameCompletionTable",
+       "bsh.BSHForStatement",
+       "bsh.Parser$LookaheadSuccess",
+       "bsh.Reflect",
+       "bsh.Modifiers",
+       "bsh.Token",
+       "bsh.BSHMethodDeclaration",
+       "bsh.BSHFormalComment",
+       "bsh.classpath.BshClassPath",
+       "bsh.util.Util",
+       "bsh.BSHVariableDeclarator",
+       "bsh.BSHAllocationExpression",
+       "bsh.BSHCastExpression",
+       "bsh.classpath.BshClassLoader",
+       "bsh.EvalError",
+       "bsh.classpath.BshClassPath$UnqualifiedNameTable",
+       "bsh.Parser$1",
+       "bsh.util.JConsole$1",
+       "bsh.BshMethod",
+       "bsh.org.objectweb.asm.ClassVisitor",
+       "bsh.BSHTernaryExpression",
+       "bsh.Capabilities$Unavailable",
+       "bsh.CollectionManager$1",
+       "bsh.util.AWTRemoteApplet",
+       "bsh.BSHSwitchStatement",
+       "bsh.util.JConsole$2",
+       "bsh.util.JConsole$3",
+       "bsh.util.JConsole$4",
+       "bsh.util.JConsole$5",
+       "bsh.ReturnControl",
+       "bsh.collection.CollectionManagerImpl",
+       "bsh.org.objectweb.asm.Item",
+       "bsh.SimpleNode",
+       "bsh.util.AWTDemoApplet",
+       "bsh.BSHArguments",
+       "bsh.BSHSwitchLabel",
+       "bsh.util.NameCompletion",
+       "bsh.BSHArrayInitializer",
+       "bsh.util.ClassBrowser$PackageTree",
+       "bsh.util.JRemoteApplet",
+       "bsh.collection.CollectionIterator",
+       "bsh.Remote",
+       "bsh.Interpreter",
+       "bsh.classpath.BshClassPath$JarClassSource",
+       "bsh.util.JConsole",
+       "bsh.util.BshCanvas",
+       "bsh.org.objectweb.asm.Type",
+       "bsh.BSHBinaryExpression",
+       "bsh.BSHWhileStatement",
+       "bsh.BshIterator",
+       "bsh.BshClassManager$Listener",
+       "bsh.Interpreter$1",
+       "bsh.org.objectweb.asm.ByteVector",
+       "bsh.ReflectManager",
+       "bsh.DelayedEvalBshMethod",
+       "bsh.BSHTryStatement",
+       "bsh.JJTParserState",
+       "bsh.Node",
+       "bsh.BSHArrayDimensions",
+       "bsh.CommandLineReader",
+       "bsh.util.BeanShellBSFEngine",
+       "bsh.Name",
+       "bsh.BSHPackageDeclaration",
+       "bsh.BSHBlock",
+       "bsh.classpath.DiscreteFilesClassLoader$ClassSourceMap",
+       "bsh.BSHIfStatement",
+       "bsh.CallStack",
+       "bsh.ParseException",
+       "bsh.BSHFormalParameter",
+       "bsh.util.JDemoApplet",
+       "bsh.This",
+       "bsh.BSHType",
+       "bsh.JavaCharStream",
+       "bsh.BSHAmbiguousName",
+       "bsh.BSHClassDeclaration",
+       "bsh.Types",
+       "bsh.commands.dir",
+       "bsh.BSHUnaryExpression",
+       "bsh.util.ClassBrowser$2",
+       "bsh.ReflectError",
+       "bsh.util.ClassBrowser$1",
+       "bsh.BSHPrimitiveType",
+       "bsh.util.JConsole$BlockingPipedInputStream",
+       "bsh.servlet.BshServlet",
+       "bsh.ParserConstants",
+       "bsh.classpath.DiscreteFilesClassLoader",
+       "bsh.ClassIdentifier",
+       "bsh.util.HttpdConnection",
+       "bsh.ExternalNameSpace",
+       "bsh.org.objectweb.asm.ClassWriter",
+       "bsh.Primitive$Special",
+       "bsh.reflect.ReflectManagerImpl",
+       "bsh.Primitive",
+       "bsh.classpath.BshClassPath$MappingFeedback",
+       "bsh.BSHAssignment",
+       "bsh.BSHFormalParameters",
+       "bsh.XThis$Handler",
+       "bsh.BSHPrimaryExpression",
+       "bsh.ParserTreeConstants",
+       "bsh.ClassGeneratorUtil$ConstructorArgs",
+       "bsh.BSHReturnStatement",
+       "bsh.StringUtil",
+       "bsh.XThis"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     },
+     {
+      "id": "com.beust:jcommander:jar:1.27:provided",
+      "coordinates": "com.beust:jcommander:1.27",
+      "groupId": "com.beust",
+      "artifactId": "jcommander",
+      "version": "1.27",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 55585,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "org.testng:testng:jar:6.8.8:provided",
+      "allTypes": [
+       "com.beust.jcommander.converters.BooleanConverter",
+       "com.beust.jcommander.Parameters",
+       "com.beust.jcommander.JCommander$DefaultVariableArity",
+       "com.beust.jcommander.ParameterException",
+       "com.beust.jcommander.converters.LongConverter",
+       "com.beust.jcommander.internal.Maps",
+       "com.beust.jcommander.Parameter",
+       "com.beust.jcommander.ResourceBundle",
+       "com.beust.jcommander.converters.ISO8601DateConverter",
+       "com.beust.jcommander.ParametersDelegate",
+       "com.beust.jcommander.defaultprovider.PropertyFileDefaultProvider",
+       "com.beust.jcommander.internal.JDK6Console",
+       "com.beust.jcommander.internal.Sets",
+       "com.beust.jcommander.converters.IntegerConverter",
+       "com.beust.jcommander.validators.PositiveInteger",
+       "com.beust.jcommander.IStringConverter",
+       "com.beust.jcommander.converters.BaseConverter",
+       "com.beust.jcommander.converters.StringConverter",
+       "com.beust.jcommander.converters.BigDecimalConverter",
+       "com.beust.jcommander.IParameterValidator",
+       "com.beust.jcommander.validators.NoValidator",
+       "com.beust.jcommander.validators.NoValueValidator",
+       "com.beust.jcommander.MissingCommandException",
+       "com.beust.jcommander.IVariableArity",
+       "com.beust.jcommander.ParameterDescription",
+       "com.beust.jcommander.Parameterized",
+       "com.beust.jcommander.converters.CommaParameterSplitter",
+       "com.beust.jcommander.JCommander",
+       "com.beust.jcommander.JCommander$1",
+       "com.beust.jcommander.converters.IParameterSplitter",
+       "com.beust.jcommander.converters.NoConverter",
+       "com.beust.jcommander.internal.Console",
+       "com.beust.jcommander.converters.FileConverter",
+       "com.beust.jcommander.internal.Lists",
+       "com.beust.jcommander.internal.DefaultConverterFactory",
+       "com.beust.jcommander.converters.FloatConverter",
+       "com.beust.jcommander.IDefaultProvider",
+       "com.beust.jcommander.Strings",
+       "com.beust.jcommander.internal.DefaultConsole",
+       "com.beust.jcommander.DynamicParameter",
+       "com.beust.jcommander.JCommander$ProgramName",
+       "com.beust.jcommander.WrappedParameter",
+       "com.beust.jcommander.converters.DoubleConverter",
+       "com.beust.jcommander.IStringConverterFactory",
+       "com.beust.jcommander.IValueValidator"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "org.ow2.asm:asm:jar:5.0.3:provided",
+    "coordinates": "org.ow2.asm:asm:5.0.3",
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "5.0.3",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 53231,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.openpojo:openpojo:jar:0.7.5",
+    "allTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.AnnotationVisitor",
+     "org.objectweb.asm.MethodVisitor",
+     "org.objectweb.asm.Edge",
+     "org.objectweb.asm.FieldWriter",
+     "org.objectweb.asm.FieldVisitor",
+     "org.objectweb.asm.TypeReference",
+     "org.objectweb.asm.Label",
+     "org.objectweb.asm.Type",
+     "org.objectweb.asm.Context",
+     "org.objectweb.asm.Attribute",
+     "org.objectweb.asm.signature.SignatureWriter",
+     "org.objectweb.asm.ClassVisitor",
+     "org.objectweb.asm.Frame",
+     "org.objectweb.asm.ByteVector",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.Handler",
+     "org.objectweb.asm.signature.SignatureReader",
+     "org.objectweb.asm.Handle",
+     "org.objectweb.asm.Item",
+     "org.objectweb.asm.TypePath",
+     "org.objectweb.asm.ClassReader",
+     "org.objectweb.asm.AnnotationWriter",
+     "org.objectweb.asm.MethodWriter",
+     "org.objectweb.asm.signature.SignatureVisitor"
+    ],
+    "usedTypes": [
+     "org.objectweb.asm.ClassWriter",
+     "org.objectweb.asm.Opcodes",
+     "org.objectweb.asm.MethodVisitor",
+     "org.objectweb.asm.ClassReader",
+     "org.objectweb.asm.ClassVisitor"
+    ],
+    "usageRatio": 0.2,
+    "children": []
+   }
+  ]
+ }
+}

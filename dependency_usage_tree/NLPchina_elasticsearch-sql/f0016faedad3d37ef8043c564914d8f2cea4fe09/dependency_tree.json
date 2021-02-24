@@ -1,0 +1,1066 @@
+[
+ {
+  "artifactid": "elasticsearch-sql",
+  "groupid": "org.nlpcn",
+  "version": "6.2.3.1",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "hamcrest-all",
+    "groupid": "org.hamcrest",
+    "version": "1.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.11",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "fastjson",
+    "groupid": "com.alibaba",
+    "version": "1.1.41",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "druid",
+    "groupid": "com.alibaba",
+    "version": "1.0.15",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "spatial4j",
+    "groupid": "org.locationtech.spatial4j",
+    "version": "0.6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jts",
+    "groupid": "com.vividsolutions",
+    "version": "1.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "elasticsearch",
+    "groupid": "org.elasticsearch",
+    "version": "6.2.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "elasticsearch-core",
+      "groupid": "org.elasticsearch",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "lucene-core",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-analyzers-common",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-backward-codecs",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-grouping",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-highlighter",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-join",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-memory",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-misc",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-queries",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-queryparser",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-sandbox",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-spatial",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-spatial-extras",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-spatial3d",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lucene-suggest",
+      "groupid": "org.apache.lucene",
+      "version": "7.2.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "securesm",
+      "groupid": "org.elasticsearch",
+      "version": "1.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "elasticsearch-cli",
+      "groupid": "org.elasticsearch",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jopt-simple",
+        "groupid": "net.sf.jopt-simple",
+        "version": "5.0.2",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "hppc",
+      "groupid": "com.carrotsearch",
+      "version": "0.7.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "joda-time",
+      "groupid": "joda-time",
+      "version": "2.9.9",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "snakeyaml",
+      "groupid": "org.yaml",
+      "version": "1.17",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.8.10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-smile",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.8.10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-yaml",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.8.10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-cbor",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.8.10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "t-digest",
+      "groupid": "com.tdunning",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "HdrHistogram",
+      "groupid": "org.hdrhistogram",
+      "version": "2.1.9",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.9.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jna",
+      "groupid": "org.elasticsearch",
+      "version": "4.5.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "transport",
+    "groupid": "org.elasticsearch.client",
+    "version": "6.2.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "elasticsearch",
+      "groupid": "org.elasticsearch",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "transport-netty4-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec-http",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-handler",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-resolver",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.16.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "reindex-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "elasticsearch-rest-client",
+        "groupid": "org.elasticsearch.client",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "httpclient",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.5.2",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "httpcore",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.4.5",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "httpasyncclient",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.1.2",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "httpcore-nio",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.4.5",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-codec",
+          "groupid": "commons-codec",
+          "version": "1.10",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-logging",
+          "groupid": "commons-logging",
+          "version": "1.1.3",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "lang-mustache-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "compiler",
+        "groupid": "com.github.spullara.mustache.java",
+        "version": "0.9.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "percolator-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "parent-join-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "rank-eval-client",
+      "groupid": "org.elasticsearch.plugin",
+      "version": "6.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "elasticsearch",
+        "groupid": "org.elasticsearch",
+        "version": "6.2.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "spatial4j",
+        "groupid": "org.locationtech.spatial4j",
+        "version": "0.6",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jts",
+        "groupid": "com.vividsolutions",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log4j-core",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jna",
+        "groupid": "org.elasticsearch",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j",
+    "groupid": "log4j",
+    "version": "1.2.17",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "log4j-api",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.7",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "log4j-core",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.7",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.7",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "servlet-api",
+    "groupid": "javax.servlet",
+    "version": "2.5",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "15.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

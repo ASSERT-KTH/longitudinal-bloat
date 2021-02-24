@@ -1,0 +1,219 @@
+[
+ {
+  "artifactid": "online-codex",
+  "groupid": "de.onlinecodex",
+  "version": "8.16.0",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "jackson-dataformat-yaml",
+    "groupid": "com.fasterxml.jackson.dataformat",
+    "version": "2.9.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "snakeyaml",
+      "groupid": "org.yaml",
+      "version": "1.17",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.25",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.2.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.2.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "19.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "java-semver",
+    "groupid": "com.github.zafarkhaja",
+    "version": "0.9.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "github-api",
+    "groupid": "org.kohsuke",
+    "version": "1.94",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "JUnitParams",
+    "groupid": "pl.pragmatists",
+    "version": "1.1.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "junit",
+      "groupid": "junit",
+      "version": "4.12",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

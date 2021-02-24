@@ -1,0 +1,3252 @@
+[
+ {
+  "artifactid": "event-collector",
+  "groupid": "com.proofpoint.event",
+  "version": "1.15.23",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "aws-java-sdk",
+    "groupid": "com.amazonaws",
+    "version": "1.5.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-logging",
+      "groupid": "commons-logging",
+      "version": "1.1.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.1.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core-asl",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.8.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-mapper-asl",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.8.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.8.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "snappy",
+    "groupid": "org.iq80.snappy",
+    "version": "0.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-codec",
+    "groupid": "commons-codec",
+    "version": "1.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "validation-api",
+    "groupid": "javax.validation",
+    "version": "1.1.0.Final",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guice",
+    "groupid": "com.google.inject",
+    "version": "3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "aopalliance",
+      "groupid": "aopalliance",
+      "version": "1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "bootstrap",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "discovery",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "concurrent",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "units",
+        "groupid": "com.proofpoint.platform",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "log",
+        "groupid": "com.proofpoint.platform",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jmxutils",
+        "groupid": "org.weakref",
+        "version": "1.18",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "units",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "http-client",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "reporting",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jmxutils",
+        "groupid": "org.weakref",
+        "version": "1.18",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guice",
+        "groupid": "com.google.inject",
+        "version": "3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guice-multibindings",
+        "groupid": "com.google.inject.extensions",
+        "version": "3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "annotations",
+        "groupid": "com.google.code.findbugs",
+        "version": "2.0.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "guice",
+        "groupid": "com.google.inject",
+        "version": "3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "log",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "units",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "testing",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jul-to-slf4j",
+      "groupid": "org.slf4j",
+      "version": "1.7.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.8",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "log4j-over-slf4j",
+      "groupid": "org.slf4j",
+      "version": "1.7.8",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.8",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "logback-classic",
+      "groupid": "ch.qos.logback",
+      "version": "1.1.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "logback-core",
+        "groupid": "ch.qos.logback",
+        "version": "1.1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.8",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.1.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "http-server",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "units",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "event",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "trace-token",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "log",
+        "groupid": "com.proofpoint.platform",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guice",
+        "groupid": "com.google.inject",
+        "version": "3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "discovery",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "stats",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "reporting",
+        "groupid": "com.proofpoint.platform",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "units",
+        "groupid": "com.proofpoint.platform",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jmxutils",
+        "groupid": "org.weakref",
+        "version": "1.18",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-math",
+        "groupid": "org.apache.commons",
+        "version": "2.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "annotations",
+        "groupid": "com.google.code.findbugs",
+        "version": "2.0.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jol-core",
+        "groupid": "org.openjdk.jol",
+        "version": "0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "testing",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jetty-http",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-io",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.servlet-api",
+      "groupid": "javax.servlet",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "javax.ws.rs-api",
+      "groupid": "javax.ws.rs",
+      "version": "2.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang",
+      "groupid": "commons-lang",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "annotations",
+      "groupid": "com.google.code.findbugs",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jetty-server",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.servlet-api",
+        "groupid": "javax.servlet",
+        "version": "3.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-io",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-util",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jetty-servlet",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-security",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-servlets",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-continuation",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-io",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-security",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-server",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-jmx",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "joda-time",
+      "groupid": "joda-time",
+      "version": "2.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "http-client",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jetty-client",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-io",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.6.v20141205",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-io",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jetty-util",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jetty-http",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.6.v20141205",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "concurrent",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "units",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "stats",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "testing",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "trace-token",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "annotations",
+      "groupid": "com.google.code.findbugs",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-smile",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "jaxrs",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "http-server",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.ws.rs-api",
+      "groupid": "javax.ws.rs",
+      "version": "2.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jersey-common",
+      "groupid": "org.glassfish.jersey.core",
+      "version": "2.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.ws.rs-api",
+        "groupid": "javax.ws.rs",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "javax.annotation-api",
+        "groupid": "javax.annotation",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jersey-guava",
+        "groupid": "org.glassfish.jersey.bundles.repackaged",
+        "version": "2.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "hk2-api",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.3.0-b10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "hk2-utils",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.3.0-b10",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "hk2-locator",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.3.0-b10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "hk2-api",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.3.0-b10",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-utils",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.3.0-b10",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javassist",
+          "groupid": "org.javassist",
+          "version": "3.18.1-GA",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "osgi-resource-locator",
+        "groupid": "org.glassfish.hk2",
+        "version": "1.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jersey-server",
+      "groupid": "org.glassfish.jersey.core",
+      "version": "2.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jersey-common",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jersey-client",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jersey-common",
+          "groupid": "org.glassfish.jersey.core",
+          "version": "2.13",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javax.ws.rs-api",
+          "groupid": "javax.ws.rs",
+          "version": "2.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-api",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.3.0-b10",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-locator",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.3.0-b10",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "javax.ws.rs-api",
+        "groupid": "javax.ws.rs",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "javax.annotation-api",
+        "groupid": "javax.annotation",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "hk2-api",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.3.0-b10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "hk2-locator",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.3.0-b10",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "validation-api",
+        "groupid": "javax.validation",
+        "version": "1.1.0.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jersey-container-servlet-core",
+      "groupid": "org.glassfish.jersey.containers",
+      "version": "2.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jersey-common",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jersey-server",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "javax.ws.rs-api",
+        "groupid": "javax.ws.rs",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.servlet-api",
+      "groupid": "javax.servlet",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "bval-jsr303",
+      "groupid": "org.apache.bval",
+      "version": "0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "bval-core",
+        "groupid": "org.apache.bval",
+        "version": "0.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "commons-lang3",
+          "groupid": "org.apache.commons",
+          "version": "3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-beanutils-core",
+          "groupid": "commons-beanutils",
+          "version": "1.8.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "commons-lang3",
+        "groupid": "org.apache.commons",
+        "version": "3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-servlet",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "guice",
+        "groupid": "com.google.inject",
+        "version": "3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-smile",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jmx",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "discovery",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "json",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-datatype-guava",
+      "groupid": "com.fasterxml.jackson.datatype",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-datatype-joda",
+      "groupid": "com.fasterxml.jackson.datatype",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "joda-time",
+        "groupid": "joda-time",
+        "version": "2.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "units",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jackson-annotations",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.4.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-core",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.4.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-databind",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.4.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "node",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "configuration",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "bval-jsr303",
+      "groupid": "org.apache.bval",
+      "version": "0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "annotations",
+      "groupid": "com.google.code.findbugs",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "cglib-nodep",
+      "groupid": "cglib",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "testing",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "event",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "configuration",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "http-client",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "discovery",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "testing",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "units",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "joda-time",
+      "groupid": "joda-time",
+      "version": "2.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "mockito-core",
+      "groupid": "org.mockito",
+      "version": "1.10.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jmx-http",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "discovery",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "http-server",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "json",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jaxrs",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "javax.ws.rs-api",
+      "groupid": "javax.ws.rs",
+      "version": "2.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jmxutils",
+    "groupid": "org.weakref",
+    "version": "1.18",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "18.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "joda-time",
+    "groupid": "joda-time",
+    "version": "2.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "javax.ws.rs-api",
+    "groupid": "javax.ws.rs",
+    "version": "2.0.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "javax.inject",
+    "groupid": "javax.inject",
+    "version": "1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "annotations",
+    "groupid": "com.google.code.findbugs",
+    "version": "2.0.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guice-assistedinject",
+    "groupid": "com.google.inject.extensions",
+    "version": "3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "bigqueue",
+    "groupid": "com.leansoft",
+    "version": "0.7.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log4j",
+      "groupid": "log4j",
+      "version": "1.2.16",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "launcher",
+    "groupid": "com.proofpoint.platform",
+    "version": "bin",
+    "package": "tar.gz",
+    "scope": "1.10",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "annotations",
+      "groupid": "com.google.code.findbugs",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "airline",
+      "groupid": "io.airlift",
+      "version": "0.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.inject",
+        "groupid": "javax.inject",
+        "version": "1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jnr-posix",
+      "groupid": "com.github.jnr",
+      "version": "2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jnr-ffi",
+      "groupid": "com.github.jnr",
+      "version": "0.6.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jffi",
+        "groupid": "com.github.jnr",
+        "version": "1.0.11",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jffi",
+        "groupid": "com.github.jnr",
+        "version": "native",
+        "package": "jar",
+        "scope": "1.0.11",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "asm",
+        "groupid": "asm",
+        "version": "3.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "asm-commons",
+        "groupid": "asm",
+        "version": "3.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "asm-tree",
+          "groupid": "asm",
+          "version": "3.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "asm-analysis",
+        "groupid": "asm",
+        "version": "3.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "asm-tree",
+          "groupid": "asm",
+          "version": "3.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "asm-tree",
+        "groupid": "asm",
+        "version": "3.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "asm",
+          "groupid": "asm",
+          "version": "3.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "asm-util",
+        "groupid": "asm",
+        "version": "3.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "asm-tree",
+          "groupid": "asm",
+          "version": "3.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jnr-x86asm",
+        "groupid": "com.github.jnr",
+        "version": "1.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jnr-constants",
+      "groupid": "com.github.jnr",
+      "version": "0.8.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "testng",
+    "groupid": "org.testng",
+    "version": "6.8.7",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "bsh",
+      "groupid": "org.beanshell",
+      "version": "2.0b4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.27",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "snakeyaml",
+      "groupid": "org.yaml",
+      "version": "1.12",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "testing",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "annotations",
+      "groupid": "com.google.code.findbugs",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "bval-jsr303",
+      "groupid": "org.apache.bval",
+      "version": "0.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "1.10.8",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "reporting-client",
+    "groupid": "com.proofpoint.platform",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "discovery",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "http-client",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "node",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "reporting",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "stats",
+      "groupid": "com.proofpoint.platform",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jmxutils",
+      "groupid": "org.weakref",
+      "version": "1.18",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice",
+      "groupid": "com.google.inject",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guice-multibindings",
+      "groupid": "com.google.inject.extensions",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

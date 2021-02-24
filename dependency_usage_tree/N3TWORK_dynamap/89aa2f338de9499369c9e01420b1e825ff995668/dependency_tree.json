@@ -1,0 +1,736 @@
+[
+ {
+  "artifactid": "dynamap",
+  "groupid": "com.n3twork",
+  "version": "0.9.30",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "commons-io",
+    "groupid": "commons-io",
+    "version": "1.3.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-lang3",
+    "groupid": "org.apache.commons",
+    "version": "3.3.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-math3",
+    "groupid": "org.apache.commons",
+    "version": "3.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-codec",
+    "groupid": "commons-codec",
+    "version": "1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "18.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-core",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.8.7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-databind",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.8.7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.8.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.8.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "freemarker",
+    "groupid": "org.freemarker",
+    "version": "2.3.23",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-cli",
+    "groupid": "commons-cli",
+    "version": "1.3.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "aws-java-sdk-dynamodb",
+    "groupid": "com.amazonaws",
+    "version": "1.11.111",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "aws-java-sdk-s3",
+      "groupid": "com.amazonaws",
+      "version": "1.11.111",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-kms",
+        "groupid": "com.amazonaws",
+        "version": "1.11.111",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "aws-java-sdk-core",
+          "groupid": "com.amazonaws",
+          "version": "1.11.111",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jmespath-java",
+          "groupid": "com.amazonaws",
+          "version": "1.11.111",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.11.111",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jmespath-java",
+        "groupid": "com.amazonaws",
+        "version": "1.11.111",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-core",
+      "groupid": "com.amazonaws",
+      "version": "1.11.111",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.1.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.5.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "httpcore",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.4.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-logging",
+          "groupid": "commons-logging",
+          "version": "1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "commons-codec",
+          "groupid": "commons-codec",
+          "version": "1.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "ion-java",
+        "groupid": "software.amazon.ion",
+        "version": "1.0.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-dataformat-cbor",
+        "groupid": "com.fasterxml.jackson.dataformat",
+        "version": "2.6.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.6.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "joda-time",
+        "groupid": "joda-time",
+        "version": "2.8.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jmespath-java",
+      "groupid": "com.amazonaws",
+      "version": "1.11.111",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.0.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.0.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "testng",
+    "groupid": "org.testng",
+    "version": "6.8.8",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "bsh",
+      "groupid": "org.beanshell",
+      "version": "2.0b4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.27",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-all",
+    "groupid": "org.mockito",
+    "version": "1.10.8",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "fest-assert-core",
+    "groupid": "org.easytesting",
+    "version": "2.0M10",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "fest-util",
+      "groupid": "org.easytesting",
+      "version": "1.2.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "DynamoDBLocal",
+    "groupid": "com.amazonaws",
+    "version": "1.13.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "antlr4-runtime",
+      "groupid": "org.antlr",
+      "version": "4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.abego.treelayout.core",
+        "groupid": "org.abego.treelayout",
+        "version": "1.0.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-cli",
+      "groupid": "commons-cli",
+      "version": "1.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.8.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "libsqlite4java-linux-i386",
+      "groupid": "com.almworks.sqlite4java",
+      "version": "1.0.392",
+      "package": "so",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sqlite4java",
+        "groupid": "com.almworks.sqlite4java",
+        "version": "1.0.392",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "libsqlite4java-linux-amd64",
+      "groupid": "com.almworks.sqlite4java",
+      "version": "1.0.392",
+      "package": "so",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sqlite4java",
+        "groupid": "com.almworks.sqlite4java",
+        "version": "1.0.392",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "sqlite4java-win32-x64",
+      "groupid": "com.almworks.sqlite4java",
+      "version": "1.0.392",
+      "package": "dll",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sqlite4java",
+        "groupid": "com.almworks.sqlite4java",
+        "version": "1.0.392",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "sqlite4java-win32-x86",
+      "groupid": "com.almworks.sqlite4java",
+      "version": "1.0.392",
+      "package": "dll",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sqlite4java",
+        "groupid": "com.almworks.sqlite4java",
+        "version": "1.0.392",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "libsqlite4java-osx",
+      "groupid": "com.almworks.sqlite4java",
+      "version": "1.0.392",
+      "package": "dylib",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sqlite4java",
+        "groupid": "com.almworks.sqlite4java",
+        "version": "1.0.392",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-core",
+      "groupid": "com.amazonaws",
+      "version": "1.11.780",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "aws-java-sdk-dynamodb",
+      "groupid": "com.amazonaws",
+      "version": "1.11.780",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.13.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jetty-client",
+      "groupid": "org.eclipse.jetty",
+      "version": "8.1.12.v20130726",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "8.1.12.v20130726",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-io",
+          "groupid": "org.eclipse.jetty",
+          "version": "8.1.12.v20130726",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jetty-util",
+            "groupid": "org.eclipse.jetty",
+            "version": "8.1.12.v20130726",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-server",
+      "groupid": "org.eclipse.jetty",
+      "version": "8.1.12.v20130726",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.servlet",
+        "groupid": "org.eclipse.jetty.orbit",
+        "version": "3.0.0.v201112011016",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jetty-continuation",
+        "groupid": "org.eclipse.jetty",
+        "version": "8.1.12.v20130726",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "8.1.12.v20130726",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "mockito-core",
+      "groupid": "org.mockito",
+      "version": "1.10.19",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "hamcrest-core",
+        "groupid": "org.hamcrest",
+        "version": "1.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "objenesis",
+        "groupid": "org.objenesis",
+        "version": "2.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "21.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

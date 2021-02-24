@@ -1,0 +1,933 @@
+{
+ "usage": {
+  "services.gluster.GlusterHookService$Resolve": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackImageProvidersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackVolumeProviderService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Update$UsingSsh": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionsService$Add$Nfs": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Start": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TagService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DataCenterService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumeService$ResetOption": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.CpuProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Approve": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$PreviewSnapshot": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Export": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskService$RefreshLun": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DisksService$Add$OnStorageDomain": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.SchedulingPoliciesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.NetworkAttachmentService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VirtualFunctionAllowedNetworksService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionsService$Add$Local": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add$Local": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.QossService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainTemplateService$Import": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AffinityGroupVmsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add$ByPath": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.QuotasService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Deactivate": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VnicProfileService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmsService$Add$FromConfiguration": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Install$UsingSsh": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Ticket": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedCpuProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionService$Update$Local": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainTemplateService$Register": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateWatchdogsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionService$Update$Nfs": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StepService$End": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedTagsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Migrate": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ImageService$Import": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumeService$Start": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainServerConnectionsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$VmPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$IscsiLogin": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$ClusterPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Install": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$GroupLevel": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.QuotaService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.EventsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.QosService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmNumaNodesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskAttachmentsService$Add$Signature1": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AffinityGroupsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$UserLevel": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Clone": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ClusterEnabledFeaturesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateDiskService$Export": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.BookmarksService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostsService$Add$UsingSsh": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$StorageDomainPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AffinityGroupService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmNicsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainService$IsAttached": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VnicProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AttachedStorageDomainsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionExtensionService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackImageService$Import": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.externalhostproviders.ExternalHostProvidersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ClusterService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplatesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Fence": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmNicService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.externalhostproviders.ExternalHostProviderService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumeService$Rebalance": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionService$Update$Vfs": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.FiltersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.PermitsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainVmService$Import": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.SchedulingPolicyService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.BalancesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Install$UsingRootPassword": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.MacPoolsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskService$Copy": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskAttachmentsService$Add$ProvidingDiskId": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.WeightsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add$GlusterOrPostfs": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateGraphicsConsolesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.SnapshotsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Approve$UsingSsh": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$UnregisteredStorageDomainsDiscover": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateService$Export": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DisksService$Add$Lun": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.SnapshotService$Restore": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmCdromService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$vmPoolPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmNumaNodeService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$SetupNetworks": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskService$Export": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.aaa.SshPublicKeysService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmService$Maintenance": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainService$RefreshLuns": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.NetworkService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add$DirectLun": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmWatchdogService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedDiskProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.RolesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StepsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionsService$Add$Iscsi": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmGraphicsConsolesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ExternalProviderService$ImportCertificates": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$IscsiDiscover": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmPoolsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.InstanceTypesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackImageProviderService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateDiskService$Copy": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionExtensionsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackVolumeAuthenticationKeysService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.CpuProfileService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackNetworkProviderService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskAttachmentService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostsService$Add$UsingRootPassword": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ImageTransfersService$Add$ForImage": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskProfileService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionsService$Add$Vfs": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.MacPoolService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.FenceAgentService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateNicsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$TemplatePermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ImageTransfersService$Add$ForSnapshot": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumeService$Stop": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedVnicProfilesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackVolumeAuthenticationKeyService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.JobsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackVolumeProvidersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.NetworkAttachmentsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.aaa.GroupsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostNicService$UpdateVirtualFunctionsConfiguration": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TagsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.FenceAgentsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DataCentersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Update$UsingRootPassword": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmHostDevicesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmsService$Add$FromSnapshot": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.HostService$Approve$UsingRootPassword": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmWatchdogsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.NetworkLabelsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageDomainsService$Add$BlockDomain": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.aaa.UsersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateWatchdogService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.gluster.GlusterVolumeService$SetOption": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.NetworksService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.openstack.OpenstackNetworkProvidersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.TemplateNicService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DisksService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmCdromsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.StorageServerConnectionService$Update$Iscsi": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ImageTransfersService$Add$ForDisk": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmPoolService$Update": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.InstanceTypeGraphicsConsolesService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.DiskService$Move": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.VmsService$Add$FromScratch": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.ClustersService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$HostPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.IscsiBondsService$Add": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  },
+  "services.AssignedPermissionsService$Add$DataCenterPermission": {
+   "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile": [
+    "org.ovirt.api.metamodel.language.ApiLanguage"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.ovirt.engine.api:model:jar:4.3.1:null",
+  "coordinates": "org.ovirt.engine.api:model:4.3.1",
+  "groupId": "org.ovirt.engine.api",
+  "artifactId": "model",
+  "version": "4.3.1",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "org.ovirt.engine.api:metamodel-annotations:jar:1.2.10:compile",
+    "coordinates": "org.ovirt.engine.api:metamodel-annotations:1.2.10",
+    "groupId": "org.ovirt.engine.api",
+    "artifactId": "metamodel-annotations",
+    "version": "1.2.10",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 7509,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.ovirt.engine.api:model:jar:4.3.1",
+    "allTypes": [
+     "org.ovirt.api.metamodel.language.ApiLanguage",
+     "org.ovirt.api.metamodel.annotations.Link",
+     "org.ovirt.api.metamodel.annotations.Root",
+     "org.ovirt.api.metamodel.annotations.In",
+     "org.ovirt.api.metamodel.annotations.InputDetail",
+     "org.ovirt.api.metamodel.annotations.Out",
+     "org.ovirt.api.metamodel.annotations.Required",
+     "org.ovirt.api.metamodel.annotations.Method",
+     "org.ovirt.api.metamodel.annotations.Service",
+     "org.ovirt.api.metamodel.annotations.Allowed",
+     "org.ovirt.api.metamodel.annotations.Type"
+    ],
+    "usedTypes": [
+     "org.ovirt.api.metamodel.language.ApiLanguage"
+    ],
+    "usageRatio": 0.09090909090909091,
+    "children": []
+   }
+  ]
+ }
+}

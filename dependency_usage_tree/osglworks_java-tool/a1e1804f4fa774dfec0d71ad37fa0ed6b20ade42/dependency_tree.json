@@ -1,0 +1,310 @@
+[
+ {
+  "artifactid": "osgl-tool",
+  "groupid": "org.osgl",
+  "version": "1.7.3",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "commons-codec",
+    "groupid": "commons-codec",
+    "version": "1.11",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "fastjson",
+    "groupid": "com.alibaba",
+    "version": "1.2.43",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "junit-benchmarks",
+    "groupid": "com.carrotsearch",
+    "version": "0.7.2",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "osgl-storage",
+    "groupid": "org.osgl",
+    "version": "1.4.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "osgl-ut",
+      "groupid": "org.osgl",
+      "version": "1.0.0-BETA-5",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "osgl-bootstrap",
+      "groupid": "org.osgl",
+      "version": "1.0.0-BETA-10",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "junit",
+        "groupid": "junit",
+        "version": "4.12",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "mockito-core",
+        "groupid": "org.mockito",
+        "version": "2.9.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.25",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "osgl-logging",
+      "groupid": "org.osgl",
+      "version": "1.0.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "2.9.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "byte-buddy",
+      "groupid": "net.bytebuddy",
+      "version": "1.7.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byte-buddy-agent",
+      "groupid": "net.bytebuddy",
+      "version": "1.7.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.25",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "osgl-version",
+    "groupid": "org.osgl",
+    "version": "2.0.0-BETA-1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "junit",
+      "groupid": "junit",
+      "version": "4.12",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "mockito-core",
+      "groupid": "org.mockito",
+      "version": "2.9.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "osgl-ut",
+    "groupid": "org.osgl",
+    "version": "2.0.0-BETA-1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-junit",
+      "groupid": "org.hamcrest",
+      "version": "2.0.0.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "junit",
+        "groupid": "junit",
+        "version": "4.12",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "java-hamcrest",
+        "groupid": "org.hamcrest",
+        "version": "2.0.0.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "osgl-version",
+      "groupid": "org.osgl",
+      "version": "2.0.0-BETA-1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "junit",
+      "groupid": "junit",
+      "version": "4.12",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "mockito-core",
+      "groupid": "org.mockito",
+      "version": "2.9.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

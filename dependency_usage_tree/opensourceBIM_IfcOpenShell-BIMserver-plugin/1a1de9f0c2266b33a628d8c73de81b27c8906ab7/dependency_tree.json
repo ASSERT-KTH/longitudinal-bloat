@@ -1,0 +1,1699 @@
+[
+ {
+  "artifactid": "ifcopenshellplugin",
+  "groupid": "org.opensourcebim",
+  "version": "0.5.38",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "pluginbase",
+    "groupid": "org.opensourcebim",
+    "version": "1.5.117",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "httpmime",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.5.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aether-api",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "aether-transport-file",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-spi",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-util",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "aether-api",
+          "groupid": "org.eclipse.aether",
+          "version": "1.0.2.v20150114",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "aether-transport-http",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-spi",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-util",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jcl-over-slf4j",
+        "groupid": "org.slf4j",
+        "version": "1.6.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.6.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "aether-spi",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aether-connector-basic",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-spi",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-util",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aether-impl",
+      "groupid": "org.eclipse.aether",
+      "version": "1.0.2.v20150114",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-spi",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-util",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-repository-metadata",
+      "groupid": "org.apache.maven",
+      "version": "3.3.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "3.0.22",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-aether-provider",
+      "groupid": "org.apache.maven",
+      "version": "3.3.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "maven-model",
+        "groupid": "org.apache.maven",
+        "version": "3.3.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "3.0.22",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-lang3",
+          "groupid": "org.apache.commons",
+          "version": "3.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-model-builder",
+        "groupid": "org.apache.maven",
+        "version": "3.3.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "3.0.22",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-interpolation",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.21",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "plexus-component-annotations",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-model",
+          "groupid": "org.apache.maven",
+          "version": "3.3.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-artifact",
+          "groupid": "org.apache.maven",
+          "version": "3.3.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "plexus-utils",
+            "groupid": "org.codehaus.plexus",
+            "version": "3.0.22",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "commons-lang3",
+            "groupid": "org.apache.commons",
+            "version": "3.4",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "maven-builder-support",
+          "groupid": "org.apache.maven",
+          "version": "3.3.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "plexus-utils",
+            "groupid": "org.codehaus.plexus",
+            "version": "3.0.22",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "commons-lang3",
+            "groupid": "org.apache.commons",
+            "version": "3.4",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "18.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "commons-lang3",
+          "groupid": "org.apache.commons",
+          "version": "3.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-repository-metadata",
+        "groupid": "org.apache.maven",
+        "version": "3.3.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-api",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-spi",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-util",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aether-impl",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "plexus-component-annotations",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "3.0.22",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-lang3",
+        "groupid": "org.apache.commons",
+        "version": "3.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "26.0-jre",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jsr305",
+        "groupid": "com.google.code.findbugs",
+        "version": "3.0.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "checker-qual",
+        "groupid": "org.checkerframework",
+        "version": "2.5.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "error_prone_annotations",
+        "groupid": "com.google.errorprone",
+        "version": "2.1.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "j2objc-annotations",
+        "groupid": "com.google.j2objc",
+        "version": "1.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "animal-sniffer-annotations",
+        "groupid": "org.codehaus.mojo",
+        "version": "1.14",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "2.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "gson",
+      "groupid": "com.google.code.gson",
+      "version": "2.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "org.eclipse.jdt.core",
+      "groupid": "org.eclipse.tycho",
+      "version": "3.14.0.v20171206-0802",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "org.eclipse.emf.common",
+      "groupid": "org.eclipse.emf",
+      "version": "2.15.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "org.eclipse.emf.ecore",
+      "groupid": "org.eclipse.emf",
+      "version": "2.15.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.eclipse.emf.common",
+        "groupid": "org.eclipse.emf",
+        "version": "2.15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "org.eclipse.emf.ecore.xmi",
+      "groupid": "org.eclipse.emf",
+      "version": "2.15.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.eclipse.emf.ecore",
+        "groupid": "org.eclipse.emf",
+        "version": "2.15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "org.eclipse.emf.codegen",
+      "groupid": "org.eclipse.emf",
+      "version": "2.14.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.eclipse.core.runtime",
+        "groupid": "org.eclipse.platform",
+        "version": "3.19.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.osgi",
+          "groupid": "org.eclipse.platform",
+          "version": "3.16.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.equinox.common",
+          "groupid": "org.eclipse.platform",
+          "version": "3.13.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.jobs",
+          "groupid": "org.eclipse.platform",
+          "version": "3.10.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.equinox.registry",
+          "groupid": "org.eclipse.platform",
+          "version": "3.9.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.equinox.preferences",
+          "groupid": "org.eclipse.platform",
+          "version": "3.8.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.core.contenttype",
+          "groupid": "org.eclipse.platform",
+          "version": "3.7.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.preferences",
+            "groupid": "org.eclipse.platform",
+            "version": "3.8.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.equinox.registry",
+            "groupid": "org.eclipse.platform",
+            "version": "3.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.equinox.app",
+          "groupid": "org.eclipse.platform",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.registry",
+            "groupid": "org.eclipse.platform",
+            "version": "3.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "org.eclipse.emf.common",
+        "groupid": "org.eclipse.emf",
+        "version": "2.15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.core.resources",
+        "groupid": "org.eclipse.platform",
+        "version": "3.13.800",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.core.expressions",
+          "groupid": "org.eclipse.platform",
+          "version": "3.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.core.runtime",
+            "groupid": "org.eclipse.platform",
+            "version": "3.19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.core.filesystem",
+          "groupid": "org.eclipse.platform",
+          "version": "1.7.700",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.equinox.registry",
+            "groupid": "org.eclipse.platform",
+            "version": "3.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.osgi",
+            "groupid": "org.eclipse.platform",
+            "version": "3.16.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.core.runtime",
+          "groupid": "org.eclipse.platform",
+          "version": "3.19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "org.eclipse.jdt.core",
+        "groupid": "org.eclipse.jdt",
+        "version": "3.23.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.core.resources",
+          "groupid": "org.eclipse.platform",
+          "version": "3.13.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.runtime",
+          "groupid": "org.eclipse.platform",
+          "version": "3.19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.filesystem",
+          "groupid": "org.eclipse.platform",
+          "version": "1.7.700",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.text",
+          "groupid": "org.eclipse.platform",
+          "version": "3.10.300",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "org.eclipse.jdt.launching",
+        "groupid": "org.eclipse.jdt",
+        "version": "3.18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.core.resources",
+          "groupid": "org.eclipse.platform",
+          "version": "3.13.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.jdt.core",
+          "groupid": "org.eclipse.jdt",
+          "version": "3.23.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.debug.core",
+          "groupid": "org.eclipse.platform",
+          "version": "3.16.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.jdt.debug",
+          "groupid": "org.eclipse.jdt",
+          "version": "3.16.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.core.resources",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.800",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.debug.core",
+            "groupid": "org.eclipse.platform",
+            "version": "3.16.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.jdt.core",
+            "groupid": "org.eclipse.jdt",
+            "version": "3.23.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.core.runtime",
+            "groupid": "org.eclipse.platform",
+            "version": "3.19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "org.eclipse.core.expressions",
+            "groupid": "org.eclipse.platform",
+            "version": "3.7.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.core.variables",
+          "groupid": "org.eclipse.platform",
+          "version": "3.4.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.core.runtime",
+            "groupid": "org.eclipse.platform",
+            "version": "3.19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.core.runtime",
+          "groupid": "org.eclipse.platform",
+          "version": "3.19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.osgi",
+          "groupid": "org.eclipse.platform",
+          "version": "3.16.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.expressions",
+          "groupid": "org.eclipse.platform",
+          "version": "3.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "org.eclipse.debug.core",
+        "groupid": "org.eclipse.platform",
+        "version": "3.16.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.core.resources",
+          "groupid": "org.eclipse.platform",
+          "version": "3.13.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.variables",
+          "groupid": "org.eclipse.platform",
+          "version": "3.4.800",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.runtime",
+          "groupid": "org.eclipse.platform",
+          "version": "3.19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.filesystem",
+          "groupid": "org.eclipse.platform",
+          "version": "1.7.700",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.expressions",
+          "groupid": "org.eclipse.platform",
+          "version": "3.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "org.eclipse.text",
+        "groupid": "org.eclipse.platform",
+        "version": "3.10.300",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "org.eclipse.core.commands",
+          "groupid": "org.eclipse.platform",
+          "version": "3.9.700",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "org.eclipse.equinox.common",
+            "groupid": "org.eclipse.platform",
+            "version": "3.13.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.eclipse.equinox.common",
+          "groupid": "org.eclipse.platform",
+          "version": "3.13.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.equinox.preferences",
+          "groupid": "org.eclipse.platform",
+          "version": "3.8.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "org.eclipse.core.runtime",
+          "groupid": "org.eclipse.platform",
+          "version": "3.19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "org.eclipse.emf.codegen.ecore",
+      "groupid": "org.eclipse.emf",
+      "version": "2.15.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.eclipse.core.runtime",
+        "groupid": "org.eclipse.platform",
+        "version": "3.19.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.core.resources",
+        "groupid": "org.eclipse.platform",
+        "version": "3.13.800",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.jdt.core",
+        "groupid": "org.eclipse.jdt",
+        "version": "3.23.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.jdt.launching",
+        "groupid": "org.eclipse.jdt",
+        "version": "3.18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.emf.ecore",
+        "groupid": "org.eclipse.emf",
+        "version": "2.15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.emf.codegen",
+        "groupid": "org.eclipse.emf",
+        "version": "2.14.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.emf.ecore.xmi",
+        "groupid": "org.eclipse.emf",
+        "version": "2.15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "org.eclipse.text",
+        "groupid": "org.eclipse.platform",
+        "version": "3.10.300",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "org.eclipse.core.resources",
+      "groupid": "org.eclipse.birt.runtime",
+      "version": "3.8.101.v20130717-0806",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "buildingsmartlibrary",
+      "groupid": "org.opensourcebim",
+      "version": "1.0.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "antlr-complete",
+        "groupid": "org.antlr",
+        "version": "3.5.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "antlr",
+          "groupid": "org.antlr",
+          "version": "3.5.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "antlr-runtime",
+            "groupid": "org.antlr",
+            "version": "3.5.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "ST4",
+            "groupid": "org.antlr",
+            "version": "4.0.8",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "antlr-runtime",
+              "groupid": "org.antlr",
+              "version": "3.5.2",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "antlr-runtime",
+          "groupid": "org.antlr",
+          "version": "3.5.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "gunit",
+          "groupid": "org.antlr",
+          "version": "3.5.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "junit",
+            "groupid": "junit",
+            "version": "4.10",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "hamcrest-core",
+              "groupid": "org.hamcrest",
+              "version": "1.1",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "antlr",
+            "groupid": "org.antlr",
+            "version": "3.5.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "stringtemplate",
+            "groupid": "org.antlr",
+            "version": "3.2.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "antlr",
+              "groupid": "antlr",
+              "version": "2.7.7",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "xmlbeans",
+        "groupid": "org.apache.xmlbeans",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "stax-api",
+          "groupid": "stax",
+          "version": "1.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "java-getopt",
+        "groupid": "gnu.getopt",
+        "version": "1.0.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "19.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-io",
+        "groupid": "commons-io",
+        "version": "2.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.json",
+      "groupid": "org.glassfish",
+      "version": "1.0.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]
