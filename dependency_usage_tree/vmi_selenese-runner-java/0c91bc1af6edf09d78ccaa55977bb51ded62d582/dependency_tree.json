@@ -1,0 +1,767 @@
+[
+ {
+  "artifactid": "selenese-runner-java",
+  "groupid": "jp.vmi",
+  "version": "1.0.2",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "selenium-java",
+    "groupid": "org.seleniumhq.selenium",
+    "version": "2.25.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "selenium-android-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "cglib-nodep",
+          "groupid": "cglib",
+          "version": "2.1_3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "json",
+          "groupid": "org.json",
+          "version": "20080701",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "selenium-api",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.25.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "httpclient",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "12.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jsr305",
+            "groupid": "com.google.code.findbugs",
+            "version": "1.3.9",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "commons-exec",
+          "groupid": "org.apache.commons",
+          "version": "1.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jna",
+          "groupid": "net.java.dev.jna",
+          "version": "3.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "platform",
+          "groupid": "net.java.dev.jna",
+          "version": "3.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-chrome-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-htmlunit-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "12.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "json",
+          "groupid": "org.json",
+          "version": "20080701",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "htmlunit",
+        "groupid": "net.sourceforge.htmlunit",
+        "version": "2.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "xalan",
+          "groupid": "xalan",
+          "version": "2.7.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "serializer",
+            "groupid": "xalan",
+            "version": "2.7.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "xml-apis",
+              "groupid": "xml-apis",
+              "version": "1.3.04",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "commons-collections",
+          "groupid": "commons-collections",
+          "version": "3.2.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-lang",
+          "groupid": "commons-lang",
+          "version": "2.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "httpmime",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "httpcore",
+            "groupid": "org.apache.httpcomponents",
+            "version": "4.1.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "commons-codec",
+          "groupid": "commons-codec",
+          "version": "1.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "htmlunit-core-js",
+          "groupid": "net.sourceforge.htmlunit",
+          "version": "2.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "xercesImpl",
+          "groupid": "xerces",
+          "version": "2.9.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "nekohtml",
+          "groupid": "net.sourceforge.nekohtml",
+          "version": "1.9.15",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "cssparser",
+          "groupid": "net.sourceforge.cssparser",
+          "version": "0.9.5",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "sac",
+            "groupid": "org.w3c.css",
+            "version": "1.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "commons-io",
+          "groupid": "commons-io",
+          "version": "2.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "httpcore",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-firefox-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-io",
+        "groupid": "commons-io",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-ie-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jna",
+        "groupid": "net.java.dev.jna",
+        "version": "3.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "platform",
+        "groupid": "net.java.dev.jna",
+        "version": "3.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-iphone-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-safari-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "webbit",
+        "groupid": "org.webbitserver",
+        "version": "0.4.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-support",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.25.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "webbit",
+      "groupid": "org.webbitserver",
+      "version": "0.4.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty",
+        "groupid": "org.jboss.netty",
+        "version": "3.2.7.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "selenium-server",
+    "groupid": "org.seleniumhq.selenium",
+    "version": "2.25.0",
+    "package": "jar",
+    "scope": "runtime",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "selenium-java",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.25.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "commons-lang",
+    "groupid": "commons-lang",
+    "version": "2.6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-io",
+    "groupid": "commons-io",
+    "version": "2.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-cli",
+    "groupid": "commons-cli",
+    "version": "1.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.0.7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.0.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.6.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jcl-over-slf4j",
+    "groupid": "org.slf4j",
+    "version": "1.7.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "xercesImpl",
+    "groupid": "xerces",
+    "version": "2.10.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "xml-apis",
+      "groupid": "xml-apis",
+      "version": "1.4.01",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "guice",
+    "groupid": "com.google.inject",
+    "version": "3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "javax.inject",
+      "groupid": "javax.inject",
+      "version": "1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "aopalliance",
+      "groupid": "aopalliance",
+      "version": "1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.10",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "hamcrest-all",
+    "groupid": "org.hamcrest",
+    "version": "1.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jruby",
+    "groupid": "org.jruby",
+    "version": "1.7.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jruby-stdlib",
+    "groupid": "org.jruby",
+    "version": "1.7.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,2352 @@
+{
+ "usage": {
+  "io.vlingo.cluster.model.attribute.AttributeSetRepositoryTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.AttributeSetTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterApplicationBroadcasterTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessageCacheTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.AttributesAgentActorTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestActor",
+    "io.vlingo.actors.testkit.TestWorld",
+    "io.vlingo.actors.Definition"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id",
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.message.ByteBufferAllocator"
+   ]
+  },
+  "io.vlingo.cluster.model.PropertiesTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.TrackedAttributeTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterSnapshotInitializerTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterConfigurationTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.ConfirmablesTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.AttributeTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterSnapshotActorTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestActor",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessageParserTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessageGenerationTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.message.ByteBufferAllocator"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ],
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.ApplicationOutboundStreamTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestActor",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStreamActor",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.RawMessageBuilderTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert",
+    "org.junit.Before"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.RawMessageBuilder",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.message.RawMessageHeader",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.ConfirmingDistributorTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestActor",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LocalRegistryTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.AbstractClusterTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestWorld"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.OperationalOutboundStreamTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.After",
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.testkit.TestActor",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.testkit.TestWorld"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.RawMessageTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.message.RawMessageHeader",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.OutboundTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Before",
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.outbound.Outbound",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.message.ByteBufferPool$PooledByteBuffer",
+    "io.vlingo.wire.message.ConsumerByteBuffer",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.RegisteredNodeStatusTest": {
+   "junit:junit:jar:4.11:test": [
+    "org.junit.Test",
+    "org.junit.Assert"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.NodeBootstrap": {
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterSnapshotControl": {
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.World"
+   ]
+  },
+  "io.vlingo.cluster.model.Cluster": {
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger",
+    "io.vlingo.actors.World"
+   ]
+  },
+  "io.vlingo.cluster.ShutdownHook": {
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ]
+  },
+  "io.vlingo.cluster.ShutdownHook$1": {
+   "io.vlingo:vlingo-common:jar:0.7.1:compile": [
+    "io.vlingo.common.fn.Tuple2"
+   ],
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LocalRegistry": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.application.ClusterApplication": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stoppable",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.World",
+    "io.vlingo.actors.Startable",
+    "io.vlingo.actors.Actor"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.application.FakeClusterApplicationActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LocalLiveNodeActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Scheduled",
+    "io.vlingo.actors.Scheduler",
+    "io.vlingo.actors.Actor",
+    "io.vlingo.actors.Cancellable"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.NodeSynchronizer",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.RegistryInterestBroadcaster": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.CommunicationsHub": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stage"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.fdx.inbound.InboundStream",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.AttributesAgent": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stoppable",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Definition",
+    "io.vlingo.actors.Scheduled"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.NodeSynchronizer",
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LeaderState": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.AttributesAgentActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Scheduled",
+    "io.vlingo.actors.Scheduler",
+    "io.vlingo.actors.Actor"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.AddressType"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterSnapshotInitializer": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.OperationalOutboundStream": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stoppable",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Definition"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannelProvider",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.OperationalOutboundStreamActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Actor"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.outbound.Outbound",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferPool$PooledByteBuffer",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannelProvider",
+    "io.vlingo.wire.message.ConsumerByteBuffer",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.NetworkCommunicationsHub": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stage"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundSocketChannelProvider",
+    "io.vlingo.wire.message.ByteBufferPool",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.fdx.inbound.InboundStream",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.ConfirmingDistributor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.node.IdleState": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.AbstractMessageTool": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.plugin.logging.jdk.JDKLogger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterConfiguration": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Host",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.FollowerState": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterApplicationBroadcaster": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.Properties": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Actor"
+   ]
+  },
+  "io.vlingo.cluster.model.ClusterSnapshotActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Actor",
+    "io.vlingo.actors.World"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.AddressType",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.application.ClusterApplicationActor": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Actor"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LocalLiveNode": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Stoppable",
+    "io.vlingo.actors.Stage",
+    "io.vlingo.actors.Definition"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.NodeSynchronizer",
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.NoOpConfirmationInterest": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LiveNodeState": {
+   "io.vlingo:vlingo-actors:jar:0.7.1:compile": [
+    "io.vlingo.actors.Logger"
+   ],
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.message.CheckHealth": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.ApplicationSays": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessagePartsBuilder": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.message.MessagePartsBuilder",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Join": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.AttributeMessage": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.RemoteAttributeRequestHandler": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Configuration"
+   ]
+  },
+  "io.vlingo.cluster.model.message.MessageFixtures": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.message.RawMessageHeader"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.Confirmables$Confirmable": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ConfirmCreateAttributeSet": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ApplicationMessage": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Vote": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Leave": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.RegisteredNodeStatus": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.Confirmables": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.MockClusterApplication": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Id",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream"
+   ]
+  },
+  "io.vlingo.cluster.model.node.MergeResult": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.MockManagedOutboundChannelProvider": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannelProvider",
+    "io.vlingo.wire.node.Configuration",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.application.ClusterApplicationAdapter": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Pulse": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.MockConfirmationInterest": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.node.MockRegistryInterest": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Elect": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.MessageConverters": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Address",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.AddAttribute": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ConfirmRemoveAttributeSet": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.CreateAttributeSet": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.node.LiveNodeMaintainer": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.NodeSynchronizer",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Leader": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Ping": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.outbound.MockManagedOutboundChannel": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ReplaceAttribute": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ConfirmAttribute": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Split": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.Directory": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.RemoveAttributeSet": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.ConfirmationInterest": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessage": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.message.Message",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.ReceivedAttributeMessage": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Name",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.attribute.message.RemoveAttribute": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.node.RegistryInterest": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node"
+   ]
+  },
+  "io.vlingo.cluster.model.node.Registry": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.node.Id"
+   ]
+  },
+  "io.vlingo.cluster.model.message.OperationalMessageCache": {
+   "io.vlingo:vlingo-wire:jar:0.7.1:compile": [
+    "io.vlingo.wire.node.Node",
+    "io.vlingo.wire.message.Converters",
+    "io.vlingo.wire.message.RawMessage",
+    "io.vlingo.wire.message.ByteBufferAllocator",
+    "io.vlingo.wire.node.Id"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "io.vlingo:vlingo-cluster:jar:0.7.1:null",
+  "coordinates": "io.vlingo:vlingo-cluster:0.7.1",
+  "groupId": "io.vlingo",
+  "artifactId": "vlingo-cluster",
+  "version": "0.7.1",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "junit:junit:jar:4.11:test",
+    "coordinates": "junit:junit:4.11",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 245039,
+    "type": "direct",
+    "status": "used",
+    "parent": "io.vlingo:vlingo-cluster:jar:0.7.1",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.runner.Result$1",
+     "org.junit.rules.ExpectedExceptionMatcherBuilder",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Request$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.matchers.package-info",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "org.junit.internal.requests.package-info",
+     "junit.textui.ResultPrinter",
+     "org.junit.runners.package-info",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.internal.ComparisonCriteria",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.rules.Timeout",
+     "junit.framework.TestCase",
+     "org.junit.runner.package-info",
+     "org.junit.Before",
+     "junit.runner.package-info",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.junit.runners.Parameterized$Parameter",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.ComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.MethodSorters",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.internal.runners.package-info",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.internal.MethodSorter",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "junit.textui.package-info",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "junit.extensions.package-info",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.internal.matchers.StacktracePrintingMatcher",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.InexactComparisonCriteria",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.junit.internal.matchers.ThrowableMessageMatcher",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.internal.MethodSorter$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.internal.MethodSorter$1",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.FixMethodOrder",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.junit.runners.model.InitializationError",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "junit.framework.JUnit4TestAdapterCache",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "junit.framework.package-info",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "junit.framework.Protectable",
+     "org.junit.runner.manipulation.package-info",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.MethodRule",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.runner.Computer",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "junit.runner.BaseTestRunner",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runners.Parameterized",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "junit.extensions.RepeatedTest",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "org.junit.rules.ExpectedException",
+     "org.junit.rules.TestWatcher$1",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.package-info",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.internal.matchers.ThrowableCauseMatcher",
+     "org.junit.runner.notification.package-info",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.internal.runners.rules.RuleFieldValidator",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [
+     "org.junit.After",
+     "org.junit.Test",
+     "org.junit.Assert",
+     "org.junit.Before"
+    ],
+    "usageRatio": 0.017167381974248927,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.3:test",
+      "coordinates": "org.hamcrest:hamcrest-core:1.3",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.3",
+      "scope": "test",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 45024,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "junit:junit:jar:4.11:test",
+      "allTypes": [
+       "org.hamcrest.Condition$1",
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.internal.ReflectiveTypeFinder",
+       "org.hamcrest.Condition$Step",
+       "org.hamcrest.CustomTypeSafeMatcher",
+       "org.hamcrest.core.CombinableMatcher",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Every",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.TypeSafeDiagnosingMatcher",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.core.StringContains",
+       "org.hamcrest.core.CombinableMatcher$CombinableBothMatcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.core.ShortcutCombination",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.core.StringEndsWith",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame",
+       "org.hamcrest.Condition$Matched",
+       "org.hamcrest.core.StringStartsWith",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.SubstringMatcher",
+       "org.hamcrest.Condition",
+       "org.hamcrest.CustomMatcher",
+       "org.hamcrest.TypeSafeMatcher",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.IsCollectionContaining",
+       "org.hamcrest.core.CombinableMatcher$CombinableEitherMatcher",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.FeatureMatcher",
+       "org.hamcrest.MatcherAssert",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.Condition$NotMatched",
+       "org.hamcrest.Description$NullDescription",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.DiagnosingMatcher"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "io.vlingo:vlingo-common:jar:0.7.1:compile",
+    "coordinates": "io.vlingo:vlingo-common:0.7.1",
+    "groupId": "io.vlingo",
+    "artifactId": "vlingo-common",
+    "version": "0.7.1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 21921,
+    "type": "direct",
+    "status": "used",
+    "parent": "io.vlingo:vlingo-cluster:jar:0.7.1",
+    "allTypes": [
+     "io.vlingo.common.compiler.DynaClassLoader",
+     "io.vlingo.common.message.MessageQueueListener",
+     "io.vlingo.common.message.SelfSendingMessage",
+     "io.vlingo.common.serialization.JsonSerialization$DateDeserializer",
+     "io.vlingo.common.compiler.DynaNaming",
+     "io.vlingo.common.serialization.JsonSerialization",
+     "io.vlingo.common.compiler.DynaCompiler$1",
+     "io.vlingo.common.compiler.DynaCompiler$DynaDiagnosticListener",
+     "io.vlingo.common.fn.Tuple3",
+     "io.vlingo.common.serialization.JsonSerialization$1",
+     "io.vlingo.common.compiler.DynaFile",
+     "io.vlingo.common.fn.Tuple2",
+     "io.vlingo.common.compiler.ByteCode",
+     "io.vlingo.common.compiler.DynaFileManager",
+     "io.vlingo.common.message.MessageQueue",
+     "io.vlingo.common.compiler.DynaType",
+     "io.vlingo.common.compiler.DynaCompiler",
+     "io.vlingo.common.message.AsyncMessageQueue",
+     "io.vlingo.common.compiler.DynaCompiler$Input",
+     "io.vlingo.common.version.SemanticVersion",
+     "io.vlingo.common.message.Message",
+     "io.vlingo.common.serialization.JsonSerialization$DateSerializer"
+    ],
+    "usedTypes": [
+     "io.vlingo.common.fn.Tuple2"
+    ],
+    "usageRatio": 0.045454545454545456,
+    "children": [
+     {
+      "id": "com.google.code.gson:gson:jar:2.8.2:compile",
+      "coordinates": "com.google.code.gson:gson:2.8.2",
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.8.2",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 232932,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "io.vlingo:vlingo-common:jar:0.7.1:compile",
+      "allTypes": [
+       "com.google.gson.internal.bind.TimeTypeAdapter$1",
+       "com.google.gson.reflect.TypeToken",
+       "com.google.gson.internal.bind.TypeAdapters$23",
+       "com.google.gson.internal.bind.TypeAdapters$24",
+       "com.google.gson.internal.LinkedTreeMap$KeySet",
+       "com.google.gson.internal.bind.TypeAdapters$25",
+       "com.google.gson.internal.bind.TypeAdapters$26",
+       "com.google.gson.internal.bind.TypeAdapters$20",
+       "com.google.gson.GsonBuilder",
+       "com.google.gson.internal.bind.JsonTreeWriter",
+       "com.google.gson.internal.bind.TypeAdapters$21",
+       "com.google.gson.TypeAdapter",
+       "com.google.gson.internal.bind.TypeAdapters$22",
+       "com.google.gson.JsonDeserializationContext",
+       "com.google.gson.internal.bind.TypeAdapters$27",
+       "com.google.gson.FieldNamingStrategy",
+       "com.google.gson.internal.bind.TypeAdapters$28",
+       "com.google.gson.internal.bind.TypeAdapters$29",
+       "com.google.gson.internal.bind.SqlDateTypeAdapter",
+       "com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper",
+       "com.google.gson.ExclusionStrategy",
+       "com.google.gson.internal.bind.TimeTypeAdapter",
+       "com.google.gson.internal.LinkedHashTreeMap$KeySet",
+       "com.google.gson.stream.JsonScope",
+       "com.google.gson.internal.bind.TypeAdapters$34",
+       "com.google.gson.internal.bind.TypeAdapters$35",
+       "com.google.gson.internal.bind.TypeAdapters$36",
+       "com.google.gson.internal.bind.TypeAdapters$30",
+       "com.google.gson.internal.bind.TypeAdapters$31",
+       "com.google.gson.internal.bind.TypeAdapters$32",
+       "com.google.gson.internal.bind.TypeAdapters$33",
+       "com.google.gson.JsonArray",
+       "com.google.gson.LongSerializationPolicy",
+       "com.google.gson.internal.bind.TypeAdapters$35$1",
+       "com.google.gson.internal.Excluder",
+       "com.google.gson.internal.LinkedTreeMap$EntrySet$1",
+       "com.google.gson.annotations.Until",
+       "com.google.gson.TypeAdapterFactory",
+       "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl",
+       "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter",
+       "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter",
+       "com.google.gson.stream.JsonReader$1",
+       "com.google.gson.internal.$Gson$Types",
+       "com.google.gson.JsonParser",
+       "com.google.gson.FieldAttributes",
+       "com.google.gson.internal.bind.util.ISO8601Utils",
+       "com.google.gson.stream.JsonReader",
+       "com.google.gson.InstanceCreator",
+       "com.google.gson.internal.bind.MapTypeAdapterFactory",
+       "com.google.gson.Gson$FutureTypeAdapter",
+       "com.google.gson.internal.bind.TreeTypeAdapter",
+       "com.google.gson.internal.LinkedTreeMap$Node",
+       "com.google.gson.stream.JsonWriter",
+       "com.google.gson.internal.bind.ArrayTypeAdapter$1",
+       "com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory",
+       "com.google.gson.internal.$Gson$Preconditions",
+       "com.google.gson.internal.Streams",
+       "com.google.gson.internal.bind.TypeAdapters$12",
+       "com.google.gson.internal.bind.TypeAdapters$13",
+       "com.google.gson.internal.bind.TypeAdapters$14",
+       "com.google.gson.internal.bind.TypeAdapters$15",
+       "com.google.gson.internal.LinkedHashTreeMap$EntrySet",
+       "com.google.gson.internal.bind.TypeAdapters$10",
+       "com.google.gson.internal.Primitives",
+       "com.google.gson.internal.bind.TypeAdapters$11",
+       "com.google.gson.internal.ConstructorConstructor$5",
+       "com.google.gson.stream.MalformedJsonException",
+       "com.google.gson.internal.bind.ArrayTypeAdapter",
+       "com.google.gson.internal.ConstructorConstructor$4",
+       "com.google.gson.internal.ConstructorConstructor$3",
+       "com.google.gson.stream.JsonToken",
+       "com.google.gson.internal.ConstructorConstructor$2",
+       "com.google.gson.internal.bind.TypeAdapters$16",
+       "com.google.gson.internal.ConstructorConstructor$1",
+       "com.google.gson.internal.bind.TypeAdapters$17",
+       "com.google.gson.internal.ObjectConstructor",
+       "com.google.gson.internal.bind.TypeAdapters$18",
+       "com.google.gson.internal.Streams$AppendableWriter$CurrentWrite",
+       "com.google.gson.internal.bind.DateTypeAdapter$1",
+       "com.google.gson.internal.bind.TypeAdapters$19",
+       "com.google.gson.internal.LinkedHashTreeMap$Node",
+       "com.google.gson.JsonNull",
+       "com.google.gson.internal.ConstructorConstructor$9",
+       "com.google.gson.internal.ConstructorConstructor$8",
+       "com.google.gson.JsonStreamParser",
+       "com.google.gson.internal.ConstructorConstructor$7",
+       "com.google.gson.LongSerializationPolicy$1",
+       "com.google.gson.internal.ConstructorConstructor$6",
+       "com.google.gson.LongSerializationPolicy$2",
+       "com.google.gson.JsonObject",
+       "com.google.gson.internal.bind.JsonTreeReader$1",
+       "com.google.gson.TypeAdapter$1",
+       "com.google.gson.internal.UnsafeAllocator$3",
+       "com.google.gson.internal.UnsafeAllocator$4",
+       "com.google.gson.internal.UnsafeAllocator$1",
+       "com.google.gson.internal.UnsafeAllocator$2",
+       "com.google.gson.Gson$2",
+       "com.google.gson.internal.bind.TreeTypeAdapter$1",
+       "com.google.gson.Gson$3",
+       "com.google.gson.internal.bind.ObjectTypeAdapter",
+       "com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl",
+       "com.google.gson.Gson$4",
+       "com.google.gson.JsonSerializer",
+       "com.google.gson.Gson$5",
+       "com.google.gson.internal.bind.DateTypeAdapter",
+       "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter",
+       "com.google.gson.Gson$1",
+       "com.google.gson.internal.bind.TypeAdapters$26$1",
+       "com.google.gson.internal.LinkedHashTreeMap",
+       "com.google.gson.Gson",
+       "com.google.gson.internal.LinkedTreeMap$1",
+       "com.google.gson.internal.LinkedHashTreeMap$LinkedTreeMapIterator",
+       "com.google.gson.internal.LinkedTreeMap$KeySet$1",
+       "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory",
+       "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField",
+       "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory",
+       "com.google.gson.internal.LinkedHashTreeMap$AvlIterator",
+       "com.google.gson.internal.LinkedTreeMap$EntrySet",
+       "com.google.gson.annotations.Expose",
+       "com.google.gson.internal.$Gson$Types$WildcardTypeImpl",
+       "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1",
+       "com.google.gson.internal.LinkedHashTreeMap$KeySet$1",
+       "com.google.gson.annotations.SerializedName",
+       "com.google.gson.internal.bind.TypeAdapters$2",
+       "com.google.gson.internal.Excluder$1",
+       "com.google.gson.internal.bind.JsonTreeReader",
+       "com.google.gson.internal.bind.JsonTreeWriter$1",
+       "com.google.gson.internal.bind.TypeAdapters$1",
+       "com.google.gson.internal.bind.SqlDateTypeAdapter$1",
+       "com.google.gson.internal.bind.TypeAdapters$8",
+       "com.google.gson.JsonIOException",
+       "com.google.gson.internal.bind.TypeAdapters$7",
+       "com.google.gson.internal.bind.TypeAdapters",
+       "com.google.gson.internal.bind.TypeAdapters$9",
+       "com.google.gson.internal.bind.TypeAdapters$4",
+       "com.google.gson.internal.LinkedTreeMap",
+       "com.google.gson.internal.bind.TypeAdapters$3",
+       "com.google.gson.internal.bind.ObjectTypeAdapter$2",
+       "com.google.gson.internal.bind.TypeAdapters$6",
+       "com.google.gson.internal.bind.ObjectTypeAdapter$1",
+       "com.google.gson.internal.bind.TypeAdapters$5",
+       "com.google.gson.internal.LazilyParsedNumber",
+       "com.google.gson.internal.LinkedHashTreeMap$AvlBuilder",
+       "com.google.gson.JsonParseException",
+       "com.google.gson.internal.ConstructorConstructor",
+       "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter",
+       "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator",
+       "com.google.gson.JsonElement",
+       "com.google.gson.FieldNamingPolicy",
+       "com.google.gson.internal.bind.CollectionTypeAdapterFactory",
+       "com.google.gson.annotations.JsonAdapter",
+       "com.google.gson.DefaultDateTypeAdapter",
+       "com.google.gson.JsonSerializationContext",
+       "com.google.gson.internal.UnsafeAllocator",
+       "com.google.gson.JsonPrimitive",
+       "com.google.gson.internal.Streams$AppendableWriter",
+       "com.google.gson.internal.ConstructorConstructor$13",
+       "com.google.gson.internal.ConstructorConstructor$14",
+       "com.google.gson.JsonSyntaxException",
+       "com.google.gson.internal.LinkedHashTreeMap$EntrySet$1",
+       "com.google.gson.FieldNamingPolicy$4",
+       "com.google.gson.FieldNamingPolicy$3",
+       "com.google.gson.annotations.Since",
+       "com.google.gson.FieldNamingPolicy$5",
+       "com.google.gson.internal.JsonReaderInternalAccess",
+       "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl",
+       "com.google.gson.internal.LinkedHashTreeMap$1",
+       "com.google.gson.JsonDeserializer",
+       "com.google.gson.internal.ConstructorConstructor$10",
+       "com.google.gson.FieldNamingPolicy$2",
+       "com.google.gson.internal.ConstructorConstructor$11",
+       "com.google.gson.FieldNamingPolicy$1",
+       "com.google.gson.internal.ConstructorConstructor$12"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "io.vlingo:vlingo-actors:jar:0.7.1:compile",
+    "coordinates": "io.vlingo:vlingo-actors:0.7.1",
+    "groupId": "io.vlingo",
+    "artifactId": "vlingo-actors",
+    "version": "0.7.1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 220756,
+    "type": "direct",
+    "status": "used",
+    "parent": "io.vlingo:vlingo-cluster:jar:0.7.1",
+    "allTypes": [
+     "io.vlingo.actors.DeadLettersListener",
+     "io.vlingo.actors.StowedLocalMessage",
+     "io.vlingo.actors.OutcomeInterest__Proxy",
+     "io.vlingo.actors.Supervisor__Proxy",
+     "io.vlingo.actors.Directory",
+     "io.vlingo.actors.DirectoryScanner",
+     "io.vlingo.actors.testkit.TestEnvironment",
+     "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin$CommonSupervisorsPluginConfiguration",
+     "io.vlingo.actors.Dispatcher",
+     "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueMailboxActorTestCountTaker__Proxy",
+     "io.vlingo.actors.PrivateRootActor$1",
+     "io.vlingo.actors.DeadLettersTestNothing__Proxy",
+     "io.vlingo.actors.plugin.logging.DefaultLoggerProviderKeeper$LoggerProviderInfo",
+     "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverride",
+     "io.vlingo.actors.StageSupervisedActor",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher",
+     "io.vlingo.actors.plugin.supervision.DefinitionValues",
+     "io.vlingo.actors.BasicCompletes$ActiveState",
+     "io.vlingo.actors.testkit.TestActor",
+     "io.vlingo.actors.DeadLetters__Proxy",
+     "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin",
+     "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeper$MailboxProviderInfo",
+     "io.vlingo.actors.CompletesEventuallyProviderKeeper",
+     "io.vlingo.actors.WorldTestSimple__Proxy",
+     "io.vlingo.actors.ProtocolsTestP3__Proxy",
+     "io.vlingo.actors.NoProtocol__Proxy",
+     "io.vlingo.actors.plugin.logging.jdk.JDKLoggerActor",
+     "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueMailbox",
+     "io.vlingo.actors.ProtocolsTestP5__Proxy",
+     "io.vlingo.actors.Completes",
+     "io.vlingo.actors.BasicAddressFactory",
+     "io.vlingo.actors.OutcomeInterestActorProxy",
+     "io.vlingo.actors.CommonSupervisor",
+     "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin$1",
+     "io.vlingo.actors.Protocols$Five",
+     "io.vlingo.actors.ProtocolsTestP1__Proxy",
+     "io.vlingo.actors.SupervisionStrategy$Scope",
+     "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin$1",
+     "io.vlingo.actors.DefaultSupervisor$1",
+     "io.vlingo.actors.testkit.TestkitTestPongCounter__Proxy",
+     "io.vlingo.actors.InterruptableActorTestInterruptable__Proxy",
+     "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueuePlugin$ManyToOneConcurrentArrayQueuePluginConfiguration",
+     "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailboxPlugin",
+     "io.vlingo.actors.BasicCompletes$BasicActiveState",
+     "io.vlingo.actors.WorldDefaultConfigurationTestSimple__Proxy",
+     "io.vlingo.actors.DeadLetters",
+     "io.vlingo.actors.plugin.mailbox.testkit.TestMailboxPlugin",
+     "io.vlingo.actors.Cancellable",
+     "io.vlingo.actors.plugin.logging.noop.NoOpLogger",
+     "io.vlingo.actors.testkit.TestkitTestPingCounter__Proxy",
+     "io.vlingo.actors.testkit.TestUntil",
+     "io.vlingo.actors.Mailbox",
+     "io.vlingo.actors.plugin.PluginLoader",
+     "io.vlingo.actors.plugin.logging.DefaultLoggerProviderKeeper",
+     "io.vlingo.actors.Characters",
+     "io.vlingo.actors.Startable",
+     "io.vlingo.actors.StageNamedTestStageNameQuery__Proxy",
+     "io.vlingo.actors.supervision.FailureControlSender__Proxy",
+     "io.vlingo.actors.testkit.TestStateView",
+     "io.vlingo.actors.CompletesEventuallyProvider",
+     "io.vlingo.actors.LoggerProviderKeeper",
+     "io.vlingo.actors.CompletesActorProtocolTestUsesCompletes__Proxy",
+     "io.vlingo.actors.ProxyGenerator$1",
+     "io.vlingo.actors.LoggerProvider",
+     "io.vlingo.actors.ActorEnvironmentTestStopTester__Proxy",
+     "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeperPlugin",
+     "io.vlingo.actors.FailureOutcome",
+     "io.vlingo.actors.OutcomeAware",
+     "io.vlingo.actors.plugin.completes.DefaultCompletesEventuallyProviderKeeper",
+     "io.vlingo.actors.Protocols$Four",
+     "io.vlingo.actors.Protocols",
+     "io.vlingo.actors.ProtocolsTestP4__Proxy",
+     "io.vlingo.actors.Stoppable",
+     "io.vlingo.actors.plugin.completes.DefaultCompletesEventuallyProviderKeeper$CompletesEventuallyProviderInfo",
+     "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailboxPlugin$SharedRingBufferMailboxPluginConfiguration",
+     "io.vlingo.actors.PrivateRootActor",
+     "io.vlingo.actors.DeadLettersActor",
+     "io.vlingo.actors.RepeatableCompletes",
+     "io.vlingo.actors.ProxyGenerator$Result",
+     "io.vlingo.actors.Backoff",
+     "io.vlingo.actors.Outcome",
+     "io.vlingo.actors.testkit.TestState",
+     "io.vlingo.actors.plugin.completes.PooledCompletesPlugin",
+     "io.vlingo.actors.CompletesEventuallyActor",
+     "io.vlingo.actors.CharactersTestThreeBehaviors__Proxy",
+     "io.vlingo.actors.CompletesEventually__Proxy",
+     "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverride$1",
+     "io.vlingo.actors.plugin.logging.jdk.DefaultHandler",
+     "io.vlingo.actors.plugin.mailbox.sharedringbuffer.RingBufferDispatcher",
+     "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailbox",
+     "io.vlingo.actors.Logger",
+     "io.vlingo.actors.ResultCompletes",
+     "io.vlingo.actors.Stage",
+     "io.vlingo.actors.plugin.logging.jdk.JDKLogger",
+     "io.vlingo.actors.plugin.completes.CompletesEventuallyPool",
+     "io.vlingo.actors.ActorStowDisperseTestStowThese__Proxy",
+     "io.vlingo.actors.ActorFactory",
+     "io.vlingo.actors.Logger__Proxy",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher$RejectionHandler",
+     "io.vlingo.actors.Properties",
+     "io.vlingo.actors.Stoppable__Proxy",
+     "io.vlingo.actors.plugin.logging.jdk.JDKLoggerPlugin",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher$1",
+     "io.vlingo.actors.Registrar",
+     "io.vlingo.actors.FailureMark",
+     "io.vlingo.actors.Scheduled",
+     "io.vlingo.actors.Startable__Proxy",
+     "io.vlingo.actors.Address",
+     "io.vlingo.actors.RepeatableCompletes$RepeatableActiveState",
+     "io.vlingo.actors.ProxyGenerator$ReturnType",
+     "io.vlingo.actors.Scheduler",
+     "io.vlingo.actors.BasicAddress",
+     "io.vlingo.actors.Actor",
+     "io.vlingo.actors.PublicRootActor",
+     "io.vlingo.actors.ProxyGenerator",
+     "io.vlingo.actors.DirectoryScanner__Proxy",
+     "io.vlingo.actors.AddressFactory",
+     "io.vlingo.actors.Environment",
+     "io.vlingo.actors.PublicRootActor$1",
+     "io.vlingo.actors.Supervisor",
+     "io.vlingo.actors.DeadLettersListener__Proxy",
+     "io.vlingo.actors.Protocols$Two",
+     "io.vlingo.actors.NoProtocol",
+     "io.vlingo.actors.plugin.PluginProperties",
+     "io.vlingo.actors.plugin.AbstractPlugin",
+     "io.vlingo.actors.LocalMessageTestSimple__Proxy",
+     "io.vlingo.actors.OutcomeInterestTestTestsOutcomeInterest__Proxy",
+     "io.vlingo.actors.plugin.supervision.ConfiguredSupervisor",
+     "io.vlingo.actors.OutcomeInterestTestTestsOutcomeAware__Proxy",
+     "io.vlingo.actors.ActorStowDisperseTestOverrideStowage__Proxy",
+     "io.vlingo.actors.plugin.logging.jdk.JDKLoggerPlugin$JDKLoggerPluginConfiguration",
+     "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin$DefaultSupervisorOverridePluginConfiguration",
+     "io.vlingo.actors.plugin.PluginConfiguration",
+     "io.vlingo.actors.plugin.completes.PooledCompletesPlugin$PooledCompletesPluginConfiguration",
+     "io.vlingo.actors.testkit.TestWorld",
+     "io.vlingo.actors.MailboxProviderKeeper",
+     "io.vlingo.actors.supervision.Ping__Proxy",
+     "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeper",
+     "io.vlingo.actors.MailboxProvider",
+     "io.vlingo.actors.Stage$ActorProtocolActor",
+     "io.vlingo.actors.OutcomeAware__Proxy",
+     "io.vlingo.actors.ActorProxy",
+     "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueDispatcher",
+     "io.vlingo.actors.Scheduled__Proxy",
+     "io.vlingo.actors.SuccessfulOutcome",
+     "io.vlingo.actors.supervision.Pong__Proxy",
+     "io.vlingo.actors.CompletesEventually",
+     "io.vlingo.actors.supervision.FailureControl__Proxy",
+     "io.vlingo.actors.Stowage",
+     "io.vlingo.actors.DefinitionTestParentInterface__Proxy",
+     "io.vlingo.actors.PooledCompletes",
+     "io.vlingo.actors.BasicCompletes",
+     "io.vlingo.actors.StageNamedTestStageNameQueryResult__Proxy",
+     "io.vlingo.actors.Supervisor$1",
+     "io.vlingo.actors.BasicCompletes$Action",
+     "io.vlingo.actors.DeadLetter",
+     "io.vlingo.actors.plugin.mailbox.sharedringbuffer.RingBufferMailboxActorTestCountTaker__Proxy",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailboxPlugin",
+     "io.vlingo.actors.DefaultSupervisor",
+     "io.vlingo.actors.ProtocolsTestP2__Proxy",
+     "io.vlingo.actors.Supervised",
+     "io.vlingo.actors.plugin.Plugin",
+     "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueuePlugin",
+     "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailbox",
+     "io.vlingo.actors.Message",
+     "io.vlingo.actors.World",
+     "io.vlingo.actors.Definition",
+     "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeperPluginConfiguration",
+     "io.vlingo.actors.ActorEnvironmentTestEnvironmentProvider__Proxy",
+     "io.vlingo.actors.Configuration",
+     "io.vlingo.actors.DirectoryScannerActor",
+     "io.vlingo.actors.Scheduler$SchedulerTask",
+     "io.vlingo.actors.plugin.mailbox.testkit.TestMailbox",
+     "io.vlingo.actors.ActorFactoryTestParentInterface__Proxy",
+     "io.vlingo.actors.DispatcherTestTellSomething__Proxy",
+     "io.vlingo.actors.SupervisionStrategy",
+     "io.vlingo.actors.OutcomeInterest",
+     "io.vlingo.actors.LocalMessage",
+     "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailboxPlugin$ConcurrentQueueMailboxPluginConfiguration",
+     "io.vlingo.actors.LifeCycle",
+     "io.vlingo.actors.plugin.logging.noop.NoOpLoggerProvider",
+     "io.vlingo.actors.DispatcherTestTellAll__Proxy",
+     "io.vlingo.actors.Protocols$Three",
+     "io.vlingo.actors.Cancellable__Proxy"
+    ],
+    "usedTypes": [
+     "io.vlingo.actors.Stoppable",
+     "io.vlingo.actors.Logger",
+     "io.vlingo.actors.plugin.logging.jdk.JDKLogger",
+     "io.vlingo.actors.Stage",
+     "io.vlingo.actors.Definition",
+     "io.vlingo.actors.World",
+     "io.vlingo.actors.Startable",
+     "io.vlingo.actors.Scheduled",
+     "io.vlingo.actors.Cancellable",
+     "io.vlingo.actors.testkit.TestActor",
+     "io.vlingo.actors.Scheduler",
+     "io.vlingo.actors.testkit.TestWorld",
+     "io.vlingo.actors.Actor"
+    ],
+    "usageRatio": 0.07027027027027027,
+    "children": [
+     {
+      "id": "org.agrona:agrona:jar:0.9.20:compile",
+      "coordinates": "org.agrona:agrona:0.9.20",
+      "groupId": "org.agrona",
+      "artifactId": "agrona",
+      "version": "0.9.20",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 366650,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "io.vlingo:vlingo-actors:jar:0.7.1:compile",
+      "allTypes": [
+       "org.agrona.collections.Int2ObjectCache$ValueIterator",
+       "org.agrona.collections.Int2IntHashMap$ValueIterator",
+       "org.agrona.concurrent.DynamicCompositeAgent",
+       "org.agrona.collections.Object2ObjectHashMap$KeySet",
+       "org.agrona.sbe.DecoderFlyweight",
+       "org.agrona.collections.Long2LongHashMap$EntryIterator",
+       "org.agrona.collections.Object2LongHashMap$KeyIterator",
+       "org.agrona.collections.Object2IntHashMap$ValueIterator",
+       "org.agrona.collections.Object2IntHashMap",
+       "org.agrona.LangUtil",
+       "org.agrona.MarkFile",
+       "org.agrona.collections.Int2IntHashMap$KeyIterator",
+       "org.agrona.collections.Object2IntHashMap$KeySet",
+       "org.agrona.collections.Object2LongHashMap$EntryIterator$1",
+       "org.agrona.concurrent.AgentInvoker",
+       "org.agrona.sbe.CompositeDecoderFlyweight",
+       "org.agrona.concurrent.status.ReadablePosition",
+       "org.agrona.collections.Object2ObjectHashMap$1",
+       "org.agrona.collections.UnmodifiableCollectionView$ReusableIterator",
+       "org.agrona.sbe.EncoderFlyweight",
+       "org.agrona.concurrent.OneToOneConcurrentArrayQueue",
+       "org.agrona.collections.Object2LongHashMap$ValueIterator",
+       "org.agrona.collections.Int2ObjectCache$ValueCollection",
+       "org.agrona.collections.Object2LongHashMap$KeySet",
+       "org.agrona.BufferUtil",
+       "org.agrona.concurrent.status.ConcurrentCountersManager",
+       "org.agrona.collections.LongHashSet$LongIterator",
+       "org.agrona.DeadlineTimerWheel",
+       "org.agrona.concurrent.CountedErrorHandler",
+       "org.agrona.collections.UnmodifiableCollectionView$1",
+       "org.agrona.concurrent.EpochMicroClock",
+       "org.agrona.concurrent.ManyToManyConcurrentArrayQueue",
+       "org.agrona.collections.Long2LongHashMap$1",
+       "org.agrona.concurrent.broadcast.CopyBroadcastReceiver",
+       "org.agrona.collections.Long2ObjectHashMap$EntrySet",
+       "org.agrona.collections.LongArrayList",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueuePadding1",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueuePadding2",
+       "org.agrona.collections.Int2IntHashMap$AbstractIterator",
+       "org.agrona.ManagedResource",
+       "org.agrona.collections.LongLongConsumer",
+       "org.agrona.concurrent.RecordBuffer",
+       "org.agrona.collections.Object2IntHashMap$EntrySet",
+       "org.agrona.sbe.CompositeEncoderFlyweight",
+       "org.agrona.concurrent.MessageHandler",
+       "org.agrona.collections.Long2ObjectHashMap",
+       "org.agrona.concurrent.broadcast.BroadcastTransmitter",
+       "org.agrona.collections.MutableReference",
+       "org.agrona.collections.Long2LongHashMap$EntrySet",
+       "org.agrona.collections.Long2LongHashMap$AbstractIterator",
+       "org.agrona.concurrent.NoOpIdleStrategy",
+       "org.agrona.collections.MutableInteger",
+       "org.agrona.collections.Long2LongHashMap$EntryIterator$1",
+       "org.agrona.CloseHelper",
+       "org.agrona.io.DirectBufferOutputStream",
+       "org.agrona.nio.TransportPoller",
+       "org.agrona.collections.MutableBoolean",
+       "org.agrona.collections.Object2IntHashMap$ValueCollection",
+       "org.agrona.hints.ThreadHints",
+       "org.agrona.collections.Int2IntCounterMap",
+       "org.agrona.concurrent.status.CountersReader$MetaData",
+       "org.agrona.collections.Long2LongHashMap$KeyIterator",
+       "org.agrona.concurrent.CachedNanoClockPadding",
+       "org.agrona.io.DirectBufferInputStream",
+       "org.agrona.concurrent.ControllableIdleStrategy",
+       "org.agrona.nio.NioSelectedKeySet",
+       "org.agrona.concurrent.AtomicBuffer",
+       "org.agrona.ExpandableDirectByteBuffer",
+       "org.agrona.collections.IntLruCache",
+       "org.agrona.concurrent.broadcast.BroadcastReceiver",
+       "org.agrona.concurrent.status.AtomicCounter",
+       "org.agrona.collections.Int2ObjectCache$EntrySet",
+       "org.agrona.concurrent.ringbuffer.RingBufferDescriptor",
+       "org.agrona.collections.Int2ObjectHashMap$EntryIterator",
+       "org.agrona.concurrent.broadcast.BroadcastBufferDescriptor",
+       "org.agrona.concurrent.status.CountersReader$CounterConsumer",
+       "org.agrona.IoUtil",
+       "org.agrona.collections.Long2ObjectCache$EntryIterator",
+       "org.agrona.collections.Object2IntHashMap$AbstractIterator",
+       "org.agrona.SystemUtil",
+       "org.agrona.collections.Object2ObjectHashMap$ValueIterator",
+       "org.agrona.generation.CompilerUtil",
+       "org.agrona.collections.Int2ObjectHashMap$EntryIterator$1",
+       "org.agrona.collections.Long2LongHashMap$Values",
+       "org.agrona.concurrent.ShutdownSignalBarrier",
+       "org.agrona.concurrent.SigIntBarrier",
+       "org.agrona.concurrent.IdleStrategy",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueue",
+       "org.agrona.concurrent.NanoClock",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueuePadding3",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueuePadding1",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueuePadding2",
+       "org.agrona.collections.Int2ObjectHashMap",
+       "org.agrona.ExpandableArrayBuffer",
+       "org.agrona.collections.Long2LongHashMap$KeySet",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueueTail",
+       "org.agrona.collections.Int2IntHashMap$KeySet",
+       "org.agrona.concurrent.status.UnsafeBufferPosition",
+       "org.agrona.MutableDirectBuffer",
+       "org.agrona.concurrent.CachedEpochClockPadding",
+       "org.agrona.collections.Int2ObjectCache$AbstractIterator",
+       "org.agrona.collections.Long2ObjectHashMap$EntryIterator$1",
+       "org.agrona.concurrent.BackoffIdleStrategyData",
+       "org.agrona.collections.Long2ObjectCache$EntrySet",
+       "org.agrona.concurrent.status.CountersReader",
+       "org.agrona.concurrent.status.AtomicLongPosition",
+       "org.agrona.generation.PrimitiveExpander$Substitution",
+       "org.agrona.concurrent.RecordBuffer$RecordWriter",
+       "org.agrona.io.ExpandableDirectBufferOutputStream",
+       "org.agrona.collections.Long2ObjectHashMap$ValueCollection",
+       "org.agrona.generation.OutputManager",
+       "org.agrona.collections.Object2LongHashMap$AbstractIterator",
+       "org.agrona.concurrent.CachedEpochClock",
+       "org.agrona.console.ContinueBarrier",
+       "org.agrona.collections.Object2ObjectHashMap$KeyIterator",
+       "org.agrona.collections.Int2ObjectHashMap$KeyIterator",
+       "org.agrona.collections.Object2ObjectHashMap",
+       "org.agrona.collections.Long2ObjectHashMap$EntryIterator",
+       "org.agrona.collections.Int2ObjectCache$KeySet",
+       "org.agrona.collections.Object2ObjectHashMap$Values",
+       "org.agrona.concurrent.status.CountersManager",
+       "org.agrona.collections.Int2ObjectHashMap$ValueCollection",
+       "org.agrona.concurrent.errors.ErrorConsumer",
+       "org.agrona.collections.ArrayUtil",
+       "org.agrona.collections.Long2ObjectCache$KeySet",
+       "org.agrona.generation.PackageOutputManager",
+       "org.agrona.concurrent.status.UnsafeBufferStatusIndicator",
+       "org.agrona.collections.Long2ObjectCache$AbstractIterator",
+       "org.agrona.collections.Object2LongHashMap$EntrySet",
+       "org.agrona.collections.Object2ObjectHashMap$EntryIterator$1",
+       "org.agrona.collections.Int2IntHashMap$1",
+       "org.agrona.concurrent.UnsafeBuffer",
+       "org.agrona.generation.DoNotSub",
+       "org.agrona.Verify",
+       "org.agrona.collections.Object2IntHashMap$EntryIterator",
+       "org.agrona.concurrent.errors.DistinctErrorLog",
+       "org.agrona.sbe.MessageDecoderFlyweight",
+       "org.agrona.concurrent.broadcast.RecordDescriptor",
+       "org.agrona.DeadlineTimerWheel$TimerHandler",
+       "org.agrona.concurrent.Pipe",
+       "org.agrona.concurrent.SystemEpochMicroClock",
+       "org.agrona.collections.Int2ObjectHashMap$EntrySet",
+       "org.agrona.collections.Int2ObjectCache$EntryIterator",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueueConsumer",
+       "org.agrona.collections.IntArrayList",
+       "org.agrona.concurrent.status.StatusIndicator",
+       "org.agrona.concurrent.SleepingIdleStrategy",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueueHead",
+       "org.agrona.generation.ClassFileManager",
+       "org.agrona.collections.Int2ObjectHashMap$KeySet",
+       "org.agrona.generation.ResourceConsumer",
+       "org.agrona.concurrent.BackoffIdleStrategyPrePad",
+       "org.agrona.UnsafeAccess",
+       "org.agrona.collections.Long2LongCounterMap",
+       "org.agrona.collections.Int2IntHashMap$EntryIterator",
+       "org.agrona.collections.ObjectHashSet$ObjectIterator",
+       "org.agrona.concurrent.AgentTerminationException",
+       "org.agrona.generation.PrimitiveExpander",
+       "org.agrona.collections.Long2ObjectHashMap$KeySet",
+       "org.agrona.collections.Long2ObjectCache$ValueCollection",
+       "org.agrona.concurrent.BusySpinIdleStrategy",
+       "org.agrona.collections.Long2LongHashMap$ValueIterator",
+       "org.agrona.concurrent.CachedEpochClockValue",
+       "org.agrona.generation.PrimitiveExpander$1",
+       "org.agrona.concurrent.SystemEpochNanoClock",
+       "org.agrona.collections.Int2IntHashMap$EntryIterator$1",
+       "org.agrona.generation.StringWriterOutputManager",
+       "org.agrona.collections.Long2ObjectHashMap$KeyIterator",
+       "org.agrona.collections.Int2IntHashMap",
+       "org.agrona.concurrent.ringbuffer.RingBuffer",
+       "org.agrona.sbe.MessageEncoderFlyweight",
+       "org.agrona.concurrent.MappedResizeableBuffer",
+       "org.agrona.collections.Int2IntHashMap$Values",
+       "org.agrona.DeadlineTimerWheel$TimerConsumer",
+       "org.agrona.collections.IntObjConsumer",
+       "org.agrona.collections.Object2ObjectHashMap$AbstractIterator",
+       "org.agrona.concurrent.status.Position",
+       "org.agrona.collections.ArrayListUtil",
+       "org.agrona.concurrent.SystemEpochClock",
+       "org.agrona.collections.Object2LongHashMap$EntryIterator",
+       "org.agrona.sbe.MessageFlyweight",
+       "org.agrona.concurrent.CompositeAgent",
+       "org.agrona.collections.IntHashSet$IntIterator",
+       "org.agrona.concurrent.ManyToOneConcurrentLinkedQueuePadding1$Node",
+       "org.agrona.concurrent.SleepingMillisIdleStrategy",
+       "org.agrona.concurrent.ringbuffer.OneToOneRingBuffer",
+       "org.agrona.collections.ObjectHashSet",
+       "org.agrona.concurrent.ManyToOneConcurrentArrayQueue",
+       "org.agrona.concurrent.NoOpLock",
+       "org.agrona.collections.Long2ObjectCache$KeyIterator",
+       "org.agrona.concurrent.QueuedPipe",
+       "org.agrona.concurrent.ringbuffer.RecordDescriptor",
+       "org.agrona.concurrent.SigInt",
+       "org.agrona.collections.IntHashSet",
+       "org.agrona.collections.Long2ObjectCache",
+       "org.agrona.concurrent.SystemNanoClock",
+       "org.agrona.collections.Int2ObjectHashMap$ValueIterator",
+       "org.agrona.collections.LongHashSet",
+       "org.agrona.AsciiEncoding",
+       "org.agrona.collections.Object2ObjectHashMap$EntrySet",
+       "org.agrona.concurrent.AgentRunner",
+       "org.agrona.concurrent.status.StatusIndicatorReader",
+       "org.agrona.concurrent.CachedNanoClock",
+       "org.agrona.concurrent.DynamicCompositeAgent$Status",
+       "org.agrona.collections.UnmodifiableCollectionView",
+       "org.agrona.sbe.Flyweight",
+       "org.agrona.generation.JavaClassObject",
+       "org.agrona.collections.Int2ObjectCache",
+       "org.agrona.Strings",
+       "org.agrona.collections.Object2ObjectHashMap$EntryIterator",
+       "org.agrona.concurrent.RecordBuffer$RecordHandler",
+       "org.agrona.collections.Long2ObjectCache$ValueIterator",
+       "org.agrona.collections.Object2LongHashMap$ValueCollection",
+       "org.agrona.concurrent.errors.DistinctErrorLog$DistinctObservation",
+       "org.agrona.concurrent.CachedNanoClockValue",
+       "org.agrona.collections.MutableLong",
+       "org.agrona.collections.Int2ObjectCache$KeyIterator",
+       "org.agrona.collections.CollectionUtil",
+       "org.agrona.concurrent.EpochClock",
+       "org.agrona.concurrent.EpochNanoClock",
+       "org.agrona.collections.Long2LongHashMap",
+       "org.agrona.collections.Long2ObjectHashMap$AbstractIterator",
+       "org.agrona.DirectBuffer",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueueProducer",
+       "org.agrona.ErrorHandler",
+       "org.agrona.concurrent.BackoffIdleStrategy",
+       "org.agrona.concurrent.errors.LoggingErrorHandler",
+       "org.agrona.collections.Object2IntHashMap$EntryIterator$1",
+       "org.agrona.concurrent.AbstractConcurrentArrayQueue",
+       "org.agrona.collections.Int2IntHashMap$EntrySet",
+       "org.agrona.BitUtil",
+       "org.agrona.concurrent.ringbuffer.ManyToOneRingBuffer",
+       "org.agrona.collections.BiInt2ObjectMap",
+       "org.agrona.concurrent.HighResolutionTimer",
+       "org.agrona.concurrent.errors.ErrorLogReader",
+       "org.agrona.concurrent.Agent",
+       "org.agrona.collections.Long2ObjectHashMap$ValueIterator",
+       "org.agrona.collections.BiInt2ObjectMap$EntryConsumer",
+       "org.agrona.collections.IntIntConsumer",
+       "org.agrona.collections.LongLruCache",
+       "org.agrona.collections.Object2IntHashMap$KeyIterator",
+       "org.agrona.collections.BiInt2ObjectMap$EntryFunction",
+       "org.agrona.collections.Int2ObjectHashMap$AbstractIterator",
+       "org.agrona.generation.ClassFileManager$1",
+       "org.agrona.concurrent.YieldingIdleStrategy",
+       "org.agrona.generation.CharSequenceJavaFileObject",
+       "org.agrona.collections.Hashing",
+       "org.agrona.collections.Object2LongHashMap",
+       "org.agrona.concurrent.HighResolutionClock"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     },
+     {
+      "id": "io.vlingo:vlingo-common:jar:0.7.1:compile",
+      "coordinates": "io.vlingo:vlingo-common:0.7.1",
+      "groupId": "io.vlingo",
+      "artifactId": "vlingo-common",
+      "version": "0.7.1",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 21921,
+      "type": "direct",
+      "status": "used",
+      "parent": "io.vlingo:vlingo-actors:jar:0.7.1:compile",
+      "allTypes": [
+       "io.vlingo.common.compiler.DynaClassLoader",
+       "io.vlingo.common.message.MessageQueueListener",
+       "io.vlingo.common.message.SelfSendingMessage",
+       "io.vlingo.common.serialization.JsonSerialization$DateDeserializer",
+       "io.vlingo.common.compiler.DynaNaming",
+       "io.vlingo.common.serialization.JsonSerialization",
+       "io.vlingo.common.compiler.DynaCompiler$1",
+       "io.vlingo.common.compiler.DynaCompiler$DynaDiagnosticListener",
+       "io.vlingo.common.fn.Tuple3",
+       "io.vlingo.common.serialization.JsonSerialization$1",
+       "io.vlingo.common.compiler.DynaFile",
+       "io.vlingo.common.fn.Tuple2",
+       "io.vlingo.common.compiler.ByteCode",
+       "io.vlingo.common.compiler.DynaFileManager",
+       "io.vlingo.common.message.MessageQueue",
+       "io.vlingo.common.compiler.DynaType",
+       "io.vlingo.common.compiler.DynaCompiler",
+       "io.vlingo.common.message.AsyncMessageQueue",
+       "io.vlingo.common.compiler.DynaCompiler$Input",
+       "io.vlingo.common.version.SemanticVersion",
+       "io.vlingo.common.message.Message",
+       "io.vlingo.common.serialization.JsonSerialization$DateSerializer"
+      ],
+      "usedTypes": [
+       "io.vlingo.common.fn.Tuple2"
+      ],
+      "usageRatio": 0.045454545454545456,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "io.vlingo:vlingo-wire:jar:0.7.1:compile",
+    "coordinates": "io.vlingo:vlingo-wire:0.7.1",
+    "groupId": "io.vlingo",
+    "artifactId": "vlingo-wire",
+    "version": "0.7.1",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 90291,
+    "type": "direct",
+    "status": "used",
+    "parent": "io.vlingo:vlingo-cluster:jar:0.7.1",
+    "allTypes": [
+     "io.vlingo.wire.channel.RequestSenderChannel",
+     "io.vlingo.wire.node.Node",
+     "io.vlingo.actors.Logger__Proxy",
+     "io.vlingo.wire.channel.ResponseChannelConsumer",
+     "io.vlingo.wire.node.Name",
+     "io.vlingo.wire.fdx.inbound.InboundClientReference",
+     "io.vlingo.wire.node.Configuration",
+     "io.vlingo.wire.fdx.bidirectional.ServerRequestResponseChannelActor",
+     "io.vlingo.wire.channel.ResponseSenderChannel",
+     "io.vlingo.wire.channel.ChannelPublisher",
+     "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream__Proxy",
+     "io.vlingo.wire.multicast.MulticastSubscriber",
+     "io.vlingo.wire.message.Converters",
+     "io.vlingo.wire.channel.SelectionReader",
+     "io.vlingo.wire.message.BasicConsumerByteBuffer",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+     "io.vlingo.wire.message.RawMessage",
+     "io.vlingo.wire.channel.ResponseData",
+     "io.vlingo.wire.fdx.bidirectional.ServerRequestResponseChannel",
+     "io.vlingo.wire.channel.ChannelMessageDispatcher",
+     "io.vlingo.wire.fdx.inbound.InboundStream__Proxy",
+     "io.vlingo.wire.channel.SocketChannelSelectionProcessorActor",
+     "io.vlingo.wire.message.ByteBufferPool$PooledByteBuffer",
+     "io.vlingo.wire.multicast.MulticastPublisherReader",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundChannelProvider",
+     "io.vlingo.wire.channel.DatagramChannelSelectionReader",
+     "io.vlingo.wire.fdx.inbound.InboundStream",
+     "io.vlingo.wire.message.RawMessageHeader",
+     "io.vlingo.wire.channel.ResponseSenderChannel__Proxy",
+     "io.vlingo.wire.node.AddressType",
+     "io.vlingo.wire.channel.SocketChannelSelectionProcessor__Proxy",
+     "io.vlingo.wire.message.MessagePartsBuilder",
+     "io.vlingo.wire.node.Id",
+     "io.vlingo.wire.node.AddressType$2",
+     "io.vlingo.wire.node.AddressType$3",
+     "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+     "io.vlingo.wire.node.AddressType$1",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundSocketChannelProvider",
+     "io.vlingo.wire.channel.RequestListenerChannel",
+     "io.vlingo.wire.message.RawMessageBuilder",
+     "io.vlingo.wire.fdx.outbound.Outbound",
+     "io.vlingo.wire.fdx.bidirectional.ClientRequestResponseChannel",
+     "io.vlingo.wire.node.AddressType$4",
+     "io.vlingo.wire.channel.SocketChannelWriter",
+     "io.vlingo.wire.fdx.inbound.InboundResponder",
+     "io.vlingo.wire.multicast.Group",
+     "io.vlingo.wire.fdx.inbound.SocketChannelInboundReader",
+     "io.vlingo.wire.channel.RequestChannelConsumer",
+     "io.vlingo.wire.fdx.inbound.InboundStreamInterest__Proxy",
+     "io.vlingo.wire.node.Address",
+     "io.vlingo.wire.channel.ChannelReaderConsumer",
+     "io.vlingo.wire.channel.RequestChannelConsumer__Proxy",
+     "io.vlingo.wire.message.RawMessageBuilder$ScanMode",
+     "io.vlingo.wire.fdx.inbound.InboundStreamActor",
+     "io.vlingo.wire.message.ByteBufferPool",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundSocketChannel",
+     "io.vlingo.wire.channel.SocketChannelSelectionProcessor",
+     "io.vlingo.wire.channel.ChannelReader",
+     "io.vlingo.wire.node.Host",
+     "io.vlingo.wire.channel.ChannelReaderConsumer__Proxy",
+     "io.vlingo.wire.channel.RequestChannelConsumerProvider",
+     "io.vlingo.wire.channel.ResponseChannelConsumer__Proxy",
+     "io.vlingo.wire.message.ByteBufferAllocator",
+     "io.vlingo.wire.channel.SocketChannelSelectionProcessorActor$Context",
+     "io.vlingo.wire.channel.ResponseListenerChannel",
+     "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+     "io.vlingo.wire.message.ConsumerByteBuffer",
+     "io.vlingo.wire.message.Message",
+     "io.vlingo.wire.channel.RequestResponseContext",
+     "io.vlingo.wire.node.NodeSynchronizer",
+     "io.vlingo.wire.fdx.bidirectional.ServerRequestResponseChannel__Proxy",
+     "io.vlingo.wire.message.PublisherAvailability",
+     "io.vlingo.wire.channel.SocketChannelSelectionReader",
+     "io.vlingo.wire.fdx.outbound.ApplicationOutboundStreamActor"
+    ],
+    "usedTypes": [
+     "io.vlingo.wire.fdx.inbound.InboundStreamInterest",
+     "io.vlingo.wire.node.Node",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundSocketChannelProvider",
+     "io.vlingo.wire.message.RawMessageBuilder",
+     "io.vlingo.wire.fdx.outbound.Outbound",
+     "io.vlingo.wire.node.Name",
+     "io.vlingo.wire.node.Address",
+     "io.vlingo.wire.node.Configuration",
+     "io.vlingo.wire.message.Converters",
+     "io.vlingo.wire.message.ByteBufferPool",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundChannel",
+     "io.vlingo.wire.message.RawMessage",
+     "io.vlingo.wire.node.Host",
+     "io.vlingo.wire.message.ByteBufferAllocator",
+     "io.vlingo.wire.message.ByteBufferPool$PooledByteBuffer",
+     "io.vlingo.wire.fdx.outbound.ApplicationOutboundStream",
+     "io.vlingo.wire.fdx.outbound.ManagedOutboundChannelProvider",
+     "io.vlingo.wire.message.ConsumerByteBuffer",
+     "io.vlingo.wire.message.Message",
+     "io.vlingo.wire.node.NodeSynchronizer",
+     "io.vlingo.wire.fdx.inbound.InboundStream",
+     "io.vlingo.wire.message.RawMessageHeader",
+     "io.vlingo.wire.node.AddressType",
+     "io.vlingo.wire.fdx.outbound.ApplicationOutboundStreamActor",
+     "io.vlingo.wire.message.MessagePartsBuilder",
+     "io.vlingo.wire.node.Id"
+    ],
+    "usageRatio": 0.35135135135135137,
+    "children": [
+     {
+      "id": "io.vlingo:vlingo-actors:jar:0.7.1:compile",
+      "coordinates": "io.vlingo:vlingo-actors:0.7.1",
+      "groupId": "io.vlingo",
+      "artifactId": "vlingo-actors",
+      "version": "0.7.1",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 220756,
+      "type": "direct",
+      "status": "used",
+      "parent": "io.vlingo:vlingo-wire:jar:0.7.1:compile",
+      "allTypes": [
+       "io.vlingo.actors.DeadLettersListener",
+       "io.vlingo.actors.StowedLocalMessage",
+       "io.vlingo.actors.OutcomeInterest__Proxy",
+       "io.vlingo.actors.Supervisor__Proxy",
+       "io.vlingo.actors.Directory",
+       "io.vlingo.actors.DirectoryScanner",
+       "io.vlingo.actors.testkit.TestEnvironment",
+       "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin$CommonSupervisorsPluginConfiguration",
+       "io.vlingo.actors.Dispatcher",
+       "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueMailboxActorTestCountTaker__Proxy",
+       "io.vlingo.actors.PrivateRootActor$1",
+       "io.vlingo.actors.DeadLettersTestNothing__Proxy",
+       "io.vlingo.actors.plugin.logging.DefaultLoggerProviderKeeper$LoggerProviderInfo",
+       "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverride",
+       "io.vlingo.actors.StageSupervisedActor",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher",
+       "io.vlingo.actors.plugin.supervision.DefinitionValues",
+       "io.vlingo.actors.BasicCompletes$ActiveState",
+       "io.vlingo.actors.testkit.TestActor",
+       "io.vlingo.actors.DeadLetters__Proxy",
+       "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin",
+       "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeper$MailboxProviderInfo",
+       "io.vlingo.actors.CompletesEventuallyProviderKeeper",
+       "io.vlingo.actors.WorldTestSimple__Proxy",
+       "io.vlingo.actors.ProtocolsTestP3__Proxy",
+       "io.vlingo.actors.NoProtocol__Proxy",
+       "io.vlingo.actors.plugin.logging.jdk.JDKLoggerActor",
+       "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueMailbox",
+       "io.vlingo.actors.ProtocolsTestP5__Proxy",
+       "io.vlingo.actors.Completes",
+       "io.vlingo.actors.BasicAddressFactory",
+       "io.vlingo.actors.OutcomeInterestActorProxy",
+       "io.vlingo.actors.CommonSupervisor",
+       "io.vlingo.actors.plugin.supervision.CommonSupervisorsPlugin$1",
+       "io.vlingo.actors.Protocols$Five",
+       "io.vlingo.actors.ProtocolsTestP1__Proxy",
+       "io.vlingo.actors.SupervisionStrategy$Scope",
+       "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin$1",
+       "io.vlingo.actors.DefaultSupervisor$1",
+       "io.vlingo.actors.testkit.TestkitTestPongCounter__Proxy",
+       "io.vlingo.actors.InterruptableActorTestInterruptable__Proxy",
+       "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueuePlugin$ManyToOneConcurrentArrayQueuePluginConfiguration",
+       "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailboxPlugin",
+       "io.vlingo.actors.BasicCompletes$BasicActiveState",
+       "io.vlingo.actors.WorldDefaultConfigurationTestSimple__Proxy",
+       "io.vlingo.actors.DeadLetters",
+       "io.vlingo.actors.plugin.mailbox.testkit.TestMailboxPlugin",
+       "io.vlingo.actors.Cancellable",
+       "io.vlingo.actors.plugin.logging.noop.NoOpLogger",
+       "io.vlingo.actors.testkit.TestkitTestPingCounter__Proxy",
+       "io.vlingo.actors.testkit.TestUntil",
+       "io.vlingo.actors.Mailbox",
+       "io.vlingo.actors.plugin.PluginLoader",
+       "io.vlingo.actors.plugin.logging.DefaultLoggerProviderKeeper",
+       "io.vlingo.actors.Characters",
+       "io.vlingo.actors.Startable",
+       "io.vlingo.actors.StageNamedTestStageNameQuery__Proxy",
+       "io.vlingo.actors.supervision.FailureControlSender__Proxy",
+       "io.vlingo.actors.testkit.TestStateView",
+       "io.vlingo.actors.CompletesEventuallyProvider",
+       "io.vlingo.actors.LoggerProviderKeeper",
+       "io.vlingo.actors.CompletesActorProtocolTestUsesCompletes__Proxy",
+       "io.vlingo.actors.ProxyGenerator$1",
+       "io.vlingo.actors.LoggerProvider",
+       "io.vlingo.actors.ActorEnvironmentTestStopTester__Proxy",
+       "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeperPlugin",
+       "io.vlingo.actors.FailureOutcome",
+       "io.vlingo.actors.OutcomeAware",
+       "io.vlingo.actors.plugin.completes.DefaultCompletesEventuallyProviderKeeper",
+       "io.vlingo.actors.Protocols$Four",
+       "io.vlingo.actors.Protocols",
+       "io.vlingo.actors.ProtocolsTestP4__Proxy",
+       "io.vlingo.actors.Stoppable",
+       "io.vlingo.actors.plugin.completes.DefaultCompletesEventuallyProviderKeeper$CompletesEventuallyProviderInfo",
+       "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailboxPlugin$SharedRingBufferMailboxPluginConfiguration",
+       "io.vlingo.actors.PrivateRootActor",
+       "io.vlingo.actors.DeadLettersActor",
+       "io.vlingo.actors.RepeatableCompletes",
+       "io.vlingo.actors.ProxyGenerator$Result",
+       "io.vlingo.actors.Backoff",
+       "io.vlingo.actors.Outcome",
+       "io.vlingo.actors.testkit.TestState",
+       "io.vlingo.actors.plugin.completes.PooledCompletesPlugin",
+       "io.vlingo.actors.CompletesEventuallyActor",
+       "io.vlingo.actors.CharactersTestThreeBehaviors__Proxy",
+       "io.vlingo.actors.CompletesEventually__Proxy",
+       "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverride$1",
+       "io.vlingo.actors.plugin.logging.jdk.DefaultHandler",
+       "io.vlingo.actors.plugin.mailbox.sharedringbuffer.RingBufferDispatcher",
+       "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailbox",
+       "io.vlingo.actors.Logger",
+       "io.vlingo.actors.ResultCompletes",
+       "io.vlingo.actors.Stage",
+       "io.vlingo.actors.plugin.logging.jdk.JDKLogger",
+       "io.vlingo.actors.plugin.completes.CompletesEventuallyPool",
+       "io.vlingo.actors.ActorStowDisperseTestStowThese__Proxy",
+       "io.vlingo.actors.ActorFactory",
+       "io.vlingo.actors.Logger__Proxy",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher$RejectionHandler",
+       "io.vlingo.actors.Properties",
+       "io.vlingo.actors.Stoppable__Proxy",
+       "io.vlingo.actors.plugin.logging.jdk.JDKLoggerPlugin",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ExecutorDispatcher$1",
+       "io.vlingo.actors.Registrar",
+       "io.vlingo.actors.FailureMark",
+       "io.vlingo.actors.Scheduled",
+       "io.vlingo.actors.Startable__Proxy",
+       "io.vlingo.actors.Address",
+       "io.vlingo.actors.RepeatableCompletes$RepeatableActiveState",
+       "io.vlingo.actors.ProxyGenerator$ReturnType",
+       "io.vlingo.actors.Scheduler",
+       "io.vlingo.actors.BasicAddress",
+       "io.vlingo.actors.Actor",
+       "io.vlingo.actors.PublicRootActor",
+       "io.vlingo.actors.ProxyGenerator",
+       "io.vlingo.actors.DirectoryScanner__Proxy",
+       "io.vlingo.actors.AddressFactory",
+       "io.vlingo.actors.Environment",
+       "io.vlingo.actors.PublicRootActor$1",
+       "io.vlingo.actors.Supervisor",
+       "io.vlingo.actors.DeadLettersListener__Proxy",
+       "io.vlingo.actors.Protocols$Two",
+       "io.vlingo.actors.NoProtocol",
+       "io.vlingo.actors.plugin.PluginProperties",
+       "io.vlingo.actors.plugin.AbstractPlugin",
+       "io.vlingo.actors.LocalMessageTestSimple__Proxy",
+       "io.vlingo.actors.OutcomeInterestTestTestsOutcomeInterest__Proxy",
+       "io.vlingo.actors.plugin.supervision.ConfiguredSupervisor",
+       "io.vlingo.actors.OutcomeInterestTestTestsOutcomeAware__Proxy",
+       "io.vlingo.actors.ActorStowDisperseTestOverrideStowage__Proxy",
+       "io.vlingo.actors.plugin.logging.jdk.JDKLoggerPlugin$JDKLoggerPluginConfiguration",
+       "io.vlingo.actors.plugin.supervision.DefaultSupervisorOverridePlugin$DefaultSupervisorOverridePluginConfiguration",
+       "io.vlingo.actors.plugin.PluginConfiguration",
+       "io.vlingo.actors.plugin.completes.PooledCompletesPlugin$PooledCompletesPluginConfiguration",
+       "io.vlingo.actors.testkit.TestWorld",
+       "io.vlingo.actors.MailboxProviderKeeper",
+       "io.vlingo.actors.supervision.Ping__Proxy",
+       "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeper",
+       "io.vlingo.actors.MailboxProvider",
+       "io.vlingo.actors.Stage$ActorProtocolActor",
+       "io.vlingo.actors.OutcomeAware__Proxy",
+       "io.vlingo.actors.ActorProxy",
+       "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueueDispatcher",
+       "io.vlingo.actors.Scheduled__Proxy",
+       "io.vlingo.actors.SuccessfulOutcome",
+       "io.vlingo.actors.supervision.Pong__Proxy",
+       "io.vlingo.actors.CompletesEventually",
+       "io.vlingo.actors.supervision.FailureControl__Proxy",
+       "io.vlingo.actors.Stowage",
+       "io.vlingo.actors.DefinitionTestParentInterface__Proxy",
+       "io.vlingo.actors.PooledCompletes",
+       "io.vlingo.actors.BasicCompletes",
+       "io.vlingo.actors.StageNamedTestStageNameQueryResult__Proxy",
+       "io.vlingo.actors.Supervisor$1",
+       "io.vlingo.actors.BasicCompletes$Action",
+       "io.vlingo.actors.DeadLetter",
+       "io.vlingo.actors.plugin.mailbox.sharedringbuffer.RingBufferMailboxActorTestCountTaker__Proxy",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailboxPlugin",
+       "io.vlingo.actors.DefaultSupervisor",
+       "io.vlingo.actors.ProtocolsTestP2__Proxy",
+       "io.vlingo.actors.Supervised",
+       "io.vlingo.actors.plugin.Plugin",
+       "io.vlingo.actors.plugin.mailbox.agronampscarrayqueue.ManyToOneConcurrentArrayQueuePlugin",
+       "io.vlingo.actors.plugin.mailbox.sharedringbuffer.SharedRingBufferMailbox",
+       "io.vlingo.actors.Message",
+       "io.vlingo.actors.World",
+       "io.vlingo.actors.Definition",
+       "io.vlingo.actors.plugin.mailbox.DefaultMailboxProviderKeeperPluginConfiguration",
+       "io.vlingo.actors.ActorEnvironmentTestEnvironmentProvider__Proxy",
+       "io.vlingo.actors.Configuration",
+       "io.vlingo.actors.DirectoryScannerActor",
+       "io.vlingo.actors.Scheduler$SchedulerTask",
+       "io.vlingo.actors.plugin.mailbox.testkit.TestMailbox",
+       "io.vlingo.actors.ActorFactoryTestParentInterface__Proxy",
+       "io.vlingo.actors.DispatcherTestTellSomething__Proxy",
+       "io.vlingo.actors.SupervisionStrategy",
+       "io.vlingo.actors.OutcomeInterest",
+       "io.vlingo.actors.LocalMessage",
+       "io.vlingo.actors.plugin.mailbox.concurrentqueue.ConcurrentQueueMailboxPlugin$ConcurrentQueueMailboxPluginConfiguration",
+       "io.vlingo.actors.LifeCycle",
+       "io.vlingo.actors.plugin.logging.noop.NoOpLoggerProvider",
+       "io.vlingo.actors.DispatcherTestTellAll__Proxy",
+       "io.vlingo.actors.Protocols$Three",
+       "io.vlingo.actors.Cancellable__Proxy"
+      ],
+      "usedTypes": [
+       "io.vlingo.actors.Stoppable",
+       "io.vlingo.actors.Logger",
+       "io.vlingo.actors.plugin.logging.jdk.JDKLogger",
+       "io.vlingo.actors.Stage",
+       "io.vlingo.actors.Definition",
+       "io.vlingo.actors.World",
+       "io.vlingo.actors.Startable",
+       "io.vlingo.actors.Scheduled",
+       "io.vlingo.actors.Cancellable",
+       "io.vlingo.actors.testkit.TestActor",
+       "io.vlingo.actors.Scheduler",
+       "io.vlingo.actors.testkit.TestWorld",
+       "io.vlingo.actors.Actor"
+      ],
+      "usageRatio": 0.07027027027027027,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}

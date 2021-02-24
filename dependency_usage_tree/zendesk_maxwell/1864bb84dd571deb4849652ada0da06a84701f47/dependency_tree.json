@@ -1,0 +1,2070 @@
+[
+ {
+  "artifactid": "maxwell",
+  "groupid": "com.zendesk",
+  "version": "1.10.8",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "aws-java-sdk-core",
+    "groupid": "com.amazonaws",
+    "version": "1.11.68",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-logging",
+      "groupid": "commons-logging",
+      "version": "1.1.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "ion-java",
+      "groupid": "software.amazon.ion",
+      "version": "1.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.6.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-cbor",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.6.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "joda-time",
+      "groupid": "joda-time",
+      "version": "2.8.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "amazon-kinesis-producer",
+    "groupid": "com.amazonaws",
+    "version": "0.12.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "protobuf-java",
+      "groupid": "com.google.protobuf",
+      "version": "2.6.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "2.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang",
+      "groupid": "commons-lang",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "aws-java-sdk-core",
+      "groupid": "com.amazonaws",
+      "version": "1.11.68",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mysql-connector-java",
+    "groupid": "mysql",
+    "version": "5.1.39",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-lang3",
+    "groupid": "org.apache.commons",
+    "version": "3.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-codec",
+    "groupid": "commons-codec",
+    "version": "1.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "antlr4-runtime",
+    "groupid": "org.antlr",
+    "version": "4.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "org.abego.treelayout.core",
+      "groupid": "org.abego.treelayout",
+      "version": "1.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "hamcrest-all",
+    "groupid": "org.hamcrest",
+    "version": "1.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "2.7.22",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "byte-buddy",
+      "groupid": "net.bytebuddy",
+      "version": "1.6.11",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byte-buddy-agent",
+      "groupid": "net.bytebuddy",
+      "version": "1.6.11",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j-core",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.8.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.8.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j-slf4j-impl",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.8.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.24",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.8.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jul-to-slf4j",
+    "groupid": "org.slf4j",
+    "version": "1.7.21",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.21",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "open-replicator",
+    "groupid": "com.zendesk",
+    "version": "1.6.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jts",
+      "groupid": "com.vividsolutions",
+      "version": "1.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mysql-binlog-connector-java",
+    "groupid": "com.github.shyiko",
+    "version": "0.13.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jopt-simple",
+    "groupid": "net.sf.jopt-simple",
+    "version": "4.9",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "dbpool",
+    "groupid": "net.snaq",
+    "version": "7.0-jdk7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j-staticshutdown",
+    "groupid": "com.djdch.log4j",
+    "version": "1.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-core",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.6.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jackson-databind",
+    "groupid": "com.fasterxml.jackson.core",
+    "version": "2.6.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.6.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.6.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jts",
+    "groupid": "com.vividsolutions",
+    "version": "1.13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "lz4",
+    "groupid": "net.jpountz.lz4",
+    "version": "1.3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "amqp-client",
+    "groupid": "com.rabbitmq",
+    "version": "4.0.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.21",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "google-cloud-pubsub",
+    "groupid": "com.google.cloud",
+    "version": "0.22.0-beta",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "netty-tcnative-boringssl-static",
+      "groupid": "io.netty",
+      "version": "2.0.3.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "google-cloud-core",
+      "groupid": "com.google.cloud",
+      "version": "1.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "20.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "joda-time",
+        "groupid": "joda-time",
+        "version": "2.9.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "json",
+        "groupid": "org.json",
+        "version": "20160810",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "api-common",
+        "groupid": "com.google.api",
+        "version": "1.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "gax",
+        "groupid": "com.google.api",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "auto-value",
+          "groupid": "com.google.auto.value",
+          "version": "1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "20.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "threetenbp",
+          "groupid": "org.threeten",
+          "version": "1.3.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "google-auth-library-oauth2-http",
+          "groupid": "com.google.auth",
+          "version": "0.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "google-auth-library-credentials",
+            "groupid": "com.google.auth",
+            "version": "0.7.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "google-http-client",
+            "groupid": "com.google.http-client",
+            "version": "1.19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "jsr305",
+              "groupid": "com.google.code.findbugs",
+              "version": "1.3.9",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "httpclient",
+              "groupid": "org.apache.httpcomponents",
+              "version": "4.0.1",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "google-http-client-jackson2",
+            "groupid": "com.google.http-client",
+            "version": "1.19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "google-http-client",
+              "groupid": "com.google.http-client",
+              "version": "1.19.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-core",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.1.3",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "guava",
+            "groupid": "com.google.guava",
+            "version": "19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "api-common",
+          "groupid": "com.google.api",
+          "version": "1.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "protobuf-java-util",
+        "groupid": "com.google.protobuf",
+        "version": "3.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "protobuf-java",
+          "groupid": "com.google.protobuf",
+          "version": "3.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "gson",
+          "groupid": "com.google.code.gson",
+          "version": "2.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "proto-google-common-protos",
+        "groupid": "com.google.api.grpc",
+        "version": "0.1.15",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "protobuf-java",
+          "groupid": "com.google.protobuf",
+          "version": "3.3.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "api-common",
+          "groupid": "com.google.api",
+          "version": "1.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "proto-google-iam-v1",
+        "groupid": "com.google.api.grpc",
+        "version": "0.1.15",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "protobuf-java",
+          "groupid": "com.google.protobuf",
+          "version": "3.3.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "api-common",
+          "groupid": "com.google.api",
+          "version": "1.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "proto-google-common-protos",
+          "groupid": "com.google.api.grpc",
+          "version": "0.1.15",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "google-cloud-core-grpc",
+      "groupid": "com.google.cloud",
+      "version": "1.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-tcnative-boringssl-static",
+        "groupid": "io.netty",
+        "version": "2.0.3.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "google-auth-library-credentials",
+        "groupid": "com.google.auth",
+        "version": "0.7.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "google-cloud-core",
+        "groupid": "com.google.cloud",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "20.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "protobuf-java",
+        "groupid": "com.google.protobuf",
+        "version": "3.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "protobuf-java-util",
+        "groupid": "com.google.protobuf",
+        "version": "3.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "grpc-protobuf",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "grpc-core",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "protobuf-java",
+          "groupid": "com.google.protobuf",
+          "version": "3.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "protobuf-java-util",
+          "groupid": "com.google.protobuf",
+          "version": "3.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "proto-google-common-protos",
+          "groupid": "com.google.api.grpc",
+          "version": "0.1.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-protobuf-lite",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "grpc-core",
+            "groupid": "io.grpc",
+            "version": "1.4.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "guava",
+            "groupid": "com.google.guava",
+            "version": "19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "grpc-context",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "grpc-netty",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "grpc-stub",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "grpc-auth",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gax-grpc",
+        "groupid": "com.google.api",
+        "version": "0.22.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "auto-value",
+          "groupid": "com.google.auto.value",
+          "version": "1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gax",
+          "groupid": "com.google.api",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-netty",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-stub",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-auth",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-protobuf",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "20.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "threetenbp",
+          "groupid": "org.threeten",
+          "version": "1.3.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "google-auth-library-oauth2-http",
+          "groupid": "com.google.auth",
+          "version": "0.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "google-auth-library-credentials",
+          "groupid": "com.google.auth",
+          "version": "0.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "proto-google-common-protos",
+          "groupid": "com.google.api.grpc",
+          "version": "0.1.13",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "api-common",
+          "groupid": "com.google.api",
+          "version": "1.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "proto-google-cloud-pubsub-v1",
+      "groupid": "com.google.api.grpc",
+      "version": "0.1.15",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "proto-google-iam-v1",
+        "groupid": "com.google.api.grpc",
+        "version": "0.1.15",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "protobuf-java",
+        "groupid": "com.google.protobuf",
+        "version": "3.3.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "api-common",
+        "groupid": "com.google.api",
+        "version": "1.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "proto-google-common-protos",
+        "groupid": "com.google.api.grpc",
+        "version": "0.1.15",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "grpc-google-cloud-pubsub-v1",
+      "groupid": "com.google.api.grpc",
+      "version": "0.1.15",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "grpc-stub",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "grpc-protobuf",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "proto-google-cloud-pubsub-v1",
+        "groupid": "com.google.api.grpc",
+        "version": "0.1.15",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "grpc-netty",
+      "groupid": "io.grpc",
+      "version": "1.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "grpc-core",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "guava",
+          "groupid": "com.google.guava",
+          "version": "19.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "error_prone_annotations",
+          "groupid": "com.google.errorprone",
+          "version": "2.0.19",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "grpc-context",
+          "groupid": "io.grpc",
+          "version": "1.4.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "instrumentation-api",
+          "groupid": "com.google.instrumentation",
+          "version": "0.4.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "error_prone_annotations",
+            "groupid": "com.google.errorprone",
+            "version": "2.0.11",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "jsr305",
+            "groupid": "com.google.code.findbugs",
+            "version": "3.0.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "grpc-context",
+            "groupid": "io.grpc",
+            "version": "1.2.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "guava",
+            "groupid": "com.google.guava",
+            "version": "19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-codec-http2",
+        "groupid": "io.netty",
+        "version": "4.1.11.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-codec-http",
+          "groupid": "io.netty",
+          "version": "4.1.11.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-codec",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.11.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "netty-handler",
+          "groupid": "io.netty",
+          "version": "4.1.11.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-buffer",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.11.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-transport",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-codec",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-handler-proxy",
+        "groupid": "io.netty",
+        "version": "4.1.11.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-transport",
+          "groupid": "io.netty",
+          "version": "4.1.11.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-buffer",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-resolver",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.11.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "netty-codec-socks",
+          "groupid": "io.netty",
+          "version": "4.1.11.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-codec",
+            "groupid": "io.netty",
+            "version": "4.1.11.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "netty-codec-http",
+          "groupid": "io.netty",
+          "version": "4.1.11.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "grpc-stub",
+      "groupid": "io.grpc",
+      "version": "1.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "grpc-core",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "grpc-auth",
+      "groupid": "io.grpc",
+      "version": "1.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "grpc-core",
+        "groupid": "io.grpc",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "google-auth-library-credentials",
+        "groupid": "com.google.auth",
+        "version": "0.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "protobuf-java",
+    "groupid": "com.google.protobuf",
+    "version": "3.4.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "metrics-core",
+    "groupid": "io.dropwizard.metrics",
+    "version": "3.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-servlets",
+    "groupid": "io.dropwizard.metrics",
+    "version": "3.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "metrics-core",
+      "groupid": "io.dropwizard.metrics",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "metrics-healthchecks",
+      "groupid": "io.dropwizard.metrics",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "metrics-json",
+      "groupid": "io.dropwizard.metrics",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "metrics-core",
+        "groupid": "io.dropwizard.metrics",
+        "version": "3.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.4.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "metrics-jvm",
+      "groupid": "io.dropwizard.metrics",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "metrics-core",
+        "groupid": "io.dropwizard.metrics",
+        "version": "3.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jetty-server",
+    "groupid": "org.eclipse.jetty",
+    "version": "9.2.21.v20170120",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "javax.servlet-api",
+      "groupid": "javax.servlet",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jetty-http",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.21.v20170120",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.21.v20170120",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-io",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.21.v20170120",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-util",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.21.v20170120",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "jetty-servlet",
+    "groupid": "org.eclipse.jetty",
+    "version": "9.2.21.v20170120",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jetty-security",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.2.21.v20170120",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-server",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.2.21.v20170120",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-datadog",
+    "groupid": "org.coursera",
+    "version": "1.1.10",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "metrics-core",
+      "groupid": "io.dropwizard.metrics",
+      "version": "3.1.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "fluent-hc",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.3.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.3.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.1.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.4.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "java-dogstatsd-client",
+      "groupid": "com.datadoghq",
+      "version": "2.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "kafka-clients",
+    "groupid": "org.apache.kafka",
+    "version": "0.9.0.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "snappy-java",
+      "groupid": "org.xerial.snappy",
+      "version": "1.1.1.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "lz4",
+      "groupid": "net.jpountz.lz4",
+      "version": "1.2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

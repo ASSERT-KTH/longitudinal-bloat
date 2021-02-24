@@ -1,0 +1,1480 @@
+[
+ {
+  "artifactid": "vlingo-http",
+  "groupid": "io.vlingo",
+  "version": "0.4.9",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.11",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-common",
+    "groupid": "io.vlingo",
+    "version": "0.3.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "gson",
+      "groupid": "com.google.code.gson",
+      "version": "2.8.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-actors",
+    "groupid": "io.vlingo",
+    "version": "0.5.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "agrona",
+      "groupid": "org.agrona",
+      "version": "0.9.20",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-common",
+      "groupid": "io.vlingo",
+      "version": "0.3.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-wire",
+    "groupid": "io.vlingo",
+    "version": "0.4.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "vlingo-actors",
+      "groupid": "io.vlingo",
+      "version": "0.5.4",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "gatling-charts-highcharts",
+    "groupid": "io.gatling.highcharts",
+    "version": "2.3.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "scala-library",
+      "groupid": "org.scala-lang",
+      "version": "2.12.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "gatling-charts",
+      "groupid": "io.gatling",
+      "version": "2.3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "scala-library",
+        "groupid": "org.scala-lang",
+        "version": "2.12.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gatling-core",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-commons",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "scala-reflect",
+            "groupid": "org.scala-lang",
+            "version": "2.12.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "scala-library",
+              "groupid": "org.scala-lang",
+              "version": "2.12.3",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "config",
+            "groupid": "com.typesafe",
+            "version": "1.3.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "fastring_2.12",
+            "groupid": "com.dongxiguo",
+            "version": "0.3.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "scala-library",
+              "groupid": "org.scala-lang",
+              "version": "2.12.1",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "scala-reflect",
+              "groupid": "org.scala-lang",
+              "version": "2.12.1",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "boopickle_2.12",
+            "groupid": "io.suzaku",
+            "version": "1.2.6",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "quicklens_2.12",
+            "groupid": "com.softwaremill.quicklens",
+            "version": "1.4.8",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "scala-library",
+              "groupid": "org.scala-lang",
+              "version": "2.12.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "scala-reflect",
+              "groupid": "org.scala-lang",
+              "version": "2.12.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "scala-java8-compat_2.12",
+            "groupid": "org.scala-lang.modules",
+            "version": "0.8.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "async-http-client-netty-utils",
+            "groupid": "org.asynchttpclient",
+            "version": "2.0.39",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.0.56.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.25",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "slf4j-api",
+            "groupid": "org.slf4j",
+            "version": "1.7.25",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "scala-logging_2.12",
+            "groupid": "com.typesafe.scala-logging",
+            "version": "3.7.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "scala-library",
+              "groupid": "org.scala-lang",
+              "version": "2.12.2",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "scala-reflect",
+              "groupid": "org.scala-lang",
+              "version": "2.12.2",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.25",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "logback-classic",
+            "groupid": "ch.qos.logback",
+            "version": "1.2.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "logback-core",
+              "groupid": "ch.qos.logback",
+              "version": "1.2.3",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.25",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "akka-actor_2.12",
+          "groupid": "com.typesafe.akka",
+          "version": "2.5.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "config",
+            "groupid": "com.typesafe",
+            "version": "1.3.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "scala-java8-compat_2.12",
+            "groupid": "org.scala-lang.modules",
+            "version": "0.8.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "akka-slf4j_2.12",
+          "groupid": "com.typesafe.akka",
+          "version": "2.5.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "akka-actor_2.12",
+            "groupid": "com.typesafe.akka",
+            "version": "2.5.4",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "slf4j-api",
+            "groupid": "org.slf4j",
+            "version": "1.7.23",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "jackson-dataformat-csv",
+          "groupid": "com.fasterxml.jackson.dataformat",
+          "version": "2.9.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jackson-databind",
+            "groupid": "com.fasterxml.jackson.core",
+            "version": "2.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-annotations",
+            "groupid": "com.fasterxml.jackson.core",
+            "version": "2.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-core",
+            "groupid": "com.fasterxml.jackson.core",
+            "version": "2.9.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "boopickle_2.12",
+          "groupid": "io.suzaku",
+          "version": "1.2.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "scala-java8-compat_2.12",
+          "groupid": "org.scala-lang.modules",
+          "version": "0.8.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "caffeine",
+          "groupid": "com.github.ben-manes.caffeine",
+          "version": "2.5.5",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "scala-parser-combinators_2.12",
+          "groupid": "org.scala-lang.modules",
+          "version": "1.0.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "scopt_2.12",
+          "groupid": "com.github.scopt",
+          "version": "3.7.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jsonpath_2.12",
+          "groupid": "io.gatling",
+          "version": "0.6.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "scala-parser-combinators_2.12",
+            "groupid": "org.scala-lang.modules",
+            "version": "1.0.5",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "jackson-databind",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.9.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "boon-json",
+          "groupid": "io.advantageous.boon",
+          "version": "0.6.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "boon-reflekt",
+            "groupid": "io.advantageous.boon",
+            "version": "0.6.6",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "Saxon-HE",
+          "groupid": "net.sf.saxon",
+          "version": "9.8.0-4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jodd-lagarto",
+          "groupid": "org.jodd",
+          "version": "3.8.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jodd-core",
+            "groupid": "org.jodd",
+            "version": "3.8.6",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "jodd-log",
+            "groupid": "org.jodd",
+            "version": "3.8.6",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "t-digest",
+        "groupid": "com.tdunning",
+        "version": "3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "gatling-app",
+      "groupid": "io.gatling",
+      "version": "2.3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "scala-library",
+        "groupid": "org.scala-lang",
+        "version": "2.12.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gatling-core",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gatling-http",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-core",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "async-http-client",
+          "groupid": "org.asynchttpclient",
+          "version": "2.0.39",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "async-http-client-netty-utils",
+            "groupid": "org.asynchttpclient",
+            "version": "2.0.39",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-codec-http",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-handler",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-transport-native-epoll",
+            "groupid": "io.netty",
+            "version": "linux-x86_64",
+            "package": "jar",
+            "scope": "4.0.56.Final",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-resolver-dns",
+            "groupid": "org.asynchttpclient",
+            "version": "2.0.39",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-resolver",
+              "groupid": "org.asynchttpclient",
+              "version": "2.0.39",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.0.56.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "slf4j-api",
+                "groupid": "org.slf4j",
+                "version": "1.7.25",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-codec-dns",
+              "groupid": "org.asynchttpclient",
+              "version": "2.0.39",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-codec",
+                "groupid": "io.netty",
+                "version": "4.0.56.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "slf4j-api",
+                "groupid": "org.slf4j",
+                "version": "1.7.25",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.0.56.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.25",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "reactive-streams",
+            "groupid": "org.reactivestreams",
+            "version": "1.0.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "netty-reactive-streams",
+            "groupid": "com.typesafe.netty",
+            "version": "1.0.8",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-handler",
+              "groupid": "io.netty",
+              "version": "4.0.41.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "reactive-streams",
+              "groupid": "org.reactivestreams",
+              "version": "1.0.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "slf4j-api",
+            "groupid": "org.slf4j",
+            "version": "1.7.25",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "netty-transport-native-epoll",
+          "groupid": "io.netty",
+          "version": "linux-x86_64",
+          "package": "jar",
+          "scope": "4.0.56.Final",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-common",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "netty-buffer",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.0.56.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-transport",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.0.56.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "scala-xml_2.12",
+          "groupid": "org.scala-lang.modules",
+          "version": "1.0.6",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "scala-library",
+            "groupid": "org.scala-lang",
+            "version": "2.12.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "gatling-jms",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-core",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "geronimo-jms_1.1_spec",
+          "groupid": "org.apache.geronimo.specs",
+          "version": "1.1.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "gatling-jdbc",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-core",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "gatling-redis",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-core",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "redisclient_2.12",
+          "groupid": "net.debasishg",
+          "version": "3.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "commons-pool",
+            "groupid": "commons-pool",
+            "version": "1.6",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "slf4j-api",
+            "groupid": "org.slf4j",
+            "version": "1.7.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "akka-actor_2.12",
+            "groupid": "com.typesafe.akka",
+            "version": "2.4.12",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "gatling-metrics",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "gatling-core",
+          "groupid": "io.gatling",
+          "version": "2.3.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "HdrHistogram",
+          "groupid": "org.hdrhistogram",
+          "version": "2.1.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "gatling-charts",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "gatling-recorder",
+      "groupid": "io.gatling",
+      "version": "2.3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "scala-library",
+        "groupid": "org.scala-lang",
+        "version": "2.12.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gatling-core",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "gatling-http",
+        "groupid": "io.gatling",
+        "version": "2.3.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "scala-swing_2.12",
+        "groupid": "org.scala-lang.modules",
+        "version": "2.0.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "scala-library",
+          "groupid": "org.scala-lang",
+          "version": "2.12.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-annotations",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.9.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.9.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "bcpkix-jdk15on",
+        "groupid": "org.bouncycastle",
+        "version": "1.58",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "bcprov-jdk15on",
+          "groupid": "org.bouncycastle",
+          "version": "1.58",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-codec-http",
+        "groupid": "io.netty",
+        "version": "4.0.56.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-codec",
+          "groupid": "io.netty",
+          "version": "4.0.56.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-transport",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "netty-handler",
+          "groupid": "io.netty",
+          "version": "4.0.56.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-buffer",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-transport",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "netty-codec",
+            "groupid": "io.netty",
+            "version": "4.0.56.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

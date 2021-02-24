@@ -1,0 +1,230 @@
+[
+ {
+  "artifactid": "jboss-ejb-client",
+  "groupid": "org.jboss",
+  "version": "1.0.0.Beta6",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "jboss-marshalling",
+    "groupid": "org.jboss.marshalling",
+    "version": "1.3.0.GA",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jboss-marshalling-river",
+    "groupid": "org.jboss.marshalling",
+    "version": "1.3.0.GA",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-marshalling",
+      "groupid": "org.jboss.marshalling",
+      "version": "1.3.0.GA",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "xnio-api",
+    "groupid": "org.jboss.xnio",
+    "version": "3.0.0.Beta9",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "xnio-nio",
+    "groupid": "org.jboss.xnio",
+    "version": "3.0.0.Beta9",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "xnio-api",
+      "groupid": "org.jboss.xnio",
+      "version": "3.0.0.Beta9",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jboss-remoting",
+    "groupid": "org.jboss.remoting3",
+    "version": "3.2.0.Beta6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.1.0.Beta3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "xnio-api",
+      "groupid": "org.jboss.xnio",
+      "version": "3.0.0.Beta9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jboss-sasl",
+    "groupid": "org.jboss.sasl",
+    "version": "1.0.0.Beta3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.0.1.GA",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jboss-logging",
+    "groupid": "org.jboss.logging",
+    "version": "3.1.0.Beta3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jboss-logging-processor",
+    "groupid": "org.jboss.logging",
+    "version": "1.0.0.CR3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-logging-generator",
+      "groupid": "org.jboss.logging",
+      "version": "1.0.0.CR3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jboss-logging-generator",
+    "groupid": "org.jboss.logging",
+    "version": "1.0.0.CR3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jdk-tools",
+      "groupid": "system",
+      "version": "jdk",
+      "package": "jar",
+      "scope": "system",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jboss-logmanager",
+    "groupid": "org.jboss.logmanager",
+    "version": "1.2.0.GA",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jboss-ejb-api_3.1_spec",
+    "groupid": "org.jboss.spec.javax.ejb",
+    "version": "1.0.0.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-transaction-api_1.1_spec",
+      "groupid": "org.jboss.spec.javax.transaction",
+      "version": "1.0.0.Beta1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jaxrpc-api",
+      "groupid": "javax.xml",
+      "version": "1.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.8.2",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,95 @@
+[
+ {
+  "artifactid": "sqlite-jdbc",
+  "groupid": "org.xerial",
+  "version": "3.6.4.1",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "nestedvm",
+    "groupid": "org.xerial.thirdparty",
+    "version": "1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jdbc-api",
+    "groupid": "org.xerial.thirdparty",
+    "version": "1.4",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "xerial-core",
+    "groupid": "org.xerial",
+    "version": "0.8.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "antlr-runtime",
+      "groupid": "org.antlr",
+      "version": "3.0.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "stringtemplate",
+        "groupid": "org.antlr",
+        "version": "3.1-b1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "stringtemplate",
+      "groupid": "org.antlr",
+      "version": "3.1-b1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "xpp3",
+      "groupid": "xpp3",
+      "version": "1.1.4c",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

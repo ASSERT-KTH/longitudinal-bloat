@@ -1,0 +1,2501 @@
+[
+ {
+  "artifactid": "jboot",
+  "groupid": "io.jboot",
+  "version": "2.0-rc.5-snapshot",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "jfinal",
+    "groupid": "com.jfinal",
+    "version": "3.6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "cglib-nodep",
+      "groupid": "cglib",
+      "version": "3.2.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "cos",
+    "groupid": "com.jfinal",
+    "version": "2017.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jfinal-weixin",
+    "groupid": "com.jfinal",
+    "version": "2.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jfinal-undertow",
+    "groupid": "com.jfinal",
+    "version": "1.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "undertow-core",
+      "groupid": "io.undertow",
+      "version": "2.0.17.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jboss-logging",
+        "groupid": "org.jboss.logging",
+        "version": "3.3.1.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "xnio-api",
+        "groupid": "org.jboss.xnio",
+        "version": "3.3.8.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "xnio-nio",
+        "groupid": "org.jboss.xnio",
+        "version": "3.3.8.Final",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "xnio-api",
+          "groupid": "org.jboss.xnio",
+          "version": "3.3.8.Final",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "undertow-servlet",
+      "groupid": "io.undertow",
+      "version": "2.0.17.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "undertow-core",
+        "groupid": "io.undertow",
+        "version": "2.0.17.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "javax.servlet-api",
+      "groupid": "javax.servlet",
+      "version": "4.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "HikariCP",
+    "groupid": "com.zaxxer",
+    "version": "3.3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "druid",
+    "groupid": "com.alibaba",
+    "version": "1.1.12",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "mysql-connector-java",
+    "groupid": "mysql",
+    "version": "5.1.47",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "undertow-websockets-jsr",
+    "groupid": "io.undertow",
+    "version": "2.0.17.Final",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "undertow-core",
+      "groupid": "io.undertow",
+      "version": "2.0.17.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "undertow-servlet",
+      "groupid": "io.undertow",
+      "version": "2.0.17.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jboss-websocket-api_1.1_spec",
+      "groupid": "org.jboss.spec.javax.websocket",
+      "version": "1.1.3.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "motan-core",
+    "groupid": "com.weibo",
+    "version": "1.1.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-pool",
+      "groupid": "commons-pool",
+      "version": "1.6",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "hessian",
+      "groupid": "com.caucho",
+      "version": "4.0.38",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "fastjson",
+      "groupid": "com.alibaba",
+      "version": "1.2.49",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "metrics-core",
+      "groupid": "com.codahale.metrics",
+      "version": "3.0.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.5",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "javapoet",
+      "groupid": "com.squareup",
+      "version": "1.8.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.5.8",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "motan-transport-netty4",
+    "groupid": "com.weibo",
+    "version": "1.1.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "motan-core",
+      "groupid": "com.weibo",
+      "version": "1.1.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "netty-all",
+      "groupid": "io.netty",
+      "version": "4.1.16.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.5.8",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "motan-registry-consul",
+    "groupid": "com.weibo",
+    "version": "1.1.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "motan-core",
+      "groupid": "com.weibo",
+      "version": "1.1.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "consul-api",
+      "groupid": "com.ecwid.consul",
+      "version": "1.3.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "gson",
+        "groupid": "com.google.code.gson",
+        "version": "2.8.2",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.8",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.5.3",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.5.8",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "motan-registry-zookeeper",
+    "groupid": "com.weibo",
+    "version": "1.1.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "motan-core",
+      "groupid": "com.weibo",
+      "version": "1.1.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "zookeeper",
+      "groupid": "org.apache.zookeeper",
+      "version": "3.4.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "zkclient",
+      "groupid": "com.101tec",
+      "version": "0.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.5.8",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.25",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "fastjson",
+    "groupid": "com.alibaba",
+    "version": "1.2.56",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "27.0.1-jre",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "failureaccess",
+      "groupid": "com.google.guava",
+      "version": "1.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "listenablefuture",
+      "groupid": "com.google.guava",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jsr305",
+      "groupid": "com.google.code.findbugs",
+      "version": "3.0.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "checker-qual",
+      "groupid": "org.checkerframework",
+      "version": "2.5.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "error_prone_annotations",
+      "groupid": "com.google.errorprone",
+      "version": "2.2.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "j2objc-annotations",
+      "groupid": "com.google.j2objc",
+      "version": "1.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "animal-sniffer-annotations",
+      "groupid": "org.codehaus.mojo",
+      "version": "1.17",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "cron4j",
+    "groupid": "it.sauronsoftware.cron4j",
+    "version": "2.2.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jedis",
+    "groupid": "redis.clients",
+    "version": "2.10.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.22",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-pool2",
+      "groupid": "org.apache.commons",
+      "version": "2.4.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "lettuce-core",
+    "groupid": "io.lettuce",
+    "version": "5.1.3.RELEASE",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "reactor-core",
+      "groupid": "io.projectreactor",
+      "version": "3.2.3.RELEASE",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "reactive-streams",
+        "groupid": "org.reactivestreams",
+        "version": "1.0.2",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-common",
+      "groupid": "io.netty",
+      "version": "4.1.31.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "netty-transport",
+      "groupid": "io.netty",
+      "version": "4.1.31.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.31.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-common",
+          "groupid": "io.netty",
+          "version": "4.1.31.Final",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-resolver",
+        "groupid": "io.netty",
+        "version": "4.1.31.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-common",
+          "groupid": "io.netty",
+          "version": "4.1.31.Final",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-handler",
+      "groupid": "io.netty",
+      "version": "4.1.31.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.31.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.31.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec",
+        "groupid": "io.netty",
+        "version": "4.1.31.Final",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-transport",
+          "groupid": "io.netty",
+          "version": "4.1.31.Final",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "kryo",
+    "groupid": "com.esotericsoftware",
+    "version": "4.0.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "reflectasm",
+      "groupid": "com.esotericsoftware",
+      "version": "1.11.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "asm",
+        "groupid": "org.ow2.asm",
+        "version": "5.0.4",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "minlog",
+      "groupid": "com.esotericsoftware",
+      "version": "1.3.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.5.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "ons-client",
+    "groupid": "com.aliyun.openservices",
+    "version": "1.7.9.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.7",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "amqp-client",
+    "groupid": "com.rabbitmq",
+    "version": "5.0.0",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "fst",
+    "groupid": "de.ruedigermoeller",
+    "version": "2.57",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-core",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.8.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "javassist",
+      "groupid": "org.javassist",
+      "version": "3.21.0-GA",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.5.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jsoup",
+    "groupid": "org.jsoup",
+    "version": "1.11.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "ehcache",
+    "groupid": "net.sf.ehcache",
+    "version": "2.10.6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-core",
+    "groupid": "io.dropwizard.metrics",
+    "version": "4.0.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "sharding-jdbc-core",
+    "groupid": "io.shardingsphere",
+    "version": "3.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "sharding-core",
+      "groupid": "io.shardingsphere",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "groovy",
+        "groupid": "org.codehaus.groovy",
+        "version": "indy",
+        "package": "jar",
+        "scope": "2.4.5",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "snakeyaml",
+        "groupid": "org.yaml",
+        "version": "1.16",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "antlr4",
+        "groupid": "org.antlr",
+        "version": "4.7.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "antlr4-runtime",
+          "groupid": "org.antlr",
+          "version": "4.7.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "antlr-runtime",
+          "groupid": "org.antlr",
+          "version": "3.5.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "ST4",
+          "groupid": "org.antlr",
+          "version": "4.0.8",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "antlr-runtime",
+            "groupid": "org.antlr",
+            "version": "3.5.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "org.abego.treelayout.core",
+          "groupid": "org.abego.treelayout",
+          "version": "1.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "javax.json",
+          "groupid": "org.glassfish",
+          "version": "1.0.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "icu4j",
+          "groupid": "com.ibm.icu",
+          "version": "58.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jcl-over-slf4j",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "sharding-transaction-core",
+      "groupid": "io.shardingsphere",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "sharding-core",
+        "groupid": "io.shardingsphere",
+        "version": "3.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "18.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jcl-over-slf4j",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jcl-over-slf4j",
+      "groupid": "org.slf4j",
+      "version": "1.7.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-graphite",
+    "groupid": "io.dropwizard.metrics",
+    "version": "4.0.5",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "metrics-core",
+      "groupid": "io.dropwizard.metrics",
+      "version": "4.0.5",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "amqp-client",
+      "groupid": "com.rabbitmq",
+      "version": "4.4.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-servlets",
+    "groupid": "io.dropwizard.metrics",
+    "version": "4.0.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "metrics-core",
+      "groupid": "io.dropwizard.metrics",
+      "version": "4.0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "metrics-healthchecks",
+      "groupid": "io.dropwizard.metrics",
+      "version": "4.0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "metrics-json",
+      "groupid": "io.dropwizard.metrics",
+      "version": "4.0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "metrics-core",
+        "groupid": "io.dropwizard.metrics",
+        "version": "4.0.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "metrics-jvm",
+      "groupid": "io.dropwizard.metrics",
+      "version": "4.0.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "metrics-core",
+        "groupid": "io.dropwizard.metrics",
+        "version": "4.0.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "profiler",
+      "groupid": "com.papertrail",
+      "version": "1.0.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "joda-time",
+        "groupid": "joda-time",
+        "version": "2.9.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "shiro-core",
+    "groupid": "org.apache.shiro",
+    "version": "1.3.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.6.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-beanutils",
+      "groupid": "commons-beanutils",
+      "version": "1.8.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "shiro-web",
+    "groupid": "org.apache.shiro",
+    "version": "1.3.2",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "shiro-core",
+      "groupid": "org.apache.shiro",
+      "version": "1.3.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "dubbo",
+    "groupid": "com.alibaba",
+    "version": "2.6.5",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "javassist",
+      "groupid": "org.javassist",
+      "version": "3.20.0-GA",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "netty",
+      "groupid": "org.jboss.netty",
+      "version": "3.2.5.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "curator-framework",
+    "groupid": "org.apache.curator",
+    "version": "4.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "curator-client",
+      "groupid": "org.apache.curator",
+      "version": "4.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "zookeeper",
+        "groupid": "org.apache.zookeeper",
+        "version": "3.4.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-cli",
+          "groupid": "commons-cli",
+          "version": "1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "log4j",
+          "groupid": "log4j",
+          "version": "1.2.17",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "audience-annotations",
+          "groupid": "org.apache.yetus",
+          "version": "0.5.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "netty",
+          "groupid": "io.netty",
+          "version": "3.10.6.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "20.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "resteasy-jdk-http",
+    "groupid": "org.jboss.resteasy",
+    "version": "3.6.2.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "resteasy-jaxrs",
+      "groupid": "org.jboss.resteasy",
+      "version": "3.6.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "resteasy-client",
+      "groupid": "org.jboss.resteasy",
+      "version": "3.6.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jboss-annotations-api_1.2_spec",
+      "groupid": "org.jboss.spec.javax.annotation",
+      "version": "1.0.0.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.3.1.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "resteasy-jaxrs",
+    "groupid": "org.jboss.resteasy",
+    "version": "3.6.2.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-jaxrs-api_2.1_spec",
+      "groupid": "org.jboss.spec.javax.ws.rs",
+      "version": "1.0.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jboss-jaxb-api_2.3_spec",
+      "groupid": "org.jboss.spec.javax.xml.bind",
+      "version": "1.0.0.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "reactive-streams",
+      "groupid": "org.reactivestreams",
+      "version": "1.0.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jboss-annotations-api_1.2_spec",
+      "groupid": "org.jboss.spec.javax.annotation",
+      "version": "1.0.0.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "activation",
+      "groupid": "javax.activation",
+      "version": "1.1.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.7",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.10",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "2.5",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jcip-annotations",
+      "groupid": "net.jcip",
+      "version": "1.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.3.1.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "resteasy-client",
+    "groupid": "org.jboss.resteasy",
+    "version": "3.6.2.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jboss-jaxrs-api_2.1_spec",
+      "groupid": "org.jboss.spec.javax.ws.rs",
+      "version": "1.0.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "resteasy-jaxrs",
+      "groupid": "org.jboss.resteasy",
+      "version": "3.6.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.3.1.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5.4",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "resteasy-netty4",
+    "groupid": "org.jboss.resteasy",
+    "version": "3.6.2.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "resteasy-jaxrs",
+      "groupid": "org.jboss.resteasy",
+      "version": "3.6.2.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "netty-all",
+      "groupid": "io.netty",
+      "version": "4.1.16.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jboss-logging",
+      "groupid": "org.jboss.logging",
+      "version": "3.3.1.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "resteasy-jackson-provider",
+    "groupid": "org.jboss.resteasy",
+    "version": "3.6.2.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-core-asl",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.9.13",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-mapper-asl",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.9.13",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.9.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-jaxrs",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.9.13",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.9.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-mapper-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.9.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-xc",
+      "groupid": "org.codehaus.jackson",
+      "version": "1.9.13",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-core-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.9.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-mapper-asl",
+        "groupid": "org.codehaus.jackson",
+        "version": "1.9.13",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "zkclient",
+    "groupid": "com.101tec",
+    "version": "0.11",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "zookeeper",
+      "groupid": "org.apache.zookeeper",
+      "version": "3.4.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.6.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jjwt",
+    "groupid": "io.jsonwebtoken",
+    "version": "0.9.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "okhttp",
+    "groupid": "com.squareup.okhttp3",
+    "version": "3.12.1",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "okio",
+      "groupid": "com.squareup.okio",
+      "version": "1.15.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "zbus",
+    "groupid": "io.zbus",
+    "version": "0.11.5",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "netty-all",
+      "groupid": "io.netty",
+      "version": "4.0.51.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "fastjson",
+      "groupid": "com.alibaba",
+      "version": "1.2.24",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "swagger-core",
+    "groupid": "io.swagger",
+    "version": "1.5.21",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-lang3",
+      "groupid": "org.apache.commons",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.22",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-annotations",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.9.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jackson-dataformat-yaml",
+      "groupid": "com.fasterxml.jackson.dataformat",
+      "version": "2.9.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "snakeyaml",
+        "groupid": "org.yaml",
+        "version": "1.18",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "swagger-models",
+      "groupid": "io.swagger",
+      "version": "1.5.21",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.9.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.22",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "swagger-annotations",
+        "groupid": "io.swagger",
+        "version": "1.5.21",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "20.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "validation-api",
+      "groupid": "javax.validation",
+      "version": "1.1.0.Final",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "commons-lang3",
+    "groupid": "org.apache.commons",
+    "version": "3.8.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "j2cache-core",
+    "groupid": "net.oschina.j2cache",
+    "version": "2.7.7-release",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "caffeine",
+      "groupid": "com.github.ben-manes.caffeine",
+      "version": "2.6.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jedis",
+      "groupid": "redis.clients",
+      "version": "2.9.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "fst",
+      "groupid": "de.ruedigermoeller",
+      "version": "2.57",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "fastjson",
+      "groupid": "com.alibaba",
+      "version": "1.2.49",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "jline",
+      "groupid": "jline",
+      "version": "2.14.2",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "qpid-client",
+    "groupid": "org.apache.qpid",
+    "version": "6.3.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "geronimo-jms_1.1_spec",
+    "groupid": "org.apache.geronimo.specs",
+    "version": "1.1.1",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "logback-core",
+    "groupid": "ch.qos.logback",
+    "version": "1.2.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.2.3",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.2.3",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

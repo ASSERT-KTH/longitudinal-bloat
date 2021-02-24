@@ -1,0 +1,887 @@
+[
+ {
+  "artifactid": "vlingo-auth",
+  "groupid": "io.vlingo",
+  "version": "1.3.3",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.11",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.0.13",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.0.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-actors",
+    "groupid": "io.vlingo",
+    "version": "1.3.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "agrona",
+      "groupid": "org.agrona",
+      "version": "1.0.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "pcollections",
+      "groupid": "org.pcollections",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-common",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "gson",
+        "groupid": "com.google.code.gson",
+        "version": "2.8.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "java-uuid-generator",
+        "groupid": "com.fasterxml.uuid",
+        "version": "3.1.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "scrypt",
+        "groupid": "com.lambdaworks",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jbcrypt",
+        "groupid": "org.mindrot",
+        "version": "0.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "argon2-jvm",
+        "groupid": "de.mkammerer",
+        "version": "2.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jna",
+          "groupid": "net.java.dev.jna",
+          "version": "4.5.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-cluster",
+    "groupid": "io.vlingo",
+    "version": "1.3.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-classic",
+      "groupid": "ch.qos.logback",
+      "version": "1.0.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-common",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-actors",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-wire",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "vlingo-actors",
+        "groupid": "io.vlingo",
+        "version": "1.3.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-all",
+        "groupid": "io.netty",
+        "version": "4.1.49.Final",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "rsocket-core",
+        "groupid": "io.rsocket",
+        "version": "1.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-buffer",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-common",
+            "groupid": "io.netty",
+            "version": "4.1.50.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "reactor-core",
+          "groupid": "io.projectreactor",
+          "version": "3.3.6.RELEASE",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "reactive-streams",
+            "groupid": "org.reactivestreams",
+            "version": "1.0.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.25",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "rsocket-transport-netty",
+        "groupid": "io.rsocket",
+        "version": "1.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "rsocket-core",
+          "groupid": "io.rsocket",
+          "version": "1.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "reactor-netty",
+          "groupid": "io.projectreactor.netty",
+          "version": "0.9.8.RELEASE",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "netty-codec-http",
+            "groupid": "io.netty",
+            "version": "4.1.50.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-buffer",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-resolver",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-codec",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-buffer",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-transport",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-handler",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-codec-http2",
+            "groupid": "io.netty",
+            "version": "4.1.50.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-codec",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-handler",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-codec-http",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-handler",
+            "groupid": "io.netty",
+            "version": "4.1.50.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-resolver",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-codec",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-handler-proxy",
+            "groupid": "io.netty",
+            "version": "4.1.50.Final",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-codec",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-codec-socks",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-buffer",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-transport",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-codec",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "netty-codec-http",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "netty-transport-native-epoll",
+            "groupid": "io.netty",
+            "version": "linux-x86_64",
+            "package": "jar",
+            "scope": "4.1.50.Final",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "netty-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-buffer",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "netty-transport-native-unix-common",
+              "groupid": "io.netty",
+              "version": "4.1.50.Final",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "netty-common",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-buffer",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "netty-transport",
+                "groupid": "io.netty",
+                "version": "4.1.50.Final",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "artifactid": "reactor-core",
+            "groupid": "io.projectreactor",
+            "version": "3.3.6.RELEASE",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "reactor-extra",
+        "groupid": "io.projectreactor.addons",
+        "version": "3.3.2.RELEASE",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "reactor-core",
+          "groupid": "io.projectreactor",
+          "version": "3.3.2.RELEASE",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "vlingo-http",
+    "groupid": "io.vlingo",
+    "version": "1.3.3",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "vlingo-common",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-actors",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "vlingo-wire",
+      "groupid": "io.vlingo",
+      "version": "1.3.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

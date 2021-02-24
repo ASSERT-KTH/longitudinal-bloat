@@ -1,0 +1,1734 @@
+[
+ {
+  "artifactid": "zalenium",
+  "groupid": "de.zalando.tip",
+  "version": "0.4.0",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "selenium-server",
+    "groupid": "org.seleniumhq.selenium",
+    "version": "2.53.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.48",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "bcprov-jdk15on",
+      "groupid": "org.bouncycastle",
+      "version": "1.48",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "bcpkix-jdk15on",
+      "groupid": "org.bouncycastle",
+      "version": "1.48",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "bcprov-jdk15on",
+        "groupid": "org.bouncycastle",
+        "version": "1.48",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "mx4j-tools",
+      "groupid": "mx4j",
+      "version": "3.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jetty-repacked",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "9.2.13.v20150730",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "javax.servlet-api",
+      "groupid": "javax.servlet",
+      "version": "3.1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jetty-rc-repacked",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jcip-annotations",
+      "groupid": "net.jcip",
+      "version": "1.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "selenium-java",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "2.53.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-chrome-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "cglib-nodep",
+            "groupid": "cglib",
+            "version": "3.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "gson",
+            "groupid": "com.google.code.gson",
+            "version": "2.3.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "selenium-api",
+            "groupid": "org.seleniumhq.selenium",
+            "version": "2.53.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "guava",
+              "groupid": "com.google.guava",
+              "version": "19.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "gson",
+              "groupid": "com.google.code.gson",
+              "version": "2.3.1",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "httpclient",
+            "groupid": "org.apache.httpcomponents",
+            "version": "4.5.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "guava",
+            "groupid": "com.google.guava",
+            "version": "19.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "commons-exec",
+            "groupid": "org.apache.commons",
+            "version": "1.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jna",
+            "groupid": "net.java.dev.jna",
+            "version": "4.1.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jna-platform",
+            "groupid": "net.java.dev.jna",
+            "version": "4.1.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-edge-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-io",
+          "groupid": "commons-io",
+          "version": "2.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-exec",
+          "groupid": "org.apache.commons",
+          "version": "1.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "htmlunit-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.21",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "htmlunit",
+          "groupid": "net.sourceforge.htmlunit",
+          "version": "2.21",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "xalan",
+            "groupid": "xalan",
+            "version": "2.7.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "serializer",
+              "groupid": "xalan",
+              "version": "2.7.2",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "commons-lang3",
+            "groupid": "org.apache.commons",
+            "version": "3.4",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "httpclient",
+            "groupid": "org.apache.httpcomponents",
+            "version": "4.5.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "httpmime",
+            "groupid": "org.apache.httpcomponents",
+            "version": "4.5.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "httpclient",
+              "groupid": "org.apache.httpcomponents",
+              "version": "4.5.2",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "commons-codec",
+            "groupid": "commons-codec",
+            "version": "1.10",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "htmlunit-core-js",
+            "groupid": "net.sourceforge.htmlunit",
+            "version": "2.17",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "neko-htmlunit",
+            "groupid": "net.sourceforge.htmlunit",
+            "version": "2.21",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "xercesImpl",
+              "groupid": "xerces",
+              "version": "2.11.0",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "xml-apis",
+                "groupid": "xml-apis",
+                "version": "1.4.01",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": false,
+                "omitted_reason": null,
+                "child": []
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "artifactid": "cssparser",
+            "groupid": "net.sourceforge.cssparser",
+            "version": "0.9.18",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "sac",
+              "groupid": "org.w3c.css",
+              "version": "1.3",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "commons-io",
+            "groupid": "commons-io",
+            "version": "2.4",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "commons-logging",
+            "groupid": "commons-logging",
+            "version": "1.2",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "websocket-client",
+            "groupid": "org.eclipse.jetty.websocket",
+            "version": "9.2.15.v20160210",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "jetty-util",
+              "groupid": "org.eclipse.jetty",
+              "version": "9.2.15.v20160210",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             },
+             {
+              "artifactid": "jetty-io",
+              "groupid": "org.eclipse.jetty",
+              "version": "9.2.15.v20160210",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "jetty-util",
+                "groupid": "org.eclipse.jetty",
+                "version": "9.2.15.v20160210",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "websocket-common",
+              "groupid": "org.eclipse.jetty.websocket",
+              "version": "9.2.15.v20160210",
+              "package": "jar",
+              "scope": "compile",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "websocket-api",
+                "groupid": "org.eclipse.jetty.websocket",
+                "version": "9.2.15.v20160210",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": false,
+                "omitted_reason": null,
+                "child": []
+               },
+               {
+                "artifactid": "jetty-util",
+                "groupid": "org.eclipse.jetty",
+                "version": "9.2.15.v20160210",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               },
+               {
+                "artifactid": "jetty-io",
+                "groupid": "org.eclipse.jetty",
+                "version": "9.2.15.v20160210",
+                "package": "jar",
+                "scope": "compile",
+                "omitted": true,
+                "omitted_reason": "duplicated",
+                "child": []
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "commons-collections",
+          "groupid": "commons-collections",
+          "version": "3.2.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-firefox-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-io",
+          "groupid": "commons-io",
+          "version": "2.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-exec",
+          "groupid": "org.apache.commons",
+          "version": "1.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-ie-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jna",
+          "groupid": "net.java.dev.jna",
+          "version": "4.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jna-platform",
+          "groupid": "net.java.dev.jna",
+          "version": "4.1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jna",
+            "groupid": "net.java.dev.jna",
+            "version": "4.1.0",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-safari-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty",
+          "groupid": "io.netty",
+          "version": "3.5.7.Final",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-support",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "selenium-leg-rc",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "2.53.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "selenium-remote-driver",
+          "groupid": "org.seleniumhq.selenium",
+          "version": "2.53.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "snakeyaml",
+      "groupid": "org.yaml",
+      "version": "1.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "docker-client",
+    "groupid": "com.spotify",
+    "version": "6.0.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "18.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jackson-jaxrs-json-provider",
+      "groupid": "com.fasterxml.jackson.jaxrs",
+      "version": "2.6.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-jaxrs-base",
+        "groupid": "com.fasterxml.jackson.jaxrs",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.6.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jackson-databind",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.6.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-module-jaxb-annotations",
+        "groupid": "com.fasterxml.jackson.module",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.6.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jackson-databind",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.6.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-datatype-guava",
+      "groupid": "com.fasterxml.jackson.datatype",
+      "version": "2.6.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "15.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jackson-databind",
+      "groupid": "com.fasterxml.jackson.core",
+      "version": "2.6.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.6.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jersey-client",
+      "groupid": "org.glassfish.jersey.core",
+      "version": "2.19",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.ws.rs-api",
+        "groupid": "javax.ws.rs",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jersey-common",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.19",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "javax.ws.rs-api",
+          "groupid": "javax.ws.rs",
+          "version": "2.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javax.annotation-api",
+          "groupid": "javax.annotation",
+          "version": "1.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jersey-guava",
+          "groupid": "org.glassfish.jersey.bundles.repackaged",
+          "version": "2.19",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "hk2-api",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javax.inject",
+          "groupid": "org.glassfish.hk2.external",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-locator",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "osgi-resource-locator",
+          "groupid": "org.glassfish.hk2",
+          "version": "1.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "hk2-api",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.4.0-b25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "hk2-utils",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "aopalliance-repackaged",
+          "groupid": "org.glassfish.hk2.external",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "javax.inject",
+        "groupid": "org.glassfish.hk2.external",
+        "version": "2.4.0-b25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "hk2-locator",
+        "groupid": "org.glassfish.hk2",
+        "version": "2.4.0-b25",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "javax.inject",
+          "groupid": "org.glassfish.hk2.external",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "aopalliance-repackaged",
+          "groupid": "org.glassfish.hk2.external",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-api",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "hk2-utils",
+          "groupid": "org.glassfish.hk2",
+          "version": "2.4.0-b25",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javassist",
+          "groupid": "org.javassist",
+          "version": "3.18.1-GA",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "jersey-apache-connector",
+      "groupid": "org.glassfish.jersey.connectors",
+      "version": "2.19",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jersey-common",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.19",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jersey-client",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.19",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "javax.ws.rs-api",
+        "groupid": "javax.ws.rs",
+        "version": "2.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "jersey-media-json-jackson",
+      "groupid": "org.glassfish.jersey.media",
+      "version": "2.19",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jersey-common",
+        "groupid": "org.glassfish.jersey.core",
+        "version": "2.19",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jersey-entity-filtering",
+        "groupid": "org.glassfish.jersey.ext",
+        "version": "2.19",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "javax.ws.rs-api",
+          "groupid": "javax.ws.rs",
+          "version": "2.0.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-jaxrs-base",
+        "groupid": "com.fasterxml.jackson.jaxrs",
+        "version": "2.5.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-jaxrs-json-provider",
+        "groupid": "com.fasterxml.jackson.jaxrs",
+        "version": "2.5.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.5.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-compress",
+      "groupid": "org.apache.commons",
+      "version": "1.9",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "httpclient",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.4.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "httpcore",
+      "groupid": "org.apache.httpcomponents",
+      "version": "4.4.5",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jnr-unixsocket",
+      "groupid": "com.github.jnr",
+      "version": "0.8",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jnr-ffi",
+        "groupid": "com.github.jnr",
+        "version": "2.0.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jffi",
+          "groupid": "com.github.jnr",
+          "version": "1.2.9",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jffi",
+          "groupid": "com.github.jnr",
+          "version": "native",
+          "package": "jar",
+          "scope": "1.2.9",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "asm",
+          "groupid": "org.ow2.asm",
+          "version": "5.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "asm-commons",
+          "groupid": "org.ow2.asm",
+          "version": "5.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "asm-tree",
+            "groupid": "org.ow2.asm",
+            "version": "5.0.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "asm-analysis",
+          "groupid": "org.ow2.asm",
+          "version": "5.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "asm-tree",
+            "groupid": "org.ow2.asm",
+            "version": "5.0.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "asm-tree",
+          "groupid": "org.ow2.asm",
+          "version": "5.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "asm",
+            "groupid": "org.ow2.asm",
+            "version": "5.0.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "asm-util",
+          "groupid": "org.ow2.asm",
+          "version": "5.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "asm-tree",
+            "groupid": "org.ow2.asm",
+            "version": "5.0.3",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "jnr-x86asm",
+          "groupid": "com.github.jnr",
+          "version": "1.0.2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jnr-constants",
+        "groupid": "com.github.jnr",
+        "version": "0.8.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jnr-enxio",
+        "groupid": "com.github.jnr",
+        "version": "0.9",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jnr-constants",
+          "groupid": "com.github.jnr",
+          "version": "0.8.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jnr-ffi",
+          "groupid": "com.github.jnr",
+          "version": "2.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jnr-posix",
+        "groupid": "com.github.jnr",
+        "version": "3.0.12",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jnr-ffi",
+          "groupid": "com.github.jnr",
+          "version": "2.0.3",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jnr-constants",
+          "groupid": "com.github.jnr",
+          "version": "0.8.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-lang",
+      "groupid": "commons-lang",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "bcpkix-jdk15on",
+      "groupid": "org.bouncycastle",
+      "version": "1.52",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "1.10.19",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "slf4j-log4j12",
+    "groupid": "org.slf4j",
+    "version": "1.7.12",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.12",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "log4j",
+      "groupid": "log4j",
+      "version": "1.2.17",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "testng",
+    "groupid": "org.testng",
+    "version": "6.9.10",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.48",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "bsh",
+      "groupid": "org.beanshell",
+      "version": "2.0b4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "awaitility",
+    "groupid": "org.awaitility",
+    "version": "2.0.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-library",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "hamcrest-core",
+        "groupid": "org.hamcrest",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "cglib-nodep",
+      "groupid": "cglib",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]
