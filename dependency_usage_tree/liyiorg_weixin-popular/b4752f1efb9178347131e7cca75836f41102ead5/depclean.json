@@ -1,0 +1,4083 @@
+{
+ "usage": {
+  "weixin.popular.example.ReceiveServlet2": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.ServletException",
+    "javax.servlet.ServletInputStream",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletOutputStream",
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.http.HttpServletResponse"
+   ]
+  },
+  "weixin.popular.example.PayNotifyServlet": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.ServletException",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletOutputStream",
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.http.HttpServletResponse"
+   ]
+  },
+  "weixin.popular.example.PayMchJsServlet": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.ServletException",
+    "javax.servlet.RequestDispatcher",
+    "javax.servlet.http.HttpServletResponse",
+    "javax.servlet.http.HttpServletRequest"
+   ]
+  },
+  "weixin.popular.example.TicketManagerListener": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.ServletContextEvent",
+    "javax.servlet.ServletContextListener"
+   ]
+  },
+  "weixin.popular.example.TokenManagerListener": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.ServletContextEvent",
+    "javax.servlet.ServletContextListener"
+   ]
+  },
+  "weixin.popular.example.PayMchNotifyServlet": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.ServletException",
+    "javax.servlet.http.HttpServletResponse",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletOutputStream"
+   ]
+  },
+  "weixin.popular.example.ReceiveServlet": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.ServletException",
+    "javax.servlet.ServletInputStream",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.ServletOutputStream",
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.http.HttpServletResponse"
+   ]
+  },
+  "weixin.popular.example.PayJsServlet": {
+   "javax.servlet:servlet-api:jar:2.5:provided": [
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.ServletException",
+    "javax.servlet.RequestDispatcher",
+    "javax.servlet.http.HttpServletResponse",
+    "javax.servlet.http.HttpServletRequest"
+   ]
+  },
+  "weixin.popular.support.expirekey.JedisExpireKey": {
+   "redis.clients:jedis:jar:2.7.3:provided": [
+    "redis.clients.jedis.Jedis",
+    "redis.clients.jedis.JedisPool"
+   ]
+  },
+  "weixin.popular.bean.card.landingpage.create.LandingPageCreate": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.AbstractStatisticsResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.lottery.querylottery.LotteryQueryLotteryResultResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.Photo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.device.StatisticsDevice": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.get.CodeGet": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.ActionInfoMultipleCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.batchget.BatchGetResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.adddevice.DeviceGroupAddDevice": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.update.AbstractUpdate": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.account.register.AccountRegister": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AdvancedInfoUseCondition": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.landingpage.create.LandingPageCreateResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.deposit.CodeDeposit": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AbstractCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.page.PageInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.getdetail.DeviceGroupGetDetailResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.page.StatisticsPage": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.lottery.setprizebucket.LotterySetPrizeBucket": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.relation.search.RelationSearchResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.applyid.DeviceApplyId": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.GeneralCoupon": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.getdepositcount.CodeGetDepositCount": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.datacube.getcardbizuininfo.BizuinInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.delete.Delete": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.mpnews.gethtml.MpNewsGetHtml": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.datacube.getcardmembercardinfo.MemberCardInfoResultInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.BaseInfoResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.page.search.PageSearchResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.datacube.getcardbizuininfo.BizuinInfoResultInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.bindpage.DeviceBindPage": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.modifystock.ModifyStock": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.bindlocation.DeviceBindLocation": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.BusinessResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.page.search.PageSearch": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.paycell.set.PaySellSet": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.lottery.setprizebucket.LotterySetPrizeBucketResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.QrCodeCreateResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.batchget.BatchGet": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.PoiListResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.datacube.getcardcardinfo.CardInfoResultInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.consume.CodeConsume": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.pagelist.StatisticsPageListResultDataPage": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.paymch.MchPayApp": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.Business": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.search.DeviceSearchResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.ActionInfoCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.checkcode.CodeCheckCodeResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.BaseInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.paymch.DetailXmlAdapter": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.JSON"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.search.DeviceSearch": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.page.delete.PageDelete": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.GroupInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.applystatus.DeviceApplyStatusResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.user.getshakeinfo.UserGetShakeInfoResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.Groupon": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.get.CodeGetResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.relation.search.RelationSearch": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.update.UpdateGeneralCoupon": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.example.ResultErrorHandlerExample": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.JSON"
+   ]
+  },
+  "weixin.popular.bean.card.AdvancedInfoTimeLimit": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.datacube.getcardcardinfo.CardInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.search.DeviceSearchResultDataDevice": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.lottery.addlotteryinfo.LotteryAddLotteryInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.landingpage.create.LandingPageCreateCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.unavailable.CodeUnavailable": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.QrCodeCreateMultiple": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.delete.DeviceGroupDelete": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.update.DeviceUpdate": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.getdetail.DeviceGroupGetDetail": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.poi.CategoryListResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.user.getcardlist.UserGetCardList": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.update.CodeUpdate": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.consume.CodeConsumeResultCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.lottery.addlotteryinfo.LotteryAddLotteryInfoResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.Cash": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.user.getshakeinfo.UserGetShakeInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.page.add.PageAddResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.ActionInfoMultiple": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AbstractInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.AbstractStatistics": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.deposit.CodeDepositResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.user.getcardlist.UserGetCardListResultCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AdvancedInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AdvancedInfoTextImage": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.AdvancedInfoAbstract": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.applyid.DeviceApplyIdResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.ActionInfoMultipleCardItem": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.qrcode.create.QrCodeCreate": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.getdetail.DeviceGroupGetDetailResultDataDevice": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.applystatus.DeviceApplyStatus": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.AbstractStatisticsList": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.DeviceIdentifier": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.BaseInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.decrypt.CodeDecrypt": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.devicelist.StatisticsDeviceListResultDataDevice": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.user.getcardlist.UserGetCardListResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.code.get.CodeGetResultCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.material.add.MaterialAddResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.pay.PayJsRequest": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.update.UpdateResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.relation.search.RelationSearchResultDataRelation": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.GeneralCouponCard": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.add.DeviceGroupAdd": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.BaseInfoDateInfo": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.card.create.CreateResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.account.auditstatus.AccountAuditStatusResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.device.group.getlist.DeviceGroupGetListResultData": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.bean.shakearound.statistics.AbstractStatisticsListResult": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.annotation.JSONField"
+   ]
+  },
+  "weixin.popular.util.JsonUtil": {
+   "com.alibaba:fastjson:jar:1.2.7:compile": [
+    "com.alibaba.fastjson.JSON"
+   ]
+  },
+  "weixin.popular.api.CardAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.CallbackipAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.RequestBuilder",
+    "org.apache.http.client.methods.HttpUriRequest"
+   ]
+  },
+  "weixin.popular.api.MenuAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.PayMchAPI$1": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpResponse"
+   ]
+  },
+  "weixin.popular.api.PayMchAPI$2": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpResponse"
+   ]
+  },
+  "weixin.popular.api.DataCubeAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.client.XmlResponseHandler": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.client.XmlResponseHandler$XmlResponseHandlerImpl": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.Header",
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpEntity",
+    "org.apache.http.HttpResponse"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.client.JsonResponseHandler": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.client.BytesOrJsonResponseHandler": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.client.HttpClientFactory": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.impl.client.CloseableHttpClient",
+    "org.apache.http.conn.ssl.SSLContexts",
+    "org.apache.http.conn.ssl.SSLContextBuilder",
+    "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+    "org.apache.http.impl.client.HttpClientBuilder",
+    "org.apache.http.conn.ssl.SSLConnectionSocketFactory"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.config.SocketConfig",
+    "org.apache.http.config.SocketConfig$Builder"
+   ]
+  },
+  "weixin.popular.api.MaterialAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpPost",
+    "org.apache.http.impl.client.HttpClients",
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.CloseableHttpResponse",
+    "org.apache.http.client.methods.RequestBuilder",
+    "org.apache.http.impl.client.CloseableHttpClient"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.ContentType",
+    "org.apache.http.entity.StringEntity",
+    "org.apache.http.ParseException"
+   ],
+   "org.apache.httpcomponents:httpmime:jar:4.3.6:compile": [
+    "org.apache.http.entity.mime.MultipartEntityBuilder",
+    "org.apache.http.entity.mime.content.FileBody"
+   ]
+  },
+  "weixin.popular.client.BytesOrJsonResponseHandler$BytesOrJsonResponseHandlerImpl": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.Header",
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.entity.ContentType",
+    "org.apache.http.HttpEntity",
+    "org.apache.http.HttpResponse"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.api.CustomserviceAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpPost",
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.StringEntity"
+   ],
+   "org.apache.httpcomponents:httpmime:jar:4.3.6:compile": [
+    "org.apache.http.entity.mime.content.FileBody",
+    "org.apache.http.entity.mime.MultipartEntityBuilder"
+   ]
+  },
+  "weixin.popular.client.HttpClientFactory$HttpRequestRetryHandlerImpl": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.protocol.HttpClientContext",
+    "org.apache.http.conn.ConnectTimeoutException",
+    "org.apache.http.client.HttpRequestRetryHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntityEnclosingRequest",
+    "org.apache.http.HttpRequest",
+    "org.apache.http.protocol.HttpContext"
+   ]
+  },
+  "weixin.popular.api.PoiAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.ClearQuotaAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.PayAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.client.LocalHttpClient": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+    "org.apache.http.client.protocol.HttpClientContext",
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.CloseableHttpResponse",
+    "org.apache.http.impl.client.CloseableHttpClient",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.ContentType"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.LoggerFactory",
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.api.QrcodeAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.CloseableHttpResponse",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.SnsAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ]
+  },
+  "weixin.popular.api.ShorturlAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.ShakeAroundAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpPost",
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.StringEntity"
+   ],
+   "org.apache.httpcomponents:httpmime:jar:4.3.6:compile": [
+    "org.apache.http.entity.mime.content.FileBody",
+    "org.apache.http.entity.mime.MultipartEntityBuilder"
+   ]
+  },
+  "weixin.popular.api.TicketAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.RequestBuilder",
+    "org.apache.http.client.methods.HttpUriRequest"
+   ]
+  },
+  "weixin.popular.api.TokenAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.RequestBuilder",
+    "org.apache.http.client.methods.HttpUriRequest"
+   ]
+  },
+  "weixin.popular.api.UserAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.MediaAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.methods.HttpPost",
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.CloseableHttpResponse",
+    "org.apache.http.client.methods.RequestBuilder",
+    "org.apache.http.impl.client.CloseableHttpClient",
+    "org.apache.http.impl.client.HttpClients"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.ParseException",
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.ContentType"
+   ],
+   "org.apache.httpcomponents:httpmime:jar:4.3.6:compile": [
+    "org.apache.http.entity.mime.content.FileBody",
+    "org.apache.http.entity.mime.MultipartEntityBuilder"
+   ]
+  },
+  "weixin.popular.api.MessageAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.client.ResultErrorHandler": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+    "org.apache.http.client.methods.HttpUriRequest"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.entity.ContentType",
+    "org.apache.http.util.EntityUtils"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.api.PayMchAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.client.JsonResponseHandler$JsonResponseHandlerImpl": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.ClientProtocolException",
+    "org.apache.http.client.ResponseHandler"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.HttpEntity",
+    "org.apache.http.StatusLine",
+    "org.apache.http.util.EntityUtils",
+    "org.apache.http.HttpResponse"
+   ],
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.api.ComponentAPI": {
+   "org.apache.httpcomponents:httpclient:jar:4.3.6:compile": [
+    "org.apache.http.client.methods.HttpUriRequest",
+    "org.apache.http.client.methods.RequestBuilder"
+   ],
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.StringEntity"
+   ]
+  },
+  "weixin.popular.api.BaseAPI": {
+   "org.apache.httpcomponents:httpcore:jar:4.3.3:compile": [
+    "org.apache.http.entity.ContentType",
+    "org.apache.http.Header",
+    "org.apache.http.message.BasicHeader",
+    "org.apache.http.HttpHeaders"
+   ]
+  },
+  "weixin.popular.util.SignatureUtil": {
+   "commons-codec:commons-codec:jar:1.6:compile": [
+    "org.apache.commons.codec.binary.Hex",
+    "org.apache.commons.codec.digest.DigestUtils"
+   ]
+  },
+  "com.qq.weixin.mp.aes.WXBizMsgCrypt": {
+   "commons-codec:commons-codec:jar:1.6:compile": [
+    "org.apache.commons.codec.binary.Base64"
+   ]
+  },
+  "weixin.popular.util.XMLConverUtil$3": {
+   "com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile": [
+    "com.sun.xml.bind.marshaller.CharacterEscapeHandler"
+   ]
+  },
+  "weixin.popular.util.XMLConverUtil": {
+   "com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile": [
+    "com.sun.xml.bind.marshaller.CharacterEscapeHandler"
+   ]
+  },
+  "weixin.popular.bean.paymch.SecapiPayRefundResult": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.support.TokenManager$2": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.support.TokenManager": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.support.TicketManager": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.support.expirekey.DefaultExpireKey": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger",
+    "org.slf4j.LoggerFactory"
+   ]
+  },
+  "weixin.popular.support.TicketManager$2": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.support.expirekey.DefaultExpireKey$2": {
+   "org.slf4j:slf4j-api:jar:1.7.19:compile": [
+    "org.slf4j.Logger"
+   ]
+  },
+  "weixin.popular.util.EmojiUtil": {
+   "com.vdurmont:emoji-java:jar:3.1.3:compile": [
+    "com.vdurmont.emoji.EmojiParser"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.github.liyiorg:weixin-popular:jar:2.8.6:null",
+  "coordinates": "com.github.liyiorg:weixin-popular:2.8.6",
+  "groupId": "com.github.liyiorg",
+  "artifactId": "weixin-popular",
+  "version": "2.8.6",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "javax.servlet:servlet-api:jar:2.5:provided",
+    "coordinates": "javax.servlet:servlet-api:2.5",
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "2.5",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 105112,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "javax.servlet.ServletRequestListener",
+     "javax.servlet.FilterChain",
+     "javax.servlet.ServletException",
+     "javax.servlet.ServletInputStream",
+     "javax.servlet.http.HttpServletRequestWrapper",
+     "javax.servlet.http.HttpSessionActivationListener",
+     "javax.servlet.http.HttpSessionAttributeListener",
+     "javax.servlet.http.HttpServletRequest",
+     "javax.servlet.http.HttpSessionBindingEvent",
+     "javax.servlet.ServletContextAttributeListener",
+     "javax.servlet.ServletOutputStream",
+     "javax.servlet.http.HttpSessionEvent",
+     "javax.servlet.Filter",
+     "javax.servlet.http.NoBodyOutputStream",
+     "javax.servlet.http.Cookie",
+     "javax.servlet.ServletContextListener",
+     "javax.servlet.http.HttpSession",
+     "javax.servlet.http.NoBodyResponse",
+     "javax.servlet.ServletRequest",
+     "javax.servlet.ServletConfig",
+     "javax.servlet.http.HttpServlet",
+     "javax.servlet.http.HttpSessionListener",
+     "javax.servlet.RequestDispatcher",
+     "javax.servlet.Servlet",
+     "javax.servlet.ServletRequestAttributeEvent",
+     "javax.servlet.http.HttpServletResponse",
+     "javax.servlet.ServletRequestAttributeListener",
+     "javax.servlet.SingleThreadModel",
+     "javax.servlet.ServletContextEvent",
+     "javax.servlet.ServletResponseWrapper",
+     "javax.servlet.UnavailableException",
+     "javax.servlet.ServletResponse",
+     "javax.servlet.FilterConfig",
+     "javax.servlet.GenericServlet",
+     "javax.servlet.http.HttpServletResponseWrapper",
+     "javax.servlet.http.HttpUtils",
+     "javax.servlet.ServletRequestEvent",
+     "javax.servlet.ServletContext",
+     "javax.servlet.ServletContextAttributeEvent",
+     "javax.servlet.http.HttpSessionBindingListener",
+     "javax.servlet.http.HttpSessionContext",
+     "javax.servlet.ServletRequestWrapper"
+    ],
+    "usedTypes": [
+     "javax.servlet.http.HttpServletRequest",
+     "javax.servlet.ServletContextEvent",
+     "javax.servlet.http.HttpServlet",
+     "javax.servlet.ServletException",
+     "javax.servlet.ServletOutputStream",
+     "javax.servlet.RequestDispatcher",
+     "javax.servlet.ServletInputStream",
+     "javax.servlet.http.HttpServletResponse",
+     "javax.servlet.ServletContextListener"
+    ],
+    "usageRatio": 0.21428571428571427,
+    "children": []
+   },
+   {
+    "id": "redis.clients:jedis:jar:2.7.3:provided",
+    "coordinates": "redis.clients:jedis:2.7.3",
+    "groupId": "redis.clients",
+    "artifactId": "jedis",
+    "version": "2.7.3",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 325567,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "redis.clients.util.RedisInputStream",
+     "redis.clients.jedis.Client",
+     "redis.clients.jedis.BinaryClient",
+     "redis.clients.jedis.JedisSentinelPool$MasterListener",
+     "redis.clients.jedis.RedisPipeline",
+     "redis.clients.jedis.JedisCluster$77",
+     "redis.clients.jedis.JedisCluster$76",
+     "redis.clients.jedis.JedisCluster$79",
+     "redis.clients.jedis.JedisCluster$78",
+     "redis.clients.jedis.JedisCluster$73",
+     "redis.clients.util.SafeEncoder",
+     "redis.clients.jedis.JedisCluster$72",
+     "redis.clients.jedis.JedisCluster$75",
+     "redis.clients.jedis.JedisCluster$74",
+     "redis.clients.jedis.JedisCluster$71",
+     "redis.clients.jedis.JedisCluster$70",
+     "redis.clients.util.JedisClusterCRC16",
+     "redis.clients.jedis.Protocol$Keyword",
+     "redis.clients.jedis.JedisCluster$69",
+     "redis.clients.jedis.JedisCluster$66",
+     "redis.clients.jedis.exceptions.InvalidURIException",
+     "redis.clients.jedis.JedisCluster$65",
+     "redis.clients.jedis.JedisCluster$68",
+     "redis.clients.jedis.JedisCluster$67",
+     "redis.clients.jedis.BuilderFactory$11",
+     "redis.clients.jedis.ClusterCommands",
+     "redis.clients.jedis.JedisCluster$62",
+     "redis.clients.jedis.JedisCluster$Reset",
+     "redis.clients.jedis.BuilderFactory$10",
+     "redis.clients.jedis.JedisCluster$61",
+     "redis.clients.jedis.BuilderFactory$13",
+     "redis.clients.jedis.JedisCluster$64",
+     "redis.clients.jedis.BuilderFactory$12",
+     "redis.clients.jedis.JedisCluster$63",
+     "redis.clients.jedis.BuilderFactory$15",
+     "redis.clients.jedis.BuilderFactory$14",
+     "redis.clients.jedis.JedisCluster$60",
+     "redis.clients.jedis.exceptions.JedisClusterMaxRedirectionsException",
+     "redis.clients.jedis.JedisCluster$59",
+     "redis.clients.jedis.BinaryClient$1",
+     "redis.clients.jedis.JedisCluster$58",
+     "redis.clients.jedis.JedisCluster$55",
+     "redis.clients.jedis.JedisCluster$54",
+     "redis.clients.jedis.ShardedJedisPipeline$FutureResult",
+     "redis.clients.jedis.JedisCluster$57",
+     "redis.clients.jedis.JedisCluster$56",
+     "redis.clients.jedis.JedisCluster$51",
+     "redis.clients.jedis.JedisCluster$50",
+     "redis.clients.jedis.JedisCluster$53",
+     "redis.clients.jedis.JedisCluster$52",
+     "redis.clients.jedis.Protocol$Command",
+     "redis.clients.jedis.Builder",
+     "redis.clients.jedis.Connection",
+     "redis.clients.jedis.exceptions.JedisMovedDataException",
+     "redis.clients.jedis.BuilderFactory",
+     "redis.clients.jedis.JedisCluster$48",
+     "redis.clients.jedis.JedisCluster$47",
+     "redis.clients.jedis.JedisCluster$49",
+     "redis.clients.jedis.JedisCluster$44",
+     "redis.clients.jedis.JedisCluster$43",
+     "redis.clients.util.Sharded",
+     "redis.clients.jedis.HostAndPort",
+     "redis.clients.jedis.JedisCluster$46",
+     "redis.clients.jedis.JedisCluster$45",
+     "redis.clients.util.IOUtils",
+     "redis.clients.jedis.JedisCluster$40",
+     "redis.clients.jedis.JedisCluster$42",
+     "redis.clients.jedis.JedisCluster$41",
+     "redis.clients.jedis.TransactionBlock",
+     "redis.clients.util.Hashing$1",
+     "redis.clients.jedis.JedisCluster$119",
+     "redis.clients.util.ClusterNodeInformation",
+     "redis.clients.jedis.exceptions.JedisRedirectionException",
+     "redis.clients.jedis.BitPosParams",
+     "redis.clients.jedis.ZParams$Aggregate",
+     "redis.clients.jedis.JedisCluster$110",
+     "redis.clients.util.JedisURIHelper",
+     "redis.clients.jedis.JedisCluster$116",
+     "redis.clients.jedis.JedisCluster$115",
+     "redis.clients.jedis.JedisCluster$118",
+     "redis.clients.jedis.ClusterPipeline",
+     "redis.clients.jedis.JedisCluster$117",
+     "redis.clients.jedis.exceptions.JedisConnectionException",
+     "redis.clients.jedis.JedisCluster$112",
+     "redis.clients.jedis.JedisCluster$111",
+     "redis.clients.jedis.JedisCluster$114",
+     "redis.clients.jedis.JedisCluster$113",
+     "redis.clients.jedis.BitOP",
+     "redis.clients.jedis.JedisCluster$109",
+     "redis.clients.jedis.JedisCluster$108",
+     "redis.clients.jedis.SortingParams",
+     "redis.clients.jedis.JedisSentinelPool$MasterListener$1",
+     "redis.clients.jedis.AdvancedJedisCommands",
+     "redis.clients.jedis.JedisCluster$105",
+     "redis.clients.jedis.JedisCluster$104",
+     "redis.clients.jedis.JedisCluster$107",
+     "redis.clients.jedis.JedisCluster$106",
+     "redis.clients.jedis.JedisCluster$101",
+     "redis.clients.jedis.JedisCluster$100",
+     "redis.clients.jedis.JedisCluster$103",
+     "redis.clients.jedis.JedisCluster$102",
+     "redis.clients.jedis.BinaryJedis$SetFromList",
+     "redis.clients.jedis.exceptions.JedisAskDataException",
+     "redis.clients.jedis.DebugParams",
+     "redis.clients.jedis.JedisCluster$130",
+     "redis.clients.jedis.JedisCluster$132",
+     "redis.clients.jedis.JedisClusterInfoCache",
+     "redis.clients.jedis.JedisCluster$131",
+     "redis.clients.jedis.Pipeline",
+     "redis.clients.jedis.JedisCluster$99",
+     "redis.clients.jedis.JedisCluster$98",
+     "redis.clients.jedis.JedisCluster$138",
+     "redis.clients.jedis.JedisCluster$95",
+     "redis.clients.jedis.JedisCluster$137",
+     "redis.clients.jedis.JedisCluster$94",
+     "redis.clients.jedis.JedisCluster$97",
+     "redis.clients.jedis.JedisCluster$96",
+     "redis.clients.jedis.JedisCluster$134",
+     "redis.clients.jedis.JedisCluster$91",
+     "redis.clients.jedis.JedisCluster$133",
+     "redis.clients.jedis.JedisCluster$90",
+     "redis.clients.jedis.JedisCluster$136",
+     "redis.clients.jedis.JedisCluster$93",
+     "redis.clients.jedis.JedisCluster$135",
+     "redis.clients.jedis.JedisCluster$92",
+     "redis.clients.jedis.BinaryJedisPubSub",
+     "redis.clients.jedis.JedisSentinelPool",
+     "redis.clients.jedis.JedisCluster$121",
+     "redis.clients.jedis.JedisCluster$120",
+     "redis.clients.jedis.Commands",
+     "redis.clients.jedis.JedisCluster$88",
+     "redis.clients.jedis.JedisCluster$87",
+     "redis.clients.jedis.SentinelCommands",
+     "redis.clients.jedis.JedisCluster$89",
+     "redis.clients.jedis.JedisCluster$127",
+     "redis.clients.jedis.JedisCluster$84",
+     "redis.clients.jedis.JedisCluster$126",
+     "redis.clients.jedis.JedisCluster$83",
+     "redis.clients.jedis.MultiKeyCommandsPipeline",
+     "redis.clients.jedis.JedisCluster$129",
+     "redis.clients.jedis.JedisCluster$86",
+     "redis.clients.jedis.JedisCluster$128",
+     "redis.clients.jedis.JedisCluster$85",
+     "redis.clients.jedis.JedisCluster$123",
+     "redis.clients.jedis.JedisCluster$80",
+     "redis.clients.jedis.JedisCluster$122",
+     "redis.clients.jedis.JedisCluster$125",
+     "redis.clients.jedis.JedisCluster$82",
+     "redis.clients.jedis.ScriptingCommands",
+     "redis.clients.jedis.JedisCluster$124",
+     "redis.clients.jedis.JedisCluster$81",
+     "redis.clients.util.MurmurHash",
+     "redis.clients.jedis.BasicRedisPipeline",
+     "redis.clients.util.JedisByteHashMap$JedisByteEntry",
+     "redis.clients.util.JedisByteHashMap$ByteArrayWrapper",
+     "redis.clients.jedis.BinaryRedisPipeline",
+     "redis.clients.jedis.exceptions.JedisClusterException",
+     "redis.clients.jedis.Queable",
+     "redis.clients.jedis.BasicCommands",
+     "redis.clients.jedis.JedisFactory",
+     "redis.clients.util.Slowlog",
+     "redis.clients.jedis.ScanResult",
+     "redis.clients.util.ShardInfo",
+     "redis.clients.util.JedisByteHashMap",
+     "redis.clients.jedis.ShardedJedisPool",
+     "redis.clients.jedis.JedisClusterCommand",
+     "redis.clients.jedis.JedisCluster",
+     "redis.clients.util.ClusterNodeInformationParser",
+     "redis.clients.jedis.Tuple",
+     "redis.clients.jedis.exceptions.JedisException",
+     "redis.clients.jedis.BinaryJedis",
+     "redis.clients.jedis.Pipeline$1",
+     "redis.clients.util.Pool",
+     "redis.clients.jedis.ZParams",
+     "redis.clients.jedis.ShardedJedisPool$ShardedJedisFactory",
+     "redis.clients.jedis.Jedis",
+     "redis.clients.jedis.JedisShardInfo",
+     "redis.clients.jedis.Transaction",
+     "redis.clients.jedis.JedisPoolConfig",
+     "redis.clients.jedis.Pipeline$MultiResponseBuilder",
+     "redis.clients.jedis.PipelineBlock",
+     "redis.clients.jedis.JedisCluster$37",
+     "redis.clients.jedis.JedisCluster$36",
+     "redis.clients.jedis.JedisCluster$39",
+     "redis.clients.jedis.JedisCluster$38",
+     "redis.clients.jedis.JedisCluster$33",
+     "redis.clients.jedis.AdvancedBinaryJedisCommands",
+     "redis.clients.jedis.JedisCluster$32",
+     "redis.clients.jedis.JedisCluster$35",
+     "redis.clients.jedis.JedisCluster$34",
+     "redis.clients.jedis.JedisCluster$31",
+     "redis.clients.jedis.JedisPool",
+     "redis.clients.jedis.JedisCluster$30",
+     "redis.clients.jedis.MultiKeyBinaryCommands",
+     "redis.clients.jedis.Response",
+     "redis.clients.jedis.JedisPubSub",
+     "redis.clients.jedis.JedisCommands",
+     "redis.clients.jedis.BinaryJedisCommands",
+     "redis.clients.jedis.JedisCluster$9",
+     "redis.clients.jedis.JedisMonitor",
+     "redis.clients.jedis.BinaryScriptingCommands",
+     "redis.clients.jedis.JedisCluster$29",
+     "redis.clients.jedis.MultiKeyPipelineBase",
+     "redis.clients.jedis.JedisCluster$26",
+     "redis.clients.jedis.JedisCluster$25",
+     "redis.clients.jedis.JedisCluster$28",
+     "redis.clients.jedis.JedisCluster$27",
+     "redis.clients.jedis.JedisCluster$22",
+     "redis.clients.jedis.JedisCluster$21",
+     "redis.clients.jedis.BinaryShardedJedis",
+     "redis.clients.jedis.BuilderFactory$9",
+     "redis.clients.jedis.JedisCluster$24",
+     "redis.clients.jedis.JedisCluster$23",
+     "redis.clients.jedis.BuilderFactory$7",
+     "redis.clients.jedis.JedisCluster$6",
+     "redis.clients.jedis.BuilderFactory$8",
+     "redis.clients.jedis.JedisCluster$5",
+     "redis.clients.jedis.BuilderFactory$5",
+     "redis.clients.jedis.JedisCluster$20",
+     "redis.clients.jedis.JedisCluster$8",
+     "redis.clients.jedis.BuilderFactory$6",
+     "redis.clients.jedis.JedisCluster$7",
+     "redis.clients.jedis.BuilderFactory$3",
+     "redis.clients.jedis.JedisCluster$2",
+     "redis.clients.jedis.BuilderFactory$4",
+     "redis.clients.jedis.JedisCluster$1",
+     "redis.clients.jedis.BuilderFactory$1",
+     "redis.clients.jedis.JedisCluster$4",
+     "redis.clients.jedis.BuilderFactory$2",
+     "redis.clients.jedis.JedisCluster$3",
+     "redis.clients.util.Hashing",
+     "redis.clients.jedis.JedisClusterConnectionHandler",
+     "redis.clients.jedis.MultiKeyBinaryRedisPipeline",
+     "redis.clients.jedis.JedisSlotBasedConnectionHandler",
+     "redis.clients.jedis.PipelineBase",
+     "redis.clients.jedis.JedisCluster$19",
+     "redis.clients.jedis.JedisCluster$18",
+     "redis.clients.jedis.ShardedJedisPipeline",
+     "redis.clients.jedis.JedisCluster$15",
+     "redis.clients.jedis.JedisCluster$14",
+     "redis.clients.jedis.JedisCluster$17",
+     "redis.clients.jedis.JedisCluster$16",
+     "redis.clients.jedis.JedisCluster$11",
+     "redis.clients.jedis.JedisCluster$10",
+     "redis.clients.jedis.JedisCluster$13",
+     "redis.clients.jedis.JedisCluster$12",
+     "redis.clients.jedis.ScanParams",
+     "redis.clients.jedis.ShardedJedis",
+     "redis.clients.util.RedisOutputStream",
+     "redis.clients.jedis.exceptions.JedisDataException",
+     "redis.clients.jedis.BinaryClient$LIST_POSITION",
+     "redis.clients.jedis.Protocol",
+     "redis.clients.jedis.MultiKeyCommands"
+    ],
+    "usedTypes": [
+     "redis.clients.jedis.Jedis",
+     "redis.clients.jedis.JedisPool"
+    ],
+    "usageRatio": 0.007905138339920948,
+    "children": [
+     {
+      "id": "org.apache.commons:commons-pool2:jar:2.3:provided",
+      "coordinates": "org.apache.commons:commons-pool2:2.3",
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-pool2",
+      "version": "2.3",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 109568,
+      "type": "direct",
+      "status": "bloated",
+      "parent": "redis.clients:jedis:jar:2.7.3:provided",
+      "allTypes": [
+       "org.apache.commons.pool2.BasePooledObjectFactory",
+       "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedGetTccl",
+       "org.apache.commons.pool2.PooledObject",
+       "org.apache.commons.pool2.PoolUtils$SynchronizedPooledObjectFactory",
+       "org.apache.commons.pool2.impl.BaseObjectPoolConfig",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque$1",
+       "org.apache.commons.pool2.TrackedUse",
+       "org.apache.commons.pool2.PooledObjectState",
+       "org.apache.commons.pool2.BaseKeyedPooledObjectFactory",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque$Itr",
+       "org.apache.commons.pool2.impl.InterruptibleReentrantLock",
+       "org.apache.commons.pool2.proxy.CglibProxyHandler",
+       "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedNewEvictionTimer",
+       "org.apache.commons.pool2.proxy.CglibProxySource",
+       "org.apache.commons.pool2.UsageTracking",
+       "org.apache.commons.pool2.impl.DefaultPooledObject$AbandonedObjectCreatedException",
+       "org.apache.commons.pool2.PoolUtils",
+       "org.apache.commons.pool2.proxy.BaseProxyHandler",
+       "org.apache.commons.pool2.PoolUtils$ErodingPerKeyKeyedObjectPool",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque$DescendingItr",
+       "org.apache.commons.pool2.proxy.ProxiedObjectPool",
+       "org.apache.commons.pool2.impl.GenericObjectPool",
+       "org.apache.commons.pool2.impl.EvictionTimer",
+       "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedPooledObjectFactory",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque",
+       "org.apache.commons.pool2.impl.GenericKeyedObjectPoolMXBean",
+       "org.apache.commons.pool2.impl.GenericObjectPoolMXBean",
+       "org.apache.commons.pool2.impl.EvictionPolicy",
+       "org.apache.commons.pool2.impl.EvictionTimer$1",
+       "org.apache.commons.pool2.SwallowedExceptionListener",
+       "org.apache.commons.pool2.impl.PoolImplUtils",
+       "org.apache.commons.pool2.impl.AbandonedConfig",
+       "org.apache.commons.pool2.PooledObjectFactory",
+       "org.apache.commons.pool2.PoolUtils$ErodingObjectPool",
+       "org.apache.commons.pool2.PoolUtils$SynchronizedObjectPool",
+       "org.apache.commons.pool2.PoolUtils$ErodingFactor",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque$Node",
+       "org.apache.commons.pool2.impl.DefaultEvictionPolicy",
+       "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedObjectPool",
+       "org.apache.commons.pool2.impl.GenericKeyedObjectPool$ObjectDeque",
+       "org.apache.commons.pool2.proxy.JdkProxyHandler",
+       "org.apache.commons.pool2.impl.DefaultPooledObject",
+       "org.apache.commons.pool2.ObjectPool",
+       "org.apache.commons.pool2.impl.EvictionConfig",
+       "org.apache.commons.pool2.impl.GenericObjectPoolConfig",
+       "org.apache.commons.pool2.impl.PooledSoftReference",
+       "org.apache.commons.pool2.KeyedPooledObjectFactory",
+       "org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor",
+       "org.apache.commons.pool2.impl.SoftReferenceObjectPool",
+       "org.apache.commons.pool2.impl.DefaultPooledObjectInfoMBean",
+       "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedSetTccl",
+       "org.apache.commons.pool2.impl.BaseGenericObjectPool$StatsStore",
+       "org.apache.commons.pool2.proxy.ProxySource",
+       "org.apache.commons.pool2.PoolUtils$KeyedObjectPoolMinIdleTimerTask",
+       "org.apache.commons.pool2.proxy.JdkProxySource",
+       "org.apache.commons.pool2.impl.BaseGenericObjectPool",
+       "org.apache.commons.pool2.PoolUtils$ObjectPoolMinIdleTimerTask",
+       "org.apache.commons.pool2.impl.GenericKeyedObjectPool",
+       "org.apache.commons.pool2.PoolUtils$ErodingKeyedObjectPool",
+       "org.apache.commons.pool2.PoolUtils$TimerHolder",
+       "org.apache.commons.pool2.impl.LinkedBlockingDeque$AbstractItr",
+       "org.apache.commons.pool2.KeyedObjectPool",
+       "org.apache.commons.pool2.impl.DefaultPooledObjectInfo",
+       "org.apache.commons.pool2.BaseObjectPool",
+       "org.apache.commons.pool2.impl.GenericKeyedObjectPoolConfig",
+       "org.apache.commons.pool2.proxy.ProxiedKeyedObjectPool"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "org.apache.commons:commons-pool2:jar:2.3:provided",
+    "coordinates": "org.apache.commons:commons-pool2:2.3",
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-pool2",
+    "version": "2.3",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 109568,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "org.apache.commons.pool2.BasePooledObjectFactory",
+     "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedGetTccl",
+     "org.apache.commons.pool2.PooledObject",
+     "org.apache.commons.pool2.PoolUtils$SynchronizedPooledObjectFactory",
+     "org.apache.commons.pool2.impl.BaseObjectPoolConfig",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque$1",
+     "org.apache.commons.pool2.TrackedUse",
+     "org.apache.commons.pool2.PooledObjectState",
+     "org.apache.commons.pool2.BaseKeyedPooledObjectFactory",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque$Itr",
+     "org.apache.commons.pool2.impl.InterruptibleReentrantLock",
+     "org.apache.commons.pool2.proxy.CglibProxyHandler",
+     "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedNewEvictionTimer",
+     "org.apache.commons.pool2.proxy.CglibProxySource",
+     "org.apache.commons.pool2.UsageTracking",
+     "org.apache.commons.pool2.impl.DefaultPooledObject$AbandonedObjectCreatedException",
+     "org.apache.commons.pool2.PoolUtils",
+     "org.apache.commons.pool2.proxy.BaseProxyHandler",
+     "org.apache.commons.pool2.PoolUtils$ErodingPerKeyKeyedObjectPool",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque$DescendingItr",
+     "org.apache.commons.pool2.proxy.ProxiedObjectPool",
+     "org.apache.commons.pool2.impl.GenericObjectPool",
+     "org.apache.commons.pool2.impl.EvictionTimer",
+     "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedPooledObjectFactory",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque",
+     "org.apache.commons.pool2.impl.GenericKeyedObjectPoolMXBean",
+     "org.apache.commons.pool2.impl.GenericObjectPoolMXBean",
+     "org.apache.commons.pool2.impl.EvictionPolicy",
+     "org.apache.commons.pool2.impl.EvictionTimer$1",
+     "org.apache.commons.pool2.SwallowedExceptionListener",
+     "org.apache.commons.pool2.impl.PoolImplUtils",
+     "org.apache.commons.pool2.impl.AbandonedConfig",
+     "org.apache.commons.pool2.PooledObjectFactory",
+     "org.apache.commons.pool2.PoolUtils$ErodingObjectPool",
+     "org.apache.commons.pool2.PoolUtils$SynchronizedObjectPool",
+     "org.apache.commons.pool2.PoolUtils$ErodingFactor",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque$Node",
+     "org.apache.commons.pool2.impl.DefaultEvictionPolicy",
+     "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedObjectPool",
+     "org.apache.commons.pool2.impl.GenericKeyedObjectPool$ObjectDeque",
+     "org.apache.commons.pool2.proxy.JdkProxyHandler",
+     "org.apache.commons.pool2.impl.DefaultPooledObject",
+     "org.apache.commons.pool2.ObjectPool",
+     "org.apache.commons.pool2.impl.EvictionConfig",
+     "org.apache.commons.pool2.impl.GenericObjectPoolConfig",
+     "org.apache.commons.pool2.impl.PooledSoftReference",
+     "org.apache.commons.pool2.KeyedPooledObjectFactory",
+     "org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor",
+     "org.apache.commons.pool2.impl.SoftReferenceObjectPool",
+     "org.apache.commons.pool2.impl.DefaultPooledObjectInfoMBean",
+     "org.apache.commons.pool2.impl.EvictionTimer$PrivilegedSetTccl",
+     "org.apache.commons.pool2.impl.BaseGenericObjectPool$StatsStore",
+     "org.apache.commons.pool2.proxy.ProxySource",
+     "org.apache.commons.pool2.PoolUtils$KeyedObjectPoolMinIdleTimerTask",
+     "org.apache.commons.pool2.proxy.JdkProxySource",
+     "org.apache.commons.pool2.impl.BaseGenericObjectPool",
+     "org.apache.commons.pool2.PoolUtils$ObjectPoolMinIdleTimerTask",
+     "org.apache.commons.pool2.impl.GenericKeyedObjectPool",
+     "org.apache.commons.pool2.PoolUtils$ErodingKeyedObjectPool",
+     "org.apache.commons.pool2.PoolUtils$TimerHolder",
+     "org.apache.commons.pool2.impl.LinkedBlockingDeque$AbstractItr",
+     "org.apache.commons.pool2.KeyedObjectPool",
+     "org.apache.commons.pool2.impl.DefaultPooledObjectInfo",
+     "org.apache.commons.pool2.BaseObjectPool",
+     "org.apache.commons.pool2.impl.GenericKeyedObjectPoolConfig",
+     "org.apache.commons.pool2.proxy.ProxiedKeyedObjectPool"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": []
+   },
+   {
+    "id": "com.alibaba:fastjson:jar:1.2.7:compile",
+    "coordinates": "com.alibaba:fastjson:1.2.7",
+    "groupId": "com.alibaba",
+    "artifactId": "fastjson",
+    "version": "1.2.7",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 417221,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "com.alibaba.fastjson.asm.ClassWriter",
+     "com.alibaba.fastjson.serializer.AtomicIntegerSerializer",
+     "com.alibaba.fastjson.serializer.PatternCodec",
+     "com.alibaba.fastjson.JSONPath$IntOpSegement",
+     "com.alibaba.fastjson.serializer.FilterUtils",
+     "com.alibaba.fastjson.util.ASMUtils",
+     "com.alibaba.fastjson.JSONPath",
+     "com.alibaba.fastjson.parser.JSONScanner",
+     "com.alibaba.fastjson.parser.JSONLexerBase",
+     "com.alibaba.fastjson.parser.deserializer.ParseProcess",
+     "com.alibaba.fastjson.serializer.JSONSerializable",
+     "com.alibaba.fastjson.serializer.BooleanArraySerializer",
+     "com.alibaba.fastjson.serializer.JSONSerializerContext",
+     "com.alibaba.fastjson.serializer.ReferenceCodec",
+     "com.alibaba.fastjson.serializer.SerializeWriter",
+     "com.alibaba.fastjson.util.ThreadLocalCache",
+     "com.alibaba.fastjson.JSONException",
+     "com.alibaba.fastjson.JSONPath$NullSegement",
+     "com.alibaba.fastjson.serializer.SerialContext",
+     "com.alibaba.fastjson.serializer.AfterFilter",
+     "com.alibaba.fastjson.asm.Item",
+     "com.alibaba.fastjson.serializer.MapSerializer",
+     "com.alibaba.fastjson.serializer.ByteArraySerializer",
+     "com.alibaba.fastjson.parser.deserializer.StackTraceElementDeserializer",
+     "com.alibaba.fastjson.serializer.IntArraySerializer",
+     "com.alibaba.fastjson.asm.ASMException",
+     "com.alibaba.fastjson.parser.deserializer.DateDeserializer",
+     "com.alibaba.fastjson.util.FieldInfo",
+     "com.alibaba.fastjson.parser.SymbolTable$Entry",
+     "com.alibaba.fastjson.serializer.DoubleArraySerializer",
+     "com.alibaba.fastjson.serializer.PropertyFilter",
+     "com.alibaba.fastjson.serializer.ListSerializer",
+     "com.alibaba.fastjson.serializer.NameFilter",
+     "com.alibaba.fastjson.serializer.LongCodec",
+     "com.alibaba.fastjson.serializer.EnumSerializer",
+     "com.alibaba.fastjson.serializer.AtomicIntegerArrayCodec",
+     "com.alibaba.fastjson.util.Base64",
+     "com.alibaba.fastjson.serializer.ShortArraySerializer",
+     "com.alibaba.fastjson.parser.deserializer.DateFormatDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.Jdk8DateCodec",
+     "com.alibaba.fastjson.serializer.LongArraySerializer",
+     "com.alibaba.fastjson.serializer.URLCodec",
+     "com.alibaba.fastjson.serializer.EnumerationSeriliazer",
+     "com.alibaba.fastjson.support.spring.FastJsonJsonView",
+     "com.alibaba.fastjson.parser.deserializer.MapDeserializer",
+     "com.alibaba.fastjson.serializer.SimplePropertyPreFilter",
+     "com.alibaba.fastjson.serializer.AutowiredObjectSerializer",
+     "com.alibaba.fastjson.serializer.SimpleDateFormatSerializer",
+     "com.alibaba.fastjson.serializer.StringCodec",
+     "com.alibaba.fastjson.serializer.RectangleCodec",
+     "com.alibaba.fastjson.JSONPath$MultiIndexSegement",
+     "com.alibaba.fastjson.serializer.SerialWriterStringEncoder",
+     "com.alibaba.fastjson.JSONPath$SelfSegement",
+     "com.alibaba.fastjson.JSONStreamAware",
+     "com.alibaba.fastjson.asm.MethodWriter",
+     "com.alibaba.fastjson.serializer.DateSerializer",
+     "com.alibaba.fastjson.parser.deserializer.BooleanFieldDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.CharArrayDeserializer",
+     "com.alibaba.fastjson.JSONPath$ArrayAccessSegement",
+     "com.alibaba.fastjson.serializer.TimeZoneCodec",
+     "com.alibaba.fastjson.JSONPath$Segement",
+     "com.alibaba.fastjson.JSONPath$IntInSegement",
+     "com.alibaba.fastjson.serializer.CalendarCodec",
+     "com.alibaba.fastjson.parser.deserializer.MapResolveFieldDeserializer",
+     "com.alibaba.fastjson.util.TypeUtils",
+     "com.alibaba.fastjson.serializer.DateFormatSerializer",
+     "com.alibaba.fastjson.parser.DefaultExtJSONParser",
+     "com.alibaba.fastjson.parser.deserializer.ASMDeserializerFactory",
+     "com.alibaba.fastjson.serializer.IntegerCodec",
+     "com.alibaba.fastjson.serializer.JSONAwareSerializer",
+     "com.alibaba.fastjson.serializer.ColorCodec",
+     "com.alibaba.fastjson.serializer.JSONSerializableSerializer",
+     "com.alibaba.fastjson.serializer.PascalNameFilter",
+     "com.alibaba.fastjson.serializer.CollectionSerializer",
+     "com.alibaba.fastjson.serializer.AtomicLongSerializer",
+     "com.alibaba.fastjson.parser.deserializer.TimeDeserializer",
+     "com.alibaba.fastjson.JSONObject",
+     "com.alibaba.fastjson.parser.deserializer.SqlDateDeserializer",
+     "com.alibaba.fastjson.serializer.ASMJavaBeanSerializer",
+     "com.alibaba.fastjson.serializer.ObjectFieldSerializer",
+     "com.alibaba.fastjson.serializer.CharacterCodec",
+     "com.alibaba.fastjson.parser.deserializer.LongFieldDeserializer",
+     "com.alibaba.fastjson.util.UTF8Decoder$Surrogate",
+     "com.alibaba.fastjson.asm.Label",
+     "com.alibaba.fastjson.util.ASMClassLoader$1",
+     "com.alibaba.fastjson.asm.FieldWriter",
+     "com.alibaba.fastjson.parser.deserializer.ASMJavaBeanDeserializer",
+     "com.alibaba.fastjson.serializer.SerializeConfig",
+     "com.alibaba.fastjson.parser.AbstractJSONParser",
+     "com.alibaba.fastjson.parser.deserializer.IntegerFieldDeserializer",
+     "com.alibaba.fastjson.util.DeserializeBeanInfo",
+     "com.alibaba.fastjson.JSONPath$RangeSegement",
+     "com.alibaba.fastjson.parser.JavaBeanMapping",
+     "com.alibaba.fastjson.serializer.JSONSerializerMap",
+     "com.alibaba.fastjson.serializer.FieldSerializer",
+     "com.alibaba.fastjson.parser.JSONReaderScanner",
+     "com.alibaba.fastjson.serializer.ValueFilter",
+     "com.alibaba.fastjson.serializer.LocaleCodec",
+     "com.alibaba.fastjson.JSONPathException",
+     "com.alibaba.fastjson.serializer.InetAddressCodec",
+     "com.alibaba.fastjson.serializer.FloatArraySerializer",
+     "com.alibaba.fastjson.serializer.Labels",
+     "com.alibaba.fastjson.serializer.ClassSerializer",
+     "com.alibaba.fastjson.parser.deserializer.ThrowableDeserializer",
+     "com.alibaba.fastjson.JSONPath$IntObjInSegement",
+     "com.alibaba.fastjson.codegen.DeserializerGen",
+     "com.alibaba.fastjson.parser.deserializer.ASMDeserializerFactory$Context",
+     "com.alibaba.fastjson.serializer.CurrencyCodec",
+     "com.alibaba.fastjson.asm.MethodVisitor",
+     "com.alibaba.fastjson.annotation.JSONCreator",
+     "com.alibaba.fastjson.parser.deserializer.NumberDeserializer",
+     "com.alibaba.fastjson.serializer.LabelFilter",
+     "com.alibaba.fastjson.util.UTF8Decoder",
+     "com.alibaba.fastjson.serializer.DoubleSerializer",
+     "com.alibaba.fastjson.serializer.JavaBeanSerializer",
+     "com.alibaba.fastjson.serializer.ASMSerializerFactory",
+     "com.alibaba.fastjson.parser.Feature",
+     "com.alibaba.fastjson.parser.ParseContext",
+     "com.alibaba.fastjson.parser.ParserConfig",
+     "com.alibaba.fastjson.JSONPath$WildCardSegement",
+     "com.alibaba.fastjson.parser.deserializer.AbstractDateDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.ASMJavaBeanDeserializer$1",
+     "com.alibaba.fastjson.parser.deserializer.ListResolveFieldDeserializer",
+     "com.alibaba.fastjson.serializer.AtomicBooleanSerializer",
+     "com.alibaba.fastjson.asm.FieldVisitor",
+     "com.alibaba.fastjson.JSONPath$MatchSegement",
+     "com.alibaba.fastjson.JSONPath$IntBetweenSegement",
+     "com.alibaba.fastjson.codegen.ClassGen",
+     "com.alibaba.fastjson.serializer.ExceptionSerializer",
+     "com.alibaba.fastjson.JSONPath$StringInSegement",
+     "com.alibaba.fastjson.parser.deserializer.JSONArrayDeserializer",
+     "com.alibaba.fastjson.serializer.PointCodec",
+     "com.alibaba.fastjson.serializer.ObjectSerializer",
+     "com.alibaba.fastjson.TypeReference",
+     "com.alibaba.fastjson.parser.deserializer.StringFieldDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.EnumDeserializer",
+     "com.alibaba.fastjson.serializer.FontCodec",
+     "com.alibaba.fastjson.parser.DefaultJSONParser$ResolveTask",
+     "com.alibaba.fastjson.parser.deserializer.ExtraTypeProvider",
+     "com.alibaba.fastjson.serializer.BigDecimalCodec",
+     "com.alibaba.fastjson.JSONPath$Filter",
+     "com.alibaba.fastjson.parser.deserializer.JSONObjectDeserializer",
+     "com.alibaba.fastjson.annotation.JSONField",
+     "com.alibaba.fastjson.serializer.ObjectArraySerializer",
+     "com.alibaba.fastjson.serializer.FileCodec",
+     "com.alibaba.fastjson.parser.SymbolTable",
+     "com.alibaba.fastjson.JSONArray",
+     "com.alibaba.fastjson.JSONAware",
+     "com.alibaba.fastjson.parser.deserializer.CollectionDeserializer",
+     "com.alibaba.fastjson.util.ASMClassLoader",
+     "com.alibaba.fastjson.serializer.NumberFieldSerializer",
+     "com.alibaba.fastjson.parser.JSONToken",
+     "com.alibaba.fastjson.serializer.AppendableSerializer",
+     "com.alibaba.fastjson.parser.deserializer.DefaultFieldDeserializer",
+     "com.alibaba.fastjson.serializer.JSONStreamAwareSerializer",
+     "com.alibaba.fastjson.JSONPath$JSONPathParser",
+     "com.alibaba.fastjson.parser.deserializer.AutowiredObjectDeserializer",
+     "com.alibaba.fastjson.serializer.URICodec",
+     "com.alibaba.fastjson.serializer.ASMSerializerFactory$Context",
+     "com.alibaba.fastjson.util.ServiceLoader",
+     "com.alibaba.fastjson.parser.deserializer.ArrayListTypeFieldDeserializer",
+     "com.alibaba.fastjson.JSONPath$PropertySegement",
+     "com.alibaba.fastjson.parser.DefaultJSONParser",
+     "com.alibaba.fastjson.serializer.UUIDCodec",
+     "com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter",
+     "com.alibaba.fastjson.serializer.BigIntegerCodec",
+     "com.alibaba.fastjson.util.IdentityHashMap",
+     "com.alibaba.fastjson.JSON",
+     "com.alibaba.fastjson.serializer.CharsetCodec",
+     "com.alibaba.fastjson.JSONWriter",
+     "com.alibaba.fastjson.asm.Opcodes",
+     "com.alibaba.fastjson.JSONPath$SizeSegement",
+     "com.alibaba.fastjson.JSONStreamContext",
+     "com.alibaba.fastjson.JSONReader",
+     "com.alibaba.fastjson.parser.deserializer.ClassDerializer",
+     "com.alibaba.fastjson.serializer.SerializerFeature",
+     "com.alibaba.fastjson.JSONPath$Operator",
+     "com.alibaba.fastjson.TypeReference$1",
+     "com.alibaba.fastjson.serializer.ObjectFieldSerializer$RuntimeSerializerInfo",
+     "com.alibaba.fastjson.util.IOUtils",
+     "com.alibaba.fastjson.parser.deserializer.JavaObjectDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.CollectionResolveFieldDeserializer",
+     "com.alibaba.fastjson.JSONPObject",
+     "com.alibaba.fastjson.serializer.SerializeFilter",
+     "com.alibaba.fastjson.serializer.AtomicLongArrayCodec",
+     "com.alibaba.fastjson.parser.deserializer.TimestampDeserializer",
+     "com.alibaba.fastjson.parser.deserializer.ExtraProcessor",
+     "com.alibaba.fastjson.serializer.BeforeFilter",
+     "com.alibaba.fastjson.JSONPath$StringOpSegement",
+     "com.alibaba.fastjson.serializer.ArraySerializer",
+     "com.alibaba.fastjson.util.ParameterizedTypeImpl",
+     "com.alibaba.fastjson.JSONPath$RlikeSegement",
+     "com.alibaba.fastjson.parser.deserializer.ObjectDeserializer",
+     "com.alibaba.fastjson.asm.ByteVector",
+     "com.alibaba.fastjson.parser.JSONLexer",
+     "com.alibaba.fastjson.serializer.Labels$DefaultLabelFilter",
+     "com.alibaba.fastjson.serializer.JSONSerializer",
+     "com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer",
+     "com.alibaba.fastjson.asm.Type",
+     "com.alibaba.fastjson.parser.deserializer.ArrayDeserializer",
+     "com.alibaba.fastjson.serializer.FloatCodec",
+     "com.alibaba.fastjson.serializer.JSONLibDataFormatSerializer",
+     "com.alibaba.fastjson.JSONPath$FilterSegement",
+     "com.alibaba.fastjson.serializer.InetSocketAddressCodec",
+     "com.alibaba.fastjson.JSONPath$MultiPropertySegement",
+     "com.alibaba.fastjson.serializer.JSONSerializerContext$Entry",
+     "com.alibaba.fastjson.parser.deserializer.FieldDeserializer",
+     "com.alibaba.fastjson.JSONPath$NotNullSegement",
+     "com.alibaba.fastjson.serializer.CharArraySerializer",
+     "com.alibaba.fastjson.serializer.ClobSeriliazer",
+     "com.alibaba.fastjson.parser.deserializer.ASMJavaBeanDeserializer$InnerJavaBeanDeserializer",
+     "com.alibaba.fastjson.annotation.JSONType",
+     "com.alibaba.fastjson.util.IdentityHashMap$Entry",
+     "com.alibaba.fastjson.serializer.BooleanCodec",
+     "com.alibaba.fastjson.serializer.PropertyPreFilter"
+    ],
+    "usedTypes": [
+     "com.alibaba.fastjson.JSON",
+     "com.alibaba.fastjson.annotation.JSONField"
+    ],
+    "usageRatio": 0.009302325581395349,
+    "children": []
+   },
+   {
+    "id": "org.apache.httpcomponents:httpclient:jar:4.3.6:compile",
+    "coordinates": "org.apache.httpcomponents:httpclient:4.3.6",
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.3.6",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 592008,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "org.apache.http.conn.scheme.LayeredSocketFactory",
+     "org.apache.http.impl.conn.DefaultHttpResponseParserFactory",
+     "org.apache.http.client.methods.HttpPatch",
+     "org.apache.http.impl.cookie.BasicClientCookie2",
+     "org.apache.http.impl.auth.KerberosScheme",
+     "org.apache.http.impl.execchain.RequestAbortedException",
+     "org.apache.http.impl.execchain.ProtocolExec",
+     "org.apache.http.impl.conn.BasicClientConnectionManager$1",
+     "org.apache.http.impl.auth.HttpEntityDigester",
+     "org.apache.http.cookie.MalformedCookieException",
+     "org.apache.http.impl.conn.SystemDefaultDnsResolver",
+     "org.apache.http.conn.ConnectionRequest",
+     "org.apache.http.conn.MultihomePlainSocketFactory",
+     "org.apache.http.impl.client.FutureRequestExecutionMetrics",
+     "org.apache.http.impl.auth.NTLMEngineImpl",
+     "org.apache.http.impl.client.AbstractAuthenticationHandler",
+     "org.apache.http.impl.auth.BasicScheme",
+     "org.apache.http.impl.client.FutureRequestExecutionMetrics$DurationCounter",
+     "org.apache.http.conn.HttpClientConnectionManager",
+     "org.apache.http.client.protocol.RequestAcceptEncoding",
+     "org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper",
+     "org.apache.http.impl.client.RequestWrapper",
+     "org.apache.http.conn.ssl.AllowAllHostnameVerifier",
+     "org.apache.http.impl.auth.NTLMEngineImpl$MD4",
+     "org.apache.http.impl.conn.tsccm.ConnPoolByRoute",
+     "org.apache.http.impl.conn.tsccm.RouteSpecificPool$1",
+     "org.apache.http.impl.client.InternalHttpClient$1",
+     "org.apache.http.impl.conn.tsccm.PoolEntryRequest",
+     "org.apache.http.client.CredentialsProvider",
+     "org.apache.http.client.params.AllClientPNames",
+     "org.apache.http.client.methods.Configurable",
+     "org.apache.http.impl.auth.UnsupportedDigestAlgorithmException",
+     "org.apache.http.client.entity.GzipCompressingEntity",
+     "org.apache.http.impl.conn.PoolingClientConnectionManager$1",
+     "org.apache.http.client.methods.RequestBuilder$InternalRequest",
+     "org.apache.http.client.methods.AbstractExecutionAwareRequest$2",
+     "org.apache.http.impl.execchain.RequestEntityProxy",
+     "org.apache.http.conn.ssl.AbstractVerifier",
+     "org.apache.http.client.methods.AbstractExecutionAwareRequest$1",
+     "org.apache.http.conn.ssl.SSLContextBuilder$TrustManagerDelegate",
+     "org.apache.http.auth.Credentials",
+     "org.apache.http.impl.client.DefaultRedirectStrategyAdaptor",
+     "org.apache.http.impl.conn.DefaultClientConnection",
+     "org.apache.http.impl.execchain.RedirectExec",
+     "org.apache.http.impl.client.TunnelRefusedException",
+     "org.apache.http.conn.ssl.SSLContexts",
+     "org.apache.http.conn.routing.HttpRouteDirector",
+     "org.apache.http.impl.client.RoutedRequest",
+     "org.apache.http.auth.AuthProtocolState",
+     "org.apache.http.impl.cookie.DateUtils",
+     "org.apache.http.conn.scheme.HostNameResolver",
+     "org.apache.http.conn.routing.BasicRouteDirector",
+     "org.apache.http.client.NonRepeatableRequestException",
+     "org.apache.http.impl.client.AIMDBackoffManager",
+     "org.apache.http.impl.client.AuthenticationStrategyImpl",
+     "org.apache.http.client.entity.GzipDecompressingEntity",
+     "org.apache.http.client.RedirectHandler",
+     "org.apache.http.impl.client.DefaultHttpClient",
+     "org.apache.http.impl.client.LaxRedirectStrategy",
+     "org.apache.http.impl.auth.NTLMEngineImpl$HMACMD5",
+     "org.apache.http.conn.scheme.LayeredSchemeSocketFactory",
+     "org.apache.http.conn.scheme.SchemeLayeredSocketFactory",
+     "org.apache.http.impl.conn.Wire",
+     "org.apache.http.cookie.CookieSpecFactory",
+     "org.apache.http.conn.ConnectionKeepAliveStrategy",
+     "org.apache.http.impl.client.DefaultRedirectStrategy",
+     "org.apache.http.impl.conn.tsccm.WaitingThread",
+     "org.apache.http.impl.auth.NTLMEngineImpl$CipherGen",
+     "org.apache.http.conn.params.ConnPerRouteBean",
+     "org.apache.http.conn.BasicEofSensorWatcher",
+     "org.apache.http.client.methods.HttpRequestBase",
+     "org.apache.http.impl.client.RedirectLocations",
+     "org.apache.http.impl.conn.AbstractClientConnAdapter",
+     "org.apache.http.auth.AuthSchemeRegistry",
+     "org.apache.http.conn.ssl.SSLContextBuilder",
+     "org.apache.http.impl.conn.CPoolProxy",
+     "org.apache.http.impl.conn.AbstractPooledConnAdapter",
+     "org.apache.http.impl.execchain.ClientExecChain",
+     "org.apache.http.conn.SchemePortResolver",
+     "org.apache.http.conn.DnsResolver",
+     "org.apache.http.impl.client.TargetAuthenticationStrategy",
+     "org.apache.http.auth.BasicUserPrincipal",
+     "org.apache.http.client.config.CookieSpecs",
+     "org.apache.http.client.methods.HttpRequestWrapper$1",
+     "org.apache.http.impl.client.DefaultTargetAuthenticationHandler",
+     "org.apache.http.client.methods.RequestBuilder",
+     "org.apache.http.impl.auth.AuthSchemeBase",
+     "org.apache.http.impl.client.AbstractHttpClient",
+     "org.apache.http.impl.cookie.BasicPathHandler",
+     "org.apache.http.cookie.params.CookieSpecPNames",
+     "org.apache.http.impl.auth.NegotiateScheme",
+     "org.apache.http.auth.MalformedChallengeException",
+     "org.apache.http.impl.cookie.BasicClientCookie",
+     "org.apache.http.impl.conn.DefaultHttpResponseParser",
+     "org.apache.http.conn.routing.RouteInfo$TunnelType",
+     "org.apache.http.impl.conn.LoggingInputStream",
+     "org.apache.http.impl.conn.SingleClientConnManager$PoolEntry",
+     "org.apache.http.conn.ssl.PrivateKeyStrategy",
+     "org.apache.http.impl.cookie.BrowserCompatSpecFactory$SecurityLevel",
+     "org.apache.http.client.UserTokenHandler",
+     "org.apache.http.conn.HttpRoutedConnection",
+     "org.apache.http.impl.conn.SystemDefaultRoutePlanner$1",
+     "org.apache.http.impl.auth.NTLMScheme",
+     "org.apache.http.client.protocol.RequestDefaultHeaders",
+     "org.apache.http.client.protocol.RequestAuthenticationBase$1",
+     "org.apache.http.conn.ConnectionReleaseTrigger",
+     "org.apache.http.conn.ManagedHttpClientConnection",
+     "org.apache.http.client.methods.HttpPost",
+     "org.apache.http.impl.client.DecompressingHttpClient",
+     "org.apache.http.impl.conn.HttpConnPool",
+     "org.apache.http.client.entity.DeflateDecompressingEntity",
+     "org.apache.http.cookie.CookieSpecRegistry$1",
+     "org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter",
+     "org.apache.http.client.entity.DeflateInputStream",
+     "org.apache.http.cookie.SetCookie",
+     "org.apache.http.conn.HttpConnectionFactory",
+     "org.apache.http.cookie.CookieIdentityComparator",
+     "org.apache.http.impl.conn.tsccm.BasicPooledConnAdapter",
+     "org.apache.http.conn.ssl.SSLSocketFactory",
+     "org.apache.http.client.AuthCache",
+     "org.apache.http.impl.conn.InMemoryDnsResolver",
+     "org.apache.http.conn.params.ConnRouteParams",
+     "org.apache.http.impl.client.ProxyClient",
+     "org.apache.http.conn.scheme.SchemeSocketFactory",
+     "org.apache.http.client.methods.HttpOptions",
+     "org.apache.http.impl.execchain.HttpResponseProxy",
+     "org.apache.http.client.AuthenticationHandler",
+     "org.apache.http.client.BackoffManager",
+     "org.apache.http.impl.conn.BasicHttpClientConnectionManager",
+     "org.apache.http.client.utils.URLEncodedUtils",
+     "org.apache.http.impl.conn.HttpPoolEntry",
+     "org.apache.http.conn.params.ConnManagerPNames",
+     "org.apache.http.impl.conn.BasicHttpClientConnectionManager$1",
+     "org.apache.http.impl.client.SystemDefaultCredentialsProvider",
+     "org.apache.http.impl.cookie.AbstractCookieAttributeHandler",
+     "org.apache.http.client.RedirectException",
+     "org.apache.http.client.methods.HttpUriRequest",
+     "org.apache.http.client.methods.HttpRequestWrapper",
+     "org.apache.http.conn.params.ConnConnectionPNames",
+     "org.apache.http.auth.ContextAwareAuthScheme",
+     "org.apache.http.impl.cookie.IgnoreSpecFactory",
+     "org.apache.http.impl.cookie.BasicSecureHandler",
+     "org.apache.http.impl.conn.ProxySelectorRoutePlanner$1",
+     "org.apache.http.impl.auth.HttpAuthenticator",
+     "org.apache.http.impl.cookie.NetscapeDomainHandler",
+     "org.apache.http.impl.client.FutureRequestExecutionService",
+     "org.apache.http.impl.execchain.MinimalClientExec",
+     "org.apache.http.conn.ConnectTimeoutException",
+     "org.apache.http.impl.client.EntityEnclosingRequestWrapper",
+     "org.apache.http.client.HttpClient",
+     "org.apache.http.impl.client.BasicResponseHandler",
+     "org.apache.http.impl.conn.ProxySelectorRoutePlanner",
+     "org.apache.http.impl.conn.tsccm.WaitingThreadAborter",
+     "org.apache.http.cookie.Cookie",
+     "org.apache.http.client.methods.HttpTrace",
+     "org.apache.http.impl.auth.SPNegoSchemeFactory",
+     "org.apache.http.cookie.SM",
+     "org.apache.http.impl.execchain.BackoffStrategyExec",
+     "org.apache.http.client.methods.HttpRequestWrapper$HttpEntityEnclosingRequestWrapper",
+     "org.apache.http.impl.conn.CPool",
+     "org.apache.http.client.utils.URIUtils",
+     "org.apache.http.client.protocol.RequestExpectContinue",
+     "org.apache.http.impl.conn.SingleClientConnManager",
+     "org.apache.http.auth.AuthScope",
+     "org.apache.http.impl.cookie.RFC2109VersionHandler",
+     "org.apache.http.conn.UnsupportedSchemeException",
+     "org.apache.http.client.protocol.HttpClientContext",
+     "org.apache.http.auth.params.AuthPNames",
+     "org.apache.http.impl.cookie.RFC2965DiscardAttributeHandler",
+     "org.apache.http.conn.params.ConnManagerParams$1",
+     "org.apache.http.impl.client.ProxyAuthenticationStrategy",
+     "org.apache.http.conn.ssl.SSLContextBuilder$KeyManagerDelegate",
+     "org.apache.http.auth.NTCredentials",
+     "org.apache.http.impl.execchain.MainClientExec",
+     "org.apache.http.impl.execchain.TunnelRefusedException",
+     "org.apache.http.conn.ssl.SSLInitializationException",
+     "org.apache.http.conn.socket.LayeredConnectionSocketFactory",
+     "org.apache.http.cookie.CookieAttributeHandler",
+     "org.apache.http.impl.client.MinimalHttpClient$1",
+     "org.apache.http.impl.cookie.IgnoreSpec",
+     "org.apache.http.client.protocol.RequestAddCookies",
+     "org.apache.http.impl.conn.ManagedClientConnectionImpl",
+     "org.apache.http.client.utils.HttpClientUtils",
+     "org.apache.http.client.utils.DateUtils",
+     "org.apache.http.impl.conn.DefaultRoutePlanner",
+     "org.apache.http.client.RequestDirector",
+     "org.apache.http.conn.ClientConnectionRequest",
+     "org.apache.http.impl.conn.LoggingOutputStream",
+     "org.apache.http.impl.auth.BasicSchemeFactory",
+     "org.apache.http.impl.client.HttpRequestTaskCallable",
+     "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager",
+     "org.apache.http.impl.auth.GGSSchemeBase",
+     "org.apache.http.conn.scheme.SchemeRegistry",
+     "org.apache.http.impl.client.CloseableHttpClient",
+     "org.apache.http.impl.client.ContentEncodingHttpClient",
+     "org.apache.http.client.protocol.ResponseProcessCookies",
+     "org.apache.http.impl.client.NullBackoffStrategy",
+     "org.apache.http.client.HttpResponseException",
+     "org.apache.http.client.ConnectionBackoffStrategy",
+     "org.apache.http.impl.cookie.AbstractCookieSpec",
+     "org.apache.http.impl.client.HttpAuthenticator",
+     "org.apache.http.client.utils.Rfc3492Idn",
+     "org.apache.http.client.params.CookiePolicy",
+     "org.apache.http.client.utils.CloneUtils",
+     "org.apache.http.client.ResponseHandler",
+     "org.apache.http.impl.client.Clock",
+     "org.apache.http.client.entity.UrlEncodedFormEntity",
+     "org.apache.http.client.protocol.ClientContextConfigurer",
+     "org.apache.http.impl.client.NoopUserTokenHandler",
+     "org.apache.http.conn.scheme.SocketFactoryAdaptor",
+     "org.apache.http.client.params.ClientParamBean",
+     "org.apache.http.client.protocol.RequestClientConnControl",
+     "org.apache.http.impl.conn.AbstractPoolEntry",
+     "org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor",
+     "org.apache.http.impl.client.DefaultUserTokenHandler",
+     "org.apache.http.impl.cookie.BasicDomainHandler",
+     "org.apache.http.impl.conn.SchemeRegistryFactory",
+     "org.apache.http.impl.conn.DefaultManagedHttpClientConnection",
+     "org.apache.http.impl.client.AuthenticationStrategyAdaptor",
+     "org.apache.http.impl.client.SystemDefaultHttpClient",
+     "org.apache.http.impl.cookie.RFC2965SpecFactory",
+     "org.apache.http.cookie.CookieSpec",
+     "org.apache.http.conn.ssl.TrustSelfSignedStrategy",
+     "org.apache.http.conn.scheme.PlainSocketFactory",
+     "org.apache.http.client.ClientProtocolException",
+     "org.apache.http.impl.cookie.BasicCommentHandler",
+     "org.apache.http.impl.cookie.BasicMaxAgeHandler",
+     "org.apache.http.impl.auth.RFC2617Scheme",
+     "org.apache.http.impl.auth.NTLMScheme$State",
+     "org.apache.http.conn.routing.RouteTracker",
+     "org.apache.http.impl.conn.HttpConnPool$InternalConnFactory",
+     "org.apache.http.client.methods.HttpHead",
+     "org.apache.http.impl.cookie.PublicSuffixFilter",
+     "org.apache.http.impl.auth.SPNegoScheme",
+     "org.apache.http.impl.conn.tsccm.AbstractConnPool",
+     "org.apache.http.cookie.CookieSpecRegistry",
+     "org.apache.http.auth.params.AuthParams",
+     "org.apache.http.impl.client.ClientParamsStack",
+     "org.apache.http.impl.client.DefaultRequestDirector",
+     "org.apache.http.client.params.HttpClientParams",
+     "org.apache.http.impl.auth.NTLMEngineImpl$Type2Message",
+     "org.apache.http.impl.conn.SystemDefaultRoutePlanner",
+     "org.apache.http.client.methods.AbstractExecutionAwareRequest",
+     "org.apache.http.client.protocol.ClientContext",
+     "org.apache.http.impl.cookie.NetscapeDraftHeaderParser",
+     "org.apache.http.impl.client.StandardHttpRequestRetryHandler",
+     "org.apache.http.conn.ConnectionPoolTimeoutException",
+     "org.apache.http.impl.cookie.BrowserCompatSpec",
+     "org.apache.http.client.RedirectStrategy",
+     "org.apache.http.impl.client.BasicCookieStore",
+     "org.apache.http.conn.util.InetAddressUtils",
+     "org.apache.http.impl.client.HttpClientBuilder",
+     "org.apache.http.cookie.CookiePathComparator",
+     "org.apache.http.impl.cookie.RFC2965VersionAttributeHandler",
+     "org.apache.http.client.params.ClientPNames",
+     "org.apache.http.cookie.ClientCookie",
+     "org.apache.http.client.protocol.RequestAuthCache",
+     "org.apache.http.impl.conn.DefaultSchemePortResolver",
+     "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$InternalConnectionFactory",
+     "org.apache.http.impl.auth.NTLMEngineException",
+     "org.apache.http.conn.HttpHostConnectException",
+     "org.apache.http.impl.client.BasicCredentialsProvider",
+     "org.apache.http.conn.ssl.X509HostnameVerifier",
+     "org.apache.http.impl.cookie.RFC2965PortAttributeHandler",
+     "org.apache.http.impl.conn.DefaultHttpRoutePlanner",
+     "org.apache.http.impl.client.DefaultHttpRequestRetryHandler",
+     "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+     "org.apache.http.impl.conn.DefaultProxyRoutePlanner",
+     "org.apache.http.impl.auth.KerberosSchemeFactory",
+     "org.apache.http.client.entity.DeflateInputStream$DeflateStream",
+     "org.apache.http.impl.conn.LoggingSessionOutputBuffer",
+     "org.apache.http.cookie.CookieOrigin",
+     "org.apache.http.conn.EofSensorInputStream",
+     "org.apache.http.conn.EofSensorWatcher",
+     "org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor",
+     "org.apache.http.conn.BasicManagedEntity",
+     "org.apache.http.client.utils.DateUtils$DateFormatHolder",
+     "org.apache.http.client.methods.HttpGet",
+     "org.apache.http.conn.scheme.SocketFactory",
+     "org.apache.http.client.CircularRedirectException",
+     "org.apache.http.impl.execchain.ConnectionHolder",
+     "org.apache.http.impl.cookie.RFC2965CommentUrlAttributeHandler",
+     "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1",
+     "org.apache.http.impl.conn.tsccm.RouteSpecificPool",
+     "org.apache.http.impl.auth.NTLMEngineImpl$Type1Message",
+     "org.apache.http.impl.execchain.ServiceUnavailableRetryExec",
+     "org.apache.http.conn.ClientConnectionOperator",
+     "org.apache.http.auth.AuthScheme",
+     "org.apache.http.conn.params.ConnManagerParams",
+     "org.apache.http.conn.params.ConnRouteParamBean",
+     "org.apache.http.client.entity.EntityBuilder",
+     "org.apache.http.impl.auth.DigestSchemeFactory",
+     "org.apache.http.impl.conn.HttpClientConnectionOperator",
+     "org.apache.http.client.protocol.RequestTargetAuthentication",
+     "org.apache.http.client.methods.HttpPut",
+     "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1",
+     "org.apache.http.impl.conn.DefaultClientConnectionOperator",
+     "org.apache.http.auth.AuthSchemeRegistry$1",
+     "org.apache.http.impl.conn.ConnectionShutdownException",
+     "org.apache.http.conn.params.ConnPerRoute",
+     "org.apache.http.client.protocol.ResponseContentEncoding",
+     "org.apache.http.impl.client.DefaultBackoffStrategy",
+     "org.apache.http.auth.AuthSchemeProvider",
+     "org.apache.http.impl.conn.LoggingManagedHttpClientConnection",
+     "org.apache.http.impl.auth.HttpAuthenticator$1",
+     "org.apache.http.impl.conn.SingleClientConnManager$1",
+     "org.apache.http.client.methods.RequestBuilder$InternalEntityEclosingRequest",
+     "org.apache.http.impl.conn.tsccm.BasicPoolEntryRef",
+     "org.apache.http.client.params.HttpClientParamConfig",
+     "org.apache.http.impl.cookie.BestMatchSpec",
+     "org.apache.http.client.config.RequestConfig",
+     "org.apache.http.impl.cookie.CookieSpecBase",
+     "org.apache.http.impl.cookie.DateParseException",
+     "org.apache.http.impl.cookie.NetscapeDraftSpecFactory",
+     "org.apache.http.conn.ssl.PrivateKeyDetails",
+     "org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1",
+     "org.apache.http.impl.conn.BasicClientConnectionManager",
+     "org.apache.http.conn.HttpInetSocketAddress",
+     "org.apache.http.conn.ClientConnectionManager",
+     "org.apache.http.client.utils.URIBuilder",
+     "org.apache.http.cookie.CookieRestrictionViolationException",
+     "org.apache.http.client.protocol.RequestAuthenticationBase",
+     "org.apache.http.conn.params.ConnRoutePNames",
+     "org.apache.http.cookie.CookieSpecProvider",
+     "org.apache.http.client.AuthenticationStrategy",
+     "org.apache.http.cookie.SetCookie2",
+     "org.apache.http.conn.socket.ConnectionSocketFactory",
+     "org.apache.http.client.utils.JdkIdn",
+     "org.apache.http.conn.routing.RouteInfo$LayerType",
+     "org.apache.http.impl.cookie.PublicSuffixListParser",
+     "org.apache.http.impl.cookie.RFC2109DomainHandler",
+     "org.apache.http.client.protocol.RequestProxyAuthentication",
+     "org.apache.http.impl.client.AutoRetryHttpClient",
+     "org.apache.http.impl.cookie.BrowserCompatVersionAttributeHandler",
+     "org.apache.http.client.utils.Punycode",
+     "org.apache.http.client.config.AuthSchemes",
+     "org.apache.http.impl.conn.ManagedHttpClientConnectionFactory",
+     "org.apache.http.impl.conn.LoggingSessionInputBuffer",
+     "org.apache.http.client.methods.AbortableHttpRequest",
+     "org.apache.http.impl.conn.tsccm.BasicPoolEntry",
+     "org.apache.http.impl.client.MinimalHttpClient",
+     "org.apache.http.conn.scheme.LayeredSocketFactoryAdaptor",
+     "org.apache.http.impl.auth.NTLMEngineImpl$Type3Message",
+     "org.apache.http.auth.params.AuthParamBean",
+     "org.apache.http.impl.client.DefaultProxyAuthenticationHandler",
+     "org.apache.http.auth.AuthSchemeFactory",
+     "org.apache.http.impl.conn.PoolingClientConnectionManager",
+     "org.apache.http.impl.client.DefaultServiceUnavailableRetryStrategy",
+     "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$ConfigData",
+     "org.apache.http.client.entity.LazyDecompressingInputStream",
+     "org.apache.http.client.utils.DateUtils$DateFormatHolder$1",
+     "org.apache.http.impl.cookie.RFC2965Spec",
+     "org.apache.http.impl.cookie.RFC2109Spec",
+     "org.apache.http.impl.auth.NTLMSchemeFactory",
+     "org.apache.http.impl.auth.NTLMEngineImpl$NTLMMessage",
+     "org.apache.http.impl.client.BasicAuthCache",
+     "org.apache.http.impl.cookie.RFC2109SpecFactory",
+     "org.apache.http.auth.NTUserPrincipal",
+     "org.apache.http.impl.cookie.BrowserCompatSpecFactory",
+     "org.apache.http.conn.ClientConnectionManagerFactory",
+     "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+     "org.apache.http.impl.client.CloseableHttpResponseProxy",
+     "org.apache.http.impl.conn.IdleConnectionHandler$TimeValues",
+     "org.apache.http.impl.client.SystemClock",
+     "org.apache.http.auth.AUTH",
+     "org.apache.http.impl.auth.GGSSchemeBase$State",
+     "org.apache.http.impl.cookie.BasicExpiresHandler",
+     "org.apache.http.impl.execchain.ResponseEntityProxy",
+     "org.apache.http.conn.ssl.StrictHostnameVerifier",
+     "org.apache.http.auth.AuthOption",
+     "org.apache.http.client.entity.DecompressingEntity",
+     "org.apache.http.client.protocol.ResponseAuthCache",
+     "org.apache.http.client.protocol.ResponseAuthCache$1",
+     "org.apache.http.impl.auth.SpnegoTokenGenerator",
+     "org.apache.http.conn.routing.HttpRoutePlanner",
+     "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+     "org.apache.http.impl.cookie.BestMatchSpecFactory",
+     "org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy",
+     "org.apache.http.impl.auth.NTLMEngine",
+     "org.apache.http.conn.params.ConnManagerParamBean",
+     "org.apache.http.conn.OperatedClientConnection",
+     "org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor2",
+     "org.apache.http.conn.scheme.Scheme",
+     "org.apache.http.conn.ssl.BrowserCompatHostnameVerifier",
+     "org.apache.http.auth.ChallengeState",
+     "org.apache.http.impl.auth.DigestScheme",
+     "org.apache.http.client.config.RequestConfig$Builder",
+     "org.apache.http.auth.AuthState",
+     "org.apache.http.auth.AuthenticationException",
+     "org.apache.http.impl.conn.DefaultResponseParser",
+     "org.apache.http.impl.client.HttpClients",
+     "org.apache.http.impl.client.HttpRequestFutureTask",
+     "org.apache.http.conn.routing.HttpRoute",
+     "org.apache.http.impl.auth.NegotiateSchemeFactory",
+     "org.apache.http.client.methods.HttpDelete",
+     "org.apache.http.impl.conn.CPoolEntry",
+     "org.apache.http.client.CookieStore",
+     "org.apache.http.auth.InvalidCredentialsException",
+     "org.apache.http.impl.cookie.BrowserCompatSpec$1",
+     "org.apache.http.client.methods.CloseableHttpResponse",
+     "org.apache.http.impl.cookie.BrowserCompatSpec$2",
+     "org.apache.http.conn.socket.PlainConnectionSocketFactory",
+     "org.apache.http.client.utils.Idn",
+     "org.apache.http.impl.client.DefaultRedirectHandler",
+     "org.apache.http.impl.auth.GGSSchemeBase$1",
+     "org.apache.http.client.HttpRequestRetryHandler",
+     "org.apache.http.client.params.AuthPolicy",
+     "org.apache.http.impl.cookie.NetscapeDraftSpec",
+     "org.apache.http.conn.ssl.TrustStrategy",
+     "org.apache.http.client.ServiceUnavailableRetryStrategy",
+     "org.apache.http.impl.client.InternalHttpClient",
+     "org.apache.http.client.methods.HttpExecutionAware",
+     "org.apache.http.conn.ManagedClientConnection",
+     "org.apache.http.auth.UsernamePasswordCredentials",
+     "org.apache.http.impl.execchain.RetryExec",
+     "org.apache.http.impl.conn.IdleConnectionHandler",
+     "org.apache.http.conn.params.ConnConnectionParamBean",
+     "org.apache.http.conn.routing.RouteInfo",
+     "org.apache.http.impl.cookie.RFC2965DomainAttributeHandler",
+     "org.apache.http.cookie.params.CookieSpecParamBean"
+    ],
+    "usedTypes": [
+     "org.apache.http.client.ClientProtocolException",
+     "org.apache.http.client.methods.HttpPost",
+     "org.apache.http.impl.client.CloseableHttpClient",
+     "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+     "org.apache.http.conn.ssl.SSLContexts",
+     "org.apache.http.client.protocol.HttpClientContext",
+     "org.apache.http.client.methods.HttpUriRequest",
+     "org.apache.http.conn.ssl.SSLContextBuilder",
+     "org.apache.http.conn.ConnectTimeoutException",
+     "org.apache.http.client.methods.RequestBuilder",
+     "org.apache.http.client.methods.CloseableHttpResponse",
+     "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+     "org.apache.http.impl.client.HttpClientBuilder",
+     "org.apache.http.client.ResponseHandler",
+     "org.apache.http.client.HttpRequestRetryHandler",
+     "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+     "org.apache.http.impl.client.HttpClients"
+    ],
+    "usageRatio": 0.04047619047619048,
+    "children": [
+     {
+      "id": "org.apache.httpcomponents:httpcore:jar:4.3.3:compile",
+      "coordinates": "org.apache.httpcomponents:httpcore:4.3.3",
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore",
+      "version": "4.3.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 282793,
+      "type": "transitive",
+      "status": "used",
+      "parent": "org.apache.httpcomponents:httpclient:jar:4.3.6:compile",
+      "allTypes": [
+       "org.apache.http.io.HttpMessageParserFactory",
+       "org.apache.http.message.HeaderValueParser",
+       "org.apache.http.protocol.HttpExpectationVerifier",
+       "org.apache.http.impl.HttpConnectionMetricsImpl",
+       "org.apache.http.UnsupportedHttpVersionException",
+       "org.apache.http.impl.io.HttpRequestWriter",
+       "org.apache.http.protocol.HttpRequestHandlerResolver",
+       "org.apache.http.impl.entity.DisallowIdentityContentLengthStrategy",
+       "org.apache.http.impl.DefaultBHttpClientConnectionFactory",
+       "org.apache.http.annotation.Immutable",
+       "org.apache.http.config.Registry",
+       "org.apache.http.protocol.DefaultedHttpContext",
+       "org.apache.http.io.EofSensor",
+       "org.apache.http.params.DefaultedHttpParams",
+       "org.apache.http.config.SocketConfig$Builder",
+       "org.apache.http.impl.io.SocketInputBuffer",
+       "org.apache.http.HttpHeaders",
+       "org.apache.http.MessageConstraintException",
+       "org.apache.http.protocol.UriPatternMatcher",
+       "org.apache.http.impl.io.DefaultHttpResponseParserFactory",
+       "org.apache.http.impl.pool.BasicPoolEntry",
+       "org.apache.http.HttpException",
+       "org.apache.http.pool.AbstractConnPool$1",
+       "org.apache.http.pool.AbstractConnPool$2",
+       "org.apache.http.pool.AbstractConnPool$3",
+       "org.apache.http.pool.AbstractConnPool$4",
+       "org.apache.http.concurrent.BasicFuture",
+       "org.apache.http.impl.DefaultBHttpServerConnection",
+       "org.apache.http.pool.RouteSpecificPool",
+       "org.apache.http.ContentTooLongException",
+       "org.apache.http.impl.SocketHttpServerConnection",
+       "org.apache.http.config.RegistryBuilder",
+       "org.apache.http.params.AbstractHttpParams",
+       "org.apache.http.params.HttpConnectionParams",
+       "org.apache.http.io.HttpTransportMetrics",
+       "org.apache.http.message.BasicTokenIterator",
+       "org.apache.http.message.BasicHttpRequest",
+       "org.apache.http.message.BasicHttpResponse",
+       "org.apache.http.impl.DefaultHttpServerConnection",
+       "org.apache.http.impl.io.ContentLengthInputStream",
+       "org.apache.http.io.HttpMessageParser",
+       "org.apache.http.impl.BHttpConnectionBase",
+       "org.apache.http.pool.PoolStats",
+       "org.apache.http.HttpConnectionMetrics",
+       "org.apache.http.io.HttpMessageWriter",
+       "org.apache.http.HttpClientConnection",
+       "org.apache.http.concurrent.FutureCallback",
+       "org.apache.http.pool.ConnPool",
+       "org.apache.http.impl.io.AbstractSessionInputBuffer",
+       "org.apache.http.protocol.HttpProcessor",
+       "org.apache.http.protocol.ResponseServer",
+       "org.apache.http.impl.io.AbstractMessageParser",
+       "org.apache.http.impl.io.ChunkedInputStream",
+       "org.apache.http.params.HttpProtocolParamBean",
+       "org.apache.http.protocol.HttpContext",
+       "org.apache.http.params.HttpParams",
+       "org.apache.http.HttpResponse",
+       "org.apache.http.entity.SerializableEntity",
+       "org.apache.http.message.HeaderGroup",
+       "org.apache.http.impl.io.DefaultHttpRequestWriterFactory",
+       "org.apache.http.config.MessageConstraints",
+       "org.apache.http.impl.DefaultHttpRequestFactory",
+       "org.apache.http.Header",
+       "org.apache.http.params.CoreConnectionPNames",
+       "org.apache.http.util.EntityUtils",
+       "org.apache.http.protocol.HttpRequestHandler",
+       "org.apache.http.message.BasicHttpEntityEnclosingRequest",
+       "org.apache.http.HttpConnectionFactory",
+       "org.apache.http.impl.NoConnectionReuseStrategy",
+       "org.apache.http.protocol.ChainBuilder",
+       "org.apache.http.entity.ContentProducer",
+       "org.apache.http.util.ByteArrayBuffer",
+       "org.apache.http.HttpEntity",
+       "org.apache.http.pool.PoolEntryCallback",
+       "org.apache.http.entity.StringEntity",
+       "org.apache.http.pool.PoolEntryFuture",
+       "org.apache.http.impl.DefaultConnectionReuseStrategy",
+       "org.apache.http.params.HttpAbstractParamBean",
+       "org.apache.http.impl.pool.BasicConnFactory",
+       "org.apache.http.pool.ConnFactory",
+       "org.apache.http.impl.entity.EntityDeserializer",
+       "org.apache.http.protocol.BasicHttpContext",
+       "org.apache.http.entity.BasicHttpEntity",
+       "org.apache.http.util.NetUtils",
+       "org.apache.http.impl.ConnSupport",
+       "org.apache.http.HttpVersion",
+       "org.apache.http.config.ConnectionConfig$Builder",
+       "org.apache.http.protocol.HttpService",
+       "org.apache.http.protocol.UriHttpRequestHandlerMapper",
+       "org.apache.http.impl.io.IdentityInputStream",
+       "org.apache.http.message.BasicListHeaderIterator",
+       "org.apache.http.message.BasicHeaderElementIterator",
+       "org.apache.http.message.BasicStatusLine",
+       "org.apache.http.impl.io.DefaultHttpRequestWriter",
+       "org.apache.http.params.CoreProtocolPNames",
+       "org.apache.http.HttpRequestFactory",
+       "org.apache.http.FormattedHeader",
+       "org.apache.http.message.AbstractHttpMessage",
+       "org.apache.http.HttpEntityEnclosingRequest",
+       "org.apache.http.entity.AbstractHttpEntity",
+       "org.apache.http.ReasonPhraseCatalog",
+       "org.apache.http.impl.io.HttpTransportMetricsImpl",
+       "org.apache.http.entity.HttpEntityWrapper",
+       "org.apache.http.HttpResponseFactory",
+       "org.apache.http.annotation.ThreadSafe",
+       "org.apache.http.protocol.HttpResponseInterceptorList",
+       "org.apache.http.impl.entity.LaxContentLengthStrategy",
+       "org.apache.http.impl.io.ChunkedOutputStream",
+       "org.apache.http.impl.io.DefaultHttpRequestParserFactory",
+       "org.apache.http.ConnectionReuseStrategy",
+       "org.apache.http.message.BasicHeader",
+       "org.apache.http.ConnectionClosedException",
+       "org.apache.http.impl.entity.StrictContentLengthStrategy",
+       "org.apache.http.message.BasicLineParser",
+       "org.apache.http.util.LangUtils",
+       "org.apache.http.config.SocketConfig",
+       "org.apache.http.util.Asserts",
+       "org.apache.http.StatusLine",
+       "org.apache.http.impl.DefaultBHttpClientConnection",
+       "org.apache.http.params.HttpConnectionParamBean",
+       "org.apache.http.impl.DefaultHttpResponseFactory",
+       "org.apache.http.io.SessionOutputBuffer",
+       "org.apache.http.RequestLine",
+       "org.apache.http.impl.io.SessionOutputBufferImpl",
+       "org.apache.http.protocol.RequestContent",
+       "org.apache.http.config.Lookup",
+       "org.apache.http.HttpMessage",
+       "org.apache.http.message.HeaderValueFormatter",
+       "org.apache.http.HeaderElementIterator",
+       "org.apache.http.HttpRequestInterceptor",
+       "org.apache.http.protocol.BasicHttpProcessor",
+       "org.apache.http.pool.AbstractConnPool",
+       "org.apache.http.HeaderIterator",
+       "org.apache.http.TruncatedChunkException",
+       "org.apache.http.entity.EntityTemplate",
+       "org.apache.http.impl.DefaultBHttpServerConnectionFactory",
+       "org.apache.http.HttpInetConnection",
+       "org.apache.http.entity.ContentType",
+       "org.apache.http.message.LineFormatter",
+       "org.apache.http.entity.FileEntity",
+       "org.apache.http.HttpRequest",
+       "org.apache.http.pool.ConnPoolControl",
+       "org.apache.http.impl.io.DefaultHttpResponseParser",
+       "org.apache.http.params.SyncBasicHttpParams",
+       "org.apache.http.protocol.HttpRequestHandlerRegistry",
+       "org.apache.http.params.HttpParamConfig",
+       "org.apache.http.protocol.RequestTargetHost",
+       "org.apache.http.HttpServerConnection",
+       "org.apache.http.pool.PoolEntry",
+       "org.apache.http.impl.entity.EntitySerializer",
+       "org.apache.http.message.BasicHeaderValueParser",
+       "org.apache.http.message.BasicLineFormatter",
+       "org.apache.http.protocol.HttpRequestExecutor",
+       "org.apache.http.entity.ByteArrayEntity",
+       "org.apache.http.io.SessionInputBuffer",
+       "org.apache.http.impl.AbstractHttpServerConnection",
+       "org.apache.http.impl.DefaultHttpClientConnection",
+       "org.apache.http.protocol.ResponseContent",
+       "org.apache.http.protocol.ImmutableHttpProcessor",
+       "org.apache.http.protocol.HTTP",
+       "org.apache.http.impl.io.SocketOutputBuffer",
+       "org.apache.http.protocol.RequestExpectContinue",
+       "org.apache.http.TokenIterator",
+       "org.apache.http.protocol.HttpService$HttpRequestHandlerResolverAdapter",
+       "org.apache.http.impl.SocketHttpClientConnection",
+       "org.apache.http.protocol.HttpCoreContext",
+       "org.apache.http.impl.pool.BasicConnPool",
+       "org.apache.http.ProtocolVersion",
+       "org.apache.http.protocol.SyncBasicHttpContext",
+       "org.apache.http.message.BasicHeaderValueFormatter",
+       "org.apache.http.protocol.ExecutionContext",
+       "org.apache.http.protocol.HttpRequestHandlerMapper",
+       "org.apache.http.util.ExceptionUtils",
+       "org.apache.http.util.VersionInfo",
+       "org.apache.http.util.EncodingUtils",
+       "org.apache.http.entity.InputStreamEntity",
+       "org.apache.http.impl.io.HttpResponseWriter",
+       "org.apache.http.HttpHost",
+       "org.apache.http.ProtocolException",
+       "org.apache.http.impl.io.HttpRequestParser",
+       "org.apache.http.MalformedChunkCodingException",
+       "org.apache.http.params.BasicHttpParams",
+       "org.apache.http.message.BasicHeaderElement",
+       "org.apache.http.HttpStatus",
+       "org.apache.http.NoHttpResponseException",
+       "org.apache.http.protocol.RequestConnControl",
+       "org.apache.http.io.HttpMessageWriterFactory",
+       "org.apache.http.concurrent.Cancellable",
+       "org.apache.http.impl.io.ContentLengthOutputStream",
+       "org.apache.http.protocol.HttpDateGenerator",
+       "org.apache.http.entity.ContentLengthStrategy",
+       "org.apache.http.protocol.HttpProcessorBuilder",
+       "org.apache.http.Consts",
+       "org.apache.http.protocol.ResponseConnControl",
+       "org.apache.http.impl.AbstractHttpClientConnection",
+       "org.apache.http.message.LineParser",
+       "org.apache.http.params.HttpParamsNames",
+       "org.apache.http.params.HttpProtocolParams",
+       "org.apache.http.util.Args",
+       "org.apache.http.impl.io.AbstractMessageWriter",
+       "org.apache.http.protocol.RequestUserAgent",
+       "org.apache.http.message.BufferedHeader",
+       "org.apache.http.config.ConnectionConfig",
+       "org.apache.http.impl.io.HttpResponseParser",
+       "org.apache.http.HttpResponseInterceptor",
+       "org.apache.http.util.TextUtils",
+       "org.apache.http.impl.EnglishReasonPhraseCatalog",
+       "org.apache.http.config.MessageConstraints$Builder",
+       "org.apache.http.annotation.NotThreadSafe",
+       "org.apache.http.entity.BufferedHttpEntity",
+       "org.apache.http.NameValuePair",
+       "org.apache.http.protocol.RequestDate",
+       "org.apache.http.message.BasicNameValuePair",
+       "org.apache.http.impl.io.DefaultHttpRequestParser",
+       "org.apache.http.message.BasicHeaderIterator",
+       "org.apache.http.io.BufferInfo",
+       "org.apache.http.impl.io.IdentityOutputStream",
+       "org.apache.http.protocol.HttpRequestInterceptorList",
+       "org.apache.http.ParseException",
+       "org.apache.http.message.BasicRequestLine",
+       "org.apache.http.MethodNotSupportedException",
+       "org.apache.http.impl.io.AbstractSessionOutputBuffer",
+       "org.apache.http.HeaderElement",
+       "org.apache.http.protocol.ResponseDate",
+       "org.apache.http.impl.io.SessionInputBufferImpl",
+       "org.apache.http.util.CharsetUtils",
+       "org.apache.http.impl.io.DefaultHttpResponseWriterFactory",
+       "org.apache.http.util.CharArrayBuffer",
+       "org.apache.http.impl.io.DefaultHttpResponseWriter",
+       "org.apache.http.annotation.GuardedBy",
+       "org.apache.http.HttpConnection",
+       "org.apache.http.message.ParserCursor"
+      ],
+      "usedTypes": [
+       "org.apache.http.HttpEntityEnclosingRequest",
+       "org.apache.http.ParseException",
+       "org.apache.http.HttpEntity",
+       "org.apache.http.entity.ContentType",
+       "org.apache.http.config.SocketConfig",
+       "org.apache.http.entity.StringEntity",
+       "org.apache.http.Header",
+       "org.apache.http.HttpRequest",
+       "org.apache.http.StatusLine",
+       "org.apache.http.util.EntityUtils",
+       "org.apache.http.protocol.HttpContext",
+       "org.apache.http.message.BasicHeader",
+       "org.apache.http.config.SocketConfig$Builder",
+       "org.apache.http.HttpResponse",
+       "org.apache.http.HttpHeaders"
+      ],
+      "usageRatio": 0.06465517241379311,
+      "children": []
+     },
+     {
+      "id": "commons-logging:commons-logging:jar:1.1.3:compile",
+      "coordinates": "commons-logging:commons-logging:1.1.3",
+      "groupId": "commons-logging",
+      "artifactId": "commons-logging",
+      "version": "1.1.3",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 62050,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "org.apache.httpcomponents:httpclient:jar:4.3.6:compile",
+      "allTypes": [
+       "org.apache.commons.logging.impl.WeakHashtable$WeakKey",
+       "org.apache.commons.logging.impl.SimpleLog",
+       "org.apache.commons.logging.impl.Log4JLogger",
+       "org.apache.commons.logging.impl.WeakHashtable$1",
+       "org.apache.commons.logging.LogFactory$1",
+       "org.apache.commons.logging.LogFactory$2",
+       "org.apache.commons.logging.LogSource",
+       "org.apache.commons.logging.impl.LogFactoryImpl",
+       "org.apache.commons.logging.impl.AvalonLogger",
+       "org.apache.commons.logging.impl.ServletContextCleaner",
+       "org.apache.commons.logging.impl.NoOpLog",
+       "org.apache.commons.logging.LogFactory$5",
+       "org.apache.commons.logging.LogFactory$6",
+       "org.apache.commons.logging.LogFactory$3",
+       "org.apache.commons.logging.LogFactory$4",
+       "org.apache.commons.logging.impl.LogKitLogger",
+       "org.apache.commons.logging.impl.WeakHashtable$Referenced",
+       "org.apache.commons.logging.impl.Jdk13LumberjackLogger",
+       "org.apache.commons.logging.impl.WeakHashtable$Entry",
+       "org.apache.commons.logging.impl.WeakHashtable",
+       "org.apache.commons.logging.impl.LogFactoryImpl$3",
+       "org.apache.commons.logging.impl.LogFactoryImpl$2",
+       "org.apache.commons.logging.impl.LogFactoryImpl$1",
+       "org.apache.commons.logging.impl.SimpleLog$1",
+       "org.apache.commons.logging.Log",
+       "org.apache.commons.logging.LogFactory",
+       "org.apache.commons.logging.impl.Jdk14Logger",
+       "org.apache.commons.logging.LogConfigurationException"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     },
+     {
+      "id": "commons-codec:commons-codec:jar:1.6:compile",
+      "coordinates": "commons-codec:commons-codec:1.6",
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "version": "1.6",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 232771,
+      "type": "transitive",
+      "status": "used",
+      "parent": "org.apache.httpcomponents:httpclient:jar:4.3.6:compile",
+      "allTypes": [
+       "org.apache.commons.codec.language.bm.Rule",
+       "org.apache.commons.codec.EncoderException",
+       "org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult",
+       "org.apache.commons.codec.StringEncoderComparator",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$2",
+       "org.apache.commons.codec.language.bm.PhoneticEngine",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$1",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneBuffer",
+       "org.apache.commons.codec.language.SoundexUtils",
+       "org.apache.commons.codec.net.Utils",
+       "org.apache.commons.codec.binary.Base32InputStream",
+       "org.apache.commons.codec.binary.BaseNCodecOutputStream",
+       "org.apache.commons.codec.language.bm.Rule$Phoneme",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer",
+       "org.apache.commons.codec.binary.Base64",
+       "org.apache.commons.codec.language.bm.ResourceConstants",
+       "org.apache.commons.codec.language.Caverphone1",
+       "org.apache.commons.codec.language.bm.Languages$2",
+       "org.apache.commons.codec.language.Caverphone2",
+       "org.apache.commons.codec.language.bm.Lang",
+       "org.apache.commons.codec.language.Caverphone",
+       "org.apache.commons.codec.net.BCodec",
+       "org.apache.commons.codec.language.bm.Languages$1",
+       "org.apache.commons.codec.binary.Base32OutputStream",
+       "org.apache.commons.codec.binary.BaseNCodec",
+       "org.apache.commons.codec.Encoder",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$RulesApplication",
+       "org.apache.commons.codec.DecoderException",
+       "org.apache.commons.codec.binary.BinaryCodec",
+       "org.apache.commons.codec.language.bm.Rule$PhonemeExpr",
+       "org.apache.commons.codec.language.bm.Lang$LangRule",
+       "org.apache.commons.codec.language.AbstractCaverphone",
+       "org.apache.commons.codec.net.QuotedPrintableCodec",
+       "org.apache.commons.codec.BinaryDecoder",
+       "org.apache.commons.codec.binary.Base32",
+       "org.apache.commons.codec.binary.Base64InputStream",
+       "org.apache.commons.codec.language.bm.NameType",
+       "org.apache.commons.codec.net.RFC1522Codec",
+       "org.apache.commons.codec.BinaryEncoder",
+       "org.apache.commons.codec.binary.Hex",
+       "org.apache.commons.codec.net.QCodec",
+       "org.apache.commons.codec.StringDecoder",
+       "org.apache.commons.codec.language.bm.Languages$LanguageSet",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder",
+       "org.apache.commons.codec.language.bm.Rule$10",
+       "org.apache.commons.codec.Decoder",
+       "org.apache.commons.codec.language.bm.Languages",
+       "org.apache.commons.codec.language.bm.Lang$1",
+       "org.apache.commons.codec.binary.Base64OutputStream",
+       "org.apache.commons.codec.language.Metaphone",
+       "org.apache.commons.codec.language.RefinedSoundex",
+       "org.apache.commons.codec.language.Soundex",
+       "org.apache.commons.codec.language.bm.Rule$Phoneme$1",
+       "org.apache.commons.codec.language.bm.Rule$RPattern",
+       "org.apache.commons.codec.StringEncoder",
+       "org.apache.commons.codec.language.bm.BeiderMorseEncoder",
+       "org.apache.commons.codec.language.bm.Rule$8",
+       "org.apache.commons.codec.language.bm.Rule$7",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer",
+       "org.apache.commons.codec.language.DoubleMetaphone",
+       "org.apache.commons.codec.language.bm.Rule$9",
+       "org.apache.commons.codec.language.bm.Rule$4",
+       "org.apache.commons.codec.language.bm.Rule$3",
+       "org.apache.commons.codec.binary.BaseNCodecInputStream",
+       "org.apache.commons.codec.language.bm.Rule$6",
+       "org.apache.commons.codec.CharEncoding",
+       "org.apache.commons.codec.language.bm.Rule$5",
+       "org.apache.commons.codec.language.bm.Rule$2",
+       "org.apache.commons.codec.net.URLCodec",
+       "org.apache.commons.codec.language.bm.Rule$1",
+       "org.apache.commons.codec.binary.StringUtils",
+       "org.apache.commons.codec.digest.DigestUtils",
+       "org.apache.commons.codec.language.ColognePhonetic",
+       "org.apache.commons.codec.language.bm.Rule$PhonemeList",
+       "org.apache.commons.codec.language.bm.RuleType",
+       "org.apache.commons.codec.language.bm.Languages$SomeLanguages"
+      ],
+      "usedTypes": [
+       "org.apache.commons.codec.binary.Hex",
+       "org.apache.commons.codec.digest.DigestUtils",
+       "org.apache.commons.codec.binary.Base64"
+      ],
+      "usageRatio": 0.039473684210526314,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "org.apache.httpcomponents:httpmime:jar:4.3.6:compile",
+    "coordinates": "org.apache.httpcomponents:httpmime:4.3.6",
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpmime",
+    "version": "4.3.6",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 37272,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "org.apache.http.entity.mime.content.InputStreamBody",
+     "org.apache.http.entity.mime.HttpStrictMultipart",
+     "org.apache.http.entity.mime.MultipartFormEntity",
+     "org.apache.http.entity.mime.MultipartEntityBuilder",
+     "org.apache.http.entity.mime.HttpMultipart$1",
+     "org.apache.http.entity.mime.Header",
+     "org.apache.http.entity.mime.HttpMultipartMode",
+     "org.apache.http.entity.mime.AbstractMultipartForm",
+     "org.apache.http.entity.mime.HttpBrowserCompatibleMultipart",
+     "org.apache.http.entity.mime.MinimalField",
+     "org.apache.http.entity.mime.HttpMultipart",
+     "org.apache.http.entity.mime.MIME",
+     "org.apache.http.entity.mime.HttpRFC6532Multipart",
+     "org.apache.http.entity.mime.content.ContentDescriptor",
+     "org.apache.http.entity.mime.MultipartEntityBuilder$1",
+     "org.apache.http.entity.mime.FormBodyPart",
+     "org.apache.http.entity.mime.content.ByteArrayBody",
+     "org.apache.http.entity.mime.MultipartEntity",
+     "org.apache.http.entity.mime.content.AbstractContentBody",
+     "org.apache.http.entity.mime.content.StringBody",
+     "org.apache.http.entity.mime.content.ContentBody",
+     "org.apache.http.entity.mime.content.FileBody"
+    ],
+    "usedTypes": [
+     "org.apache.http.entity.mime.MultipartEntityBuilder",
+     "org.apache.http.entity.mime.content.FileBody"
+    ],
+    "usageRatio": 0.09090909090909091,
+    "children": [
+     {
+      "id": "org.apache.httpcomponents:httpclient:jar:4.3.6:compile",
+      "coordinates": "org.apache.httpcomponents:httpclient:4.3.6",
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "version": "4.3.6",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 592008,
+      "type": "direct",
+      "status": "used",
+      "parent": "org.apache.httpcomponents:httpmime:jar:4.3.6:compile",
+      "allTypes": [
+       "org.apache.http.conn.scheme.LayeredSocketFactory",
+       "org.apache.http.impl.conn.DefaultHttpResponseParserFactory",
+       "org.apache.http.client.methods.HttpPatch",
+       "org.apache.http.impl.cookie.BasicClientCookie2",
+       "org.apache.http.impl.auth.KerberosScheme",
+       "org.apache.http.impl.execchain.RequestAbortedException",
+       "org.apache.http.impl.execchain.ProtocolExec",
+       "org.apache.http.impl.conn.BasicClientConnectionManager$1",
+       "org.apache.http.impl.auth.HttpEntityDigester",
+       "org.apache.http.cookie.MalformedCookieException",
+       "org.apache.http.impl.conn.SystemDefaultDnsResolver",
+       "org.apache.http.conn.ConnectionRequest",
+       "org.apache.http.conn.MultihomePlainSocketFactory",
+       "org.apache.http.impl.client.FutureRequestExecutionMetrics",
+       "org.apache.http.impl.auth.NTLMEngineImpl",
+       "org.apache.http.impl.client.AbstractAuthenticationHandler",
+       "org.apache.http.impl.auth.BasicScheme",
+       "org.apache.http.impl.client.FutureRequestExecutionMetrics$DurationCounter",
+       "org.apache.http.conn.HttpClientConnectionManager",
+       "org.apache.http.client.protocol.RequestAcceptEncoding",
+       "org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper",
+       "org.apache.http.impl.client.RequestWrapper",
+       "org.apache.http.conn.ssl.AllowAllHostnameVerifier",
+       "org.apache.http.impl.auth.NTLMEngineImpl$MD4",
+       "org.apache.http.impl.conn.tsccm.ConnPoolByRoute",
+       "org.apache.http.impl.conn.tsccm.RouteSpecificPool$1",
+       "org.apache.http.impl.client.InternalHttpClient$1",
+       "org.apache.http.impl.conn.tsccm.PoolEntryRequest",
+       "org.apache.http.client.CredentialsProvider",
+       "org.apache.http.client.params.AllClientPNames",
+       "org.apache.http.client.methods.Configurable",
+       "org.apache.http.impl.auth.UnsupportedDigestAlgorithmException",
+       "org.apache.http.client.entity.GzipCompressingEntity",
+       "org.apache.http.impl.conn.PoolingClientConnectionManager$1",
+       "org.apache.http.client.methods.RequestBuilder$InternalRequest",
+       "org.apache.http.client.methods.AbstractExecutionAwareRequest$2",
+       "org.apache.http.impl.execchain.RequestEntityProxy",
+       "org.apache.http.conn.ssl.AbstractVerifier",
+       "org.apache.http.client.methods.AbstractExecutionAwareRequest$1",
+       "org.apache.http.conn.ssl.SSLContextBuilder$TrustManagerDelegate",
+       "org.apache.http.auth.Credentials",
+       "org.apache.http.impl.client.DefaultRedirectStrategyAdaptor",
+       "org.apache.http.impl.conn.DefaultClientConnection",
+       "org.apache.http.impl.execchain.RedirectExec",
+       "org.apache.http.impl.client.TunnelRefusedException",
+       "org.apache.http.conn.ssl.SSLContexts",
+       "org.apache.http.conn.routing.HttpRouteDirector",
+       "org.apache.http.impl.client.RoutedRequest",
+       "org.apache.http.auth.AuthProtocolState",
+       "org.apache.http.impl.cookie.DateUtils",
+       "org.apache.http.conn.scheme.HostNameResolver",
+       "org.apache.http.conn.routing.BasicRouteDirector",
+       "org.apache.http.client.NonRepeatableRequestException",
+       "org.apache.http.impl.client.AIMDBackoffManager",
+       "org.apache.http.impl.client.AuthenticationStrategyImpl",
+       "org.apache.http.client.entity.GzipDecompressingEntity",
+       "org.apache.http.client.RedirectHandler",
+       "org.apache.http.impl.client.DefaultHttpClient",
+       "org.apache.http.impl.client.LaxRedirectStrategy",
+       "org.apache.http.impl.auth.NTLMEngineImpl$HMACMD5",
+       "org.apache.http.conn.scheme.LayeredSchemeSocketFactory",
+       "org.apache.http.conn.scheme.SchemeLayeredSocketFactory",
+       "org.apache.http.impl.conn.Wire",
+       "org.apache.http.cookie.CookieSpecFactory",
+       "org.apache.http.conn.ConnectionKeepAliveStrategy",
+       "org.apache.http.impl.client.DefaultRedirectStrategy",
+       "org.apache.http.impl.conn.tsccm.WaitingThread",
+       "org.apache.http.impl.auth.NTLMEngineImpl$CipherGen",
+       "org.apache.http.conn.params.ConnPerRouteBean",
+       "org.apache.http.conn.BasicEofSensorWatcher",
+       "org.apache.http.client.methods.HttpRequestBase",
+       "org.apache.http.impl.client.RedirectLocations",
+       "org.apache.http.impl.conn.AbstractClientConnAdapter",
+       "org.apache.http.auth.AuthSchemeRegistry",
+       "org.apache.http.conn.ssl.SSLContextBuilder",
+       "org.apache.http.impl.conn.CPoolProxy",
+       "org.apache.http.impl.conn.AbstractPooledConnAdapter",
+       "org.apache.http.impl.execchain.ClientExecChain",
+       "org.apache.http.conn.SchemePortResolver",
+       "org.apache.http.conn.DnsResolver",
+       "org.apache.http.impl.client.TargetAuthenticationStrategy",
+       "org.apache.http.auth.BasicUserPrincipal",
+       "org.apache.http.client.config.CookieSpecs",
+       "org.apache.http.client.methods.HttpRequestWrapper$1",
+       "org.apache.http.impl.client.DefaultTargetAuthenticationHandler",
+       "org.apache.http.client.methods.RequestBuilder",
+       "org.apache.http.impl.auth.AuthSchemeBase",
+       "org.apache.http.impl.client.AbstractHttpClient",
+       "org.apache.http.impl.cookie.BasicPathHandler",
+       "org.apache.http.cookie.params.CookieSpecPNames",
+       "org.apache.http.impl.auth.NegotiateScheme",
+       "org.apache.http.auth.MalformedChallengeException",
+       "org.apache.http.impl.cookie.BasicClientCookie",
+       "org.apache.http.impl.conn.DefaultHttpResponseParser",
+       "org.apache.http.conn.routing.RouteInfo$TunnelType",
+       "org.apache.http.impl.conn.LoggingInputStream",
+       "org.apache.http.impl.conn.SingleClientConnManager$PoolEntry",
+       "org.apache.http.conn.ssl.PrivateKeyStrategy",
+       "org.apache.http.impl.cookie.BrowserCompatSpecFactory$SecurityLevel",
+       "org.apache.http.client.UserTokenHandler",
+       "org.apache.http.conn.HttpRoutedConnection",
+       "org.apache.http.impl.conn.SystemDefaultRoutePlanner$1",
+       "org.apache.http.impl.auth.NTLMScheme",
+       "org.apache.http.client.protocol.RequestDefaultHeaders",
+       "org.apache.http.client.protocol.RequestAuthenticationBase$1",
+       "org.apache.http.conn.ConnectionReleaseTrigger",
+       "org.apache.http.conn.ManagedHttpClientConnection",
+       "org.apache.http.client.methods.HttpPost",
+       "org.apache.http.impl.client.DecompressingHttpClient",
+       "org.apache.http.impl.conn.HttpConnPool",
+       "org.apache.http.client.entity.DeflateDecompressingEntity",
+       "org.apache.http.cookie.CookieSpecRegistry$1",
+       "org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter",
+       "org.apache.http.client.entity.DeflateInputStream",
+       "org.apache.http.cookie.SetCookie",
+       "org.apache.http.conn.HttpConnectionFactory",
+       "org.apache.http.cookie.CookieIdentityComparator",
+       "org.apache.http.impl.conn.tsccm.BasicPooledConnAdapter",
+       "org.apache.http.conn.ssl.SSLSocketFactory",
+       "org.apache.http.client.AuthCache",
+       "org.apache.http.impl.conn.InMemoryDnsResolver",
+       "org.apache.http.conn.params.ConnRouteParams",
+       "org.apache.http.impl.client.ProxyClient",
+       "org.apache.http.conn.scheme.SchemeSocketFactory",
+       "org.apache.http.client.methods.HttpOptions",
+       "org.apache.http.impl.execchain.HttpResponseProxy",
+       "org.apache.http.client.AuthenticationHandler",
+       "org.apache.http.client.BackoffManager",
+       "org.apache.http.impl.conn.BasicHttpClientConnectionManager",
+       "org.apache.http.client.utils.URLEncodedUtils",
+       "org.apache.http.impl.conn.HttpPoolEntry",
+       "org.apache.http.conn.params.ConnManagerPNames",
+       "org.apache.http.impl.conn.BasicHttpClientConnectionManager$1",
+       "org.apache.http.impl.client.SystemDefaultCredentialsProvider",
+       "org.apache.http.impl.cookie.AbstractCookieAttributeHandler",
+       "org.apache.http.client.RedirectException",
+       "org.apache.http.client.methods.HttpUriRequest",
+       "org.apache.http.client.methods.HttpRequestWrapper",
+       "org.apache.http.conn.params.ConnConnectionPNames",
+       "org.apache.http.auth.ContextAwareAuthScheme",
+       "org.apache.http.impl.cookie.IgnoreSpecFactory",
+       "org.apache.http.impl.cookie.BasicSecureHandler",
+       "org.apache.http.impl.conn.ProxySelectorRoutePlanner$1",
+       "org.apache.http.impl.auth.HttpAuthenticator",
+       "org.apache.http.impl.cookie.NetscapeDomainHandler",
+       "org.apache.http.impl.client.FutureRequestExecutionService",
+       "org.apache.http.impl.execchain.MinimalClientExec",
+       "org.apache.http.conn.ConnectTimeoutException",
+       "org.apache.http.impl.client.EntityEnclosingRequestWrapper",
+       "org.apache.http.client.HttpClient",
+       "org.apache.http.impl.client.BasicResponseHandler",
+       "org.apache.http.impl.conn.ProxySelectorRoutePlanner",
+       "org.apache.http.impl.conn.tsccm.WaitingThreadAborter",
+       "org.apache.http.cookie.Cookie",
+       "org.apache.http.client.methods.HttpTrace",
+       "org.apache.http.impl.auth.SPNegoSchemeFactory",
+       "org.apache.http.cookie.SM",
+       "org.apache.http.impl.execchain.BackoffStrategyExec",
+       "org.apache.http.client.methods.HttpRequestWrapper$HttpEntityEnclosingRequestWrapper",
+       "org.apache.http.impl.conn.CPool",
+       "org.apache.http.client.utils.URIUtils",
+       "org.apache.http.client.protocol.RequestExpectContinue",
+       "org.apache.http.impl.conn.SingleClientConnManager",
+       "org.apache.http.auth.AuthScope",
+       "org.apache.http.impl.cookie.RFC2109VersionHandler",
+       "org.apache.http.conn.UnsupportedSchemeException",
+       "org.apache.http.client.protocol.HttpClientContext",
+       "org.apache.http.auth.params.AuthPNames",
+       "org.apache.http.impl.cookie.RFC2965DiscardAttributeHandler",
+       "org.apache.http.conn.params.ConnManagerParams$1",
+       "org.apache.http.impl.client.ProxyAuthenticationStrategy",
+       "org.apache.http.conn.ssl.SSLContextBuilder$KeyManagerDelegate",
+       "org.apache.http.auth.NTCredentials",
+       "org.apache.http.impl.execchain.MainClientExec",
+       "org.apache.http.impl.execchain.TunnelRefusedException",
+       "org.apache.http.conn.ssl.SSLInitializationException",
+       "org.apache.http.conn.socket.LayeredConnectionSocketFactory",
+       "org.apache.http.cookie.CookieAttributeHandler",
+       "org.apache.http.impl.client.MinimalHttpClient$1",
+       "org.apache.http.impl.cookie.IgnoreSpec",
+       "org.apache.http.client.protocol.RequestAddCookies",
+       "org.apache.http.impl.conn.ManagedClientConnectionImpl",
+       "org.apache.http.client.utils.HttpClientUtils",
+       "org.apache.http.client.utils.DateUtils",
+       "org.apache.http.impl.conn.DefaultRoutePlanner",
+       "org.apache.http.client.RequestDirector",
+       "org.apache.http.conn.ClientConnectionRequest",
+       "org.apache.http.impl.conn.LoggingOutputStream",
+       "org.apache.http.impl.auth.BasicSchemeFactory",
+       "org.apache.http.impl.client.HttpRequestTaskCallable",
+       "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager",
+       "org.apache.http.impl.auth.GGSSchemeBase",
+       "org.apache.http.conn.scheme.SchemeRegistry",
+       "org.apache.http.impl.client.CloseableHttpClient",
+       "org.apache.http.impl.client.ContentEncodingHttpClient",
+       "org.apache.http.client.protocol.ResponseProcessCookies",
+       "org.apache.http.impl.client.NullBackoffStrategy",
+       "org.apache.http.client.HttpResponseException",
+       "org.apache.http.client.ConnectionBackoffStrategy",
+       "org.apache.http.impl.cookie.AbstractCookieSpec",
+       "org.apache.http.impl.client.HttpAuthenticator",
+       "org.apache.http.client.utils.Rfc3492Idn",
+       "org.apache.http.client.params.CookiePolicy",
+       "org.apache.http.client.utils.CloneUtils",
+       "org.apache.http.client.ResponseHandler",
+       "org.apache.http.impl.client.Clock",
+       "org.apache.http.client.entity.UrlEncodedFormEntity",
+       "org.apache.http.client.protocol.ClientContextConfigurer",
+       "org.apache.http.impl.client.NoopUserTokenHandler",
+       "org.apache.http.conn.scheme.SocketFactoryAdaptor",
+       "org.apache.http.client.params.ClientParamBean",
+       "org.apache.http.client.protocol.RequestClientConnControl",
+       "org.apache.http.impl.conn.AbstractPoolEntry",
+       "org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor",
+       "org.apache.http.impl.client.DefaultUserTokenHandler",
+       "org.apache.http.impl.cookie.BasicDomainHandler",
+       "org.apache.http.impl.conn.SchemeRegistryFactory",
+       "org.apache.http.impl.conn.DefaultManagedHttpClientConnection",
+       "org.apache.http.impl.client.AuthenticationStrategyAdaptor",
+       "org.apache.http.impl.client.SystemDefaultHttpClient",
+       "org.apache.http.impl.cookie.RFC2965SpecFactory",
+       "org.apache.http.cookie.CookieSpec",
+       "org.apache.http.conn.ssl.TrustSelfSignedStrategy",
+       "org.apache.http.conn.scheme.PlainSocketFactory",
+       "org.apache.http.client.ClientProtocolException",
+       "org.apache.http.impl.cookie.BasicCommentHandler",
+       "org.apache.http.impl.cookie.BasicMaxAgeHandler",
+       "org.apache.http.impl.auth.RFC2617Scheme",
+       "org.apache.http.impl.auth.NTLMScheme$State",
+       "org.apache.http.conn.routing.RouteTracker",
+       "org.apache.http.impl.conn.HttpConnPool$InternalConnFactory",
+       "org.apache.http.client.methods.HttpHead",
+       "org.apache.http.impl.cookie.PublicSuffixFilter",
+       "org.apache.http.impl.auth.SPNegoScheme",
+       "org.apache.http.impl.conn.tsccm.AbstractConnPool",
+       "org.apache.http.cookie.CookieSpecRegistry",
+       "org.apache.http.auth.params.AuthParams",
+       "org.apache.http.impl.client.ClientParamsStack",
+       "org.apache.http.impl.client.DefaultRequestDirector",
+       "org.apache.http.client.params.HttpClientParams",
+       "org.apache.http.impl.auth.NTLMEngineImpl$Type2Message",
+       "org.apache.http.impl.conn.SystemDefaultRoutePlanner",
+       "org.apache.http.client.methods.AbstractExecutionAwareRequest",
+       "org.apache.http.client.protocol.ClientContext",
+       "org.apache.http.impl.cookie.NetscapeDraftHeaderParser",
+       "org.apache.http.impl.client.StandardHttpRequestRetryHandler",
+       "org.apache.http.conn.ConnectionPoolTimeoutException",
+       "org.apache.http.impl.cookie.BrowserCompatSpec",
+       "org.apache.http.client.RedirectStrategy",
+       "org.apache.http.impl.client.BasicCookieStore",
+       "org.apache.http.conn.util.InetAddressUtils",
+       "org.apache.http.impl.client.HttpClientBuilder",
+       "org.apache.http.cookie.CookiePathComparator",
+       "org.apache.http.impl.cookie.RFC2965VersionAttributeHandler",
+       "org.apache.http.client.params.ClientPNames",
+       "org.apache.http.cookie.ClientCookie",
+       "org.apache.http.client.protocol.RequestAuthCache",
+       "org.apache.http.impl.conn.DefaultSchemePortResolver",
+       "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$InternalConnectionFactory",
+       "org.apache.http.impl.auth.NTLMEngineException",
+       "org.apache.http.conn.HttpHostConnectException",
+       "org.apache.http.impl.client.BasicCredentialsProvider",
+       "org.apache.http.conn.ssl.X509HostnameVerifier",
+       "org.apache.http.impl.cookie.RFC2965PortAttributeHandler",
+       "org.apache.http.impl.conn.DefaultHttpRoutePlanner",
+       "org.apache.http.impl.client.DefaultHttpRequestRetryHandler",
+       "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+       "org.apache.http.impl.conn.DefaultProxyRoutePlanner",
+       "org.apache.http.impl.auth.KerberosSchemeFactory",
+       "org.apache.http.client.entity.DeflateInputStream$DeflateStream",
+       "org.apache.http.impl.conn.LoggingSessionOutputBuffer",
+       "org.apache.http.cookie.CookieOrigin",
+       "org.apache.http.conn.EofSensorInputStream",
+       "org.apache.http.conn.EofSensorWatcher",
+       "org.apache.http.conn.scheme.SchemeSocketFactoryAdaptor",
+       "org.apache.http.conn.BasicManagedEntity",
+       "org.apache.http.client.utils.DateUtils$DateFormatHolder",
+       "org.apache.http.client.methods.HttpGet",
+       "org.apache.http.conn.scheme.SocketFactory",
+       "org.apache.http.client.CircularRedirectException",
+       "org.apache.http.impl.execchain.ConnectionHolder",
+       "org.apache.http.impl.cookie.RFC2965CommentUrlAttributeHandler",
+       "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1",
+       "org.apache.http.impl.conn.tsccm.RouteSpecificPool",
+       "org.apache.http.impl.auth.NTLMEngineImpl$Type1Message",
+       "org.apache.http.impl.execchain.ServiceUnavailableRetryExec",
+       "org.apache.http.conn.ClientConnectionOperator",
+       "org.apache.http.auth.AuthScheme",
+       "org.apache.http.conn.params.ConnManagerParams",
+       "org.apache.http.conn.params.ConnRouteParamBean",
+       "org.apache.http.client.entity.EntityBuilder",
+       "org.apache.http.impl.auth.DigestSchemeFactory",
+       "org.apache.http.impl.conn.HttpClientConnectionOperator",
+       "org.apache.http.client.protocol.RequestTargetAuthentication",
+       "org.apache.http.client.methods.HttpPut",
+       "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1",
+       "org.apache.http.impl.conn.DefaultClientConnectionOperator",
+       "org.apache.http.auth.AuthSchemeRegistry$1",
+       "org.apache.http.impl.conn.ConnectionShutdownException",
+       "org.apache.http.conn.params.ConnPerRoute",
+       "org.apache.http.client.protocol.ResponseContentEncoding",
+       "org.apache.http.impl.client.DefaultBackoffStrategy",
+       "org.apache.http.auth.AuthSchemeProvider",
+       "org.apache.http.impl.conn.LoggingManagedHttpClientConnection",
+       "org.apache.http.impl.auth.HttpAuthenticator$1",
+       "org.apache.http.impl.conn.SingleClientConnManager$1",
+       "org.apache.http.client.methods.RequestBuilder$InternalEntityEclosingRequest",
+       "org.apache.http.impl.conn.tsccm.BasicPoolEntryRef",
+       "org.apache.http.client.params.HttpClientParamConfig",
+       "org.apache.http.impl.cookie.BestMatchSpec",
+       "org.apache.http.client.config.RequestConfig",
+       "org.apache.http.impl.cookie.CookieSpecBase",
+       "org.apache.http.impl.cookie.DateParseException",
+       "org.apache.http.impl.cookie.NetscapeDraftSpecFactory",
+       "org.apache.http.conn.ssl.PrivateKeyDetails",
+       "org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1",
+       "org.apache.http.impl.conn.BasicClientConnectionManager",
+       "org.apache.http.conn.HttpInetSocketAddress",
+       "org.apache.http.conn.ClientConnectionManager",
+       "org.apache.http.client.utils.URIBuilder",
+       "org.apache.http.cookie.CookieRestrictionViolationException",
+       "org.apache.http.client.protocol.RequestAuthenticationBase",
+       "org.apache.http.conn.params.ConnRoutePNames",
+       "org.apache.http.cookie.CookieSpecProvider",
+       "org.apache.http.client.AuthenticationStrategy",
+       "org.apache.http.cookie.SetCookie2",
+       "org.apache.http.conn.socket.ConnectionSocketFactory",
+       "org.apache.http.client.utils.JdkIdn",
+       "org.apache.http.conn.routing.RouteInfo$LayerType",
+       "org.apache.http.impl.cookie.PublicSuffixListParser",
+       "org.apache.http.impl.cookie.RFC2109DomainHandler",
+       "org.apache.http.client.protocol.RequestProxyAuthentication",
+       "org.apache.http.impl.client.AutoRetryHttpClient",
+       "org.apache.http.impl.cookie.BrowserCompatVersionAttributeHandler",
+       "org.apache.http.client.utils.Punycode",
+       "org.apache.http.client.config.AuthSchemes",
+       "org.apache.http.impl.conn.ManagedHttpClientConnectionFactory",
+       "org.apache.http.impl.conn.LoggingSessionInputBuffer",
+       "org.apache.http.client.methods.AbortableHttpRequest",
+       "org.apache.http.impl.conn.tsccm.BasicPoolEntry",
+       "org.apache.http.impl.client.MinimalHttpClient",
+       "org.apache.http.conn.scheme.LayeredSocketFactoryAdaptor",
+       "org.apache.http.impl.auth.NTLMEngineImpl$Type3Message",
+       "org.apache.http.auth.params.AuthParamBean",
+       "org.apache.http.impl.client.DefaultProxyAuthenticationHandler",
+       "org.apache.http.auth.AuthSchemeFactory",
+       "org.apache.http.impl.conn.PoolingClientConnectionManager",
+       "org.apache.http.impl.client.DefaultServiceUnavailableRetryStrategy",
+       "org.apache.http.impl.conn.PoolingHttpClientConnectionManager$ConfigData",
+       "org.apache.http.client.entity.LazyDecompressingInputStream",
+       "org.apache.http.client.utils.DateUtils$DateFormatHolder$1",
+       "org.apache.http.impl.cookie.RFC2965Spec",
+       "org.apache.http.impl.cookie.RFC2109Spec",
+       "org.apache.http.impl.auth.NTLMSchemeFactory",
+       "org.apache.http.impl.auth.NTLMEngineImpl$NTLMMessage",
+       "org.apache.http.impl.client.BasicAuthCache",
+       "org.apache.http.impl.cookie.RFC2109SpecFactory",
+       "org.apache.http.auth.NTUserPrincipal",
+       "org.apache.http.impl.cookie.BrowserCompatSpecFactory",
+       "org.apache.http.conn.ClientConnectionManagerFactory",
+       "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+       "org.apache.http.impl.client.CloseableHttpResponseProxy",
+       "org.apache.http.impl.conn.IdleConnectionHandler$TimeValues",
+       "org.apache.http.impl.client.SystemClock",
+       "org.apache.http.auth.AUTH",
+       "org.apache.http.impl.auth.GGSSchemeBase$State",
+       "org.apache.http.impl.cookie.BasicExpiresHandler",
+       "org.apache.http.impl.execchain.ResponseEntityProxy",
+       "org.apache.http.conn.ssl.StrictHostnameVerifier",
+       "org.apache.http.auth.AuthOption",
+       "org.apache.http.client.entity.DecompressingEntity",
+       "org.apache.http.client.protocol.ResponseAuthCache",
+       "org.apache.http.client.protocol.ResponseAuthCache$1",
+       "org.apache.http.impl.auth.SpnegoTokenGenerator",
+       "org.apache.http.conn.routing.HttpRoutePlanner",
+       "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+       "org.apache.http.impl.cookie.BestMatchSpecFactory",
+       "org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy",
+       "org.apache.http.impl.auth.NTLMEngine",
+       "org.apache.http.conn.params.ConnManagerParamBean",
+       "org.apache.http.conn.OperatedClientConnection",
+       "org.apache.http.conn.scheme.SchemeLayeredSocketFactoryAdaptor2",
+       "org.apache.http.conn.scheme.Scheme",
+       "org.apache.http.conn.ssl.BrowserCompatHostnameVerifier",
+       "org.apache.http.auth.ChallengeState",
+       "org.apache.http.impl.auth.DigestScheme",
+       "org.apache.http.client.config.RequestConfig$Builder",
+       "org.apache.http.auth.AuthState",
+       "org.apache.http.auth.AuthenticationException",
+       "org.apache.http.impl.conn.DefaultResponseParser",
+       "org.apache.http.impl.client.HttpClients",
+       "org.apache.http.impl.client.HttpRequestFutureTask",
+       "org.apache.http.conn.routing.HttpRoute",
+       "org.apache.http.impl.auth.NegotiateSchemeFactory",
+       "org.apache.http.client.methods.HttpDelete",
+       "org.apache.http.impl.conn.CPoolEntry",
+       "org.apache.http.client.CookieStore",
+       "org.apache.http.auth.InvalidCredentialsException",
+       "org.apache.http.impl.cookie.BrowserCompatSpec$1",
+       "org.apache.http.client.methods.CloseableHttpResponse",
+       "org.apache.http.impl.cookie.BrowserCompatSpec$2",
+       "org.apache.http.conn.socket.PlainConnectionSocketFactory",
+       "org.apache.http.client.utils.Idn",
+       "org.apache.http.impl.client.DefaultRedirectHandler",
+       "org.apache.http.impl.auth.GGSSchemeBase$1",
+       "org.apache.http.client.HttpRequestRetryHandler",
+       "org.apache.http.client.params.AuthPolicy",
+       "org.apache.http.impl.cookie.NetscapeDraftSpec",
+       "org.apache.http.conn.ssl.TrustStrategy",
+       "org.apache.http.client.ServiceUnavailableRetryStrategy",
+       "org.apache.http.impl.client.InternalHttpClient",
+       "org.apache.http.client.methods.HttpExecutionAware",
+       "org.apache.http.conn.ManagedClientConnection",
+       "org.apache.http.auth.UsernamePasswordCredentials",
+       "org.apache.http.impl.execchain.RetryExec",
+       "org.apache.http.impl.conn.IdleConnectionHandler",
+       "org.apache.http.conn.params.ConnConnectionParamBean",
+       "org.apache.http.conn.routing.RouteInfo",
+       "org.apache.http.impl.cookie.RFC2965DomainAttributeHandler",
+       "org.apache.http.cookie.params.CookieSpecParamBean"
+      ],
+      "usedTypes": [
+       "org.apache.http.client.ClientProtocolException",
+       "org.apache.http.client.methods.HttpPost",
+       "org.apache.http.impl.client.CloseableHttpClient",
+       "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+       "org.apache.http.conn.ssl.SSLContexts",
+       "org.apache.http.client.protocol.HttpClientContext",
+       "org.apache.http.client.methods.HttpUriRequest",
+       "org.apache.http.conn.ssl.SSLContextBuilder",
+       "org.apache.http.conn.ConnectTimeoutException",
+       "org.apache.http.client.methods.RequestBuilder",
+       "org.apache.http.client.methods.CloseableHttpResponse",
+       "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+       "org.apache.http.impl.client.HttpClientBuilder",
+       "org.apache.http.client.ResponseHandler",
+       "org.apache.http.client.HttpRequestRetryHandler",
+       "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+       "org.apache.http.impl.client.HttpClients"
+      ],
+      "usageRatio": 0.04047619047619048,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile",
+    "coordinates": "com.sun.xml.bind:jaxb-impl:2.1.12",
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "2.1.12",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 867801,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "com.sun.xml.txw2.output.IndentingXMLFilter",
+     "com.sun.xml.txw2.output.DumpSerializer",
+     "com.sun.xml.bind.v2.model.impl.PropertySeed",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexTypeHost",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Long",
+     "com.sun.xml.bind.v2.runtime.CompositeStructureBeanInfo",
+     "com.sun.xml.bind.v2.runtime.RuntimeUtil$ToStringAdapter",
+     "com.sun.xml.txw2.DatatypeWriter$1",
+     "com.sun.xml.bind.v2.runtime.reflect.AdaptedAccessor",
+     "com.sun.xml.bind.v2.model.annotation.RuntimeAnnotationReader",
+     "com.sun.xml.bind.v2.runtime.AssociationMap$Entry",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeMapPropertyInfo",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeElement",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerInteger$IntegerArrayPack",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Character",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$UUIDImpl",
+     "com.sun.xml.bind.v2.runtime.output.Encoded",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleExtension",
+     "com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty$1",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Schema",
+     "com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty$2",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Long",
+     "com.sun.xml.bind.v2.model.core.ElementPropertyInfo",
+     "com.sun.xml.bind.v2.runtime.property.ValueProperty",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$ReadOnlyFieldReflection",
+     "com.sun.xml.txw2.output.DomSerializer",
+     "com.sun.xml.bind.v2.runtime.property.SingleReferenceNodeProperty$1",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader$Single",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerShort",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$Factory",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Base64Data",
+     "com.sun.xml.bind.api.impl.NameConverter$Standard",
+     "com.sun.xml.bind.v2.runtime.output.NamespaceContextImpl$Element",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Intercepter",
+     "com.sun.xml.bind.v2.runtime.output.ForkXmlOutput",
+     "com.sun.xml.bind.v2.runtime.reflect.ListTransducedAccessorImpl",
+     "com.sun.xml.bind.v2.model.core.EnumLeafInfo",
+     "com.sun.xml.bind.v2.runtime.MarshallerImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerShort$1",
+     "com.sun.istack.FragmentContentHandler",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.ProxyLoader",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.LocatorEx$Snapshot",
+     "com.sun.xml.bind.v2.model.impl.RuntimeClassInfoImpl$TransducerImpl",
+     "com.sun.xml.txw2.NamespaceResolver",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$IDREFS$Pack",
+     "com.sun.xml.bind.v2.runtime.Name",
+     "com.sun.xml.bind.v2.model.impl.ModelBuilder$1",
+     "com.sun.xml.bind.v2.model.annotation.ClassLocatable",
+     "com.sun.xml.bind.v2.model.core.package-info",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.LocatorEx",
+     "com.sun.xml.bind.v2.model.impl.ElementPropertyInfoImpl$1",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader",
+     "com.sun.xml.bind.v2.runtime.output.XMLStreamWriterOutput",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Double",
+     "com.sun.xml.txw2.Comment",
+     "com.sun.xml.bind.v2.model.impl.RuntimeClassInfoImpl$RuntimePropertySeed",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Character",
+     "com.sun.xml.bind.v2.runtime.property.ArrayElementProperty",
+     "com.sun.xml.txw2.EndDocument",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeTypeRef",
+     "com.sun.istack.localization.Localizer",
+     "com.sun.xml.txw2.annotation.XmlValue",
+     "com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder$IDTransducerImpl",
+     "com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty$ReceiverImpl",
+     "com.sun.istack.Interned",
+     "com.sun.xml.bind.v2.model.core.Adapter",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerInteger$1",
+     "com.sun.xml.bind.v2.schemagen.Tree$Term",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector$1",
+     "com.sun.xml.bind.v2.schemagen.episode.SchemaBindings",
+     "com.sun.xml.bind.v2.runtime.RuntimeUtil",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$2",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$1",
+     "com.sun.xml.bind.v2.schemagen.Tree$Group",
+     "com.sun.xml.bind.v2.runtime.ArrayBeanInfoImpl$ArrayLoader",
+     "com.sun.xml.bind.v2.runtime.property.SingleElementNodeProperty",
+     "com.sun.xml.bind.v2.model.impl.PropertyInfoImpl",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeLeafInfo",
+     "com.sun.xml.bind.v2.runtime.property.PropertyFactory",
+     "com.sun.xml.txw2.DatatypeWriter",
+     "com.sun.xml.bind.v2.model.nav.WildcardTypeImpl",
+     "com.sun.xml.bind.v2.util.FlattenIterator",
+     "com.sun.xml.bind.v2.runtime.LeafBeanInfoImpl",
+     "com.sun.istack.Pool$Impl",
+     "com.sun.xml.bind.v2.util.ByteArrayOutputStreamEx",
+     "com.sun.xml.bind.marshaller.DumbEscapeHandler",
+     "com.sun.xml.bind.v2.schemagen.Tree$Optional",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory",
+     "com.sun.xml.bind.api.ErrorListener",
+     "com.sun.istack.Nullable",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerByte$1",
+     "com.sun.istack.SAXParseException2",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$FieldReflection",
+     "com.sun.xml.bind.v2.runtime.property.ArrayReferenceNodeProperty",
+     "com.sun.xml.bind.v2.schemagen.FoolProofResolver",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXConnector",
+     "com.sun.xml.bind.v2.runtime.reflect.AdaptedLister",
+     "com.sun.xml.bind.v2.model.impl.ArrayInfoImpl",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeTypeInfo",
+     "com.sun.xml.bind.v2.model.core.ElementInfo",
+     "com.sun.xml.bind.v2.schemagen.episode.Bindings",
+     "com.sun.xml.bind.v2.model.impl.AttributePropertyInfoImpl$1",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeEnumLeafInfo",
+     "com.sun.xml.bind.v2.runtime.output.C14nXmlOutput$StaticAttribute",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerByte$ByteArrayPack",
+     "com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$CompositeContextDependentTransducedAccessorImpl",
+     "com.sun.xml.txw2.ContainerElement",
+     "com.sun.xml.txw2.Document$1",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.AttrDecls",
+     "com.sun.xml.bind.v2.runtime.property.Messages",
+     "com.sun.xml.bind.v2.model.core.NonElement",
+     "com.sun.xml.bind.v2.runtime.ElementBeanInfoImpl$IntercepterLoader",
+     "com.sun.xml.bind.v2.model.core.RegistryInfo",
+     "com.sun.xml.txw2.annotation.XmlElement",
+     "com.sun.xml.bind.v2.model.impl.RuntimeModelBuilder",
+     "com.sun.xml.bind.v2.runtime.output.MTOMXmlOutput",
+     "com.sun.istack.XMLStreamReaderToContentHandler",
+     "com.sun.xml.bind.v2.model.impl.Messages",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.NoFixedFacet",
+     "com.sun.xml.txw2.output.TXWResult",
+     "com.sun.xml.bind.util.Which",
+     "com.sun.xml.bind.api.Bridge",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Double",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Scope",
+     "com.sun.xml.bind.v2.model.core.AttributePropertyInfo",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Integer",
+     "com.sun.xml.bind.v2.model.core.ArrayInfo",
+     "com.sun.xml.bind.v2.model.impl.RuntimeAttributePropertyInfoImpl",
+     "com.sun.xml.txw2.Text",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerFloat$FloatArrayPack",
+     "com.sun.xml.bind.unmarshaller.Patcher",
+     "com.sun.xml.bind.v2.model.core.PropertyKind",
+     "com.sun.istack.XMLStreamReaderToContentHandler$1",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$1",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.LocatorExWrapper",
+     "com.sun.xml.bind.v2.model.annotation.Locatable",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.Injector",
+     "com.sun.xml.txw2.Attribute",
+     "com.sun.xml.bind.v2.model.annotation.XmlValueQuick",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$ArrayLister$1",
+     "com.sun.xml.bind.v2.schemagen.MultiMap",
+     "com.sun.xml.bind.v2.model.core.TypeInfoSet",
+     "com.sun.xml.bind.v2.model.annotation.XmlTypeQuick",
+     "com.sun.xml.bind.v2.model.impl.ElementInfoImpl",
+     "com.sun.xml.bind.util.AttributesImpl",
+     "com.sun.xml.bind.v2.model.impl.FieldPropertySeed",
+     "com.sun.xml.bind.v2.model.annotation.Messages",
+     "com.sun.xml.bind.v2.model.impl.RuntimeEnumLeafInfoImpl",
+     "com.sun.xml.bind.v2.model.core.ValuePropertyInfo",
+     "com.sun.xml.bind.v2.model.impl.AttributePropertyInfoImpl",
+     "com.sun.xml.bind.v2.model.core.MaybeElement",
+     "com.sun.xml.txw2.NamespaceSupport$Context",
+     "com.sun.xml.bind.v2.runtime.output.XMLEventWriterOutput",
+     "com.sun.xml.bind.v2.runtime.property.ArrayElementNodeProperty",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$CollectionLister$1",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Boolean",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StructureLoader$1",
+     "com.sun.xml.bind.v2.model.impl.PropertyInfoImpl$1",
+     "com.sun.xml.bind.v2.model.runtime.package-info",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$IDREFS",
+     "com.sun.xml.bind.marshaller.SAX2DOMEx",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Byte",
+     "com.sun.xml.bind.v2.model.impl.RuntimeMapPropertyInfoImpl",
+     "com.sun.xml.bind.v2.model.impl.TypeRefImpl",
+     "com.sun.xml.bind.v2.model.impl.RuntimeTypeRefImpl",
+     "com.sun.xml.bind.v2.runtime.output.XmlOutputAbstractImpl",
+     "com.sun.xml.bind.v2.model.annotation.XmlElementQuick",
+     "com.sun.xml.bind.v2.runtime.output.SAXOutput",
+     "com.sun.xml.bind.v2.runtime.ContentHandlerAdaptor",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.LocalAttribute",
+     "com.sun.xml.txw2.IllegalSignatureException",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Element",
+     "com.sun.xml.bind.v2.model.impl.ValuePropertyInfoImpl",
+     "com.sun.xml.bind.v2.model.annotation.XmlEnumQuick",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.DomLoader",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerBoolean$1",
+     "com.sun.xml.bind.v2.runtime.property.AttributeProperty",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.Const",
+     "com.sun.xml.bind.DatatypeConverterImpl$CalendarFormatter",
+     "com.sun.xml.bind.v2.schemagen.Tree$Repeated",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Particle",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerFloat$1",
+     "com.sun.xml.bind.v2.model.core.ID",
+     "com.sun.xml.bind.v2.runtime.output.C14nXmlOutput",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$13",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$PropertyGroup",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$12",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$15",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.TopLevelElement",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$14",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeNonElementRef",
+     "com.sun.xml.txw2.output.DelegatingXMLStreamWriter",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$11",
+     "com.sun.xml.bind.v2.runtime.StAXPostInitAction",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$10",
+     "com.sun.xml.bind.api.TypeReference",
+     "com.sun.xml.txw2.Document",
+     "com.sun.xml.bind.v2.model.annotation.FieldLocatable",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Short",
+     "com.sun.xml.bind.v2.runtime.property.PropertyImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.AttributeType",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$3",
+     "com.sun.xml.bind.v2.runtime.output.InPlaceDOMOutput",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$4",
+     "com.sun.xml.txw2.StartDocument",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$5",
+     "com.sun.xml.bind.marshaller.XMLWriter",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$6",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$7",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$8",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$9",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl",
+     "com.sun.xml.bind.v2.model.impl.AnyTypeImpl",
+     "com.sun.xml.bind.v2.runtime.BridgeContextImpl",
+     "com.sun.xml.bind.marshaller.NioEscapeHandler",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$17",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$16",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$1",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$19",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$18",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$2",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$24",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$23",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$26",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$25",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$20",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$22",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$21",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeAttributePropertyInfo",
+     "com.sun.xml.bind.v2.runtime.reflect.DefaultTransducedAccessor",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexContent",
+     "com.sun.xml.bind.IDResolver",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeReferencePropertyInfo",
+     "com.sun.xml.bind.Util",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.DomLoader$State",
+     "com.sun.xml.bind.v2.runtime.ValueListBeanInfoImpl$1",
+     "com.sun.xml.bind.v2.model.annotation.XmlElementRefsQuick",
+     "com.sun.xml.txw2.output.XMLWriter",
+     "com.sun.xml.bind.v2.model.annotation.RuntimeInlineAnnotationReader",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleRestrictionModel",
+     "com.sun.xml.bind.v2.runtime.InlineBinaryTransducer",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Integer",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXConnector$1",
+     "com.sun.xml.bind.v2.runtime.property.TagAndType",
+     "com.sun.xml.bind.v2.model.nav.Navigator",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Boolean",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Float",
+     "com.sun.xml.txw2.DatatypeWriter$1$1",
+     "com.sun.xml.bind.api.impl.NameUtil",
+     "com.sun.xml.bind.v2.runtime.NameBuilder",
+     "com.sun.xml.txw2.DatatypeWriter$1$2",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Documentation",
+     "com.sun.xml.txw2.DatatypeWriter$1$5",
+     "com.sun.xml.bind.v2.model.core.ReferencePropertyInfo",
+     "com.sun.xml.txw2.DatatypeWriter$1$3",
+     "com.sun.xml.txw2.DatatypeWriter$1$4",
+     "com.sun.xml.bind.v2.runtime.SwaRefAdapter",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ExplicitGroup",
+     "com.sun.xml.bind.v2.model.impl.RuntimeArrayInfoImpl",
+     "com.sun.xml.bind.v2.runtime.NameList",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Boolean",
+     "com.sun.xml.bind.v2.schemagen.GroupKind",
+     "com.sun.xml.bind.v2.runtime.ElementBeanInfoImpl$1",
+     "com.sun.istack.localization.LocalizableMessageFactory",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$StringImpl",
+     "com.sun.xml.bind.v2.runtime.output.XmlOutput",
+     "com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$IDREFTransducedAccessorImpl$1",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SchemaTop",
+     "com.sun.xml.bind.v2.schemagen.Form",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Any",
+     "com.sun.xml.bind.WhiteSpaceProcessor",
+     "com.sun.xml.bind.api.Messages",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.LeafPropertyLoader",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$10$1",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$6",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$7",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$4",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.InterningXmlVisitor$1",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$5",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Import",
+     "com.sun.xml.bind.util.ValidationEventLocatorExImpl",
+     "com.sun.xml.bind.v2.model.impl.ReferencePropertyInfoImpl",
+     "com.sun.xml.txw2.Pcdata",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl",
+     "com.sun.xml.bind.v2.runtime.MarshallerImpl$2",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$2",
+     "com.sun.xml.bind.v2.runtime.Coordinator",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$3",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Occurs",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Redefinable",
+     "com.sun.xml.bind.v2.runtime.MarshallerImpl$1",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$1",
+     "com.sun.xml.txw2.output.Dom2SaxAdapter",
+     "com.sun.xml.bind.marshaller.NamespacePrefixMapper",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.IntData",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Ref",
+     "com.sun.xml.bind.v2.model.impl.MapPropertyInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$CollectionLister",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Appinfo",
+     "com.sun.xml.bind.CycleRecoverable",
+     "com.sun.xml.bind.v2.runtime.output.FastInfosetStreamWriterOutput",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$DuplicateException",
+     "com.sun.xml.bind.v2.runtime.LifecycleMethods",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.MTOMDecorator",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Float",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.TagName",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Byte",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Loader",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Float",
+     "com.sun.xml.bind.v2.runtime.SchemaTypeTransducer",
+     "com.sun.xml.bind.v2.model.impl.TypeInfoImpl",
+     "com.sun.xml.txw2.IllegalAnnotationException",
+     "com.sun.xml.bind.v2.model.annotation.LocatableAnnotation",
+     "com.sun.xml.bind.v2.model.core.WildcardTypeInfo",
+     "com.sun.xml.bind.v2.model.impl.EnumLeafInfoImpl",
+     "com.sun.xml.bind.v2.runtime.BinderImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexRestriction",
+     "com.sun.xml.bind.v2.runtime.property.ArrayElementLeafProperty",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Messages",
+     "com.sun.istack.SAXException2",
+     "com.sun.xml.bind.api.RawAccessor",
+     "com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty",
+     "com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl",
+     "com.sun.xml.bind.v2.runtime.output.Pcdata",
+     "com.sun.xml.bind.v2.schemagen.episode.Klass",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$Pack",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Receiver",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.DefaultIDResolver",
+     "com.sun.xml.bind.v2.model.annotation.XmlTransientQuick",
+     "com.sun.xml.bind.v2.model.core.PropertyInfo",
+     "com.sun.xml.bind.v2.runtime.FilterTransducer",
+     "com.sun.xml.bind.api.impl.NameConverter$2",
+     "com.sun.xml.bind.v2.model.annotation.AbstractInlineAnnotationReaderImpl",
+     "com.sun.xml.bind.v2.model.impl.RuntimeReferencePropertyInfoImpl",
+     "com.sun.xml.bind.v2.runtime.XMLSerializer",
+     "com.sun.xml.bind.v2.model.impl.SingleTypePropertyInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerFloat",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory",
+     "com.sun.xml.bind.api.impl.NameConverter$1",
+     "com.sun.xml.bind.v2.runtime.BridgeImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexTypeModel",
+     "com.sun.xml.bind.v2.runtime.DomPostInitAction",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerInteger",
+     "com.sun.xml.bind.v2.model.annotation.XmlSchemaQuick",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder",
+     "com.sun.xml.bind.marshaller.MinimumEscapeHandler",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerLong$1",
+     "com.sun.xml.bind.v2.runtime.output.DOMOutput",
+     "com.sun.xml.bind.v2.runtime.property.ArrayERProperty",
+     "com.sun.xml.bind.v2.runtime.property.ArrayProperty",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXEventConnector",
+     "com.sun.xml.bind.v2.runtime.InternalBridge",
+     "com.sun.xml.bind.v2.runtime.output.UTF8XmlOutput",
+     "com.sun.xml.bind.v2.model.impl.RuntimeElementInfoImpl",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StructureLoader",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Double",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerCharacter$CharacterArrayPack",
+     "com.sun.xml.bind.v2.util.QNameMap$EntrySet",
+     "com.sun.xml.txw2.output.DataWriter",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext",
+     "com.sun.istack.FinalArrayList",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerBoolean$BooleanArrayPack",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$1",
+     "com.sun.xml.bind.v2.runtime.reflect.NullSafeAccessor",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleContent",
+     "com.sun.xml.bind.v2.util.CollisionCheckStack",
+     "com.sun.xml.bind.v2.model.nav.GenericArrayTypeImpl",
+     "com.sun.xml.bind.v2.runtime.XMLSerializer$1",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerDouble$1",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.TextLoader",
+     "com.sun.xml.bind.marshaller.DataWriter",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleRestriction",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.AttributesEx",
+     "com.sun.xml.bind.v2.WellKnownNamespace",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.ValidatingUnmarshaller",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector$TagNameImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$SetterOnlyReflection",
+     "com.sun.xml.bind.v2.model.impl.EnumLeafInfoImpl$1",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$1",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$2",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.LocalElement",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$ElementDeclaration",
+     "com.sun.istack.NotNull",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Integer",
+     "com.sun.xml.bind.v2.ContextFactory",
+     "com.sun.xml.bind.v2.model.impl.EnumConstantImpl",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Base64Data$1",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$2",
+     "com.sun.xml.bind.v2.schemagen.Util",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$1",
+     "com.sun.xml.bind.v2.model.annotation.XmlElementRefQuick",
+     "com.sun.xml.bind.v2.model.core.BuiltinLeafInfo",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Float",
+     "com.sun.xml.bind.v2.model.impl.RuntimeEnumConstantImpl",
+     "com.sun.xml.bind.v2.model.core.WildcardMode",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerLong$LongArrayPack",
+     "com.sun.xml.bind.v2.schemagen.Tree$1",
+     "com.sun.xml.bind.v2.runtime.MimeTypedTransducer",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Ref",
+     "com.sun.xml.bind.api.AccessorException",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeTypeInfoSet",
+     "com.sun.xml.bind.v2.model.core.ErrorHandler",
+     "com.sun.xml.txw2.Content",
+     "com.sun.xml.bind.v2.model.impl.BuiltinLeafInfoImpl",
+     "com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty",
+     "com.sun.xml.bind.v2.model.impl.RuntimeValuePropertyInfoImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.List",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1",
+     "com.sun.xml.bind.v2.model.annotation.XmlAttributeQuick",
+     "com.sun.xml.bind.marshaller.Messages",
+     "com.sun.xml.bind.CycleRecoverable$Context",
+     "com.sun.xml.bind.v2.util.QNameMap$Entry",
+     "com.sun.xml.bind.unmarshaller.InfosetScanner",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.NestedParticle",
+     "com.sun.xml.bind.v2.runtime.JaxBeanInfo",
+     "com.sun.xml.bind.v2.runtime.NamespaceContext2",
+     "com.sun.xml.txw2.Cdata",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleDerivation",
+     "com.sun.xml.bind.v2.model.annotation.XmlRootElementQuick",
+     "com.sun.xml.bind.v2.model.annotation.MethodLocatable",
+     "com.sun.xml.bind.v2.model.impl.RegistryInfoImpl",
+     "com.sun.xml.bind.annotation.OverrideAnnotationOf",
+     "com.sun.xml.bind.v2.runtime.property.UnmarshallerChain",
+     "com.sun.xml.bind.v2.runtime.IllegalAnnotationsException$Builder",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Annotated",
+     "com.sun.xml.bind.v2.model.core.Element",
+     "com.sun.xml.bind.v2.model.annotation.AnnotationReader",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.Ref",
+     "com.sun.istack.ByteArrayDataSource",
+     "com.sun.xml.bind.v2.runtime.output.NamespaceContextImpl$1",
+     "com.sun.xml.bind.v2.runtime.output.NamespaceContextImpl",
+     "com.sun.xml.bind.v2.util.DataSourceSource",
+     "com.sun.xml.bind.v2.model.impl.TypeInfoSetImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Byte",
+     "com.sun.xml.bind.v2.model.impl.TypeInfoSetImpl$1",
+     "com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor$IDREFTransducedAccessorImpl",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXStreamConnector",
+     "com.sun.xml.bind.v2.runtime.ValueListBeanInfoImpl",
+     "com.sun.xml.bind.v2.runtime.property.ArrayReferenceNodeProperty$MixedTextLoader",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.IntArrayData",
+     "com.sun.xml.txw2.TXW",
+     "com.sun.xml.bind.marshaller.CharacterEscapeHandler",
+     "com.sun.xml.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl$PcdataImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.Bean",
+     "com.sun.xml.bind.v2.runtime.reflect.AdaptedLister$ListIteratorImpl",
+     "com.sun.xml.bind.v2.schemagen.Form$1",
+     "com.sun.xml.bind.v2.model.impl.RuntimeAnyTypeImpl",
+     "com.sun.xml.bind.v2.runtime.IllegalAnnotationException",
+     "com.sun.xml.bind.v2.schemagen.Form$2",
+     "com.sun.xml.bind.v2.model.core.EnumConstant",
+     "com.sun.xml.bind.v2.schemagen.Form$3",
+     "com.sun.istack.Pool",
+     "com.sun.xml.bind.v2.model.annotation.AnnotationSource",
+     "com.sun.xml.bind.v2.model.core.ClassInfo",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.DefaultIDResolver$1",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$3",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$4",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.FixedOrDefault",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$5",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$6",
+     "com.sun.xml.bind.v2.model.annotation.XmlSchemaTypeQuick",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$7",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl$8",
+     "com.sun.xml.bind.v2.model.impl.LeafInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Double",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$PropertySorter",
+     "com.sun.xml.txw2.output.XmlSerializer",
+     "com.sun.xml.bind.v2.model.core.TypeRef",
+     "com.sun.xml.bind.v2.model.runtime.RuntimePropertyInfo",
+     "com.sun.xml.bind.v2.model.impl.DummyPropertyInfo",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
+     "com.sun.xml.bind.v2.runtime.IllegalAnnotationsException",
+     "com.sun.xml.bind.api.impl.NameConverter",
+     "com.sun.xml.bind.v2.util.EditDistance",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader$Array",
+     "com.sun.xml.bind.v2.model.core.Ref",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$State",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$PropertySorter$1",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerLong",
+     "com.sun.xml.txw2.output.ResultFactory",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector$1",
+     "com.sun.xml.bind.v2.model.impl.RuntimeClassInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$BinderArg",
+     "com.sun.xml.bind.v2.runtime.ElementBeanInfoImpl",
+     "com.sun.istack.localization.LocalizableMessage",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$IDREFSIterator",
+     "com.sun.xml.bind.v2.schemagen.Tree",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.TopLevelAttribute",
+     "com.sun.xml.bind.v2.runtime.Coordinator$1",
+     "com.sun.xml.bind.v2.runtime.property.PropertyFactory$1",
+     "com.sun.xml.bind.v2.Messages",
+     "com.sun.xml.bind.v2.model.core.MapPropertyInfo",
+     "com.sun.xml.bind.v2.model.nav.TypeVisitor",
+     "com.sun.xml.txw2.output.SaxSerializer",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeValuePropertyInfo",
+     "com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl",
+     "com.sun.xml.bind.v2.TODO",
+     "com.sun.xml.bind.v2.runtime.reflect.ListIterator",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.DefaultValueLoaderDecorator",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterOnlyReflection",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerCharacter",
+     "com.sun.xml.bind.v2.model.impl.ERPropertyInfoImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Boolean",
+     "com.sun.xml.bind.XmlAccessorFactory",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.InterningXmlVisitor$AttributesImpl",
+     "com.sun.xml.bind.api.JAXBRIContext",
+     "com.sun.xml.bind.v2.ClassFactory",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.FastInfosetConnector",
+     "com.sun.xml.bind.v2.model.impl.RuntimeElementPropertyInfoImpl",
+     "com.sun.xml.bind.AccessorFactoryImpl",
+     "com.sun.xml.bind.v2.model.nav.ParameterizedTypeImpl",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeElementInfo",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Wildcard",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XsiTypeLoader",
+     "com.sun.xml.bind.v2.model.impl.ElementPropertyInfoImpl",
+     "com.sun.xml.txw2.output.StreamSerializer",
+     "com.sun.xml.bind.v2.schemagen.episode.package-info",
+     "com.sun.xml.txw2.StartTag",
+     "com.sun.xml.bind.v2.runtime.property.ArrayERProperty$ItemsLoader",
+     "com.sun.xml.bind.annotation.XmlLocation",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeNonElement",
+     "com.sun.xml.bind.v2.model.core.LeafInfo",
+     "com.sun.xml.bind.v2.runtime.reflect.TransducedAccessor",
+     "com.sun.xml.bind.v2.runtime.Transducer",
+     "com.sun.xml.bind.v2.runtime.output.C14nXmlOutput$DynamicAttribute",
+     "com.sun.xml.bind.v2.runtime.reflect.Lister$ArrayLister",
+     "com.sun.xml.bind.v2.model.impl.Util",
+     "com.sun.xml.bind.AccessorFactory",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector",
+     "com.sun.xml.txw2.TypedXmlWriter",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXExConnector",
+     "com.sun.xml.bind.v2.util.QNameMap$1",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleTypeHost",
+     "com.sun.istack.XMLStreamException2",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Patcher",
+     "com.sun.xml.bind.v2.runtime.BridgeAdapter",
+     "com.sun.xml.txw2.NamespaceSupport",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.InterningXmlVisitor",
+     "com.sun.xml.bind.v2.ClassFactory$1",
+     "com.sun.xml.bind.v2.schemagen.Messages",
+     "com.sun.xml.txw2.output.StreamSerializer$1",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Short",
+     "com.sun.xml.txw2.ContentVisitor",
+     "com.sun.xml.bind.v2.runtime.Messages",
+     "com.sun.xml.bind.v2.util.QNameMap$EntryIterator",
+     "com.sun.xml.txw2.annotation.XmlNamespace",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Short",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ExtensionType",
+     "com.sun.xml.bind.v2.model.impl.ModelBuilder",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.ValuePropertyLoader",
+     "com.sun.xml.bind.annotation.XmlIsSet",
+     "com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterSetterReflection",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XmlVisitor$TextPredictor",
+     "com.sun.xml.txw2.TxwException",
+     "com.sun.xml.bind.v2.model.annotation.Init",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$ExpectedTypeRootLoader",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerByte",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Union",
+     "com.sun.xml.txw2.annotation.XmlCDATA",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ContentModelContainer",
+     "com.sun.xml.bind.AnyTypeAdapter",
+     "com.sun.xml.txw2.NamespaceDecl",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerDouble$DoubleArrayPack",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.XmlVisitor",
+     "com.sun.xml.txw2.output.StaxSerializer",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_method_Long",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.FastInfosetConnector$CharSequenceImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Short",
+     "com.sun.xml.bind.v2.runtime.AnyTypeBeanInfo",
+     "com.sun.xml.bind.v2.util.StackRecorder",
+     "com.sun.xml.txw2.output.TXWSerializer",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.FieldAccessor_Long",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.TypeDefParticle",
+     "com.sun.xml.bind.Locatable",
+     "com.sun.xml.bind.unmarshaller.Messages",
+     "com.sun.xml.bind.v2.runtime.reflect.Messages",
+     "com.sun.xml.bind.v2.runtime.property.Property",
+     "com.sun.xml.bind.v2.runtime.output.StAXExStreamWriterOutput",
+     "com.sun.xml.bind.DatatypeConverterImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexExtension",
+     "com.sun.xml.bind.v2.model.core.TypeInfo",
+     "com.sun.xml.bind.api.CompositeStructure",
+     "com.sun.xml.bind.v2.model.impl.ElementInfoImpl$PropertyImpl",
+     "com.sun.xml.bind.v2.model.impl.GetterSetterPropertySeed",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.WildcardLoader",
+     "com.sun.xml.bind.v2.model.core.NonElementRef",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeBuiltinLeafInfo",
+     "com.sun.istack.localization.Localizable",
+     "com.sun.xml.bind.v2.runtime.AssociationMap",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerCharacter$1",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.AttributesExImpl",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Byte",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.SimpleType",
+     "com.sun.xml.txw2.output.IndentingXMLStreamWriter",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.Discarder",
+     "com.sun.xml.bind.unmarshaller.DOMScanner",
+     "com.sun.xml.bind.api.BridgeContext",
+     "com.sun.xml.bind.v2.runtime.property.ListElementProperty",
+     "com.sun.xml.bind.v2.model.annotation.Quick",
+     "com.sun.xml.txw2.annotation.XmlAttribute",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace$ElementWithType",
+     "com.sun.xml.bind.v2.util.FatalAdapter",
+     "com.sun.xml.bind.v2.util.TypeCast",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerShort$ShortArrayPack",
+     "com.sun.xml.txw2.output.DumbEscapeHandler",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.ChildLoader",
+     "com.sun.xml.txw2.output.CharacterEscapeHandler",
+     "com.sun.xml.bind.v2.runtime.reflect.opt.MethodAccessor_Integer",
+     "com.sun.xml.bind.v2.runtime.property.StructureLoaderBuilder",
+     "com.sun.xml.bind.v2.runtime.property.SingleReferenceNodeProperty",
+     "com.sun.xml.bind.v2.runtime.output.FastInfosetStreamWriterOutput$AppData",
+     "com.sun.xml.bind.api.ClassResolver",
+     "com.sun.xml.bind.v2.runtime.ArrayBeanInfoImpl",
+     "com.sun.xml.bind.v2.util.QNameMap$HashIterator",
+     "com.sun.xml.bind.v2.util.QNameMap",
+     "com.sun.xml.bind.v2.runtime.AttributeAccessor",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$2",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$1",
+     "com.sun.xml.bind.v2.runtime.property.ArrayERProperty$ReceiverImpl",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$SecondaryAnnotation",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerDouble",
+     "com.sun.xml.bind.v2.bytecode.ClassTailor",
+     "com.sun.xml.bind.v2.runtime.Location",
+     "com.sun.xml.txw2.EndTag",
+     "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.package-info",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$2",
+     "com.sun.xml.bind.v2.model.impl.RuntimeElementInfoImpl$RuntimePropertyImpl",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$1",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeArrayInfo",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$4",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$3",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$6",
+     "com.sun.xml.bind.v2.model.nav.ReflectionNavigator$5",
+     "com.sun.xml.bind.v2.model.impl.ClassInfoImpl$ConflictException",
+     "com.sun.xml.bind.v2.runtime.output.FastInfosetStreamWriterOutput$TablesPerJAXBContext",
+     "com.sun.xml.bind.v2.model.annotation.XmlElementDeclQuick",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.ComplexType",
+     "com.sun.xml.bind.ValidationEventLocatorEx",
+     "com.sun.xml.bind.v2.runtime.reflect.PrimitiveArrayListerBoolean",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.Annotation",
+     "com.sun.xml.bind.v2.runtime.unmarshaller.StAXConnector$TagNameImpl",
+     "com.sun.xml.bind.v2.schemagen.xmlschema.TypeHost",
+     "com.sun.istack.Builder",
+     "com.sun.xml.bind.v2.model.impl.RuntimeTypeInfoSetImpl",
+     "com.sun.xml.bind.v2.model.runtime.RuntimeClassInfo",
+     "com.sun.xml.bind.v2.runtime.output.IndentingUTF8XmlOutput",
+     "com.sun.xml.bind.v2.schemagen.XmlSchemaGenerator$Namespace"
+    ],
+    "usedTypes": [
+     "com.sun.xml.bind.marshaller.CharacterEscapeHandler"
+    ],
+    "usageRatio": 0.0015267175572519084,
+    "children": []
+   },
+   {
+    "id": "org.slf4j:slf4j-api:jar:1.7.19:compile",
+    "coordinates": "org.slf4j:slf4j-api:1.7.19",
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.19",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 40743,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "org.slf4j.LoggerFactory",
+     "org.slf4j.helpers.SubstituteLogger",
+     "org.slf4j.MarkerFactory",
+     "org.slf4j.event.EventConstants",
+     "org.slf4j.spi.MarkerFactoryBinder",
+     "org.slf4j.spi.MDCAdapter",
+     "org.slf4j.spi.LocationAwareLogger",
+     "org.slf4j.MDC$MDCCloseable",
+     "org.slf4j.helpers.Util",
+     "org.slf4j.helpers.BasicMarkerFactory",
+     "org.slf4j.event.Level",
+     "org.slf4j.helpers.Util$1",
+     "org.slf4j.helpers.NOPLoggerFactory",
+     "org.slf4j.event.LoggingEvent",
+     "org.slf4j.IMarkerFactory",
+     "org.slf4j.helpers.MessageFormatter",
+     "org.slf4j.event.EventRecodingLogger",
+     "org.slf4j.helpers.BasicMDCAdapter",
+     "org.slf4j.Logger",
+     "org.slf4j.spi.LoggerFactoryBinder",
+     "org.slf4j.helpers.FormattingTuple",
+     "org.slf4j.helpers.BasicMDCAdapter$1",
+     "org.slf4j.helpers.SubstituteLoggerFactory",
+     "org.slf4j.helpers.NOPMDCAdapter",
+     "org.slf4j.event.SubstituteLoggingEvent",
+     "org.slf4j.helpers.NOPLogger",
+     "org.slf4j.Marker",
+     "org.slf4j.MDC",
+     "org.slf4j.MDC$1",
+     "org.slf4j.helpers.MarkerIgnoringBase",
+     "org.slf4j.helpers.BasicMarker",
+     "org.slf4j.helpers.NamedLoggerBase",
+     "org.slf4j.helpers.Util$ClassContextSecurityManager",
+     "org.slf4j.ILoggerFactory"
+    ],
+    "usedTypes": [
+     "org.slf4j.Logger",
+     "org.slf4j.LoggerFactory"
+    ],
+    "usageRatio": 0.058823529411764705,
+    "children": []
+   },
+   {
+    "id": "org.slf4j:slf4j-simple:jar:1.7.19:provided",
+    "coordinates": "org.slf4j:slf4j-simple:1.7.19",
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-simple",
+    "version": "1.7.19",
+    "scope": "provided",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 10862,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "org.slf4j.impl.SimpleLogger",
+     "org.slf4j.impl.SimpleLogger$1",
+     "org.slf4j.impl.StaticLoggerBinder",
+     "org.slf4j.impl.StaticMDCBinder",
+     "org.slf4j.impl.SimpleLoggerFactory",
+     "org.slf4j.impl.StaticMarkerBinder"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": [
+     {
+      "id": "org.slf4j:slf4j-api:jar:1.7.19:provided",
+      "coordinates": "org.slf4j:slf4j-api:1.7.19",
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.7.19",
+      "scope": "provided",
+      "packaging": "jar",
+      "omitted": true,
+      "size": 40743,
+      "type": "unknown",
+      "status": "unknown",
+      "parent": "org.slf4j:slf4j-simple:jar:1.7.19:provided",
+      "allTypes": [],
+      "usedTypes": [],
+      "usageRatio": -1.0,
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "com.vdurmont:emoji-java:jar:3.1.3:compile",
+    "coordinates": "com.vdurmont:emoji-java:3.1.3",
+    "groupId": "com.vdurmont",
+    "artifactId": "emoji-java",
+    "version": "3.1.3",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 50167,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.github.liyiorg:weixin-popular:jar:2.8.6",
+    "allTypes": [
+     "com.vdurmont.emoji.EmojiLoader",
+     "com.vdurmont.emoji.EmojiParser$FitzpatrickAction",
+     "com.vdurmont.emoji.EmojiTrie$Node",
+     "com.vdurmont.emoji.EmojiTrie",
+     "com.vdurmont.emoji.EmojiParser$2",
+     "com.vdurmont.emoji.EmojiTrie$1",
+     "com.vdurmont.emoji.EmojiParser$1",
+     "com.vdurmont.emoji.EmojiParser$4",
+     "com.vdurmont.emoji.EmojiParser$3",
+     "com.vdurmont.emoji.EmojiParser$6",
+     "com.vdurmont.emoji.EmojiParser$5",
+     "com.vdurmont.emoji.EmojiManager",
+     "com.vdurmont.emoji.EmojiParser$7",
+     "com.vdurmont.emoji.EmojiParser",
+     "com.vdurmont.emoji.EmojiTrie$Matches",
+     "com.vdurmont.emoji.Emoji",
+     "com.vdurmont.emoji.EmojiParser$EmojiTransformer",
+     "com.vdurmont.emoji.EmojiParser$AliasCandidate",
+     "com.vdurmont.emoji.EmojiParser$UnicodeCandidate",
+     "com.vdurmont.emoji.Fitzpatrick"
+    ],
+    "usedTypes": [
+     "com.vdurmont.emoji.EmojiParser"
+    ],
+    "usageRatio": 0.05,
+    "children": [
+     {
+      "id": "org.json:json:jar:20140107:compile",
+      "coordinates": "org.json:json:20140107",
+      "groupId": "org.json",
+      "artifactId": "json",
+      "version": "20140107",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 64952,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "com.vdurmont:emoji-java:jar:3.1.3:compile",
+      "allTypes": [
+       "org.json.JSONML",
+       "org.json.zip.PostMortem",
+       "org.json.zip.Huff",
+       "org.json.JSONObject$Null",
+       "org.json.Property",
+       "org.json.zip.BitWriter",
+       "org.json.zip.TrieKeep$Node",
+       "org.json.JSONException",
+       "org.json.JSONObject$1",
+       "org.json.JSONObject",
+       "org.json.HTTP",
+       "org.json.XML",
+       "org.json.zip.Huff$Symbol",
+       "org.json.zip.Keep",
+       "org.json.JSONStringer",
+       "org.json.zip.None",
+       "org.json.Kim",
+       "org.json.zip.Compressor",
+       "org.json.HTTPTokener",
+       "org.json.CDL",
+       "org.json.zip.TrieKeep",
+       "org.json.zip.BitInputStream",
+       "org.json.JSONTokener",
+       "org.json.Cookie",
+       "org.json.zip.BitOutputStream",
+       "org.json.zip.MapKeep",
+       "org.json.JSONWriter",
+       "org.json.JSONString",
+       "org.json.zip.BitReader",
+       "org.json.zip.Decompressor",
+       "org.json.CookieList",
+       "org.json.JSONArray",
+       "org.json.zip.JSONzip",
+       "org.json.XMLTokener"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}

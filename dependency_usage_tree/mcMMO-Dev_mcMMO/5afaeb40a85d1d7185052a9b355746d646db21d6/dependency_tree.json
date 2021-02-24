@@ -1,0 +1,959 @@
+[
+ {
+  "artifactid": "mcMMO",
+  "groupid": "com.gmail.nossr50.mcMMO",
+  "version": "2.1.152",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "acf-bukkit",
+    "groupid": "co.aikar",
+    "version": "0.5.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "adventure-text-serializer-gson",
+    "groupid": "net.kyori",
+    "version": "4.1.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "adventure-api",
+      "groupid": "net.kyori",
+      "version": "4.1.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "gson",
+      "groupid": "com.google.code.gson",
+      "version": "2.8.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "adventure-api",
+    "groupid": "net.kyori",
+    "version": "4.1.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "examination-api",
+      "groupid": "net.kyori",
+      "version": "1.0.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "checker-qual",
+        "groupid": "org.checkerframework",
+        "version": "2.8.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "examination-string",
+      "groupid": "net.kyori",
+      "version": "1.0.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "checker-qual",
+        "groupid": "org.checkerframework",
+        "version": "2.8.2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "examination-api",
+        "groupid": "net.kyori",
+        "version": "1.0.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "checker-qual",
+      "groupid": "org.checkerframework",
+      "version": "3.7.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "adventure-nbt",
+    "groupid": "net.kyori",
+    "version": "4.1.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "examination-api",
+      "groupid": "net.kyori",
+      "version": "1.0.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "examination-string",
+      "groupid": "net.kyori",
+      "version": "1.0.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "checker-qual",
+      "groupid": "org.checkerframework",
+      "version": "3.7.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "adventure-platform-bukkit",
+    "groupid": "net.kyori",
+    "version": "4.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "adventure-platform-api",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "adventure-text-serializer-craftbukkit",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "adventure-api",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-nbt",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-gson",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-legacy",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-gson-legacy-impl",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "adventure-api",
+          "groupid": "net.kyori",
+          "version": "4.4.0",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "adventure-text-serializer-gson",
+          "groupid": "net.kyori",
+          "version": "4.4.0",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "adventure-nbt",
+          "groupid": "net.kyori",
+          "version": "4.4.0",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "adventure-text-serializer-bungeecord",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "adventure-api",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-legacy",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-gson",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "adventure-text-serializer-legacy",
+      "groupid": "net.kyori",
+      "version": "4.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "adventure-api",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "adventure-nbt",
+      "groupid": "net.kyori",
+      "version": "4.4.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "adventure-text-serializer-gson",
+      "groupid": "net.kyori",
+      "version": "4.4.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "adventure-platform-facet",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "adventure-platform-api",
+        "groupid": "net.kyori",
+        "version": "4.0.0-SNAPSHOT",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-nbt",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "adventure-platform-viaversion",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "adventure-platform-facet",
+        "groupid": "net.kyori",
+        "version": "4.0.0-SNAPSHOT",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "adventure-text-serializer-gson",
+        "groupid": "net.kyori",
+        "version": "4.4.0",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "adventure-platform-api",
+    "groupid": "net.kyori",
+    "version": "4.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "adventure-api",
+      "groupid": "net.kyori",
+      "version": "4.4.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "adventure-platform-common",
+    "groupid": "net.kyori",
+    "version": "4.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "adventure-platform-api",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "adventure-nbt",
+      "groupid": "net.kyori",
+      "version": "4.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "maven-scm-provider-gitexe",
+    "groupid": "org.apache.maven.scm",
+    "version": "1.8.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "regexp",
+      "groupid": "regexp",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "2.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-lang",
+      "groupid": "commons-lang",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "maven-scm-provider-git-commons",
+      "groupid": "org.apache.maven.scm",
+      "version": "1.8.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "regexp",
+        "groupid": "regexp",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "maven-scm-api",
+        "groupid": "org.apache.maven.scm",
+        "version": "1.8.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "3.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-scm-api",
+      "groupid": "org.apache.maven.scm",
+      "version": "1.8.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "3.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "plexus-utils",
+      "groupid": "org.codehaus.plexus",
+      "version": "3.0.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "bstats-bukkit",
+    "groupid": "org.bstats",
+    "version": "1.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "spigot-api",
+    "groupid": "org.spigotmc",
+    "version": "1.14-R0.1-SNAPSHOT",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-lang",
+      "groupid": "commons-lang",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "21.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "gson",
+      "groupid": "com.google.code.gson",
+      "version": "2.8.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "bungeecord-chat",
+      "groupid": "net.md-5",
+      "version": "1.13-SNAPSHOT",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "gson",
+        "groupid": "com.google.code.gson",
+        "version": "2.8.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "20.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "snakeyaml",
+      "groupid": "org.yaml",
+      "version": "1.23",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "worldguard-core",
+    "groupid": "com.sk89q.worldguard",
+    "version": "7.0.1-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "core",
+      "groupid": "com.sk89q.worldguard.worldguard-libs",
+      "version": "7.0.1-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "worldedit-core",
+      "groupid": "com.sk89q.worldedit",
+      "version": "7.0.1-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "21.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "core",
+        "groupid": "com.sk89q.worldedit.worldedit-libs",
+        "version": "7.0.1-SNAPSHOT",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "truezip",
+        "groupid": "de.schlichtherle",
+        "version": "6.8.3",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "rhino",
+        "groupid": "org.mozilla",
+        "version": "1.7.11",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "snakeyaml",
+        "groupid": "org.yaml",
+        "version": "1.23",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "gson",
+        "groupid": "com.google.code.gson",
+        "version": "2.8.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.26",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "flyway-core",
+      "groupid": "org.flywaydb",
+      "version": "3.0",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "worldguard-legacy",
+    "groupid": "com.sk89q.worldguard",
+    "version": "7.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "worldedit-bukkit",
+      "groupid": "com.sk89q.worldedit",
+      "version": "7.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "worldedit-core",
+        "groupid": "com.sk89q.worldedit",
+        "version": "7.0.0-SNAPSHOT",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "bukkit",
+        "groupid": "com.sk89q.worldedit.worldedit-libs",
+        "version": "7.0.0-SNAPSHOT",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "log4j-slf4j-impl",
+        "groupid": "org.apache.logging.log4j",
+        "version": "2.8.1",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.24",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "log4j-api",
+          "groupid": "org.apache.logging.log4j",
+          "version": "2.8.1",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "bstats-bukkit",
+        "groupid": "org.bstats",
+        "version": "1.4",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "worldguard-core",
+      "groupid": "com.sk89q.worldguard",
+      "version": "7.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commandbook",
+      "groupid": "com.sk89q",
+      "version": "2.3",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "bstats-bukkit",
+      "groupid": "org.bstats",
+      "version": "1.4",
+      "package": "jar",
+      "scope": "runtime",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit-dep",
+    "groupid": "junit",
+    "version": "4.10",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "tomcat-jdbc",
+    "groupid": "org.apache.tomcat",
+    "version": "7.0.52",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "tomcat-juli",
+      "groupid": "org.apache.tomcat",
+      "version": "7.0.52",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "annotations",
+    "groupid": "org.jetbrains",
+    "version": "19.0.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

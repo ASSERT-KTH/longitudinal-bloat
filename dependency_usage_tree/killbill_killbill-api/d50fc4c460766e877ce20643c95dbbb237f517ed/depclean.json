@@ -1,0 +1,590 @@
+{
+ "usage": {
+  "org.killbill.billing.util.tag.TagDefinition": {
+   "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile": [
+    "com.fasterxml.jackson.annotation.JsonTypeInfo$Id",
+    "com.fasterxml.jackson.annotation.JsonTypeInfo",
+    "com.fasterxml.jackson.annotation.JsonTypeInfo$As"
+   ]
+  },
+  "org.killbill.billing.util.nodes.DefaultNodeCommandMetadata": {
+   "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile": [
+    "com.fasterxml.jackson.annotation.JsonProperty",
+    "com.fasterxml.jackson.annotation.JsonCreator"
+   ]
+  },
+  "org.killbill.billing.util.nodes.PluginNodeCommandMetadata": {
+   "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile": [
+    "com.fasterxml.jackson.annotation.JsonProperty",
+    "com.fasterxml.jackson.annotation.JsonCreator"
+   ]
+  },
+  "org.killbill.billing.util.nodes.NodeCommandProperty": {
+   "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile": [
+    "com.fasterxml.jackson.annotation.JsonProperty",
+    "com.fasterxml.jackson.annotation.JsonCreator"
+   ]
+  },
+  "org.killbill.billing.catalog.api.CatalogUserApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.invoice.api.InvoiceItem": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.util.callcontext.CallContext": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.util.entity.Entity": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.BlockingState": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.catalog.api.Catalog": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.SubscriptionApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.util.nodes.NodeInfo": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.SubscriptionBundle": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.BaseEntitlementWithAddOnsSpecifier": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.invoice.api.InvoiceUserApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.payment.api.PaymentApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.invoice.api.DryRunArguments": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.usage.api.UsageUserApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.catalog.api.MutableCatalog": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.invoice.api.Invoice": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.util.audit.AuditLog": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.account.api.ImmutableAccountData": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTimeZone",
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.account.api.AccountData": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTimeZone",
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.Entitlement": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.catalog.api.BillingPeriod": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.Period"
+   ]
+  },
+  "org.killbill.billing.catalog.api.Duration": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate",
+    "org.joda.time.Period",
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.currency.api.CurrencyConversionApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.overdue.api.OverdueStatesAccount": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.Period"
+   ]
+  },
+  "org.killbill.billing.usage.api.RolledUpUsage": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.catalog.api.Plan": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.util.queue.QueueRetryException": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.Period"
+   ]
+  },
+  "org.killbill.billing.account.api.MutableAccountData": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTimeZone",
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.SubscriptionEvent": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.invoice.api.InvoicePayment": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.currency.api.Rate": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.payment.plugin.api.PaymentTransactionInfoPlugin": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.payment.api.PaymentAttempt": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.usage.api.UsageRecord": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.EntitlementApi": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  },
+  "org.killbill.billing.payment.api.PaymentTransaction": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.DateTime"
+   ]
+  },
+  "org.killbill.billing.entitlement.api.Subscription": {
+   "joda-time:joda-time:jar:2.9.9:compile": [
+    "org.joda.time.LocalDate"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "org.kill-bill.billing:killbill-api:jar:0.51.10:null",
+  "coordinates": "org.kill-bill.billing:killbill-api:0.51.10",
+  "groupId": "org.kill-bill.billing",
+  "artifactId": "killbill-api",
+  "version": "0.51.10",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile",
+    "coordinates": "com.fasterxml.jackson.core:jackson-annotations:2.6.7",
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.6.7",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 46986,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.kill-bill.billing:killbill-api:jar:0.51.10",
+    "allTypes": [
+     "com.fasterxml.jackson.annotation.JsonProperty",
+     "com.fasterxml.jackson.annotation.JsonView",
+     "com.fasterxml.jackson.annotation.JsonGetter",
+     "com.fasterxml.jackson.annotation.JsonFormat$Value",
+     "com.fasterxml.jackson.annotation.JacksonAnnotation",
+     "com.fasterxml.jackson.annotation.JsonFormat$Features",
+     "com.fasterxml.jackson.annotation.JsonInclude$Include",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators$Base",
+     "com.fasterxml.jackson.annotation.JsonInclude$Value",
+     "com.fasterxml.jackson.annotation.JsonValue",
+     "com.fasterxml.jackson.annotation.JsonAnyGetter",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators$IntSequenceGenerator",
+     "com.fasterxml.jackson.annotation.JsonRootName",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators$PropertyGenerator",
+     "com.fasterxml.jackson.annotation.JacksonInject",
+     "com.fasterxml.jackson.annotation.JsonBackReference",
+     "com.fasterxml.jackson.annotation.SimpleObjectIdResolver",
+     "com.fasterxml.jackson.annotation.JsonCreator$Mode",
+     "com.fasterxml.jackson.annotation.OptBoolean",
+     "com.fasterxml.jackson.annotation.JsonAutoDetect",
+     "com.fasterxml.jackson.annotation.JsonFormat",
+     "com.fasterxml.jackson.annotation.JsonRawValue",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo$Id",
+     "com.fasterxml.jackson.annotation.JsonAnySetter",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators$None",
+     "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility",
+     "com.fasterxml.jackson.annotation.JsonIdentityReference",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo",
+     "com.fasterxml.jackson.annotation.JsonTypeId",
+     "com.fasterxml.jackson.annotation.JsonUnwrapped",
+     "com.fasterxml.jackson.annotation.JsonManagedReference",
+     "com.fasterxml.jackson.annotation.JsonIgnoreProperties",
+     "com.fasterxml.jackson.annotation.JsonPropertyOrder",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo$As",
+     "com.fasterxml.jackson.annotation.JsonTypeName",
+     "com.fasterxml.jackson.annotation.JsonFormat$Shape",
+     "com.fasterxml.jackson.annotation.JsonIgnore",
+     "com.fasterxml.jackson.annotation.PropertyAccessor",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerator$IdKey",
+     "com.fasterxml.jackson.annotation.JsonProperty$Access",
+     "com.fasterxml.jackson.annotation.JsonFormat$Feature",
+     "com.fasterxml.jackson.annotation.ObjectIdResolver",
+     "com.fasterxml.jackson.annotation.JsonSubTypes",
+     "com.fasterxml.jackson.annotation.JsonIdentityInfo",
+     "com.fasterxml.jackson.annotation.JsonPropertyDescription",
+     "com.fasterxml.jackson.annotation.JsonSubTypes$Type",
+     "com.fasterxml.jackson.annotation.JacksonAnnotationsInside",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerator",
+     "com.fasterxml.jackson.annotation.JacksonAnnotationValue",
+     "com.fasterxml.jackson.annotation.JsonFilter",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo$None",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators$UUIDGenerator",
+     "com.fasterxml.jackson.annotation.JsonCreator",
+     "com.fasterxml.jackson.annotation.JsonInclude",
+     "com.fasterxml.jackson.annotation.JsonIgnoreType",
+     "com.fasterxml.jackson.annotation.ObjectIdGenerators",
+     "com.fasterxml.jackson.annotation.JsonAutoDetect$1",
+     "com.fasterxml.jackson.annotation.JsonSetter"
+    ],
+    "usedTypes": [
+     "com.fasterxml.jackson.annotation.JsonTypeInfo$Id",
+     "com.fasterxml.jackson.annotation.JsonProperty",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo",
+     "com.fasterxml.jackson.annotation.JsonTypeInfo$As",
+     "com.fasterxml.jackson.annotation.JsonCreator"
+    ],
+    "usageRatio": 0.08620689655172414,
+    "children": []
+   },
+   {
+    "id": "joda-time:joda-time:jar:2.9.9:compile",
+    "coordinates": "joda-time:joda-time:2.9.9",
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.9.9",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 634048,
+    "type": "direct",
+    "status": "used",
+    "parent": "org.kill-bill.billing:killbill-api:jar:0.51.10",
+    "allTypes": [
+     "org.joda.time.DateTimeZone",
+     "org.joda.time.tz.DateTimeZoneBuilder$RuleSet",
+     "org.joda.time.tz.DateTimeZoneBuilder$Transition",
+     "org.joda.time.field.AbstractPartialFieldProperty",
+     "org.joda.time.field.StrictDateTimeField",
+     "org.joda.time.convert.ConverterSet$Entry",
+     "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType",
+     "org.joda.time.chrono.BasicChronology$HalfdayField",
+     "org.joda.time.format.DateTimeFormatterBuilder$TwoDigitYear",
+     "org.joda.time.chrono.BasicChronology$YearInfo",
+     "org.joda.time.LocalDate$Property",
+     "org.joda.time.field.UnsupportedDurationField",
+     "org.joda.time.DateMidnight$Property",
+     "org.joda.time.format.PeriodFormatterBuilder$CompositeAffix",
+     "org.joda.time.DateTimeComparator",
+     "org.joda.time.ReadWritableInterval",
+     "org.joda.time.format.PeriodFormatterBuilder",
+     "org.joda.time.format.DateTimePrinter",
+     "org.joda.time.base.BaseLocal",
+     "org.joda.time.chrono.ISOChronology",
+     "org.joda.time.chrono.LenientChronology",
+     "org.joda.time.format.PeriodFormatterBuilder$FieldFormatter",
+     "org.joda.time.tz.ZoneInfoCompiler$Rule",
+     "org.joda.time.field.DividedDateTimeField",
+     "org.joda.time.convert.DateConverter",
+     "org.joda.time.chrono.ZonedChronology",
+     "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset",
+     "org.joda.time.field.BaseDateTimeField",
+     "org.joda.time.field.ZeroIsMaxDateTimeField",
+     "org.joda.time.base.BaseInterval",
+     "org.joda.time.Duration",
+     "org.joda.time.format.FormatUtils",
+     "org.joda.time.format.PeriodFormatter",
+     "org.joda.time.format.DateTimePrinterInternalPrinter",
+     "org.joda.time.Interval",
+     "org.joda.time.convert.LongConverter",
+     "org.joda.time.base.AbstractInstant",
+     "org.joda.time.tz.DateTimeZoneBuilder",
+     "org.joda.time.format.DateTimeParserBucket",
+     "org.joda.time.ReadWritablePeriod",
+     "org.joda.time.convert.ConverterSet",
+     "org.joda.time.LocalDateTime",
+     "org.joda.time.base.BasePeriod$1",
+     "org.joda.time.tz.FixedDateTimeZone",
+     "org.joda.time.convert.IntervalConverter",
+     "org.joda.time.format.PeriodPrinter",
+     "org.joda.time.field.PreciseDateTimeField",
+     "org.joda.time.chrono.LimitChronology$LimitException",
+     "org.joda.time.chrono.GJLocaleSymbols",
+     "org.joda.time.convert.ReadableDurationConverter",
+     "org.joda.time.base.BaseDuration",
+     "org.joda.time.field.DecoratedDateTimeField",
+     "org.joda.time.Months",
+     "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId",
+     "org.joda.time.YearMonthDay",
+     "org.joda.time.format.DateTimeParser",
+     "org.joda.time.DateTimeZone$LazyInit$1",
+     "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral",
+     "org.joda.time.YearMonth",
+     "org.joda.time.chrono.GJChronology$CutoverField",
+     "org.joda.time.LocalTime$Property",
+     "org.joda.time.convert.ReadablePeriodConverter",
+     "org.joda.time.DateTime$Property",
+     "org.joda.time.field.OffsetDateTimeField",
+     "org.joda.time.Years",
+     "org.joda.time.convert.ReadableIntervalConverter",
+     "org.joda.time.DateTimeField",
+     "org.joda.time.field.FieldUtils",
+     "org.joda.time.format.ISODateTimeFormat",
+     "org.joda.time.Partial",
+     "org.joda.time.field.SkipDateTimeField",
+     "org.joda.time.base.AbstractPeriod",
+     "org.joda.time.chrono.GJDayOfWeekDateTimeField",
+     "org.joda.time.DateTimeUtils$SystemMillisProvider",
+     "org.joda.time.IllegalFieldValueException",
+     "org.joda.time.IllegalInstantException",
+     "org.joda.time.format.DateTimeFormatterBuilder$Composite",
+     "org.joda.time.format.DateTimeFormatterBuilder$UnpaddedNumber",
+     "org.joda.time.format.PeriodFormatterBuilder$IgnorableAffix",
+     "org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField",
+     "org.joda.time.format.DateTimeFormat$StyleFormatter",
+     "org.joda.time.ReadablePeriod",
+     "org.joda.time.DateTimeZone$Stub",
+     "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+     "org.joda.time.chrono.GregorianChronology",
+     "org.joda.time.convert.ConverterManager",
+     "org.joda.time.chrono.GJChronology$LinkedDurationField",
+     "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber",
+     "org.joda.time.Minutes",
+     "org.joda.time.chrono.BasicMonthOfYearDateTimeField",
+     "org.joda.time.base.AbstractPartial",
+     "org.joda.time.base.BasePartial",
+     "org.joda.time.base.AbstractDuration",
+     "org.joda.time.base.BaseDateTime",
+     "org.joda.time.DateTimeUtils",
+     "org.joda.time.base.AbstractInterval",
+     "org.joda.time.Hours",
+     "org.joda.time.LocalTime",
+     "org.joda.time.base.BasePeriod",
+     "org.joda.time.field.DecoratedDurationField",
+     "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+     "org.joda.time.TimeOfDay$Property",
+     "org.joda.time.format.ISOPeriodFormat",
+     "org.joda.time.TimeOfDay",
+     "org.joda.time.DateTimeZone$LazyInit",
+     "org.joda.time.Partial$Property",
+     "org.joda.time.chrono.CopticChronology",
+     "org.joda.time.field.ImpreciseDateTimeField",
+     "org.joda.time.field.PreciseDurationField",
+     "org.joda.time.format.PeriodFormatterBuilder$RegExAffix$1",
+     "org.joda.time.DateTimeUtils$FixedMillisProvider",
+     "org.joda.time.tz.DateTimeZoneBuilder$OfYear",
+     "org.joda.time.ReadableDuration",
+     "org.joda.time.chrono.BasicGJChronology",
+     "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter",
+     "org.joda.time.DurationField",
+     "org.joda.time.format.DateTimeFormatter",
+     "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName",
+     "org.joda.time.chrono.IslamicChronology$LeapYearPatternType",
+     "org.joda.time.DateTime",
+     "org.joda.time.field.DelegatedDurationField",
+     "org.joda.time.format.PeriodFormatterBuilder$SimpleAffix",
+     "org.joda.time.format.DateTimeParserInternalParser",
+     "org.joda.time.convert.PeriodConverter",
+     "org.joda.time.ReadWritableDateTime",
+     "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+     "org.joda.time.convert.CalendarConverter",
+     "org.joda.time.format.PeriodFormatterBuilder$Separator",
+     "org.joda.time.Instant",
+     "org.joda.time.chrono.LimitChronology$LimitDurationField",
+     "org.joda.time.chrono.BasicDayOfYearDateTimeField",
+     "org.joda.time.DurationFieldType$StandardDurationFieldType",
+     "org.joda.time.chrono.BuddhistChronology",
+     "org.joda.time.format.DateTimeFormatterBuilder$StringLiteral",
+     "org.joda.time.tz.DateTimeZoneBuilder$Recurrence",
+     "org.joda.time.convert.ReadablePartialConverter",
+     "org.joda.time.format.ISODateTimeFormat$Constants",
+     "org.joda.time.convert.Converter",
+     "org.joda.time.DateTimeUtils$MillisProvider",
+     "org.joda.time.DateTimeUtils$OffsetMillisProvider",
+     "org.joda.time.chrono.GJYearOfEraDateTimeField",
+     "org.joda.time.convert.PartialConverter",
+     "org.joda.time.Seconds",
+     "org.joda.time.field.RemainderDateTimeField",
+     "org.joda.time.JodaTimePermission",
+     "org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField",
+     "org.joda.time.DateTimeFieldType",
+     "org.joda.time.format.DateTimeFormatterBuilder$Fraction",
+     "org.joda.time.format.DateTimeFormatterBuilder$FixedNumber",
+     "org.joda.time.MutableDateTime$Property",
+     "org.joda.time.chrono.LimitChronology$LimitDateTimeField",
+     "org.joda.time.ReadableInterval",
+     "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone",
+     "org.joda.time.field.LenientDateTimeField",
+     "org.joda.time.base.AbstractDateTime",
+     "org.joda.time.field.SkipUndoDateTimeField",
+     "org.joda.time.convert.AbstractConverter",
+     "org.joda.time.field.DelegatedDateTimeField",
+     "org.joda.time.chrono.BasicChronology",
+     "org.joda.time.chrono.BasicYearDateTimeField",
+     "org.joda.time.chrono.ISOChronology$Stub",
+     "org.joda.time.format.DateTimeFormatterBuilder",
+     "org.joda.time.tz.ZoneInfoProvider$1",
+     "org.joda.time.chrono.EthiopicChronology",
+     "org.joda.time.tz.CachedDateTimeZone$Info",
+     "org.joda.time.PeriodType",
+     "org.joda.time.field.MillisDurationField",
+     "org.joda.time.format.InternalPrinter",
+     "org.joda.time.chrono.GJChronology",
+     "org.joda.time.chrono.IslamicChronology",
+     "org.joda.time.format.DateTimeFormatterBuilder$TextField",
+     "org.joda.time.LocalDateTime$Property",
+     "org.joda.time.chrono.BasicFixedMonthChronology",
+     "org.joda.time.tz.ZoneInfoLogger$1",
+     "org.joda.time.YearMonthDay$Property",
+     "org.joda.time.field.UnsupportedDateTimeField",
+     "org.joda.time.chrono.ISOYearOfEraDateTimeField",
+     "org.joda.time.field.ScaledDurationField",
+     "org.joda.time.tz.ZoneInfoCompiler$Zone",
+     "org.joda.time.field.PreciseDurationDateTimeField",
+     "org.joda.time.MonthDay",
+     "org.joda.time.chrono.GJCacheKey",
+     "org.joda.time.MutablePeriod",
+     "org.joda.time.MutableDateTime",
+     "org.joda.time.tz.CachedDateTimeZone",
+     "org.joda.time.ReadableDateTime",
+     "org.joda.time.format.PeriodFormatterBuilder$Literal",
+     "org.joda.time.format.PeriodParser",
+     "org.joda.time.format.PeriodFormatterBuilder$PluralAffix",
+     "org.joda.time.DateMidnight",
+     "org.joda.time.convert.DurationConverter",
+     "org.joda.time.chrono.GJMonthOfYearDateTimeField",
+     "org.joda.time.format.DateTimeParserBucket$SavedState",
+     "org.joda.time.chrono.BasicWeekyearDateTimeField",
+     "org.joda.time.tz.DateTimeZoneBuilder$Rule",
+     "org.joda.time.Days",
+     "org.joda.time.format.DateTimeFormatterBuilder$MatchingParser",
+     "org.joda.time.chrono.BasicSingleEraDateTimeField",
+     "org.joda.time.format.DateTimeFormat",
+     "org.joda.time.YearMonth$Property",
+     "org.joda.time.chrono.LimitChronology",
+     "org.joda.time.tz.UTCProvider",
+     "org.joda.time.format.InternalPrinterDateTimePrinter",
+     "org.joda.time.ReadableInstant",
+     "org.joda.time.base.BaseSingleFieldPeriod",
+     "org.joda.time.convert.NullConverter",
+     "org.joda.time.tz.DefaultNameProvider",
+     "org.joda.time.tz.ZoneInfoCompiler",
+     "org.joda.time.tz.Provider",
+     "org.joda.time.tz.ZoneInfoLogger",
+     "org.joda.time.chrono.AssembledChronology$Fields",
+     "org.joda.time.DurationFieldType",
+     "org.joda.time.format.PeriodFormat$DynamicWordBased",
+     "org.joda.time.MutableInterval",
+     "org.joda.time.ReadWritableInstant",
+     "org.joda.time.tz.NameProvider",
+     "org.joda.time.tz.ZoneInfoCompiler$DateTimeOfYear",
+     "org.joda.time.convert.ReadableInstantConverter",
+     "org.joda.time.convert.StringConverter",
+     "org.joda.time.convert.InstantConverter",
+     "org.joda.time.chrono.AssembledChronology",
+     "org.joda.time.chrono.StrictChronology",
+     "org.joda.time.chrono.GJEraDateTimeField",
+     "org.joda.time.tz.ZoneInfoCompiler$RuleSet",
+     "org.joda.time.tz.ZoneInfoProvider",
+     "org.joda.time.chrono.BaseChronology",
+     "org.joda.time.chrono.JulianChronology",
+     "org.joda.time.Period",
+     "org.joda.time.format.PeriodFormat",
+     "org.joda.time.format.DateTimeFormat$StyleFormatterCacheKey",
+     "org.joda.time.Weeks",
+     "org.joda.time.Chronology",
+     "org.joda.time.format.PeriodFormatterBuilder$Composite",
+     "org.joda.time.field.AbstractReadableInstantFieldProperty",
+     "org.joda.time.format.PeriodFormatterBuilder$PeriodFieldAffix",
+     "org.joda.time.format.PeriodFormatterBuilder$RegExAffix",
+     "org.joda.time.format.DateTimeParserBucket$SavedField",
+     "org.joda.time.LocalDate",
+     "org.joda.time.UTCDateTimeZone",
+     "org.joda.time.chrono.BasicDayOfMonthDateTimeField",
+     "org.joda.time.MonthDay$Property",
+     "org.joda.time.format.InternalParserDateTimeParser",
+     "org.joda.time.format.InternalParser",
+     "org.joda.time.ReadablePartial",
+     "org.joda.time.chrono.GJChronology$ImpreciseCutoverField",
+     "org.joda.time.field.BaseDurationField",
+     "org.joda.time.DateTimeConstants"
+    ],
+    "usedTypes": [
+     "org.joda.time.LocalDate",
+     "org.joda.time.Period",
+     "org.joda.time.DateTimeZone",
+     "org.joda.time.DateTime"
+    ],
+    "usageRatio": 0.016194331983805668,
+    "children": []
+   }
+  ]
+ }
+}

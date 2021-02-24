@@ -1,0 +1,1768 @@
+[
+ {
+  "artifactid": "mariadb-java-client",
+  "groupid": "org.mariadb.jdbc",
+  "version": "2.0.3",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "waffle-jna",
+    "groupid": "com.github.dblock.waffle",
+    "version": "1.8.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jna",
+      "groupid": "net.java.dev.jna",
+      "version": "4.2.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jna-platform",
+      "groupid": "net.java.dev.jna",
+      "version": "4.2.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jcl-over-slf4j",
+      "groupid": "org.slf4j",
+      "version": "1.7.14",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.14",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.14",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "19.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "HikariCP",
+    "groupid": "com.zaxxer",
+    "version": "2.4.7",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.21",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "threadly",
+    "groupid": "org.threadly",
+    "version": "4.4.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jna",
+    "groupid": "net.java.dev.jna",
+    "version": "4.2.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "jna-platform",
+    "groupid": "net.java.dev.jna",
+    "version": "4.2.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jna",
+      "groupid": "net.java.dev.jna",
+      "version": "4.2.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.14",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.2.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.2.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "aws-java-sdk",
+    "groupid": "com.amazonaws",
+    "version": "1.10.76",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "aws-java-sdk-support",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-simpledb",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-simpleworkflow",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-storagegateway",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-route53",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-s3",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-kms",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-importexport",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-sts",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-sqs",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-rds",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-redshift",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-elasticbeanstalk",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-glacier",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-sqs",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-sns",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-s3",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-iam",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-datapipeline",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-elasticloadbalancing",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-emr",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-elasticache",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-elastictranscoder",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-ec2",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-dynamodb",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-s3",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-sns",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-sqs",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudtrail",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudwatch",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-logs",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-events",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cognitoidentity",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cognitosync",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-directconnect",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudformation",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudfront",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-kinesis",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-opsworks",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-ses",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-autoscaling",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudsearch",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudwatchmetrics",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-cloudwatch",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-dynamodb",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-swf-libraries",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-simpleworkflow",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-codedeploy",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-codepipeline",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-kms",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-config",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-lambda",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-ecs",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-ecr",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cloudhsm",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-ssm",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-workspaces",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-machinelearning",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-directory",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-efs",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-codecommit",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-devicefarm",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-elasticsearch",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-waf",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-marketplacecommerceanalytics",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-inspector",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-iot",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-api-gateway",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-acm",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-gamelift",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-dms",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-marketplacemeteringservice",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-cognitoidp",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aws-java-sdk-core",
+        "groupid": "com.amazonaws",
+        "version": "1.10.76",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "aws-java-sdk-core",
+      "groupid": "com.amazonaws",
+      "version": "1.10.76",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "httpclient",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.3.6",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "httpcore",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.3.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "commons-logging",
+          "groupid": "commons-logging",
+          "version": "1.1.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-codec",
+          "groupid": "commons-codec",
+          "version": "1.6",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.5.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-annotations",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.5.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.5.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-dataformat-cbor",
+        "groupid": "com.fasterxml.jackson.dataformat",
+        "version": "2.5.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.5.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "joda-time",
+        "groupid": "joda-time",
+        "version": "2.8.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
