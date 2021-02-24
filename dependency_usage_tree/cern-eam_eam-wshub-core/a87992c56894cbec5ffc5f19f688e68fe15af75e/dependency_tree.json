@@ -1,0 +1,633 @@
+[
+ {
+  "artifactid": "eam-wshub-core",
+  "groupid": "ch.cern.eam",
+  "version": "11.4-86",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "javax.persistence-api",
+    "groupid": "javax.persistence",
+    "version": "2.2",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "eam-wshub-proxyclient",
+    "groupid": "ch.cern.eam",
+    "version": "11.4-13",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-beanutils",
+    "groupid": "commons-beanutils",
+    "version": "1.9.4",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-logging",
+      "groupid": "commons-logging",
+      "version": "1.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "commons-collections",
+      "groupid": "commons-collections",
+      "version": "3.2.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "cxf-rt-frontend-jaxws",
+    "groupid": "org.apache.cxf",
+    "version": "3.3.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "xml-resolver",
+      "groupid": "xml-resolver",
+      "version": "1.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "asm",
+      "groupid": "org.ow2.asm",
+      "version": "7.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "cxf-core",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jaxb-runtime",
+        "groupid": "org.glassfish.jaxb",
+        "version": "2.3.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jakarta.xml.bind-api",
+          "groupid": "jakarta.xml.bind",
+          "version": "2.3.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "txw2",
+          "groupid": "org.glassfish.jaxb",
+          "version": "2.3.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "istack-commons-runtime",
+          "groupid": "com.sun.istack",
+          "version": "3.0.8",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jakarta.activation-api",
+            "groupid": "jakarta.activation",
+            "version": "1.2.1",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "stax-ex",
+          "groupid": "org.jvnet.staxex",
+          "version": "1.8.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jakarta.activation-api",
+            "groupid": "jakarta.activation",
+            "version": "1.2.1",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jakarta.xml.bind-api",
+            "groupid": "jakarta.xml.bind",
+            "version": "2.3.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "FastInfoset",
+          "groupid": "com.sun.xml.fastinfoset",
+          "version": "1.2.16",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jakarta.activation-api",
+          "groupid": "jakarta.activation",
+          "version": "1.2.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "woodstox-core",
+        "groupid": "com.fasterxml.woodstox",
+        "version": "5.0.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "stax2-api",
+          "groupid": "org.codehaus.woodstox",
+          "version": "3.1.4",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "xmlschema-core",
+        "groupid": "org.apache.ws.xmlschema",
+        "version": "2.2.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jakarta.xml.bind-api",
+        "groupid": "jakarta.xml.bind",
+        "version": "2.3.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jakarta.activation-api",
+          "groupid": "jakarta.activation",
+          "version": "1.2.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "cxf-rt-bindings-soap",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "cxf-core",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "cxf-rt-wsdl",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "cxf-core",
+          "groupid": "org.apache.cxf",
+          "version": "3.3.5",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "wsdl4j",
+          "groupid": "wsdl4j",
+          "version": "1.6.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "asm",
+          "groupid": "org.ow2.asm",
+          "version": "7.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "cxf-rt-databinding-jaxb",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "cxf-core",
+          "groupid": "org.apache.cxf",
+          "version": "3.3.5",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "cxf-rt-wsdl",
+          "groupid": "org.apache.cxf",
+          "version": "3.3.5",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "cxf-rt-bindings-xml",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "cxf-core",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "cxf-rt-frontend-simple",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "cxf-core",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "cxf-rt-bindings-soap",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "cxf-rt-wsdl",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "cxf-rt-ws-addr",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "cxf-core",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "cxf-rt-bindings-soap",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "cxf-rt-ws-policy",
+        "groupid": "org.apache.cxf",
+        "version": "3.3.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "wsdl4j",
+          "groupid": "wsdl4j",
+          "version": "1.6.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "cxf-core",
+          "groupid": "org.apache.cxf",
+          "version": "3.3.5",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "neethi",
+          "groupid": "org.apache.neethi",
+          "version": "3.1.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "cxf-rt-transports-http",
+    "groupid": "org.apache.cxf",
+    "version": "3.3.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "cxf-core",
+      "groupid": "org.apache.cxf",
+      "version": "3.3.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit-jupiter-api",
+    "groupid": "org.junit.jupiter",
+    "version": "5.6.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "apiguardian-api",
+      "groupid": "org.apiguardian",
+      "version": "1.1.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "opentest4j",
+      "groupid": "org.opentest4j",
+      "version": "1.2.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "junit-platform-commons",
+      "groupid": "org.junit.platform",
+      "version": "1.6.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "apiguardian-api",
+        "groupid": "org.apiguardian",
+        "version": "1.1.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "junit-jupiter-engine",
+    "groupid": "org.junit.jupiter",
+    "version": "5.6.0",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "apiguardian-api",
+      "groupid": "org.apiguardian",
+      "version": "1.1.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "junit-platform-engine",
+      "groupid": "org.junit.platform",
+      "version": "1.6.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "apiguardian-api",
+        "groupid": "org.apiguardian",
+        "version": "1.1.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "opentest4j",
+        "groupid": "org.opentest4j",
+        "version": "1.2.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "junit-platform-commons",
+        "groupid": "org.junit.platform",
+        "version": "1.6.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "junit-jupiter-api",
+      "groupid": "org.junit.jupiter",
+      "version": "5.6.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

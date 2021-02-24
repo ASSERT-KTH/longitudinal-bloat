@@ -1,0 +1,832 @@
+{
+ "usage": {
+  "com.chargebee.models.Plan$UpdateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer$BillingAddress": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNote$LineItem": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.InvoiceEstimate": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNoteEstimate$Tax": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Transaction$LinkedInvoice": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.APIException": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONException",
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$Tax": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.ListResult$Entry": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer$PaymentMethod": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Card": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.ClazzUtil": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Event$Webhook": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Addon$CreateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.HostedPage": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.Result": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.HostedPage$Content": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$LineItem": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Address": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.PortalSession": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNoteEstimate": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Transaction$LinkedCreditNote": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.Params": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$AdjustmentCreditNote": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Event": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$ShippingAddress": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.Resource": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONException",
+    "org.json.JSONObject",
+    "org.json.JSONArray"
+   ]
+  },
+  "com.chargebee.models.Subscription$CreateForCustomerRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.exceptions.OperationFailedException": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Estimate": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.ResultBase": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONException",
+    "org.json.JSONObject",
+    "org.json.JSONArray"
+   ]
+  },
+  "com.chargebee.models.CreditNote$Discount": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$AppliedCredit": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer$CreateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$Note": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Plan$CreateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.PortalSession$LinkedCustomer": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$LinkedPayment": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Subscription$Addon": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Comment": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.exceptions.InvalidRequestException": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Coupon": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Coupon$CreateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Transaction$LinkedRefund": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNoteEstimate$Discount": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer$Contact": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.HttpUtil": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONException",
+    "org.json.JSONObject"
+   ],
+   "commons-codec:commons-codec:jar:1.4:compile": [
+    "org.apache.commons.codec.binary.Base64"
+   ]
+  },
+  "com.chargebee.models.Invoice$IssuedCreditNote": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.ListResult": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONException",
+    "org.json.JSONObject",
+    "org.json.JSONArray"
+   ]
+  },
+  "com.chargebee.models.Subscription$ShippingAddress": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.SubscriptionEstimate": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Download": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Customer$UpdateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Subscription": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$LinkedOrder": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Subscription$CreateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CouponCode": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Subscription$Coupon": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Addon$UpdateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.InvoiceEstimate$Tax": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$Discount": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNoteEstimate$LineItem": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.InvoiceEstimate$Discount": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNote$LinkedRefund": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Event$Content": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNote$Allocation": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNote$Tax": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Addon": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice$BillingAddress": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Plan": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.InvoiceEstimate$LineItem": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.internal.HttpUtil$Resp": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Transaction": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Order": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.CreditNote": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.exceptions.PaymentException": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Invoice": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  },
+  "com.chargebee.models.Subscription$UpdateRequest": {
+   "org.json:json:jar:20090211:compile": [
+    "org.json.JSONObject"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.chargebee:chargebee-java:jar:2.0.0:null",
+  "coordinates": "com.chargebee:chargebee-java:2.0.0",
+  "groupId": "com.chargebee",
+  "artifactId": "chargebee-java",
+  "version": "2.0.0",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "org.json:json:jar:20090211:compile",
+    "coordinates": "org.json:json:20090211",
+    "groupId": "org.json",
+    "artifactId": "json",
+    "version": "20090211",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 45944,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.chargebee:chargebee-java:jar:2.0.0",
+    "allTypes": [
+     "org.json.JSONML",
+     "org.json.HTTPTokener",
+     "org.json.CDL",
+     "org.json.JSONObject$Null",
+     "org.json.JSONTokener",
+     "org.json.Cookie",
+     "org.json.JSONWriter",
+     "org.json.JSONString",
+     "org.json.JSONException",
+     "org.json.JSONObject$1",
+     "org.json.JSONObject",
+     "org.json.Test$1Obj",
+     "org.json.HTTP",
+     "org.json.XML",
+     "org.json.JSONStringer",
+     "org.json.Test",
+     "org.json.CookieList",
+     "org.json.JSONArray",
+     "org.json.XMLTokener"
+    ],
+    "usedTypes": [
+     "org.json.JSONException",
+     "org.json.JSONObject",
+     "org.json.JSONArray"
+    ],
+    "usageRatio": 0.15789473684210525,
+    "children": []
+   },
+   {
+    "id": "commons-codec:commons-codec:jar:1.4:compile",
+    "coordinates": "commons-codec:commons-codec:1.4",
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.4",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 58160,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.chargebee:chargebee-java:jar:2.0.0",
+    "allTypes": [
+     "org.apache.commons.codec.BinaryEncoder",
+     "org.apache.commons.codec.EncoderException",
+     "org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult",
+     "org.apache.commons.codec.StringEncoderComparator",
+     "org.apache.commons.codec.language.SoundexUtils",
+     "org.apache.commons.codec.net.Utils",
+     "org.apache.commons.codec.binary.Hex",
+     "org.apache.commons.codec.net.QCodec",
+     "org.apache.commons.codec.binary.Base64",
+     "org.apache.commons.codec.StringDecoder",
+     "org.apache.commons.codec.language.Caverphone",
+     "org.apache.commons.codec.net.BCodec",
+     "org.apache.commons.codec.Decoder",
+     "org.apache.commons.codec.binary.Base64OutputStream",
+     "org.apache.commons.codec.language.Metaphone",
+     "org.apache.commons.codec.language.RefinedSoundex",
+     "org.apache.commons.codec.language.Soundex",
+     "org.apache.commons.codec.Encoder",
+     "org.apache.commons.codec.DecoderException",
+     "org.apache.commons.codec.StringEncoder",
+     "org.apache.commons.codec.binary.BinaryCodec",
+     "org.apache.commons.codec.net.QuotedPrintableCodec",
+     "org.apache.commons.codec.BinaryDecoder",
+     "org.apache.commons.codec.language.DoubleMetaphone",
+     "org.apache.commons.codec.CharEncoding",
+     "org.apache.commons.codec.net.URLCodec",
+     "org.apache.commons.codec.binary.StringUtils",
+     "org.apache.commons.codec.binary.Base64InputStream",
+     "org.apache.commons.codec.digest.DigestUtils",
+     "org.apache.commons.codec.net.RFC1522Codec"
+    ],
+    "usedTypes": [
+     "org.apache.commons.codec.binary.Base64"
+    ],
+    "usageRatio": 0.03333333333333333,
+    "children": []
+   },
+   {
+    "id": "junit:junit:jar:4.10:test",
+    "coordinates": "junit:junit:4.10",
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.10",
+    "scope": "test",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 253160,
+    "type": "direct",
+    "status": "bloated",
+    "parent": "com.chargebee:chargebee-java:jar:2.0.0",
+    "allTypes": [
+     "org.junit.runner.Request",
+     "org.junit.experimental.theories.ParameterSignature",
+     "org.junit.internal.matchers.SubstringMatcher",
+     "org.junit.rules.ExpectedException$ExpectedExceptionStatement",
+     "org.junit.internal.builders.NullBuilder",
+     "junit.framework.TestSuite",
+     "org.junit.ComparisonFailure$ComparisonCompactor",
+     "org.junit.experimental.categories.Categories$IncludeCategory",
+     "org.junit.runner.Result$1",
+     "org.junit.runners.model.FrameworkMethod$1",
+     "junit.framework.JUnit4TestAdapterCache$1",
+     "org.junit.AfterClass",
+     "org.junit.internal.requests.SortingRequest",
+     "junit.extensions.TestSetup",
+     "org.junit.internal.ArrayComparisonFailure",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+     "org.junit.runner.Request$1",
+     "org.junit.runner.Computer$1",
+     "org.junit.rules.ErrorCollector",
+     "org.junit.internal.runners.InitializationError",
+     "org.junit.rules.Verifier",
+     "org.junit.rules.ExternalResource",
+     "org.junit.experimental.results.FailureList",
+     "org.junit.matchers.package-info",
+     "org.junit.experimental.theories.PotentialAssignment$1",
+     "org.junit.internal.requests.package-info",
+     "junit.textui.ResultPrinter",
+     "org.junit.runners.package-info",
+     "org.hamcrest.BaseDescription",
+     "org.hamcrest.core.IsNot",
+     "org.junit.internal.runners.SuiteMethod",
+     "junit.extensions.ActiveTestSuite$1",
+     "org.junit.runner.RunWith",
+     "org.junit.experimental.results.PrintableResult",
+     "org.hamcrest.core.AllOf",
+     "org.junit.internal.runners.statements.InvokeMethod",
+     "org.junit.rules.TestWatchman$1",
+     "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+     "junit.extensions.ActiveTestSuite",
+     "org.junit.experimental.theories.Theories",
+     "org.junit.internal.ComparisonCriteria",
+     "org.hamcrest.core.IsEqual",
+     "org.junit.internal.requests.ClassRequest",
+     "org.junit.rules.Timeout",
+     "junit.framework.TestCase",
+     "org.junit.runner.package-info",
+     "org.junit.Before",
+     "junit.runner.package-info",
+     "org.junit.Test$None",
+     "org.junit.runner.manipulation.Filter",
+     "org.junit.runner.notification.RunNotifier$SafeNotifier",
+     "org.junit.Test",
+     "junit.framework.JUnit4TestCaseFacade",
+     "org.hamcrest.Matcher",
+     "org.junit.internal.requests.FilterRequest",
+     "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+     "org.junit.experimental.categories.Categories$ExcludeCategory",
+     "org.junit.ComparisonFailure",
+     "org.junit.internal.runners.MethodRoadie$1$1",
+     "org.junit.runners.model.RunnerBuilder",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+     "org.junit.internal.runners.package-info",
+     "org.junit.runner.manipulation.Filterable",
+     "org.junit.experimental.max.MaxHistory$1",
+     "org.junit.rules.RunRules",
+     "org.junit.runner.notification.RunNotifier$1",
+     "org.junit.internal.runners.model.EachTestNotifier",
+     "org.junit.runner.notification.RunListener",
+     "junit.framework.TestFailure",
+     "org.junit.runner.Description",
+     "org.junit.experimental.max.MaxCore$1$1",
+     "org.junit.runner.notification.Failure",
+     "org.junit.internal.runners.statements.FailOnTimeout",
+     "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+     "org.junit.runner.notification.RunNotifier$6",
+     "org.junit.runner.notification.RunNotifier$7",
+     "org.hamcrest.SelfDescribing",
+     "org.junit.runner.notification.RunNotifier$2",
+     "org.junit.runner.notification.RunNotifier$3",
+     "org.junit.runner.notification.RunNotifier$4",
+     "org.junit.runner.notification.RunNotifier$5",
+     "org.junit.runners.model.NoGenericTypeParametersValidator",
+     "junit.textui.package-info",
+     "org.junit.rules.Verifier$1",
+     "org.junit.runners.model.Statement",
+     "junit.framework.Test",
+     "org.junit.matchers.JUnitMatchers",
+     "org.junit.rules.ErrorCollector$1",
+     "org.hamcrest.internal.SelfDescribingValue",
+     "junit.framework.JUnit4TestAdapter",
+     "org.junit.experimental.categories.Categories$CategoryFilter",
+     "org.junit.internal.runners.TestClass",
+     "junit.extensions.package-info",
+     "org.junit.experimental.ParallelComputer",
+     "org.junit.rules.ExternalResource$1",
+     "org.junit.internal.runners.MethodValidator",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+     "org.junit.runner.Result$Listener",
+     "org.junit.internal.ExactComparisonCriteria",
+     "org.junit.Assume",
+     "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+     "org.junit.internal.matchers.Each$1",
+     "org.junit.internal.JUnitSystem",
+     "org.junit.internal.runners.ClassRoadie",
+     "org.junit.internal.builders.JUnit3Builder",
+     "org.junit.internal.builders.IgnoredBuilder",
+     "org.junit.runners.model.FrameworkMethod",
+     "org.junit.runners.JUnit4",
+     "org.junit.internal.runners.JUnit4ClassRunner$1",
+     "org.hamcrest.internal.ArrayIterator",
+     "org.junit.internal.runners.JUnit4ClassRunner$2",
+     "org.junit.Ignore",
+     "junit.framework.Assert",
+     "junit.extensions.TestDecorator",
+     "org.junit.experimental.theories.ParametersSuppliedBy",
+     "org.junit.internal.matchers.StringContains",
+     "org.junit.runner.JUnitCore",
+     "org.junit.runner.Result",
+     "org.hamcrest.StringDescription",
+     "org.junit.experimental.theories.Theories$TheoryAnchor",
+     "junit.extensions.TestSetup$1",
+     "junit.textui.TestRunner",
+     "org.junit.internal.InexactComparisonCriteria",
+     "org.junit.runners.model.RunnerScheduler",
+     "org.junit.internal.AssumptionViolatedException",
+     "org.junit.experimental.theories.ParameterSupplier",
+     "org.hamcrest.core.Is",
+     "org.junit.experimental.max.MaxCore",
+     "org.junit.internal.matchers.Each",
+     "org.junit.runners.BlockJUnit4ClassRunner",
+     "junit.framework.ComparisonFailure",
+     "org.junit.ClassRule",
+     "org.junit.internal.runners.JUnit38ClassRunner$1",
+     "org.junit.runners.model.FrameworkMember",
+     "org.junit.experimental.results.ResultMatchers$1",
+     "org.junit.experimental.theories.Theory",
+     "org.junit.experimental.results.ResultMatchers$2",
+     "org.junit.internal.builders.JUnit4Builder",
+     "org.junit.experimental.results.ResultMatchers$3",
+     "org.junit.internal.builders.SuiteMethodBuilder",
+     "org.junit.runners.BlockJUnit4ClassRunner$1",
+     "org.junit.experimental.ParallelComputer$1",
+     "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+     "org.junit.internal.runners.MethodRoadie$1",
+     "org.junit.internal.runners.MethodRoadie$2",
+     "org.junit.runners.ParentRunner$3",
+     "org.junit.runners.ParentRunner$4",
+     "org.junit.runners.ParentRunner$1",
+     "org.junit.runners.ParentRunner$2",
+     "org.junit.experimental.categories.Category",
+     "org.hamcrest.core.DescribedAs",
+     "org.junit.rules.TestWatcher",
+     "org.junit.internal.runners.MethodRoadie",
+     "org.junit.runners.Suite",
+     "org.junit.experimental.theories.internal.Assignments",
+     "org.junit.internal.builders.IgnoredClassRunner",
+     "org.junit.runner.manipulation.Sorter$1",
+     "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+     "org.junit.internal.matchers.TypeSafeMatcher",
+     "org.junit.internal.runners.FailedBefore",
+     "org.junit.internal.RealSystem",
+     "org.junit.runners.model.FrameworkField",
+     "org.junit.internal.matchers.CombinableMatcher",
+     "org.junit.internal.runners.statements.RunAfters",
+     "org.junit.experimental.max.MaxHistory$RememberingListener",
+     "org.junit.runners.model.MultipleFailureException",
+     "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+     "org.hamcrest.BaseMatcher",
+     "org.junit.rules.TestWatchman",
+     "org.junit.runner.Describable",
+     "org.junit.runner.Runner",
+     "org.junit.rules.TestName",
+     "org.hamcrest.internal.SelfDescribingValueIterator",
+     "org.junit.runners.model.InitializationError",
+     "org.hamcrest.core.IsSame",
+     "org.junit.internal.TextListener",
+     "org.junit.internal.runners.TestMethod",
+     "org.junit.runners.Parameterized$Parameters",
+     "junit.framework.AssertionFailedError",
+     "junit.framework.JUnit4TestAdapterCache",
+     "junit.framework.TestSuite$1",
+     "junit.framework.TestListener",
+     "org.junit.runners.ParentRunner",
+     "junit.framework.package-info",
+     "org.junit.experimental.runners.Enclosed",
+     "org.junit.Assert",
+     "org.junit.experimental.max.MaxCore$1",
+     "org.hamcrest.core.IsNull",
+     "junit.framework.Protectable",
+     "org.hamcrest.CoreMatchers",
+     "org.junit.runner.manipulation.package-info",
+     "org.junit.internal.runners.JUnit4ClassRunner",
+     "org.junit.rules.MethodRule",
+     "org.junit.experimental.ParallelComputer$1$1",
+     "junit.framework.ComparisonCompactor",
+     "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+     "junit.framework.TestResult$1",
+     "org.junit.runners.model.TestClass",
+     "org.junit.experimental.theories.DataPoint",
+     "org.junit.runner.manipulation.Sortable",
+     "org.junit.runner.Computer",
+     "junit.framework.TestResult",
+     "org.junit.After",
+     "junit.runner.BaseTestRunner",
+     "org.junit.internal.builders.AnnotatedBuilder",
+     "org.junit.internal.runners.statements.Fail",
+     "org.junit.runners.Parameterized",
+     "org.junit.internal.matchers.IsCollectionContaining",
+     "org.junit.runner.manipulation.Sorter",
+     "org.junit.internal.runners.ErrorReportingRunner",
+     "org.junit.experimental.results.ResultMatchers",
+     "org.junit.runners.AllTests",
+     "org.junit.runners.Suite$SuiteClasses",
+     "org.junit.experimental.theories.internal.AllMembersSupplier",
+     "org.junit.runner.manipulation.NoTestsRemainException",
+     "org.junit.rules.ExpectedException$1",
+     "org.junit.runner.notification.StoppedByUserException",
+     "org.junit.experimental.theories.suppliers.TestedOn",
+     "org.junit.experimental.theories.DataPoints",
+     "org.junit.experimental.categories.Categories",
+     "junit.runner.TestRunListener",
+     "org.junit.experimental.max.MaxHistory",
+     "org.junit.BeforeClass",
+     "org.junit.rules.TestRule",
+     "org.junit.internal.runners.statements.RunBefores",
+     "org.junit.internal.runners.JUnit38ClassRunner",
+     "org.junit.internal.runners.statements.FailOnTimeout$StatementThread",
+     "org.junit.runner.manipulation.Filter$1",
+     "org.hamcrest.core.AnyOf",
+     "org.junit.runner.manipulation.Filter$2",
+     "org.junit.runner.manipulation.Filter$3",
+     "junit.extensions.RepeatedTest",
+     "org.junit.experimental.theories.PotentialAssignment",
+     "org.hamcrest.core.IsAnything",
+     "org.hamcrest.Factory",
+     "org.junit.rules.ExpectedException",
+     "org.junit.rules.TestWatcher$1",
+     "org.hamcrest.core.IsInstanceOf",
+     "org.hamcrest.Description",
+     "org.junit.internal.runners.model.MultipleFailureException",
+     "junit.runner.Version",
+     "org.junit.experimental.max.MaxHistory$TestComparator",
+     "org.junit.internal.runners.statements.ExpectException",
+     "org.junit.internal.runners.model.ReflectiveCallable",
+     "org.junit.rules.RuleChain",
+     "org.junit.package-info",
+     "org.junit.experimental.max.CouldNotReadCoreException",
+     "org.junit.Rule",
+     "org.junit.runner.notification.package-info",
+     "org.junit.runner.notification.RunNotifier",
+     "org.junit.internal.runners.rules.RuleFieldValidator",
+     "org.junit.rules.TemporaryFolder"
+    ],
+    "usedTypes": [],
+    "usageRatio": 0.0,
+    "children": [
+     {
+      "id": "org.hamcrest:hamcrest-core:jar:1.1:test",
+      "coordinates": "org.hamcrest:hamcrest-core:1.1",
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "version": "1.1",
+      "scope": "test",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 76643,
+      "type": "transitive",
+      "status": "bloated",
+      "parent": "junit:junit:jar:4.10:test",
+      "allTypes": [
+       "org.hamcrest.core.IsNull",
+       "org.hamcrest.BaseDescription",
+       "org.hamcrest.CoreMatchers",
+       "org.hamcrest.Description",
+       "org.hamcrest.core.IsNot",
+       "org.hamcrest.StringDescription",
+       "org.hamcrest.internal.SelfDescribingValue",
+       "org.hamcrest.core.DescribedAs",
+       "org.hamcrest.core.AllOf",
+       "org.hamcrest.core.Is",
+       "org.hamcrest.internal.ArrayIterator",
+       "org.hamcrest.BaseMatcher",
+       "org.hamcrest.core.AnyOf",
+       "org.hamcrest.Matcher",
+       "org.hamcrest.core.IsAnything",
+       "org.hamcrest.core.IsEqual",
+       "org.hamcrest.internal.SelfDescribingValueIterator",
+       "org.hamcrest.Factory",
+       "org.hamcrest.SelfDescribing",
+       "org.hamcrest.core.IsInstanceOf",
+       "org.hamcrest.core.IsSame"
+      ],
+      "usedTypes": [],
+      "usageRatio": 0.0,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}
