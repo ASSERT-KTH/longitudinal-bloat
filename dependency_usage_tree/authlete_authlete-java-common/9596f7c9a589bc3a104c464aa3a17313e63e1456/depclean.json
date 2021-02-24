@@ -1,0 +1,154 @@
+{
+ "usage": {
+  "com.authlete.common.conf.AuthletePropertiesConfiguration": {
+   "com.neovisionaries:nv-cipher:jar:1.3:compile": [
+    "com.neovisionaries.security.AESCipher"
+   ]
+  },
+  "com.authlete.common.web.BasicCredentials": {
+   "commons-codec:commons-codec:jar:1.6:compile": [
+    "org.apache.commons.codec.binary.Base64"
+   ]
+  }
+ },
+ "dependencies": {
+  "id": "com.authlete:authlete-java-common:jar:1.5:null",
+  "coordinates": "com.authlete:authlete-java-common:1.5",
+  "groupId": "com.authlete",
+  "artifactId": "authlete-java-common",
+  "version": "1.5",
+  "packaging": "jar",
+  "omitted": false,
+  "type": "unknown",
+  "status": "unknown",
+  "parent": "unknown",
+  "allTypes": [],
+  "usedTypes": [],
+  "usageRatio": -1.0,
+  "children": [
+   {
+    "id": "com.neovisionaries:nv-cipher:jar:1.3:compile",
+    "coordinates": "com.neovisionaries:nv-cipher:1.3",
+    "groupId": "com.neovisionaries",
+    "artifactId": "nv-cipher",
+    "version": "1.3",
+    "scope": "compile",
+    "packaging": "jar",
+    "omitted": false,
+    "size": 9443,
+    "type": "direct",
+    "status": "used",
+    "parent": "com.authlete:authlete-java-common:jar:1.5",
+    "allTypes": [
+     "com.neovisionaries.security.StandardCipherTransformations",
+     "com.neovisionaries.security.CodecCipher",
+     "com.neovisionaries.security.Utils",
+     "com.neovisionaries.security.AESCipher"
+    ],
+    "usedTypes": [
+     "com.neovisionaries.security.AESCipher"
+    ],
+    "usageRatio": 0.25,
+    "children": [
+     {
+      "id": "commons-codec:commons-codec:jar:1.6:compile",
+      "coordinates": "commons-codec:commons-codec:1.6",
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "version": "1.6",
+      "scope": "compile",
+      "packaging": "jar",
+      "omitted": false,
+      "size": 232771,
+      "type": "transitive",
+      "status": "used",
+      "parent": "com.neovisionaries:nv-cipher:jar:1.3:compile",
+      "allTypes": [
+       "org.apache.commons.codec.language.bm.Rule",
+       "org.apache.commons.codec.EncoderException",
+       "org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult",
+       "org.apache.commons.codec.StringEncoderComparator",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$2",
+       "org.apache.commons.codec.language.bm.PhoneticEngine",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$1",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneBuffer",
+       "org.apache.commons.codec.language.SoundexUtils",
+       "org.apache.commons.codec.net.Utils",
+       "org.apache.commons.codec.binary.Base32InputStream",
+       "org.apache.commons.codec.binary.BaseNCodecOutputStream",
+       "org.apache.commons.codec.language.bm.Rule$Phoneme",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer",
+       "org.apache.commons.codec.binary.Base64",
+       "org.apache.commons.codec.language.bm.ResourceConstants",
+       "org.apache.commons.codec.language.Caverphone1",
+       "org.apache.commons.codec.language.bm.Languages$2",
+       "org.apache.commons.codec.language.Caverphone2",
+       "org.apache.commons.codec.language.bm.Lang",
+       "org.apache.commons.codec.language.Caverphone",
+       "org.apache.commons.codec.net.BCodec",
+       "org.apache.commons.codec.language.bm.Languages$1",
+       "org.apache.commons.codec.binary.Base32OutputStream",
+       "org.apache.commons.codec.binary.BaseNCodec",
+       "org.apache.commons.codec.Encoder",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$RulesApplication",
+       "org.apache.commons.codec.DecoderException",
+       "org.apache.commons.codec.binary.BinaryCodec",
+       "org.apache.commons.codec.language.bm.Rule$PhonemeExpr",
+       "org.apache.commons.codec.language.bm.Lang$LangRule",
+       "org.apache.commons.codec.language.AbstractCaverphone",
+       "org.apache.commons.codec.net.QuotedPrintableCodec",
+       "org.apache.commons.codec.BinaryDecoder",
+       "org.apache.commons.codec.binary.Base32",
+       "org.apache.commons.codec.binary.Base64InputStream",
+       "org.apache.commons.codec.language.bm.NameType",
+       "org.apache.commons.codec.net.RFC1522Codec",
+       "org.apache.commons.codec.BinaryEncoder",
+       "org.apache.commons.codec.binary.Hex",
+       "org.apache.commons.codec.net.QCodec",
+       "org.apache.commons.codec.StringDecoder",
+       "org.apache.commons.codec.language.bm.Languages$LanguageSet",
+       "org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder",
+       "org.apache.commons.codec.language.bm.Rule$10",
+       "org.apache.commons.codec.Decoder",
+       "org.apache.commons.codec.language.bm.Languages",
+       "org.apache.commons.codec.language.bm.Lang$1",
+       "org.apache.commons.codec.binary.Base64OutputStream",
+       "org.apache.commons.codec.language.Metaphone",
+       "org.apache.commons.codec.language.RefinedSoundex",
+       "org.apache.commons.codec.language.Soundex",
+       "org.apache.commons.codec.language.bm.Rule$Phoneme$1",
+       "org.apache.commons.codec.language.bm.Rule$RPattern",
+       "org.apache.commons.codec.StringEncoder",
+       "org.apache.commons.codec.language.bm.BeiderMorseEncoder",
+       "org.apache.commons.codec.language.bm.Rule$8",
+       "org.apache.commons.codec.language.bm.Rule$7",
+       "org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer",
+       "org.apache.commons.codec.language.DoubleMetaphone",
+       "org.apache.commons.codec.language.bm.Rule$9",
+       "org.apache.commons.codec.language.bm.Rule$4",
+       "org.apache.commons.codec.language.bm.Rule$3",
+       "org.apache.commons.codec.binary.BaseNCodecInputStream",
+       "org.apache.commons.codec.language.bm.Rule$6",
+       "org.apache.commons.codec.CharEncoding",
+       "org.apache.commons.codec.language.bm.Rule$5",
+       "org.apache.commons.codec.language.bm.Rule$2",
+       "org.apache.commons.codec.net.URLCodec",
+       "org.apache.commons.codec.language.bm.Rule$1",
+       "org.apache.commons.codec.binary.StringUtils",
+       "org.apache.commons.codec.digest.DigestUtils",
+       "org.apache.commons.codec.language.ColognePhonetic",
+       "org.apache.commons.codec.language.bm.Rule$PhonemeList",
+       "org.apache.commons.codec.language.bm.RuleType",
+       "org.apache.commons.codec.language.bm.Languages$SomeLanguages"
+      ],
+      "usedTypes": [
+       "org.apache.commons.codec.binary.Base64"
+      ],
+      "usageRatio": 0.013157894736842105,
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+}

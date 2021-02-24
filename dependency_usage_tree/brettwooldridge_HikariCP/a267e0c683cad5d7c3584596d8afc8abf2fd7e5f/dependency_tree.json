@@ -1,0 +1,1124 @@
+[
+ {
+  "artifactid": "HikariCP",
+  "groupid": "com.zaxxer",
+  "version": "1.1.2",
+  "package": "bundle",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.8.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.5",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "mockito-all",
+    "groupid": "org.mockito",
+    "version": "1.9.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-simple",
+    "groupid": "org.slf4j",
+    "version": "1.7.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "bonecp",
+    "groupid": "com.jolbox",
+    "version": "0.8.0-rc3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "15.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "reflectasm",
+    "groupid": "com.googlecode",
+    "version": "1.01",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "asm",
+      "groupid": "asm",
+      "version": "3.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "maven-bundle-plugin",
+    "groupid": "org.apache.felix",
+    "version": "2.3.7",
+    "package": "maven-plugin",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "bndlib",
+      "groupid": "biz.aQute",
+      "version": "1.50.0",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "org.apache.felix.bundlerepository",
+      "groupid": "org.apache.felix",
+      "version": "1.6.6",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "org.osgi.core",
+        "groupid": "org.osgi",
+        "version": "4.1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "easymock",
+        "groupid": "org.easymock",
+        "version": "2.4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-core",
+      "groupid": "org.apache.maven",
+      "version": "2.0.7",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "maven-settings",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "maven-model",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "wagon-file",
+        "groupid": "org.apache.maven.wagon",
+        "version": "1.0-beta-2",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "wagon-provider-api",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-plugin-parameter-documenter",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "wagon-http-lightweight",
+        "groupid": "org.apache.maven.wagon",
+        "version": "1.0-beta-2",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "wagon-http-shared",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jtidy",
+            "groupid": "jtidy",
+            "version": "4aug2000r7-dev",
+            "package": "jar",
+            "scope": "runtime",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "wagon-provider-api",
+            "groupid": "org.apache.maven.wagon",
+            "version": "1.0-beta-2",
+            "package": "jar",
+            "scope": "runtime",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "xml-apis",
+          "groupid": "xml-apis",
+          "version": "1.0.b2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "wagon-provider-api",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-reporting-api",
+        "groupid": "org.apache.maven.reporting",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "doxia-sink-api",
+          "groupid": "org.apache.maven.doxia",
+          "version": "1.0-alpha-7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-profile",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "maven-model",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-model",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-artifact",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "wagon-provider-api",
+        "groupid": "org.apache.maven.wagon",
+        "version": "1.0-beta-2",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "plexus-container-default",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.0-alpha-9-stable-1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "junit",
+          "groupid": "junit",
+          "version": "3.8.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0.4",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "classworlds",
+          "groupid": "classworlds",
+          "version": "1.1-alpha-2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-repository-metadata",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-error-diagnostics",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-project",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "maven-settings",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-profile",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-model",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-artifact-manager",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-plugin-registry",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "plexus-utils",
+            "groupid": "org.codehaus.plexus",
+            "version": "1.4.1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "plexus-container-default",
+            "groupid": "org.codehaus.plexus",
+            "version": "1.0-alpha-9-stable-1",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-artifact",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "commons-cli",
+        "groupid": "commons-cli",
+        "version": "1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "maven-plugin-api",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "wagon-ssh-external",
+        "groupid": "org.apache.maven.wagon",
+        "version": "1.0-beta-2",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0.4",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "wagon-ssh-common",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "plexus-utils",
+            "groupid": "org.codehaus.plexus",
+            "version": "1.0.4",
+            "package": "jar",
+            "scope": "runtime",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "plexus-interactivity-api",
+            "groupid": "org.codehaus.plexus",
+            "version": "1.0-alpha-4",
+            "package": "jar",
+            "scope": "runtime",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "wagon-provider-api",
+            "groupid": "org.apache.maven.wagon",
+            "version": "1.0-beta-2",
+            "package": "jar",
+            "scope": "runtime",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "wagon-provider-api",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-plugin-descriptor",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "maven-plugin-api",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-artifact",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "plexus-interactivity-api",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.0-alpha-4",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "classworlds",
+          "groupid": "classworlds",
+          "version": "1.1-alpha-2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-artifact-manager",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "maven-repository-metadata",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.4.1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "maven-artifact",
+          "groupid": "org.apache.maven",
+          "version": "2.0.7",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "wagon-provider-api",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "maven-monitor",
+        "groupid": "org.apache.maven",
+        "version": "2.0.7",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "wagon-ssh",
+        "groupid": "org.apache.maven.wagon",
+        "version": "1.0-beta-2",
+        "package": "jar",
+        "scope": "runtime",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jsch",
+          "groupid": "com.jcraft",
+          "version": "0.1.27",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "plexus-interactivity-api",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-4",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0.4",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "wagon-ssh-common",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "wagon-provider-api",
+          "groupid": "org.apache.maven.wagon",
+          "version": "1.0-beta-2",
+          "package": "jar",
+          "scope": "runtime",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.4.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "classworlds",
+        "groupid": "classworlds",
+        "version": "1.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-archiver",
+      "groupid": "org.apache.maven",
+      "version": "2.4.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "maven-artifact",
+        "groupid": "org.apache.maven",
+        "version": "2.0.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "maven-model",
+        "groupid": "org.apache.maven",
+        "version": "2.0.6",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "plexus-archiver",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.0",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "plexus-container-default",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0-alpha-9-stable-1",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-utils",
+          "groupid": "org.codehaus.plexus",
+          "version": "2.0.5",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "plexus-io",
+          "groupid": "org.codehaus.plexus",
+          "version": "1.0",
+          "package": "jar",
+          "scope": "compile",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "plexus-utils",
+            "groupid": "org.codehaus.plexus",
+            "version": "2.0.5",
+            "package": "jar",
+            "scope": "compile",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "plexus-utils",
+        "groupid": "org.codehaus.plexus",
+        "version": "2.0.5",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "plexus-interpolation",
+        "groupid": "org.codehaus.plexus",
+        "version": "1.13",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "maven-dependency-tree",
+      "groupid": "org.apache.maven.shared",
+      "version": "1.2",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "maven-project",
+        "groupid": "org.apache.maven",
+        "version": "2.0.8",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "plexus-utils",
+      "groupid": "org.codehaus.plexus",
+      "version": "2.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "hsqldb",
+    "groupid": "org.hsqldb",
+    "version": "2.3.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "tools",
+    "groupid": "com.sun",
+    "version": "1.6.0",
+    "package": "jar",
+    "scope": "system",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "javassist",
+    "groupid": "org.javassist",
+    "version": "3.18.1-GA",
+    "package": "bundle",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

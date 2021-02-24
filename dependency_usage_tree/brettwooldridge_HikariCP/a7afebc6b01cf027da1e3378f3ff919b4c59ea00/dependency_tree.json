@@ -1,0 +1,1084 @@
+[
+ {
+  "artifactid": "HikariCP",
+  "groupid": "com.zaxxer",
+  "version": "3.4.0",
+  "package": "bundle",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.25",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "log4j-slf4j-impl",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.11.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log4j-core",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j-api",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.11.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "log4j-core",
+    "groupid": "org.apache.logging.log4j",
+    "version": "2.11.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "2.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "commons-csv",
+    "groupid": "org.apache.commons",
+    "version": "1.5",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "2.23.4",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "byte-buddy",
+      "groupid": "net.bytebuddy",
+      "version": "1.9.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byte-buddy-agent",
+      "groupid": "net.bytebuddy",
+      "version": "1.9.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "2.6",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.12",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "javassist",
+    "groupid": "org.javassist",
+    "version": "3.24.1-GA",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "micrometer-core",
+    "groupid": "io.micrometer",
+    "version": "1.0.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "HdrHistogram",
+      "groupid": "org.hdrhistogram",
+      "version": "2.1.10",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "LatencyUtils",
+      "groupid": "org.latencyutils",
+      "version": "2.0.3",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "postgresql",
+    "groupid": "org.postgresql",
+    "version": "42.1.4",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "hibernate-core",
+    "groupid": "org.hibernate",
+    "version": "5.2.10.Final",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hibernate-jpa-2.1-api",
+      "groupid": "org.hibernate.javax.persistence",
+      "version": "1.0.0.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "javassist",
+      "groupid": "org.javassist",
+      "version": "3.20.0-GA",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "antlr",
+      "groupid": "antlr",
+      "version": "2.7.7",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jboss-transaction-api_1.2_spec",
+      "groupid": "org.jboss.spec.javax.transaction",
+      "version": "1.0.1.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jandex",
+      "groupid": "org.jboss",
+      "version": "2.0.3.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "classmate",
+      "groupid": "com.fasterxml",
+      "version": "1.3.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "dom4j",
+      "groupid": "dom4j",
+      "version": "1.6.1",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "hibernate-commons-annotations",
+      "groupid": "org.hibernate.common",
+      "version": "5.0.1.Final",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-core",
+    "groupid": "io.dropwizard.metrics",
+    "version": "3.2.4",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.22",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "metrics-healthchecks",
+    "groupid": "io.dropwizard.metrics",
+    "version": "3.2.4",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.22",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "simpleclient",
+    "groupid": "io.prometheus",
+    "version": "0.0.26",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "simple-jndi",
+    "groupid": "simple-jndi",
+    "version": "0.11.4.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "javax.inject",
+    "groupid": "javax.inject",
+    "version": "1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "org.apache.felix.framework",
+    "groupid": "org.apache.felix",
+    "version": "6.0.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "animal-sniffer-annotations",
+      "groupid": "org.codehaus.mojo",
+      "version": "1.9",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "pax-exam-container-native",
+    "groupid": "org.ops4j.pax.exam",
+    "version": "4.13.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "pax-exam",
+      "groupid": "org.ops4j.pax.exam",
+      "version": "4.13.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-store",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.5.11",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         },
+         {
+          "artifactid": "ops4j-base-io",
+          "groupid": "org.ops4j.base",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "ops4j-base-lang",
+            "groupid": "org.ops4j.base",
+            "version": "1.5.0",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "ops4j-base-monitors",
+            "groupid": "org.ops4j.base",
+            "version": "1.5.0",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "ops4j-base-util-property",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "pax-exam-spi",
+      "groupid": "org.ops4j.pax.exam",
+      "version": "4.13.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "pax-exam",
+        "groupid": "org.ops4j.pax.exam",
+        "version": "4.13.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-spi",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.25",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "tinybundles",
+        "groupid": "org.ops4j.pax.tinybundles",
+        "version": "2.1.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "ops4j-base-store",
+          "groupid": "org.ops4j.base",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "bndlib",
+          "groupid": "biz.aQute.bnd",
+          "version": "2.4.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "pax-swissbox-core",
+      "groupid": "org.ops4j.pax.swissbox",
+      "version": "1.8.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "pax-swissbox-lifecycle",
+        "groupid": "org.ops4j.pax.swissbox",
+        "version": "1.8.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "pax-swissbox-tracker",
+      "groupid": "org.ops4j.pax.swissbox",
+      "version": "1.8.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "pax-swissbox-lifecycle",
+        "groupid": "org.ops4j.pax.swissbox",
+        "version": "1.8.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.5.11",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "ops4j-base-lang",
+      "groupid": "org.ops4j.base",
+      "version": "1.5.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "ops4j-base-net",
+      "groupid": "org.ops4j.base",
+      "version": "1.5.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-monitors",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "pax-url-link",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-util-property",
+        "groupid": "org.ops4j.base",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "pax-url-commons",
+        "groupid": "org.ops4j.pax.url",
+        "version": "2.4.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "pax-url-classpath",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "ops4j-base-util-property",
+        "groupid": "org.ops4j.base",
+        "version": "1.4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "pax-swissbox-optional-jcl",
+        "groupid": "org.ops4j.pax.swissbox",
+        "version": "1.8.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "pax-url-commons",
+        "groupid": "org.ops4j.pax.url",
+        "version": "2.4.5",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "pax-exam-junit4",
+    "groupid": "org.ops4j.pax.exam",
+    "version": "4.13.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "pax-exam-spi",
+      "groupid": "org.ops4j.pax.exam",
+      "version": "4.13.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "ops4j-base-lang",
+      "groupid": "org.ops4j.base",
+      "version": "1.5.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "junit",
+      "groupid": "junit",
+      "version": "4.12",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "pax-exam-link-assembly",
+    "groupid": "org.ops4j.pax.exam",
+    "version": "4.13.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "pax-exam-link-mvn",
+    "groupid": "org.ops4j.pax.exam",
+    "version": "4.13.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "pax-url-aether",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "pax-url-link",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "pax-url-classpath",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.4.5",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "pax-url-aether",
+    "groupid": "org.ops4j.pax.url",
+    "version": "2.5.4",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "pax-url-aether-support",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.5.4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "aether-impl",
+        "groupid": "org.eclipse.aether",
+        "version": "1.0.2.v20150114",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "aether-api",
+          "groupid": "org.eclipse.aether",
+          "version": "1.0.2.v20150114",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "aether-spi",
+          "groupid": "org.eclipse.aether",
+          "version": "1.0.2.v20150114",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "aether-api",
+            "groupid": "org.eclipse.aether",
+            "version": "1.0.2.v20150114",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "aether-util",
+          "groupid": "org.eclipse.aether",
+          "version": "1.0.2.v20150114",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "aether-api",
+            "groupid": "org.eclipse.aether",
+            "version": "1.0.2.v20150114",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "jcl-over-slf4j",
+      "groupid": "org.slf4j",
+      "version": "1.6.6",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.6.6",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "pax-url-reference",
+    "groupid": "org.ops4j.pax.url",
+    "version": "2.5.4",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "ops4j-base-lang",
+      "groupid": "org.ops4j.base",
+      "version": "1.5.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "ops4j-base-util-property",
+      "groupid": "org.ops4j.base",
+      "version": "1.5.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "pax-swissbox-optional-jcl",
+      "groupid": "org.ops4j.pax.swissbox",
+      "version": "1.8.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "pax-url-commons",
+      "groupid": "org.ops4j.pax.url",
+      "version": "2.5.4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "ops4j-base-lang",
+        "groupid": "org.ops4j.base",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "pax-swissbox-property",
+        "groupid": "org.ops4j.pax.swissbox",
+        "version": "1.8.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "ops4j-base-lang",
+          "groupid": "org.ops4j.base",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "ops4j-base-util-property",
+          "groupid": "org.ops4j.base",
+          "version": "1.5.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.6.6",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "h2",
+    "groupid": "com.h2database",
+    "version": "1.4.196",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,147 @@
+[
+ {
+  "artifactid": "jgroups",
+  "groupid": "org.jgroups",
+  "version": "4.0.17.Final",
+  "package": "bundle",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "log4j-core",
+    "groupid": "org.apache.logging.log4j",
+    "version": "3.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "log4j-api",
+      "groupid": "org.apache.logging.log4j",
+      "version": "3.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "log4j-plugins",
+      "groupid": "org.apache.logging.log4j",
+      "version": "3.0.0-SNAPSHOT",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "log4j-api",
+        "groupid": "org.apache.logging.log4j",
+        "version": "3.0.0-SNAPSHOT",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "log4j-api",
+    "groupid": "org.apache.logging.log4j",
+    "version": "3.0.0-SNAPSHOT",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "2.0.0-alpha1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "testng",
+    "groupid": "org.testng",
+    "version": "6.14.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "jcommander",
+      "groupid": "com.beust",
+      "version": "1.72",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "bsh",
+      "groupid": "org.apache-extras.beanshell",
+      "version": "2.0b6",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "byteman-bmunit",
+    "groupid": "org.jboss.byteman",
+    "version": "4.0.13",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "byteman",
+      "groupid": "org.jboss.byteman",
+      "version": "4.0.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byteman-submit",
+      "groupid": "org.jboss.byteman",
+      "version": "4.0.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byteman-install",
+      "groupid": "org.jboss.byteman",
+      "version": "4.0.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,3338 @@
+[
+ {
+  "artifactid": "webdrivermanager",
+  "groupid": "io.github.bonigarcia",
+  "version": "4.2.1-SNAPSHOT",
+  "package": "jar",
+  "scope": null,
+  "omitted": false,
+  "omitted_reason": null,
+  "child": [
+   {
+    "artifactid": "slf4j-api",
+    "groupid": "org.slf4j",
+    "version": "1.7.30",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-io",
+    "groupid": "commons-io",
+    "version": "2.7",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "gson",
+    "groupid": "com.google.code.gson",
+    "version": "2.8.6",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "commons-lang3",
+    "groupid": "org.apache.commons",
+    "version": "3.11",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "httpclient5",
+    "groupid": "org.apache.httpcomponents.client5",
+    "version": "5.0.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "httpcore5",
+      "groupid": "org.apache.httpcomponents.core5",
+      "version": "5.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "httpcore5-h2",
+      "groupid": "org.apache.httpcomponents.core5",
+      "version": "5.0.1",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "httpcore5",
+        "groupid": "org.apache.httpcomponents.core5",
+        "version": "5.0.1",
+        "package": "jar",
+        "scope": "compile",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "commons-codec",
+      "groupid": "commons-codec",
+      "version": "1.13",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jarchivelib",
+    "groupid": "org.rauschig",
+    "version": "1.1.0",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "commons-compress",
+      "groupid": "org.apache.commons",
+      "version": "1.20",
+      "package": "jar",
+      "scope": "compile",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "jsoup",
+    "groupid": "org.jsoup",
+    "version": "1.13.1",
+    "package": "jar",
+    "scope": "compile",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "javalin",
+    "groupid": "io.javalin",
+    "version": "3.10.0",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.30",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "jetty-server",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.4.31.v20200723",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "javax.servlet-api",
+        "groupid": "javax.servlet",
+        "version": "3.1.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-util",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jetty-io",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jetty-io",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-util",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "jetty-webapp",
+      "groupid": "org.eclipse.jetty",
+      "version": "9.4.31.v20200723",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "jetty-xml",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-util",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jetty-servlet",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-security",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jetty-server",
+            "groupid": "org.eclipse.jetty",
+            "version": "9.4.31.v20200723",
+            "package": "jar",
+            "scope": "provided",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "artifactid": "websocket-server",
+      "groupid": "org.eclipse.jetty.websocket",
+      "version": "9.4.31.v20200723",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "websocket-common",
+        "groupid": "org.eclipse.jetty.websocket",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "websocket-api",
+          "groupid": "org.eclipse.jetty.websocket",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jetty-util",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jetty-io",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "websocket-client",
+        "groupid": "org.eclipse.jetty.websocket",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jetty-client",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jetty-http",
+            "groupid": "org.eclipse.jetty",
+            "version": "9.4.31.v20200723",
+            "package": "jar",
+            "scope": "provided",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jetty-io",
+            "groupid": "org.eclipse.jetty",
+            "version": "9.4.31.v20200723",
+            "package": "jar",
+            "scope": "provided",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "jetty-xml",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jetty-util",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jetty-io",
+          "groupid": "org.eclipse.jetty",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "websocket-common",
+          "groupid": "org.eclipse.jetty.websocket",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "websocket-servlet",
+        "groupid": "org.eclipse.jetty.websocket",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "websocket-api",
+          "groupid": "org.eclipse.jetty.websocket",
+          "version": "9.4.31.v20200723",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "javax.servlet-api",
+          "groupid": "javax.servlet",
+          "version": "3.1.0",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jetty-servlet",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jetty-http",
+        "groupid": "org.eclipse.jetty",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "kotlin-stdlib-jdk8",
+      "groupid": "org.jetbrains.kotlin",
+      "version": "1.3.71",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "kotlin-stdlib",
+        "groupid": "org.jetbrains.kotlin",
+        "version": "1.3.71",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "kotlin-stdlib-jdk7",
+        "groupid": "org.jetbrains.kotlin",
+        "version": "1.3.71",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "kotlin-stdlib",
+          "groupid": "org.jetbrains.kotlin",
+          "version": "1.3.71",
+          "package": "jar",
+          "scope": "provided",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "okhttp",
+    "groupid": "com.squareup.okhttp3",
+    "version": "4.8.1",
+    "package": "jar",
+    "scope": "provided",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "okio",
+      "groupid": "com.squareup.okio",
+      "version": "2.7.0",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "kotlin-stdlib",
+        "groupid": "org.jetbrains.kotlin",
+        "version": "1.3.70",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "kotlin-stdlib-common",
+        "groupid": "org.jetbrains.kotlin",
+        "version": "1.3.70",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "kotlin-stdlib",
+      "groupid": "org.jetbrains.kotlin",
+      "version": "1.3.72",
+      "package": "jar",
+      "scope": "provided",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "kotlin-stdlib-common",
+        "groupid": "org.jetbrains.kotlin",
+        "version": "1.3.72",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "annotations",
+        "groupid": "org.jetbrains",
+        "version": "13.0",
+        "package": "jar",
+        "scope": "provided",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "logback-classic",
+    "groupid": "ch.qos.logback",
+    "version": "1.2.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "logback-core",
+      "groupid": "ch.qos.logback",
+      "version": "1.2.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.25",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "junit",
+    "groupid": "junit",
+    "version": "4.13",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "hamcrest-core",
+      "groupid": "org.hamcrest",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "hamcrest-all",
+    "groupid": "org.hamcrest",
+    "version": "1.3",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": []
+   },
+   {
+    "artifactid": "mockserver-netty",
+    "groupid": "org.mock-server",
+    "version": "5.11.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "mockserver-client-java",
+      "groupid": "org.mock-server",
+      "version": "5.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "mockserver-core",
+        "groupid": "org.mock-server",
+        "version": "5.11.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-lang3",
+        "groupid": "org.apache.commons",
+        "version": "3.10",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "28.2-android",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.30",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "mockserver-core",
+      "groupid": "org.mock-server",
+      "version": "5.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "disruptor",
+        "groupid": "com.lmax",
+        "version": "3.4.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "javax.servlet-api",
+        "groupid": "javax.servlet",
+        "version": "4.0.1",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec-http",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec-socks",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-common",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-buffer",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-transport",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-codec",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-handler",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-handler-proxy",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-common",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-buffer",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-transport",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-codec",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-codec-socks",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "netty-codec-http",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "jzlib",
+        "groupid": "com.jcraft",
+        "version": "1.1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "java-uuid-generator",
+        "groupid": "com.fasterxml.uuid",
+        "version": "4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.29",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "velocity-engine-scripting",
+        "groupid": "org.apache.velocity",
+        "version": "2.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "velocity-engine-core",
+          "groupid": "org.apache.velocity",
+          "version": "2.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "velocity-engine-core",
+        "groupid": "org.apache.velocity",
+        "version": "2.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.30",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jackson-core",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.10.4",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-annotations",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.10.4",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "jackson-databind",
+        "groupid": "com.fasterxml.jackson.core",
+        "version": "2.10.4",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-core",
+          "groupid": "com.fasterxml.jackson.core",
+          "version": "2.10.4",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "json-unit-core",
+        "groupid": "net.javacrumbs.json-unit",
+        "version": "2.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "opentest4j",
+          "groupid": "org.opentest4j",
+          "version": "1.1.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "hamcrest-core",
+          "groupid": "org.hamcrest",
+          "version": "2.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "json-schema-validator",
+        "groupid": "com.github.java-json-tools",
+        "version": "2.2.14",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jackson-coreutils-equivalence",
+          "groupid": "com.github.java-json-tools",
+          "version": "1.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jackson-coreutils",
+            "groupid": "com.github.java-json-tools",
+            "version": "2.0",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "msg-simple",
+              "groupid": "com.github.java-json-tools",
+              "version": "1.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "btf",
+                "groupid": "com.github.java-json-tools",
+                "version": "1.3",
+                "package": "jar",
+                "scope": "test",
+                "omitted": false,
+                "omitted_reason": null,
+                "child": [
+                 {
+                  "artifactid": "jsr305",
+                  "groupid": "com.google.code.findbugs",
+                  "version": "2.0.1",
+                  "package": "jar",
+                  "scope": "test",
+                  "omitted": true,
+                  "omitted_reason": "conflict",
+                  "child": []
+                 }
+                ]
+               },
+               {
+                "artifactid": "jsr305",
+                "groupid": "com.google.code.findbugs",
+                "version": "2.0.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "jsr305",
+              "groupid": "com.google.code.findbugs",
+              "version": "3.0.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "json-schema-core",
+          "groupid": "com.github.java-json-tools",
+          "version": "1.2.14",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "jackson-coreutils",
+            "groupid": "com.github.java-json-tools",
+            "version": "2.0",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-coreutils-equivalence",
+            "groupid": "com.github.java-json-tools",
+            "version": "1.0",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "uri-template",
+            "groupid": "com.github.java-json-tools",
+            "version": "0.10",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "msg-simple",
+              "groupid": "com.github.java-json-tools",
+              "version": "1.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "jsr305",
+              "groupid": "com.google.code.findbugs",
+              "version": "2.0.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "rhino",
+            "groupid": "org.mozilla",
+            "version": "1.7.7.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "jsr305",
+            "groupid": "com.google.code.findbugs",
+            "version": "3.0.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "mailapi",
+          "groupid": "com.sun.mail",
+          "version": "1.6.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "joda-time",
+          "groupid": "joda-time",
+          "version": "2.10.5",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "libphonenumber",
+          "groupid": "com.googlecode.libphonenumber",
+          "version": "8.11.1",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         },
+         {
+          "artifactid": "jsr305",
+          "groupid": "com.google.code.findbugs",
+          "version": "3.0.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "jopt-simple",
+          "groupid": "net.sf.jopt-simple",
+          "version": "5.0.4",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "json-path",
+        "groupid": "com.jayway.jsonpath",
+        "version": "2.4.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "json-smart",
+          "groupid": "net.minidev",
+          "version": "2.3",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "accessors-smart",
+            "groupid": "net.minidev",
+            "version": "1.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "asm",
+              "groupid": "org.ow2.asm",
+              "version": "5.0.4",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.25",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "swagger-parser",
+        "groupid": "io.swagger.parser.v3",
+        "version": "2.0.20",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "swagger-parser-v2-converter",
+          "groupid": "io.swagger.parser.v3",
+          "version": "2.0.20",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "swagger-core",
+            "groupid": "io.swagger",
+            "version": "1.6.1",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "commons-lang3",
+              "groupid": "org.apache.commons",
+              "version": "3.2.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.22",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-annotations",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-databind",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-dataformat-yaml",
+              "groupid": "com.fasterxml.jackson.dataformat",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "swagger-models",
+              "groupid": "io.swagger",
+              "version": "1.6.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "jackson-annotations",
+                "groupid": "com.fasterxml.jackson.core",
+                "version": "2.10.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               },
+               {
+                "artifactid": "slf4j-api",
+                "groupid": "org.slf4j",
+                "version": "1.7.22",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               },
+               {
+                "artifactid": "swagger-annotations",
+                "groupid": "io.swagger",
+                "version": "1.6.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": false,
+                "omitted_reason": null,
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "guava",
+              "groupid": "com.google.guava",
+              "version": "27.0.1-android",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "validation-api",
+              "groupid": "javax.validation",
+              "version": "1.1.0.Final",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-parser",
+            "groupid": "io.swagger",
+            "version": "1.0.51",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "swagger-core",
+              "groupid": "io.swagger",
+              "version": "1.6.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-ext",
+              "groupid": "org.slf4j",
+              "version": "1.7.28",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.28",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "commons-io",
+              "groupid": "commons-io",
+              "version": "2.4",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-compat-spec-parser",
+            "groupid": "io.swagger",
+            "version": "1.0.51",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "swagger-core",
+              "groupid": "io.swagger",
+              "version": "1.6.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "swagger-parser",
+              "groupid": "io.swagger",
+              "version": "1.0.51",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "json-schema-validator",
+              "groupid": "com.github.java-json-tools",
+              "version": "2.2.8",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "httpclient",
+              "groupid": "org.apache.httpcomponents",
+              "version": "4.5.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-models",
+            "groupid": "io.swagger.core.v3",
+            "version": "2.1.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "jackson-annotations",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-parser-core",
+            "groupid": "io.swagger.parser.v3",
+            "version": "2.0.20",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "swagger-models",
+              "groupid": "io.swagger.core.v3",
+              "version": "2.1.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-parser-v3",
+            "groupid": "io.swagger.parser.v3",
+            "version": "2.0.20",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "swagger-parser-v3",
+          "groupid": "io.swagger.parser.v3",
+          "version": "2.0.20",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "swagger-models",
+            "groupid": "io.swagger.core.v3",
+            "version": "2.1.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "swagger-core",
+            "groupid": "io.swagger.core.v3",
+            "version": "2.1.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "jakarta.xml.bind-api",
+              "groupid": "jakarta.xml.bind",
+              "version": "2.3.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "jakarta.activation-api",
+                "groupid": "jakarta.activation",
+                "version": "1.2.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": false,
+                "omitted_reason": null,
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "commons-lang3",
+              "groupid": "org.apache.commons",
+              "version": "3.7",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "slf4j-api",
+              "groupid": "org.slf4j",
+              "version": "1.7.25",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-annotations",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-databind",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-dataformat-yaml",
+              "groupid": "com.fasterxml.jackson.dataformat",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "jackson-datatype-jsr310",
+              "groupid": "com.fasterxml.jackson.datatype",
+              "version": "2.10.1",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": [
+               {
+                "artifactid": "jackson-annotations",
+                "groupid": "com.fasterxml.jackson.core",
+                "version": "2.10.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               },
+               {
+                "artifactid": "jackson-core",
+                "groupid": "com.fasterxml.jackson.core",
+                "version": "2.10.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               },
+               {
+                "artifactid": "jackson-databind",
+                "groupid": "com.fasterxml.jackson.core",
+                "version": "2.10.1",
+                "package": "jar",
+                "scope": "test",
+                "omitted": true,
+                "omitted_reason": "conflict",
+                "child": []
+               }
+              ]
+             },
+             {
+              "artifactid": "swagger-annotations",
+              "groupid": "io.swagger.core.v3",
+              "version": "2.1.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             },
+             {
+              "artifactid": "swagger-models",
+              "groupid": "io.swagger.core.v3",
+              "version": "2.1.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "duplicated",
+              "child": []
+             },
+             {
+              "artifactid": "jakarta.validation-api",
+              "groupid": "jakarta.validation",
+              "version": "2.0.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             }
+            ]
+           },
+           {
+            "artifactid": "swagger-parser-core",
+            "groupid": "io.swagger.parser.v3",
+            "version": "2.0.20",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "commons-io",
+            "groupid": "commons-io",
+            "version": "2.6",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-annotations",
+            "groupid": "com.fasterxml.jackson.core",
+            "version": "2.10.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-databind",
+            "groupid": "com.fasterxml.jackson.core",
+            "version": "2.10.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           },
+           {
+            "artifactid": "jackson-dataformat-yaml",
+            "groupid": "com.fasterxml.jackson.dataformat",
+            "version": "2.10.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": [
+             {
+              "artifactid": "snakeyaml",
+              "groupid": "org.yaml",
+              "version": "1.24",
+              "package": "jar",
+              "scope": "test",
+              "omitted": false,
+              "omitted_reason": null,
+              "child": []
+             },
+             {
+              "artifactid": "jackson-core",
+              "groupid": "com.fasterxml.jackson.core",
+              "version": "2.10.2",
+              "package": "jar",
+              "scope": "test",
+              "omitted": true,
+              "omitted_reason": "conflict",
+              "child": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "artifactid": "slf4j-ext",
+          "groupid": "org.slf4j",
+          "version": "1.7.30",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "slf4j-api",
+            "groupid": "org.slf4j",
+            "version": "1.7.30",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           }
+          ]
+         },
+         {
+          "artifactid": "slf4j-api",
+          "groupid": "org.slf4j",
+          "version": "1.7.30",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         },
+         {
+          "artifactid": "commons-io",
+          "groupid": "commons-io",
+          "version": "2.6",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "jaxb-api",
+        "groupid": "javax.xml.bind",
+        "version": "2.4.0-b180830.0359",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "javax.activation-api",
+          "groupid": "javax.activation",
+          "version": "1.2.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "xmlunit-core",
+        "groupid": "org.xmlunit",
+        "version": "2.7.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "jaxb-api",
+          "groupid": "javax.xml.bind",
+          "version": "2.3.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "conflict",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "xmlunit-placeholders",
+        "groupid": "org.xmlunit",
+        "version": "2.7.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "xmlunit-core",
+          "groupid": "org.xmlunit",
+          "version": "2.7.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "commons-lang3",
+        "groupid": "org.apache.commons",
+        "version": "3.10",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "commons-io",
+        "groupid": "commons-io",
+        "version": "2.7",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-text",
+        "groupid": "org.apache.commons",
+        "version": "1.8",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "28.2-android",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "slf4j-api",
+        "groupid": "org.slf4j",
+        "version": "1.7.30",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-codec",
+        "groupid": "commons-codec",
+        "version": "1.14",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-buffer",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-codec",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-codec-http",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-handler",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-common",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "netty-handler",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-resolver",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "netty-common",
+          "groupid": "io.netty",
+          "version": "4.1.50.Final",
+          "package": "jar",
+          "scope": "test",
+          "omitted": true,
+          "omitted_reason": "duplicated",
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-transport",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-codec",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "netty-transport",
+      "groupid": "io.netty",
+      "version": "4.1.50.Final",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "netty-common",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-buffer",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "netty-resolver",
+        "groupid": "io.netty",
+        "version": "4.1.50.Final",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-io",
+      "groupid": "commons-io",
+      "version": "2.7",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "28.2-android",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "slf4j-api",
+      "groupid": "org.slf4j",
+      "version": "1.7.30",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "guava",
+    "groupid": "com.google.guava",
+    "version": "29.0-jre",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "failureaccess",
+      "groupid": "com.google.guava",
+      "version": "1.0.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "listenablefuture",
+      "groupid": "com.google.guava",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "jsr305",
+      "groupid": "com.google.code.findbugs",
+      "version": "3.0.2",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "checker-qual",
+      "groupid": "org.checkerframework",
+      "version": "2.11.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "error_prone_annotations",
+      "groupid": "com.google.errorprone",
+      "version": "2.3.4",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "j2objc-annotations",
+      "groupid": "com.google.j2objc",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "selenium-java",
+    "groupid": "org.seleniumhq.selenium",
+    "version": "3.141.59",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "selenium-api",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "selenium-chrome-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-edge-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-firefox-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-ie-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-opera-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-remote-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-safari-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "selenium-support",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "selenium-api",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "selenium-remote-driver",
+        "groupid": "org.seleniumhq.selenium",
+        "version": "3.141.59",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-exec",
+        "groupid": "org.apache.commons",
+        "version": "1.3",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "guava",
+        "groupid": "com.google.guava",
+        "version": "25.0-jre",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okhttp",
+        "groupid": "com.squareup.okhttp3",
+        "version": "3.11.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "okio",
+        "groupid": "com.squareup.okio",
+        "version": "1.14.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       }
+      ]
+     },
+     {
+      "artifactid": "commons-exec",
+      "groupid": "org.apache.commons",
+      "version": "1.3",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "guava",
+      "groupid": "com.google.guava",
+      "version": "25.0-jre",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "okhttp",
+      "groupid": "com.squareup.okhttp3",
+      "version": "3.11.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "okio",
+      "groupid": "com.squareup.okio",
+      "version": "1.14.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "phantomjsdriver",
+    "groupid": "com.codeborne",
+    "version": "1.4.4",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "selenium-api",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.8.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     },
+     {
+      "artifactid": "selenium-remote-driver",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.8.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "conflict",
+      "child": []
+     }
+    ]
+   },
+   {
+    "artifactid": "htmlunit-driver",
+    "groupid": "org.seleniumhq.selenium",
+    "version": "2.43.1",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "selenium-api",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "selenium-support",
+      "groupid": "org.seleniumhq.selenium",
+      "version": "3.141.59",
+      "package": "jar",
+      "scope": "test",
+      "omitted": true,
+      "omitted_reason": "duplicated",
+      "child": []
+     },
+     {
+      "artifactid": "htmlunit",
+      "groupid": "net.sourceforge.htmlunit",
+      "version": "2.43.0",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": [
+       {
+        "artifactid": "xalan",
+        "groupid": "xalan",
+        "version": "2.7.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "serializer",
+          "groupid": "xalan",
+          "version": "2.7.2",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": []
+         }
+        ]
+       },
+       {
+        "artifactid": "commons-lang3",
+        "groupid": "org.apache.commons",
+        "version": "3.11",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-text",
+        "groupid": "org.apache.commons",
+        "version": "1.9",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "conflict",
+        "child": []
+       },
+       {
+        "artifactid": "httpmime",
+        "groupid": "org.apache.httpcomponents",
+        "version": "4.5.12",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "httpclient",
+          "groupid": "org.apache.httpcomponents",
+          "version": "4.5.12",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "httpcore",
+            "groupid": "org.apache.httpcomponents",
+            "version": "4.4.13",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           },
+           {
+            "artifactid": "commons-logging",
+            "groupid": "commons-logging",
+            "version": "1.2",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "duplicated",
+            "child": []
+           },
+           {
+            "artifactid": "commons-codec",
+            "groupid": "commons-codec",
+            "version": "1.11",
+            "package": "jar",
+            "scope": "test",
+            "omitted": true,
+            "omitted_reason": "conflict",
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "htmlunit-core-js",
+        "groupid": "net.sourceforge.htmlunit",
+        "version": "2.43.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "neko-htmlunit",
+        "groupid": "net.sourceforge.htmlunit",
+        "version": "2.43.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": [
+         {
+          "artifactid": "xercesImpl",
+          "groupid": "xerces",
+          "version": "2.12.0",
+          "package": "jar",
+          "scope": "test",
+          "omitted": false,
+          "omitted_reason": null,
+          "child": [
+           {
+            "artifactid": "xml-apis",
+            "groupid": "xml-apis",
+            "version": "1.4.01",
+            "package": "jar",
+            "scope": "test",
+            "omitted": false,
+            "omitted_reason": null,
+            "child": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "artifactid": "htmlunit-cssparser",
+        "groupid": "net.sourceforge.htmlunit",
+        "version": "1.5.0",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-io",
+        "groupid": "commons-io",
+        "version": "2.7",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       },
+       {
+        "artifactid": "commons-logging",
+        "groupid": "commons-logging",
+        "version": "1.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "commons-net",
+        "groupid": "commons-net",
+        "version": "3.7",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "dec",
+        "groupid": "org.brotli",
+        "version": "0.1.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "salvation",
+        "groupid": "com.shapesecurity",
+        "version": "2.7.2",
+        "package": "jar",
+        "scope": "test",
+        "omitted": false,
+        "omitted_reason": null,
+        "child": []
+       },
+       {
+        "artifactid": "websocket-client",
+        "groupid": "org.eclipse.jetty.websocket",
+        "version": "9.4.31.v20200723",
+        "package": "jar",
+        "scope": "test",
+        "omitted": true,
+        "omitted_reason": "duplicated",
+        "child": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "artifactid": "mockito-core",
+    "groupid": "org.mockito",
+    "version": "3.5.7",
+    "package": "jar",
+    "scope": "test",
+    "omitted": false,
+    "omitted_reason": null,
+    "child": [
+     {
+      "artifactid": "byte-buddy",
+      "groupid": "net.bytebuddy",
+      "version": "1.10.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "byte-buddy-agent",
+      "groupid": "net.bytebuddy",
+      "version": "1.10.13",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     },
+     {
+      "artifactid": "objenesis",
+      "groupid": "org.objenesis",
+      "version": "3.1",
+      "package": "jar",
+      "scope": "test",
+      "omitted": false,
+      "omitted_reason": null,
+      "child": []
+     }
+    ]
+   }
+  ]
+ }
+]
