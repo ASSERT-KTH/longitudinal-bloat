@@ -1,5 +1,7 @@
 # A Longitudinal Analysis of Bloated Java Dependencies
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4835786.svg)](https://doi.org/10.5281/zenodo.4835786)
+
 This repository contains the data and script for the paper "A Longitudinal Analysis of Bloated Java Dependencies"
 
 ## Repository Structure
